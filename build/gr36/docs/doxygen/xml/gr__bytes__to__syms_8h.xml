@@ -1,0 +1,254 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="gr__bytes__to__syms_8h" kind="file">
+    <compoundname>gr_bytes_to_syms.h</compoundname>
+    <includes refid="gr__core__api_8h" local="no">gr_core_api.h</includes>
+    <includes refid="gr__sync__interpolator_8h" local="no">gr_sync_interpolator.h</includes>
+    <incdepgraph>
+      <node id="5121">
+        <label>boost/thread/mutex.hpp</label>
+      </node>
+      <node id="5123">
+        <label>boost/thread/condition_variable.hpp</label>
+      </node>
+      <node id="5105">
+        <label>boost/shared_ptr.hpp</label>
+      </node>
+      <node id="5102">
+        <label>gruel/pmt.h</label>
+        <link refid="pmt_8h"/>
+        <childnode refid="5103" relation="include">
+        </childnode>
+        <childnode refid="5104" relation="include">
+        </childnode>
+        <childnode refid="5105" relation="include">
+        </childnode>
+        <childnode refid="5106" relation="include">
+        </childnode>
+        <childnode refid="5107" relation="include">
+        </childnode>
+        <childnode refid="5108" relation="include">
+        </childnode>
+        <childnode refid="5109" relation="include">
+        </childnode>
+        <childnode refid="5112" relation="include">
+        </childnode>
+        <childnode refid="5113" relation="include">
+        </childnode>
+        <childnode refid="5114" relation="include">
+        </childnode>
+        <childnode refid="5115" relation="include">
+        </childnode>
+      </node>
+      <node id="5104">
+        <label>boost/intrusive_ptr.hpp</label>
+      </node>
+      <node id="5089">
+        <label>gr_core_api.h</label>
+        <link refid="gr__core__api_8h"/>
+        <childnode refid="5090" relation="include">
+        </childnode>
+      </node>
+      <node id="5109">
+        <label>stdint.h</label>
+        <link refid="stdint_8h"/>
+        <childnode refid="5110" relation="include">
+        </childnode>
+        <childnode refid="5111" relation="include">
+        </childnode>
+      </node>
+      <node id="5100">
+        <label>gras/hier_block.hpp</label>
+      </node>
+      <node id="5099">
+        <label>gras/top_block.hpp</label>
+      </node>
+      <node id="5118">
+        <label>boost/foreach.hpp</label>
+      </node>
+      <node id="5113">
+        <label>stdexcept</label>
+      </node>
+      <node id="5094">
+        <label>gras/block.hpp</label>
+      </node>
+      <node id="5120">
+        <label>boost/thread/thread.hpp</label>
+      </node>
+      <node id="5108">
+        <label>string</label>
+      </node>
+      <node id="5117">
+        <label>map</label>
+      </node>
+      <node id="5088">
+        <label>gr_bytes_to_syms.h</label>
+        <link refid="gr_bytes_to_syms.h"/>
+        <childnode refid="5089" relation="include">
+        </childnode>
+        <childnode refid="5091" relation="include">
+        </childnode>
+      </node>
+      <node id="5090">
+        <label>gruel/attributes.h</label>
+        <link refid="attributes_8h"/>
+      </node>
+      <node id="5110">
+        <label>limits.h</label>
+      </node>
+      <node id="5106">
+        <label>boost/any.hpp</label>
+      </node>
+      <node id="5093">
+        <label>gr_block.h</label>
+        <link refid="gr__block_8h"/>
+        <childnode refid="5089" relation="include">
+        </childnode>
+        <childnode refid="5094" relation="include">
+        </childnode>
+        <childnode refid="5095" relation="include">
+        </childnode>
+        <childnode refid="5097" relation="include">
+        </childnode>
+        <childnode refid="5101" relation="include">
+        </childnode>
+        <childnode refid="5108" relation="include">
+        </childnode>
+        <childnode refid="5116" relation="include">
+        </childnode>
+        <childnode refid="5117" relation="include">
+        </childnode>
+        <childnode refid="5118" relation="include">
+        </childnode>
+        <childnode refid="5119" relation="include">
+        </childnode>
+        <childnode refid="5124" relation="include">
+        </childnode>
+      </node>
+      <node id="5096">
+        <label>gr_runtime_types.h</label>
+        <link refid="gr__runtime__types_8h"/>
+        <childnode refid="5089" relation="include">
+        </childnode>
+        <childnode refid="5097" relation="include">
+        </childnode>
+      </node>
+      <node id="5111">
+        <label>wchar.h</label>
+      </node>
+      <node id="5115">
+        <label>gruel/pmt_sugar.h</label>
+        <link refid="pmt__sugar_8h"/>
+      </node>
+      <node id="5122">
+        <label>boost/thread/locks.hpp</label>
+      </node>
+      <node id="5092">
+        <label>gr_sync_block.h</label>
+        <link refid="gr__sync__block_8h"/>
+        <childnode refid="5093" relation="include">
+        </childnode>
+      </node>
+      <node id="5114">
+        <label>vector</label>
+      </node>
+      <node id="5095">
+        <label>gr_io_signature.h</label>
+        <link refid="gr__io__signature_8h"/>
+        <childnode refid="5089" relation="include">
+        </childnode>
+        <childnode refid="5096" relation="include">
+        </childnode>
+      </node>
+      <node id="5103">
+        <label>gruel/api.h</label>
+        <link refid="gruel_2src_2include_2gruel_2api_8h"/>
+        <childnode refid="5090" relation="include">
+        </childnode>
+      </node>
+      <node id="5112">
+        <label>iosfwd</label>
+      </node>
+      <node id="5097">
+        <label>gr_types.h</label>
+        <link refid="gr__types_8h"/>
+        <childnode refid="5098" relation="include">
+        </childnode>
+        <childnode refid="5094" relation="include">
+        </childnode>
+        <childnode refid="5099" relation="include">
+        </childnode>
+        <childnode refid="5100" relation="include">
+        </childnode>
+      </node>
+      <node id="5119">
+        <label>gruel/thread.h</label>
+        <link refid="thread_8h"/>
+        <childnode refid="5103" relation="include">
+        </childnode>
+        <childnode refid="5120" relation="include">
+        </childnode>
+        <childnode refid="5121" relation="include">
+        </childnode>
+        <childnode refid="5122" relation="include">
+        </childnode>
+        <childnode refid="5123" relation="include">
+        </childnode>
+        <childnode refid="5114" relation="include">
+        </childnode>
+      </node>
+      <node id="5116">
+        <label>deque</label>
+      </node>
+      <node id="5091">
+        <label>gr_sync_interpolator.h</label>
+        <link refid="gr__sync__interpolator_8h"/>
+        <childnode refid="5092" relation="include">
+        </childnode>
+      </node>
+      <node id="5101">
+        <label>gr_tags.h</label>
+        <link refid="gr__tags_8h"/>
+        <childnode refid="5089" relation="include">
+        </childnode>
+        <childnode refid="5102" relation="include">
+        </childnode>
+      </node>
+      <node id="5107">
+        <label>complex</label>
+      </node>
+      <node id="5124">
+        <label>gr_sptr_magic.h</label>
+        <link refid="gr__sptr__magic_8h_source"/>
+        <childnode refid="5089" relation="include">
+        </childnode>
+        <childnode refid="5105" relation="include">
+        </childnode>
+      </node>
+      <node id="5098">
+        <label>gras/element.hpp</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classgr__bytes__to__syms" prot="public">gr_bytes_to_syms</innerclass>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="gr__bytes__to__syms_8h_1a42904b924b80f8dcc9f4470a9f722a7b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="gr__core__api_8h_1a8b8937b0c61edd85ab57ce8203543248" kindref="member">GR_CORE_API</ref> <ref refid="classboost_1_1shared__ptr" kindref="compound">gr_bytes_to_syms_sptr</ref></type>
+        <definition>GR_CORE_API gr_bytes_to_syms_sptr gr_make_bytes_to_syms</definition>
+        <argsstring>()</argsstring>
+        <name>gr_make_bytes_to_syms</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_bytes_to_syms.h" line="31"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_bytes_to_syms.h"/>
+  </compounddef>
+</doxygen>

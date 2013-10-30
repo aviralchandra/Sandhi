@@ -1,0 +1,1 @@
+/usr/bin/c++   -O3 -DNDEBUG    CMakeFiles/basic_test.dir/basic_test.cpp.o  -o basic_test -rdynamic -lboost_unit_test_framework-mt -lboost_serialization-mt ../lib/libpmc.so.0.0.0 -lboost_serialization-mt -Wl,-rpath,/home/aviral/GNU-Niyantran/build/PMC/lib 

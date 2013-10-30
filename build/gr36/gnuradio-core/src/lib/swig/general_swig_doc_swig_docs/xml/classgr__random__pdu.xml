@@ -1,0 +1,194 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="classgr__random__pdu" kind="class" prot="public">
+    <compoundname>gr_random_pdu</compoundname>
+    <includes refid="gr__random__pdu_8h" local="no">gr_random_pdu.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr__random__pdu_1a29d2650017dce6b999f3c67a953d8d93" prot="private" static="no" mutable="no">
+        <type>boost::mt19937</type>
+        <definition>boost::mt19937 gr_random_pdu::rng</definition>
+        <argsstring></argsstring>
+        <name>rng</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_random_pdu.h" line="51" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_random_pdu.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr__random__pdu_1a60b828f05dab326d02b1da948bedf630" prot="private" static="no" mutable="no">
+        <type>boost::uniform_int</type>
+        <definition>boost::uniform_int gr_random_pdu::urange</definition>
+        <argsstring></argsstring>
+        <name>urange</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_random_pdu.h" line="52" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_random_pdu.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr__random__pdu_1abda85c6db5f428999c4a7f67eafc3761" prot="private" static="no" mutable="no">
+        <type>boost::uniform_int</type>
+        <definition>boost::uniform_int gr_random_pdu::brange</definition>
+        <argsstring></argsstring>
+        <name>brange</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_random_pdu.h" line="53" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_random_pdu.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr__random__pdu_1aaaa31f8ce0834c2ffa2342aedb924a64" prot="private" static="no" mutable="no">
+        <type>boost::variate_generator&lt; boost::mt19937, boost::uniform_int&lt;&gt; &gt;</type>
+        <definition>boost::variate_generator&lt; boost::mt19937, boost::uniform_int&lt;&gt; &gt; gr_random_pdu::rvar</definition>
+        <argsstring></argsstring>
+        <name>rvar</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_random_pdu.h" line="54" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_random_pdu.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr__random__pdu_1aff6f1eb8eaabf40fcc0a8c310f74aa93" prot="private" static="no" mutable="no">
+        <type>boost::variate_generator&lt; boost::mt19937, boost::uniform_int&lt;&gt; &gt;</type>
+        <definition>boost::variate_generator&lt; boost::mt19937, boost::uniform_int&lt;&gt; &gt; gr_random_pdu::bvar</definition>
+        <argsstring></argsstring>
+        <name>bvar</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_random_pdu.h" line="55" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_random_pdu.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="classgr__random__pdu_1a62c1addbc15e9323893e66b3d7f1138f" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend __GR_ATTR_IMPORT <ref refid="gr__random__pdu_8h_1abfebbec3fa4008eacd0c1b241d710b01" kindref="member">gr_random_pdu_sptr</ref></type>
+        <definition>__GR_ATTR_IMPORT gr_random_pdu_sptr gr_make_random_pdu</definition>
+        <argsstring>(int mintime, int maxtime)</argsstring>
+        <name>gr_make_random_pdu</name>
+        <param>
+          <type>int</type>
+          <declname>mintime</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>maxtime</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_random_pdu.h" line="47"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classgr__random__pdu_1a01288c3fdad981be0d9b64cc8bf174ec" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr_random_pdu::output_random</definition>
+        <argsstring>()</argsstring>
+        <name>output_random</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_random_pdu.h" line="49"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr__random__pdu_1ae4f1bfc026fdcc9348b0dba2c58f9607" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr_random_pdu::gr_random_pdu</definition>
+        <argsstring>(int, int)</argsstring>
+        <name>gr_random_pdu</name>
+        <param>
+          <type>int</type>
+        </param>
+        <param>
+          <type>int</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_random_pdu.h" line="58"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr__random__pdu_1a45bc0ab04951a03e0e0e4c07f9d0a73f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool gr_random_pdu::start</definition>
+        <argsstring>()</argsstring>
+        <name>start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_random_pdu.h" line="59"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr__random__pdu_1a8ef25a83b21fefabdad359031926ac8a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr_random_pdu::generate_pdu</definition>
+        <argsstring>(pmt::pmt_t msg)</argsstring>
+        <name>generate_pdu</name>
+        <param>
+          <type>pmt::pmt_t</type>
+          <declname>msg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_random_pdu.h" line="60" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_random_pdu.h" bodystart="60" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr__random__pdu_1aded862a4250b6e5959b432040e70cded" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr_random_pdu::generate_pdu</definition>
+        <argsstring>()</argsstring>
+        <name>generate_pdu</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_random_pdu.h" line="61" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_random_pdu.h" bodystart="61" bodyend="61"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Send message at defined interval. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_random_pdu.h" line="44" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_random_pdu.h" bodystart="43" bodyend="62"/>
+    <listofallmembers>
+      <member refid="classgr__random__pdu_1abda85c6db5f428999c4a7f67eafc3761" prot="private" virt="non-virtual"><scope>gr_random_pdu</scope><name>brange</name></member>
+      <member refid="classgr__random__pdu_1aff6f1eb8eaabf40fcc0a8c310f74aa93" prot="private" virt="non-virtual"><scope>gr_random_pdu</scope><name>bvar</name></member>
+      <member refid="classgr__random__pdu_1a8ef25a83b21fefabdad359031926ac8a" prot="public" virt="non-virtual"><scope>gr_random_pdu</scope><name>generate_pdu</name></member>
+      <member refid="classgr__random__pdu_1aded862a4250b6e5959b432040e70cded" prot="public" virt="non-virtual"><scope>gr_random_pdu</scope><name>generate_pdu</name></member>
+      <member refid="classgr__random__pdu_1a62c1addbc15e9323893e66b3d7f1138f" prot="private" virt="non-virtual"><scope>gr_random_pdu</scope><name>gr_make_random_pdu</name></member>
+      <member refid="classgr__random__pdu_1ae4f1bfc026fdcc9348b0dba2c58f9607" prot="public" virt="non-virtual"><scope>gr_random_pdu</scope><name>gr_random_pdu</name></member>
+      <member refid="classgr__random__pdu_1a01288c3fdad981be0d9b64cc8bf174ec" prot="private" virt="non-virtual"><scope>gr_random_pdu</scope><name>output_random</name></member>
+      <member refid="classgr__random__pdu_1a29d2650017dce6b999f3c67a953d8d93" prot="private" virt="non-virtual"><scope>gr_random_pdu</scope><name>rng</name></member>
+      <member refid="classgr__random__pdu_1aaaa31f8ce0834c2ffa2342aedb924a64" prot="private" virt="non-virtual"><scope>gr_random_pdu</scope><name>rvar</name></member>
+      <member refid="classgr__random__pdu_1a45bc0ab04951a03e0e0e4c07f9d0a73f" prot="public" virt="non-virtual"><scope>gr_random_pdu</scope><name>start</name></member>
+      <member refid="classgr__random__pdu_1a60b828f05dab326d02b1da948bedf630" prot="private" virt="non-virtual"><scope>gr_random_pdu</scope><name>urange</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

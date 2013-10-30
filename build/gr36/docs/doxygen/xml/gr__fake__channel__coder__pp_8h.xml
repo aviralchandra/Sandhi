@@ -1,0 +1,278 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="gr__fake__channel__coder__pp_8h" kind="file">
+    <compoundname>gr_fake_channel_coder_pp.h</compoundname>
+    <includes refid="gr__core__api_8h" local="no">gr_core_api.h</includes>
+    <includes refid="gr__sync__block_8h" local="no">gr_sync_block.h</includes>
+    <incdepgraph>
+      <node id="6650">
+        <label>boost/thread/mutex.hpp</label>
+      </node>
+      <node id="6652">
+        <label>boost/thread/condition_variable.hpp</label>
+      </node>
+      <node id="6634">
+        <label>boost/shared_ptr.hpp</label>
+      </node>
+      <node id="6631">
+        <label>gruel/pmt.h</label>
+        <link refid="pmt_8h"/>
+        <childnode refid="6632" relation="include">
+        </childnode>
+        <childnode refid="6633" relation="include">
+        </childnode>
+        <childnode refid="6634" relation="include">
+        </childnode>
+        <childnode refid="6635" relation="include">
+        </childnode>
+        <childnode refid="6636" relation="include">
+        </childnode>
+        <childnode refid="6637" relation="include">
+        </childnode>
+        <childnode refid="6638" relation="include">
+        </childnode>
+        <childnode refid="6641" relation="include">
+        </childnode>
+        <childnode refid="6642" relation="include">
+        </childnode>
+        <childnode refid="6643" relation="include">
+        </childnode>
+        <childnode refid="6644" relation="include">
+        </childnode>
+      </node>
+      <node id="6633">
+        <label>boost/intrusive_ptr.hpp</label>
+      </node>
+      <node id="6619">
+        <label>gr_core_api.h</label>
+        <link refid="gr__core__api_8h"/>
+        <childnode refid="6620" relation="include">
+        </childnode>
+      </node>
+      <node id="6638">
+        <label>stdint.h</label>
+        <link refid="stdint_8h"/>
+        <childnode refid="6639" relation="include">
+        </childnode>
+        <childnode refid="6640" relation="include">
+        </childnode>
+      </node>
+      <node id="6629">
+        <label>gras/hier_block.hpp</label>
+      </node>
+      <node id="6628">
+        <label>gras/top_block.hpp</label>
+      </node>
+      <node id="6647">
+        <label>boost/foreach.hpp</label>
+      </node>
+      <node id="6642">
+        <label>stdexcept</label>
+      </node>
+      <node id="6623">
+        <label>gras/block.hpp</label>
+      </node>
+      <node id="6649">
+        <label>boost/thread/thread.hpp</label>
+      </node>
+      <node id="6637">
+        <label>string</label>
+      </node>
+      <node id="6646">
+        <label>map</label>
+      </node>
+      <node id="6620">
+        <label>gruel/attributes.h</label>
+        <link refid="attributes_8h"/>
+      </node>
+      <node id="6639">
+        <label>limits.h</label>
+      </node>
+      <node id="6635">
+        <label>boost/any.hpp</label>
+      </node>
+      <node id="6622">
+        <label>gr_block.h</label>
+        <link refid="gr__block_8h"/>
+        <childnode refid="6619" relation="include">
+        </childnode>
+        <childnode refid="6623" relation="include">
+        </childnode>
+        <childnode refid="6624" relation="include">
+        </childnode>
+        <childnode refid="6626" relation="include">
+        </childnode>
+        <childnode refid="6630" relation="include">
+        </childnode>
+        <childnode refid="6637" relation="include">
+        </childnode>
+        <childnode refid="6645" relation="include">
+        </childnode>
+        <childnode refid="6646" relation="include">
+        </childnode>
+        <childnode refid="6647" relation="include">
+        </childnode>
+        <childnode refid="6648" relation="include">
+        </childnode>
+        <childnode refid="6653" relation="include">
+        </childnode>
+      </node>
+      <node id="6625">
+        <label>gr_runtime_types.h</label>
+        <link refid="gr__runtime__types_8h"/>
+        <childnode refid="6619" relation="include">
+        </childnode>
+        <childnode refid="6626" relation="include">
+        </childnode>
+      </node>
+      <node id="6640">
+        <label>wchar.h</label>
+      </node>
+      <node id="6644">
+        <label>gruel/pmt_sugar.h</label>
+        <link refid="pmt__sugar_8h"/>
+      </node>
+      <node id="6651">
+        <label>boost/thread/locks.hpp</label>
+      </node>
+      <node id="6621">
+        <label>gr_sync_block.h</label>
+        <link refid="gr__sync__block_8h"/>
+        <childnode refid="6622" relation="include">
+        </childnode>
+      </node>
+      <node id="6643">
+        <label>vector</label>
+      </node>
+      <node id="6624">
+        <label>gr_io_signature.h</label>
+        <link refid="gr__io__signature_8h"/>
+        <childnode refid="6619" relation="include">
+        </childnode>
+        <childnode refid="6625" relation="include">
+        </childnode>
+      </node>
+      <node id="6618">
+        <label>gr_fake_channel_coder_pp.h</label>
+        <link refid="gr_fake_channel_coder_pp.h"/>
+        <childnode refid="6619" relation="include">
+        </childnode>
+        <childnode refid="6621" relation="include">
+        </childnode>
+      </node>
+      <node id="6632">
+        <label>gruel/api.h</label>
+        <link refid="gruel_2src_2include_2gruel_2api_8h"/>
+        <childnode refid="6620" relation="include">
+        </childnode>
+      </node>
+      <node id="6641">
+        <label>iosfwd</label>
+      </node>
+      <node id="6626">
+        <label>gr_types.h</label>
+        <link refid="gr__types_8h"/>
+        <childnode refid="6627" relation="include">
+        </childnode>
+        <childnode refid="6623" relation="include">
+        </childnode>
+        <childnode refid="6628" relation="include">
+        </childnode>
+        <childnode refid="6629" relation="include">
+        </childnode>
+      </node>
+      <node id="6648">
+        <label>gruel/thread.h</label>
+        <link refid="thread_8h"/>
+        <childnode refid="6632" relation="include">
+        </childnode>
+        <childnode refid="6649" relation="include">
+        </childnode>
+        <childnode refid="6650" relation="include">
+        </childnode>
+        <childnode refid="6651" relation="include">
+        </childnode>
+        <childnode refid="6652" relation="include">
+        </childnode>
+        <childnode refid="6643" relation="include">
+        </childnode>
+      </node>
+      <node id="6645">
+        <label>deque</label>
+      </node>
+      <node id="6630">
+        <label>gr_tags.h</label>
+        <link refid="gr__tags_8h"/>
+        <childnode refid="6619" relation="include">
+        </childnode>
+        <childnode refid="6631" relation="include">
+        </childnode>
+      </node>
+      <node id="6636">
+        <label>complex</label>
+      </node>
+      <node id="6653">
+        <label>gr_sptr_magic.h</label>
+        <link refid="gr__sptr__magic_8h_source"/>
+        <childnode refid="6619" relation="include">
+        </childnode>
+        <childnode refid="6634" relation="include">
+        </childnode>
+      </node>
+      <node id="6627">
+        <label>gras/element.hpp</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classgr__fake__channel__encoder__pp" prot="public">gr_fake_channel_encoder_pp</innerclass>
+    <innerclass refid="classgr__fake__channel__decoder__pp" prot="public">gr_fake_channel_decoder_pp</innerclass>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="gr__fake__channel__coder__pp_8h_1a227e933a8f5db288a2c199e15adaa66c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="gr__core__api_8h_1a8b8937b0c61edd85ab57ce8203543248" kindref="member">GR_CORE_API</ref> <ref refid="classboost_1_1shared__ptr" kindref="compound">gr_fake_channel_encoder_pp_sptr</ref></type>
+        <definition>GR_CORE_API gr_fake_channel_encoder_pp_sptr gr_make_fake_channel_encoder_pp</definition>
+        <argsstring>(int input_vlen, int output_vlen)</argsstring>
+        <name>gr_make_fake_channel_encoder_pp</name>
+        <param>
+          <type>int</type>
+          <declname>input_vlen</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>output_vlen</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_fake_channel_coder_pp.h" line="33"/>
+      </memberdef>
+      <memberdef kind="function" id="gr__fake__channel__coder__pp_8h_1af6d0acc4010fc06d9f69aee5ccaa05ad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="gr__core__api_8h_1a8b8937b0c61edd85ab57ce8203543248" kindref="member">GR_CORE_API</ref> <ref refid="classboost_1_1shared__ptr" kindref="compound">gr_fake_channel_decoder_pp_sptr</ref></type>
+        <definition>GR_CORE_API gr_fake_channel_decoder_pp_sptr gr_make_fake_channel_decoder_pp</definition>
+        <argsstring>(int input_vlen, int output_vlen)</argsstring>
+        <name>gr_make_fake_channel_decoder_pp</name>
+        <param>
+          <type>int</type>
+          <declname>input_vlen</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>output_vlen</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_fake_channel_coder_pp.h" line="65"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_fake_channel_coder_pp.h"/>
+  </compounddef>
+</doxygen>

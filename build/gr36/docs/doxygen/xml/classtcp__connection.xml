@@ -1,0 +1,346 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="classtcp__connection" kind="class" prot="public">
+    <compoundname>tcp_connection</compoundname>
+    <includes refid="gr__socket__pdu_8h" local="no">gr_socket_pdu.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classtcp__connection_1af65a4d4a0e58102041dd699d15a4b338" prot="public" static="no">
+        <type><ref refid="classboost_1_1shared__ptr" kindref="compound">boost::shared_ptr</ref>&lt; <ref refid="classtcp__connection" kindref="compound">tcp_connection</ref> &gt;</type>
+        <definition>typedef boost::shared_ptr&lt;tcp_connection&gt; tcp_connection::pointer</definition>
+        <argsstring></argsstring>
+        <name>pointer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/io/gr_socket_pdu.h" line="44" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/io/gr_socket_pdu.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classtcp__connection_1af0a75a06bb215701c210cf66a760d510" prot="public" static="no" mutable="no">
+        <type><ref refid="classgr__socket__pdu" kindref="compound">gr_socket_pdu</ref> *</type>
+        <definition>gr_socket_pdu* tcp_connection::d_block</definition>
+        <argsstring></argsstring>
+        <name>d_block</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/io/gr_socket_pdu.h" line="45" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/io/gr_socket_pdu.h" bodystart="45" bodyend="-1"/>
+        <referencedby refid="classtcp__connection_1a85cf674f79b3a3c0c5ea1c8c1a8e5147" compoundref="gr__socket__pdu_8h" startline="58" endline="70">start</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classtcp__connection_1a265726df6c2749921cd0116f71f989cb" prot="public" static="no" mutable="no">
+        <type>boost::array&lt; char, 10000 &gt;</type>
+        <definition>boost::array&lt;char, 10000&gt; tcp_connection::buf</definition>
+        <argsstring></argsstring>
+        <name>buf</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/io/gr_socket_pdu.h" line="46" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/io/gr_socket_pdu.h" bodystart="46" bodyend="-1"/>
+        <referencedby refid="classtcp__connection_1a85cf674f79b3a3c0c5ea1c8c1a8e5147" compoundref="gr__socket__pdu_8h" startline="58" endline="70">start</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classtcp__connection_1a971ec3bfdfa625e5ff1543bddbc50eda" prot="private" static="no" mutable="no">
+        <type>boost::asio::ip::tcp::socket</type>
+        <definition>boost::asio::ip::tcp::socket tcp_connection::socket_</definition>
+        <argsstring></argsstring>
+        <name>socket_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/io/gr_socket_pdu.h" line="99" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/io/gr_socket_pdu.h" bodystart="99" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtcp__connection_1a2d6dba408869c8b2c66febda352c7a74" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string tcp_connection::message_</definition>
+        <argsstring></argsstring>
+        <name>message_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/io/gr_socket_pdu.h" line="100" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/io/gr_socket_pdu.h" bodystart="100" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classtcp__connection_1a5ddd316caf7f95163acbed9cff76c02e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classtcp__connection_1af65a4d4a0e58102041dd699d15a4b338" kindref="member">pointer</ref></type>
+        <definition>static pointer tcp_connection::create</definition>
+        <argsstring>(boost::asio::io_service &amp;io_service)</argsstring>
+        <name>create</name>
+        <param>
+          <type>boost::asio::io_service &amp;</type>
+          <declname>io_service</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/io/gr_socket_pdu.h" line="49" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/io/gr_socket_pdu.h" bodystart="48" bodyend="51"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classtcp__connection_1abb671c73ff2c7f7b96e67f572fb3ea9e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boost::asio::ip::tcp::socket &amp;</type>
+        <definition>boost::asio::ip::tcp::socket&amp; tcp_connection::socket</definition>
+        <argsstring>()</argsstring>
+        <name>socket</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/io/gr_socket_pdu.h" line="54" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/io/gr_socket_pdu.h" bodystart="53" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="classtcp__connection_1a85cf674f79b3a3c0c5ea1c8c1a8e5147" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="volk_8tmpl_8h_1a2b104da38b6f0a28d721ed74346ef298" kindref="member">void</ref></type>
+        <definition>void tcp_connection::start</definition>
+        <argsstring>(gr_socket_pdu *parent)</argsstring>
+        <name>start</name>
+        <param>
+          <type><ref refid="classgr__socket__pdu" kindref="compound">gr_socket_pdu</ref> *</type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/io/gr_socket_pdu.h" line="59" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/io/gr_socket_pdu.h" bodystart="58" bodyend="70"/>
+        <references refid="classtcp__connection_1a265726df6c2749921cd0116f71f989cb" compoundref="gr__socket__pdu_8h" startline="46">buf</references>
+        <references refid="classtcp__connection_1af0a75a06bb215701c210cf66a760d510" compoundref="gr__socket__pdu_8h" startline="45">d_block</references>
+      </memberdef>
+      <memberdef kind="function" id="classtcp__connection_1aa5659f9786a8b91457154a5a30f1ce80" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="volk_8tmpl_8h_1a2b104da38b6f0a28d721ed74346ef298" kindref="member">void</ref></type>
+        <definition>void tcp_connection::send</definition>
+        <argsstring>(pmt::pmt_t vector)</argsstring>
+        <name>send</name>
+        <param>
+          <type><ref refid="namespacepmt_1ab4b70d9293452eb74dd07c670e6811fa" kindref="member">pmt::pmt_t</ref></type>
+          <declname>vector</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/io/gr_socket_pdu.h" line="71" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/io/gr_socket_pdu.h" bodystart="71" bodyend="80"/>
+        <references refid="namespacepmt_1a76684f2c30f1f0134f526dababa3aa89">pmt::pmt_length</references>
+        <references refid="namespacepmt_1a48cdc068247f508fb29620e88517d4fc">pmt::pmt_uniform_vector_elements</references>
+      </memberdef>
+      <memberdef kind="function" id="classtcp__connection_1a1d97f53dcfe90a9edf5d9970c88e0e1b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>tcp_connection::~tcp_connection</definition>
+        <argsstring>()</argsstring>
+        <name>~tcp_connection</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/io/gr_socket_pdu.h" line="82" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/io/gr_socket_pdu.h" bodystart="82" bodyend="84"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classtcp__connection_1a444a87e6a58d69843acfd248f8deab58" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>tcp_connection::tcp_connection</definition>
+        <argsstring>(boost::asio::io_service &amp;io_service)</argsstring>
+        <name>tcp_connection</name>
+        <param>
+          <type>boost::asio::io_service &amp;</type>
+          <declname>io_service</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/io/gr_socket_pdu.h" line="89" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/io/gr_socket_pdu.h" bodystart="87" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="function" id="classtcp__connection_1af6455183f46508bc0ef6256032eda1e3" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="volk_8tmpl_8h_1a2b104da38b6f0a28d721ed74346ef298" kindref="member">void</ref></type>
+        <definition>void tcp_connection::handle_read</definition>
+        <argsstring>(const boost::system::error_code &amp;error, size_t bytes_transferred)</argsstring>
+        <name>handle_read</name>
+        <param>
+          <type>const boost::system::error_code &amp;</type>
+          <declname>error</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>bytes_transferred</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/io/gr_socket_pdu.h" line="92"/>
+      </memberdef>
+      <memberdef kind="function" id="classtcp__connection_1a67e479b2e8dda66623e91fb9d627ced7" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="volk_8tmpl_8h_1a2b104da38b6f0a28d721ed74346ef298" kindref="member">void</ref></type>
+        <definition>void tcp_connection::handle_write</definition>
+        <argsstring>(const boost::system::error_code &amp;, size_t)</argsstring>
+        <name>handle_write</name>
+        <param>
+          <type>const boost::system::error_code &amp;</type>
+        </param>
+        <param>
+          <type>size_t</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/io/gr_socket_pdu.h" line="96" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/io/gr_socket_pdu.h" bodystart="94" bodyend="97"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="6934">
+        <label>T</label>
+      </node>
+      <node id="6924">
+        <label>gr_sync_block</label>
+        <link refid="structgr__sync__block"/>
+        <childnode refid="6925" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6925">
+        <label>gr_block</label>
+        <link refid="structgr__block"/>
+        <childnode refid="6926" relation="usage">
+          <edgelabel>d_msg_handlers</edgelabel>
+        </childnode>
+        <childnode refid="6927" relation="usage">
+          <edgelabel>_out_sig</edgelabel>
+          <edgelabel>_in_sig</edgelabel>
+        </childnode>
+        <childnode refid="6929" relation="usage">
+          <edgelabel>d_symbol_alias</edgelabel>
+          <edgelabel>_name</edgelabel>
+          <edgelabel>d_symbol_name</edgelabel>
+        </childnode>
+        <childnode refid="6931" relation="usage">
+          <edgelabel>d_affinity</edgelabel>
+        </childnode>
+        <childnode refid="6932" relation="usage">
+          <edgelabel>msg_queue</edgelabel>
+        </childnode>
+      </node>
+      <node id="6926">
+        <label>std::map&lt; pmt::pmt_t, msg_handler_t, pmt::pmt_comperator &gt;</label>
+      </node>
+      <node id="6923">
+        <label>gr_stream_pdu_base</label>
+        <link refid="classgr__stream__pdu__base"/>
+        <childnode refid="6924" relation="public-inheritance">
+        </childnode>
+        <childnode refid="6935" relation="usage">
+          <edgelabel>d_rxbuf</edgelabel>
+        </childnode>
+        <childnode refid="6936" relation="usage">
+          <edgelabel>d_thread</edgelabel>
+        </childnode>
+      </node>
+      <node id="6927">
+        <label>boost::shared_ptr&lt; gr_io_signature &gt;</label>
+        <link refid="classboost_1_1shared__ptr"/>
+        <childnode refid="6928" relation="usage">
+          <edgelabel>px</edgelabel>
+        </childnode>
+      </node>
+      <node id="6930">
+        <label>std::basic_string&lt; char &gt;</label>
+      </node>
+      <node id="6922">
+        <label>gr_socket_pdu</label>
+        <link refid="classgr__socket__pdu"/>
+        <childnode refid="6923" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6921">
+        <label>tcp_connection</label>
+        <link refid="classtcp__connection"/>
+        <childnode refid="6922" relation="usage">
+          <edgelabel>d_block</edgelabel>
+        </childnode>
+      </node>
+      <node id="6936">
+        <label>boost::shared_ptr&lt; boost::thread &gt;</label>
+        <link refid="classboost_1_1shared__ptr"/>
+      </node>
+      <node id="6928">
+        <label>gr_io_signature</label>
+        <link refid="classgr__io__signature"/>
+      </node>
+      <node id="6935">
+        <label>std::vector&lt; uint8_t &gt;</label>
+      </node>
+      <node id="6931">
+        <label>std::vector&lt; int &gt;</label>
+      </node>
+      <node id="6932">
+        <label>std::map&lt; pmt::pmt_t, msg_queue_t, pmt::pmt_comperator &gt;</label>
+        <childnode refid="6933" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="6933">
+        <label>std::deque&lt; T &gt;</label>
+        <childnode refid="6934" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="6929">
+        <label>std::string</label>
+        <childnode refid="6930" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/io/gr_socket_pdu.h" line="42" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/io/gr_socket_pdu.h" bodystart="40" bodyend="101"/>
+    <listofallmembers>
+      <member refid="classtcp__connection_1a265726df6c2749921cd0116f71f989cb" prot="public" virt="non-virtual"><scope>tcp_connection</scope><name>buf</name></member>
+      <member refid="classtcp__connection_1a5ddd316caf7f95163acbed9cff76c02e" prot="public" virt="non-virtual"><scope>tcp_connection</scope><name>create</name></member>
+      <member refid="classtcp__connection_1af0a75a06bb215701c210cf66a760d510" prot="public" virt="non-virtual"><scope>tcp_connection</scope><name>d_block</name></member>
+      <member refid="classtcp__connection_1af6455183f46508bc0ef6256032eda1e3" prot="private" virt="non-virtual"><scope>tcp_connection</scope><name>handle_read</name></member>
+      <member refid="classtcp__connection_1a67e479b2e8dda66623e91fb9d627ced7" prot="private" virt="non-virtual"><scope>tcp_connection</scope><name>handle_write</name></member>
+      <member refid="classtcp__connection_1a2d6dba408869c8b2c66febda352c7a74" prot="private" virt="non-virtual"><scope>tcp_connection</scope><name>message_</name></member>
+      <member refid="classtcp__connection_1af65a4d4a0e58102041dd699d15a4b338" prot="public" virt="non-virtual"><scope>tcp_connection</scope><name>pointer</name></member>
+      <member refid="classtcp__connection_1aa5659f9786a8b91457154a5a30f1ce80" prot="public" virt="non-virtual"><scope>tcp_connection</scope><name>send</name></member>
+      <member refid="classtcp__connection_1abb671c73ff2c7f7b96e67f572fb3ea9e" prot="public" virt="non-virtual"><scope>tcp_connection</scope><name>socket</name></member>
+      <member refid="classtcp__connection_1a971ec3bfdfa625e5ff1543bddbc50eda" prot="private" virt="non-virtual"><scope>tcp_connection</scope><name>socket_</name></member>
+      <member refid="classtcp__connection_1a85cf674f79b3a3c0c5ea1c8c1a8e5147" prot="public" virt="non-virtual"><scope>tcp_connection</scope><name>start</name></member>
+      <member refid="classtcp__connection_1a444a87e6a58d69843acfd248f8deab58" prot="private" virt="non-virtual"><scope>tcp_connection</scope><name>tcp_connection</name></member>
+      <member refid="classtcp__connection_1a1d97f53dcfe90a9edf5d9970c88e0e1b" prot="public" virt="non-virtual"><scope>tcp_connection</scope><name>~tcp_connection</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

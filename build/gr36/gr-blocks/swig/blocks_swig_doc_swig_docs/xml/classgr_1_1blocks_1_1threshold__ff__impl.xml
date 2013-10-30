@@ -1,0 +1,223 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="classgr_1_1blocks_1_1threshold__ff__impl" kind="class" prot="public">
+    <compoundname>gr::blocks::threshold_ff_impl</compoundname>
+    <includes refid="threshold__ff__impl_8h" local="no">threshold_ff_impl.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1blocks_1_1threshold__ff__impl_1a98b5584e9bd2f973981f843fe5c800b6" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::blocks::threshold_ff_impl::d_lo</definition>
+        <argsstring></argsstring>
+        <name>d_lo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/threshold_ff_impl.h" line="34" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/threshold_ff_impl.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1blocks_1_1threshold__ff__impl_1a5d291988bf837bd6edcb2422b81dc705" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::blocks::threshold_ff_impl::d_hi</definition>
+        <argsstring></argsstring>
+        <name>d_hi</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/threshold_ff_impl.h" line="34" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/threshold_ff_impl.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1blocks_1_1threshold__ff__impl_1a7b180903bae974097d070916dd435a60" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::blocks::threshold_ff_impl::d_last_state</definition>
+        <argsstring></argsstring>
+        <name>d_last_state</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/threshold_ff_impl.h" line="35" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/threshold_ff_impl.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1blocks_1_1threshold__ff__impl_1a5d68c70d4214dbd6b0e22b25dd54a938" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::blocks::threshold_ff_impl::threshold_ff_impl</definition>
+        <argsstring>(float lo, float hi, float initial_state=0)</argsstring>
+        <name>threshold_ff_impl</name>
+        <param>
+          <type>float</type>
+          <declname>lo</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>hi</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>initial_state</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/threshold_ff_impl.h" line="39"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1blocks_1_1threshold__ff__impl_1a10fa7b06576680164c8cc3ac5fd424e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::blocks::threshold_ff_impl::~threshold_ff_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~threshold_ff_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/threshold_ff_impl.h" line="40"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1blocks_1_1threshold__ff__impl_1a8ac0e8ef80f66c8e8deff8c502d3daa1" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float gr::blocks::threshold_ff_impl::lo</definition>
+        <argsstring>() const </argsstring>
+        <name>lo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/threshold_ff_impl.h" line="42" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/threshold_ff_impl.h" bodystart="42" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1blocks_1_1threshold__ff__impl_1ae2bde795e45827ebdb7ac2ecc9dab2f6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::blocks::threshold_ff_impl::set_lo</definition>
+        <argsstring>(float lo)</argsstring>
+        <name>set_lo</name>
+        <param>
+          <type>float</type>
+          <declname>lo</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/threshold_ff_impl.h" line="43" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/threshold_ff_impl.h" bodystart="43" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1blocks_1_1threshold__ff__impl_1a5c94a5e2706627cfa506f4a3661df58e" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float gr::blocks::threshold_ff_impl::hi</definition>
+        <argsstring>() const </argsstring>
+        <name>hi</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/threshold_ff_impl.h" line="44" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/threshold_ff_impl.h" bodystart="44" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1blocks_1_1threshold__ff__impl_1a4dd7fa9e0f69235466bbba0aa4b2c871" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::blocks::threshold_ff_impl::set_hi</definition>
+        <argsstring>(float hi)</argsstring>
+        <name>set_hi</name>
+        <param>
+          <type>float</type>
+          <declname>hi</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/threshold_ff_impl.h" line="45" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/threshold_ff_impl.h" bodystart="45" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1blocks_1_1threshold__ff__impl_1aac7dfb99a7c811f9c397e2345c07b37f" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float gr::blocks::threshold_ff_impl::last_state</definition>
+        <argsstring>() const </argsstring>
+        <name>last_state</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/threshold_ff_impl.h" line="46" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/threshold_ff_impl.h" bodystart="46" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1blocks_1_1threshold__ff__impl_1a1ee2a12a5254ea0d15cecc66792af211" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::blocks::threshold_ff_impl::set_last_state</definition>
+        <argsstring>(float last_state)</argsstring>
+        <name>set_last_state</name>
+        <param>
+          <type>float</type>
+          <declname>last_state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/threshold_ff_impl.h" line="47" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/threshold_ff_impl.h" bodystart="47" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1blocks_1_1threshold__ff__impl_1aed803556d3c9c47acf86f1c3c21f615b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::blocks::threshold_ff_impl::work</definition>
+        <argsstring>(int noutput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/threshold_ff_impl.h" line="51"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/threshold_ff_impl.h" line="32" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/threshold_ff_impl.h" bodystart="31" bodyend="52"/>
+    <listofallmembers>
+      <member refid="classgr_1_1blocks_1_1threshold__ff__impl_1a5d291988bf837bd6edcb2422b81dc705" prot="private" virt="non-virtual"><scope>gr::blocks::threshold_ff_impl</scope><name>d_hi</name></member>
+      <member refid="classgr_1_1blocks_1_1threshold__ff__impl_1a7b180903bae974097d070916dd435a60" prot="private" virt="non-virtual"><scope>gr::blocks::threshold_ff_impl</scope><name>d_last_state</name></member>
+      <member refid="classgr_1_1blocks_1_1threshold__ff__impl_1a98b5584e9bd2f973981f843fe5c800b6" prot="private" virt="non-virtual"><scope>gr::blocks::threshold_ff_impl</scope><name>d_lo</name></member>
+      <member refid="classgr_1_1blocks_1_1threshold__ff__impl_1a5c94a5e2706627cfa506f4a3661df58e" prot="public" virt="non-virtual"><scope>gr::blocks::threshold_ff_impl</scope><name>hi</name></member>
+      <member refid="classgr_1_1blocks_1_1threshold__ff__impl_1aac7dfb99a7c811f9c397e2345c07b37f" prot="public" virt="non-virtual"><scope>gr::blocks::threshold_ff_impl</scope><name>last_state</name></member>
+      <member refid="classgr_1_1blocks_1_1threshold__ff__impl_1a8ac0e8ef80f66c8e8deff8c502d3daa1" prot="public" virt="non-virtual"><scope>gr::blocks::threshold_ff_impl</scope><name>lo</name></member>
+      <member refid="classgr_1_1blocks_1_1threshold__ff__impl_1a4dd7fa9e0f69235466bbba0aa4b2c871" prot="public" virt="non-virtual"><scope>gr::blocks::threshold_ff_impl</scope><name>set_hi</name></member>
+      <member refid="classgr_1_1blocks_1_1threshold__ff__impl_1a1ee2a12a5254ea0d15cecc66792af211" prot="public" virt="non-virtual"><scope>gr::blocks::threshold_ff_impl</scope><name>set_last_state</name></member>
+      <member refid="classgr_1_1blocks_1_1threshold__ff__impl_1ae2bde795e45827ebdb7ac2ecc9dab2f6" prot="public" virt="non-virtual"><scope>gr::blocks::threshold_ff_impl</scope><name>set_lo</name></member>
+      <member refid="classgr_1_1blocks_1_1threshold__ff__impl_1a5d68c70d4214dbd6b0e22b25dd54a938" prot="public" virt="non-virtual"><scope>gr::blocks::threshold_ff_impl</scope><name>threshold_ff_impl</name></member>
+      <member refid="classgr_1_1blocks_1_1threshold__ff__impl_1aed803556d3c9c47acf86f1c3c21f615b" prot="public" virt="non-virtual"><scope>gr::blocks::threshold_ff_impl</scope><name>work</name></member>
+      <member refid="classgr_1_1blocks_1_1threshold__ff__impl_1a10fa7b06576680164c8cc3ac5fd424e2" prot="public" virt="non-virtual"><scope>gr::blocks::threshold_ff_impl</scope><name>~threshold_ff_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

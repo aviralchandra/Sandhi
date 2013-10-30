@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="classgr__feval__p" kind="class" prot="public">
+    <compoundname>gr_feval_p</compoundname>
+    <includes refid="gr__feval_8h" local="no">gr_feval.h</includes>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classgr__feval__p_1a363ae23e452e62e5b9fd97a2a0d0bf56" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="volk_8tmpl_8h_1a2b104da38b6f0a28d721ed74346ef298" kindref="member">void</ref></type>
+        <definition>virtual void gr_feval_p::eval</definition>
+        <argsstring>(pmt::pmt_t x)</argsstring>
+        <name>eval</name>
+        <param>
+          <type><ref refid="namespacepmt_1ab4b70d9293452eb74dd07c670e6811fa" kindref="member">pmt::pmt_t</ref></type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+<para>override this to define the function </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_feval.h" line="160"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr__feval__p_1ae67ff168a5485fe441a15715a8f45977" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>gr_feval_p::gr_feval_p</definition>
+        <argsstring>()</argsstring>
+        <name>gr_feval_p</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_feval.h" line="163" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_feval.h" bodystart="163" bodyend="163"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr__feval__p_1a08c0a43555035e11bca39767dc98fd06" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual gr_feval_p::~gr_feval_p</definition>
+        <argsstring>()</argsstring>
+        <name>~gr_feval_p</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_feval.h" line="164"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr__feval__p_1a0e4b28390bb39da8878cba63f1cdbf64" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="volk_8tmpl_8h_1a2b104da38b6f0a28d721ed74346ef298" kindref="member">void</ref></type>
+        <definition>virtual void gr_feval_p::calleval</definition>
+        <argsstring>(pmt::pmt_t x)</argsstring>
+        <name>calleval</name>
+        <param>
+          <type><ref refid="namespacepmt_1ab4b70d9293452eb74dd07c670e6811fa" kindref="member">pmt::pmt_t</ref></type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_feval.h" line="166"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>base class for evaluating a function: pmt -&gt; void</para><para>This class is designed to be subclassed in Python or C++ and is callable from both places. It uses SWIG&apos;s &quot;director&quot; feature to implement the magic. It&apos;s slow. Don&apos;t use it in a performance critical path. </para>    </briefdescription>
+    <detaileddescription>
+<para>Override eval to define the behavior. Use calleval to invoke eval (this kludge is required to allow a python specific &quot;shim&quot; to be inserted. </para>    </detaileddescription>
+    <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_feval.h" line="155" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_feval.h" bodystart="154" bodyend="167"/>
+    <listofallmembers>
+      <member refid="classgr__feval__p_1a0e4b28390bb39da8878cba63f1cdbf64" prot="public" virt="virtual"><scope>gr_feval_p</scope><name>calleval</name></member>
+      <member refid="classgr__feval__p_1a363ae23e452e62e5b9fd97a2a0d0bf56" prot="protected" virt="virtual"><scope>gr_feval_p</scope><name>eval</name></member>
+      <member refid="classgr__feval__p_1ae67ff168a5485fe441a15715a8f45977" prot="public" virt="non-virtual"><scope>gr_feval_p</scope><name>gr_feval_p</name></member>
+      <member refid="classgr__feval__p_1a08c0a43555035e11bca39767dc98fd06" prot="public" virt="virtual"><scope>gr_feval_p</scope><name>~gr_feval_p</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

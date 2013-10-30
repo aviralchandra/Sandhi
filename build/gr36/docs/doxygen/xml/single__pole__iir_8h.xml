@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="single__pole__iir_8h" kind="file">
+    <compoundname>single_pole_iir.h</compoundname>
+    <includes refid="gr-filter_2include_2filter_2api_8h" local="no">filter/api.h</includes>
+    <includes local="no">stdexcept</includes>
+    <includes refid="gr__complex_8h" local="no">gr_complex.h</includes>
+    <includedby refid="single__pole__iir__filter__cc_8h" local="no">single_pole_iir_filter_cc.h</includedby>
+    <includedby refid="single__pole__iir__filter__ff_8h" local="no">single_pole_iir_filter_ff.h</includedby>
+    <includedby refid="single__pole__iir__filter__cc__impl_8h" local="no">single_pole_iir_filter_cc_impl.h</includedby>
+    <includedby refid="single__pole__iir__filter__ff__impl_8h" local="no">single_pole_iir_filter_ff_impl.h</includedby>
+    <incdepgraph>
+      <node id="18279">
+        <label>single_pole_iir.h</label>
+        <link refid="single_pole_iir.h"/>
+        <childnode refid="18280" relation="include">
+        </childnode>
+        <childnode refid="18282" relation="include">
+        </childnode>
+        <childnode refid="18283" relation="include">
+        </childnode>
+      </node>
+      <node id="18282">
+        <label>stdexcept</label>
+      </node>
+      <node id="18280">
+        <label>filter/api.h</label>
+        <link refid="gr-filter_2include_2filter_2api_8h"/>
+        <childnode refid="18281" relation="include">
+        </childnode>
+      </node>
+      <node id="18281">
+        <label>gruel/attributes.h</label>
+        <link refid="attributes_8h"/>
+      </node>
+      <node id="18283">
+        <label>gr_complex.h</label>
+        <link refid="gr__complex_8h"/>
+        <childnode refid="18284" relation="include">
+        </childnode>
+      </node>
+      <node id="18284">
+        <label>complex</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="18285">
+        <label>single_pole_iir.h</label>
+        <link refid="single_pole_iir.h"/>
+        <childnode refid="18286" relation="include">
+        </childnode>
+        <childnode refid="18288" relation="include">
+        </childnode>
+        <childnode refid="18287" relation="include">
+        </childnode>
+        <childnode refid="18289" relation="include">
+        </childnode>
+      </node>
+      <node id="18286">
+        <label>single_pole_iir_filter_cc.h</label>
+        <link refid="single__pole__iir__filter__cc_8h"/>
+        <childnode refid="18287" relation="include">
+        </childnode>
+      </node>
+      <node id="18289">
+        <label>single_pole_iir_filter_ff_impl.h</label>
+        <link refid="single__pole__iir__filter__ff__impl_8h"/>
+      </node>
+      <node id="18287">
+        <label>single_pole_iir_filter_cc_impl.h</label>
+        <link refid="single__pole__iir__filter__cc__impl_8h"/>
+      </node>
+      <node id="18288">
+        <label>single_pole_iir_filter_ff.h</label>
+        <link refid="single__pole__iir__filter__ff_8h"/>
+        <childnode refid="18289" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classgr_1_1filter_1_1single__pole__iir" prot="public">gr::filter::single_pole_iir</innerclass>
+    <innerclass refid="classgr_1_1filter_1_1single__pole__iir_3_01gr__complex_00_01i__type_00_01double_01_4" prot="public">gr::filter::single_pole_iir&lt; gr_complex, i_type, double &gt;</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1filter">gr::filter</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/include/filter/single_pole_iir.h"/>
+  </compounddef>
+</doxygen>

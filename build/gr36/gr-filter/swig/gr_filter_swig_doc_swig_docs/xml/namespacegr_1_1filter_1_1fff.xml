@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="namespacegr_1_1filter_1_1fff" kind="namespace">
+    <compoundname>gr::filter::fff</compoundname>
+    <innerclass refid="classgr_1_1filter_1_1fff_1_1qa__fir__filter__with__buffer__fff" prot="public">gr::filter::fff::qa_fir_filter_with_buffer_fff</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/qa_fir_filter_with_buffer.h" line="31"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="classgr__endian__swap" kind="class" prot="public">
+    <compoundname>gr_endian_swap</compoundname>
+    <includes refid="gr__endian__swap_8h" local="no">gr_endian_swap.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr__endian__swap_1ad47f930248cbda32f8f42bc5377bed8b" prot="private" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t gr_endian_swap::item_size_bytes</definition>
+        <argsstring></argsstring>
+        <name>item_size_bytes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_endian_swap.h" line="48" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_endian_swap.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="classgr__endian__swap_1aac165a558e774030f73ecfe05b6a3aa4" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend __GR_ATTR_IMPORT <ref refid="gr__endian__swap_8h_1a97f52bd5797ccd63ad99a0444e4b7801" kindref="member">gr_endian_swap_sptr</ref></type>
+        <definition>__GR_ATTR_IMPORT gr_endian_swap_sptr gr_make_endian_swap</definition>
+        <argsstring>(size_t item_size_bytes)</argsstring>
+        <name>gr_make_endian_swap</name>
+        <param>
+          <type>size_t</type>
+          <declname>item_size_bytes</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_endian_swap.h" line="45"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classgr__endian__swap_1a63551ea01d01cf0ccedf6398e53b5938" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr_endian_swap::gr_endian_swap</definition>
+        <argsstring>(size_t item_size_bytes)</argsstring>
+        <name>gr_endian_swap</name>
+        <param>
+          <type>size_t</type>
+          <declname>item_size_bytes</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_endian_swap.h" line="46"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr__endian__swap_1a8d3d75bdb23c31910ca14555781b8a53" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>int</type>
+        <definition>virtual int gr_endian_swap::work</definition>
+        <argsstring>(int noutput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_endian_swap.h" line="53"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Convert stream of items into thier byte swapped version. </para>    </briefdescription>
+    <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>item_size_bytes</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>number of bytes per item, 1=no-op,2=uint16_t,4=uint32_t,8=uint64_t </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>    </detaileddescription>
+    <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_endian_swap.h" line="42" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_endian_swap.h" bodystart="41" bodyend="54"/>
+    <listofallmembers>
+      <member refid="classgr__endian__swap_1a63551ea01d01cf0ccedf6398e53b5938" prot="private" virt="non-virtual"><scope>gr_endian_swap</scope><name>gr_endian_swap</name></member>
+      <member refid="classgr__endian__swap_1aac165a558e774030f73ecfe05b6a3aa4" prot="private" virt="non-virtual"><scope>gr_endian_swap</scope><name>gr_make_endian_swap</name></member>
+      <member refid="classgr__endian__swap_1ad47f930248cbda32f8f42bc5377bed8b" prot="private" virt="non-virtual"><scope>gr_endian_swap</scope><name>item_size_bytes</name></member>
+      <member refid="classgr__endian__swap_1a8d3d75bdb23c31910ca14555781b8a53" prot="public" virt="virtual"><scope>gr_endian_swap</scope><name>work</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

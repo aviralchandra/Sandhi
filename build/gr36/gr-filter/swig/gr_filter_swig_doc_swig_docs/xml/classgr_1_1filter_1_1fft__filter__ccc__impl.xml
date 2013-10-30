@@ -1,0 +1,205 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="classgr_1_1filter_1_1fft__filter__ccc__impl" kind="class" prot="public">
+    <compoundname>gr::filter::fft_filter_ccc_impl</compoundname>
+    <includes refid="fft__filter__ccc__impl_8h" local="no">fft_filter_ccc_impl.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1filter_1_1fft__filter__ccc__impl_1adcd7dc104ea64b86d3937fca56c52767" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::filter::fft_filter_ccc_impl::d_nsamples</definition>
+        <argsstring></argsstring>
+        <name>d_nsamples</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/fft_filter_ccc_impl.h" line="35" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/fft_filter_ccc_impl.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1filter_1_1fft__filter__ccc__impl_1a1b4f115fbafeea1291447665c9df1a34" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool gr::filter::fft_filter_ccc_impl::d_updated</definition>
+        <argsstring></argsstring>
+        <name>d_updated</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/fft_filter_ccc_impl.h" line="36" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/fft_filter_ccc_impl.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1filter_1_1fft__filter__ccc__impl_1a28158a998908ef4f6d9df75f8e9aaf1c" prot="private" static="no" mutable="no">
+        <type>kernel::fft_filter_ccc *</type>
+        <definition>kernel::fft_filter_ccc* gr::filter::fft_filter_ccc_impl::d_filter</definition>
+        <argsstring></argsstring>
+        <name>d_filter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/fft_filter_ccc_impl.h" line="37" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/fft_filter_ccc_impl.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1filter_1_1fft__filter__ccc__impl_1ae01ca1f7bcd1eefa4454d224b4520b78" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; gr_complex &gt;</type>
+        <definition>std::vector&lt;gr_complex&gt; gr::filter::fft_filter_ccc_impl::d_new_taps</definition>
+        <argsstring></argsstring>
+        <name>d_new_taps</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/fft_filter_ccc_impl.h" line="38" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/fft_filter_ccc_impl.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1filter_1_1fft__filter__ccc__impl_1a9148494a3c19ce0bc557d7e2fe8eb9f1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::filter::fft_filter_ccc_impl::fft_filter_ccc_impl</definition>
+        <argsstring>(int decimation, const std::vector&lt; gr_complex &gt; &amp;taps, int nthreads=1)</argsstring>
+        <name>fft_filter_ccc_impl</name>
+        <param>
+          <type>int</type>
+          <declname>decimation</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; gr_complex &gt; &amp;</type>
+          <declname>taps</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nthreads</declname>
+          <defval>1</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/fft_filter_ccc_impl.h" line="43"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1filter_1_1fft__filter__ccc__impl_1a7e4bf6038a62d293033574d96e7ae8b3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::filter::fft_filter_ccc_impl::~fft_filter_ccc_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~fft_filter_ccc_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/fft_filter_ccc_impl.h" line="45"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1filter_1_1fft__filter__ccc__impl_1a0cdea2fb4d9f7c616355423910b646a2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::filter::fft_filter_ccc_impl::set_taps</definition>
+        <argsstring>(const std::vector&lt; gr_complex &gt; &amp;taps)</argsstring>
+        <name>set_taps</name>
+        <param>
+          <type>const std::vector&lt; gr_complex &gt; &amp;</type>
+          <declname>taps</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/fft_filter_ccc_impl.h" line="47"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1filter_1_1fft__filter__ccc__impl_1a451677e2a3c01c9922c319509e25d0d2" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; gr_complex &gt;</type>
+        <definition>std::vector&lt;gr_complex&gt; gr::filter::fft_filter_ccc_impl::taps</definition>
+        <argsstring>() const </argsstring>
+        <name>taps</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/fft_filter_ccc_impl.h" line="48"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1filter_1_1fft__filter__ccc__impl_1aa1eea7dfa17b64e3f8d59186b0185a58" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::filter::fft_filter_ccc_impl::set_nthreads</definition>
+        <argsstring>(int n)</argsstring>
+        <name>set_nthreads</name>
+        <param>
+          <type>int</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/fft_filter_ccc_impl.h" line="50"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1filter_1_1fft__filter__ccc__impl_1a4f4a3c912e5251c6df6dbfe720e0f012" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::filter::fft_filter_ccc_impl::nthreads</definition>
+        <argsstring>() const </argsstring>
+        <name>nthreads</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/fft_filter_ccc_impl.h" line="51"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1filter_1_1fft__filter__ccc__impl_1aa23dc84fe54860a015f2e302d8e0b61c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::filter::fft_filter_ccc_impl::work</definition>
+        <argsstring>(int noutput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/fft_filter_ccc_impl.h" line="55"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/fft_filter_ccc_impl.h" line="33" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/fft_filter_ccc_impl.h" bodystart="32" bodyend="56"/>
+    <listofallmembers>
+      <member refid="classgr_1_1filter_1_1fft__filter__ccc__impl_1a28158a998908ef4f6d9df75f8e9aaf1c" prot="private" virt="non-virtual"><scope>gr::filter::fft_filter_ccc_impl</scope><name>d_filter</name></member>
+      <member refid="classgr_1_1filter_1_1fft__filter__ccc__impl_1ae01ca1f7bcd1eefa4454d224b4520b78" prot="private" virt="non-virtual"><scope>gr::filter::fft_filter_ccc_impl</scope><name>d_new_taps</name></member>
+      <member refid="classgr_1_1filter_1_1fft__filter__ccc__impl_1adcd7dc104ea64b86d3937fca56c52767" prot="private" virt="non-virtual"><scope>gr::filter::fft_filter_ccc_impl</scope><name>d_nsamples</name></member>
+      <member refid="classgr_1_1filter_1_1fft__filter__ccc__impl_1a1b4f115fbafeea1291447665c9df1a34" prot="private" virt="non-virtual"><scope>gr::filter::fft_filter_ccc_impl</scope><name>d_updated</name></member>
+      <member refid="classgr_1_1filter_1_1fft__filter__ccc__impl_1a9148494a3c19ce0bc557d7e2fe8eb9f1" prot="public" virt="non-virtual"><scope>gr::filter::fft_filter_ccc_impl</scope><name>fft_filter_ccc_impl</name></member>
+      <member refid="classgr_1_1filter_1_1fft__filter__ccc__impl_1a4f4a3c912e5251c6df6dbfe720e0f012" prot="public" virt="non-virtual"><scope>gr::filter::fft_filter_ccc_impl</scope><name>nthreads</name></member>
+      <member refid="classgr_1_1filter_1_1fft__filter__ccc__impl_1aa1eea7dfa17b64e3f8d59186b0185a58" prot="public" virt="non-virtual"><scope>gr::filter::fft_filter_ccc_impl</scope><name>set_nthreads</name></member>
+      <member refid="classgr_1_1filter_1_1fft__filter__ccc__impl_1a0cdea2fb4d9f7c616355423910b646a2" prot="public" virt="non-virtual"><scope>gr::filter::fft_filter_ccc_impl</scope><name>set_taps</name></member>
+      <member refid="classgr_1_1filter_1_1fft__filter__ccc__impl_1a451677e2a3c01c9922c319509e25d0d2" prot="public" virt="non-virtual"><scope>gr::filter::fft_filter_ccc_impl</scope><name>taps</name></member>
+      <member refid="classgr_1_1filter_1_1fft__filter__ccc__impl_1aa23dc84fe54860a015f2e302d8e0b61c" prot="public" virt="non-virtual"><scope>gr::filter::fft_filter_ccc_impl</scope><name>work</name></member>
+      <member refid="classgr_1_1filter_1_1fft__filter__ccc__impl_1a7e4bf6038a62d293033574d96e7ae8b3" prot="public" virt="non-virtual"><scope>gr::filter::fft_filter_ccc_impl</scope><name>~fft_filter_ccc_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

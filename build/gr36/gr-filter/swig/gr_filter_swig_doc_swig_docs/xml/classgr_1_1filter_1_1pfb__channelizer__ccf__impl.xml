@@ -1,0 +1,264 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="classgr_1_1filter_1_1pfb__channelizer__ccf__impl" kind="class" prot="public">
+    <compoundname>gr::filter::pfb_channelizer_ccf_impl</compoundname>
+    <includes refid="pfb__channelizer__ccf__impl_8h" local="no">pfb_channelizer_ccf_impl.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1filter_1_1pfb__channelizer__ccf__impl_1ad120647cc9f428bfb79f217659074aca" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool gr::filter::pfb_channelizer_ccf_impl::d_updated</definition>
+        <argsstring></argsstring>
+        <name>d_updated</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/pfb_channelizer_ccf_impl.h" line="38" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/pfb_channelizer_ccf_impl.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1filter_1_1pfb__channelizer__ccf__impl_1aaaaf21b1c5eb0dec9fd4045274d273c7" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::filter::pfb_channelizer_ccf_impl::d_oversample_rate</definition>
+        <argsstring></argsstring>
+        <name>d_oversample_rate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/pfb_channelizer_ccf_impl.h" line="39" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/pfb_channelizer_ccf_impl.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1filter_1_1pfb__channelizer__ccf__impl_1acdccb19175776e8d3e8132de7f8dd9b8" prot="private" static="no" mutable="no">
+        <type>int *</type>
+        <definition>int* gr::filter::pfb_channelizer_ccf_impl::d_idxlut</definition>
+        <argsstring></argsstring>
+        <name>d_idxlut</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/pfb_channelizer_ccf_impl.h" line="40" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/pfb_channelizer_ccf_impl.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1filter_1_1pfb__channelizer__ccf__impl_1a5134f7bcc9cb4c9029d89724206fdba9" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::filter::pfb_channelizer_ccf_impl::d_rate_ratio</definition>
+        <argsstring></argsstring>
+        <name>d_rate_ratio</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/pfb_channelizer_ccf_impl.h" line="41" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/pfb_channelizer_ccf_impl.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1filter_1_1pfb__channelizer__ccf__impl_1aabdb66f4447cd3e433edfba45adced45" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::filter::pfb_channelizer_ccf_impl::d_output_multiple</definition>
+        <argsstring></argsstring>
+        <name>d_output_multiple</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/pfb_channelizer_ccf_impl.h" line="42" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/pfb_channelizer_ccf_impl.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1filter_1_1pfb__channelizer__ccf__impl_1ae78f441d6adecebc6df1955bef526faa" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; int &gt;</type>
+        <definition>std::vector&lt;int&gt; gr::filter::pfb_channelizer_ccf_impl::d_channel_map</definition>
+        <argsstring></argsstring>
+        <name>d_channel_map</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/pfb_channelizer_ccf_impl.h" line="43" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/pfb_channelizer_ccf_impl.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1filter_1_1pfb__channelizer__ccf__impl_1ac50edab92a90694c4748307a66923e85" prot="private" static="no" mutable="no">
+        <type>gruel::mutex</type>
+        <definition>gruel::mutex gr::filter::pfb_channelizer_ccf_impl::d_mutex</definition>
+        <argsstring></argsstring>
+        <name>d_mutex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/pfb_channelizer_ccf_impl.h" line="44" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/pfb_channelizer_ccf_impl.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1filter_1_1pfb__channelizer__ccf__impl_1a13dc38846da659150fb5e1260f6bebe2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::filter::pfb_channelizer_ccf_impl::pfb_channelizer_ccf_impl</definition>
+        <argsstring>(unsigned int nfilts, const std::vector&lt; float &gt; &amp;taps, float oversample_rate)</argsstring>
+        <name>pfb_channelizer_ccf_impl</name>
+        <param>
+          <type>unsigned int</type>
+          <declname>nfilts</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; float &gt; &amp;</type>
+          <declname>taps</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>oversample_rate</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/pfb_channelizer_ccf_impl.h" line="49"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1filter_1_1pfb__channelizer__ccf__impl_1a8b55977fb58535126f05c57383f5a7e3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::filter::pfb_channelizer_ccf_impl::~pfb_channelizer_ccf_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~pfb_channelizer_ccf_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/pfb_channelizer_ccf_impl.h" line="51"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1filter_1_1pfb__channelizer__ccf__impl_1a1d96e7ae41c6d8f26b21af4df25da621" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::filter::pfb_channelizer_ccf_impl::set_taps</definition>
+        <argsstring>(const std::vector&lt; float &gt; &amp;taps)</argsstring>
+        <name>set_taps</name>
+        <param>
+          <type>const std::vector&lt; float &gt; &amp;</type>
+          <declname>taps</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/pfb_channelizer_ccf_impl.h" line="53"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1filter_1_1pfb__channelizer__ccf__impl_1a20a9b17604aa4ce10ef0d82369e7c1c2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::filter::pfb_channelizer_ccf_impl::print_taps</definition>
+        <argsstring>()</argsstring>
+        <name>print_taps</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/pfb_channelizer_ccf_impl.h" line="54"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1filter_1_1pfb__channelizer__ccf__impl_1a02db31c9ea382905dda9d0c2ebfecf71" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; std::vector&lt; float &gt; &gt;</type>
+        <definition>std::vector&lt;std::vector&lt;float&gt; &gt; gr::filter::pfb_channelizer_ccf_impl::taps</definition>
+        <argsstring>() const </argsstring>
+        <name>taps</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/pfb_channelizer_ccf_impl.h" line="55"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1filter_1_1pfb__channelizer__ccf__impl_1ae92adad1bc575b1b8ce78835227fcecf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::filter::pfb_channelizer_ccf_impl::set_channel_map</definition>
+        <argsstring>(const std::vector&lt; int &gt; &amp;map)</argsstring>
+        <name>set_channel_map</name>
+        <param>
+          <type>const std::vector&lt; int &gt; &amp;</type>
+          <declname>map</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/pfb_channelizer_ccf_impl.h" line="57"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1filter_1_1pfb__channelizer__ccf__impl_1aa5c97b2e97c9ff0c2b9f2b05acf66e7b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; int &gt;</type>
+        <definition>std::vector&lt;int&gt; gr::filter::pfb_channelizer_ccf_impl::channel_map</definition>
+        <argsstring>() const </argsstring>
+        <name>channel_map</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/pfb_channelizer_ccf_impl.h" line="58"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1filter_1_1pfb__channelizer__ccf__impl_1a054c2df79aed0478ced2b15716e96027" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::filter::pfb_channelizer_ccf_impl::general_work</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>general_work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/pfb_channelizer_ccf_impl.h" line="63"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/pfb_channelizer_ccf_impl.h" line="36" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/pfb_channelizer_ccf_impl.h" bodystart="35" bodyend="64"/>
+    <listofallmembers>
+      <member refid="classgr_1_1filter_1_1pfb__channelizer__ccf__impl_1aa5c97b2e97c9ff0c2b9f2b05acf66e7b" prot="public" virt="non-virtual"><scope>gr::filter::pfb_channelizer_ccf_impl</scope><name>channel_map</name></member>
+      <member refid="classgr_1_1filter_1_1pfb__channelizer__ccf__impl_1ae78f441d6adecebc6df1955bef526faa" prot="private" virt="non-virtual"><scope>gr::filter::pfb_channelizer_ccf_impl</scope><name>d_channel_map</name></member>
+      <member refid="classgr_1_1filter_1_1pfb__channelizer__ccf__impl_1acdccb19175776e8d3e8132de7f8dd9b8" prot="private" virt="non-virtual"><scope>gr::filter::pfb_channelizer_ccf_impl</scope><name>d_idxlut</name></member>
+      <member refid="classgr_1_1filter_1_1pfb__channelizer__ccf__impl_1ac50edab92a90694c4748307a66923e85" prot="private" virt="non-virtual"><scope>gr::filter::pfb_channelizer_ccf_impl</scope><name>d_mutex</name></member>
+      <member refid="classgr_1_1filter_1_1pfb__channelizer__ccf__impl_1aabdb66f4447cd3e433edfba45adced45" prot="private" virt="non-virtual"><scope>gr::filter::pfb_channelizer_ccf_impl</scope><name>d_output_multiple</name></member>
+      <member refid="classgr_1_1filter_1_1pfb__channelizer__ccf__impl_1aaaaf21b1c5eb0dec9fd4045274d273c7" prot="private" virt="non-virtual"><scope>gr::filter::pfb_channelizer_ccf_impl</scope><name>d_oversample_rate</name></member>
+      <member refid="classgr_1_1filter_1_1pfb__channelizer__ccf__impl_1a5134f7bcc9cb4c9029d89724206fdba9" prot="private" virt="non-virtual"><scope>gr::filter::pfb_channelizer_ccf_impl</scope><name>d_rate_ratio</name></member>
+      <member refid="classgr_1_1filter_1_1pfb__channelizer__ccf__impl_1ad120647cc9f428bfb79f217659074aca" prot="private" virt="non-virtual"><scope>gr::filter::pfb_channelizer_ccf_impl</scope><name>d_updated</name></member>
+      <member refid="classgr_1_1filter_1_1pfb__channelizer__ccf__impl_1a054c2df79aed0478ced2b15716e96027" prot="public" virt="non-virtual"><scope>gr::filter::pfb_channelizer_ccf_impl</scope><name>general_work</name></member>
+      <member refid="classgr_1_1filter_1_1pfb__channelizer__ccf__impl_1a13dc38846da659150fb5e1260f6bebe2" prot="public" virt="non-virtual"><scope>gr::filter::pfb_channelizer_ccf_impl</scope><name>pfb_channelizer_ccf_impl</name></member>
+      <member refid="classgr_1_1filter_1_1pfb__channelizer__ccf__impl_1a20a9b17604aa4ce10ef0d82369e7c1c2" prot="public" virt="non-virtual"><scope>gr::filter::pfb_channelizer_ccf_impl</scope><name>print_taps</name></member>
+      <member refid="classgr_1_1filter_1_1pfb__channelizer__ccf__impl_1ae92adad1bc575b1b8ce78835227fcecf" prot="public" virt="non-virtual"><scope>gr::filter::pfb_channelizer_ccf_impl</scope><name>set_channel_map</name></member>
+      <member refid="classgr_1_1filter_1_1pfb__channelizer__ccf__impl_1a1d96e7ae41c6d8f26b21af4df25da621" prot="public" virt="non-virtual"><scope>gr::filter::pfb_channelizer_ccf_impl</scope><name>set_taps</name></member>
+      <member refid="classgr_1_1filter_1_1pfb__channelizer__ccf__impl_1a02db31c9ea382905dda9d0c2ebfecf71" prot="public" virt="non-virtual"><scope>gr::filter::pfb_channelizer_ccf_impl</scope><name>taps</name></member>
+      <member refid="classgr_1_1filter_1_1pfb__channelizer__ccf__impl_1a8b55977fb58535126f05c57383f5a7e3" prot="public" virt="non-virtual"><scope>gr::filter::pfb_channelizer_ccf_impl</scope><name>~pfb_channelizer_ccf_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="namespacegr_1_1blocks" kind="namespace">
+    <compoundname>gr::blocks</compoundname>
+    <innerclass refid="classgr_1_1blocks_1_1add__ff__impl" prot="public">gr::blocks::add_ff_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1char__to__float__impl" prot="public">gr::blocks::char_to_float_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1char__to__short__impl" prot="public">gr::blocks::char_to_short_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1complex__to__arg__impl" prot="public">gr::blocks::complex_to_arg_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1complex__to__float__impl" prot="public">gr::blocks::complex_to_float_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1complex__to__imag__impl" prot="public">gr::blocks::complex_to_imag_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1complex__to__interleaved__short__impl" prot="public">gr::blocks::complex_to_interleaved_short_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1complex__to__mag__impl" prot="public">gr::blocks::complex_to_mag_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1complex__to__mag__squared__impl" prot="public">gr::blocks::complex_to_mag_squared_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1complex__to__real__impl" prot="public">gr::blocks::complex_to_real_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1conjugate__cc__impl" prot="public">gr::blocks::conjugate_cc_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1deinterleave__impl" prot="public">gr::blocks::deinterleave_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1delay__impl" prot="public">gr::blocks::delay_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1file__meta__sink__impl" prot="public">gr::blocks::file_meta_sink_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1file__meta__source__impl" prot="public">gr::blocks::file_meta_source_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1file__source__impl" prot="public">gr::blocks::file_source_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1float__to__char__impl" prot="public">gr::blocks::float_to_char_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1float__to__complex__impl" prot="public">gr::blocks::float_to_complex_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1float__to__int__impl" prot="public">gr::blocks::float_to_int_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1float__to__short__impl" prot="public">gr::blocks::float_to_short_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1float__to__uchar__impl" prot="public">gr::blocks::float_to_uchar_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1int__to__float__impl" prot="public">gr::blocks::int_to_float_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1interleave__impl" prot="public">gr::blocks::interleave_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1interleaved__short__to__complex__impl" prot="public">gr::blocks::interleaved_short_to_complex_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1keep__m__in__n__impl" prot="public">gr::blocks::keep_m_in_n_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1keep__one__in__n__impl" prot="public">gr::blocks::keep_one_in_n_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1multiply__cc__impl" prot="public">gr::blocks::multiply_cc_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1multiply__conjugate__cc__impl" prot="public">gr::blocks::multiply_conjugate_cc_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1multiply__const__cc__impl" prot="public">gr::blocks::multiply_const_cc_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1multiply__const__ff__impl" prot="public">gr::blocks::multiply_const_ff_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1multiply__ff__impl" prot="public">gr::blocks::multiply_ff_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1nlog10__ff__impl" prot="public">gr::blocks::nlog10_ff_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1patterned__interleaver__impl" prot="public">gr::blocks::patterned_interleaver_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1peak__detector2__fb__impl" prot="public">gr::blocks::peak_detector2_fb_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1regenerate__bb__impl" prot="public">gr::blocks::regenerate_bb_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1repeat__impl" prot="public">gr::blocks::repeat_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1rms__cf__impl" prot="public">gr::blocks::rms_cf_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1rms__ff__impl" prot="public">gr::blocks::rms_ff_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1short__to__char__impl" prot="public">gr::blocks::short_to_char_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1short__to__float__impl" prot="public">gr::blocks::short_to_float_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1stream__mux__impl" prot="public">gr::blocks::stream_mux_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1stream__to__streams__impl" prot="public">gr::blocks::stream_to_streams_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1stream__to__vector__impl" prot="public">gr::blocks::stream_to_vector_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1streams__to__stream__impl" prot="public">gr::blocks::streams_to_stream_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1streams__to__vector__impl" prot="public">gr::blocks::streams_to_vector_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1stretch__ff__impl" prot="public">gr::blocks::stretch_ff_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1threshold__ff__impl" prot="public">gr::blocks::threshold_ff_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1throttle__impl" prot="public">gr::blocks::throttle_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1transcendental__impl" prot="public">gr::blocks::transcendental_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1uchar__to__float__impl" prot="public">gr::blocks::uchar_to_float_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1vector__to__stream__impl" prot="public">gr::blocks::vector_to_stream_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1vector__to__streams__impl" prot="public">gr::blocks::vector_to_streams_impl</innerclass>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="namespacegr_1_1blocks_1a096aaf389afd1ea7113482057075814e" prot="public" static="no">
+        <type>int(*</type>
+        <definition>typedef int(* gr::blocks::work_fcn_type)(int, gr_vector_const_void_star &amp;, gr_vector_void_star &amp;)</definition>
+        <argsstring>)(int, gr_vector_const_void_star &amp;, gr_vector_void_star &amp;)</argsstring>
+        <name>work_fcn_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/transcendental_impl.h" line="31" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/transcendental_impl.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/add_ff_impl.h" line="29"/>
+  </compounddef>
+</doxygen>

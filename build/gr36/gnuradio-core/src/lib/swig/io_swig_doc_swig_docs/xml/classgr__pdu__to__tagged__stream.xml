@@ -1,0 +1,140 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="classgr__pdu__to__tagged__stream" kind="class" prot="public">
+    <compoundname>gr_pdu_to_tagged_stream</compoundname>
+    <includes refid="gr__pdu__to__tagged__stream_8h" local="no">gr_pdu_to_tagged_stream.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr__pdu__to__tagged__stream_1a77e838d30285630e9dd31a2f3f7103c5" prot="private" static="no" mutable="no">
+        <type><ref refid="gr__pdu_8h_1a60e85386d9ae0caa0f152c2fd67f32cc" kindref="member">gr_pdu_vector_type</ref></type>
+        <definition>gr_pdu_vector_type gr_pdu_to_tagged_stream::d_vectortype</definition>
+        <argsstring></argsstring>
+        <name>d_vectortype</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/io/gr_pdu_to_tagged_stream.h" line="44" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/io/gr_pdu_to_tagged_stream.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr__pdu__to__tagged__stream_1ab71848678b70b6c387a5afc2228cecd5" prot="private" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t gr_pdu_to_tagged_stream::d_itemsize</definition>
+        <argsstring></argsstring>
+        <name>d_itemsize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/io/gr_pdu_to_tagged_stream.h" line="45" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/io/gr_pdu_to_tagged_stream.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr__pdu__to__tagged__stream_1a9c98387e9d77e112cd16bfa0cef31fb4" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; uint8_t &gt;</type>
+        <definition>std::vector&lt;uint8_t&gt; gr_pdu_to_tagged_stream::d_remain</definition>
+        <argsstring></argsstring>
+        <name>d_remain</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/io/gr_pdu_to_tagged_stream.h" line="46" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/io/gr_pdu_to_tagged_stream.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="classgr__pdu__to__tagged__stream_1a856f67854dcb363d0271e6f1a7c32099" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend GR_CORE_API <ref refid="gr__pdu__to__tagged__stream_8h_1ab432b25c1fe4594b84bcc6a567800a1f" kindref="member">gr_pdu_to_tagged_stream_sptr</ref></type>
+        <definition>GR_CORE_API gr_pdu_to_tagged_stream_sptr gr_make_pdu_to_tagged_stream</definition>
+        <argsstring>(gr_pdu_vector_type t)</argsstring>
+        <name>gr_make_pdu_to_tagged_stream</name>
+        <param>
+          <type><ref refid="gr__pdu_8h_1a60e85386d9ae0caa0f152c2fd67f32cc" kindref="member">gr_pdu_vector_type</ref></type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/io/gr_pdu_to_tagged_stream.h" line="49"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classgr__pdu__to__tagged__stream_1af559d12ddc0b3b6ea3c39cf339a93051" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr_pdu_to_tagged_stream::gr_pdu_to_tagged_stream</definition>
+        <argsstring>(gr_pdu_vector_type t)</argsstring>
+        <name>gr_pdu_to_tagged_stream</name>
+        <param>
+          <type><ref refid="gr__pdu_8h_1a60e85386d9ae0caa0f152c2fd67f32cc" kindref="member">gr_pdu_vector_type</ref></type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/io/gr_pdu_to_tagged_stream.h" line="52"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr__pdu__to__tagged__stream_1a97cb6fdae52b2d2782ee47939e874501" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr_pdu_to_tagged_stream::~gr_pdu_to_tagged_stream</definition>
+        <argsstring>()</argsstring>
+        <name>~gr_pdu_to_tagged_stream</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/io/gr_pdu_to_tagged_stream.h" line="55"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr__pdu__to__tagged__stream_1ab5f64555a0c2115becd674ac0137f94a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr_pdu_to_tagged_stream::work</definition>
+        <argsstring>(int noutput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/io/gr_pdu_to_tagged_stream.h" line="59"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Turn received messages into a stream. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/io/gr_pdu_to_tagged_stream.h" line="42" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/io/gr_pdu_to_tagged_stream.h" bodystart="41" bodyend="61"/>
+    <listofallmembers>
+      <member refid="classgr__pdu__to__tagged__stream_1ab71848678b70b6c387a5afc2228cecd5" prot="private" virt="non-virtual"><scope>gr_pdu_to_tagged_stream</scope><name>d_itemsize</name></member>
+      <member refid="classgr__pdu__to__tagged__stream_1a9c98387e9d77e112cd16bfa0cef31fb4" prot="private" virt="non-virtual"><scope>gr_pdu_to_tagged_stream</scope><name>d_remain</name></member>
+      <member refid="classgr__pdu__to__tagged__stream_1a77e838d30285630e9dd31a2f3f7103c5" prot="private" virt="non-virtual"><scope>gr_pdu_to_tagged_stream</scope><name>d_vectortype</name></member>
+      <member refid="classgr__pdu__to__tagged__stream_1a856f67854dcb363d0271e6f1a7c32099" prot="private" virt="non-virtual"><scope>gr_pdu_to_tagged_stream</scope><name>gr_make_pdu_to_tagged_stream</name></member>
+      <member refid="classgr__pdu__to__tagged__stream_1af559d12ddc0b3b6ea3c39cf339a93051" prot="protected" virt="non-virtual"><scope>gr_pdu_to_tagged_stream</scope><name>gr_pdu_to_tagged_stream</name></member>
+      <member refid="classgr__pdu__to__tagged__stream_1ab5f64555a0c2115becd674ac0137f94a" prot="public" virt="non-virtual"><scope>gr_pdu_to_tagged_stream</scope><name>work</name></member>
+      <member refid="classgr__pdu__to__tagged__stream_1a97cb6fdae52b2d2782ee47939e874501" prot="public" virt="non-virtual"><scope>gr_pdu_to_tagged_stream</scope><name>~gr_pdu_to_tagged_stream</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

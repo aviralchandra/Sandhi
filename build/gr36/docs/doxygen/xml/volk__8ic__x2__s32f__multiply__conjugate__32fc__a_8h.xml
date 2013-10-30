@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="volk__8ic__x2__s32f__multiply__conjugate__32fc__a_8h" kind="file">
+    <compoundname>volk_8ic_x2_s32f_multiply_conjugate_32fc_a.h</compoundname>
+    <includes refid="inttypes_8h" local="no">inttypes.h</includes>
+    <includes local="no">stdio.h</includes>
+    <includes refid="volk__complex_8h" local="no">volk/volk_complex.h</includes>
+    <incdepgraph>
+      <node id="21931">
+        <label>volk/volk_complex.h</label>
+        <link refid="volk__complex_8h"/>
+        <childnode refid="21932" relation="include">
+        </childnode>
+      </node>
+      <node id="21925">
+        <label>volk_8ic_x2_s32f_multiply_conjugate_32fc_a.h</label>
+        <link refid="volk_8ic_x2_s32f_multiply_conjugate_32fc_a.h"/>
+        <childnode refid="21926" relation="include">
+        </childnode>
+        <childnode refid="21930" relation="include">
+        </childnode>
+        <childnode refid="21931" relation="include">
+        </childnode>
+      </node>
+      <node id="21927">
+        <label>stdint.h</label>
+        <link refid="stdint_8h"/>
+        <childnode refid="21928" relation="include">
+        </childnode>
+        <childnode refid="21929" relation="include">
+        </childnode>
+      </node>
+      <node id="21926">
+        <label>inttypes.h</label>
+        <link refid="inttypes_8h"/>
+        <childnode refid="21927" relation="include">
+        </childnode>
+      </node>
+      <node id="21928">
+        <label>limits.h</label>
+      </node>
+      <node id="21929">
+        <label>wchar.h</label>
+      </node>
+      <node id="21932">
+        <label>complex.h</label>
+      </node>
+      <node id="21930">
+        <label>stdio.h</label>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/aviral/GNU-Niyantran/gr36/volk/include/volk/volk_8ic_x2_s32f_multiply_conjugate_32fc_a.h"/>
+  </compounddef>
+</doxygen>

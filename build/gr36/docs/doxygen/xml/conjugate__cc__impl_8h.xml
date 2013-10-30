@@ -1,0 +1,246 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="conjugate__cc__impl_8h" kind="file">
+    <compoundname>conjugate_cc_impl.h</compoundname>
+    <includes refid="conjugate__cc_8h" local="no">blocks/conjugate_cc.h</includes>
+    <incdepgraph>
+      <node id="2239">
+        <label>boost/thread/mutex.hpp</label>
+      </node>
+      <node id="2241">
+        <label>boost/thread/condition_variable.hpp</label>
+      </node>
+      <node id="2223">
+        <label>boost/shared_ptr.hpp</label>
+      </node>
+      <node id="2220">
+        <label>gruel/pmt.h</label>
+        <link refid="pmt_8h"/>
+        <childnode refid="2221" relation="include">
+        </childnode>
+        <childnode refid="2222" relation="include">
+        </childnode>
+        <childnode refid="2223" relation="include">
+        </childnode>
+        <childnode refid="2224" relation="include">
+        </childnode>
+        <childnode refid="2225" relation="include">
+        </childnode>
+        <childnode refid="2226" relation="include">
+        </childnode>
+        <childnode refid="2227" relation="include">
+        </childnode>
+        <childnode refid="2230" relation="include">
+        </childnode>
+        <childnode refid="2231" relation="include">
+        </childnode>
+        <childnode refid="2232" relation="include">
+        </childnode>
+        <childnode refid="2233" relation="include">
+        </childnode>
+      </node>
+      <node id="2222">
+        <label>boost/intrusive_ptr.hpp</label>
+      </node>
+      <node id="2211">
+        <label>gr_core_api.h</label>
+        <link refid="gr__core__api_8h"/>
+        <childnode refid="2208" relation="include">
+        </childnode>
+      </node>
+      <node id="2227">
+        <label>stdint.h</label>
+        <link refid="stdint_8h"/>
+        <childnode refid="2228" relation="include">
+        </childnode>
+        <childnode refid="2229" relation="include">
+        </childnode>
+      </node>
+      <node id="2218">
+        <label>gras/hier_block.hpp</label>
+      </node>
+      <node id="2217">
+        <label>gras/top_block.hpp</label>
+      </node>
+      <node id="2236">
+        <label>boost/foreach.hpp</label>
+      </node>
+      <node id="2231">
+        <label>stdexcept</label>
+      </node>
+      <node id="2212">
+        <label>gras/block.hpp</label>
+      </node>
+      <node id="2238">
+        <label>boost/thread/thread.hpp</label>
+      </node>
+      <node id="2226">
+        <label>string</label>
+      </node>
+      <node id="2235">
+        <label>map</label>
+      </node>
+      <node id="2208">
+        <label>gruel/attributes.h</label>
+        <link refid="attributes_8h"/>
+      </node>
+      <node id="2228">
+        <label>limits.h</label>
+      </node>
+      <node id="2224">
+        <label>boost/any.hpp</label>
+      </node>
+      <node id="2210">
+        <label>gr_block.h</label>
+        <link refid="gr__block_8h"/>
+        <childnode refid="2211" relation="include">
+        </childnode>
+        <childnode refid="2212" relation="include">
+        </childnode>
+        <childnode refid="2213" relation="include">
+        </childnode>
+        <childnode refid="2215" relation="include">
+        </childnode>
+        <childnode refid="2219" relation="include">
+        </childnode>
+        <childnode refid="2226" relation="include">
+        </childnode>
+        <childnode refid="2234" relation="include">
+        </childnode>
+        <childnode refid="2235" relation="include">
+        </childnode>
+        <childnode refid="2236" relation="include">
+        </childnode>
+        <childnode refid="2237" relation="include">
+        </childnode>
+        <childnode refid="2242" relation="include">
+        </childnode>
+      </node>
+      <node id="2214">
+        <label>gr_runtime_types.h</label>
+        <link refid="gr__runtime__types_8h"/>
+        <childnode refid="2211" relation="include">
+        </childnode>
+        <childnode refid="2215" relation="include">
+        </childnode>
+      </node>
+      <node id="2229">
+        <label>wchar.h</label>
+      </node>
+      <node id="2233">
+        <label>gruel/pmt_sugar.h</label>
+        <link refid="pmt__sugar_8h"/>
+      </node>
+      <node id="2240">
+        <label>boost/thread/locks.hpp</label>
+      </node>
+      <node id="2209">
+        <label>gr_sync_block.h</label>
+        <link refid="gr__sync__block_8h"/>
+        <childnode refid="2210" relation="include">
+        </childnode>
+      </node>
+      <node id="2232">
+        <label>vector</label>
+      </node>
+      <node id="2213">
+        <label>gr_io_signature.h</label>
+        <link refid="gr__io__signature_8h"/>
+        <childnode refid="2211" relation="include">
+        </childnode>
+        <childnode refid="2214" relation="include">
+        </childnode>
+      </node>
+      <node id="2221">
+        <label>gruel/api.h</label>
+        <link refid="gruel_2src_2include_2gruel_2api_8h"/>
+        <childnode refid="2208" relation="include">
+        </childnode>
+      </node>
+      <node id="2207">
+        <label>blocks/api.h</label>
+        <link refid="gr-blocks_2include_2blocks_2api_8h"/>
+        <childnode refid="2208" relation="include">
+        </childnode>
+      </node>
+      <node id="2230">
+        <label>iosfwd</label>
+      </node>
+      <node id="2215">
+        <label>gr_types.h</label>
+        <link refid="gr__types_8h"/>
+        <childnode refid="2216" relation="include">
+        </childnode>
+        <childnode refid="2212" relation="include">
+        </childnode>
+        <childnode refid="2217" relation="include">
+        </childnode>
+        <childnode refid="2218" relation="include">
+        </childnode>
+      </node>
+      <node id="2237">
+        <label>gruel/thread.h</label>
+        <link refid="thread_8h"/>
+        <childnode refid="2221" relation="include">
+        </childnode>
+        <childnode refid="2238" relation="include">
+        </childnode>
+        <childnode refid="2239" relation="include">
+        </childnode>
+        <childnode refid="2240" relation="include">
+        </childnode>
+        <childnode refid="2241" relation="include">
+        </childnode>
+        <childnode refid="2232" relation="include">
+        </childnode>
+      </node>
+      <node id="2234">
+        <label>deque</label>
+      </node>
+      <node id="2219">
+        <label>gr_tags.h</label>
+        <link refid="gr__tags_8h"/>
+        <childnode refid="2211" relation="include">
+        </childnode>
+        <childnode refid="2220" relation="include">
+        </childnode>
+      </node>
+      <node id="2206">
+        <label>blocks/conjugate_cc.h</label>
+        <link refid="conjugate__cc_8h"/>
+        <childnode refid="2207" relation="include">
+        </childnode>
+        <childnode refid="2209" relation="include">
+        </childnode>
+      </node>
+      <node id="2225">
+        <label>complex</label>
+      </node>
+      <node id="2205">
+        <label>conjugate_cc_impl.h</label>
+        <link refid="conjugate_cc_impl.h"/>
+        <childnode refid="2206" relation="include">
+        </childnode>
+      </node>
+      <node id="2242">
+        <label>gr_sptr_magic.h</label>
+        <link refid="gr__sptr__magic_8h_source"/>
+        <childnode refid="2211" relation="include">
+        </childnode>
+        <childnode refid="2223" relation="include">
+        </childnode>
+      </node>
+      <node id="2216">
+        <label>gras/element.hpp</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classgr_1_1blocks_1_1conjugate__cc__impl" prot="public">gr::blocks::conjugate_cc_impl</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1blocks">gr::blocks</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/conjugate_cc_impl.h"/>
+  </compounddef>
+</doxygen>

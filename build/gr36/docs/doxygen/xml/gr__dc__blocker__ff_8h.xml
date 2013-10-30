@@ -1,0 +1,277 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="gr__dc__blocker__ff_8h" kind="file">
+    <compoundname>gr_dc_blocker_ff.h</compoundname>
+    <includes refid="gr__core__api_8h" local="no">gr_core_api.h</includes>
+    <includes refid="gr__sync__block_8h" local="no">gr_sync_block.h</includes>
+    <includes local="no">deque</includes>
+    <incdepgraph>
+      <node id="6213">
+        <label>boost/thread/mutex.hpp</label>
+      </node>
+      <node id="6215">
+        <label>boost/thread/condition_variable.hpp</label>
+      </node>
+      <node id="6197">
+        <label>boost/shared_ptr.hpp</label>
+      </node>
+      <node id="6194">
+        <label>gruel/pmt.h</label>
+        <link refid="pmt_8h"/>
+        <childnode refid="6195" relation="include">
+        </childnode>
+        <childnode refid="6196" relation="include">
+        </childnode>
+        <childnode refid="6197" relation="include">
+        </childnode>
+        <childnode refid="6198" relation="include">
+        </childnode>
+        <childnode refid="6199" relation="include">
+        </childnode>
+        <childnode refid="6200" relation="include">
+        </childnode>
+        <childnode refid="6201" relation="include">
+        </childnode>
+        <childnode refid="6204" relation="include">
+        </childnode>
+        <childnode refid="6205" relation="include">
+        </childnode>
+        <childnode refid="6206" relation="include">
+        </childnode>
+        <childnode refid="6207" relation="include">
+        </childnode>
+      </node>
+      <node id="6196">
+        <label>boost/intrusive_ptr.hpp</label>
+      </node>
+      <node id="6182">
+        <label>gr_core_api.h</label>
+        <link refid="gr__core__api_8h"/>
+        <childnode refid="6183" relation="include">
+        </childnode>
+      </node>
+      <node id="6201">
+        <label>stdint.h</label>
+        <link refid="stdint_8h"/>
+        <childnode refid="6202" relation="include">
+        </childnode>
+        <childnode refid="6203" relation="include">
+        </childnode>
+      </node>
+      <node id="6192">
+        <label>gras/hier_block.hpp</label>
+      </node>
+      <node id="6191">
+        <label>gras/top_block.hpp</label>
+      </node>
+      <node id="6210">
+        <label>boost/foreach.hpp</label>
+      </node>
+      <node id="6205">
+        <label>stdexcept</label>
+      </node>
+      <node id="6186">
+        <label>gras/block.hpp</label>
+      </node>
+      <node id="6212">
+        <label>boost/thread/thread.hpp</label>
+      </node>
+      <node id="6200">
+        <label>string</label>
+      </node>
+      <node id="6209">
+        <label>map</label>
+      </node>
+      <node id="6183">
+        <label>gruel/attributes.h</label>
+        <link refid="attributes_8h"/>
+      </node>
+      <node id="6202">
+        <label>limits.h</label>
+      </node>
+      <node id="6198">
+        <label>boost/any.hpp</label>
+      </node>
+      <node id="6185">
+        <label>gr_block.h</label>
+        <link refid="gr__block_8h"/>
+        <childnode refid="6182" relation="include">
+        </childnode>
+        <childnode refid="6186" relation="include">
+        </childnode>
+        <childnode refid="6187" relation="include">
+        </childnode>
+        <childnode refid="6189" relation="include">
+        </childnode>
+        <childnode refid="6193" relation="include">
+        </childnode>
+        <childnode refid="6200" relation="include">
+        </childnode>
+        <childnode refid="6208" relation="include">
+        </childnode>
+        <childnode refid="6209" relation="include">
+        </childnode>
+        <childnode refid="6210" relation="include">
+        </childnode>
+        <childnode refid="6211" relation="include">
+        </childnode>
+        <childnode refid="6216" relation="include">
+        </childnode>
+      </node>
+      <node id="6188">
+        <label>gr_runtime_types.h</label>
+        <link refid="gr__runtime__types_8h"/>
+        <childnode refid="6182" relation="include">
+        </childnode>
+        <childnode refid="6189" relation="include">
+        </childnode>
+      </node>
+      <node id="6203">
+        <label>wchar.h</label>
+      </node>
+      <node id="6207">
+        <label>gruel/pmt_sugar.h</label>
+        <link refid="pmt__sugar_8h"/>
+      </node>
+      <node id="6214">
+        <label>boost/thread/locks.hpp</label>
+      </node>
+      <node id="6184">
+        <label>gr_sync_block.h</label>
+        <link refid="gr__sync__block_8h"/>
+        <childnode refid="6185" relation="include">
+        </childnode>
+      </node>
+      <node id="6206">
+        <label>vector</label>
+      </node>
+      <node id="6187">
+        <label>gr_io_signature.h</label>
+        <link refid="gr__io__signature_8h"/>
+        <childnode refid="6182" relation="include">
+        </childnode>
+        <childnode refid="6188" relation="include">
+        </childnode>
+      </node>
+      <node id="6181">
+        <label>gr_dc_blocker_ff.h</label>
+        <link refid="gr_dc_blocker_ff.h"/>
+        <childnode refid="6182" relation="include">
+        </childnode>
+        <childnode refid="6184" relation="include">
+        </childnode>
+        <childnode refid="6208" relation="include">
+        </childnode>
+      </node>
+      <node id="6195">
+        <label>gruel/api.h</label>
+        <link refid="gruel_2src_2include_2gruel_2api_8h"/>
+        <childnode refid="6183" relation="include">
+        </childnode>
+      </node>
+      <node id="6204">
+        <label>iosfwd</label>
+      </node>
+      <node id="6189">
+        <label>gr_types.h</label>
+        <link refid="gr__types_8h"/>
+        <childnode refid="6190" relation="include">
+        </childnode>
+        <childnode refid="6186" relation="include">
+        </childnode>
+        <childnode refid="6191" relation="include">
+        </childnode>
+        <childnode refid="6192" relation="include">
+        </childnode>
+      </node>
+      <node id="6211">
+        <label>gruel/thread.h</label>
+        <link refid="thread_8h"/>
+        <childnode refid="6195" relation="include">
+        </childnode>
+        <childnode refid="6212" relation="include">
+        </childnode>
+        <childnode refid="6213" relation="include">
+        </childnode>
+        <childnode refid="6214" relation="include">
+        </childnode>
+        <childnode refid="6215" relation="include">
+        </childnode>
+        <childnode refid="6206" relation="include">
+        </childnode>
+      </node>
+      <node id="6208">
+        <label>deque</label>
+      </node>
+      <node id="6193">
+        <label>gr_tags.h</label>
+        <link refid="gr__tags_8h"/>
+        <childnode refid="6182" relation="include">
+        </childnode>
+        <childnode refid="6194" relation="include">
+        </childnode>
+      </node>
+      <node id="6199">
+        <label>complex</label>
+      </node>
+      <node id="6216">
+        <label>gr_sptr_magic.h</label>
+        <link refid="gr__sptr__magic_8h_source"/>
+        <childnode refid="6182" relation="include">
+        </childnode>
+        <childnode refid="6197" relation="include">
+        </childnode>
+      </node>
+      <node id="6190">
+        <label>gras/element.hpp</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classmoving__averager__f" prot="public">moving_averager_f</innerclass>
+    <innerclass refid="classgr__dc__blocker__ff" prot="public">gr_dc_blocker_ff</innerclass>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="gr__dc__blocker__ff_8h_1a9175ff62dcdfb00a031b486acaf9b54a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="gr__core__api_8h_1a8b8937b0c61edd85ab57ce8203543248" kindref="member">GR_CORE_API</ref> <ref refid="classboost_1_1shared__ptr" kindref="compound">gr_dc_blocker_ff_sptr</ref></type>
+        <definition>GR_CORE_API gr_dc_blocker_ff_sptr gr_make_dc_blocker_ff</definition>
+        <argsstring>(int D=32, bool long_form=true)</argsstring>
+        <name>gr_make_dc_blocker_ff</name>
+        <param>
+          <type>int</type>
+          <declname>D</declname>
+          <defval>32</defval>
+        </param>
+        <param>
+          <type><ref refid="stdbool_8h_1a97a80ca1602ebf2303258971a2c938e2" kindref="member">bool</ref></type>
+          <declname>long_form</declname>
+          <defval><ref refid="stdbool_8h_1a41f9c5fb8b08eb5dc3edce4dcb37fee7" kindref="member">true</ref></defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Build the DC blocker. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>D</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(int) the length of the delay line </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>long_form</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(bool) whether to use long (true, default) or short form </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/filter/gr_dc_blocker_ff.h" line="49"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/filter/gr_dc_blocker_ff.h"/>
+  </compounddef>
+</doxygen>

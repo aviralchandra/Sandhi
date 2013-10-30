@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8"/>
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <title>GRAS Query Client</title>
+    <link rel="stylesheet" type="text/css" href="/main.css" />
+    <link rel="stylesheet" type="text/css" href="http://code.jquery.com/ui/1.10.2/themes/smoothness/jquery-ui.css" />
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/ui/1.10.2/jquery-ui.js"></script>
+    <script type="text/javascript" src="http://www.google.com/jsapi"></script>
+    <script type="text/javascript" src="/utils.js"></script>
+    <script type="text/javascript" src="/chart_factory.js"></script>
+    <script type="text/javascript" src="/chart_overhead_compare.js"></script>
+    <script type="text/javascript" src="/chart_overall_throughput.js"></script>
+    <script type="text/javascript" src="/chart_handler_breakdown.js"></script>
+    <script type="text/javascript" src="/chart_port_counters.js"></script>
+    <script type="text/javascript" src="/chart_global_counters.js"></script>
+    <script type="text/javascript" src="/chart_port_downtime.js"></script>
+    <script type="text/javascript" src="/chart_topology_display.js"></script>
+    <script type="text/javascript" src="/main.js"></script>
+    <script type="text/javascript">
+        google.load('visualization', '1.0', {'packages':['corechart']});
+        google.setOnLoadCallback(gras_query_main);
+    </script>
+</head>
+
+<body id='page'>
+    <div id="chart_designer">
+        <table>
+            <tr>
+                <th id="top_name">Blocks Available</th>
+                <th>Chart Types</th>
+                <th>Global Options</th>
+            </tr>
+            <tr>
+                <td id="chart_designer_blocks" rowspan='2'></td>
+                <td><select id="chart_type_selector" /></td>
+                <td>
+                    <label for="chart_update_rate">Updates/sec:</label>
+                    <input id="chart_update_rate" type="spinner" />
+                </td>
+            </tr>
+            <tr>
+                <td><input type="button" value="Create New Chart" id="chart_factory_button" /></td>
+                <td><input id="chart_active_state" type="checkbox" /><label for="chart_active_state">Active</label></td>
+            </tr>
+        </table>
+    </div>
+    <div id="charts_panel"></div>
+    <div style="display:none" id="div-dialog-warning">
+    </div>
+</body>
+
+</html>

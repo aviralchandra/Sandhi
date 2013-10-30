@@ -1,0 +1,168 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="classgr_1_1filter_1_1pfb__interpolator__ccf__impl" kind="class" prot="public">
+    <compoundname>gr::filter::pfb_interpolator_ccf_impl</compoundname>
+    <includes refid="pfb__interpolator__ccf__impl_8h" local="no">pfb_interpolator_ccf_impl.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1filter_1_1pfb__interpolator__ccf__impl_1a6012f2c2ee9219d5bc2e30b9fb7aa74f" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool gr::filter::pfb_interpolator_ccf_impl::d_updated</definition>
+        <argsstring></argsstring>
+        <name>d_updated</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/pfb_interpolator_ccf_impl.h" line="39" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/pfb_interpolator_ccf_impl.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1filter_1_1pfb__interpolator__ccf__impl_1ac9f173070fa168716478e117bd8a2da0" prot="private" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int gr::filter::pfb_interpolator_ccf_impl::d_rate</definition>
+        <argsstring></argsstring>
+        <name>d_rate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/pfb_interpolator_ccf_impl.h" line="40" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/pfb_interpolator_ccf_impl.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1filter_1_1pfb__interpolator__ccf__impl_1aec2b6ffa2da64d042fc1f4614461f21b" prot="private" static="no" mutable="no">
+        <type>gruel::mutex</type>
+        <definition>gruel::mutex gr::filter::pfb_interpolator_ccf_impl::d_mutex</definition>
+        <argsstring></argsstring>
+        <name>d_mutex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/pfb_interpolator_ccf_impl.h" line="41" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/pfb_interpolator_ccf_impl.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1filter_1_1pfb__interpolator__ccf__impl_1aabce6e529452964d9051a449fc3a71d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::filter::pfb_interpolator_ccf_impl::pfb_interpolator_ccf_impl</definition>
+        <argsstring>(unsigned int interp, const std::vector&lt; float &gt; &amp;taps)</argsstring>
+        <name>pfb_interpolator_ccf_impl</name>
+        <param>
+          <type>unsigned int</type>
+          <declname>interp</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; float &gt; &amp;</type>
+          <declname>taps</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/pfb_interpolator_ccf_impl.h" line="45"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1filter_1_1pfb__interpolator__ccf__impl_1a1d805ea780c8be34b0af99d0a9996b31" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::filter::pfb_interpolator_ccf_impl::~pfb_interpolator_ccf_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~pfb_interpolator_ccf_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/pfb_interpolator_ccf_impl.h" line="47"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1filter_1_1pfb__interpolator__ccf__impl_1a47feaec8ca6510c8a603acd758fedf44" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::filter::pfb_interpolator_ccf_impl::set_taps</definition>
+        <argsstring>(const std::vector&lt; float &gt; &amp;taps)</argsstring>
+        <name>set_taps</name>
+        <param>
+          <type>const std::vector&lt; float &gt; &amp;</type>
+          <declname>taps</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/pfb_interpolator_ccf_impl.h" line="49"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1filter_1_1pfb__interpolator__ccf__impl_1aa19dd9ea9de684a46b6cdea38539c018" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::filter::pfb_interpolator_ccf_impl::print_taps</definition>
+        <argsstring>()</argsstring>
+        <name>print_taps</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/pfb_interpolator_ccf_impl.h" line="50"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1filter_1_1pfb__interpolator__ccf__impl_1ae33387ab4efcacda15391ad7fd246bf7" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; std::vector&lt; float &gt; &gt;</type>
+        <definition>std::vector&lt;std::vector&lt;float&gt; &gt; gr::filter::pfb_interpolator_ccf_impl::taps</definition>
+        <argsstring>() const </argsstring>
+        <name>taps</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/pfb_interpolator_ccf_impl.h" line="51"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1filter_1_1pfb__interpolator__ccf__impl_1a0aad581d8633d58b8f792bb8a868d91c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::filter::pfb_interpolator_ccf_impl::work</definition>
+        <argsstring>(int noutput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/pfb_interpolator_ccf_impl.h" line="55"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/pfb_interpolator_ccf_impl.h" line="37" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/pfb_interpolator_ccf_impl.h" bodystart="36" bodyend="56"/>
+    <listofallmembers>
+      <member refid="classgr_1_1filter_1_1pfb__interpolator__ccf__impl_1aec2b6ffa2da64d042fc1f4614461f21b" prot="private" virt="non-virtual"><scope>gr::filter::pfb_interpolator_ccf_impl</scope><name>d_mutex</name></member>
+      <member refid="classgr_1_1filter_1_1pfb__interpolator__ccf__impl_1ac9f173070fa168716478e117bd8a2da0" prot="private" virt="non-virtual"><scope>gr::filter::pfb_interpolator_ccf_impl</scope><name>d_rate</name></member>
+      <member refid="classgr_1_1filter_1_1pfb__interpolator__ccf__impl_1a6012f2c2ee9219d5bc2e30b9fb7aa74f" prot="private" virt="non-virtual"><scope>gr::filter::pfb_interpolator_ccf_impl</scope><name>d_updated</name></member>
+      <member refid="classgr_1_1filter_1_1pfb__interpolator__ccf__impl_1aabce6e529452964d9051a449fc3a71d4" prot="public" virt="non-virtual"><scope>gr::filter::pfb_interpolator_ccf_impl</scope><name>pfb_interpolator_ccf_impl</name></member>
+      <member refid="classgr_1_1filter_1_1pfb__interpolator__ccf__impl_1aa19dd9ea9de684a46b6cdea38539c018" prot="public" virt="non-virtual"><scope>gr::filter::pfb_interpolator_ccf_impl</scope><name>print_taps</name></member>
+      <member refid="classgr_1_1filter_1_1pfb__interpolator__ccf__impl_1a47feaec8ca6510c8a603acd758fedf44" prot="public" virt="non-virtual"><scope>gr::filter::pfb_interpolator_ccf_impl</scope><name>set_taps</name></member>
+      <member refid="classgr_1_1filter_1_1pfb__interpolator__ccf__impl_1ae33387ab4efcacda15391ad7fd246bf7" prot="public" virt="non-virtual"><scope>gr::filter::pfb_interpolator_ccf_impl</scope><name>taps</name></member>
+      <member refid="classgr_1_1filter_1_1pfb__interpolator__ccf__impl_1a0aad581d8633d58b8f792bb8a868d91c" prot="public" virt="non-virtual"><scope>gr::filter::pfb_interpolator_ccf_impl</scope><name>work</name></member>
+      <member refid="classgr_1_1filter_1_1pfb__interpolator__ccf__impl_1a1d805ea780c8be34b0af99d0a9996b31" prot="public" virt="non-virtual"><scope>gr::filter::pfb_interpolator_ccf_impl</scope><name>~pfb_interpolator_ccf_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

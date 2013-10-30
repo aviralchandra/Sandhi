@@ -1,0 +1,298 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="classgr_1_1filter_1_1kernel_1_1iir__filter" kind="class" prot="public">
+    <compoundname>gr::filter::kernel::iir_filter</compoundname>
+    <includes refid="iir__filter_8h" local="no">iir_filter.h</includes>
+    <templateparamlist>
+      <param>
+        <type>class</type>
+        <declname>i_type</declname>
+        <defname>i_type</defname>
+      </param>
+      <param>
+        <type>class</type>
+        <declname>o_type</declname>
+        <defname>o_type</defname>
+      </param>
+      <param>
+        <type>class</type>
+        <declname>tap_type</declname>
+        <defname>tap_type</defname>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classgr_1_1filter_1_1kernel_1_1iir__filter_1a903e4f9873bdd2946b8bc010dee0549f" prot="protected" static="no" mutable="no">
+        <type>std::vector&lt; tap_type &gt;</type>
+        <definition>std::vector&lt;tap_type&gt; gr::filter::kernel::iir_filter&lt; i_type, o_type, tap_type &gt;::d_fftaps</definition>
+        <argsstring></argsstring>
+        <name>d_fftaps</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/include/filter/iir_filter.h" line="118" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-filter/include/filter/iir_filter.h" bodystart="118" bodyend="-1"/>
+        <referencedby refid="classgr_1_1filter_1_1kernel_1_1iir__filter_1a32c5364bdb75267f521f9e187f8a1d82" compoundref="iir__filter_8h" startline="90" endline="90">gr::filter::kernel::iir_filter&lt; float, float, double &gt;::ntaps_ff</referencedby>
+        <referencedby refid="classgr_1_1filter_1_1kernel_1_1iir__filter_1a1ff87eaff39dcb007f79ed595f7cf7d3" compoundref="iir__filter_8h" startline="96" endline="115">gr::filter::kernel::iir_filter&lt; float, float, double &gt;::set_taps</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1filter_1_1kernel_1_1iir__filter_1adf311b2c19a1891e27a8e59d22f8cd54" prot="protected" static="no" mutable="no">
+        <type>std::vector&lt; tap_type &gt;</type>
+        <definition>std::vector&lt;tap_type&gt; gr::filter::kernel::iir_filter&lt; i_type, o_type, tap_type &gt;::d_fbtaps</definition>
+        <argsstring></argsstring>
+        <name>d_fbtaps</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/include/filter/iir_filter.h" line="119" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-filter/include/filter/iir_filter.h" bodystart="119" bodyend="-1"/>
+        <referencedby refid="classgr_1_1filter_1_1kernel_1_1iir__filter_1ab61086d9741834074cf6732d86fd483f" compoundref="iir__filter_8h" startline="91" endline="91">gr::filter::kernel::iir_filter&lt; float, float, double &gt;::ntaps_fb</referencedby>
+        <referencedby refid="classgr_1_1filter_1_1kernel_1_1iir__filter_1a1ff87eaff39dcb007f79ed595f7cf7d3" compoundref="iir__filter_8h" startline="96" endline="115">gr::filter::kernel::iir_filter&lt; float, float, double &gt;::set_taps</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1filter_1_1kernel_1_1iir__filter_1a9871f95fae0caa9591c4a6efead64528" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::filter::kernel::iir_filter&lt; i_type, o_type, tap_type &gt;::d_latest_n</definition>
+        <argsstring></argsstring>
+        <name>d_latest_n</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/include/filter/iir_filter.h" line="120" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-filter/include/filter/iir_filter.h" bodystart="120" bodyend="-1"/>
+        <referencedby refid="classgr_1_1filter_1_1kernel_1_1iir__filter_1a1ff87eaff39dcb007f79ed595f7cf7d3" compoundref="iir__filter_8h" startline="96" endline="115">gr::filter::kernel::iir_filter&lt; float, float, double &gt;::set_taps</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1filter_1_1kernel_1_1iir__filter_1a4363ff21e735805cba8d74331d6bed21" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::filter::kernel::iir_filter&lt; i_type, o_type, tap_type &gt;::d_latest_m</definition>
+        <argsstring></argsstring>
+        <name>d_latest_m</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/include/filter/iir_filter.h" line="121" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-filter/include/filter/iir_filter.h" bodystart="121" bodyend="-1"/>
+        <referencedby refid="classgr_1_1filter_1_1kernel_1_1iir__filter_1a1ff87eaff39dcb007f79ed595f7cf7d3" compoundref="iir__filter_8h" startline="96" endline="115">gr::filter::kernel::iir_filter&lt; float, float, double &gt;::set_taps</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1filter_1_1kernel_1_1iir__filter_1ada105c79b12b9304843f7f209b009172" prot="protected" static="no" mutable="no">
+        <type>std::vector&lt; tap_type &gt;</type>
+        <definition>std::vector&lt;tap_type&gt; gr::filter::kernel::iir_filter&lt; i_type, o_type, tap_type &gt;::d_prev_output</definition>
+        <argsstring></argsstring>
+        <name>d_prev_output</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/include/filter/iir_filter.h" line="122" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-filter/include/filter/iir_filter.h" bodystart="122" bodyend="-1"/>
+        <referencedby refid="classgr_1_1filter_1_1kernel_1_1iir__filter_1a1ff87eaff39dcb007f79ed595f7cf7d3" compoundref="iir__filter_8h" startline="96" endline="115">gr::filter::kernel::iir_filter&lt; float, float, double &gt;::set_taps</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1filter_1_1kernel_1_1iir__filter_1a149e69591643e8ace02c74fd3f94f2a5" prot="protected" static="no" mutable="no">
+        <type>std::vector&lt; i_type &gt;</type>
+        <definition>std::vector&lt;i_type&gt; gr::filter::kernel::iir_filter&lt; i_type, o_type, tap_type &gt;::d_prev_input</definition>
+        <argsstring></argsstring>
+        <name>d_prev_input</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/include/filter/iir_filter.h" line="123" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-filter/include/filter/iir_filter.h" bodystart="123" bodyend="-1"/>
+        <referencedby refid="classgr_1_1filter_1_1kernel_1_1iir__filter_1a1ff87eaff39dcb007f79ed595f7cf7d3" compoundref="iir__filter_8h" startline="96" endline="115">gr::filter::kernel::iir_filter&lt; float, float, double &gt;::set_taps</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1filter_1_1kernel_1_1iir__filter_1abb4c0147e6f7ca94b0766b48f31858c5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>gr::filter::kernel::iir_filter&lt; i_type, o_type, tap_type &gt;::iir_filter</definition>
+        <argsstring>(const std::vector&lt; tap_type &gt; &amp;fftaps, const std::vector&lt; tap_type &gt; &amp;fbtaps)</argsstring>
+        <name>iir_filter</name>
+        <param>
+          <type>const std::vector&lt; tap_type &gt; &amp;</type>
+          <declname>fftaps</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; tap_type &gt; &amp;</type>
+          <declname>fbtaps</declname>
+        </param>
+        <exceptions> throw (std::invalid_argument)</exceptions>
+        <briefdescription>
+<para>Construct an IIR with the given taps. </para>        </briefdescription>
+        <detaileddescription>
+<para>This filter uses the Direct Form I implementation, where <computeroutput>fftaps</computeroutput> contains the feed-forward taps, and <computeroutput>fbtaps</computeroutput> the feedback ones.</para><para><computeroutput>fftaps</computeroutput> and <computeroutput>fbtaps</computeroutput> must have equal numbers of taps</para><para>The input and output satisfy a difference equation of the form</para><para><formula id="0">\[ y[n] - \sum_{k=1}^{M} a_k y[n-k] = \sum_{k=0}^{N} b_k x[n-k] \]</formula></para><para>with the corresponding rational system function</para><para><formula id="1">\[ H(z) = \frac{\sum_{k=0}^{N} b_k z^{-k}}{1 - \sum_{k=1}^{M} a_k z^{-k}} \]</formula></para><para>Note that some texts define the system function with a + in the denominator. If you&apos;re using that convention, you&apos;ll need to negate the feedback taps. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/include/filter/iir_filter.h" line="67" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-filter/include/filter/iir_filter.h" bodystart="65" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1filter_1_1kernel_1_1iir__filter_1a414bb007d2da38867e9e4e6da0f66def" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>gr::filter::kernel::iir_filter&lt; i_type, o_type, tap_type &gt;::iir_filter</definition>
+        <argsstring>()</argsstring>
+        <name>iir_filter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/include/filter/iir_filter.h" line="71" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-filter/include/filter/iir_filter.h" bodystart="71" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1filter_1_1kernel_1_1iir__filter_1ae3c1ae8c68057c7fd4ab6082ef916daa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>gr::filter::kernel::iir_filter&lt; i_type, o_type, tap_type &gt;::~iir_filter</definition>
+        <argsstring>()</argsstring>
+        <name>~iir_filter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/include/filter/iir_filter.h" line="73" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-filter/include/filter/iir_filter.h" bodystart="73" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1filter_1_1kernel_1_1iir__filter_1a34b16ee180319b1398049e591fbd8d07" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>o_type</type>
+        <definition>o_type gr::filter::kernel::iir_filter&lt; i_type, o_type, tap_type &gt;::filter</definition>
+        <argsstring>(const i_type input)</argsstring>
+        <name>filter</name>
+        <param>
+          <type>const i_type</type>
+          <declname>input</declname>
+        </param>
+        <briefdescription>
+<para>compute a single output value. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>the filtered input value. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/include/filter/iir_filter.h" line="79" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-filter/include/filter/iir_filter.h" bodystart="131" bodyend="166"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1filter_1_1kernel_1_1iir__filter_1a8549335490780d0d59f86908f2675d78" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="volk_8tmpl_8h_1a2b104da38b6f0a28d721ed74346ef298" kindref="member">void</ref></type>
+        <definition>void gr::filter::kernel::iir_filter&lt; i_type, o_type, tap_type &gt;::filter_n</definition>
+        <argsstring>(o_type output[], const i_type input[], long n)</argsstring>
+        <name>filter_n</name>
+        <param>
+          <type>o_type</type>
+          <declname>output</declname>
+          <array>[]</array>
+        </param>
+        <param>
+          <type>const i_type</type>
+          <declname>input</declname>
+          <array>[]</array>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+<para>compute an array of N output values. <computeroutput>input</computeroutput> must have N valid entries. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/include/filter/iir_filter.h" line="85" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-filter/include/filter/iir_filter.h" bodystart="170" bodyend="176"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1filter_1_1kernel_1_1iir__filter_1a32c5364bdb75267f521f9e187f8a1d82" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsigned</type>
+        <definition>unsigned gr::filter::kernel::iir_filter&lt; i_type, o_type, tap_type &gt;::ntaps_ff</definition>
+        <argsstring>() const </argsstring>
+        <name>ntaps_ff</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>number of taps in filter. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/include/filter/iir_filter.h" line="90" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-filter/include/filter/iir_filter.h" bodystart="90" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1filter_1_1kernel_1_1iir__filter_1ab61086d9741834074cf6732d86fd483f" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsigned</type>
+        <definition>unsigned gr::filter::kernel::iir_filter&lt; i_type, o_type, tap_type &gt;::ntaps_fb</definition>
+        <argsstring>() const </argsstring>
+        <name>ntaps_fb</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/include/filter/iir_filter.h" line="91" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-filter/include/filter/iir_filter.h" bodystart="91" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1filter_1_1kernel_1_1iir__filter_1a1ff87eaff39dcb007f79ed595f7cf7d3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="volk_8tmpl_8h_1a2b104da38b6f0a28d721ed74346ef298" kindref="member">void</ref></type>
+        <definition>void gr::filter::kernel::iir_filter&lt; i_type, o_type, tap_type &gt;::set_taps</definition>
+        <argsstring>(const std::vector&lt; tap_type &gt; &amp;fftaps, const std::vector&lt; tap_type &gt; &amp;fbtaps)</argsstring>
+        <name>set_taps</name>
+        <param>
+          <type>const std::vector&lt; tap_type &gt; &amp;</type>
+          <declname>fftaps</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; tap_type &gt; &amp;</type>
+          <declname>fbtaps</declname>
+        </param>
+        <exceptions> throw (std::invalid_argument)</exceptions>
+        <briefdescription>
+<para>install new taps. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/include/filter/iir_filter.h" line="98" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-filter/include/filter/iir_filter.h" bodystart="96" bodyend="115"/>
+        <referencedby refid="classgr_1_1filter_1_1kernel_1_1iir__filter_1abb4c0147e6f7ca94b0766b48f31858c5" compoundref="iir__filter_8h" startline="65" endline="69">gr::filter::kernel::iir_filter&lt; float, float, double &gt;::iir_filter</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>base class template for Infinite Impulse Response filter (IIR) </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="5253">
+        <label>std::vector&lt; tap_type &gt;</label>
+      </node>
+      <node id="5254">
+        <label>std::vector&lt; i_type &gt;</label>
+      </node>
+      <node id="5252">
+        <label>gr::filter::kernel::iir_filter&lt; i_type, o_type, tap_type &gt;</label>
+        <link refid="classgr_1_1filter_1_1kernel_1_1iir__filter"/>
+        <childnode refid="5253" relation="usage">
+          <edgelabel>d_fftaps</edgelabel>
+          <edgelabel>d_prev_output</edgelabel>
+          <edgelabel>d_fbtaps</edgelabel>
+        </childnode>
+        <childnode refid="5254" relation="usage">
+          <edgelabel>d_prev_input</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/include/filter/iir_filter.h" line="39" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-filter/include/filter/iir_filter.h" bodystart="38" bodyend="124"/>
+    <listofallmembers>
+      <member refid="classgr_1_1filter_1_1kernel_1_1iir__filter_1adf311b2c19a1891e27a8e59d22f8cd54" prot="protected" virt="non-virtual"><scope>gr::filter::kernel::iir_filter</scope><name>d_fbtaps</name></member>
+      <member refid="classgr_1_1filter_1_1kernel_1_1iir__filter_1a903e4f9873bdd2946b8bc010dee0549f" prot="protected" virt="non-virtual"><scope>gr::filter::kernel::iir_filter</scope><name>d_fftaps</name></member>
+      <member refid="classgr_1_1filter_1_1kernel_1_1iir__filter_1a4363ff21e735805cba8d74331d6bed21" prot="protected" virt="non-virtual"><scope>gr::filter::kernel::iir_filter</scope><name>d_latest_m</name></member>
+      <member refid="classgr_1_1filter_1_1kernel_1_1iir__filter_1a9871f95fae0caa9591c4a6efead64528" prot="protected" virt="non-virtual"><scope>gr::filter::kernel::iir_filter</scope><name>d_latest_n</name></member>
+      <member refid="classgr_1_1filter_1_1kernel_1_1iir__filter_1a149e69591643e8ace02c74fd3f94f2a5" prot="protected" virt="non-virtual"><scope>gr::filter::kernel::iir_filter</scope><name>d_prev_input</name></member>
+      <member refid="classgr_1_1filter_1_1kernel_1_1iir__filter_1ada105c79b12b9304843f7f209b009172" prot="protected" virt="non-virtual"><scope>gr::filter::kernel::iir_filter</scope><name>d_prev_output</name></member>
+      <member refid="classgr_1_1filter_1_1kernel_1_1iir__filter_1a34b16ee180319b1398049e591fbd8d07" prot="public" virt="non-virtual"><scope>gr::filter::kernel::iir_filter</scope><name>filter</name></member>
+      <member refid="classgr_1_1filter_1_1kernel_1_1iir__filter_1a8549335490780d0d59f86908f2675d78" prot="public" virt="non-virtual"><scope>gr::filter::kernel::iir_filter</scope><name>filter_n</name></member>
+      <member refid="classgr_1_1filter_1_1kernel_1_1iir__filter_1abb4c0147e6f7ca94b0766b48f31858c5" prot="public" virt="non-virtual"><scope>gr::filter::kernel::iir_filter</scope><name>iir_filter</name></member>
+      <member refid="classgr_1_1filter_1_1kernel_1_1iir__filter_1a414bb007d2da38867e9e4e6da0f66def" prot="public" virt="non-virtual"><scope>gr::filter::kernel::iir_filter</scope><name>iir_filter</name></member>
+      <member refid="classgr_1_1filter_1_1kernel_1_1iir__filter_1ab61086d9741834074cf6732d86fd483f" prot="public" virt="non-virtual"><scope>gr::filter::kernel::iir_filter</scope><name>ntaps_fb</name></member>
+      <member refid="classgr_1_1filter_1_1kernel_1_1iir__filter_1a32c5364bdb75267f521f9e187f8a1d82" prot="public" virt="non-virtual"><scope>gr::filter::kernel::iir_filter</scope><name>ntaps_ff</name></member>
+      <member refid="classgr_1_1filter_1_1kernel_1_1iir__filter_1a1ff87eaff39dcb007f79ed595f7cf7d3" prot="public" virt="non-virtual"><scope>gr::filter::kernel::iir_filter</scope><name>set_taps</name></member>
+      <member refid="classgr_1_1filter_1_1kernel_1_1iir__filter_1ae3c1ae8c68057c7fd4ab6082ef916daa" prot="public" virt="non-virtual"><scope>gr::filter::kernel::iir_filter</scope><name>~iir_filter</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

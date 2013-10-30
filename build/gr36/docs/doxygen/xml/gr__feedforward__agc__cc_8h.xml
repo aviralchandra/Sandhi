@@ -1,0 +1,257 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="gr__feedforward__agc__cc_8h" kind="file">
+    <compoundname>gr_feedforward_agc_cc.h</compoundname>
+    <includes refid="gr__core__api_8h" local="no">gr_core_api.h</includes>
+    <includes refid="gr__sync__block_8h" local="no">gr_sync_block.h</includes>
+    <incdepgraph>
+      <node id="6687">
+        <label>boost/thread/mutex.hpp</label>
+      </node>
+      <node id="6689">
+        <label>boost/thread/condition_variable.hpp</label>
+      </node>
+      <node id="6671">
+        <label>boost/shared_ptr.hpp</label>
+      </node>
+      <node id="6668">
+        <label>gruel/pmt.h</label>
+        <link refid="pmt_8h"/>
+        <childnode refid="6669" relation="include">
+        </childnode>
+        <childnode refid="6670" relation="include">
+        </childnode>
+        <childnode refid="6671" relation="include">
+        </childnode>
+        <childnode refid="6672" relation="include">
+        </childnode>
+        <childnode refid="6673" relation="include">
+        </childnode>
+        <childnode refid="6674" relation="include">
+        </childnode>
+        <childnode refid="6675" relation="include">
+        </childnode>
+        <childnode refid="6678" relation="include">
+        </childnode>
+        <childnode refid="6679" relation="include">
+        </childnode>
+        <childnode refid="6680" relation="include">
+        </childnode>
+        <childnode refid="6681" relation="include">
+        </childnode>
+      </node>
+      <node id="6655">
+        <label>gr_feedforward_agc_cc.h</label>
+        <link refid="gr_feedforward_agc_cc.h"/>
+        <childnode refid="6656" relation="include">
+        </childnode>
+        <childnode refid="6658" relation="include">
+        </childnode>
+      </node>
+      <node id="6670">
+        <label>boost/intrusive_ptr.hpp</label>
+      </node>
+      <node id="6656">
+        <label>gr_core_api.h</label>
+        <link refid="gr__core__api_8h"/>
+        <childnode refid="6657" relation="include">
+        </childnode>
+      </node>
+      <node id="6675">
+        <label>stdint.h</label>
+        <link refid="stdint_8h"/>
+        <childnode refid="6676" relation="include">
+        </childnode>
+        <childnode refid="6677" relation="include">
+        </childnode>
+      </node>
+      <node id="6666">
+        <label>gras/hier_block.hpp</label>
+      </node>
+      <node id="6665">
+        <label>gras/top_block.hpp</label>
+      </node>
+      <node id="6684">
+        <label>boost/foreach.hpp</label>
+      </node>
+      <node id="6679">
+        <label>stdexcept</label>
+      </node>
+      <node id="6660">
+        <label>gras/block.hpp</label>
+      </node>
+      <node id="6686">
+        <label>boost/thread/thread.hpp</label>
+      </node>
+      <node id="6674">
+        <label>string</label>
+      </node>
+      <node id="6683">
+        <label>map</label>
+      </node>
+      <node id="6657">
+        <label>gruel/attributes.h</label>
+        <link refid="attributes_8h"/>
+      </node>
+      <node id="6676">
+        <label>limits.h</label>
+      </node>
+      <node id="6672">
+        <label>boost/any.hpp</label>
+      </node>
+      <node id="6659">
+        <label>gr_block.h</label>
+        <link refid="gr__block_8h"/>
+        <childnode refid="6656" relation="include">
+        </childnode>
+        <childnode refid="6660" relation="include">
+        </childnode>
+        <childnode refid="6661" relation="include">
+        </childnode>
+        <childnode refid="6663" relation="include">
+        </childnode>
+        <childnode refid="6667" relation="include">
+        </childnode>
+        <childnode refid="6674" relation="include">
+        </childnode>
+        <childnode refid="6682" relation="include">
+        </childnode>
+        <childnode refid="6683" relation="include">
+        </childnode>
+        <childnode refid="6684" relation="include">
+        </childnode>
+        <childnode refid="6685" relation="include">
+        </childnode>
+        <childnode refid="6690" relation="include">
+        </childnode>
+      </node>
+      <node id="6662">
+        <label>gr_runtime_types.h</label>
+        <link refid="gr__runtime__types_8h"/>
+        <childnode refid="6656" relation="include">
+        </childnode>
+        <childnode refid="6663" relation="include">
+        </childnode>
+      </node>
+      <node id="6677">
+        <label>wchar.h</label>
+      </node>
+      <node id="6681">
+        <label>gruel/pmt_sugar.h</label>
+        <link refid="pmt__sugar_8h"/>
+      </node>
+      <node id="6688">
+        <label>boost/thread/locks.hpp</label>
+      </node>
+      <node id="6658">
+        <label>gr_sync_block.h</label>
+        <link refid="gr__sync__block_8h"/>
+        <childnode refid="6659" relation="include">
+        </childnode>
+      </node>
+      <node id="6680">
+        <label>vector</label>
+      </node>
+      <node id="6661">
+        <label>gr_io_signature.h</label>
+        <link refid="gr__io__signature_8h"/>
+        <childnode refid="6656" relation="include">
+        </childnode>
+        <childnode refid="6662" relation="include">
+        </childnode>
+      </node>
+      <node id="6669">
+        <label>gruel/api.h</label>
+        <link refid="gruel_2src_2include_2gruel_2api_8h"/>
+        <childnode refid="6657" relation="include">
+        </childnode>
+      </node>
+      <node id="6678">
+        <label>iosfwd</label>
+      </node>
+      <node id="6663">
+        <label>gr_types.h</label>
+        <link refid="gr__types_8h"/>
+        <childnode refid="6664" relation="include">
+        </childnode>
+        <childnode refid="6660" relation="include">
+        </childnode>
+        <childnode refid="6665" relation="include">
+        </childnode>
+        <childnode refid="6666" relation="include">
+        </childnode>
+      </node>
+      <node id="6685">
+        <label>gruel/thread.h</label>
+        <link refid="thread_8h"/>
+        <childnode refid="6669" relation="include">
+        </childnode>
+        <childnode refid="6686" relation="include">
+        </childnode>
+        <childnode refid="6687" relation="include">
+        </childnode>
+        <childnode refid="6688" relation="include">
+        </childnode>
+        <childnode refid="6689" relation="include">
+        </childnode>
+        <childnode refid="6680" relation="include">
+        </childnode>
+      </node>
+      <node id="6682">
+        <label>deque</label>
+      </node>
+      <node id="6667">
+        <label>gr_tags.h</label>
+        <link refid="gr__tags_8h"/>
+        <childnode refid="6656" relation="include">
+        </childnode>
+        <childnode refid="6668" relation="include">
+        </childnode>
+      </node>
+      <node id="6673">
+        <label>complex</label>
+      </node>
+      <node id="6690">
+        <label>gr_sptr_magic.h</label>
+        <link refid="gr__sptr__magic_8h_source"/>
+        <childnode refid="6656" relation="include">
+        </childnode>
+        <childnode refid="6671" relation="include">
+        </childnode>
+      </node>
+      <node id="6664">
+        <label>gras/element.hpp</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classgr__feedforward__agc__cc" prot="public">gr_feedforward_agc_cc</innerclass>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="gr__feedforward__agc__cc_8h_1a5accfaab4070670a3cf747c2c549b349" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="gr__core__api_8h_1a8b8937b0c61edd85ab57ce8203543248" kindref="member">GR_CORE_API</ref> <ref refid="classboost_1_1shared__ptr" kindref="compound">gr_feedforward_agc_cc_sptr</ref></type>
+        <definition>GR_CORE_API gr_feedforward_agc_cc_sptr gr_make_feedforward_agc_cc</definition>
+        <argsstring>(int nsamples, float reference=1.0)</argsstring>
+        <name>gr_make_feedforward_agc_cc</name>
+        <param>
+          <type>int</type>
+          <declname>nsamples</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>reference</declname>
+          <defval>1.0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_feedforward_agc_cc.h" line="33"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_feedforward_agc_cc.h"/>
+  </compounddef>
+</doxygen>

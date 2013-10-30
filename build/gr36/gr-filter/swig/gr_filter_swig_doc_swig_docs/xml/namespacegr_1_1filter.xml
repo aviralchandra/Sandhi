@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="namespacegr_1_1filter" kind="namespace">
+    <compoundname>gr::filter</compoundname>
+    <innerclass refid="classgr_1_1filter_1_1adaptive__fir__ccc__impl" prot="public">gr::filter::adaptive_fir_ccc_impl</innerclass>
+    <innerclass refid="classgr_1_1filter_1_1adaptive__fir__ccf__impl" prot="public">gr::filter::adaptive_fir_ccf_impl</innerclass>
+    <innerclass refid="classgr_1_1filter_1_1channel__model__impl" prot="public">gr::filter::channel_model_impl</innerclass>
+    <innerclass refid="classgr_1_1filter_1_1moving__averager__c" prot="public">gr::filter::moving_averager_c</innerclass>
+    <innerclass refid="classgr_1_1filter_1_1dc__blocker__cc__impl" prot="public">gr::filter::dc_blocker_cc_impl</innerclass>
+    <innerclass refid="classgr_1_1filter_1_1moving__averager__f" prot="public">gr::filter::moving_averager_f</innerclass>
+    <innerclass refid="classgr_1_1filter_1_1dc__blocker__ff__impl" prot="public">gr::filter::dc_blocker_ff_impl</innerclass>
+    <innerclass refid="classgr_1_1filter_1_1fft__filter__ccc__impl" prot="public">gr::filter::fft_filter_ccc_impl</innerclass>
+    <innerclass refid="classgr_1_1filter_1_1fft__filter__fff__impl" prot="public">gr::filter::fft_filter_fff_impl</innerclass>
+    <innerclass refid="classgr_1_1filter_1_1filter__delay__fc__impl" prot="public">gr::filter::filter_delay_fc_impl</innerclass>
+    <innerclass refid="classgr_1_1filter_1_1fractional__interpolator__cc__impl" prot="public">gr::filter::fractional_interpolator_cc_impl</innerclass>
+    <innerclass refid="classgr_1_1filter_1_1fractional__interpolator__ff__impl" prot="public">gr::filter::fractional_interpolator_ff_impl</innerclass>
+    <innerclass refid="classgr_1_1filter_1_1hilbert__fc__impl" prot="public">gr::filter::hilbert_fc_impl</innerclass>
+    <innerclass refid="classgr_1_1filter_1_1iir__filter__ffd__impl" prot="public">gr::filter::iir_filter_ffd_impl</innerclass>
+    <innerclass refid="classgr_1_1filter_1_1pfb__arb__resampler__ccf__impl" prot="public">gr::filter::pfb_arb_resampler_ccf_impl</innerclass>
+    <innerclass refid="classgr_1_1filter_1_1pfb__arb__resampler__fff__impl" prot="public">gr::filter::pfb_arb_resampler_fff_impl</innerclass>
+    <innerclass refid="classgr_1_1filter_1_1pfb__channelizer__ccf__impl" prot="public">gr::filter::pfb_channelizer_ccf_impl</innerclass>
+    <innerclass refid="classgr_1_1filter_1_1pfb__decimator__ccf__impl" prot="public">gr::filter::pfb_decimator_ccf_impl</innerclass>
+    <innerclass refid="classgr_1_1filter_1_1pfb__interpolator__ccf__impl" prot="public">gr::filter::pfb_interpolator_ccf_impl</innerclass>
+    <innerclass refid="classgr_1_1filter_1_1pfb__synthesizer__ccf__impl" prot="public">gr::filter::pfb_synthesizer_ccf_impl</innerclass>
+    <innerclass refid="classgr_1_1filter_1_1qa__firdes" prot="public">gr::filter::qa_firdes</innerclass>
+    <innerclass refid="classgr_1_1filter_1_1qa__mmse__fir__interpolator__cc" prot="public">gr::filter::qa_mmse_fir_interpolator_cc</innerclass>
+    <innerclass refid="classgr_1_1filter_1_1qa__mmse__fir__interpolator__ff" prot="public">gr::filter::qa_mmse_fir_interpolator_ff</innerclass>
+    <innerclass refid="classgr_1_1filter_1_1single__pole__iir__filter__cc__impl" prot="public">gr::filter::single_pole_iir_filter_cc_impl</innerclass>
+    <innerclass refid="classgr_1_1filter_1_1single__pole__iir__filter__ff__impl" prot="public">gr::filter::single_pole_iir_filter_ff_impl</innerclass>
+    <innernamespace refid="namespacegr_1_1filter_1_1ccc">gr::filter::ccc</innernamespace>
+    <innernamespace refid="namespacegr_1_1filter_1_1ccf">gr::filter::ccf</innernamespace>
+    <innernamespace refid="namespacegr_1_1filter_1_1fff">gr::filter::fff</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/adaptive_fir_ccc_impl.h" line="31"/>
+  </compounddef>
+</doxygen>

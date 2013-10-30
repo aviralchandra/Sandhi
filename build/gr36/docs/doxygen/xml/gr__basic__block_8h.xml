@@ -1,0 +1,399 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="gr__basic__block_8h" kind="file">
+    <compoundname>gr_basic_block.h</compoundname>
+    <includes refid="gr__core__api_8h" local="no">gr_core_api.h</includes>
+    <includes refid="gr__runtime__types_8h" local="no">gr_runtime_types.h</includes>
+    <includes refid="gr__sptr__magic_8h" local="no">gr_sptr_magic.h</includes>
+    <includes local="no">boost/enable_shared_from_this.hpp</includes>
+    <includes local="no">boost/function.hpp</includes>
+    <includes refid="gr__msg__accepter_8h" local="no">gr_msg_accepter.h</includes>
+    <includes local="no">string</includes>
+    <includes local="no">deque</includes>
+    <includes local="no">map</includes>
+    <includes refid="gr__io__signature_8h" local="no">gr_io_signature.h</includes>
+    <includes refid="thread_8h" local="no">gruel/thread.h</includes>
+    <includes local="no">boost/foreach.hpp</includes>
+    <includes local="no">boost/thread/condition_variable.hpp</includes>
+    <includes local="no">iostream</includes>
+    <includedby refid="gr__block__registry_8h" local="no">gr_block_registry.h</includedby>
+    <includedby refid="gr__flowgraph_8h" local="no">gr_flowgraph.h</includedby>
+    <incdepgraph>
+      <node id="4459">
+        <label>boost/thread/mutex.hpp</label>
+      </node>
+      <node id="4440">
+        <label>gruel/msg_accepter.h</label>
+        <link refid="msg__accepter_8h"/>
+        <childnode refid="4441" relation="include">
+        </childnode>
+        <childnode refid="4442" relation="include">
+        </childnode>
+        <childnode refid="4436" relation="include">
+        </childnode>
+      </node>
+      <node id="4461">
+        <label>boost/thread/condition_variable.hpp</label>
+      </node>
+      <node id="4436">
+        <label>boost/shared_ptr.hpp</label>
+      </node>
+      <node id="4442">
+        <label>gruel/pmt.h</label>
+        <link refid="pmt_8h"/>
+        <childnode refid="4441" relation="include">
+        </childnode>
+        <childnode refid="4443" relation="include">
+        </childnode>
+        <childnode refid="4436" relation="include">
+        </childnode>
+        <childnode refid="4444" relation="include">
+        </childnode>
+        <childnode refid="4445" relation="include">
+        </childnode>
+        <childnode refid="4446" relation="include">
+        </childnode>
+        <childnode refid="4447" relation="include">
+        </childnode>
+        <childnode refid="4450" relation="include">
+        </childnode>
+        <childnode refid="4451" relation="include">
+        </childnode>
+        <childnode refid="4452" relation="include">
+        </childnode>
+        <childnode refid="4453" relation="include">
+        </childnode>
+      </node>
+      <node id="4443">
+        <label>boost/intrusive_ptr.hpp</label>
+      </node>
+      <node id="4427">
+        <label>gr_core_api.h</label>
+        <link refid="gr__core__api_8h"/>
+        <childnode refid="4428" relation="include">
+        </childnode>
+      </node>
+      <node id="4447">
+        <label>stdint.h</label>
+        <link refid="stdint_8h"/>
+        <childnode refid="4448" relation="include">
+        </childnode>
+        <childnode refid="4449" relation="include">
+        </childnode>
+      </node>
+      <node id="4434">
+        <label>gras/hier_block.hpp</label>
+      </node>
+      <node id="4433">
+        <label>gras/top_block.hpp</label>
+      </node>
+      <node id="4462">
+        <label>boost/foreach.hpp</label>
+      </node>
+      <node id="4451">
+        <label>stdexcept</label>
+      </node>
+      <node id="4432">
+        <label>gras/block.hpp</label>
+      </node>
+      <node id="4458">
+        <label>boost/thread/thread.hpp</label>
+      </node>
+      <node id="4446">
+        <label>string</label>
+      </node>
+      <node id="4455">
+        <label>map</label>
+      </node>
+      <node id="4428">
+        <label>gruel/attributes.h</label>
+        <link refid="attributes_8h"/>
+      </node>
+      <node id="4438">
+        <label>boost/function.hpp</label>
+      </node>
+      <node id="4448">
+        <label>limits.h</label>
+      </node>
+      <node id="4444">
+        <label>boost/any.hpp</label>
+      </node>
+      <node id="4439">
+        <label>gr_msg_accepter.h</label>
+        <link refid="gr__msg__accepter_8h"/>
+        <childnode refid="4427" relation="include">
+        </childnode>
+        <childnode refid="4440" relation="include">
+        </childnode>
+        <childnode refid="4442" relation="include">
+        </childnode>
+      </node>
+      <node id="4429">
+        <label>gr_runtime_types.h</label>
+        <link refid="gr__runtime__types_8h"/>
+        <childnode refid="4427" relation="include">
+        </childnode>
+        <childnode refid="4430" relation="include">
+        </childnode>
+      </node>
+      <node id="4449">
+        <label>wchar.h</label>
+      </node>
+      <node id="4453">
+        <label>gruel/pmt_sugar.h</label>
+        <link refid="pmt__sugar_8h"/>
+      </node>
+      <node id="4460">
+        <label>boost/thread/locks.hpp</label>
+      </node>
+      <node id="4452">
+        <label>vector</label>
+      </node>
+      <node id="4456">
+        <label>gr_io_signature.h</label>
+        <link refid="gr__io__signature_8h"/>
+        <childnode refid="4427" relation="include">
+        </childnode>
+        <childnode refid="4429" relation="include">
+        </childnode>
+      </node>
+      <node id="4441">
+        <label>gruel/api.h</label>
+        <link refid="gruel_2src_2include_2gruel_2api_8h"/>
+        <childnode refid="4428" relation="include">
+        </childnode>
+      </node>
+      <node id="4437">
+        <label>boost/enable_shared_from_this.hpp</label>
+      </node>
+      <node id="4450">
+        <label>iosfwd</label>
+      </node>
+      <node id="4430">
+        <label>gr_types.h</label>
+        <link refid="gr__types_8h"/>
+        <childnode refid="4431" relation="include">
+        </childnode>
+        <childnode refid="4432" relation="include">
+        </childnode>
+        <childnode refid="4433" relation="include">
+        </childnode>
+        <childnode refid="4434" relation="include">
+        </childnode>
+      </node>
+      <node id="4463">
+        <label>iostream</label>
+      </node>
+      <node id="4457">
+        <label>gruel/thread.h</label>
+        <link refid="thread_8h"/>
+        <childnode refid="4441" relation="include">
+        </childnode>
+        <childnode refid="4458" relation="include">
+        </childnode>
+        <childnode refid="4459" relation="include">
+        </childnode>
+        <childnode refid="4460" relation="include">
+        </childnode>
+        <childnode refid="4461" relation="include">
+        </childnode>
+        <childnode refid="4452" relation="include">
+        </childnode>
+      </node>
+      <node id="4454">
+        <label>deque</label>
+      </node>
+      <node id="4426">
+        <label>gr_basic_block.h</label>
+        <link refid="gr_basic_block.h"/>
+        <childnode refid="4427" relation="include">
+        </childnode>
+        <childnode refid="4429" relation="include">
+        </childnode>
+        <childnode refid="4435" relation="include">
+        </childnode>
+        <childnode refid="4437" relation="include">
+        </childnode>
+        <childnode refid="4438" relation="include">
+        </childnode>
+        <childnode refid="4439" relation="include">
+        </childnode>
+        <childnode refid="4446" relation="include">
+        </childnode>
+        <childnode refid="4454" relation="include">
+        </childnode>
+        <childnode refid="4455" relation="include">
+        </childnode>
+        <childnode refid="4456" relation="include">
+        </childnode>
+        <childnode refid="4457" relation="include">
+        </childnode>
+        <childnode refid="4462" relation="include">
+        </childnode>
+        <childnode refid="4461" relation="include">
+        </childnode>
+        <childnode refid="4463" relation="include">
+        </childnode>
+      </node>
+      <node id="4445">
+        <label>complex</label>
+      </node>
+      <node id="4435">
+        <label>gr_sptr_magic.h</label>
+        <link refid="gr__sptr__magic_8h_source"/>
+        <childnode refid="4427" relation="include">
+        </childnode>
+        <childnode refid="4436" relation="include">
+        </childnode>
+      </node>
+      <node id="4431">
+        <label>gras/element.hpp</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="4470">
+        <label>gr_scheduler_sts.h</label>
+        <link refid="gr__scheduler__sts_8h"/>
+      </node>
+      <node id="4469">
+        <label>gr_scheduler.h</label>
+        <link refid="gr__scheduler_8h"/>
+        <childnode refid="4470" relation="include">
+        </childnode>
+        <childnode refid="4471" relation="include">
+        </childnode>
+        <childnode refid="4472" relation="include">
+        </childnode>
+      </node>
+      <node id="4467">
+        <label>gr_flat_flowgraph.h</label>
+        <link refid="gr__flat__flowgraph_8h"/>
+        <childnode refid="4468" relation="include">
+        </childnode>
+        <childnode refid="4469" relation="include">
+        </childnode>
+      </node>
+      <node id="4465">
+        <label>gr_block_registry.h</label>
+        <link refid="gr__block__registry_8h"/>
+      </node>
+      <node id="4466">
+        <label>gr_flowgraph.h</label>
+        <link refid="gr__flowgraph_8h"/>
+        <childnode refid="4467" relation="include">
+        </childnode>
+      </node>
+      <node id="4471">
+        <label>gr_scheduler_tpb.h</label>
+        <link refid="gr__scheduler__tpb_8h"/>
+      </node>
+      <node id="4468">
+        <label>gr_hier_block2_detail.h</label>
+        <link refid="gr__hier__block2__detail_8h"/>
+      </node>
+      <node id="4464">
+        <label>gr_basic_block.h</label>
+        <link refid="gr_basic_block.h"/>
+        <childnode refid="4465" relation="include">
+        </childnode>
+        <childnode refid="4466" relation="include">
+        </childnode>
+      </node>
+      <node id="4472">
+        <label>gr_top_block_impl.h</label>
+        <link refid="gr__top__block__impl_8h"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classgr__basic__block" prot="public">gr_basic_block</innerclass>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="gr__basic__block_8h_1a76d2f45845faaf2d72b0002ba045c0d6" prot="public" static="no">
+        <type>std::vector&lt; <ref refid="classboost_1_1shared__ptr" kindref="compound">gr_basic_block_sptr</ref> &gt;</type>
+        <definition>typedef std::vector&lt;gr_basic_block_sptr&gt; gr_basic_block_vector_t</definition>
+        <argsstring></argsstring>
+        <name>gr_basic_block_vector_t</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_basic_block.h" line="288" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_basic_block.h" bodystart="288" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="gr__basic__block_8h_1aae6b0ac6b0a67267a5bf7a6bd9a73259" prot="public" static="no">
+        <type>std::vector&lt; <ref refid="classboost_1_1shared__ptr" kindref="compound">gr_basic_block_sptr</ref> &gt;::iterator</type>
+        <definition>typedef std::vector&lt;gr_basic_block_sptr&gt;::iterator gr_basic_block_viter_t</definition>
+        <argsstring></argsstring>
+        <name>gr_basic_block_viter_t</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_basic_block.h" line="289" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_basic_block.h" bodystart="289" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="gr__basic__block_8h_1afe7684d11bda1c7330f6f32251f5a447" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="stdbool_8h_1a97a80ca1602ebf2303258971a2c938e2" kindref="member">bool</ref></type>
+        <definition>bool operator&lt;</definition>
+        <argsstring>(gr_basic_block_sptr lhs, gr_basic_block_sptr rhs)</argsstring>
+        <name>operator&lt;</name>
+        <param>
+          <type><ref refid="classboost_1_1shared__ptr" kindref="compound">gr_basic_block_sptr</ref></type>
+          <declname>lhs</declname>
+        </param>
+        <param>
+          <type><ref refid="classboost_1_1shared__ptr" kindref="compound">gr_basic_block_sptr</ref></type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_basic_block.h" line="284" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_basic_block.h" bodystart="283" bodyend="286"/>
+      </memberdef>
+      <memberdef kind="function" id="gr__basic__block_8h_1ae3ed22898fcc8bff34adb077179eaf1c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="gr__core__api_8h_1a8b8937b0c61edd85ab57ce8203543248" kindref="member">GR_CORE_API</ref> long</type>
+        <definition>GR_CORE_API long gr_basic_block_ncurrently_allocated</definition>
+        <argsstring>()</argsstring>
+        <name>gr_basic_block_ncurrently_allocated</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_basic_block.h" line="291"/>
+      </memberdef>
+      <memberdef kind="function" id="gr__basic__block_8h_1acb2f610728a7f3cbd51a9a2eb60f059e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::ostream &amp;</type>
+        <definition>std::ostream&amp; operator&lt;&lt;</definition>
+        <argsstring>(std::ostream &amp;os, gr_basic_block_sptr basic_block)</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type><ref refid="classboost_1_1shared__ptr" kindref="compound">gr_basic_block_sptr</ref></type>
+          <declname>basic_block</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_basic_block.h" line="294" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_basic_block.h" bodystart="293" bodyend="297"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_basic_block.h"/>
+  </compounddef>
+</doxygen>

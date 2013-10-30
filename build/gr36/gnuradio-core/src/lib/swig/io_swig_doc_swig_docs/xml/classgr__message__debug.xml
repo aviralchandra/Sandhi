@@ -1,0 +1,213 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="classgr__message__debug" kind="class" prot="public">
+    <compoundname>gr_message_debug</compoundname>
+    <includes refid="gr__message__debug_8h" local="no">gr_message_debug.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr__message__debug_1a4eae59ebae07903041154f2dee514984" prot="private" static="no" mutable="no">
+        <type>gruel::mutex</type>
+        <definition>gruel::mutex gr_message_debug::d_mutex</definition>
+        <argsstring></argsstring>
+        <name>d_mutex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/io/gr_message_debug.h" line="84" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/io/gr_message_debug.h" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr__message__debug_1ae0ddc585c53a8483fc9ab7798a50a944" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; pmt::pmt_t &gt;</type>
+        <definition>std::vector&lt;pmt::pmt_t&gt; gr_message_debug::d_messages</definition>
+        <argsstring></argsstring>
+        <name>d_messages</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/io/gr_message_debug.h" line="85" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/io/gr_message_debug.h" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="classgr__message__debug_1ace9d35b3752be4d543cda0152d908d78" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend GR_CORE_API <ref refid="gr__message__debug_8h_1a99baa760c2aac27d8e17c286a73c9ce9" kindref="member">gr_message_debug_sptr</ref></type>
+        <definition>GR_CORE_API gr_message_debug_sptr gr_make_message_debug</definition>
+        <argsstring>()</argsstring>
+        <name>gr_make_message_debug</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/io/gr_message_debug.h" line="45"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classgr__message__debug_1a4008cd51a5e0d820f82b5a76cd3a99fc" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr_message_debug::print</definition>
+        <argsstring>(pmt::pmt_t msg)</argsstring>
+        <name>print</name>
+        <param>
+          <type>pmt::pmt_t</type>
+          <declname>msg</declname>
+        </param>
+        <briefdescription>
+<para>Messages received in this port are printed to stdout. </para>        </briefdescription>
+        <detaileddescription>
+<para>This port receives messages from the scheduler&apos;s message handling mechanism and prints it to stdout. This message handler function is only meant to be used by the scheduler to handle messages posted to port &apos;print&apos;.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>msg</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A pmt message passed from the scheduler&apos;s message handling. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/io/gr_message_debug.h" line="57"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr__message__debug_1a4bd22376d13d1e0110d809c1760c9a6b" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr_message_debug::print_pdu</definition>
+        <argsstring>(pmt::pmt_t pdu)</argsstring>
+        <name>print_pdu</name>
+        <param>
+          <type>pmt::pmt_t</type>
+          <declname>pdu</declname>
+        </param>
+        <briefdescription>
+<para>PDU formatted messages received in this port are printed to stdout. </para>        </briefdescription>
+        <detaileddescription>
+<para>This port receives messages from the scheduler&apos;s message handling mechanism and prints it to stdout. This message handler function is only meant to be used by the scheduler to handle messages posted to port &apos;print&apos;.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>pdu</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A PDU message passed from the scheduler&apos;s message handling. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/io/gr_message_debug.h" line="69"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr__message__debug_1a2ff710321b3f99849e5fed7946bca4f4" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr_message_debug::store</definition>
+        <argsstring>(pmt::pmt_t msg)</argsstring>
+        <name>store</name>
+        <param>
+          <type>pmt::pmt_t</type>
+          <declname>msg</declname>
+        </param>
+        <briefdescription>
+<para>Messages received in this port are stored in a vector. </para>        </briefdescription>
+        <detaileddescription>
+<para>This port receives messages from the scheduler&apos;s message handling mechanism and stores it in a vector. Messages can be retrieved later using the &apos;get_message&apos; function. This message handler function is only meant to be used by the scheduler to handle messages posted to port &apos;store&apos;.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>msg</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A pmt message passed from the scheduler&apos;s message handling. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/io/gr_message_debug.h" line="82"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classgr__message__debug_1a22ff0b4b827608c268f5963c0cf03b0e" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr_message_debug::gr_message_debug</definition>
+        <argsstring>()</argsstring>
+        <name>gr_message_debug</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/io/gr_message_debug.h" line="88"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr__message__debug_1ae328369ea075bba0288668dd7bfe35e3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr_message_debug::~gr_message_debug</definition>
+        <argsstring>()</argsstring>
+        <name>~gr_message_debug</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/io/gr_message_debug.h" line="91"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr__message__debug_1a489e6fd04437b900f73ec40781ef0b82" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr_message_debug::num_messages</definition>
+        <argsstring>()</argsstring>
+        <name>num_messages</name>
+        <briefdescription>
+<para>Reports the number of messages received by this block. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/io/gr_message_debug.h" line="96"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr__message__debug_1a6b9b4ee1e1278e9061d39bac0adbe8e3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>pmt::pmt_t</type>
+        <definition>pmt::pmt_t gr_message_debug::get_message</definition>
+        <argsstring>(int i)</argsstring>
+        <name>get_message</name>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+<para>Get a message (as a PMT) from the message vector at index <computeroutput>i</computeroutput>. </para>        </briefdescription>
+        <detaileddescription>
+<para>Messages passed to the &apos;store&apos; port will be stored in a vector. This function retrieves those messages by index. They are index in order of when they were received (all messages are just pushed onto the back of a vector). This is mostly useful in debugging message passing graphs and in QA code.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>i</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The index in the vector for the message to retrieve.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>a message at index <computeroutput>i</computeroutput> as a pmt_t. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/io/gr_message_debug.h" line="111"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Print received messages to stdout. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/io/gr_message_debug.h" line="42" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/io/gr_message_debug.h" bodystart="41" bodyend="112"/>
+    <listofallmembers>
+      <member refid="classgr__message__debug_1ae0ddc585c53a8483fc9ab7798a50a944" prot="private" virt="non-virtual"><scope>gr_message_debug</scope><name>d_messages</name></member>
+      <member refid="classgr__message__debug_1a4eae59ebae07903041154f2dee514984" prot="private" virt="non-virtual"><scope>gr_message_debug</scope><name>d_mutex</name></member>
+      <member refid="classgr__message__debug_1a6b9b4ee1e1278e9061d39bac0adbe8e3" prot="public" virt="non-virtual"><scope>gr_message_debug</scope><name>get_message</name></member>
+      <member refid="classgr__message__debug_1ace9d35b3752be4d543cda0152d908d78" prot="private" virt="non-virtual"><scope>gr_message_debug</scope><name>gr_make_message_debug</name></member>
+      <member refid="classgr__message__debug_1a22ff0b4b827608c268f5963c0cf03b0e" prot="protected" virt="non-virtual"><scope>gr_message_debug</scope><name>gr_message_debug</name></member>
+      <member refid="classgr__message__debug_1a489e6fd04437b900f73ec40781ef0b82" prot="public" virt="non-virtual"><scope>gr_message_debug</scope><name>num_messages</name></member>
+      <member refid="classgr__message__debug_1a4008cd51a5e0d820f82b5a76cd3a99fc" prot="private" virt="non-virtual"><scope>gr_message_debug</scope><name>print</name></member>
+      <member refid="classgr__message__debug_1a4bd22376d13d1e0110d809c1760c9a6b" prot="private" virt="non-virtual"><scope>gr_message_debug</scope><name>print_pdu</name></member>
+      <member refid="classgr__message__debug_1a2ff710321b3f99849e5fed7946bca4f4" prot="private" virt="non-virtual"><scope>gr_message_debug</scope><name>store</name></member>
+      <member refid="classgr__message__debug_1ae328369ea075bba0288668dd7bfe35e3" prot="public" virt="non-virtual"><scope>gr_message_debug</scope><name>~gr_message_debug</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

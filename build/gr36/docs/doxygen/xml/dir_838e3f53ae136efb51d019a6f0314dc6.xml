@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="dir_838e3f53ae136efb51d019a6f0314dc6" kind="dir">
+    <compoundname>/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/</compoundname>
+    <innerdir refid="dir_28f2b725c19b2bc18bf7022ea1f84e62">/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/gen_interpolator_taps/</innerdir>
+    <innerdir refid="dir_275c9e797079ac1bae638632dd4fbecb">/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/"/>
+  </compounddef>
+</doxygen>

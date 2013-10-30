@@ -1,0 +1,301 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="structgr__block__gw__message__type" kind="struct" prot="public">
+    <compoundname>gr_block_gw_message_type</compoundname>
+    <includes refid="gr__block__gateway_8h" local="no">gr_block_gateway.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="structgr__block__gw__message__type_1a59987772ef45d2fa3e97d3094d74427f" prot="public" static="no">
+        <name>action_type</name>
+        <enumvalue id="structgr__block__gw__message__type_1a59987772ef45d2fa3e97d3094d74427fa281228bb2b0c35f9b9debfce4587f636" prot="public">
+          <name>ACTION_GENERAL_WORK</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="structgr__block__gw__message__type_1a59987772ef45d2fa3e97d3094d74427fa0c160b622fbf99febf9a6bb09781da8b" prot="public">
+          <name>ACTION_WORK</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="structgr__block__gw__message__type_1a59987772ef45d2fa3e97d3094d74427faadabe58027757164ff350829698983e3" prot="public">
+          <name>ACTION_FORECAST</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="structgr__block__gw__message__type_1a59987772ef45d2fa3e97d3094d74427fadbbc1dd6df1826eedf870420ee3ec8c3" prot="public">
+          <name>ACTION_START</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="structgr__block__gw__message__type_1a59987772ef45d2fa3e97d3094d74427fa6ca448c9fd35be700ebb81b7ee3614ed" prot="public">
+          <name>ACTION_STOP</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_block_gateway.h" line="45" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_block_gateway.h" bodystart="45" bodyend="51"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structgr__block__gw__message__type_1a78e34594b2a8976f8d9d0b4ed53c5bac" prot="public" static="no" mutable="no">
+        <type><ref refid="structgr__block__gw__message__type_1a59987772ef45d2fa3e97d3094d74427f" kindref="member">action_type</ref></type>
+        <definition>action_type gr_block_gw_message_type::action</definition>
+        <argsstring></argsstring>
+        <name>action</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_block_gateway.h" line="53" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_block_gateway.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgr__block__gw__message__type_1a9dfb78a5af3fe7c153096388a24a36a1" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr_block_gw_message_type::general_work_args_noutput_items</definition>
+        <argsstring></argsstring>
+        <name>general_work_args_noutput_items</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_block_gateway.h" line="55" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_block_gateway.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgr__block__gw__message__type_1a274df2f89275db5543cd66fa1fcb245e" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; int &gt;</type>
+        <definition>std::vector&lt;int&gt; gr_block_gw_message_type::general_work_args_ninput_items</definition>
+        <argsstring></argsstring>
+        <name>general_work_args_ninput_items</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_block_gateway.h" line="56" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_block_gateway.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgr__block__gw__message__type_1a50f9a2237a908ef99cfc096992436135" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; <ref refid="volk_8tmpl_8h_1a2b104da38b6f0a28d721ed74346ef298" kindref="member">void</ref> * &gt;</type>
+        <definition>std::vector&lt;void *&gt; gr_block_gw_message_type::general_work_args_input_items</definition>
+        <argsstring></argsstring>
+        <name>general_work_args_input_items</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_block_gateway.h" line="57" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_block_gateway.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgr__block__gw__message__type_1a5194941346486361529bba2efd3291b2" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; <ref refid="volk_8tmpl_8h_1a2b104da38b6f0a28d721ed74346ef298" kindref="member">void</ref> * &gt;</type>
+        <definition>std::vector&lt;void *&gt; gr_block_gw_message_type::general_work_args_output_items</definition>
+        <argsstring></argsstring>
+        <name>general_work_args_output_items</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_block_gateway.h" line="58" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_block_gateway.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgr__block__gw__message__type_1a347209cdbcabc3aabb82f8b9242f5c66" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr_block_gw_message_type::general_work_args_return_value</definition>
+        <argsstring></argsstring>
+        <name>general_work_args_return_value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_block_gateway.h" line="59" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_block_gateway.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgr__block__gw__message__type_1a9b36f1f9ffee07f6ab2161145be4cb73" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr_block_gw_message_type::work_args_ninput_items</definition>
+        <argsstring></argsstring>
+        <name>work_args_ninput_items</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_block_gateway.h" line="61" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_block_gateway.h" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgr__block__gw__message__type_1ad94f7a8b8d0ae5638f3138bbfa6b5588" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr_block_gw_message_type::work_args_noutput_items</definition>
+        <argsstring></argsstring>
+        <name>work_args_noutput_items</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_block_gateway.h" line="62" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_block_gateway.h" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgr__block__gw__message__type_1a3f309bd5a89c354182d0adee479d5f51" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; <ref refid="volk_8tmpl_8h_1a2b104da38b6f0a28d721ed74346ef298" kindref="member">void</ref> * &gt;</type>
+        <definition>std::vector&lt;void *&gt; gr_block_gw_message_type::work_args_input_items</definition>
+        <argsstring></argsstring>
+        <name>work_args_input_items</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_block_gateway.h" line="63" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_block_gateway.h" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgr__block__gw__message__type_1af90b82f38ed0c77d48c9420c98ed7980" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; <ref refid="volk_8tmpl_8h_1a2b104da38b6f0a28d721ed74346ef298" kindref="member">void</ref> * &gt;</type>
+        <definition>std::vector&lt;void *&gt; gr_block_gw_message_type::work_args_output_items</definition>
+        <argsstring></argsstring>
+        <name>work_args_output_items</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_block_gateway.h" line="64" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_block_gateway.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgr__block__gw__message__type_1a53a331469d4ad1114fdb51e29b8a086c" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr_block_gw_message_type::work_args_return_value</definition>
+        <argsstring></argsstring>
+        <name>work_args_return_value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_block_gateway.h" line="65" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_block_gateway.h" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgr__block__gw__message__type_1af3d2b10d06d436e1b551fbb37d99dd15" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr_block_gw_message_type::forecast_args_noutput_items</definition>
+        <argsstring></argsstring>
+        <name>forecast_args_noutput_items</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_block_gateway.h" line="67" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_block_gateway.h" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgr__block__gw__message__type_1a05c35c0dc338aee6355859f87d32635a" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; int &gt;</type>
+        <definition>std::vector&lt;int&gt; gr_block_gw_message_type::forecast_args_ninput_items_required</definition>
+        <argsstring></argsstring>
+        <name>forecast_args_ninput_items_required</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_block_gateway.h" line="68" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_block_gateway.h" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgr__block__gw__message__type_1a0e942303ed9982042aff7d874c6aca1e" prot="public" static="no" mutable="no">
+        <type><ref refid="stdbool_8h_1a97a80ca1602ebf2303258971a2c938e2" kindref="member">bool</ref></type>
+        <definition>bool gr_block_gw_message_type::start_args_return_value</definition>
+        <argsstring></argsstring>
+        <name>start_args_return_value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_block_gateway.h" line="70" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_block_gateway.h" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgr__block__gw__message__type_1afb8ce2e8afc294d08a01d811b30d5c16" prot="public" static="no" mutable="no">
+        <type><ref refid="stdbool_8h_1a97a80ca1602ebf2303258971a2c938e2" kindref="member">bool</ref></type>
+        <definition>bool gr_block_gw_message_type::stop_args_return_value</definition>
+        <argsstring></argsstring>
+        <name>stop_args_return_value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_block_gateway.h" line="72" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_block_gateway.h" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Shared message structure between python and gateway. Each action type represents a scheduler-called function. </para>    </detaileddescription>
+    <collaborationgraph>
+      <node id="2137">
+        <label>gr_block_gw_message_type</label>
+        <link refid="structgr__block__gw__message__type"/>
+        <childnode refid="2138" relation="usage">
+          <edgelabel>work_args_output_items</edgelabel>
+          <edgelabel>work_args_input_items</edgelabel>
+          <edgelabel>general_work_args_input_items</edgelabel>
+          <edgelabel>general_work_args_output_items</edgelabel>
+        </childnode>
+        <childnode refid="2139" relation="usage">
+          <edgelabel>forecast_args_ninput_items_required</edgelabel>
+          <edgelabel>general_work_args_ninput_items</edgelabel>
+        </childnode>
+      </node>
+      <node id="2138">
+        <label>std::vector&lt; void * &gt;</label>
+      </node>
+      <node id="2139">
+        <label>std::vector&lt; int &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_block_gateway.h" line="44" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_block_gateway.h" bodystart="44" bodyend="73"/>
+    <listofallmembers>
+      <member refid="structgr__block__gw__message__type_1a78e34594b2a8976f8d9d0b4ed53c5bac" prot="public" virt="non-virtual"><scope>gr_block_gw_message_type</scope><name>action</name></member>
+      <member refid="structgr__block__gw__message__type_1a59987772ef45d2fa3e97d3094d74427faadabe58027757164ff350829698983e3" prot="public" virt="non-virtual"><scope>gr_block_gw_message_type</scope><name>ACTION_FORECAST</name></member>
+      <member refid="structgr__block__gw__message__type_1a59987772ef45d2fa3e97d3094d74427fa281228bb2b0c35f9b9debfce4587f636" prot="public" virt="non-virtual"><scope>gr_block_gw_message_type</scope><name>ACTION_GENERAL_WORK</name></member>
+      <member refid="structgr__block__gw__message__type_1a59987772ef45d2fa3e97d3094d74427fadbbc1dd6df1826eedf870420ee3ec8c3" prot="public" virt="non-virtual"><scope>gr_block_gw_message_type</scope><name>ACTION_START</name></member>
+      <member refid="structgr__block__gw__message__type_1a59987772ef45d2fa3e97d3094d74427fa6ca448c9fd35be700ebb81b7ee3614ed" prot="public" virt="non-virtual"><scope>gr_block_gw_message_type</scope><name>ACTION_STOP</name></member>
+      <member refid="structgr__block__gw__message__type_1a59987772ef45d2fa3e97d3094d74427f" prot="public" virt="non-virtual"><scope>gr_block_gw_message_type</scope><name>action_type</name></member>
+      <member refid="structgr__block__gw__message__type_1a59987772ef45d2fa3e97d3094d74427fa0c160b622fbf99febf9a6bb09781da8b" prot="public" virt="non-virtual"><scope>gr_block_gw_message_type</scope><name>ACTION_WORK</name></member>
+      <member refid="structgr__block__gw__message__type_1a05c35c0dc338aee6355859f87d32635a" prot="public" virt="non-virtual"><scope>gr_block_gw_message_type</scope><name>forecast_args_ninput_items_required</name></member>
+      <member refid="structgr__block__gw__message__type_1af3d2b10d06d436e1b551fbb37d99dd15" prot="public" virt="non-virtual"><scope>gr_block_gw_message_type</scope><name>forecast_args_noutput_items</name></member>
+      <member refid="structgr__block__gw__message__type_1a50f9a2237a908ef99cfc096992436135" prot="public" virt="non-virtual"><scope>gr_block_gw_message_type</scope><name>general_work_args_input_items</name></member>
+      <member refid="structgr__block__gw__message__type_1a274df2f89275db5543cd66fa1fcb245e" prot="public" virt="non-virtual"><scope>gr_block_gw_message_type</scope><name>general_work_args_ninput_items</name></member>
+      <member refid="structgr__block__gw__message__type_1a9dfb78a5af3fe7c153096388a24a36a1" prot="public" virt="non-virtual"><scope>gr_block_gw_message_type</scope><name>general_work_args_noutput_items</name></member>
+      <member refid="structgr__block__gw__message__type_1a5194941346486361529bba2efd3291b2" prot="public" virt="non-virtual"><scope>gr_block_gw_message_type</scope><name>general_work_args_output_items</name></member>
+      <member refid="structgr__block__gw__message__type_1a347209cdbcabc3aabb82f8b9242f5c66" prot="public" virt="non-virtual"><scope>gr_block_gw_message_type</scope><name>general_work_args_return_value</name></member>
+      <member refid="structgr__block__gw__message__type_1a0e942303ed9982042aff7d874c6aca1e" prot="public" virt="non-virtual"><scope>gr_block_gw_message_type</scope><name>start_args_return_value</name></member>
+      <member refid="structgr__block__gw__message__type_1afb8ce2e8afc294d08a01d811b30d5c16" prot="public" virt="non-virtual"><scope>gr_block_gw_message_type</scope><name>stop_args_return_value</name></member>
+      <member refid="structgr__block__gw__message__type_1a3f309bd5a89c354182d0adee479d5f51" prot="public" virt="non-virtual"><scope>gr_block_gw_message_type</scope><name>work_args_input_items</name></member>
+      <member refid="structgr__block__gw__message__type_1a9b36f1f9ffee07f6ab2161145be4cb73" prot="public" virt="non-virtual"><scope>gr_block_gw_message_type</scope><name>work_args_ninput_items</name></member>
+      <member refid="structgr__block__gw__message__type_1ad94f7a8b8d0ae5638f3138bbfa6b5588" prot="public" virt="non-virtual"><scope>gr_block_gw_message_type</scope><name>work_args_noutput_items</name></member>
+      <member refid="structgr__block__gw__message__type_1af90b82f38ed0c77d48c9420c98ed7980" prot="public" virt="non-virtual"><scope>gr_block_gw_message_type</scope><name>work_args_output_items</name></member>
+      <member refid="structgr__block__gw__message__type_1a53a331469d4ad1114fdb51e29b8a086c" prot="public" virt="non-virtual"><scope>gr_block_gw_message_type</scope><name>work_args_return_value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

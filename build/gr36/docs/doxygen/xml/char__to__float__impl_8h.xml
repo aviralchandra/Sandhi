@@ -1,0 +1,246 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="char__to__float__impl_8h" kind="file">
+    <compoundname>char_to_float_impl.h</compoundname>
+    <includes refid="char__to__float_8h" local="no">blocks/char_to_float.h</includes>
+    <incdepgraph>
+      <node id="1442">
+        <label>boost/thread/mutex.hpp</label>
+      </node>
+      <node id="1444">
+        <label>boost/thread/condition_variable.hpp</label>
+      </node>
+      <node id="1426">
+        <label>boost/shared_ptr.hpp</label>
+      </node>
+      <node id="1423">
+        <label>gruel/pmt.h</label>
+        <link refid="pmt_8h"/>
+        <childnode refid="1424" relation="include">
+        </childnode>
+        <childnode refid="1425" relation="include">
+        </childnode>
+        <childnode refid="1426" relation="include">
+        </childnode>
+        <childnode refid="1427" relation="include">
+        </childnode>
+        <childnode refid="1428" relation="include">
+        </childnode>
+        <childnode refid="1429" relation="include">
+        </childnode>
+        <childnode refid="1430" relation="include">
+        </childnode>
+        <childnode refid="1433" relation="include">
+        </childnode>
+        <childnode refid="1434" relation="include">
+        </childnode>
+        <childnode refid="1435" relation="include">
+        </childnode>
+        <childnode refid="1436" relation="include">
+        </childnode>
+      </node>
+      <node id="1425">
+        <label>boost/intrusive_ptr.hpp</label>
+      </node>
+      <node id="1414">
+        <label>gr_core_api.h</label>
+        <link refid="gr__core__api_8h"/>
+        <childnode refid="1411" relation="include">
+        </childnode>
+      </node>
+      <node id="1430">
+        <label>stdint.h</label>
+        <link refid="stdint_8h"/>
+        <childnode refid="1431" relation="include">
+        </childnode>
+        <childnode refid="1432" relation="include">
+        </childnode>
+      </node>
+      <node id="1421">
+        <label>gras/hier_block.hpp</label>
+      </node>
+      <node id="1420">
+        <label>gras/top_block.hpp</label>
+      </node>
+      <node id="1409">
+        <label>blocks/char_to_float.h</label>
+        <link refid="char__to__float_8h"/>
+        <childnode refid="1410" relation="include">
+        </childnode>
+        <childnode refid="1412" relation="include">
+        </childnode>
+      </node>
+      <node id="1439">
+        <label>boost/foreach.hpp</label>
+      </node>
+      <node id="1434">
+        <label>stdexcept</label>
+      </node>
+      <node id="1415">
+        <label>gras/block.hpp</label>
+      </node>
+      <node id="1441">
+        <label>boost/thread/thread.hpp</label>
+      </node>
+      <node id="1429">
+        <label>string</label>
+      </node>
+      <node id="1438">
+        <label>map</label>
+      </node>
+      <node id="1411">
+        <label>gruel/attributes.h</label>
+        <link refid="attributes_8h"/>
+      </node>
+      <node id="1431">
+        <label>limits.h</label>
+      </node>
+      <node id="1427">
+        <label>boost/any.hpp</label>
+      </node>
+      <node id="1413">
+        <label>gr_block.h</label>
+        <link refid="gr__block_8h"/>
+        <childnode refid="1414" relation="include">
+        </childnode>
+        <childnode refid="1415" relation="include">
+        </childnode>
+        <childnode refid="1416" relation="include">
+        </childnode>
+        <childnode refid="1418" relation="include">
+        </childnode>
+        <childnode refid="1422" relation="include">
+        </childnode>
+        <childnode refid="1429" relation="include">
+        </childnode>
+        <childnode refid="1437" relation="include">
+        </childnode>
+        <childnode refid="1438" relation="include">
+        </childnode>
+        <childnode refid="1439" relation="include">
+        </childnode>
+        <childnode refid="1440" relation="include">
+        </childnode>
+        <childnode refid="1445" relation="include">
+        </childnode>
+      </node>
+      <node id="1417">
+        <label>gr_runtime_types.h</label>
+        <link refid="gr__runtime__types_8h"/>
+        <childnode refid="1414" relation="include">
+        </childnode>
+        <childnode refid="1418" relation="include">
+        </childnode>
+      </node>
+      <node id="1432">
+        <label>wchar.h</label>
+      </node>
+      <node id="1436">
+        <label>gruel/pmt_sugar.h</label>
+        <link refid="pmt__sugar_8h"/>
+      </node>
+      <node id="1443">
+        <label>boost/thread/locks.hpp</label>
+      </node>
+      <node id="1412">
+        <label>gr_sync_block.h</label>
+        <link refid="gr__sync__block_8h"/>
+        <childnode refid="1413" relation="include">
+        </childnode>
+      </node>
+      <node id="1435">
+        <label>vector</label>
+      </node>
+      <node id="1416">
+        <label>gr_io_signature.h</label>
+        <link refid="gr__io__signature_8h"/>
+        <childnode refid="1414" relation="include">
+        </childnode>
+        <childnode refid="1417" relation="include">
+        </childnode>
+      </node>
+      <node id="1424">
+        <label>gruel/api.h</label>
+        <link refid="gruel_2src_2include_2gruel_2api_8h"/>
+        <childnode refid="1411" relation="include">
+        </childnode>
+      </node>
+      <node id="1410">
+        <label>blocks/api.h</label>
+        <link refid="gr-blocks_2include_2blocks_2api_8h"/>
+        <childnode refid="1411" relation="include">
+        </childnode>
+      </node>
+      <node id="1433">
+        <label>iosfwd</label>
+      </node>
+      <node id="1408">
+        <label>char_to_float_impl.h</label>
+        <link refid="char_to_float_impl.h"/>
+        <childnode refid="1409" relation="include">
+        </childnode>
+      </node>
+      <node id="1418">
+        <label>gr_types.h</label>
+        <link refid="gr__types_8h"/>
+        <childnode refid="1419" relation="include">
+        </childnode>
+        <childnode refid="1415" relation="include">
+        </childnode>
+        <childnode refid="1420" relation="include">
+        </childnode>
+        <childnode refid="1421" relation="include">
+        </childnode>
+      </node>
+      <node id="1440">
+        <label>gruel/thread.h</label>
+        <link refid="thread_8h"/>
+        <childnode refid="1424" relation="include">
+        </childnode>
+        <childnode refid="1441" relation="include">
+        </childnode>
+        <childnode refid="1442" relation="include">
+        </childnode>
+        <childnode refid="1443" relation="include">
+        </childnode>
+        <childnode refid="1444" relation="include">
+        </childnode>
+        <childnode refid="1435" relation="include">
+        </childnode>
+      </node>
+      <node id="1437">
+        <label>deque</label>
+      </node>
+      <node id="1422">
+        <label>gr_tags.h</label>
+        <link refid="gr__tags_8h"/>
+        <childnode refid="1414" relation="include">
+        </childnode>
+        <childnode refid="1423" relation="include">
+        </childnode>
+      </node>
+      <node id="1428">
+        <label>complex</label>
+      </node>
+      <node id="1445">
+        <label>gr_sptr_magic.h</label>
+        <link refid="gr__sptr__magic_8h_source"/>
+        <childnode refid="1414" relation="include">
+        </childnode>
+        <childnode refid="1426" relation="include">
+        </childnode>
+      </node>
+      <node id="1419">
+        <label>gras/element.hpp</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classgr_1_1blocks_1_1char__to__float__impl" prot="public">gr::blocks::char_to_float_impl</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1blocks">gr::blocks</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/char_to_float_impl.h"/>
+  </compounddef>
+</doxygen>

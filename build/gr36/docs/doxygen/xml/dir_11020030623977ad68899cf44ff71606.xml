@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="dir_11020030623977ad68899cf44ff71606" kind="dir">
+    <compoundname>/home/aviral/GNU-Niyantran/gr36/volk/kernels/volk/</compoundname>
+    <innerfile refid="volk__16i__32fc__dot__prod__32fc_8h">volk_16i_32fc_dot_prod_32fc.h</innerfile>
+    <innerfile refid="volk__16i__branch__4__state__8_8h">volk_16i_branch_4_state_8.h</innerfile>
+    <innerfile refid="volk__16i__convert__8i_8h">volk_16i_convert_8i.h</innerfile>
+    <innerfile refid="volk__16i__max__star__16i_8h">volk_16i_max_star_16i.h</innerfile>
+    <innerfile refid="volk__16i__max__star__horizontal__16i_8h">volk_16i_max_star_horizontal_16i.h</innerfile>
+    <innerfile refid="volk__16i__permute__and__scalar__add_8h">volk_16i_permute_and_scalar_add.h</innerfile>
+    <innerfile refid="volk__16i__s32f__convert__32f_8h">volk_16i_s32f_convert_32f.h</innerfile>
+    <innerfile refid="volk__16i__x4__quad__max__star__16i_8h">volk_16i_x4_quad_max_star_16i.h</innerfile>
+    <innerfile refid="volk__16i__x5__add__quad__16i__x4_8h">volk_16i_x5_add_quad_16i_x4.h</innerfile>
+    <innerfile refid="volk__16ic__deinterleave__16i__x2_8h">volk_16ic_deinterleave_16i_x2.h</innerfile>
+    <innerfile refid="volk__16ic__deinterleave__real__16i_8h">volk_16ic_deinterleave_real_16i.h</innerfile>
+    <innerfile refid="volk__16ic__deinterleave__real__8i_8h">volk_16ic_deinterleave_real_8i.h</innerfile>
+    <innerfile refid="volk__16ic__magnitude__16i_8h">volk_16ic_magnitude_16i.h</innerfile>
+    <innerfile refid="volk__16ic__s32f__deinterleave__32f__x2_8h">volk_16ic_s32f_deinterleave_32f_x2.h</innerfile>
+    <innerfile refid="volk__16ic__s32f__deinterleave__real__32f_8h">volk_16ic_s32f_deinterleave_real_32f.h</innerfile>
+    <innerfile refid="volk__16ic__s32f__magnitude__32f_8h">volk_16ic_s32f_magnitude_32f.h</innerfile>
+    <innerfile refid="volk__16u__byteswap_8h">volk_16u_byteswap.h</innerfile>
+    <innerfile refid="volk__32f__accumulator__s32f_8h">volk_32f_accumulator_s32f.h</innerfile>
+    <innerfile refid="volk__32f__convert__64f_8h">volk_32f_convert_64f.h</innerfile>
+    <innerfile refid="volk__32f__index__max__16u_8h">volk_32f_index_max_16u.h</innerfile>
+    <innerfile refid="volk__32f__s32f__32f__fm__detect__32f_8h">volk_32f_s32f_32f_fm_detect_32f.h</innerfile>
+    <innerfile refid="volk__32f__s32f__calc__spectral__noise__floor__32f_8h">volk_32f_s32f_calc_spectral_noise_floor_32f.h</innerfile>
+    <innerfile refid="volk__32f__s32f__convert__16i_8h">volk_32f_s32f_convert_16i.h</innerfile>
+    <innerfile refid="volk__32f__s32f__convert__32i_8h">volk_32f_s32f_convert_32i.h</innerfile>
+    <innerfile refid="volk__32f__s32f__convert__8i_8h">volk_32f_s32f_convert_8i.h</innerfile>
+    <innerfile refid="volk__32f__s32f__multiply__32f_8h">volk_32f_s32f_multiply_32f.h</innerfile>
+    <innerfile refid="volk__32f__s32f__normalize_8h">volk_32f_s32f_normalize.h</innerfile>
+    <innerfile refid="volk__32f__s32f__power__32f_8h">volk_32f_s32f_power_32f.h</innerfile>
+    <innerfile refid="volk__32f__s32f__stddev__32f_8h">volk_32f_s32f_stddev_32f.h</innerfile>
+    <innerfile refid="volk__32f__sqrt__32f_8h">volk_32f_sqrt_32f.h</innerfile>
+    <innerfile refid="volk__32f__stddev__and__mean__32f__x2_8h">volk_32f_stddev_and_mean_32f_x2.h</innerfile>
+    <innerfile refid="volk__32f__x2__add__32f_8h">volk_32f_x2_add_32f.h</innerfile>
+    <innerfile refid="volk__32f__x2__divide__32f_8h">volk_32f_x2_divide_32f.h</innerfile>
+    <innerfile refid="volk__32f__x2__dot__prod__16i_8h">volk_32f_x2_dot_prod_16i.h</innerfile>
+    <innerfile refid="volk__32f__x2__dot__prod__32f_8h">volk_32f_x2_dot_prod_32f.h</innerfile>
+    <innerfile refid="volk__32f__x2__interleave__32fc_8h">volk_32f_x2_interleave_32fc.h</innerfile>
+    <innerfile refid="volk__32f__x2__max__32f_8h">volk_32f_x2_max_32f.h</innerfile>
+    <innerfile refid="volk__32f__x2__min__32f_8h">volk_32f_x2_min_32f.h</innerfile>
+    <innerfile refid="volk__32f__x2__multiply__32f_8h">volk_32f_x2_multiply_32f.h</innerfile>
+    <innerfile refid="volk__32f__x2__s32f__interleave__16ic_8h">volk_32f_x2_s32f_interleave_16ic.h</innerfile>
+    <innerfile refid="volk__32f__x2__subtract__32f_8h">volk_32f_x2_subtract_32f.h</innerfile>
+    <innerfile refid="volk__32f__x3__sum__of__poly__32f_8h">volk_32f_x3_sum_of_poly_32f.h</innerfile>
+    <innerfile refid="volk__32fc__32f__dot__prod__32fc_8h">volk_32fc_32f_dot_prod_32fc.h</innerfile>
+    <innerfile refid="volk__32fc__32f__multiply__32fc_8h">volk_32fc_32f_multiply_32fc.h</innerfile>
+    <innerfile refid="volk__32fc__conjugate__32fc_8h">volk_32fc_conjugate_32fc.h</innerfile>
+    <innerfile refid="volk__32fc__deinterleave__32f__x2_8h">volk_32fc_deinterleave_32f_x2.h</innerfile>
+    <innerfile refid="volk__32fc__deinterleave__64f__x2_8h">volk_32fc_deinterleave_64f_x2.h</innerfile>
+    <innerfile refid="volk__32fc__deinterleave__imag__32f_8h">volk_32fc_deinterleave_imag_32f.h</innerfile>
+    <innerfile refid="volk__32fc__deinterleave__real__32f_8h">volk_32fc_deinterleave_real_32f.h</innerfile>
+    <innerfile refid="volk__32fc__deinterleave__real__64f_8h">volk_32fc_deinterleave_real_64f.h</innerfile>
+    <innerfile refid="volk__32fc__index__max__16u_8h">volk_32fc_index_max_16u.h</innerfile>
+    <innerfile refid="volk__32fc__magnitude__32f_8h">volk_32fc_magnitude_32f.h</innerfile>
+    <innerfile refid="volk__32fc__magnitude__squared__32f_8h">volk_32fc_magnitude_squared_32f.h</innerfile>
+    <innerfile refid="volk__32fc__s32f__atan2__32f_8h">volk_32fc_s32f_atan2_32f.h</innerfile>
+    <innerfile refid="volk__32fc__s32f__deinterleave__real__16i_8h">volk_32fc_s32f_deinterleave_real_16i.h</innerfile>
+    <innerfile refid="volk__32fc__s32f__magnitude__16i_8h">volk_32fc_s32f_magnitude_16i.h</innerfile>
+    <innerfile refid="volk__32fc__s32f__power__32fc_8h">volk_32fc_s32f_power_32fc.h</innerfile>
+    <innerfile refid="volk__32fc__s32f__power__spectrum__32f_8h">volk_32fc_s32f_power_spectrum_32f.h</innerfile>
+    <innerfile refid="volk__32fc__s32f__x2__power__spectral__density__32f_8h">volk_32fc_s32f_x2_power_spectral_density_32f.h</innerfile>
+    <innerfile refid="volk__32fc__s32fc__multiply__32fc_8h">volk_32fc_s32fc_multiply_32fc.h</innerfile>
+    <innerfile refid="volk__32fc__s32fc__rotatorpuppet__32fc_8h">volk_32fc_s32fc_rotatorpuppet_32fc.h</innerfile>
+    <innerfile refid="volk__32fc__s32fc__x2__rotator__32fc_8h">volk_32fc_s32fc_x2_rotator_32fc.h</innerfile>
+    <innerfile refid="volk__32fc__x2__conjugate__dot__prod__32fc_8h">volk_32fc_x2_conjugate_dot_prod_32fc.h</innerfile>
+    <innerfile refid="volk__32fc__x2__dot__prod__32fc_8h">volk_32fc_x2_dot_prod_32fc.h</innerfile>
+    <innerfile refid="volk__32fc__x2__multiply__32fc_8h">volk_32fc_x2_multiply_32fc.h</innerfile>
+    <innerfile refid="volk__32fc__x2__multiply__conjugate__32fc_8h">volk_32fc_x2_multiply_conjugate_32fc.h</innerfile>
+    <innerfile refid="volk__32fc__x2__s32f__square__dist__scalar__mult__32f_8h">volk_32fc_x2_s32f_square_dist_scalar_mult_32f.h</innerfile>
+    <innerfile refid="volk__32fc__x2__square__dist__32f_8h">volk_32fc_x2_square_dist_32f.h</innerfile>
+    <innerfile refid="volk__32i__s32f__convert__32f_8h">volk_32i_s32f_convert_32f.h</innerfile>
+    <innerfile refid="volk__32i__x2__and__32i_8h">volk_32i_x2_and_32i.h</innerfile>
+    <innerfile refid="volk__32i__x2__or__32i_8h">volk_32i_x2_or_32i.h</innerfile>
+    <innerfile refid="volk__32u__byteswap_8h">volk_32u_byteswap.h</innerfile>
+    <innerfile refid="volk__32u__popcnt_8h">volk_32u_popcnt.h</innerfile>
+    <innerfile refid="volk__64f__convert__32f_8h">volk_64f_convert_32f.h</innerfile>
+    <innerfile refid="volk__64f__x2__max__64f_8h">volk_64f_x2_max_64f.h</innerfile>
+    <innerfile refid="volk__64f__x2__min__64f_8h">volk_64f_x2_min_64f.h</innerfile>
+    <innerfile refid="volk__64u__byteswap_8h">volk_64u_byteswap.h</innerfile>
+    <innerfile refid="volk__64u__popcnt_8h">volk_64u_popcnt.h</innerfile>
+    <innerfile refid="volk__8i__convert__16i_8h">volk_8i_convert_16i.h</innerfile>
+    <innerfile refid="volk__8i__s32f__convert__32f_8h">volk_8i_s32f_convert_32f.h</innerfile>
+    <innerfile refid="volk__8ic__deinterleave__16i__x2_8h">volk_8ic_deinterleave_16i_x2.h</innerfile>
+    <innerfile refid="volk__8ic__deinterleave__real__16i_8h">volk_8ic_deinterleave_real_16i.h</innerfile>
+    <innerfile refid="volk__8ic__deinterleave__real__8i_8h">volk_8ic_deinterleave_real_8i.h</innerfile>
+    <innerfile refid="volk__8ic__s32f__deinterleave__32f__x2_8h">volk_8ic_s32f_deinterleave_32f_x2.h</innerfile>
+    <innerfile refid="volk__8ic__s32f__deinterleave__real__32f_8h">volk_8ic_s32f_deinterleave_real_32f.h</innerfile>
+    <innerfile refid="volk__8ic__x2__multiply__conjugate__16ic_8h">volk_8ic_x2_multiply_conjugate_16ic.h</innerfile>
+    <innerfile refid="volk__8ic__x2__s32f__multiply__conjugate__32fc_8h">volk_8ic_x2_s32f_multiply_conjugate_32fc.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/aviral/GNU-Niyantran/gr36/volk/kernels/volk/"/>
+  </compounddef>
+</doxygen>

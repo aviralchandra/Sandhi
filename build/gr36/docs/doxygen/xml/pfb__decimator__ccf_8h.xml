@@ -1,0 +1,254 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="pfb__decimator__ccf_8h" kind="file">
+    <compoundname>pfb_decimator_ccf.h</compoundname>
+    <includes refid="gr-filter_2include_2filter_2api_8h" local="no">filter/api.h</includes>
+    <includes refid="gr__sync__block_8h" local="no">gr_sync_block.h</includes>
+    <includedby refid="pfb__decimator__ccf__impl_8h" local="no">pfb_decimator_ccf_impl.h</includedby>
+    <incdepgraph>
+      <node id="16576">
+        <label>boost/thread/mutex.hpp</label>
+      </node>
+      <node id="16578">
+        <label>boost/thread/condition_variable.hpp</label>
+      </node>
+      <node id="16560">
+        <label>boost/shared_ptr.hpp</label>
+      </node>
+      <node id="16557">
+        <label>gruel/pmt.h</label>
+        <link refid="pmt_8h"/>
+        <childnode refid="16558" relation="include">
+        </childnode>
+        <childnode refid="16559" relation="include">
+        </childnode>
+        <childnode refid="16560" relation="include">
+        </childnode>
+        <childnode refid="16561" relation="include">
+        </childnode>
+        <childnode refid="16562" relation="include">
+        </childnode>
+        <childnode refid="16563" relation="include">
+        </childnode>
+        <childnode refid="16564" relation="include">
+        </childnode>
+        <childnode refid="16567" relation="include">
+        </childnode>
+        <childnode refid="16568" relation="include">
+        </childnode>
+        <childnode refid="16569" relation="include">
+        </childnode>
+        <childnode refid="16570" relation="include">
+        </childnode>
+      </node>
+      <node id="16559">
+        <label>boost/intrusive_ptr.hpp</label>
+      </node>
+      <node id="16548">
+        <label>gr_core_api.h</label>
+        <link refid="gr__core__api_8h"/>
+        <childnode refid="16545" relation="include">
+        </childnode>
+      </node>
+      <node id="16564">
+        <label>stdint.h</label>
+        <link refid="stdint_8h"/>
+        <childnode refid="16565" relation="include">
+        </childnode>
+        <childnode refid="16566" relation="include">
+        </childnode>
+      </node>
+      <node id="16555">
+        <label>gras/hier_block.hpp</label>
+      </node>
+      <node id="16554">
+        <label>gras/top_block.hpp</label>
+      </node>
+      <node id="16573">
+        <label>boost/foreach.hpp</label>
+      </node>
+      <node id="16568">
+        <label>stdexcept</label>
+      </node>
+      <node id="16549">
+        <label>gras/block.hpp</label>
+      </node>
+      <node id="16575">
+        <label>boost/thread/thread.hpp</label>
+      </node>
+      <node id="16563">
+        <label>string</label>
+      </node>
+      <node id="16572">
+        <label>map</label>
+      </node>
+      <node id="16544">
+        <label>filter/api.h</label>
+        <link refid="gr-filter_2include_2filter_2api_8h"/>
+        <childnode refid="16545" relation="include">
+        </childnode>
+      </node>
+      <node id="16545">
+        <label>gruel/attributes.h</label>
+        <link refid="attributes_8h"/>
+      </node>
+      <node id="16565">
+        <label>limits.h</label>
+      </node>
+      <node id="16561">
+        <label>boost/any.hpp</label>
+      </node>
+      <node id="16547">
+        <label>gr_block.h</label>
+        <link refid="gr__block_8h"/>
+        <childnode refid="16548" relation="include">
+        </childnode>
+        <childnode refid="16549" relation="include">
+        </childnode>
+        <childnode refid="16550" relation="include">
+        </childnode>
+        <childnode refid="16552" relation="include">
+        </childnode>
+        <childnode refid="16556" relation="include">
+        </childnode>
+        <childnode refid="16563" relation="include">
+        </childnode>
+        <childnode refid="16571" relation="include">
+        </childnode>
+        <childnode refid="16572" relation="include">
+        </childnode>
+        <childnode refid="16573" relation="include">
+        </childnode>
+        <childnode refid="16574" relation="include">
+        </childnode>
+        <childnode refid="16579" relation="include">
+        </childnode>
+      </node>
+      <node id="16551">
+        <label>gr_runtime_types.h</label>
+        <link refid="gr__runtime__types_8h"/>
+        <childnode refid="16548" relation="include">
+        </childnode>
+        <childnode refid="16552" relation="include">
+        </childnode>
+      </node>
+      <node id="16543">
+        <label>pfb_decimator_ccf.h</label>
+        <link refid="pfb_decimator_ccf.h"/>
+        <childnode refid="16544" relation="include">
+        </childnode>
+        <childnode refid="16546" relation="include">
+        </childnode>
+      </node>
+      <node id="16566">
+        <label>wchar.h</label>
+      </node>
+      <node id="16570">
+        <label>gruel/pmt_sugar.h</label>
+        <link refid="pmt__sugar_8h"/>
+      </node>
+      <node id="16577">
+        <label>boost/thread/locks.hpp</label>
+      </node>
+      <node id="16546">
+        <label>gr_sync_block.h</label>
+        <link refid="gr__sync__block_8h"/>
+        <childnode refid="16547" relation="include">
+        </childnode>
+      </node>
+      <node id="16569">
+        <label>vector</label>
+      </node>
+      <node id="16550">
+        <label>gr_io_signature.h</label>
+        <link refid="gr__io__signature_8h"/>
+        <childnode refid="16548" relation="include">
+        </childnode>
+        <childnode refid="16551" relation="include">
+        </childnode>
+      </node>
+      <node id="16558">
+        <label>gruel/api.h</label>
+        <link refid="gruel_2src_2include_2gruel_2api_8h"/>
+        <childnode refid="16545" relation="include">
+        </childnode>
+      </node>
+      <node id="16567">
+        <label>iosfwd</label>
+      </node>
+      <node id="16552">
+        <label>gr_types.h</label>
+        <link refid="gr__types_8h"/>
+        <childnode refid="16553" relation="include">
+        </childnode>
+        <childnode refid="16549" relation="include">
+        </childnode>
+        <childnode refid="16554" relation="include">
+        </childnode>
+        <childnode refid="16555" relation="include">
+        </childnode>
+      </node>
+      <node id="16574">
+        <label>gruel/thread.h</label>
+        <link refid="thread_8h"/>
+        <childnode refid="16558" relation="include">
+        </childnode>
+        <childnode refid="16575" relation="include">
+        </childnode>
+        <childnode refid="16576" relation="include">
+        </childnode>
+        <childnode refid="16577" relation="include">
+        </childnode>
+        <childnode refid="16578" relation="include">
+        </childnode>
+        <childnode refid="16569" relation="include">
+        </childnode>
+      </node>
+      <node id="16571">
+        <label>deque</label>
+      </node>
+      <node id="16556">
+        <label>gr_tags.h</label>
+        <link refid="gr__tags_8h"/>
+        <childnode refid="16548" relation="include">
+        </childnode>
+        <childnode refid="16557" relation="include">
+        </childnode>
+      </node>
+      <node id="16562">
+        <label>complex</label>
+      </node>
+      <node id="16579">
+        <label>gr_sptr_magic.h</label>
+        <link refid="gr__sptr__magic_8h_source"/>
+        <childnode refid="16548" relation="include">
+        </childnode>
+        <childnode refid="16560" relation="include">
+        </childnode>
+      </node>
+      <node id="16553">
+        <label>gras/element.hpp</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="16581">
+        <label>pfb_decimator_ccf_impl.h</label>
+        <link refid="pfb__decimator__ccf__impl_8h"/>
+      </node>
+      <node id="16580">
+        <label>pfb_decimator_ccf.h</label>
+        <link refid="pfb_decimator_ccf.h"/>
+        <childnode refid="16581" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classgr_1_1filter_1_1pfb__decimator__ccf" prot="public">gr::filter::pfb_decimator_ccf</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1filter">gr::filter</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/include/filter/pfb_decimator_ccf.h"/>
+  </compounddef>
+</doxygen>

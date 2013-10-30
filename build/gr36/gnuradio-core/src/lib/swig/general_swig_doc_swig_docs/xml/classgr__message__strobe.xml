@@ -1,0 +1,170 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="classgr__message__strobe" kind="class" prot="public">
+    <compoundname>gr_message_strobe</compoundname>
+    <includes refid="gr__message__strobe_8h" local="no">gr_message_strobe.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr__message__strobe_1ac8ab9ceca63aa571a5dfce6f17a874e8" prot="private" static="no" mutable="no">
+        <type>boost::shared_ptr&lt; boost::thread &gt;</type>
+        <definition>boost::shared_ptr&lt;boost::thread&gt; gr_message_strobe::d_thread</definition>
+        <argsstring></argsstring>
+        <name>d_thread</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_message_strobe.h" line="46" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_message_strobe.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr__message__strobe_1a3946122ccf6755fef0f6082f0bf6fde9" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool gr_message_strobe::d_finished</definition>
+        <argsstring></argsstring>
+        <name>d_finished</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_message_strobe.h" line="47" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_message_strobe.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr__message__strobe_1acb5f86cdf6772210cee8f4df03e41b21" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr_message_strobe::d_period_ms</definition>
+        <argsstring></argsstring>
+        <name>d_period_ms</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_message_strobe.h" line="48" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_message_strobe.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr__message__strobe_1ab2361300099dc30b23beca648055f9c0" prot="private" static="no" mutable="no">
+        <type>pmt::pmt_t</type>
+        <definition>pmt::pmt_t gr_message_strobe::d_msg</definition>
+        <argsstring></argsstring>
+        <name>d_msg</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_message_strobe.h" line="49" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_message_strobe.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="classgr__message__strobe_1ab6a73cc704d01ce0811f25283e4985d2" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend __GR_ATTR_IMPORT <ref refid="gr__message__strobe_8h_1a539913682002a6887b353624381f44dd" kindref="member">gr_message_strobe_sptr</ref></type>
+        <definition>__GR_ATTR_IMPORT gr_message_strobe_sptr gr_make_message_strobe</definition>
+        <argsstring>(pmt::pmt_t msg, float period_ms)</argsstring>
+        <name>gr_make_message_strobe</name>
+        <param>
+          <type>pmt::pmt_t</type>
+          <declname>msg</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>period_ms</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_message_strobe.h" line="44"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classgr__message__strobe_1ac5b0b6c1d329aa2a179dd5f238d3f3ed" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr_message_strobe::run</definition>
+        <argsstring>()</argsstring>
+        <name>run</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_message_strobe.h" line="51"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classgr__message__strobe_1a57718df58cc25ff034bde9f740a6c3dd" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr_message_strobe::gr_message_strobe</definition>
+        <argsstring>(pmt::pmt_t msg, float period_ms)</argsstring>
+        <name>gr_message_strobe</name>
+        <param>
+          <type>pmt::pmt_t</type>
+          <declname>msg</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>period_ms</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_message_strobe.h" line="54"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr__message__strobe_1aec3c5cdb42c61b32ca395f0930e5190b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr_message_strobe::~gr_message_strobe</definition>
+        <argsstring>()</argsstring>
+        <name>~gr_message_strobe</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_message_strobe.h" line="57"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr__message__strobe_1af21497a484da59e7284121f892b2d634" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr_message_strobe::set_msg</definition>
+        <argsstring>(pmt::pmt_t msg)</argsstring>
+        <name>set_msg</name>
+        <param>
+          <type>pmt::pmt_t</type>
+          <declname>msg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_message_strobe.h" line="59" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_message_strobe.h" bodystart="59" bodyend="59"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Send message at defined interval. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_message_strobe.h" line="41" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_message_strobe.h" bodystart="40" bodyend="60"/>
+    <listofallmembers>
+      <member refid="classgr__message__strobe_1a3946122ccf6755fef0f6082f0bf6fde9" prot="private" virt="non-virtual"><scope>gr_message_strobe</scope><name>d_finished</name></member>
+      <member refid="classgr__message__strobe_1ab2361300099dc30b23beca648055f9c0" prot="private" virt="non-virtual"><scope>gr_message_strobe</scope><name>d_msg</name></member>
+      <member refid="classgr__message__strobe_1acb5f86cdf6772210cee8f4df03e41b21" prot="private" virt="non-virtual"><scope>gr_message_strobe</scope><name>d_period_ms</name></member>
+      <member refid="classgr__message__strobe_1ac8ab9ceca63aa571a5dfce6f17a874e8" prot="private" virt="non-virtual"><scope>gr_message_strobe</scope><name>d_thread</name></member>
+      <member refid="classgr__message__strobe_1ab6a73cc704d01ce0811f25283e4985d2" prot="private" virt="non-virtual"><scope>gr_message_strobe</scope><name>gr_make_message_strobe</name></member>
+      <member refid="classgr__message__strobe_1a57718df58cc25ff034bde9f740a6c3dd" prot="protected" virt="non-virtual"><scope>gr_message_strobe</scope><name>gr_message_strobe</name></member>
+      <member refid="classgr__message__strobe_1ac5b0b6c1d329aa2a179dd5f238d3f3ed" prot="private" virt="non-virtual"><scope>gr_message_strobe</scope><name>run</name></member>
+      <member refid="classgr__message__strobe_1af21497a484da59e7284121f892b2d634" prot="public" virt="non-virtual"><scope>gr_message_strobe</scope><name>set_msg</name></member>
+      <member refid="classgr__message__strobe_1aec3c5cdb42c61b32ca395f0930e5190b" prot="public" virt="non-virtual"><scope>gr_message_strobe</scope><name>~gr_message_strobe</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

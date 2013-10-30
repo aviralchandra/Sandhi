@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="spectrumdisplayform_8ui_8h" kind="file">
+    <compoundname>spectrumdisplayform.ui.h</compoundname>
+    <includes local="no">ui_spectrumdisplayform.h</includes>
+    <incdepgraph>
+      <node id="18454">
+        <label>spectrumdisplayform.ui.h</label>
+        <link refid="spectrumdisplayform.ui.h"/>
+        <childnode refid="18455" relation="include">
+        </childnode>
+      </node>
+      <node id="18455">
+        <label>ui_spectrumdisplayform.h</label>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/aviral/GNU-Niyantran/build/gr36/gr-qtgui/lib/spectrumdisplayform.ui.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,200 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="classgr_1_1filter_1_1pfb__decimator__ccf__impl" kind="class" prot="public">
+    <compoundname>gr::filter::pfb_decimator_ccf_impl</compoundname>
+    <includes refid="pfb__decimator__ccf__impl_8h" local="no">pfb_decimator_ccf_impl.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1filter_1_1pfb__decimator__ccf__impl_1a6a75d79b0cf4774233cd12857379d713" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool gr::filter::pfb_decimator_ccf_impl::d_updated</definition>
+        <argsstring></argsstring>
+        <name>d_updated</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/pfb_decimator_ccf_impl.h" line="39" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/pfb_decimator_ccf_impl.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1filter_1_1pfb__decimator__ccf__impl_1a7fff75f08e6f32f54a11d1b81f5aa32c" prot="private" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int gr::filter::pfb_decimator_ccf_impl::d_rate</definition>
+        <argsstring></argsstring>
+        <name>d_rate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/pfb_decimator_ccf_impl.h" line="40" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/pfb_decimator_ccf_impl.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1filter_1_1pfb__decimator__ccf__impl_1adff2d97dfc684239404f155a037c6a4a" prot="private" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int gr::filter::pfb_decimator_ccf_impl::d_chan</definition>
+        <argsstring></argsstring>
+        <name>d_chan</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/pfb_decimator_ccf_impl.h" line="41" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/pfb_decimator_ccf_impl.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1filter_1_1pfb__decimator__ccf__impl_1acbf31dc0f5dbc41c5f7c663a735c41f7" prot="private" static="no" mutable="no">
+        <type>gr_complex *</type>
+        <definition>gr_complex* gr::filter::pfb_decimator_ccf_impl::d_rotator</definition>
+        <argsstring></argsstring>
+        <name>d_rotator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/pfb_decimator_ccf_impl.h" line="42" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/pfb_decimator_ccf_impl.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1filter_1_1pfb__decimator__ccf__impl_1a912186074a5930840fbf87d48e1abc3f" prot="private" static="no" mutable="no">
+        <type>gruel::mutex</type>
+        <definition>gruel::mutex gr::filter::pfb_decimator_ccf_impl::d_mutex</definition>
+        <argsstring></argsstring>
+        <name>d_mutex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/pfb_decimator_ccf_impl.h" line="43" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/pfb_decimator_ccf_impl.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1filter_1_1pfb__decimator__ccf__impl_1a1bab4c07ff675ddf16375331d7887bd9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::filter::pfb_decimator_ccf_impl::pfb_decimator_ccf_impl</definition>
+        <argsstring>(unsigned int decim, const std::vector&lt; float &gt; &amp;taps, unsigned int channel)</argsstring>
+        <name>pfb_decimator_ccf_impl</name>
+        <param>
+          <type>unsigned int</type>
+          <declname>decim</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; float &gt; &amp;</type>
+          <declname>taps</declname>
+        </param>
+        <param>
+          <type>unsigned int</type>
+          <declname>channel</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/pfb_decimator_ccf_impl.h" line="48"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1filter_1_1pfb__decimator__ccf__impl_1ad8f4e279b9a348a05e440d5d74bc52f5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::filter::pfb_decimator_ccf_impl::~pfb_decimator_ccf_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~pfb_decimator_ccf_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/pfb_decimator_ccf_impl.h" line="50"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1filter_1_1pfb__decimator__ccf__impl_1a11ba3fc9637ab5e2094c0c92f9da8869" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::filter::pfb_decimator_ccf_impl::set_taps</definition>
+        <argsstring>(const std::vector&lt; float &gt; &amp;taps)</argsstring>
+        <name>set_taps</name>
+        <param>
+          <type>const std::vector&lt; float &gt; &amp;</type>
+          <declname>taps</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/pfb_decimator_ccf_impl.h" line="52"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1filter_1_1pfb__decimator__ccf__impl_1a12f555efaa258da217a86ccf3a5b2d40" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::filter::pfb_decimator_ccf_impl::print_taps</definition>
+        <argsstring>()</argsstring>
+        <name>print_taps</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/pfb_decimator_ccf_impl.h" line="53"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1filter_1_1pfb__decimator__ccf__impl_1ae36ce3033308acb889666d43ec18df2b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; std::vector&lt; float &gt; &gt;</type>
+        <definition>std::vector&lt;std::vector&lt;float&gt; &gt; gr::filter::pfb_decimator_ccf_impl::taps</definition>
+        <argsstring>() const </argsstring>
+        <name>taps</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/pfb_decimator_ccf_impl.h" line="54"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1filter_1_1pfb__decimator__ccf__impl_1a3fa031199775468b3726624fa5a0982a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::filter::pfb_decimator_ccf_impl::work</definition>
+        <argsstring>(int noutput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/pfb_decimator_ccf_impl.h" line="59"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/pfb_decimator_ccf_impl.h" line="37" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/pfb_decimator_ccf_impl.h" bodystart="36" bodyend="60"/>
+    <listofallmembers>
+      <member refid="classgr_1_1filter_1_1pfb__decimator__ccf__impl_1adff2d97dfc684239404f155a037c6a4a" prot="private" virt="non-virtual"><scope>gr::filter::pfb_decimator_ccf_impl</scope><name>d_chan</name></member>
+      <member refid="classgr_1_1filter_1_1pfb__decimator__ccf__impl_1a912186074a5930840fbf87d48e1abc3f" prot="private" virt="non-virtual"><scope>gr::filter::pfb_decimator_ccf_impl</scope><name>d_mutex</name></member>
+      <member refid="classgr_1_1filter_1_1pfb__decimator__ccf__impl_1a7fff75f08e6f32f54a11d1b81f5aa32c" prot="private" virt="non-virtual"><scope>gr::filter::pfb_decimator_ccf_impl</scope><name>d_rate</name></member>
+      <member refid="classgr_1_1filter_1_1pfb__decimator__ccf__impl_1acbf31dc0f5dbc41c5f7c663a735c41f7" prot="private" virt="non-virtual"><scope>gr::filter::pfb_decimator_ccf_impl</scope><name>d_rotator</name></member>
+      <member refid="classgr_1_1filter_1_1pfb__decimator__ccf__impl_1a6a75d79b0cf4774233cd12857379d713" prot="private" virt="non-virtual"><scope>gr::filter::pfb_decimator_ccf_impl</scope><name>d_updated</name></member>
+      <member refid="classgr_1_1filter_1_1pfb__decimator__ccf__impl_1a1bab4c07ff675ddf16375331d7887bd9" prot="public" virt="non-virtual"><scope>gr::filter::pfb_decimator_ccf_impl</scope><name>pfb_decimator_ccf_impl</name></member>
+      <member refid="classgr_1_1filter_1_1pfb__decimator__ccf__impl_1a12f555efaa258da217a86ccf3a5b2d40" prot="public" virt="non-virtual"><scope>gr::filter::pfb_decimator_ccf_impl</scope><name>print_taps</name></member>
+      <member refid="classgr_1_1filter_1_1pfb__decimator__ccf__impl_1a11ba3fc9637ab5e2094c0c92f9da8869" prot="public" virt="non-virtual"><scope>gr::filter::pfb_decimator_ccf_impl</scope><name>set_taps</name></member>
+      <member refid="classgr_1_1filter_1_1pfb__decimator__ccf__impl_1ae36ce3033308acb889666d43ec18df2b" prot="public" virt="non-virtual"><scope>gr::filter::pfb_decimator_ccf_impl</scope><name>taps</name></member>
+      <member refid="classgr_1_1filter_1_1pfb__decimator__ccf__impl_1a3fa031199775468b3726624fa5a0982a" prot="public" virt="non-virtual"><scope>gr::filter::pfb_decimator_ccf_impl</scope><name>work</name></member>
+      <member refid="classgr_1_1filter_1_1pfb__decimator__ccf__impl_1ad8f4e279b9a348a05e440d5d74bc52f5" prot="public" virt="non-virtual"><scope>gr::filter::pfb_decimator_ccf_impl</scope><name>~pfb_decimator_ccf_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

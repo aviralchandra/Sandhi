@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="dir_275c9e797079ac1bae638632dd4fbecb" kind="dir">
+    <compoundname>/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/</compoundname>
+    <innerdir refid="dir_227ad5a61cb8fec39327242853c7522a">/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/filter/</innerdir>
+    <innerdir refid="dir_4de579ec6a680fcf2cc153ccff84e2c2">/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/</innerdir>
+    <innerdir refid="dir_f8191e83fc2b15b3aeceed493b6e9478">/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/gengen/</innerdir>
+    <innerdir refid="dir_b7354ca3281b8de9ae189a5a87617d10">/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/hier/</innerdir>
+    <innerdir refid="dir_c2946c79d9cb0c54615d2b8d4f5fa671">/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/io/</innerdir>
+    <innerdir refid="dir_b4a51b1830b4d6e96f2b3dede8a89a1f">/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/missing/</innerdir>
+    <innerdir refid="dir_4f9ff2e8e1268ba7a42774ac1c682b44">/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/reed-solomon/</innerdir>
+    <innerdir refid="dir_f749ec5d95b0435765f5a147f079a2c4">/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/</innerdir>
+    <innerdir refid="dir_e5eaa35d1e0d5c175048a3101376761f">/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/swig/</innerdir>
+    <innerdir refid="dir_0194a78994e9dd402c78e8f679664156">/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/viterbi/</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/"/>
+  </compounddef>
+</doxygen>

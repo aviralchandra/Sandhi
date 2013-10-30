@@ -1,0 +1,324 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="gr__pfb__clock__sync__ccf_8h" kind="file">
+    <compoundname>gr_pfb_clock_sync_ccf.h</compoundname>
+    <includes refid="gr__core__api_8h" local="no">gr_core_api.h</includes>
+    <includes refid="gr__block_8h" local="no">gr_block.h</includes>
+    <incdepgraph>
+      <node id="9956">
+        <label>boost/thread/mutex.hpp</label>
+      </node>
+      <node id="9958">
+        <label>boost/thread/condition_variable.hpp</label>
+      </node>
+      <node id="9940">
+        <label>boost/shared_ptr.hpp</label>
+      </node>
+      <node id="9937">
+        <label>gruel/pmt.h</label>
+        <link refid="pmt_8h"/>
+        <childnode refid="9938" relation="include">
+        </childnode>
+        <childnode refid="9939" relation="include">
+        </childnode>
+        <childnode refid="9940" relation="include">
+        </childnode>
+        <childnode refid="9941" relation="include">
+        </childnode>
+        <childnode refid="9942" relation="include">
+        </childnode>
+        <childnode refid="9943" relation="include">
+        </childnode>
+        <childnode refid="9944" relation="include">
+        </childnode>
+        <childnode refid="9947" relation="include">
+        </childnode>
+        <childnode refid="9948" relation="include">
+        </childnode>
+        <childnode refid="9949" relation="include">
+        </childnode>
+        <childnode refid="9950" relation="include">
+        </childnode>
+      </node>
+      <node id="9939">
+        <label>boost/intrusive_ptr.hpp</label>
+      </node>
+      <node id="9926">
+        <label>gr_core_api.h</label>
+        <link refid="gr__core__api_8h"/>
+        <childnode refid="9927" relation="include">
+        </childnode>
+      </node>
+      <node id="9944">
+        <label>stdint.h</label>
+        <link refid="stdint_8h"/>
+        <childnode refid="9945" relation="include">
+        </childnode>
+        <childnode refid="9946" relation="include">
+        </childnode>
+      </node>
+      <node id="9935">
+        <label>gras/hier_block.hpp</label>
+      </node>
+      <node id="9934">
+        <label>gras/top_block.hpp</label>
+      </node>
+      <node id="9953">
+        <label>boost/foreach.hpp</label>
+      </node>
+      <node id="9948">
+        <label>stdexcept</label>
+      </node>
+      <node id="9929">
+        <label>gras/block.hpp</label>
+      </node>
+      <node id="9955">
+        <label>boost/thread/thread.hpp</label>
+      </node>
+      <node id="9943">
+        <label>string</label>
+      </node>
+      <node id="9952">
+        <label>map</label>
+      </node>
+      <node id="9927">
+        <label>gruel/attributes.h</label>
+        <link refid="attributes_8h"/>
+      </node>
+      <node id="9945">
+        <label>limits.h</label>
+      </node>
+      <node id="9941">
+        <label>boost/any.hpp</label>
+      </node>
+      <node id="9928">
+        <label>gr_block.h</label>
+        <link refid="gr__block_8h"/>
+        <childnode refid="9926" relation="include">
+        </childnode>
+        <childnode refid="9929" relation="include">
+        </childnode>
+        <childnode refid="9930" relation="include">
+        </childnode>
+        <childnode refid="9932" relation="include">
+        </childnode>
+        <childnode refid="9936" relation="include">
+        </childnode>
+        <childnode refid="9943" relation="include">
+        </childnode>
+        <childnode refid="9951" relation="include">
+        </childnode>
+        <childnode refid="9952" relation="include">
+        </childnode>
+        <childnode refid="9953" relation="include">
+        </childnode>
+        <childnode refid="9954" relation="include">
+        </childnode>
+        <childnode refid="9959" relation="include">
+        </childnode>
+      </node>
+      <node id="9931">
+        <label>gr_runtime_types.h</label>
+        <link refid="gr__runtime__types_8h"/>
+        <childnode refid="9926" relation="include">
+        </childnode>
+        <childnode refid="9932" relation="include">
+        </childnode>
+      </node>
+      <node id="9946">
+        <label>wchar.h</label>
+      </node>
+      <node id="9950">
+        <label>gruel/pmt_sugar.h</label>
+        <link refid="pmt__sugar_8h"/>
+      </node>
+      <node id="9957">
+        <label>boost/thread/locks.hpp</label>
+      </node>
+      <node id="9949">
+        <label>vector</label>
+      </node>
+      <node id="9930">
+        <label>gr_io_signature.h</label>
+        <link refid="gr__io__signature_8h"/>
+        <childnode refid="9926" relation="include">
+        </childnode>
+        <childnode refid="9931" relation="include">
+        </childnode>
+      </node>
+      <node id="9938">
+        <label>gruel/api.h</label>
+        <link refid="gruel_2src_2include_2gruel_2api_8h"/>
+        <childnode refid="9927" relation="include">
+        </childnode>
+      </node>
+      <node id="9947">
+        <label>iosfwd</label>
+      </node>
+      <node id="9932">
+        <label>gr_types.h</label>
+        <link refid="gr__types_8h"/>
+        <childnode refid="9933" relation="include">
+        </childnode>
+        <childnode refid="9929" relation="include">
+        </childnode>
+        <childnode refid="9934" relation="include">
+        </childnode>
+        <childnode refid="9935" relation="include">
+        </childnode>
+      </node>
+      <node id="9954">
+        <label>gruel/thread.h</label>
+        <link refid="thread_8h"/>
+        <childnode refid="9938" relation="include">
+        </childnode>
+        <childnode refid="9955" relation="include">
+        </childnode>
+        <childnode refid="9956" relation="include">
+        </childnode>
+        <childnode refid="9957" relation="include">
+        </childnode>
+        <childnode refid="9958" relation="include">
+        </childnode>
+        <childnode refid="9949" relation="include">
+        </childnode>
+      </node>
+      <node id="9951">
+        <label>deque</label>
+      </node>
+      <node id="9936">
+        <label>gr_tags.h</label>
+        <link refid="gr__tags_8h"/>
+        <childnode refid="9926" relation="include">
+        </childnode>
+        <childnode refid="9937" relation="include">
+        </childnode>
+      </node>
+      <node id="9925">
+        <label>gr_pfb_clock_sync_ccf.h</label>
+        <link refid="gr_pfb_clock_sync_ccf.h"/>
+        <childnode refid="9926" relation="include">
+        </childnode>
+        <childnode refid="9928" relation="include">
+        </childnode>
+      </node>
+      <node id="9942">
+        <label>complex</label>
+      </node>
+      <node id="9959">
+        <label>gr_sptr_magic.h</label>
+        <link refid="gr__sptr__magic_8h_source"/>
+        <childnode refid="9926" relation="include">
+        </childnode>
+        <childnode refid="9940" relation="include">
+        </childnode>
+      </node>
+      <node id="9933">
+        <label>gras/element.hpp</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classgr__pfb__clock__sync__ccf" prot="public">gr_pfb_clock_sync_ccf</innerclass>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="gr__pfb__clock__sync__ccf_8h_1abd4a84adddc5566612d047d379b9eb2f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="gr__core__api_8h_1a8b8937b0c61edd85ab57ce8203543248" kindref="member">GR_CORE_API</ref> <ref refid="classboost_1_1shared__ptr" kindref="compound">gr_pfb_clock_sync_ccf_sptr</ref></type>
+        <definition>GR_CORE_API gr_pfb_clock_sync_ccf_sptr gr_make_pfb_clock_sync_ccf</definition>
+        <argsstring>(double sps, float loop_bw, const std::vector&lt; float &gt; &amp;taps, unsigned int filter_size=32, float init_phase=0, float max_rate_deviation=1.5, int osps=1)</argsstring>
+        <name>gr_make_pfb_clock_sync_ccf</name>
+        <param>
+          <type>double</type>
+          <declname>sps</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>loop_bw</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; float &gt; &amp;</type>
+          <declname>taps</declname>
+        </param>
+        <param>
+          <type>unsigned int</type>
+          <declname>filter_size</declname>
+          <defval>32</defval>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>init_phase</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>max_rate_deviation</declname>
+          <defval>1.5</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>osps</declname>
+          <defval>1</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Build the polyphase filterbank timing synchronizer. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sps</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(double) The number of samples per symbol in the incoming signal </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>loop_bw</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(float) The bandwidth of the control loop; set&apos;s alpha and beta. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>taps</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(vector&lt;int&gt;) The filter taps. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>filter_size</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(uint) The number of filters in the filterbank (default = 32). </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>init_phase</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(float) The initial phase to look at, or which filter to start with (default = 0). </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>max_rate_deviation</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(float) Distance from 0 d_rate can get (default = 1.5). </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>osps</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(int) The number of output samples per symbol (default=1). </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/filter/gr_pfb_clock_sync_ccf.h" line="37"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/filter/gr_pfb_clock_sync_ccf.h"/>
+  </compounddef>
+</doxygen>

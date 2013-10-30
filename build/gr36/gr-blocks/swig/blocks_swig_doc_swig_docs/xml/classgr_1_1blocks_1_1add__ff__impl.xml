@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="classgr_1_1blocks_1_1add__ff__impl" kind="class" prot="public">
+    <compoundname>gr::blocks::add_ff_impl</compoundname>
+    <includes refid="add__ff__impl_8h" local="no">add_ff_impl.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1blocks_1_1add__ff__impl_1a05d348ab5caf6c194328deffc165336f" prot="private" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t gr::blocks::add_ff_impl::d_vlen</definition>
+        <argsstring></argsstring>
+        <name>d_vlen</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/add_ff_impl.h" line="33" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/add_ff_impl.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1blocks_1_1add__ff__impl_1affba317160fd8185652f31d140767bfa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::blocks::add_ff_impl::add_ff_impl</definition>
+        <argsstring>(size_t vlen)</argsstring>
+        <name>add_ff_impl</name>
+        <param>
+          <type>size_t</type>
+          <declname>vlen</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/add_ff_impl.h" line="36"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1blocks_1_1add__ff__impl_1a56a73c662ceb5008c6e6bbc4033d56b0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::blocks::add_ff_impl::work</definition>
+        <argsstring>(int noutput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/add_ff_impl.h" line="40"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/add_ff_impl.h" line="32" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/add_ff_impl.h" bodystart="31" bodyend="41"/>
+    <listofallmembers>
+      <member refid="classgr_1_1blocks_1_1add__ff__impl_1affba317160fd8185652f31d140767bfa" prot="public" virt="non-virtual"><scope>gr::blocks::add_ff_impl</scope><name>add_ff_impl</name></member>
+      <member refid="classgr_1_1blocks_1_1add__ff__impl_1a05d348ab5caf6c194328deffc165336f" prot="private" virt="non-virtual"><scope>gr::blocks::add_ff_impl</scope><name>d_vlen</name></member>
+      <member refid="classgr_1_1blocks_1_1add__ff__impl_1a56a73c662ceb5008c6e6bbc4033d56b0" prot="public" virt="non-virtual"><scope>gr::blocks::add_ff_impl</scope><name>work</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

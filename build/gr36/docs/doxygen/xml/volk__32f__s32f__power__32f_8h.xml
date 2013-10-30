@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="volk__32f__s32f__power__32f_8h" kind="file">
+    <compoundname>volk_32f_s32f_power_32f.h</compoundname>
+    <includes refid="inttypes_8h" local="no">inttypes.h</includes>
+    <includes local="no">stdio.h</includes>
+    <includes local="no">math.h</includes>
+    <incdepgraph>
+      <node id="20853">
+        <label>stdint.h</label>
+        <link refid="stdint_8h"/>
+        <childnode refid="20854" relation="include">
+        </childnode>
+        <childnode refid="20855" relation="include">
+        </childnode>
+      </node>
+      <node id="20852">
+        <label>inttypes.h</label>
+        <link refid="inttypes_8h"/>
+        <childnode refid="20853" relation="include">
+        </childnode>
+      </node>
+      <node id="20851">
+        <label>volk_32f_s32f_power_32f.h</label>
+        <link refid="volk_32f_s32f_power_32f.h"/>
+        <childnode refid="20852" relation="include">
+        </childnode>
+        <childnode refid="20856" relation="include">
+        </childnode>
+        <childnode refid="20857" relation="include">
+        </childnode>
+      </node>
+      <node id="20854">
+        <label>limits.h</label>
+      </node>
+      <node id="20855">
+        <label>wchar.h</label>
+      </node>
+      <node id="20857">
+        <label>math.h</label>
+      </node>
+      <node id="20856">
+        <label>stdio.h</label>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/aviral/GNU-Niyantran/gr36/volk/kernels/volk/volk_32f_s32f_power_32f.h"/>
+  </compounddef>
+</doxygen>

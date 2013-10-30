@@ -1,0 +1,246 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="complex__to__real__impl_8h" kind="file">
+    <compoundname>complex_to_real_impl.h</compoundname>
+    <includes refid="complex__to__real_8h" local="no">blocks/complex_to_real.h</includes>
+    <incdepgraph>
+      <node id="2150">
+        <label>boost/thread/mutex.hpp</label>
+      </node>
+      <node id="2152">
+        <label>boost/thread/condition_variable.hpp</label>
+      </node>
+      <node id="2134">
+        <label>boost/shared_ptr.hpp</label>
+      </node>
+      <node id="2131">
+        <label>gruel/pmt.h</label>
+        <link refid="pmt_8h"/>
+        <childnode refid="2132" relation="include">
+        </childnode>
+        <childnode refid="2133" relation="include">
+        </childnode>
+        <childnode refid="2134" relation="include">
+        </childnode>
+        <childnode refid="2135" relation="include">
+        </childnode>
+        <childnode refid="2136" relation="include">
+        </childnode>
+        <childnode refid="2137" relation="include">
+        </childnode>
+        <childnode refid="2138" relation="include">
+        </childnode>
+        <childnode refid="2141" relation="include">
+        </childnode>
+        <childnode refid="2142" relation="include">
+        </childnode>
+        <childnode refid="2143" relation="include">
+        </childnode>
+        <childnode refid="2144" relation="include">
+        </childnode>
+      </node>
+      <node id="2133">
+        <label>boost/intrusive_ptr.hpp</label>
+      </node>
+      <node id="2122">
+        <label>gr_core_api.h</label>
+        <link refid="gr__core__api_8h"/>
+        <childnode refid="2119" relation="include">
+        </childnode>
+      </node>
+      <node id="2138">
+        <label>stdint.h</label>
+        <link refid="stdint_8h"/>
+        <childnode refid="2139" relation="include">
+        </childnode>
+        <childnode refid="2140" relation="include">
+        </childnode>
+      </node>
+      <node id="2129">
+        <label>gras/hier_block.hpp</label>
+      </node>
+      <node id="2128">
+        <label>gras/top_block.hpp</label>
+      </node>
+      <node id="2147">
+        <label>boost/foreach.hpp</label>
+      </node>
+      <node id="2142">
+        <label>stdexcept</label>
+      </node>
+      <node id="2123">
+        <label>gras/block.hpp</label>
+      </node>
+      <node id="2149">
+        <label>boost/thread/thread.hpp</label>
+      </node>
+      <node id="2137">
+        <label>string</label>
+      </node>
+      <node id="2146">
+        <label>map</label>
+      </node>
+      <node id="2116">
+        <label>complex_to_real_impl.h</label>
+        <link refid="complex_to_real_impl.h"/>
+        <childnode refid="2117" relation="include">
+        </childnode>
+      </node>
+      <node id="2119">
+        <label>gruel/attributes.h</label>
+        <link refid="attributes_8h"/>
+      </node>
+      <node id="2139">
+        <label>limits.h</label>
+      </node>
+      <node id="2135">
+        <label>boost/any.hpp</label>
+      </node>
+      <node id="2121">
+        <label>gr_block.h</label>
+        <link refid="gr__block_8h"/>
+        <childnode refid="2122" relation="include">
+        </childnode>
+        <childnode refid="2123" relation="include">
+        </childnode>
+        <childnode refid="2124" relation="include">
+        </childnode>
+        <childnode refid="2126" relation="include">
+        </childnode>
+        <childnode refid="2130" relation="include">
+        </childnode>
+        <childnode refid="2137" relation="include">
+        </childnode>
+        <childnode refid="2145" relation="include">
+        </childnode>
+        <childnode refid="2146" relation="include">
+        </childnode>
+        <childnode refid="2147" relation="include">
+        </childnode>
+        <childnode refid="2148" relation="include">
+        </childnode>
+        <childnode refid="2153" relation="include">
+        </childnode>
+      </node>
+      <node id="2125">
+        <label>gr_runtime_types.h</label>
+        <link refid="gr__runtime__types_8h"/>
+        <childnode refid="2122" relation="include">
+        </childnode>
+        <childnode refid="2126" relation="include">
+        </childnode>
+      </node>
+      <node id="2140">
+        <label>wchar.h</label>
+      </node>
+      <node id="2144">
+        <label>gruel/pmt_sugar.h</label>
+        <link refid="pmt__sugar_8h"/>
+      </node>
+      <node id="2151">
+        <label>boost/thread/locks.hpp</label>
+      </node>
+      <node id="2117">
+        <label>blocks/complex_to_real.h</label>
+        <link refid="complex__to__real_8h"/>
+        <childnode refid="2118" relation="include">
+        </childnode>
+        <childnode refid="2120" relation="include">
+        </childnode>
+      </node>
+      <node id="2120">
+        <label>gr_sync_block.h</label>
+        <link refid="gr__sync__block_8h"/>
+        <childnode refid="2121" relation="include">
+        </childnode>
+      </node>
+      <node id="2143">
+        <label>vector</label>
+      </node>
+      <node id="2124">
+        <label>gr_io_signature.h</label>
+        <link refid="gr__io__signature_8h"/>
+        <childnode refid="2122" relation="include">
+        </childnode>
+        <childnode refid="2125" relation="include">
+        </childnode>
+      </node>
+      <node id="2132">
+        <label>gruel/api.h</label>
+        <link refid="gruel_2src_2include_2gruel_2api_8h"/>
+        <childnode refid="2119" relation="include">
+        </childnode>
+      </node>
+      <node id="2118">
+        <label>blocks/api.h</label>
+        <link refid="gr-blocks_2include_2blocks_2api_8h"/>
+        <childnode refid="2119" relation="include">
+        </childnode>
+      </node>
+      <node id="2141">
+        <label>iosfwd</label>
+      </node>
+      <node id="2126">
+        <label>gr_types.h</label>
+        <link refid="gr__types_8h"/>
+        <childnode refid="2127" relation="include">
+        </childnode>
+        <childnode refid="2123" relation="include">
+        </childnode>
+        <childnode refid="2128" relation="include">
+        </childnode>
+        <childnode refid="2129" relation="include">
+        </childnode>
+      </node>
+      <node id="2148">
+        <label>gruel/thread.h</label>
+        <link refid="thread_8h"/>
+        <childnode refid="2132" relation="include">
+        </childnode>
+        <childnode refid="2149" relation="include">
+        </childnode>
+        <childnode refid="2150" relation="include">
+        </childnode>
+        <childnode refid="2151" relation="include">
+        </childnode>
+        <childnode refid="2152" relation="include">
+        </childnode>
+        <childnode refid="2143" relation="include">
+        </childnode>
+      </node>
+      <node id="2145">
+        <label>deque</label>
+      </node>
+      <node id="2130">
+        <label>gr_tags.h</label>
+        <link refid="gr__tags_8h"/>
+        <childnode refid="2122" relation="include">
+        </childnode>
+        <childnode refid="2131" relation="include">
+        </childnode>
+      </node>
+      <node id="2136">
+        <label>complex</label>
+      </node>
+      <node id="2153">
+        <label>gr_sptr_magic.h</label>
+        <link refid="gr__sptr__magic_8h_source"/>
+        <childnode refid="2122" relation="include">
+        </childnode>
+        <childnode refid="2134" relation="include">
+        </childnode>
+      </node>
+      <node id="2127">
+        <label>gras/element.hpp</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classgr_1_1blocks_1_1complex__to__real__impl" prot="public">gr::blocks::complex_to_real_impl</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1blocks">gr::blocks</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/complex_to_real_impl.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="channel__model_8h" kind="file">
+    <compoundname>channel_model.h</compoundname>
+    <includes refid="gr-filter_2include_2filter_2api_8h" local="no">filter/api.h</includes>
+    <includes refid="gr__hier__block2_8h" local="no">gr_hier_block2.h</includes>
+    <includes refid="gr__types_8h" local="no">gr_types.h</includes>
+    <includedby refid="channel__model__impl_8h" local="no">channel_model_impl.h</includedby>
+    <incdepgraph>
+      <node id="1308">
+        <label>gr_core_api.h</label>
+        <link refid="gr__core__api_8h"/>
+        <childnode refid="1306" relation="include">
+        </childnode>
+      </node>
+      <node id="1309">
+        <label>gras/hier_block.hpp</label>
+      </node>
+      <node id="1315">
+        <label>gras/top_block.hpp</label>
+      </node>
+      <node id="1314">
+        <label>gras/block.hpp</label>
+      </node>
+      <node id="1305">
+        <label>filter/api.h</label>
+        <link refid="gr-filter_2include_2filter_2api_8h"/>
+        <childnode refid="1306" relation="include">
+        </childnode>
+      </node>
+      <node id="1306">
+        <label>gruel/attributes.h</label>
+        <link refid="attributes_8h"/>
+      </node>
+      <node id="1311">
+        <label>gr_runtime_types.h</label>
+        <link refid="gr__runtime__types_8h"/>
+        <childnode refid="1308" relation="include">
+        </childnode>
+        <childnode refid="1312" relation="include">
+        </childnode>
+      </node>
+      <node id="1310">
+        <label>gr_io_signature.h</label>
+        <link refid="gr__io__signature_8h"/>
+        <childnode refid="1308" relation="include">
+        </childnode>
+        <childnode refid="1311" relation="include">
+        </childnode>
+      </node>
+      <node id="1304">
+        <label>channel_model.h</label>
+        <link refid="channel_model.h"/>
+        <childnode refid="1305" relation="include">
+        </childnode>
+        <childnode refid="1307" relation="include">
+        </childnode>
+        <childnode refid="1312" relation="include">
+        </childnode>
+      </node>
+      <node id="1307">
+        <label>gr_hier_block2.h</label>
+        <link refid="gr__hier__block2_8h"/>
+        <childnode refid="1308" relation="include">
+        </childnode>
+        <childnode refid="1309" relation="include">
+        </childnode>
+        <childnode refid="1310" relation="include">
+        </childnode>
+      </node>
+      <node id="1312">
+        <label>gr_types.h</label>
+        <link refid="gr__types_8h"/>
+        <childnode refid="1313" relation="include">
+        </childnode>
+        <childnode refid="1314" relation="include">
+        </childnode>
+        <childnode refid="1315" relation="include">
+        </childnode>
+        <childnode refid="1309" relation="include">
+        </childnode>
+      </node>
+      <node id="1313">
+        <label>gras/element.hpp</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1317">
+        <label>channel_model_impl.h</label>
+        <link refid="channel__model__impl_8h"/>
+      </node>
+      <node id="1316">
+        <label>channel_model.h</label>
+        <link refid="channel_model.h"/>
+        <childnode refid="1317" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classgr_1_1filter_1_1channel__model" prot="public">gr::filter::channel_model</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1filter">gr::filter</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/include/filter/channel_model.h"/>
+  </compounddef>
+</doxygen>

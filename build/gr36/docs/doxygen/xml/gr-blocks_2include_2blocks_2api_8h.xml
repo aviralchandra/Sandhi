@@ -1,0 +1,763 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="gr-blocks_2include_2blocks_2api_8h" kind="file">
+    <compoundname>gr-blocks/include/blocks/api.h</compoundname>
+    <includes refid="attributes_8h" local="no">gruel/attributes.h</includes>
+    <includedby refid="add__ff_8h" local="no">add_ff.h</includedby>
+    <includedby refid="char__to__float_8h" local="no">char_to_float.h</includedby>
+    <includedby refid="char__to__short_8h" local="no">char_to_short.h</includedby>
+    <includedby refid="complex__to__arg_8h" local="no">complex_to_arg.h</includedby>
+    <includedby refid="complex__to__float_8h" local="no">complex_to_float.h</includedby>
+    <includedby refid="complex__to__imag_8h" local="no">complex_to_imag.h</includedby>
+    <includedby refid="complex__to__interleaved__short_8h" local="no">complex_to_interleaved_short.h</includedby>
+    <includedby refid="complex__to__mag_8h" local="no">complex_to_mag.h</includedby>
+    <includedby refid="complex__to__mag__squared_8h" local="no">complex_to_mag_squared.h</includedby>
+    <includedby refid="complex__to__real_8h" local="no">complex_to_real.h</includedby>
+    <includedby refid="conjugate__cc_8h" local="no">conjugate_cc.h</includedby>
+    <includedby refid="count__bits_8h" local="no">count_bits.h</includedby>
+    <includedby refid="deinterleave_8h" local="no">deinterleave.h</includedby>
+    <includedby refid="delay_8h" local="no">delay.h</includedby>
+    <includedby refid="file__meta__sink_8h" local="no">file_meta_sink.h</includedby>
+    <includedby refid="file__meta__source_8h" local="no">file_meta_source.h</includedby>
+    <includedby refid="file__source_8h" local="no">file_source.h</includedby>
+    <includedby refid="float__to__char_8h" local="no">float_to_char.h</includedby>
+    <includedby refid="float__to__complex_8h" local="no">float_to_complex.h</includedby>
+    <includedby refid="float__to__int_8h" local="no">float_to_int.h</includedby>
+    <includedby refid="float__to__short_8h" local="no">float_to_short.h</includedby>
+    <includedby refid="float__to__uchar_8h" local="no">float_to_uchar.h</includedby>
+    <includedby refid="int__to__float_8h" local="no">int_to_float.h</includedby>
+    <includedby refid="interleave_8h" local="no">interleave.h</includedby>
+    <includedby refid="interleaved__short__to__complex_8h" local="no">interleaved_short_to_complex.h</includedby>
+    <includedby refid="keep__m__in__n_8h" local="no">keep_m_in_n.h</includedby>
+    <includedby refid="keep__one__in__n_8h" local="no">keep_one_in_n.h</includedby>
+    <includedby refid="log2__const_8h" local="no">log2_const.h</includedby>
+    <includedby refid="multiply__cc_8h" local="no">multiply_cc.h</includedby>
+    <includedby refid="multiply__conjugate__cc_8h" local="no">multiply_conjugate_cc.h</includedby>
+    <includedby refid="multiply__const__cc_8h" local="no">multiply_const_cc.h</includedby>
+    <includedby refid="multiply__const__ff_8h" local="no">multiply_const_ff.h</includedby>
+    <includedby refid="multiply__ff_8h" local="no">multiply_ff.h</includedby>
+    <includedby refid="nlog10__ff_8h" local="no">nlog10_ff.h</includedby>
+    <includedby refid="patterned__interleaver_8h" local="no">patterned_interleaver.h</includedby>
+    <includedby refid="peak__detector2__fb_8h" local="no">peak_detector2_fb.h</includedby>
+    <includedby refid="regenerate__bb_8h" local="no">regenerate_bb.h</includedby>
+    <includedby refid="repeat_8h" local="no">repeat.h</includedby>
+    <includedby refid="rms__cf_8h" local="no">rms_cf.h</includedby>
+    <includedby refid="rms__ff_8h" local="no">rms_ff.h</includedby>
+    <includedby refid="short__to__char_8h" local="no">short_to_char.h</includedby>
+    <includedby refid="short__to__float_8h" local="no">short_to_float.h</includedby>
+    <includedby refid="stream__mux_8h" local="no">stream_mux.h</includedby>
+    <includedby refid="stream__to__streams_8h" local="no">stream_to_streams.h</includedby>
+    <includedby refid="stream__to__vector_8h" local="no">stream_to_vector.h</includedby>
+    <includedby refid="streams__to__stream_8h" local="no">streams_to_stream.h</includedby>
+    <includedby refid="streams__to__vector_8h" local="no">streams_to_vector.h</includedby>
+    <includedby refid="stretch__ff_8h" local="no">stretch_ff.h</includedby>
+    <includedby refid="threshold__ff_8h" local="no">threshold_ff.h</includedby>
+    <includedby refid="throttle_8h" local="no">throttle.h</includedby>
+    <includedby refid="transcendental_8h" local="no">transcendental.h</includedby>
+    <includedby refid="uchar__to__float_8h" local="no">uchar_to_float.h</includedby>
+    <includedby refid="vector__to__stream_8h" local="no">vector_to_stream.h</includedby>
+    <includedby refid="vector__to__streams_8h" local="no">vector_to_streams.h</includedby>
+    <includedby refid="float__array__to__int_8h" local="no">float_array_to_int.h</includedby>
+    <includedby refid="float__array__to__uchar_8h" local="no">float_array_to_uchar.h</includedby>
+    <includedby refid="interleaved__short__array__to__complex_8h" local="no">interleaved_short_array_to_complex.h</includedby>
+    <includedby refid="uchar__array__to__float_8h" local="no">uchar_array_to_float.h</includedby>
+    <incdepgraph>
+      <node id="248">
+        <label>gruel/attributes.h</label>
+        <link refid="attributes_8h"/>
+      </node>
+      <node id="247">
+        <label>api.h</label>
+        <link refid="gr-blocks/include/blocks/api.h"/>
+        <childnode refid="248" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="284">
+        <label>float_to_char_impl.h</label>
+        <link refid="float__to__char__impl_8h"/>
+      </node>
+      <node id="266">
+        <label>complex_to_mag_squared.h</label>
+        <link refid="complex__to__mag__squared_8h"/>
+        <childnode refid="267" relation="include">
+        </childnode>
+      </node>
+      <node id="278">
+        <label>file_meta_sink_impl.h</label>
+        <link refid="file__meta__sink__impl_8h"/>
+      </node>
+      <node id="344">
+        <label>threshold_ff.h</label>
+        <link refid="threshold__ff_8h"/>
+        <childnode refid="345" relation="include">
+        </childnode>
+      </node>
+      <node id="259">
+        <label>complex_to_float_impl.h</label>
+        <link refid="complex__to__float__impl_8h"/>
+      </node>
+      <node id="305">
+        <label>multiply_cc_impl.h</label>
+        <link refid="multiply__cc__impl_8h"/>
+      </node>
+      <node id="304">
+        <label>multiply_cc.h</label>
+        <link refid="multiply__cc_8h"/>
+        <childnode refid="305" relation="include">
+        </childnode>
+      </node>
+      <node id="345">
+        <label>threshold_ff_impl.h</label>
+        <link refid="threshold__ff__impl_8h"/>
+      </node>
+      <node id="324">
+        <label>rms_cf.h</label>
+        <link refid="rms__cf_8h"/>
+        <childnode refid="325" relation="include">
+        </childnode>
+      </node>
+      <node id="320">
+        <label>regenerate_bb.h</label>
+        <link refid="regenerate__bb_8h"/>
+        <childnode refid="321" relation="include">
+        </childnode>
+      </node>
+      <node id="295">
+        <label>interleave.h</label>
+        <link refid="interleave_8h"/>
+        <childnode refid="296" relation="include">
+        </childnode>
+      </node>
+      <node id="349">
+        <label>transcendental_impl.h</label>
+        <link refid="transcendental__impl_8h"/>
+      </node>
+      <node id="272">
+        <label>count_bits.h</label>
+        <link refid="count__bits_8h"/>
+      </node>
+      <node id="274">
+        <label>deinterleave_impl.h</label>
+        <link refid="deinterleave__impl_8h"/>
+      </node>
+      <node id="319">
+        <label>peak_detector2_fb_impl.h</label>
+        <link refid="peak__detector2__fb__impl_8h"/>
+      </node>
+      <node id="357">
+        <label>float_array_to_uchar.h</label>
+        <link refid="float__array__to__uchar_8h"/>
+      </node>
+      <node id="288">
+        <label>float_to_int_impl.h</label>
+        <link refid="float__to__int__impl_8h"/>
+      </node>
+      <node id="277">
+        <label>file_meta_sink.h</label>
+        <link refid="file__meta__sink_8h"/>
+        <childnode refid="278" relation="include">
+        </childnode>
+        <childnode refid="279" relation="include">
+        </childnode>
+      </node>
+      <node id="337">
+        <label>stream_to_vector_impl.h</label>
+        <link refid="stream__to__vector__impl_8h"/>
+      </node>
+      <node id="303">
+        <label>log2_const.h</label>
+        <link refid="log2__const_8h"/>
+      </node>
+      <node id="309">
+        <label>multiply_const_cc_impl.h</label>
+        <link refid="multiply__const__cc__impl_8h"/>
+      </node>
+      <node id="252">
+        <label>char_to_float.h</label>
+        <link refid="char__to__float_8h"/>
+        <childnode refid="253" relation="include">
+        </childnode>
+      </node>
+      <node id="331">
+        <label>short_to_float_impl.h</label>
+        <link refid="short__to__float__impl_8h"/>
+      </node>
+      <node id="285">
+        <label>float_to_complex.h</label>
+        <link refid="float__to__complex_8h"/>
+        <childnode refid="286" relation="include">
+        </childnode>
+      </node>
+      <node id="350">
+        <label>uchar_to_float.h</label>
+        <link refid="uchar__to__float_8h"/>
+        <childnode refid="351" relation="include">
+        </childnode>
+      </node>
+      <node id="333">
+        <label>stream_mux_impl.h</label>
+        <link refid="stream__mux__impl_8h"/>
+      </node>
+      <node id="261">
+        <label>complex_to_imag_impl.h</label>
+        <link refid="complex__to__imag__impl_8h"/>
+      </node>
+      <node id="299">
+        <label>keep_m_in_n.h</label>
+        <link refid="keep__m__in__n_8h"/>
+        <childnode refid="300" relation="include">
+        </childnode>
+      </node>
+      <node id="282">
+        <label>file_source_impl.h</label>
+        <link refid="file__source__impl_8h"/>
+      </node>
+      <node id="339">
+        <label>streams_to_stream_impl.h</label>
+        <link refid="streams__to__stream__impl_8h"/>
+      </node>
+      <node id="306">
+        <label>multiply_conjugate_cc.h</label>
+        <link refid="multiply__conjugate__cc_8h"/>
+        <childnode refid="307" relation="include">
+        </childnode>
+      </node>
+      <node id="329">
+        <label>short_to_char_impl.h</label>
+        <link refid="short__to__char__impl_8h"/>
+      </node>
+      <node id="307">
+        <label>multiply_conjugate_cc_impl.h</label>
+        <link refid="multiply__conjugate__cc__impl_8h"/>
+      </node>
+      <node id="318">
+        <label>peak_detector2_fb.h</label>
+        <link refid="peak__detector2__fb_8h"/>
+        <childnode refid="319" relation="include">
+        </childnode>
+      </node>
+      <node id="325">
+        <label>rms_cf_impl.h</label>
+        <link refid="rms__cf__impl_8h"/>
+      </node>
+      <node id="283">
+        <label>float_to_char.h</label>
+        <link refid="float__to__char_8h"/>
+        <childnode refid="284" relation="include">
+        </childnode>
+      </node>
+      <node id="269">
+        <label>complex_to_real_impl.h</label>
+        <link refid="complex__to__real__impl_8h"/>
+      </node>
+      <node id="256">
+        <label>complex_to_arg.h</label>
+        <link refid="complex__to__arg_8h"/>
+        <childnode refid="257" relation="include">
+        </childnode>
+      </node>
+      <node id="328">
+        <label>short_to_char.h</label>
+        <link refid="short__to__char_8h"/>
+        <childnode refid="329" relation="include">
+        </childnode>
+      </node>
+      <node id="308">
+        <label>multiply_const_cc.h</label>
+        <link refid="multiply__const__cc_8h"/>
+        <childnode refid="309" relation="include">
+        </childnode>
+      </node>
+      <node id="336">
+        <label>stream_to_vector.h</label>
+        <link refid="stream__to__vector_8h"/>
+        <childnode refid="337" relation="include">
+        </childnode>
+      </node>
+      <node id="297">
+        <label>interleaved_short_to_complex.h</label>
+        <link refid="interleaved__short__to__complex_8h"/>
+        <childnode refid="298" relation="include">
+        </childnode>
+      </node>
+      <node id="316">
+        <label>patterned_interleaver.h</label>
+        <link refid="patterned__interleaver_8h"/>
+        <childnode refid="317" relation="include">
+        </childnode>
+      </node>
+      <node id="264">
+        <label>complex_to_mag.h</label>
+        <link refid="complex__to__mag_8h"/>
+        <childnode refid="265" relation="include">
+        </childnode>
+      </node>
+      <node id="289">
+        <label>float_to_short.h</label>
+        <link refid="float__to__short_8h"/>
+        <childnode refid="290" relation="include">
+        </childnode>
+      </node>
+      <node id="315">
+        <label>nlog10_ff_impl.h</label>
+        <link refid="nlog10__ff__impl_8h"/>
+      </node>
+      <node id="346">
+        <label>throttle.h</label>
+        <link refid="throttle_8h"/>
+        <childnode refid="347" relation="include">
+        </childnode>
+      </node>
+      <node id="335">
+        <label>stream_to_streams_impl.h</label>
+        <link refid="stream__to__streams__impl_8h"/>
+      </node>
+      <node id="338">
+        <label>streams_to_stream.h</label>
+        <link refid="streams__to__stream_8h"/>
+        <childnode refid="339" relation="include">
+        </childnode>
+      </node>
+      <node id="298">
+        <label>interleaved_short_to_complex_impl.h</label>
+        <link refid="interleaved__short__to__complex__impl_8h"/>
+      </node>
+      <node id="255">
+        <label>char_to_short_impl.h</label>
+        <link refid="char__to__short__impl_8h"/>
+      </node>
+      <node id="254">
+        <label>char_to_short.h</label>
+        <link refid="char__to__short_8h"/>
+        <childnode refid="255" relation="include">
+        </childnode>
+      </node>
+      <node id="355">
+        <label>vector_to_streams_impl.h</label>
+        <link refid="vector__to__streams__impl_8h"/>
+      </node>
+      <node id="294">
+        <label>int_to_float_impl.h</label>
+        <link refid="int__to__float__impl_8h"/>
+      </node>
+      <node id="354">
+        <label>vector_to_streams.h</label>
+        <link refid="vector__to__streams_8h"/>
+        <childnode refid="355" relation="include">
+        </childnode>
+      </node>
+      <node id="351">
+        <label>uchar_to_float_impl.h</label>
+        <link refid="uchar__to__float__impl_8h"/>
+      </node>
+      <node id="347">
+        <label>throttle_impl.h</label>
+        <link refid="throttle__impl_8h"/>
+      </node>
+      <node id="358">
+        <label>interleaved_short_array_to_complex.h</label>
+        <link refid="interleaved__short__array__to__complex_8h"/>
+      </node>
+      <node id="300">
+        <label>keep_m_in_n_impl.h</label>
+        <link refid="keep__m__in__n__impl_8h"/>
+      </node>
+      <node id="352">
+        <label>vector_to_stream.h</label>
+        <link refid="vector__to__stream_8h"/>
+        <childnode refid="353" relation="include">
+        </childnode>
+      </node>
+      <node id="342">
+        <label>stretch_ff.h</label>
+        <link refid="stretch__ff_8h"/>
+        <childnode refid="343" relation="include">
+        </childnode>
+      </node>
+      <node id="313">
+        <label>multiply_ff_impl.h</label>
+        <link refid="multiply__ff__impl_8h"/>
+      </node>
+      <node id="268">
+        <label>complex_to_real.h</label>
+        <link refid="complex__to__real_8h"/>
+        <childnode refid="269" relation="include">
+        </childnode>
+      </node>
+      <node id="276">
+        <label>delay_impl.h</label>
+        <link refid="delay__impl_8h"/>
+      </node>
+      <node id="296">
+        <label>interleave_impl.h</label>
+        <link refid="interleave__impl_8h"/>
+      </node>
+      <node id="251">
+        <label>add_ff_impl.h</label>
+        <link refid="add__ff__impl_8h"/>
+      </node>
+      <node id="334">
+        <label>stream_to_streams.h</label>
+        <link refid="stream__to__streams_8h"/>
+        <childnode refid="335" relation="include">
+        </childnode>
+      </node>
+      <node id="327">
+        <label>rms_ff_impl.h</label>
+        <link refid="rms__ff__impl_8h"/>
+      </node>
+      <node id="340">
+        <label>streams_to_vector.h</label>
+        <link refid="streams__to__vector_8h"/>
+        <childnode refid="341" relation="include">
+        </childnode>
+      </node>
+      <node id="290">
+        <label>float_to_short_impl.h</label>
+        <link refid="float__to__short__impl_8h"/>
+      </node>
+      <node id="356">
+        <label>float_array_to_int.h</label>
+        <link refid="float__array__to__int_8h"/>
+      </node>
+      <node id="312">
+        <label>multiply_ff.h</label>
+        <link refid="multiply__ff_8h"/>
+        <childnode refid="313" relation="include">
+        </childnode>
+      </node>
+      <node id="258">
+        <label>complex_to_float.h</label>
+        <link refid="complex__to__float_8h"/>
+        <childnode refid="259" relation="include">
+        </childnode>
+      </node>
+      <node id="267">
+        <label>complex_to_mag_squared_impl.h</label>
+        <link refid="complex__to__mag__squared__impl_8h"/>
+      </node>
+      <node id="291">
+        <label>float_to_uchar.h</label>
+        <link refid="float__to__uchar_8h"/>
+        <childnode refid="292" relation="include">
+        </childnode>
+      </node>
+      <node id="287">
+        <label>float_to_int.h</label>
+        <link refid="float__to__int_8h"/>
+        <childnode refid="288" relation="include">
+        </childnode>
+      </node>
+      <node id="321">
+        <label>regenerate_bb_impl.h</label>
+        <link refid="regenerate__bb__impl_8h"/>
+      </node>
+      <node id="302">
+        <label>keep_one_in_n_impl.h</label>
+        <link refid="keep__one__in__n__impl_8h"/>
+      </node>
+      <node id="249">
+        <label>api.h</label>
+        <link refid="gr-blocks/include/blocks/api.h"/>
+        <childnode refid="250" relation="include">
+        </childnode>
+        <childnode refid="252" relation="include">
+        </childnode>
+        <childnode refid="254" relation="include">
+        </childnode>
+        <childnode refid="256" relation="include">
+        </childnode>
+        <childnode refid="258" relation="include">
+        </childnode>
+        <childnode refid="260" relation="include">
+        </childnode>
+        <childnode refid="262" relation="include">
+        </childnode>
+        <childnode refid="264" relation="include">
+        </childnode>
+        <childnode refid="266" relation="include">
+        </childnode>
+        <childnode refid="268" relation="include">
+        </childnode>
+        <childnode refid="270" relation="include">
+        </childnode>
+        <childnode refid="272" relation="include">
+        </childnode>
+        <childnode refid="273" relation="include">
+        </childnode>
+        <childnode refid="275" relation="include">
+        </childnode>
+        <childnode refid="277" relation="include">
+        </childnode>
+        <childnode refid="280" relation="include">
+        </childnode>
+        <childnode refid="281" relation="include">
+        </childnode>
+        <childnode refid="283" relation="include">
+        </childnode>
+        <childnode refid="285" relation="include">
+        </childnode>
+        <childnode refid="287" relation="include">
+        </childnode>
+        <childnode refid="289" relation="include">
+        </childnode>
+        <childnode refid="291" relation="include">
+        </childnode>
+        <childnode refid="293" relation="include">
+        </childnode>
+        <childnode refid="295" relation="include">
+        </childnode>
+        <childnode refid="297" relation="include">
+        </childnode>
+        <childnode refid="299" relation="include">
+        </childnode>
+        <childnode refid="301" relation="include">
+        </childnode>
+        <childnode refid="303" relation="include">
+        </childnode>
+        <childnode refid="304" relation="include">
+        </childnode>
+        <childnode refid="306" relation="include">
+        </childnode>
+        <childnode refid="308" relation="include">
+        </childnode>
+        <childnode refid="310" relation="include">
+        </childnode>
+        <childnode refid="312" relation="include">
+        </childnode>
+        <childnode refid="314" relation="include">
+        </childnode>
+        <childnode refid="316" relation="include">
+        </childnode>
+        <childnode refid="318" relation="include">
+        </childnode>
+        <childnode refid="320" relation="include">
+        </childnode>
+        <childnode refid="322" relation="include">
+        </childnode>
+        <childnode refid="324" relation="include">
+        </childnode>
+        <childnode refid="326" relation="include">
+        </childnode>
+        <childnode refid="328" relation="include">
+        </childnode>
+        <childnode refid="330" relation="include">
+        </childnode>
+        <childnode refid="332" relation="include">
+        </childnode>
+        <childnode refid="334" relation="include">
+        </childnode>
+        <childnode refid="336" relation="include">
+        </childnode>
+        <childnode refid="338" relation="include">
+        </childnode>
+        <childnode refid="340" relation="include">
+        </childnode>
+        <childnode refid="342" relation="include">
+        </childnode>
+        <childnode refid="344" relation="include">
+        </childnode>
+        <childnode refid="346" relation="include">
+        </childnode>
+        <childnode refid="348" relation="include">
+        </childnode>
+        <childnode refid="350" relation="include">
+        </childnode>
+        <childnode refid="352" relation="include">
+        </childnode>
+        <childnode refid="354" relation="include">
+        </childnode>
+        <childnode refid="356" relation="include">
+        </childnode>
+        <childnode refid="357" relation="include">
+        </childnode>
+        <childnode refid="358" relation="include">
+        </childnode>
+        <childnode refid="359" relation="include">
+        </childnode>
+      </node>
+      <node id="279">
+        <label>file_meta_source_impl.h</label>
+        <link refid="file__meta__source__impl_8h"/>
+      </node>
+      <node id="286">
+        <label>float_to_complex_impl.h</label>
+        <link refid="float__to__complex__impl_8h"/>
+      </node>
+      <node id="253">
+        <label>char_to_float_impl.h</label>
+        <link refid="char__to__float__impl_8h"/>
+      </node>
+      <node id="317">
+        <label>patterned_interleaver_impl.h</label>
+        <link refid="patterned__interleaver__impl_8h"/>
+      </node>
+      <node id="263">
+        <label>complex_to_interleaved_short_impl.h</label>
+        <link refid="complex__to__interleaved__short__impl_8h"/>
+      </node>
+      <node id="353">
+        <label>vector_to_stream_impl.h</label>
+        <link refid="vector__to__stream__impl_8h"/>
+      </node>
+      <node id="293">
+        <label>int_to_float.h</label>
+        <link refid="int__to__float_8h"/>
+        <childnode refid="294" relation="include">
+        </childnode>
+      </node>
+      <node id="260">
+        <label>complex_to_imag.h</label>
+        <link refid="complex__to__imag_8h"/>
+        <childnode refid="261" relation="include">
+        </childnode>
+      </node>
+      <node id="314">
+        <label>nlog10_ff.h</label>
+        <link refid="nlog10__ff_8h"/>
+        <childnode refid="315" relation="include">
+        </childnode>
+      </node>
+      <node id="301">
+        <label>keep_one_in_n.h</label>
+        <link refid="keep__one__in__n_8h"/>
+        <childnode refid="302" relation="include">
+        </childnode>
+      </node>
+      <node id="330">
+        <label>short_to_float.h</label>
+        <link refid="short__to__float_8h"/>
+        <childnode refid="331" relation="include">
+        </childnode>
+      </node>
+      <node id="250">
+        <label>add_ff.h</label>
+        <link refid="add__ff_8h"/>
+        <childnode refid="251" relation="include">
+        </childnode>
+      </node>
+      <node id="262">
+        <label>complex_to_interleaved_short.h</label>
+        <link refid="complex__to__interleaved__short_8h"/>
+        <childnode refid="263" relation="include">
+        </childnode>
+      </node>
+      <node id="343">
+        <label>stretch_ff_impl.h</label>
+        <link refid="stretch__ff__impl_8h"/>
+      </node>
+      <node id="270">
+        <label>conjugate_cc.h</label>
+        <link refid="conjugate__cc_8h"/>
+        <childnode refid="271" relation="include">
+        </childnode>
+      </node>
+      <node id="326">
+        <label>rms_ff.h</label>
+        <link refid="rms__ff_8h"/>
+        <childnode refid="327" relation="include">
+        </childnode>
+      </node>
+      <node id="280">
+        <label>file_meta_source.h</label>
+        <link refid="file__meta__source_8h"/>
+        <childnode refid="279" relation="include">
+        </childnode>
+      </node>
+      <node id="310">
+        <label>multiply_const_ff.h</label>
+        <link refid="multiply__const__ff_8h"/>
+        <childnode refid="311" relation="include">
+        </childnode>
+      </node>
+      <node id="323">
+        <label>repeat_impl.h</label>
+        <link refid="repeat__impl_8h"/>
+      </node>
+      <node id="348">
+        <label>transcendental.h</label>
+        <link refid="transcendental_8h"/>
+        <childnode refid="349" relation="include">
+        </childnode>
+      </node>
+      <node id="341">
+        <label>streams_to_vector_impl.h</label>
+        <link refid="streams__to__vector__impl_8h"/>
+      </node>
+      <node id="257">
+        <label>complex_to_arg_impl.h</label>
+        <link refid="complex__to__arg__impl_8h"/>
+      </node>
+      <node id="265">
+        <label>complex_to_mag_impl.h</label>
+        <link refid="complex__to__mag__impl_8h"/>
+      </node>
+      <node id="271">
+        <label>conjugate_cc_impl.h</label>
+        <link refid="conjugate__cc__impl_8h"/>
+      </node>
+      <node id="275">
+        <label>delay.h</label>
+        <link refid="delay_8h"/>
+        <childnode refid="276" relation="include">
+        </childnode>
+      </node>
+      <node id="311">
+        <label>multiply_const_ff_impl.h</label>
+        <link refid="multiply__const__ff__impl_8h"/>
+      </node>
+      <node id="322">
+        <label>repeat.h</label>
+        <link refid="repeat_8h"/>
+        <childnode refid="323" relation="include">
+        </childnode>
+      </node>
+      <node id="273">
+        <label>deinterleave.h</label>
+        <link refid="deinterleave_8h"/>
+        <childnode refid="274" relation="include">
+        </childnode>
+      </node>
+      <node id="292">
+        <label>float_to_uchar_impl.h</label>
+        <link refid="float__to__uchar__impl_8h"/>
+      </node>
+      <node id="281">
+        <label>file_source.h</label>
+        <link refid="file__source_8h"/>
+        <childnode refid="282" relation="include">
+        </childnode>
+      </node>
+      <node id="332">
+        <label>stream_mux.h</label>
+        <link refid="stream__mux_8h"/>
+        <childnode refid="333" relation="include">
+        </childnode>
+      </node>
+      <node id="359">
+        <label>uchar_array_to_float.h</label>
+        <link refid="uchar__array__to__float_8h"/>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="gr-blocks_2include_2blocks_2api_8h_1a0bb81384d93233b7a728722dbf3d8e0a" prot="public" static="no">
+        <name>BLOCKS_API</name>
+        <initializer><ref refid="attributes_8h_1a17b9cb3c185c92af4799ec9b0a38f3c1" kindref="member">__GR_ATTR_IMPORT</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/include/blocks/api.h" line="30" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-blocks/include/blocks/api.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/include/blocks/api.h"/>
+  </compounddef>
+</doxygen>

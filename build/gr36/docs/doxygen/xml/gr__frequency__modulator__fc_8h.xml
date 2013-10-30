@@ -1,0 +1,252 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="gr__frequency__modulator__fc_8h" kind="file">
+    <compoundname>gr_frequency_modulator_fc.h</compoundname>
+    <includes refid="gr__core__api_8h" local="no">gr_core_api.h</includes>
+    <includes refid="gr__sync__block_8h" local="no">gr_sync_block.h</includes>
+    <incdepgraph>
+      <node id="7672">
+        <label>boost/thread/mutex.hpp</label>
+      </node>
+      <node id="7674">
+        <label>boost/thread/condition_variable.hpp</label>
+      </node>
+      <node id="7656">
+        <label>boost/shared_ptr.hpp</label>
+      </node>
+      <node id="7653">
+        <label>gruel/pmt.h</label>
+        <link refid="pmt_8h"/>
+        <childnode refid="7654" relation="include">
+        </childnode>
+        <childnode refid="7655" relation="include">
+        </childnode>
+        <childnode refid="7656" relation="include">
+        </childnode>
+        <childnode refid="7657" relation="include">
+        </childnode>
+        <childnode refid="7658" relation="include">
+        </childnode>
+        <childnode refid="7659" relation="include">
+        </childnode>
+        <childnode refid="7660" relation="include">
+        </childnode>
+        <childnode refid="7663" relation="include">
+        </childnode>
+        <childnode refid="7664" relation="include">
+        </childnode>
+        <childnode refid="7665" relation="include">
+        </childnode>
+        <childnode refid="7666" relation="include">
+        </childnode>
+      </node>
+      <node id="7655">
+        <label>boost/intrusive_ptr.hpp</label>
+      </node>
+      <node id="7641">
+        <label>gr_core_api.h</label>
+        <link refid="gr__core__api_8h"/>
+        <childnode refid="7642" relation="include">
+        </childnode>
+      </node>
+      <node id="7660">
+        <label>stdint.h</label>
+        <link refid="stdint_8h"/>
+        <childnode refid="7661" relation="include">
+        </childnode>
+        <childnode refid="7662" relation="include">
+        </childnode>
+      </node>
+      <node id="7651">
+        <label>gras/hier_block.hpp</label>
+      </node>
+      <node id="7650">
+        <label>gras/top_block.hpp</label>
+      </node>
+      <node id="7669">
+        <label>boost/foreach.hpp</label>
+      </node>
+      <node id="7664">
+        <label>stdexcept</label>
+      </node>
+      <node id="7645">
+        <label>gras/block.hpp</label>
+      </node>
+      <node id="7671">
+        <label>boost/thread/thread.hpp</label>
+      </node>
+      <node id="7659">
+        <label>string</label>
+      </node>
+      <node id="7668">
+        <label>map</label>
+      </node>
+      <node id="7642">
+        <label>gruel/attributes.h</label>
+        <link refid="attributes_8h"/>
+      </node>
+      <node id="7661">
+        <label>limits.h</label>
+      </node>
+      <node id="7657">
+        <label>boost/any.hpp</label>
+      </node>
+      <node id="7644">
+        <label>gr_block.h</label>
+        <link refid="gr__block_8h"/>
+        <childnode refid="7641" relation="include">
+        </childnode>
+        <childnode refid="7645" relation="include">
+        </childnode>
+        <childnode refid="7646" relation="include">
+        </childnode>
+        <childnode refid="7648" relation="include">
+        </childnode>
+        <childnode refid="7652" relation="include">
+        </childnode>
+        <childnode refid="7659" relation="include">
+        </childnode>
+        <childnode refid="7667" relation="include">
+        </childnode>
+        <childnode refid="7668" relation="include">
+        </childnode>
+        <childnode refid="7669" relation="include">
+        </childnode>
+        <childnode refid="7670" relation="include">
+        </childnode>
+        <childnode refid="7675" relation="include">
+        </childnode>
+      </node>
+      <node id="7640">
+        <label>gr_frequency_modulator_fc.h</label>
+        <link refid="gr_frequency_modulator_fc.h"/>
+        <childnode refid="7641" relation="include">
+        </childnode>
+        <childnode refid="7643" relation="include">
+        </childnode>
+      </node>
+      <node id="7647">
+        <label>gr_runtime_types.h</label>
+        <link refid="gr__runtime__types_8h"/>
+        <childnode refid="7641" relation="include">
+        </childnode>
+        <childnode refid="7648" relation="include">
+        </childnode>
+      </node>
+      <node id="7662">
+        <label>wchar.h</label>
+      </node>
+      <node id="7666">
+        <label>gruel/pmt_sugar.h</label>
+        <link refid="pmt__sugar_8h"/>
+      </node>
+      <node id="7673">
+        <label>boost/thread/locks.hpp</label>
+      </node>
+      <node id="7643">
+        <label>gr_sync_block.h</label>
+        <link refid="gr__sync__block_8h"/>
+        <childnode refid="7644" relation="include">
+        </childnode>
+      </node>
+      <node id="7665">
+        <label>vector</label>
+      </node>
+      <node id="7646">
+        <label>gr_io_signature.h</label>
+        <link refid="gr__io__signature_8h"/>
+        <childnode refid="7641" relation="include">
+        </childnode>
+        <childnode refid="7647" relation="include">
+        </childnode>
+      </node>
+      <node id="7654">
+        <label>gruel/api.h</label>
+        <link refid="gruel_2src_2include_2gruel_2api_8h"/>
+        <childnode refid="7642" relation="include">
+        </childnode>
+      </node>
+      <node id="7663">
+        <label>iosfwd</label>
+      </node>
+      <node id="7648">
+        <label>gr_types.h</label>
+        <link refid="gr__types_8h"/>
+        <childnode refid="7649" relation="include">
+        </childnode>
+        <childnode refid="7645" relation="include">
+        </childnode>
+        <childnode refid="7650" relation="include">
+        </childnode>
+        <childnode refid="7651" relation="include">
+        </childnode>
+      </node>
+      <node id="7670">
+        <label>gruel/thread.h</label>
+        <link refid="thread_8h"/>
+        <childnode refid="7654" relation="include">
+        </childnode>
+        <childnode refid="7671" relation="include">
+        </childnode>
+        <childnode refid="7672" relation="include">
+        </childnode>
+        <childnode refid="7673" relation="include">
+        </childnode>
+        <childnode refid="7674" relation="include">
+        </childnode>
+        <childnode refid="7665" relation="include">
+        </childnode>
+      </node>
+      <node id="7667">
+        <label>deque</label>
+      </node>
+      <node id="7652">
+        <label>gr_tags.h</label>
+        <link refid="gr__tags_8h"/>
+        <childnode refid="7641" relation="include">
+        </childnode>
+        <childnode refid="7653" relation="include">
+        </childnode>
+      </node>
+      <node id="7658">
+        <label>complex</label>
+      </node>
+      <node id="7675">
+        <label>gr_sptr_magic.h</label>
+        <link refid="gr__sptr__magic_8h_source"/>
+        <childnode refid="7641" relation="include">
+        </childnode>
+        <childnode refid="7656" relation="include">
+        </childnode>
+      </node>
+      <node id="7649">
+        <label>gras/element.hpp</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classgr__frequency__modulator__fc" prot="public">gr_frequency_modulator_fc</innerclass>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="gr__frequency__modulator__fc_8h_1afae4188f706f48e42481b610aa9e1b5c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="gr__core__api_8h_1a8b8937b0c61edd85ab57ce8203543248" kindref="member">GR_CORE_API</ref> <ref refid="classboost_1_1shared__ptr" kindref="compound">gr_frequency_modulator_fc_sptr</ref></type>
+        <definition>GR_CORE_API gr_frequency_modulator_fc_sptr gr_make_frequency_modulator_fc</definition>
+        <argsstring>(double sensitivity)</argsstring>
+        <name>gr_make_frequency_modulator_fc</name>
+        <param>
+          <type>double</type>
+          <declname>sensitivity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_frequency_modulator_fc.h" line="32"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_frequency_modulator_fc.h"/>
+  </compounddef>
+</doxygen>

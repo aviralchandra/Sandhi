@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="dir_b7354ca3281b8de9ae189a5a87617d10" kind="dir">
+    <compoundname>/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/hier/</compoundname>
+    <innerfile refid="gr__channel__model_8h">gr_channel_model.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/hier/"/>
+  </compounddef>
+</doxygen>

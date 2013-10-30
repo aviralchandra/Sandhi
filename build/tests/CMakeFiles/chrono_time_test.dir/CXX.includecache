@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/gras/chrono.hpp
+gras/gras.hpp
+-
+gras/detail/chrono.hpp
+-
+
+../include/gras/detail/chrono.hpp
+windows.h
+-
+ctime
+-
+
+../include/gras/gras.hpp
+ciso646
+-
+
+/home/aviral/GNU-Niyantran/tests/chrono_time_test.cpp
+boost/test/unit_test.hpp
+-
+iostream
+-
+gras/chrono.hpp
+-
+boost/thread/thread.hpp
+-
+

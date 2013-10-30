@@ -1,0 +1,172 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="classgr_1_1filter_1_1adaptive__fir__ccf__impl" kind="class" prot="public">
+    <compoundname>gr::filter::adaptive_fir_ccf_impl</compoundname>
+    <includes refid="adaptive__fir__ccf__impl_8h" local="no">adaptive_fir_ccf_impl.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1filter_1_1adaptive__fir__ccf__impl_1a52435744348c5b8afbb0e47a40d63926" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; float &gt;</type>
+        <definition>std::vector&lt;float&gt; gr::filter::adaptive_fir_ccf_impl::d_new_taps</definition>
+        <argsstring></argsstring>
+        <name>d_new_taps</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/adaptive_fir_ccf_impl.h" line="36" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/adaptive_fir_ccf_impl.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1filter_1_1adaptive__fir__ccf__impl_1a1c0caa0f78e46642e7de4333111d141c" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool gr::filter::adaptive_fir_ccf_impl::d_updated</definition>
+        <argsstring></argsstring>
+        <name>d_updated</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/adaptive_fir_ccf_impl.h" line="37" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/adaptive_fir_ccf_impl.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classgr_1_1filter_1_1adaptive__fir__ccf__impl_1a6510b004e5ec419a65075db230501305" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float gr::filter::adaptive_fir_ccf_impl::error</definition>
+        <argsstring>(const gr_complex &amp;out)</argsstring>
+        <name>error</name>
+        <param>
+          <type>const gr_complex &amp;</type>
+          <declname>out</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/adaptive_fir_ccf_impl.h" line="41"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1filter_1_1adaptive__fir__ccf__impl_1abb0c8729a8898f0dd6b827e4dc42f5de" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::filter::adaptive_fir_ccf_impl::update_tap</definition>
+        <argsstring>(float &amp;tap, const gr_complex &amp;in)</argsstring>
+        <name>update_tap</name>
+        <param>
+          <type>float &amp;</type>
+          <declname>tap</declname>
+        </param>
+        <param>
+          <type>const gr_complex &amp;</type>
+          <declname>in</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/adaptive_fir_ccf_impl.h" line="44"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1filter_1_1adaptive__fir__ccf__impl_1aec2b4c88d6b50185f5630320ee2899d3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::filter::adaptive_fir_ccf_impl::set_taps</definition>
+        <argsstring>(const std::vector&lt; float &gt; &amp;taps)</argsstring>
+        <name>set_taps</name>
+        <param>
+          <type>const std::vector&lt; float &gt; &amp;</type>
+          <declname>taps</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/adaptive_fir_ccf_impl.h" line="47"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1filter_1_1adaptive__fir__ccf__impl_1a8cc64d8d4f52c72b2cd762de8957df47" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; float &gt;</type>
+        <definition>std::vector&lt;float&gt; gr::filter::adaptive_fir_ccf_impl::taps</definition>
+        <argsstring>()</argsstring>
+        <name>taps</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/adaptive_fir_ccf_impl.h" line="48"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1filter_1_1adaptive__fir__ccf__impl_1ac7ea8a429bb361ee7881933fd1de00a5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::filter::adaptive_fir_ccf_impl::adaptive_fir_ccf_impl</definition>
+        <argsstring>(const char *name, int decimation, const std::vector&lt; float &gt; &amp;taps)</argsstring>
+        <name>adaptive_fir_ccf_impl</name>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>decimation</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; float &gt; &amp;</type>
+          <declname>taps</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/adaptive_fir_ccf_impl.h" line="51"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1filter_1_1adaptive__fir__ccf__impl_1a3242d8e0b7971678f76a0e97a759d82b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::filter::adaptive_fir_ccf_impl::work</definition>
+        <argsstring>(int noutput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/adaptive_fir_ccf_impl.h" line="55"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/adaptive_fir_ccf_impl.h" line="34" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/adaptive_fir_ccf_impl.h" bodystart="33" bodyend="56"/>
+    <listofallmembers>
+      <member refid="classgr_1_1filter_1_1adaptive__fir__ccf__impl_1ac7ea8a429bb361ee7881933fd1de00a5" prot="public" virt="non-virtual"><scope>gr::filter::adaptive_fir_ccf_impl</scope><name>adaptive_fir_ccf_impl</name></member>
+      <member refid="classgr_1_1filter_1_1adaptive__fir__ccf__impl_1a52435744348c5b8afbb0e47a40d63926" prot="private" virt="non-virtual"><scope>gr::filter::adaptive_fir_ccf_impl</scope><name>d_new_taps</name></member>
+      <member refid="classgr_1_1filter_1_1adaptive__fir__ccf__impl_1a1c0caa0f78e46642e7de4333111d141c" prot="private" virt="non-virtual"><scope>gr::filter::adaptive_fir_ccf_impl</scope><name>d_updated</name></member>
+      <member refid="classgr_1_1filter_1_1adaptive__fir__ccf__impl_1a6510b004e5ec419a65075db230501305" prot="protected" virt="non-virtual"><scope>gr::filter::adaptive_fir_ccf_impl</scope><name>error</name></member>
+      <member refid="classgr_1_1filter_1_1adaptive__fir__ccf__impl_1aec2b4c88d6b50185f5630320ee2899d3" prot="public" virt="non-virtual"><scope>gr::filter::adaptive_fir_ccf_impl</scope><name>set_taps</name></member>
+      <member refid="classgr_1_1filter_1_1adaptive__fir__ccf__impl_1a8cc64d8d4f52c72b2cd762de8957df47" prot="public" virt="non-virtual"><scope>gr::filter::adaptive_fir_ccf_impl</scope><name>taps</name></member>
+      <member refid="classgr_1_1filter_1_1adaptive__fir__ccf__impl_1abb0c8729a8898f0dd6b827e4dc42f5de" prot="protected" virt="non-virtual"><scope>gr::filter::adaptive_fir_ccf_impl</scope><name>update_tap</name></member>
+      <member refid="classgr_1_1filter_1_1adaptive__fir__ccf__impl_1a3242d8e0b7971678f76a0e97a759d82b" prot="public" virt="non-virtual"><scope>gr::filter::adaptive_fir_ccf_impl</scope><name>work</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

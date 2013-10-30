@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="goertzel_8h" kind="file">
+    <compoundname>goertzel.h</compoundname>
+    <includes refid="gr-fft_2include_2fft_2api_8h" local="no">fft/api.h</includes>
+    <includes refid="gr__types_8h" local="no">gr_types.h</includes>
+    <includedby refid="goertzel__fc__impl_8h" local="no">goertzel_fc_impl.h</includedby>
+    <incdepgraph>
+      <node id="3880">
+        <label>gras/hier_block.hpp</label>
+      </node>
+      <node id="3879">
+        <label>gras/top_block.hpp</label>
+      </node>
+      <node id="3878">
+        <label>gras/block.hpp</label>
+      </node>
+      <node id="3875">
+        <label>gruel/attributes.h</label>
+        <link refid="attributes_8h"/>
+      </node>
+      <node id="3873">
+        <label>goertzel.h</label>
+        <link refid="goertzel.h"/>
+        <childnode refid="3874" relation="include">
+        </childnode>
+        <childnode refid="3876" relation="include">
+        </childnode>
+      </node>
+      <node id="3876">
+        <label>gr_types.h</label>
+        <link refid="gr__types_8h"/>
+        <childnode refid="3877" relation="include">
+        </childnode>
+        <childnode refid="3878" relation="include">
+        </childnode>
+        <childnode refid="3879" relation="include">
+        </childnode>
+        <childnode refid="3880" relation="include">
+        </childnode>
+      </node>
+      <node id="3874">
+        <label>fft/api.h</label>
+        <link refid="gr-fft_2include_2fft_2api_8h"/>
+        <childnode refid="3875" relation="include">
+        </childnode>
+      </node>
+      <node id="3877">
+        <label>gras/element.hpp</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="3882">
+        <label>goertzel_fc_impl.h</label>
+        <link refid="goertzel__fc__impl_8h"/>
+      </node>
+      <node id="3881">
+        <label>goertzel.h</label>
+        <link refid="goertzel.h"/>
+        <childnode refid="3882" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classgr_1_1fft_1_1goertzel" prot="public">gr::fft::goertzel</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1fft">gr::fft</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/aviral/GNU-Niyantran/gr36/gr-fft/include/fft/goertzel.h"/>
+  </compounddef>
+</doxygen>

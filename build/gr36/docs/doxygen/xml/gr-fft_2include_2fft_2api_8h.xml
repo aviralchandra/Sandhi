@@ -1,0 +1,156 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="gr-fft_2include_2fft_2api_8h" kind="file">
+    <compoundname>gr-fft/include/fft/api.h</compoundname>
+    <includes refid="attributes_8h" local="no">gruel/attributes.h</includes>
+    <includedby refid="fft_8h" local="no">fft.h</includedby>
+    <includedby refid="fft__vcc_8h" local="no">fft_vcc.h</includedby>
+    <includedby refid="fft__vfc_8h" local="no">fft_vfc.h</includedby>
+    <includedby refid="goertzel_8h" local="no">goertzel.h</includedby>
+    <includedby refid="goertzel__fc_8h" local="no">goertzel_fc.h</includedby>
+    <incdepgraph>
+      <node id="361">
+        <label>gruel/attributes.h</label>
+        <link refid="attributes_8h"/>
+      </node>
+      <node id="360">
+        <label>api.h</label>
+        <link refid="gr-fft/include/fft/api.h"/>
+        <childnode refid="361" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="373">
+        <label>pfb_synthesizer_ccf_impl.h</label>
+        <link refid="pfb__synthesizer__ccf__impl_8h"/>
+      </node>
+      <node id="375">
+        <label>fft_vfc.h</label>
+        <link refid="fft__vfc_8h"/>
+        <childnode refid="365" relation="include">
+        </childnode>
+      </node>
+      <node id="377">
+        <label>goertzel_fc_impl.h</label>
+        <link refid="goertzel__fc__impl_8h"/>
+      </node>
+      <node id="364">
+        <label>fft_vcc_fftw.h</label>
+        <link refid="fft__vcc__fftw_8h"/>
+      </node>
+      <node id="369">
+        <label>polyphase_filterbank.h</label>
+        <link refid="polyphase__filterbank_8h"/>
+        <childnode refid="370" relation="include">
+        </childnode>
+        <childnode refid="371" relation="include">
+        </childnode>
+        <childnode refid="372" relation="include">
+        </childnode>
+      </node>
+      <node id="371">
+        <label>pfb_decimator_ccf_impl.h</label>
+        <link refid="pfb__decimator__ccf__impl_8h"/>
+      </node>
+      <node id="372">
+        <label>pfb_interpolator_ccf_impl.h</label>
+        <link refid="pfb__interpolator__ccf__impl_8h"/>
+      </node>
+      <node id="378">
+        <label>goertzel_fc.h</label>
+        <link refid="goertzel__fc_8h"/>
+        <childnode refid="377" relation="include">
+        </childnode>
+      </node>
+      <node id="376">
+        <label>goertzel.h</label>
+        <link refid="goertzel_8h"/>
+        <childnode refid="377" relation="include">
+        </childnode>
+      </node>
+      <node id="366">
+        <label>fft_filter.h</label>
+        <link refid="fft__filter_8h"/>
+        <childnode refid="367" relation="include">
+        </childnode>
+        <childnode refid="368" relation="include">
+        </childnode>
+      </node>
+      <node id="370">
+        <label>pfb_channelizer_ccf_impl.h</label>
+        <link refid="pfb__channelizer__ccf__impl_8h"/>
+      </node>
+      <node id="362">
+        <label>api.h</label>
+        <link refid="gr-fft/include/fft/api.h"/>
+        <childnode refid="363" relation="include">
+        </childnode>
+        <childnode refid="374" relation="include">
+        </childnode>
+        <childnode refid="375" relation="include">
+        </childnode>
+        <childnode refid="376" relation="include">
+        </childnode>
+        <childnode refid="378" relation="include">
+        </childnode>
+      </node>
+      <node id="374">
+        <label>fft_vcc.h</label>
+        <link refid="fft__vcc_8h"/>
+        <childnode refid="364" relation="include">
+        </childnode>
+      </node>
+      <node id="368">
+        <label>fft_filter_fff_impl.h</label>
+        <link refid="fft__filter__fff__impl_8h"/>
+      </node>
+      <node id="365">
+        <label>fft_vfc_fftw.h</label>
+        <link refid="fft__vfc__fftw_8h"/>
+      </node>
+      <node id="363">
+        <label>fft.h</label>
+        <link refid="fft_8h"/>
+        <childnode refid="364" relation="include">
+        </childnode>
+        <childnode refid="365" relation="include">
+        </childnode>
+        <childnode refid="366" relation="include">
+        </childnode>
+        <childnode refid="369" relation="include">
+        </childnode>
+        <childnode refid="370" relation="include">
+        </childnode>
+        <childnode refid="371" relation="include">
+        </childnode>
+        <childnode refid="372" relation="include">
+        </childnode>
+        <childnode refid="373" relation="include">
+        </childnode>
+      </node>
+      <node id="367">
+        <label>fft_filter_ccc_impl.h</label>
+        <link refid="fft__filter__ccc__impl_8h"/>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="gr-fft_2include_2fft_2api_8h_1a970d73334383137115742a2ea952c803" prot="public" static="no">
+        <name>FFT_API</name>
+        <initializer><ref refid="attributes_8h_1a17b9cb3c185c92af4799ec9b0a38f3c1" kindref="member">__GR_ATTR_IMPORT</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-fft/include/fft/api.h" line="30" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-fft/include/fft/api.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/aviral/GNU-Niyantran/gr36/gr-fft/include/fft/api.h"/>
+  </compounddef>
+</doxygen>

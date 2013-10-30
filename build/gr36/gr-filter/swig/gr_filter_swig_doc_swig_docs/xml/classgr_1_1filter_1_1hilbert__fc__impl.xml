@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="classgr_1_1filter_1_1hilbert__fc__impl" kind="class" prot="public">
+    <compoundname>gr::filter::hilbert_fc_impl</compoundname>
+    <includes refid="hilbert__fc__impl_8h" local="no">hilbert_fc_impl.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1filter_1_1hilbert__fc__impl_1af1248a4ee769dc91bb09061fac155140" prot="private" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int gr::filter::hilbert_fc_impl::d_ntaps</definition>
+        <argsstring></argsstring>
+        <name>d_ntaps</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/hilbert_fc_impl.h" line="36" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/hilbert_fc_impl.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1filter_1_1hilbert__fc__impl_1af644491396e9ff115fa45652f56c956f" prot="private" static="no" mutable="no">
+        <type>kernel::fir_filter_fff *</type>
+        <definition>kernel::fir_filter_fff* gr::filter::hilbert_fc_impl::d_hilb</definition>
+        <argsstring></argsstring>
+        <name>d_hilb</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/hilbert_fc_impl.h" line="37" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/hilbert_fc_impl.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1filter_1_1hilbert__fc__impl_1a115ba0ec5ec58327ad47ea1b6e1e0694" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::filter::hilbert_fc_impl::hilbert_fc_impl</definition>
+        <argsstring>(unsigned int ntaps)</argsstring>
+        <name>hilbert_fc_impl</name>
+        <param>
+          <type>unsigned int</type>
+          <declname>ntaps</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/hilbert_fc_impl.h" line="40"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1filter_1_1hilbert__fc__impl_1a2a894ab75188fa7243d07b23e1a2a5b9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::filter::hilbert_fc_impl::~hilbert_fc_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~hilbert_fc_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/hilbert_fc_impl.h" line="42"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1filter_1_1hilbert__fc__impl_1ac529d885a118fa66de2c564d90488c21" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::filter::hilbert_fc_impl::work</definition>
+        <argsstring>(int noutput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/hilbert_fc_impl.h" line="46"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/hilbert_fc_impl.h" line="34" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/hilbert_fc_impl.h" bodystart="33" bodyend="47"/>
+    <listofallmembers>
+      <member refid="classgr_1_1filter_1_1hilbert__fc__impl_1af644491396e9ff115fa45652f56c956f" prot="private" virt="non-virtual"><scope>gr::filter::hilbert_fc_impl</scope><name>d_hilb</name></member>
+      <member refid="classgr_1_1filter_1_1hilbert__fc__impl_1af1248a4ee769dc91bb09061fac155140" prot="private" virt="non-virtual"><scope>gr::filter::hilbert_fc_impl</scope><name>d_ntaps</name></member>
+      <member refid="classgr_1_1filter_1_1hilbert__fc__impl_1a115ba0ec5ec58327ad47ea1b6e1e0694" prot="public" virt="non-virtual"><scope>gr::filter::hilbert_fc_impl</scope><name>hilbert_fc_impl</name></member>
+      <member refid="classgr_1_1filter_1_1hilbert__fc__impl_1ac529d885a118fa66de2c564d90488c21" prot="public" virt="non-virtual"><scope>gr::filter::hilbert_fc_impl</scope><name>work</name></member>
+      <member refid="classgr_1_1filter_1_1hilbert__fc__impl_1a2a894ab75188fa7243d07b23e1a2a5b9" prot="public" virt="non-virtual"><scope>gr::filter::hilbert_fc_impl</scope><name>~hilbert_fc_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

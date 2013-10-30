@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="stdbool_8h" kind="file">
+    <compoundname>stdbool.h</compoundname>
+    <includedby refid="volk__rank__archs_8h" local="no">volk_rank_archs.h</includedby>
+    <includedby refid="volk_8tmpl_8h" local="no">volk.tmpl.h</includedby>
+    <includedby refid="volk__machines_8tmpl_8h" local="no">volk_machines.tmpl.h</includedby>
+    <includedby refid="volk_8h" local="no">volk.h</includedby>
+    <invincdepgraph>
+      <node id="18461">
+        <label>volk_rank_archs.h</label>
+        <link refid="volk__rank__archs_8h"/>
+      </node>
+      <node id="18463">
+        <label>volk_machines.tmpl.h</label>
+        <link refid="volk__machines_8tmpl_8h"/>
+      </node>
+      <node id="18462">
+        <label>volk.tmpl.h</label>
+        <link refid="volk_8tmpl_8h"/>
+      </node>
+      <node id="18464">
+        <label>volk.h</label>
+        <link refid="volk_8h"/>
+      </node>
+      <node id="18460">
+        <label>stdbool.h</label>
+        <link refid="stdbool.h"/>
+        <childnode refid="18461" relation="include">
+        </childnode>
+        <childnode refid="18462" relation="include">
+        </childnode>
+        <childnode refid="18463" relation="include">
+        </childnode>
+        <childnode refid="18464" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="stdbool_8h_1a41f9c5fb8b08eb5dc3edce4dcb37fee7" prot="public" static="no">
+        <name>true</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/volk/cmake/msvc/stdbool.h" line="32" bodyfile="/home/aviral/GNU-Niyantran/gr36/volk/cmake/msvc/stdbool.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="stdbool_8h_1a65e9886d74aaee76545e83dd09011727" prot="public" static="no">
+        <name>false</name>
+        <initializer>0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/volk/cmake/msvc/stdbool.h" line="33" bodyfile="/home/aviral/GNU-Niyantran/gr36/volk/cmake/msvc/stdbool.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="stdbool_8h_1a0a08a51adda7cbecc9ab114a43954cc0" prot="public" static="no">
+        <name>CASSERT</name>
+        <param><defname>exp</defname></param>
+        <param><defname>name</defname></param>
+        <initializer>typedef int dummy##<ref refid="volk_8tmpl_8h_1ace3ce91bc48f67ffceaeed6831ee2c57" kindref="member">name</ref> [(exp) ? 1 : -1];</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/volk/cmake/msvc/stdbool.h" line="36" bodyfile="/home/aviral/GNU-Niyantran/gr36/volk/cmake/msvc/stdbool.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="stdbool_8h_1a97a80ca1602ebf2303258971a2c938e2" prot="public" static="no">
+        <type>unsigned char</type>
+        <definition>typedef unsigned char bool</definition>
+        <argsstring></argsstring>
+        <name>bool</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/volk/cmake/msvc/stdbool.h" line="30" bodyfile="/home/aviral/GNU-Niyantran/gr36/volk/cmake/msvc/stdbool.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/aviral/GNU-Niyantran/gr36/volk/cmake/msvc/stdbool.h"/>
+  </compounddef>
+</doxygen>

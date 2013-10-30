@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="dir_44548e6e0900459c2a91cb9035bac311" kind="dir">
+    <compoundname>/home/aviral/GNU-Niyantran/gr36/gruel/</compoundname>
+    <innerdir refid="dir_d77175de1fa85d455c4d2eb8c841013d">/home/aviral/GNU-Niyantran/gr36/gruel/src/</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/aviral/GNU-Niyantran/gr36/gruel/"/>
+  </compounddef>
+</doxygen>

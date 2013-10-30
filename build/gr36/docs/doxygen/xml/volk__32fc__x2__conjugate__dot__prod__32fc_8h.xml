@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="volk__32fc__x2__conjugate__dot__prod__32fc_8h" kind="file">
+    <compoundname>volk_32fc_x2_conjugate_dot_prod_32fc.h</compoundname>
+    <includes refid="volk__complex_8h" local="no">volk/volk_complex.h</includes>
+    <includes refid="volk__common_8h" local="no">volk/volk_common.h</includes>
+    <includes local="no">stdio.h</includes>
+    <incdepgraph>
+      <node id="21462">
+        <label>volk/volk_common.h</label>
+        <link refid="volk__common_8h"/>
+        <childnode refid="21463" relation="include">
+        </childnode>
+      </node>
+      <node id="21460">
+        <label>volk/volk_complex.h</label>
+        <link refid="volk__complex_8h"/>
+        <childnode refid="21461" relation="include">
+        </childnode>
+      </node>
+      <node id="21464">
+        <label>stdint.h</label>
+        <link refid="stdint_8h"/>
+        <childnode refid="21465" relation="include">
+        </childnode>
+        <childnode refid="21466" relation="include">
+        </childnode>
+      </node>
+      <node id="21463">
+        <label>inttypes.h</label>
+        <link refid="inttypes_8h"/>
+        <childnode refid="21464" relation="include">
+        </childnode>
+      </node>
+      <node id="21465">
+        <label>limits.h</label>
+      </node>
+      <node id="21466">
+        <label>wchar.h</label>
+      </node>
+      <node id="21461">
+        <label>complex.h</label>
+      </node>
+      <node id="21467">
+        <label>stdio.h</label>
+      </node>
+      <node id="21459">
+        <label>volk_32fc_x2_conjugate_dot_prod_32fc.h</label>
+        <link refid="volk_32fc_x2_conjugate_dot_prod_32fc.h"/>
+        <childnode refid="21460" relation="include">
+        </childnode>
+        <childnode refid="21462" relation="include">
+        </childnode>
+        <childnode refid="21467" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="volk__32fc__x2__conjugate__dot__prod__32fc_8h_1aa4edf27f51b3b3e5ab56f309af0a89a4" prot="public" static="no">
+        <name>INCLUDED_volk_32fc_x2_conjugate_dot_prod_32fc_a_H</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/volk/kernels/volk/volk_32fc_x2_conjugate_dot_prod_32fc.h" line="151" bodyfile="/home/aviral/GNU-Niyantran/gr36/volk/kernels/volk/volk_32fc_x2_conjugate_dot_prod_32fc.h" bodystart="151" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/aviral/GNU-Niyantran/gr36/volk/kernels/volk/volk_32fc_x2_conjugate_dot_prod_32fc.h"/>
+  </compounddef>
+</doxygen>

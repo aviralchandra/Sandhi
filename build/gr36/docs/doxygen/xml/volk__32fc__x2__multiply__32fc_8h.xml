@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="volk__32fc__x2__multiply__32fc_8h" kind="file">
+    <compoundname>volk_32fc_x2_multiply_32fc.h</compoundname>
+    <includes refid="inttypes_8h" local="no">inttypes.h</includes>
+    <includes local="no">stdio.h</includes>
+    <includes refid="volk__complex_8h" local="no">volk/volk_complex.h</includes>
+    <includes local="no">float.h</includes>
+    <incdepgraph>
+      <node id="21522">
+        <label>volk/volk_complex.h</label>
+        <link refid="volk__complex_8h"/>
+        <childnode refid="21523" relation="include">
+        </childnode>
+      </node>
+      <node id="21524">
+        <label>float.h</label>
+      </node>
+      <node id="21518">
+        <label>stdint.h</label>
+        <link refid="stdint_8h"/>
+        <childnode refid="21519" relation="include">
+        </childnode>
+        <childnode refid="21520" relation="include">
+        </childnode>
+      </node>
+      <node id="21517">
+        <label>inttypes.h</label>
+        <link refid="inttypes_8h"/>
+        <childnode refid="21518" relation="include">
+        </childnode>
+      </node>
+      <node id="21519">
+        <label>limits.h</label>
+      </node>
+      <node id="21520">
+        <label>wchar.h</label>
+      </node>
+      <node id="21523">
+        <label>complex.h</label>
+      </node>
+      <node id="21516">
+        <label>volk_32fc_x2_multiply_32fc.h</label>
+        <link refid="volk_32fc_x2_multiply_32fc.h"/>
+        <childnode refid="21517" relation="include">
+        </childnode>
+        <childnode refid="21521" relation="include">
+        </childnode>
+        <childnode refid="21522" relation="include">
+        </childnode>
+        <childnode refid="21524" relation="include">
+        </childnode>
+      </node>
+      <node id="21521">
+        <label>stdio.h</label>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="volk__32fc__x2__multiply__32fc_8h_1a7a8b4e1f8a4a35bf0a54333b5586c55f" prot="public" static="no">
+        <name>INCLUDED_volk_32fc_x2_multiply_32fc_a_H</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/volk/kernels/volk/volk_32fc_x2_multiply_32fc.h" line="79" bodyfile="/home/aviral/GNU-Niyantran/gr36/volk/kernels/volk/volk_32fc_x2_multiply_32fc.h" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/aviral/GNU-Niyantran/gr36/volk/kernels/volk/volk_32fc_x2_multiply_32fc.h"/>
+  </compounddef>
+</doxygen>

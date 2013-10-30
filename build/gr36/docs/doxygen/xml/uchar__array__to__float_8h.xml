@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="uchar__array__to__float_8h" kind="file">
+    <compoundname>uchar_array_to_float.h</compoundname>
+    <includes refid="gr-blocks_2include_2blocks_2api_8h" local="no">blocks/api.h</includes>
+    <incdepgraph>
+      <node id="20115">
+        <label>gruel/attributes.h</label>
+        <link refid="attributes_8h"/>
+      </node>
+      <node id="20114">
+        <label>blocks/api.h</label>
+        <link refid="gr-blocks_2include_2blocks_2api_8h"/>
+        <childnode refid="20115" relation="include">
+        </childnode>
+      </node>
+      <node id="20113">
+        <label>uchar_array_to_float.h</label>
+        <link refid="uchar_array_to_float.h"/>
+        <childnode refid="20114" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="uchar__array__to__float_8h_1abd4525401703ad4d98706ce0c59e879c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="gr-blocks_2include_2blocks_2api_8h_1a0bb81384d93233b7a728722dbf3d8e0a" kindref="member">BLOCKS_API</ref> <ref refid="volk_8tmpl_8h_1a2b104da38b6f0a28d721ed74346ef298" kindref="member">void</ref></type>
+        <definition>BLOCKS_API void uchar_array_to_float</definition>
+        <argsstring>(const unsigned char *in, float *out, int nsamples)</argsstring>
+        <name>uchar_array_to_float</name>
+        <param>
+          <type>const unsigned char *</type>
+          <declname>in</declname>
+        </param>
+        <param>
+          <type>float *</type>
+          <declname>out</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nsamples</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/uchar_array_to_float.h" line="31"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/uchar_array_to_float.h"/>
+  </compounddef>
+</doxygen>

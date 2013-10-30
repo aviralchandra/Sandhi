@@ -1,0 +1,289 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="structgr__hier__block2" kind="struct" prot="public">
+    <compoundname>gr_hier_block2</compoundname>
+    <includes refid="gr__hier__block2_8h" local="no">gr_hier_block2.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structgr__hier__block2_1a5c8b5c26ad5159dd9bcaa586a06b7921" prot="public" static="no" mutable="no">
+        <type>long</type>
+        <definition>long gr_hier_block2::_unique_id</definition>
+        <argsstring></argsstring>
+        <name>_unique_id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_hier_block2.h" line="42" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_hier_block2.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgr__hier__block2_1a560f322ca7de789f1aa7a79cc80366cd" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string gr_hier_block2::_name</definition>
+        <argsstring></argsstring>
+        <name>_name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_hier_block2.h" line="43" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_hier_block2.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgr__hier__block2_1ab8a733a0aadc70560fd4810780994448" prot="public" static="no" mutable="no">
+        <type><ref refid="gr__runtime__types_8h_1a17582361e91523de033c893f29cae653" kindref="member">gr_io_signature_sptr</ref></type>
+        <definition>gr_io_signature_sptr gr_hier_block2::_in_sig</definition>
+        <argsstring></argsstring>
+        <name>_in_sig</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_hier_block2.h" line="60" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_hier_block2.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgr__hier__block2_1a07553050733261854b03cb0fa718a92a" prot="public" static="no" mutable="no">
+        <type><ref refid="gr__runtime__types_8h_1a17582361e91523de033c893f29cae653" kindref="member">gr_io_signature_sptr</ref></type>
+        <definition>gr_io_signature_sptr gr_hier_block2::_out_sig</definition>
+        <argsstring></argsstring>
+        <name>_out_sig</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_hier_block2.h" line="60" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_hier_block2.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structgr__hier__block2_1a9f065335f42852256617ccddcf12946e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr_hier_block2::gr_hier_block2</definition>
+        <argsstring>(void)</argsstring>
+        <name>gr_hier_block2</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_hier_block2.h" line="32"/>
+      </memberdef>
+      <memberdef kind="function" id="structgr__hier__block2_1a324be02b1e3b00da10ed7b6df86f164f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr_hier_block2::gr_hier_block2</definition>
+        <argsstring>(const std::string &amp;name, gr_io_signature_sptr input_signature, gr_io_signature_sptr output_signature)</argsstring>
+        <name>gr_hier_block2</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type><ref refid="gr__runtime__types_8h_1a17582361e91523de033c893f29cae653" kindref="member">gr_io_signature_sptr</ref></type>
+          <declname>input_signature</declname>
+        </param>
+        <param>
+          <type><ref refid="gr__runtime__types_8h_1a17582361e91523de033c893f29cae653" kindref="member">gr_io_signature_sptr</ref></type>
+          <declname>output_signature</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_hier_block2.h" line="38"/>
+      </memberdef>
+      <memberdef kind="function" id="structgr__hier__block2_1ac4f46bcea6d15d53b4d3847d748ace41" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>long</type>
+        <definition>long gr_hier_block2::unique_id</definition>
+        <argsstring>(void) const </argsstring>
+        <name>unique_id</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_hier_block2.h" line="40" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_hier_block2.h" bodystart="40" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="structgr__hier__block2_1a69b7518170562654329e92dd64188641" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string gr_hier_block2::name</definition>
+        <argsstring>(void) const </argsstring>
+        <name>name</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_hier_block2.h" line="41" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_hier_block2.h" bodystart="41" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="structgr__hier__block2_1a64a03012c2035fbd9ca8891263f6e7b1" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="structgr__hier__block2" kindref="compound">gr_hier_block2</ref> &amp;</type>
+        <definition>const gr_hier_block2&amp; gr_hier_block2::self</definition>
+        <argsstring>(void) const </argsstring>
+        <name>self</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_hier_block2.h" line="46" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_hier_block2.h" bodystart="45" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="structgr__hier__block2_1a8a330ac3afb284d81530f33b30ca25b0" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="gr__runtime__types_8h_1a17582361e91523de033c893f29cae653" kindref="member">gr_io_signature_sptr</ref></type>
+        <definition>gr_io_signature_sptr gr_hier_block2::input_signature</definition>
+        <argsstring>(void) const </argsstring>
+        <name>input_signature</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_hier_block2.h" line="50"/>
+      </memberdef>
+      <memberdef kind="function" id="structgr__hier__block2_1a00b145577ce9cd97ad52d382aa420530" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="gr__runtime__types_8h_1a17582361e91523de033c893f29cae653" kindref="member">gr_io_signature_sptr</ref></type>
+        <definition>gr_io_signature_sptr gr_hier_block2::output_signature</definition>
+        <argsstring>(void) const </argsstring>
+        <name>output_signature</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_hier_block2.h" line="51"/>
+      </memberdef>
+      <memberdef kind="function" id="structgr__hier__block2_1af504949aa125370bd497bade73fb7c44" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr_hier_block2::set_input_signature</definition>
+        <argsstring>(gr_io_signature_sptr sig)</argsstring>
+        <name>set_input_signature</name>
+        <param>
+          <type><ref refid="gr__runtime__types_8h_1a17582361e91523de033c893f29cae653" kindref="member">gr_io_signature_sptr</ref></type>
+          <declname>sig</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_hier_block2.h" line="53"/>
+      </memberdef>
+      <memberdef kind="function" id="structgr__hier__block2_1ad3a526d78dc477cab58d5f12250cba91" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr_hier_block2::set_output_signature</definition>
+        <argsstring>(gr_io_signature_sptr sig)</argsstring>
+        <name>set_output_signature</name>
+        <param>
+          <type><ref refid="gr__runtime__types_8h_1a17582361e91523de033c893f29cae653" kindref="member">gr_io_signature_sptr</ref></type>
+          <declname>sig</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_hier_block2.h" line="54"/>
+      </memberdef>
+      <memberdef kind="function" id="structgr__hier__block2_1aeda6dd086a55fc994bae3311533a1921" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr_hier_block2::lock</definition>
+        <argsstring>(void)</argsstring>
+        <name>lock</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_hier_block2.h" line="56" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_hier_block2.h" bodystart="56" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="structgr__hier__block2_1a06e41a4ab2b0617dd207d3673a974e3d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr_hier_block2::unlock</definition>
+        <argsstring>(void)</argsstring>
+        <name>unlock</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_hier_block2.h" line="58" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_hier_block2.h" bodystart="58" bodyend="58"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="392">
+        <label>gr_hier_block2</label>
+        <link refid="structgr__hier__block2"/>
+        <childnode refid="393" relation="usage">
+          <edgelabel>_name</edgelabel>
+        </childnode>
+      </node>
+      <node id="394">
+        <label>std::basic_string&lt; char &gt;</label>
+      </node>
+      <node id="393">
+        <label>std::string</label>
+        <childnode refid="394" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_hier_block2.h" line="30" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_hier_block2.h" bodystart="29" bodyend="61"/>
+    <listofallmembers>
+      <member refid="structgr__hier__block2_1ab8a733a0aadc70560fd4810780994448" prot="public" virt="non-virtual"><scope>gr_hier_block2</scope><name>_in_sig</name></member>
+      <member refid="structgr__hier__block2_1a560f322ca7de789f1aa7a79cc80366cd" prot="public" virt="non-virtual"><scope>gr_hier_block2</scope><name>_name</name></member>
+      <member refid="structgr__hier__block2_1a07553050733261854b03cb0fa718a92a" prot="public" virt="non-virtual"><scope>gr_hier_block2</scope><name>_out_sig</name></member>
+      <member refid="structgr__hier__block2_1a5c8b5c26ad5159dd9bcaa586a06b7921" prot="public" virt="non-virtual"><scope>gr_hier_block2</scope><name>_unique_id</name></member>
+      <member refid="structgr__hier__block2_1a9f065335f42852256617ccddcf12946e" prot="public" virt="non-virtual"><scope>gr_hier_block2</scope><name>gr_hier_block2</name></member>
+      <member refid="structgr__hier__block2_1a324be02b1e3b00da10ed7b6df86f164f" prot="public" virt="non-virtual"><scope>gr_hier_block2</scope><name>gr_hier_block2</name></member>
+      <member refid="structgr__hier__block2_1a8a330ac3afb284d81530f33b30ca25b0" prot="public" virt="non-virtual"><scope>gr_hier_block2</scope><name>input_signature</name></member>
+      <member refid="structgr__hier__block2_1aeda6dd086a55fc994bae3311533a1921" prot="public" virt="non-virtual"><scope>gr_hier_block2</scope><name>lock</name></member>
+      <member refid="structgr__hier__block2_1a69b7518170562654329e92dd64188641" prot="public" virt="non-virtual"><scope>gr_hier_block2</scope><name>name</name></member>
+      <member refid="structgr__hier__block2_1a00b145577ce9cd97ad52d382aa420530" prot="public" virt="non-virtual"><scope>gr_hier_block2</scope><name>output_signature</name></member>
+      <member refid="structgr__hier__block2_1a64a03012c2035fbd9ca8891263f6e7b1" prot="public" virt="non-virtual"><scope>gr_hier_block2</scope><name>self</name></member>
+      <member refid="structgr__hier__block2_1af504949aa125370bd497bade73fb7c44" prot="public" virt="non-virtual"><scope>gr_hier_block2</scope><name>set_input_signature</name></member>
+      <member refid="structgr__hier__block2_1ad3a526d78dc477cab58d5f12250cba91" prot="public" virt="non-virtual"><scope>gr_hier_block2</scope><name>set_output_signature</name></member>
+      <member refid="structgr__hier__block2_1ac4f46bcea6d15d53b4d3847d748ace41" prot="public" virt="non-virtual"><scope>gr_hier_block2</scope><name>unique_id</name></member>
+      <member refid="structgr__hier__block2_1a06e41a4ab2b0617dd207d3673a974e3d" prot="public" virt="non-virtual"><scope>gr_hier_block2</scope><name>unlock</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

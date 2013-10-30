@@ -1,0 +1,253 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="gr__endian__swap_8h" kind="file">
+    <compoundname>gr_endian_swap.h</compoundname>
+    <includes refid="gr__core__api_8h" local="no">gr_core_api.h</includes>
+    <includes refid="gr__sync__block_8h" local="no">gr_sync_block.h</includes>
+    <incdepgraph>
+      <node id="6594">
+        <label>boost/thread/mutex.hpp</label>
+      </node>
+      <node id="6596">
+        <label>boost/thread/condition_variable.hpp</label>
+      </node>
+      <node id="6578">
+        <label>boost/shared_ptr.hpp</label>
+      </node>
+      <node id="6575">
+        <label>gruel/pmt.h</label>
+        <link refid="pmt_8h"/>
+        <childnode refid="6576" relation="include">
+        </childnode>
+        <childnode refid="6577" relation="include">
+        </childnode>
+        <childnode refid="6578" relation="include">
+        </childnode>
+        <childnode refid="6579" relation="include">
+        </childnode>
+        <childnode refid="6580" relation="include">
+        </childnode>
+        <childnode refid="6581" relation="include">
+        </childnode>
+        <childnode refid="6582" relation="include">
+        </childnode>
+        <childnode refid="6585" relation="include">
+        </childnode>
+        <childnode refid="6586" relation="include">
+        </childnode>
+        <childnode refid="6587" relation="include">
+        </childnode>
+        <childnode refid="6588" relation="include">
+        </childnode>
+      </node>
+      <node id="6577">
+        <label>boost/intrusive_ptr.hpp</label>
+      </node>
+      <node id="6563">
+        <label>gr_core_api.h</label>
+        <link refid="gr__core__api_8h"/>
+        <childnode refid="6564" relation="include">
+        </childnode>
+      </node>
+      <node id="6582">
+        <label>stdint.h</label>
+        <link refid="stdint_8h"/>
+        <childnode refid="6583" relation="include">
+        </childnode>
+        <childnode refid="6584" relation="include">
+        </childnode>
+      </node>
+      <node id="6573">
+        <label>gras/hier_block.hpp</label>
+      </node>
+      <node id="6572">
+        <label>gras/top_block.hpp</label>
+      </node>
+      <node id="6591">
+        <label>boost/foreach.hpp</label>
+      </node>
+      <node id="6586">
+        <label>stdexcept</label>
+      </node>
+      <node id="6567">
+        <label>gras/block.hpp</label>
+      </node>
+      <node id="6593">
+        <label>boost/thread/thread.hpp</label>
+      </node>
+      <node id="6581">
+        <label>string</label>
+      </node>
+      <node id="6562">
+        <label>gr_endian_swap.h</label>
+        <link refid="gr_endian_swap.h"/>
+        <childnode refid="6563" relation="include">
+        </childnode>
+        <childnode refid="6565" relation="include">
+        </childnode>
+      </node>
+      <node id="6590">
+        <label>map</label>
+      </node>
+      <node id="6564">
+        <label>gruel/attributes.h</label>
+        <link refid="attributes_8h"/>
+      </node>
+      <node id="6583">
+        <label>limits.h</label>
+      </node>
+      <node id="6579">
+        <label>boost/any.hpp</label>
+      </node>
+      <node id="6566">
+        <label>gr_block.h</label>
+        <link refid="gr__block_8h"/>
+        <childnode refid="6563" relation="include">
+        </childnode>
+        <childnode refid="6567" relation="include">
+        </childnode>
+        <childnode refid="6568" relation="include">
+        </childnode>
+        <childnode refid="6570" relation="include">
+        </childnode>
+        <childnode refid="6574" relation="include">
+        </childnode>
+        <childnode refid="6581" relation="include">
+        </childnode>
+        <childnode refid="6589" relation="include">
+        </childnode>
+        <childnode refid="6590" relation="include">
+        </childnode>
+        <childnode refid="6591" relation="include">
+        </childnode>
+        <childnode refid="6592" relation="include">
+        </childnode>
+        <childnode refid="6597" relation="include">
+        </childnode>
+      </node>
+      <node id="6569">
+        <label>gr_runtime_types.h</label>
+        <link refid="gr__runtime__types_8h"/>
+        <childnode refid="6563" relation="include">
+        </childnode>
+        <childnode refid="6570" relation="include">
+        </childnode>
+      </node>
+      <node id="6584">
+        <label>wchar.h</label>
+      </node>
+      <node id="6588">
+        <label>gruel/pmt_sugar.h</label>
+        <link refid="pmt__sugar_8h"/>
+      </node>
+      <node id="6595">
+        <label>boost/thread/locks.hpp</label>
+      </node>
+      <node id="6565">
+        <label>gr_sync_block.h</label>
+        <link refid="gr__sync__block_8h"/>
+        <childnode refid="6566" relation="include">
+        </childnode>
+      </node>
+      <node id="6587">
+        <label>vector</label>
+      </node>
+      <node id="6568">
+        <label>gr_io_signature.h</label>
+        <link refid="gr__io__signature_8h"/>
+        <childnode refid="6563" relation="include">
+        </childnode>
+        <childnode refid="6569" relation="include">
+        </childnode>
+      </node>
+      <node id="6576">
+        <label>gruel/api.h</label>
+        <link refid="gruel_2src_2include_2gruel_2api_8h"/>
+        <childnode refid="6564" relation="include">
+        </childnode>
+      </node>
+      <node id="6585">
+        <label>iosfwd</label>
+      </node>
+      <node id="6570">
+        <label>gr_types.h</label>
+        <link refid="gr__types_8h"/>
+        <childnode refid="6571" relation="include">
+        </childnode>
+        <childnode refid="6567" relation="include">
+        </childnode>
+        <childnode refid="6572" relation="include">
+        </childnode>
+        <childnode refid="6573" relation="include">
+        </childnode>
+      </node>
+      <node id="6592">
+        <label>gruel/thread.h</label>
+        <link refid="thread_8h"/>
+        <childnode refid="6576" relation="include">
+        </childnode>
+        <childnode refid="6593" relation="include">
+        </childnode>
+        <childnode refid="6594" relation="include">
+        </childnode>
+        <childnode refid="6595" relation="include">
+        </childnode>
+        <childnode refid="6596" relation="include">
+        </childnode>
+        <childnode refid="6587" relation="include">
+        </childnode>
+      </node>
+      <node id="6589">
+        <label>deque</label>
+      </node>
+      <node id="6574">
+        <label>gr_tags.h</label>
+        <link refid="gr__tags_8h"/>
+        <childnode refid="6563" relation="include">
+        </childnode>
+        <childnode refid="6575" relation="include">
+        </childnode>
+      </node>
+      <node id="6580">
+        <label>complex</label>
+      </node>
+      <node id="6597">
+        <label>gr_sptr_magic.h</label>
+        <link refid="gr__sptr__magic_8h_source"/>
+        <childnode refid="6563" relation="include">
+        </childnode>
+        <childnode refid="6578" relation="include">
+        </childnode>
+      </node>
+      <node id="6571">
+        <label>gras/element.hpp</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classgr__endian__swap" prot="public">gr_endian_swap</innerclass>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="gr__endian__swap_8h_1ae75cbaf8bef7c85aa90e03703408569f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="gr__core__api_8h_1a8b8937b0c61edd85ab57ce8203543248" kindref="member">GR_CORE_API</ref> <ref refid="classboost_1_1shared__ptr" kindref="compound">gr_endian_swap_sptr</ref></type>
+        <definition>GR_CORE_API gr_endian_swap_sptr gr_make_endian_swap</definition>
+        <argsstring>(size_t item_size_bytes=1)</argsstring>
+        <name>gr_make_endian_swap</name>
+        <param>
+          <type>size_t</type>
+          <declname>item_size_bytes</declname>
+          <defval>1</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_endian_swap.h" line="33"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_endian_swap.h"/>
+  </compounddef>
+</doxygen>

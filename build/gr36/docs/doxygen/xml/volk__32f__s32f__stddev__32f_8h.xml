@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="volk__32f__s32f__stddev__32f_8h" kind="file">
+    <compoundname>volk_32f_s32f_stddev_32f.h</compoundname>
+    <includes refid="volk__common_8h" local="no">volk/volk_common.h</includes>
+    <includes refid="inttypes_8h" local="no">inttypes.h</includes>
+    <includes local="no">stdio.h</includes>
+    <includes local="no">math.h</includes>
+    <incdepgraph>
+      <node id="20868">
+        <label>volk/volk_common.h</label>
+        <link refid="volk__common_8h"/>
+        <childnode refid="20869" relation="include">
+        </childnode>
+      </node>
+      <node id="20870">
+        <label>stdint.h</label>
+        <link refid="stdint_8h"/>
+        <childnode refid="20871" relation="include">
+        </childnode>
+        <childnode refid="20872" relation="include">
+        </childnode>
+      </node>
+      <node id="20869">
+        <label>inttypes.h</label>
+        <link refid="inttypes_8h"/>
+        <childnode refid="20870" relation="include">
+        </childnode>
+      </node>
+      <node id="20871">
+        <label>limits.h</label>
+      </node>
+      <node id="20872">
+        <label>wchar.h</label>
+      </node>
+      <node id="20874">
+        <label>math.h</label>
+      </node>
+      <node id="20873">
+        <label>stdio.h</label>
+      </node>
+      <node id="20867">
+        <label>volk_32f_s32f_stddev_32f.h</label>
+        <link refid="volk_32f_s32f_stddev_32f.h"/>
+        <childnode refid="20868" relation="include">
+        </childnode>
+        <childnode refid="20869" relation="include">
+        </childnode>
+        <childnode refid="20873" relation="include">
+        </childnode>
+        <childnode refid="20874" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/aviral/GNU-Niyantran/gr36/volk/kernels/volk/volk_32f_s32f_stddev_32f.h"/>
+  </compounddef>
+</doxygen>

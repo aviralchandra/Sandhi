@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="volk__16u__byteswap__u_8h" kind="file">
+    <compoundname>volk_16u_byteswap_u.h</compoundname>
+    <includes refid="inttypes_8h" local="no">inttypes.h</includes>
+    <includes local="no">stdio.h</includes>
+    <incdepgraph>
+      <node id="20656">
+        <label>stdint.h</label>
+        <link refid="stdint_8h"/>
+        <childnode refid="20657" relation="include">
+        </childnode>
+        <childnode refid="20658" relation="include">
+        </childnode>
+      </node>
+      <node id="20655">
+        <label>inttypes.h</label>
+        <link refid="inttypes_8h"/>
+        <childnode refid="20656" relation="include">
+        </childnode>
+      </node>
+      <node id="20657">
+        <label>limits.h</label>
+      </node>
+      <node id="20658">
+        <label>wchar.h</label>
+      </node>
+      <node id="20654">
+        <label>volk_16u_byteswap_u.h</label>
+        <link refid="volk_16u_byteswap_u.h"/>
+        <childnode refid="20655" relation="include">
+        </childnode>
+        <childnode refid="20659" relation="include">
+        </childnode>
+      </node>
+      <node id="20659">
+        <label>stdio.h</label>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/aviral/GNU-Niyantran/gr36/volk/include/volk/volk_16u_byteswap_u.h"/>
+  </compounddef>
+</doxygen>

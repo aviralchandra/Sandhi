@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="dir_505acf8321842888c6e58d830b4e9e2e" kind="dir">
+    <compoundname>/home/aviral/GNU-Niyantran/build/gr36/gr-qtgui/lib/</compoundname>
+    <innerfile refid="spectrumdisplayform_8ui_8h">spectrumdisplayform.ui.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/aviral/GNU-Niyantran/build/gr36/gr-qtgui/lib/"/>
+  </compounddef>
+</doxygen>

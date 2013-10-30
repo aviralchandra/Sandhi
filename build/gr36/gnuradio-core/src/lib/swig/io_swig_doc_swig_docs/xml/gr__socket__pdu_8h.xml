@@ -1,0 +1,324 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="gr__socket__pdu_8h" kind="file">
+    <compoundname>gr_socket_pdu.h</compoundname>
+    <includes local="no">gr_core_api.h</includes>
+    <includes local="no">gr_sync_block.h</includes>
+    <includes local="no">gr_message.h</includes>
+    <includes local="no">gr_msg_queue.h</includes>
+    <includes refid="gr__stream__pdu__base_8h" local="no">gr_stream_pdu_base.h</includes>
+    <includes local="no">boost/array.hpp</includes>
+    <includes local="no">boost/asio.hpp</includes>
+    <includes local="no">iostream</includes>
+    <incdepgraph>
+      <node id="96">
+        <label>gr_stream_pdu_base.h</label>
+        <link refid="gr__stream__pdu__base_8h"/>
+        <childnode refid="92" relation="include">
+        </childnode>
+        <childnode refid="93" relation="include">
+        </childnode>
+        <childnode refid="94" relation="include">
+        </childnode>
+        <childnode refid="95" relation="include">
+        </childnode>
+      </node>
+      <node id="93">
+        <label>gr_sync_block.h</label>
+      </node>
+      <node id="95">
+        <label>gr_msg_queue.h</label>
+      </node>
+      <node id="91">
+        <label>/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/io/gr_socket_pdu.h</label>
+        <link refid="gr_socket_pdu.h"/>
+        <childnode refid="92" relation="include">
+        </childnode>
+        <childnode refid="93" relation="include">
+        </childnode>
+        <childnode refid="94" relation="include">
+        </childnode>
+        <childnode refid="95" relation="include">
+        </childnode>
+        <childnode refid="96" relation="include">
+        </childnode>
+        <childnode refid="97" relation="include">
+        </childnode>
+        <childnode refid="98" relation="include">
+        </childnode>
+        <childnode refid="99" relation="include">
+        </childnode>
+      </node>
+      <node id="98">
+        <label>boost/asio.hpp</label>
+      </node>
+      <node id="92">
+        <label>gr_core_api.h</label>
+      </node>
+      <node id="94">
+        <label>gr_message.h</label>
+      </node>
+      <node id="99">
+        <label>iostream</label>
+      </node>
+      <node id="97">
+        <label>boost/array.hpp</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classtcp__connection" prot="public">tcp_connection</innerclass>
+    <innerclass refid="classgr__socket__pdu" prot="public">gr_socket_pdu</innerclass>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="gr__socket__pdu_8h_1a6900a28d341adccfb8681817f2d31f28" prot="public" static="no">
+        <type>boost::shared_ptr&lt; <ref refid="classgr__socket__pdu" kindref="compound">gr_socket_pdu</ref> &gt;</type>
+        <definition>typedef boost::shared_ptr&lt;gr_socket_pdu&gt; gr_socket_pdu_sptr</definition>
+        <argsstring></argsstring>
+        <name>gr_socket_pdu_sptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/io/gr_socket_pdu.h" line="36" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/io/gr_socket_pdu.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="gr__socket__pdu_8h_1a00de0daa9f6b31fef5aa3633b1cfa9f7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>GR_CORE_API <ref refid="gr__socket__pdu_8h_1a6900a28d341adccfb8681817f2d31f28" kindref="member">gr_socket_pdu_sptr</ref></type>
+        <definition>GR_CORE_API gr_socket_pdu_sptr gr_make_socket_pdu</definition>
+        <argsstring>(std::string type, std::string addr, std::string port, int MTU=10000)</argsstring>
+        <name>gr_make_socket_pdu</name>
+        <param>
+          <type>std::string</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>addr</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>port</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>MTU</declname>
+          <defval>10000</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/io/gr_socket_pdu.h" line="38"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*<sp/>-*-<sp/>c++<sp/>-*-<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>2012<sp/>Free<sp/>Software<sp/>Foundation,<sp/>Inc.</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/>This<sp/>file<sp/>is<sp/>part<sp/>of<sp/>GNU<sp/>Radio</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/>GNU<sp/>Radio<sp/>is<sp/>free<sp/>software;<sp/>you<sp/>can<sp/>redistribute<sp/>it<sp/>and/or<sp/>modify</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/>it<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>as<sp/>published<sp/>by</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/>the<sp/>Free<sp/>Software<sp/>Foundation;<sp/>either<sp/>version<sp/>3,<sp/>or<sp/>(at<sp/>your<sp/>option)</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/>any<sp/>later<sp/>version.</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>GNU<sp/>Radio<sp/>is<sp/>distributed<sp/>in<sp/>the<sp/>hope<sp/>that<sp/>it<sp/>will<sp/>be<sp/>useful,</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/>but<sp/>WITHOUT<sp/>ANY<sp/>WARRANTY;<sp/>without<sp/>even<sp/>the<sp/>implied<sp/>warranty<sp/>of</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>MERCHANTABILITY<sp/>or<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE.<sp/><sp/>See<sp/>the</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>for<sp/>more<sp/>details.</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*<sp/>You<sp/>should<sp/>have<sp/>received<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/>*<sp/>along<sp/>with<sp/>GNU<sp/>Radio;<sp/>see<sp/>the<sp/>file<sp/>COPYING.<sp/><sp/>If<sp/>not,<sp/>write<sp/>to</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/>*<sp/>the<sp/>Free<sp/>Software<sp/>Foundation,<sp/>Inc.,<sp/>51<sp/>Franklin<sp/>Street,</highlight></codeline>
+<codeline lineno="20"><highlight class="comment"><sp/>*<sp/>Boston,<sp/>MA<sp/>02110-1301,<sp/>USA.</highlight></codeline>
+<codeline lineno="21"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>INCLUDED_GR_SOCKET_PDU_H</highlight></codeline>
+<codeline lineno="24"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>INCLUDED_GR_SOCKET_PDU_H</highlight></codeline>
+<codeline lineno="25"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;gr_core_api.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;gr_sync_block.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;gr_message.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;gr_msg_queue.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="gr__stream__pdu__base_8h" kindref="compound">gr_stream_pdu_base.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;boost/array.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;boost/asio.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;iostream&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35" refid="gr__socket__pdu_8h_1a6900a28d341adccfb8681817f2d31f28" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classgr__socket__pdu" kindref="compound" tooltip="Gather received items into messages and insert into msgq.">gr_socket_pdu</ref>;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>boost::shared_ptr&lt;gr_socket_pdu&gt;<sp/><ref refid="gr__socket__pdu_8h_1a6900a28d341adccfb8681817f2d31f28" kindref="member">gr_socket_pdu_sptr</ref>;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal">GR_CORE_API<sp/><ref refid="gr__socket__pdu_8h_1a6900a28d341adccfb8681817f2d31f28" kindref="member">gr_socket_pdu_sptr</ref><sp/><ref refid="gr__socket__pdu_8h_1a00de0daa9f6b31fef5aa3633b1cfa9f7" kindref="member">gr_make_socket_pdu</ref><sp/>(std::string<sp/>type,<sp/>std::string<sp/>addr,<sp/>std::string<sp/>port,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>MTU=10000);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40" refid="classtcp__connection" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classtcp__connection" kindref="compound">tcp_connection</ref></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>boost::enable_shared_from_this&lt;tcp_connection&gt;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="44" refid="classtcp__connection_1af65a4d4a0e58102041dd699d15a4b338" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>boost::shared_ptr&lt;tcp_connection&gt;<sp/><ref refid="classtcp__connection_1af65a4d4a0e58102041dd699d15a4b338" kindref="member">pointer</ref>;</highlight></codeline>
+<codeline lineno="45" refid="classtcp__connection_1af0a75a06bb215701c210cf66a760d510" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="classgr__socket__pdu" kindref="compound" tooltip="Gather received items into messages and insert into msgq.">gr_socket_pdu</ref><sp/>*<ref refid="classtcp__connection_1af0a75a06bb215701c210cf66a760d510" kindref="member">d_block</ref>;</highlight></codeline>
+<codeline lineno="46" refid="classtcp__connection_1a265726df6c2749921cd0116f71f989cb" refkind="member"><highlight class="normal"><sp/><sp/>boost::array&lt;char,<sp/>10000&gt;<sp/><ref refid="classtcp__connection_1a265726df6c2749921cd0116f71f989cb" kindref="member">buf</ref>;</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48" refid="classtcp__connection_1a5ddd316caf7f95163acbed9cff76c02e" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="classtcp__connection_1af65a4d4a0e58102041dd699d15a4b338" kindref="member">pointer</ref><sp/><ref refid="classtcp__connection_1a5ddd316caf7f95163acbed9cff76c02e" kindref="member">create</ref>(boost::asio::io_service&amp;<sp/>io_service)</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classtcp__connection_1af65a4d4a0e58102041dd699d15a4b338" kindref="member">pointer</ref>(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classtcp__connection" kindref="compound">tcp_connection</ref>(io_service));</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53" refid="classtcp__connection_1abb671c73ff2c7f7b96e67f572fb3ea9e" refkind="member"><highlight class="normal"><sp/><sp/>boost::asio::ip::tcp::socket&amp;<sp/><ref refid="classtcp__connection_1abb671c73ff2c7f7b96e67f572fb3ea9e" kindref="member">socket</ref>()</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>socket_;</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58" refid="classtcp__connection_1a85cf674f79b3a3c0c5ea1c8c1a8e5147" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classtcp__connection_1a85cf674f79b3a3c0c5ea1c8c1a8e5147" kindref="member">start</ref>(<ref refid="classgr__socket__pdu" kindref="compound" tooltip="Gather received items into messages and insert into msgq.">gr_socket_pdu</ref>*<sp/>parent)</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classtcp__connection_1af0a75a06bb215701c210cf66a760d510" kindref="member">d_block</ref><sp/>=<sp/>parent;</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/>message_<sp/>=<sp/>&quot;connected<sp/>to<sp/>gr_socket_pdu\n&quot;;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/>boost::asio::async_write(socket_,<sp/>boost::asio::buffer(message_),</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>boost::bind(&amp;tcp_connection::handle_write,<sp/>shared_from_this(),</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>boost::asio::placeholders::error,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>boost::asio::placeholders::bytes_transferred));</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/>socket_.async_read_some(</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>boost::asio::buffer(<ref refid="classtcp__connection_1a265726df6c2749921cd0116f71f989cb" kindref="member">buf</ref>),</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>boost::bind(&amp;tcp_connection::handle_read,<sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">,<sp/>boost::asio::placeholders::error,<sp/>boost::asio::placeholders::bytes_transferred));</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="71" refid="classtcp__connection_1aa5659f9786a8b91457154a5a30f1ce80" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classtcp__connection_1aa5659f9786a8b91457154a5a30f1ce80" kindref="member">send</ref>(pmt::pmt_t<sp/>vector){</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>len<sp/>=<sp/>pmt::pmt_length(vector);</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>offset(0);</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/>boost::array&lt;char,<sp/>10000&gt;<sp/>txbuf;</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/>memcpy(&amp;txbuf[0],<sp/>pmt::pmt_uniform_vector_elements(vector,<sp/>offset),<sp/>len);</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/>boost::asio::async_write(socket_,<sp/>boost::asio::buffer(txbuf,<sp/>len),</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>boost::bind(&amp;tcp_connection::handle_write,<sp/>shared_from_this(),</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>boost::asio::placeholders::error,</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>boost::asio::placeholders::bytes_transferred));</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="82" refid="classtcp__connection_1a1d97f53dcfe90a9edf5d9970c88e0e1b" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="classtcp__connection_1a1d97f53dcfe90a9edf5d9970c88e0e1b" kindref="member">~tcp_connection</ref>(){</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/>std::cout<sp/>&lt;&lt;<sp/>&quot;tcp_connection<sp/>destroyed\n&quot;;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><ref refid="classtcp__connection" kindref="compound">tcp_connection</ref>(boost::asio::io_service&amp;<sp/>io_service)</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/>:<sp/>socket_(io_service)</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>handle_read(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>boost::system::error_code&amp;<sp/>error</highlight><highlight class="comment">/*error*/</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>bytes_transferred);</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>handle_write(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>boost::system::error_code&amp;<sp/></highlight><highlight class="comment">/*error*/</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/></highlight><highlight class="comment">/*bytes_transferred*/</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/>boost::asio::ip::tcp::socket<sp/>socket_;</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/>std::string<sp/>message_;</highlight></codeline>
+<codeline lineno="101"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight></codeline>
+<codeline lineno="108" refid="classgr__socket__pdu" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal">GR_CORE_API<sp/><ref refid="classgr__socket__pdu" kindref="compound" tooltip="Gather received items into messages and insert into msgq.">gr_socket_pdu</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classgr__stream__pdu__base" kindref="compound" tooltip="Gather received items into messages and insert into msgq.">gr_stream_pdu_base</ref></highlight></codeline>
+<codeline lineno="109"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">friend</highlight><highlight class="normal"><sp/>GR_CORE_API<sp/><ref refid="gr__socket__pdu_8h_1a6900a28d341adccfb8681817f2d31f28" kindref="member">gr_socket_pdu_sptr</ref></highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><ref refid="gr__socket__pdu_8h_1a00de0daa9f6b31fef5aa3633b1cfa9f7" kindref="member">gr_make_socket_pdu</ref>(std::string<sp/>type,<sp/>std::string<sp/>addr,<sp/>std::string<sp/>port,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>MTU);</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/>boost::asio::io_service<sp/>_io_service;</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/>boost::array&lt;char,<sp/>10000&gt;<sp/>rxbuf;</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>tcp<sp/>specific</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/>boost::asio::ip::tcp::endpoint<sp/>_tcp_endpoint;</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>specific<sp/>to<sp/>tcp<sp/>server</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/>boost::shared_ptr&lt;boost::asio::ip::tcp::acceptor&gt;<sp/>_acceptor_tcp;</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/>std::vector&lt;tcp_connection::pointer&gt;<sp/>d_tcp_connections;</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>tcp_server_send(pmt::pmt_t<sp/>msg);</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>tcp_client_send(pmt::pmt_t<sp/>msg);</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>udp_send(pmt::pmt_t<sp/>msg);</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"></highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>specific<sp/>to<sp/>tcp<sp/>client</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/>boost::shared_ptr&lt;boost::asio::ip::tcp::socket&gt;<sp/>_tcp_socket;</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"></highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>specific<sp/>to<sp/>udp<sp/>client/server</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/>boost::asio::ip::udp::endpoint<sp/>_udp_endpoint;</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/>boost::asio::ip::udp::endpoint<sp/>_udp_endpoint_other;</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/>boost::shared_ptr&lt;boost::asio::ip::udp::socket&gt;<sp/>_udp_socket;</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"></highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>handle_receive(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>boost::system::error_code&amp;<sp/>error,<sp/>std::size_t<sp/>){</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>start_tcp_accept(){</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classtcp__connection_1af65a4d4a0e58102041dd699d15a4b338" kindref="member">tcp_connection::pointer</ref><sp/>new_connection<sp/>=</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classtcp__connection_1a5ddd316caf7f95163acbed9cff76c02e" kindref="member">tcp_connection::create</ref>(_acceptor_tcp-&gt;get_io_service());</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"></highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/>_acceptor_tcp-&gt;async_accept(new_connection-&gt;socket(),</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>boost::bind(&amp;gr_socket_pdu::handle_tcp_accept,<sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">,<sp/>new_connection,</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>boost::asio::placeholders::error));</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"></highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>handle_tcp_accept(<ref refid="classtcp__connection_1af65a4d4a0e58102041dd699d15a4b338" kindref="member">tcp_connection::pointer</ref><sp/>new_connection,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>boost::system::error_code&amp;<sp/>error){</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!error)</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>new_connection-&gt;start(</highlight><highlight class="keyword">this</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>d_tcp_connections.push_back(new_connection);</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>start_tcp_accept();</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::cout<sp/>&lt;&lt;<sp/>error<sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>run_io_service(){</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/>_io_service.run();</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight></codeline>
+<codeline lineno="162"><highlight class="normal"></highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>handle_udp_read(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>boost::system::error_code&amp;<sp/>error</highlight><highlight class="comment">/*error*/</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>bytes_transferred){</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(!error){</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pmt::pmt_t<sp/>vector<sp/>=<sp/>pmt::pmt_init_u8vector(bytes_transferred,<sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t*)&amp;rxbuf[0]);</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pmt::pmt_t<sp/>pdu<sp/>=<sp/>pmt::pmt_cons(<sp/>pmt::PMT_NIL,<sp/>vector);</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>message_port_pub(<sp/>pmt::mp(</highlight><highlight class="stringliteral">&quot;pdus&quot;</highlight><highlight class="normal">),<sp/>pdu<sp/>);</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_udp_socket-&gt;async_receive_from(<sp/>boost::asio::buffer(rxbuf),<sp/>_udp_endpoint_other,</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>boost::bind(&amp;gr_socket_pdu::handle_udp_read,<sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>boost::asio::placeholders::error,</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>boost::asio::placeholders::bytes_transferred));</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal"><sp/>boost::system::system_error(error);</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::cout<sp/>&lt;&lt;<sp/>&quot;error<sp/>occurred\n&quot;;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>handle_tcp_read(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>boost::system::error_code&amp;<sp/>error</highlight><highlight class="comment">/*error*/</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>bytes_transferred){</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(!error)</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pmt::pmt_t<sp/>vector<sp/>=<sp/>pmt::pmt_init_u8vector(bytes_transferred,<sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t*)&amp;rxbuf[0]);</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pmt::pmt_t<sp/>pdu<sp/>=<sp/>pmt::pmt_cons(<sp/>pmt::PMT_NIL,<sp/>vector);</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"></highlight></codeline>
+<codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>message_port_pub(<sp/>pmt::mp(</highlight><highlight class="stringliteral">&quot;pdus&quot;</highlight><highlight class="normal">),<sp/>pdu<sp/>);</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"></highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_tcp_socket-&gt;async_read_some(</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>boost::asio::buffer(rxbuf),</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>boost::bind(&amp;gr_socket_pdu::handle_tcp_read,<sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">,<sp/>boost::asio::placeholders::error,<sp/>boost::asio::placeholders::bytes_transferred));</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"></highlight></codeline>
+<codeline lineno="191"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//std::cout<sp/>&lt;&lt;<sp/>&quot;error<sp/>occurred\n&quot;;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="193"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal"><sp/>boost::system::system_error(error);</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"></highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"><sp/><sp/><ref refid="classgr__socket__pdu" kindref="compound" tooltip="Gather received items into messages and insert into msgq.">gr_socket_pdu</ref><sp/>(std::string<sp/>type,<sp/>std::string<sp/>addr,<sp/>std::string<sp/>port,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>MTU=10000);</highlight></codeline>
+<codeline lineno="199"><highlight class="normal"><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="200" refid="classgr__socket__pdu_1a6cf4e5f9a408536e35381d8f792669c5" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="classgr__socket__pdu_1a6cf4e5f9a408536e35381d8f792669c5" kindref="member">~gr_socket_pdu</ref><sp/>()<sp/>{}</highlight></codeline>
+<codeline lineno="201"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="202"><highlight class="normal"></highlight></codeline>
+<codeline lineno="203"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>INCLUDED_GR_TUNTAP_PDU_H<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/io/gr_socket_pdu.h"/>
+  </compounddef>
+</doxygen>

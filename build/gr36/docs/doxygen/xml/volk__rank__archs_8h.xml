@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="volk__rank__archs_8h" kind="file">
+    <compoundname>volk_rank_archs.h</compoundname>
+    <includes local="no">stdlib.h</includes>
+    <includes refid="stdbool_8h" local="no">stdbool.h</includes>
+    <incdepgraph>
+      <node id="22068">
+        <label>volk_rank_archs.h</label>
+        <link refid="volk_rank_archs.h"/>
+        <childnode refid="22069" relation="include">
+        </childnode>
+        <childnode refid="22070" relation="include">
+        </childnode>
+      </node>
+      <node id="22069">
+        <label>stdlib.h</label>
+      </node>
+      <node id="22070">
+        <label>stdbool.h</label>
+        <link refid="stdbool_8h"/>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="volk__rank__archs_8h_1a604a700bc48c23343189249e438c9be1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int volk_get_index</definition>
+        <argsstring>(const char *impl_names[], const size_t n_impls, const char *impl_name)</argsstring>
+        <name>volk_get_index</name>
+        <param>
+          <type>const char *</type>
+          <declname>impl_names</declname>
+          <array>[]</array>
+        </param>
+        <param>
+          <type>const size_t</type>
+          <declname>n_impls</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>impl_name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/volk/lib/volk_rank_archs.h" line="36"/>
+      </memberdef>
+      <memberdef kind="function" id="volk__rank__archs_8h_1a597b1ed11ecebb33c500251ce9abeb1d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int volk_rank_archs</definition>
+        <argsstring>(const char *kern_name, const char *impl_names[], const int *impl_deps, const bool *alignment, size_t n_impls, const bool align)</argsstring>
+        <name>volk_rank_archs</name>
+        <param>
+          <type>const char *</type>
+          <declname>kern_name</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>impl_names</declname>
+          <array>[]</array>
+        </param>
+        <param>
+          <type>const int *</type>
+          <declname>impl_deps</declname>
+        </param>
+        <param>
+          <type>const <ref refid="stdbool_8h_1a97a80ca1602ebf2303258971a2c938e2" kindref="member">bool</ref> *</type>
+          <declname>alignment</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>n_impls</declname>
+        </param>
+        <param>
+          <type>const <ref refid="stdbool_8h_1a97a80ca1602ebf2303258971a2c938e2" kindref="member">bool</ref></type>
+          <declname>align</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/volk/lib/volk_rank_archs.h" line="45"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/aviral/GNU-Niyantran/gr36/volk/lib/volk_rank_archs.h"/>
+  </compounddef>
+</doxygen>

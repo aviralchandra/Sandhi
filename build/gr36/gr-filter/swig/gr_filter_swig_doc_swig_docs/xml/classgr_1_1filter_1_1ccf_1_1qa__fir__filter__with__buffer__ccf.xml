@@ -1,0 +1,158 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="classgr_1_1filter_1_1ccf_1_1qa__fir__filter__with__buffer__ccf" kind="class" prot="public">
+    <compoundname>gr::filter::ccf::qa_fir_filter_with_buffer_ccf</compoundname>
+    <includes refid="qa__fir__filter__with__buffer_8h" local="no">qa_fir_filter_with_buffer.h</includes>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classgr_1_1filter_1_1ccf_1_1qa__fir__filter__with__buffer__ccf_1a3466f0301c7338e18a4c737295a1f8e0" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::filter::ccf::qa_fir_filter_with_buffer_ccf::CPPUNIT_TEST_SUITE</definition>
+        <argsstring>(qa_fir_filter_with_buffer_ccf)</argsstring>
+        <name>CPPUNIT_TEST_SUITE</name>
+        <param>
+          <type><ref refid="classgr_1_1filter_1_1ccf_1_1qa__fir__filter__with__buffer__ccf" kindref="compound">qa_fir_filter_with_buffer_ccf</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/qa_fir_filter_with_buffer.h" line="75"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1filter_1_1ccf_1_1qa__fir__filter__with__buffer__ccf_1aec2f45229b7dcfb7b57708c959bb8742" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::filter::ccf::qa_fir_filter_with_buffer_ccf::CPPUNIT_TEST</definition>
+        <argsstring>(t1)</argsstring>
+        <name>CPPUNIT_TEST</name>
+        <param>
+          <type>t1</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/qa_fir_filter_with_buffer.h" line="76"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1filter_1_1ccf_1_1qa__fir__filter__with__buffer__ccf_1a05ed8bfb56b33e55ee022198e7010419" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::filter::ccf::qa_fir_filter_with_buffer_ccf::CPPUNIT_TEST</definition>
+        <argsstring>(t2)</argsstring>
+        <name>CPPUNIT_TEST</name>
+        <param>
+          <type>t2</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/qa_fir_filter_with_buffer.h" line="77"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1filter_1_1ccf_1_1qa__fir__filter__with__buffer__ccf_1ad1e9d7cfb624df0711bfa104ea5a1787" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::filter::ccf::qa_fir_filter_with_buffer_ccf::CPPUNIT_TEST</definition>
+        <argsstring>(t3)</argsstring>
+        <name>CPPUNIT_TEST</name>
+        <param>
+          <type>t3</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/qa_fir_filter_with_buffer.h" line="78"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1filter_1_1ccf_1_1qa__fir__filter__with__buffer__ccf_1ac3525c16bc5d633a3dfece4a00bc1373" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::filter::ccf::qa_fir_filter_with_buffer_ccf::CPPUNIT_TEST_SUITE_END</definition>
+        <argsstring>()</argsstring>
+        <name>CPPUNIT_TEST_SUITE_END</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/qa_fir_filter_with_buffer.h" line="79"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1filter_1_1ccf_1_1qa__fir__filter__with__buffer__ccf_1a7563f9826ea0dae50c05b285d21ca1f7" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::filter::ccf::qa_fir_filter_with_buffer_ccf::test_decimate</definition>
+        <argsstring>(unsigned int decimate)</argsstring>
+        <name>test_decimate</name>
+        <param>
+          <type>unsigned int</type>
+          <declname>decimate</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/qa_fir_filter_with_buffer.h" line="82"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1filter_1_1ccf_1_1qa__fir__filter__with__buffer__ccf_1ac604861a8f76e91492e09ced2766f257" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::filter::ccf::qa_fir_filter_with_buffer_ccf::t1</definition>
+        <argsstring>()</argsstring>
+        <name>t1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/qa_fir_filter_with_buffer.h" line="84"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1filter_1_1ccf_1_1qa__fir__filter__with__buffer__ccf_1a72696d041f6196cc5a5faa4558888b7c" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::filter::ccf::qa_fir_filter_with_buffer_ccf::t2</definition>
+        <argsstring>()</argsstring>
+        <name>t2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/qa_fir_filter_with_buffer.h" line="85"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1filter_1_1ccf_1_1qa__fir__filter__with__buffer__ccf_1af1d0129ead06ab29d75d53a5054e649e" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::filter::ccf::qa_fir_filter_with_buffer_ccf::t3</definition>
+        <argsstring>()</argsstring>
+        <name>t3</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/qa_fir_filter_with_buffer.h" line="86"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/qa_fir_filter_with_buffer.h" line="74" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/qa_fir_filter_with_buffer.h" bodystart="73" bodyend="87"/>
+    <listofallmembers>
+      <member refid="classgr_1_1filter_1_1ccf_1_1qa__fir__filter__with__buffer__ccf_1aec2f45229b7dcfb7b57708c959bb8742" prot="private" virt="non-virtual"><scope>gr::filter::ccf::qa_fir_filter_with_buffer_ccf</scope><name>CPPUNIT_TEST</name></member>
+      <member refid="classgr_1_1filter_1_1ccf_1_1qa__fir__filter__with__buffer__ccf_1a05ed8bfb56b33e55ee022198e7010419" prot="private" virt="non-virtual"><scope>gr::filter::ccf::qa_fir_filter_with_buffer_ccf</scope><name>CPPUNIT_TEST</name></member>
+      <member refid="classgr_1_1filter_1_1ccf_1_1qa__fir__filter__with__buffer__ccf_1ad1e9d7cfb624df0711bfa104ea5a1787" prot="private" virt="non-virtual"><scope>gr::filter::ccf::qa_fir_filter_with_buffer_ccf</scope><name>CPPUNIT_TEST</name></member>
+      <member refid="classgr_1_1filter_1_1ccf_1_1qa__fir__filter__with__buffer__ccf_1a3466f0301c7338e18a4c737295a1f8e0" prot="private" virt="non-virtual"><scope>gr::filter::ccf::qa_fir_filter_with_buffer_ccf</scope><name>CPPUNIT_TEST_SUITE</name></member>
+      <member refid="classgr_1_1filter_1_1ccf_1_1qa__fir__filter__with__buffer__ccf_1ac3525c16bc5d633a3dfece4a00bc1373" prot="private" virt="non-virtual"><scope>gr::filter::ccf::qa_fir_filter_with_buffer_ccf</scope><name>CPPUNIT_TEST_SUITE_END</name></member>
+      <member refid="classgr_1_1filter_1_1ccf_1_1qa__fir__filter__with__buffer__ccf_1ac604861a8f76e91492e09ced2766f257" prot="private" virt="non-virtual"><scope>gr::filter::ccf::qa_fir_filter_with_buffer_ccf</scope><name>t1</name></member>
+      <member refid="classgr_1_1filter_1_1ccf_1_1qa__fir__filter__with__buffer__ccf_1a72696d041f6196cc5a5faa4558888b7c" prot="private" virt="non-virtual"><scope>gr::filter::ccf::qa_fir_filter_with_buffer_ccf</scope><name>t2</name></member>
+      <member refid="classgr_1_1filter_1_1ccf_1_1qa__fir__filter__with__buffer__ccf_1af1d0129ead06ab29d75d53a5054e649e" prot="private" virt="non-virtual"><scope>gr::filter::ccf::qa_fir_filter_with_buffer_ccf</scope><name>t3</name></member>
+      <member refid="classgr_1_1filter_1_1ccf_1_1qa__fir__filter__with__buffer__ccf_1a7563f9826ea0dae50c05b285d21ca1f7" prot="private" virt="non-virtual"><scope>gr::filter::ccf::qa_fir_filter_with_buffer_ccf</scope><name>test_decimate</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

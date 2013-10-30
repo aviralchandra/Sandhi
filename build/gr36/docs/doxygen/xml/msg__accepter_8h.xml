@@ -1,0 +1,187 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="msg__accepter_8h" kind="file">
+    <compoundname>msg_accepter.h</compoundname>
+    <includes refid="gruel_2src_2include_2gruel_2api_8h" local="no">gruel/api.h</includes>
+    <includes refid="pmt_8h" local="no">gruel/pmt.h</includes>
+    <includes local="no">boost/shared_ptr.hpp</includes>
+    <includedby refid="gr__msg__accepter_8h" local="no">gr_msg_accepter.h</includedby>
+    <includedby refid="msg__accepter__msgq_8h" local="no">msg_accepter_msgq.h</includedby>
+    <includedby refid="msg__passing_8h" local="no">msg_passing.h</includedby>
+    <incdepgraph>
+      <node id="15585">
+        <label>msg_accepter.h</label>
+        <link refid="msg_accepter.h"/>
+        <childnode refid="15586" relation="include">
+        </childnode>
+        <childnode refid="15588" relation="include">
+        </childnode>
+        <childnode refid="15590" relation="include">
+        </childnode>
+      </node>
+      <node id="15590">
+        <label>boost/shared_ptr.hpp</label>
+      </node>
+      <node id="15588">
+        <label>gruel/pmt.h</label>
+        <link refid="pmt_8h"/>
+        <childnode refid="15586" relation="include">
+        </childnode>
+        <childnode refid="15589" relation="include">
+        </childnode>
+        <childnode refid="15590" relation="include">
+        </childnode>
+        <childnode refid="15591" relation="include">
+        </childnode>
+        <childnode refid="15592" relation="include">
+        </childnode>
+        <childnode refid="15593" relation="include">
+        </childnode>
+        <childnode refid="15594" relation="include">
+        </childnode>
+        <childnode refid="15597" relation="include">
+        </childnode>
+        <childnode refid="15598" relation="include">
+        </childnode>
+        <childnode refid="15599" relation="include">
+        </childnode>
+        <childnode refid="15600" relation="include">
+        </childnode>
+      </node>
+      <node id="15589">
+        <label>boost/intrusive_ptr.hpp</label>
+      </node>
+      <node id="15594">
+        <label>stdint.h</label>
+        <link refid="stdint_8h"/>
+        <childnode refid="15595" relation="include">
+        </childnode>
+        <childnode refid="15596" relation="include">
+        </childnode>
+      </node>
+      <node id="15598">
+        <label>stdexcept</label>
+      </node>
+      <node id="15593">
+        <label>string</label>
+      </node>
+      <node id="15587">
+        <label>gruel/attributes.h</label>
+        <link refid="attributes_8h"/>
+      </node>
+      <node id="15595">
+        <label>limits.h</label>
+      </node>
+      <node id="15591">
+        <label>boost/any.hpp</label>
+      </node>
+      <node id="15596">
+        <label>wchar.h</label>
+      </node>
+      <node id="15600">
+        <label>gruel/pmt_sugar.h</label>
+        <link refid="pmt__sugar_8h"/>
+      </node>
+      <node id="15599">
+        <label>vector</label>
+      </node>
+      <node id="15586">
+        <label>gruel/api.h</label>
+        <link refid="gruel_2src_2include_2gruel_2api_8h"/>
+        <childnode refid="15587" relation="include">
+        </childnode>
+      </node>
+      <node id="15597">
+        <label>iosfwd</label>
+      </node>
+      <node id="15592">
+        <label>complex</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="15601">
+        <label>msg_accepter.h</label>
+        <link refid="msg_accepter.h"/>
+        <childnode refid="15602" relation="include">
+        </childnode>
+        <childnode refid="15612" relation="include">
+        </childnode>
+        <childnode refid="15613" relation="include">
+        </childnode>
+      </node>
+      <node id="15609">
+        <label>gr_scheduler_sts.h</label>
+        <link refid="gr__scheduler__sts_8h"/>
+      </node>
+      <node id="15608">
+        <label>gr_scheduler.h</label>
+        <link refid="gr__scheduler_8h"/>
+        <childnode refid="15609" relation="include">
+        </childnode>
+        <childnode refid="15610" relation="include">
+        </childnode>
+        <childnode refid="15611" relation="include">
+        </childnode>
+      </node>
+      <node id="15612">
+        <label>msg_accepter_msgq.h</label>
+        <link refid="msg__accepter__msgq_8h"/>
+      </node>
+      <node id="15602">
+        <label>gr_msg_accepter.h</label>
+        <link refid="gr__msg__accepter_8h"/>
+        <childnode refid="15603" relation="include">
+        </childnode>
+      </node>
+      <node id="15606">
+        <label>gr_flat_flowgraph.h</label>
+        <link refid="gr__flat__flowgraph_8h"/>
+        <childnode refid="15607" relation="include">
+        </childnode>
+        <childnode refid="15608" relation="include">
+        </childnode>
+      </node>
+      <node id="15604">
+        <label>gr_block_registry.h</label>
+        <link refid="gr__block__registry_8h"/>
+      </node>
+      <node id="15605">
+        <label>gr_flowgraph.h</label>
+        <link refid="gr__flowgraph_8h"/>
+        <childnode refid="15606" relation="include">
+        </childnode>
+      </node>
+      <node id="15610">
+        <label>gr_scheduler_tpb.h</label>
+        <link refid="gr__scheduler__tpb_8h"/>
+      </node>
+      <node id="15613">
+        <label>msg_passing.h</label>
+        <link refid="msg__passing_8h"/>
+      </node>
+      <node id="15607">
+        <label>gr_hier_block2_detail.h</label>
+        <link refid="gr__hier__block2__detail_8h"/>
+      </node>
+      <node id="15603">
+        <label>gr_basic_block.h</label>
+        <link refid="gr__basic__block_8h"/>
+        <childnode refid="15604" relation="include">
+        </childnode>
+        <childnode refid="15605" relation="include">
+        </childnode>
+      </node>
+      <node id="15611">
+        <label>gr_top_block_impl.h</label>
+        <link refid="gr__top__block__impl_8h"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classgruel_1_1msg__accepter" prot="public">gruel::msg_accepter</innerclass>
+    <innernamespace refid="namespacegruel">gruel</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/aviral/GNU-Niyantran/gr36/gruel/src/include/gruel/msg_accepter.h"/>
+  </compounddef>
+</doxygen>

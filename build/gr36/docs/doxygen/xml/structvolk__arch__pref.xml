@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="structvolk__arch__pref" kind="struct" prot="public">
+    <compoundname>volk_arch_pref</compoundname>
+    <includes refid="volk__prefs_8h" local="no">volk_prefs.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structvolk__arch__pref_1a84fe69582db66b693dfd75272d53252f" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char volk_arch_pref::name[128]</definition>
+        <argsstring>[128]</argsstring>
+        <name>name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/volk/include/volk/volk_prefs.h" line="11" bodyfile="/home/aviral/GNU-Niyantran/gr36/volk/include/volk/volk_prefs.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvolk__arch__pref_1a5def79909224275149a12a980ce121a4" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char volk_arch_pref::impl_a[128]</definition>
+        <argsstring>[128]</argsstring>
+        <name>impl_a</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/volk/include/volk/volk_prefs.h" line="12" bodyfile="/home/aviral/GNU-Niyantran/gr36/volk/include/volk/volk_prefs.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvolk__arch__pref_1a453e0513c4a1cfc2e595c472103f4eec" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char volk_arch_pref::impl_u[128]</definition>
+        <argsstring>[128]</argsstring>
+        <name>impl_u</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/volk/include/volk/volk_prefs.h" line="13" bodyfile="/home/aviral/GNU-Niyantran/gr36/volk/include/volk/volk_prefs.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/aviral/GNU-Niyantran/gr36/volk/include/volk/volk_prefs.h" line="10" bodyfile="/home/aviral/GNU-Niyantran/gr36/volk/include/volk/volk_prefs.h" bodystart="9" bodyend="14"/>
+    <listofallmembers>
+      <member refid="structvolk__arch__pref_1a5def79909224275149a12a980ce121a4" prot="public" virt="non-virtual"><scope>volk_arch_pref</scope><name>impl_a</name></member>
+      <member refid="structvolk__arch__pref_1a453e0513c4a1cfc2e595c472103f4eec" prot="public" virt="non-virtual"><scope>volk_arch_pref</scope><name>impl_u</name></member>
+      <member refid="structvolk__arch__pref_1a84fe69582db66b693dfd75272d53252f" prot="public" virt="non-virtual"><scope>volk_arch_pref</scope><name>name</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

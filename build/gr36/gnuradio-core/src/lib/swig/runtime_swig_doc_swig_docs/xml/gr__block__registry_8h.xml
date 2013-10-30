@@ -1,0 +1,213 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="gr__block__registry_8h" kind="file">
+    <compoundname>gr_block_registry.h</compoundname>
+    <includes local="no">map</includes>
+    <includes refid="gr__basic__block_8h" local="no">gr_basic_block.h</includes>
+    <incdepgraph>
+      <node id="113">
+        <label>boost/thread/condition_variable.hpp</label>
+      </node>
+      <node id="102">
+        <label>boost/shared_ptr.hpp</label>
+      </node>
+      <node id="100">
+        <label>gras/hier_block.hpp</label>
+      </node>
+      <node id="99">
+        <label>gras/top_block.hpp</label>
+      </node>
+      <node id="112">
+        <label>boost/foreach.hpp</label>
+      </node>
+      <node id="98">
+        <label>gras/block.hpp</label>
+      </node>
+      <node id="108">
+        <label>string</label>
+      </node>
+      <node id="92">
+        <label>map</label>
+      </node>
+      <node id="111">
+        <label>gruel/thread.h</label>
+      </node>
+      <node id="104">
+        <label>boost/function.hpp</label>
+      </node>
+      <node id="105">
+        <label>gr_msg_accepter.h</label>
+        <link refid="gr__msg__accepter_8h"/>
+        <childnode refid="94" relation="include">
+        </childnode>
+        <childnode refid="106" relation="include">
+        </childnode>
+        <childnode refid="107" relation="include">
+        </childnode>
+      </node>
+      <node id="95">
+        <label>gr_runtime_types.h</label>
+        <link refid="gr__runtime__types_8h"/>
+        <childnode refid="94" relation="include">
+        </childnode>
+        <childnode refid="96" relation="include">
+        </childnode>
+      </node>
+      <node id="91">
+        <label>/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_block_registry.h</label>
+        <link refid="gr_block_registry.h"/>
+        <childnode refid="92" relation="include">
+        </childnode>
+        <childnode refid="93" relation="include">
+        </childnode>
+      </node>
+      <node id="94">
+        <label>gr_core_api.h</label>
+      </node>
+      <node id="110">
+        <label>gr_io_signature.h</label>
+        <link refid="gr__io__signature_8h"/>
+        <childnode refid="94" relation="include">
+        </childnode>
+        <childnode refid="95" relation="include">
+        </childnode>
+      </node>
+      <node id="107">
+        <label>gruel/pmt.h</label>
+      </node>
+      <node id="103">
+        <label>boost/enable_shared_from_this.hpp</label>
+      </node>
+      <node id="96">
+        <label>gr_types.h</label>
+        <link refid="gr__types_8h"/>
+        <childnode refid="97" relation="include">
+        </childnode>
+        <childnode refid="98" relation="include">
+        </childnode>
+        <childnode refid="99" relation="include">
+        </childnode>
+        <childnode refid="100" relation="include">
+        </childnode>
+      </node>
+      <node id="114">
+        <label>iostream</label>
+      </node>
+      <node id="109">
+        <label>deque</label>
+      </node>
+      <node id="106">
+        <label>gruel/msg_accepter.h</label>
+      </node>
+      <node id="93">
+        <label>gr_basic_block.h</label>
+        <link refid="gr__basic__block_8h"/>
+        <childnode refid="94" relation="include">
+        </childnode>
+        <childnode refid="95" relation="include">
+        </childnode>
+        <childnode refid="101" relation="include">
+        </childnode>
+        <childnode refid="103" relation="include">
+        </childnode>
+        <childnode refid="104" relation="include">
+        </childnode>
+        <childnode refid="105" relation="include">
+        </childnode>
+        <childnode refid="108" relation="include">
+        </childnode>
+        <childnode refid="109" relation="include">
+        </childnode>
+        <childnode refid="92" relation="include">
+        </childnode>
+        <childnode refid="110" relation="include">
+        </childnode>
+        <childnode refid="111" relation="include">
+        </childnode>
+        <childnode refid="112" relation="include">
+        </childnode>
+        <childnode refid="113" relation="include">
+        </childnode>
+        <childnode refid="114" relation="include">
+        </childnode>
+      </node>
+      <node id="101">
+        <label>gr_sptr_magic.h</label>
+        <link refid="gr__sptr__magic_8h"/>
+        <childnode refid="94" relation="include">
+        </childnode>
+        <childnode refid="102" relation="include">
+        </childnode>
+      </node>
+      <node id="97">
+        <label>gras/element.hpp</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classgr__block__registry" prot="public">gr_block_registry</innerclass>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="gr__block__registry_8h_1a99a8827c53a667cc12e121715e207aa1" prot="public" static="no" mutable="no">
+        <type><ref refid="classgr__block__registry" kindref="compound">gr_block_registry</ref></type>
+        <definition>gr_block_registry global_block_registry</definition>
+        <argsstring></argsstring>
+        <name>global_block_registry</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_block_registry.h" line="40"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>GR_BLOCK_REGISTRY_H</highlight></codeline>
+<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>GR_BLOCK_REGISTRY_H</highlight></codeline>
+<codeline lineno="3"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;map&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="gr__basic__block_8h" kindref="compound">gr_basic_block.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>GR_BASIC_BLOCK_H</highlight></codeline>
+<codeline lineno="8"><highlight class="preprocessor"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classgr__basic__block" kindref="compound" tooltip="The abstract base class for all signal processing blocks.Basic blocks are the bare abstraction of an ...">gr_basic_block</ref>;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="structgr__block" kindref="compound">gr_block</ref>;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="11"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="classgr__block__registry" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classgr__block__registry" kindref="compound">gr_block_registry</ref><sp/>{</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classgr__block__registry_1a3b8ef41f728b5b1098a7bff2fa27c54e" kindref="member">gr_block_registry</ref>();</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/><ref refid="classgr__block__registry_1a5a9774d7e1947762a4375fb204d8eb0c" kindref="member">block_register</ref>(<ref refid="classgr__basic__block" kindref="compound" tooltip="The abstract base class for all signal processing blocks.Basic blocks are the bare abstraction of an ...">gr_basic_block</ref>*<sp/>block);</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classgr__block__registry_1a6d35a0683a269997e0156020d0366dde" kindref="member">block_unregister</ref>(<ref refid="classgr__basic__block" kindref="compound" tooltip="The abstract base class for all signal processing blocks.Basic blocks are the bare abstraction of an ...">gr_basic_block</ref>*<sp/>block);</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::string<sp/><ref refid="classgr__block__registry_1a09ecedca83d064c841d2020fdbd7049f" kindref="member">register_symbolic_name</ref>(<ref refid="classgr__basic__block" kindref="compound" tooltip="The abstract base class for all signal processing blocks.Basic blocks are the bare abstraction of an ...">gr_basic_block</ref>*<sp/>block);</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classgr__block__registry_1a09ecedca83d064c841d2020fdbd7049f" kindref="member">register_symbolic_name</ref>(<ref refid="classgr__basic__block" kindref="compound" tooltip="The abstract base class for all signal processing blocks.Basic blocks are the bare abstraction of an ...">gr_basic_block</ref>*<sp/>block,<sp/>std::string<sp/>name);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="gr__runtime__types_8h_1a23ef33c86a39e7aefe87abcb2c7bede5" kindref="member">gr_basic_block_sptr</ref><sp/><ref refid="classgr__block__registry_1a0b060d800fb9c44a8b5729aa27273339" kindref="member">block_lookup</ref>(pmt::pmt_t<sp/>symbol);</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classgr__block__registry_1a45b9859d26bc53bf705ab5fa6f29543f" kindref="member">register_primitive</ref>(std::string<sp/>blk,<sp/><ref refid="structgr__block" kindref="compound">gr_block</ref>*<sp/>ref);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classgr__block__registry_1a12e685ae9727e24f55717bda35cafec8" kindref="member">unregister_primitive</ref>(std::string<sp/>blk);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classgr__block__registry_1a4614427b93976cc53ff5be3ea2fbe137" kindref="member">notify_blk</ref>(std::string<sp/>blk);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//typedef<sp/>std::map&lt;<sp/>long,<sp/>gr_basic_block_sptr<sp/>&gt;<sp/><sp/><sp/>blocksubmap_t;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>std::map&lt;<sp/>long,<sp/>gr_basic_block*<sp/>&gt;<sp/><sp/><sp/>blocksubmap_t;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>std::map&lt;<sp/>std::string,<sp/>blocksubmap_t<sp/>&gt;<sp/><sp/>blockmap_t;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>blockmap_t<sp/>d_map;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pmt::pmt_t<sp/>d_ref_map;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::map&lt;<sp/>std::string,<sp/>gr_block*&gt;<sp/>primitive_map;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="38"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/><ref refid="classgr__block__registry" kindref="compound">gr_block_registry</ref><sp/><ref refid="gr__block__registry_8h_1a99a8827c53a667cc12e121715e207aa1" kindref="member">global_block_registry</ref>;</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="43"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_block_registry.h"/>
+  </compounddef>
+</doxygen>

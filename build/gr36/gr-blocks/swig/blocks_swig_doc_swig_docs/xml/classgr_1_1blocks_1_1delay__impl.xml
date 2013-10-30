@@ -1,0 +1,182 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="classgr_1_1blocks_1_1delay__impl" kind="class" prot="public">
+    <compoundname>gr::blocks::delay_impl</compoundname>
+    <includes refid="delay__impl_8h" local="no">delay_impl.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1blocks_1_1delay__impl_1adc5a86004a0bfb41dd5d592a0d469724" prot="private" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t gr::blocks::delay_impl::d_itemsize</definition>
+        <argsstring></argsstring>
+        <name>d_itemsize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/delay_impl.h" line="38" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/delay_impl.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1blocks_1_1delay__impl_1a8efd951cd8f676080e506e2f9df4ee4a" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::blocks::delay_impl::d_delta</definition>
+        <argsstring></argsstring>
+        <name>d_delta</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/delay_impl.h" line="39" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/delay_impl.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1blocks_1_1delay__impl_1aa04f0c7c169c03fb52798c3785d6c460" prot="private" static="no" mutable="no">
+        <type>gruel::mutex</type>
+        <definition>gruel::mutex gr::blocks::delay_impl::d_mutex_delay</definition>
+        <argsstring></argsstring>
+        <name>d_mutex_delay</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/delay_impl.h" line="40" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/delay_impl.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classgr_1_1blocks_1_1delay__impl_1a82c0846b833ab479db283aef3c7ef693" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::blocks::delay_impl::forecast</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items_required)</argsstring>
+        <name>forecast</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items_required</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/delay_impl.h" line="36"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1blocks_1_1delay__impl_1a10150e95ec3b9ded7401e7b538854f36" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::blocks::delay_impl::delay_impl</definition>
+        <argsstring>(size_t itemsize, int delay)</argsstring>
+        <name>delay_impl</name>
+        <param>
+          <type>size_t</type>
+          <declname>itemsize</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>delay</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/delay_impl.h" line="43"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1blocks_1_1delay__impl_1a2d6264fa4e3f977c6eb174baceb42896" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::blocks::delay_impl::~delay_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~delay_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/delay_impl.h" line="44"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1blocks_1_1delay__impl_1ac55f3dcb9d085fb6bf7cc26b255a0b64" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::blocks::delay_impl::dly</definition>
+        <argsstring>() const </argsstring>
+        <name>dly</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/delay_impl.h" line="46" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/delay_impl.h" bodystart="46" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1blocks_1_1delay__impl_1aa9eac0ed77735ac7dab81017a736215e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::blocks::delay_impl::set_dly</definition>
+        <argsstring>(int d)</argsstring>
+        <name>set_dly</name>
+        <param>
+          <type>int</type>
+          <declname>d</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/delay_impl.h" line="47"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1blocks_1_1delay__impl_1a2d325fb0d8c853e40b0f563d7d32e856" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::blocks::delay_impl::general_work</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>general_work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/delay_impl.h" line="52"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/delay_impl.h" line="33" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/delay_impl.h" bodystart="32" bodyend="53"/>
+    <listofallmembers>
+      <member refid="classgr_1_1blocks_1_1delay__impl_1a8efd951cd8f676080e506e2f9df4ee4a" prot="private" virt="non-virtual"><scope>gr::blocks::delay_impl</scope><name>d_delta</name></member>
+      <member refid="classgr_1_1blocks_1_1delay__impl_1adc5a86004a0bfb41dd5d592a0d469724" prot="private" virt="non-virtual"><scope>gr::blocks::delay_impl</scope><name>d_itemsize</name></member>
+      <member refid="classgr_1_1blocks_1_1delay__impl_1aa04f0c7c169c03fb52798c3785d6c460" prot="private" virt="non-virtual"><scope>gr::blocks::delay_impl</scope><name>d_mutex_delay</name></member>
+      <member refid="classgr_1_1blocks_1_1delay__impl_1a10150e95ec3b9ded7401e7b538854f36" prot="public" virt="non-virtual"><scope>gr::blocks::delay_impl</scope><name>delay_impl</name></member>
+      <member refid="classgr_1_1blocks_1_1delay__impl_1ac55f3dcb9d085fb6bf7cc26b255a0b64" prot="public" virt="non-virtual"><scope>gr::blocks::delay_impl</scope><name>dly</name></member>
+      <member refid="classgr_1_1blocks_1_1delay__impl_1a82c0846b833ab479db283aef3c7ef693" prot="private" virt="non-virtual"><scope>gr::blocks::delay_impl</scope><name>forecast</name></member>
+      <member refid="classgr_1_1blocks_1_1delay__impl_1a2d325fb0d8c853e40b0f563d7d32e856" prot="public" virt="non-virtual"><scope>gr::blocks::delay_impl</scope><name>general_work</name></member>
+      <member refid="classgr_1_1blocks_1_1delay__impl_1aa9eac0ed77735ac7dab81017a736215e" prot="public" virt="non-virtual"><scope>gr::blocks::delay_impl</scope><name>set_dly</name></member>
+      <member refid="classgr_1_1blocks_1_1delay__impl_1a2d6264fa4e3f977c6eb174baceb42896" prot="public" virt="non-virtual"><scope>gr::blocks::delay_impl</scope><name>~delay_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

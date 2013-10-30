@@ -1,0 +1,253 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="gr__align__on__samplenumbers__ss_8h" kind="file">
+    <compoundname>gr_align_on_samplenumbers_ss.h</compoundname>
+    <includes refid="gr__core__api_8h" local="no">gr_core_api.h</includes>
+    <includes refid="gr__block_8h" local="no">gr_block.h</includes>
+    <incdepgraph>
+      <node id="4302">
+        <label>boost/thread/mutex.hpp</label>
+      </node>
+      <node id="4304">
+        <label>boost/thread/condition_variable.hpp</label>
+      </node>
+      <node id="4286">
+        <label>boost/shared_ptr.hpp</label>
+      </node>
+      <node id="4283">
+        <label>gruel/pmt.h</label>
+        <link refid="pmt_8h"/>
+        <childnode refid="4284" relation="include">
+        </childnode>
+        <childnode refid="4285" relation="include">
+        </childnode>
+        <childnode refid="4286" relation="include">
+        </childnode>
+        <childnode refid="4287" relation="include">
+        </childnode>
+        <childnode refid="4288" relation="include">
+        </childnode>
+        <childnode refid="4289" relation="include">
+        </childnode>
+        <childnode refid="4290" relation="include">
+        </childnode>
+        <childnode refid="4293" relation="include">
+        </childnode>
+        <childnode refid="4294" relation="include">
+        </childnode>
+        <childnode refid="4295" relation="include">
+        </childnode>
+        <childnode refid="4296" relation="include">
+        </childnode>
+      </node>
+      <node id="4285">
+        <label>boost/intrusive_ptr.hpp</label>
+      </node>
+      <node id="4272">
+        <label>gr_core_api.h</label>
+        <link refid="gr__core__api_8h"/>
+        <childnode refid="4273" relation="include">
+        </childnode>
+      </node>
+      <node id="4290">
+        <label>stdint.h</label>
+        <link refid="stdint_8h"/>
+        <childnode refid="4291" relation="include">
+        </childnode>
+        <childnode refid="4292" relation="include">
+        </childnode>
+      </node>
+      <node id="4281">
+        <label>gras/hier_block.hpp</label>
+      </node>
+      <node id="4280">
+        <label>gras/top_block.hpp</label>
+      </node>
+      <node id="4299">
+        <label>boost/foreach.hpp</label>
+      </node>
+      <node id="4271">
+        <label>gr_align_on_samplenumbers_ss.h</label>
+        <link refid="gr_align_on_samplenumbers_ss.h"/>
+        <childnode refid="4272" relation="include">
+        </childnode>
+        <childnode refid="4274" relation="include">
+        </childnode>
+      </node>
+      <node id="4294">
+        <label>stdexcept</label>
+      </node>
+      <node id="4275">
+        <label>gras/block.hpp</label>
+      </node>
+      <node id="4301">
+        <label>boost/thread/thread.hpp</label>
+      </node>
+      <node id="4289">
+        <label>string</label>
+      </node>
+      <node id="4298">
+        <label>map</label>
+      </node>
+      <node id="4273">
+        <label>gruel/attributes.h</label>
+        <link refid="attributes_8h"/>
+      </node>
+      <node id="4291">
+        <label>limits.h</label>
+      </node>
+      <node id="4287">
+        <label>boost/any.hpp</label>
+      </node>
+      <node id="4274">
+        <label>gr_block.h</label>
+        <link refid="gr__block_8h"/>
+        <childnode refid="4272" relation="include">
+        </childnode>
+        <childnode refid="4275" relation="include">
+        </childnode>
+        <childnode refid="4276" relation="include">
+        </childnode>
+        <childnode refid="4278" relation="include">
+        </childnode>
+        <childnode refid="4282" relation="include">
+        </childnode>
+        <childnode refid="4289" relation="include">
+        </childnode>
+        <childnode refid="4297" relation="include">
+        </childnode>
+        <childnode refid="4298" relation="include">
+        </childnode>
+        <childnode refid="4299" relation="include">
+        </childnode>
+        <childnode refid="4300" relation="include">
+        </childnode>
+        <childnode refid="4305" relation="include">
+        </childnode>
+      </node>
+      <node id="4277">
+        <label>gr_runtime_types.h</label>
+        <link refid="gr__runtime__types_8h"/>
+        <childnode refid="4272" relation="include">
+        </childnode>
+        <childnode refid="4278" relation="include">
+        </childnode>
+      </node>
+      <node id="4292">
+        <label>wchar.h</label>
+      </node>
+      <node id="4296">
+        <label>gruel/pmt_sugar.h</label>
+        <link refid="pmt__sugar_8h"/>
+      </node>
+      <node id="4303">
+        <label>boost/thread/locks.hpp</label>
+      </node>
+      <node id="4295">
+        <label>vector</label>
+      </node>
+      <node id="4276">
+        <label>gr_io_signature.h</label>
+        <link refid="gr__io__signature_8h"/>
+        <childnode refid="4272" relation="include">
+        </childnode>
+        <childnode refid="4277" relation="include">
+        </childnode>
+      </node>
+      <node id="4284">
+        <label>gruel/api.h</label>
+        <link refid="gruel_2src_2include_2gruel_2api_8h"/>
+        <childnode refid="4273" relation="include">
+        </childnode>
+      </node>
+      <node id="4293">
+        <label>iosfwd</label>
+      </node>
+      <node id="4278">
+        <label>gr_types.h</label>
+        <link refid="gr__types_8h"/>
+        <childnode refid="4279" relation="include">
+        </childnode>
+        <childnode refid="4275" relation="include">
+        </childnode>
+        <childnode refid="4280" relation="include">
+        </childnode>
+        <childnode refid="4281" relation="include">
+        </childnode>
+      </node>
+      <node id="4300">
+        <label>gruel/thread.h</label>
+        <link refid="thread_8h"/>
+        <childnode refid="4284" relation="include">
+        </childnode>
+        <childnode refid="4301" relation="include">
+        </childnode>
+        <childnode refid="4302" relation="include">
+        </childnode>
+        <childnode refid="4303" relation="include">
+        </childnode>
+        <childnode refid="4304" relation="include">
+        </childnode>
+        <childnode refid="4295" relation="include">
+        </childnode>
+      </node>
+      <node id="4297">
+        <label>deque</label>
+      </node>
+      <node id="4282">
+        <label>gr_tags.h</label>
+        <link refid="gr__tags_8h"/>
+        <childnode refid="4272" relation="include">
+        </childnode>
+        <childnode refid="4283" relation="include">
+        </childnode>
+      </node>
+      <node id="4288">
+        <label>complex</label>
+      </node>
+      <node id="4305">
+        <label>gr_sptr_magic.h</label>
+        <link refid="gr__sptr__magic_8h_source"/>
+        <childnode refid="4272" relation="include">
+        </childnode>
+        <childnode refid="4286" relation="include">
+        </childnode>
+      </node>
+      <node id="4279">
+        <label>gras/element.hpp</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classgr__align__on__samplenumbers__ss" prot="public">gr_align_on_samplenumbers_ss</innerclass>
+    <innerclass refid="classgr__align__on__samplenumbers__ss_1_1align__state" prot="private">gr_align_on_samplenumbers_ss::align_state</innerclass>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="gr__align__on__samplenumbers__ss_8h_1ae289b8bdacd74fbac776e65ac2127823" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="gr__core__api_8h_1a8b8937b0c61edd85ab57ce8203543248" kindref="member">GR_CORE_API</ref> <ref refid="classboost_1_1shared__ptr" kindref="compound">gr_align_on_samplenumbers_ss_sptr</ref></type>
+        <definition>GR_CORE_API gr_align_on_samplenumbers_ss_sptr gr_make_align_on_samplenumbers_ss</definition>
+        <argsstring>(int nchan=2, int align_interval=128)</argsstring>
+        <name>gr_make_align_on_samplenumbers_ss</name>
+        <param>
+          <type>int</type>
+          <declname>nchan</declname>
+          <defval>2</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>align_interval</declname>
+          <defval>128</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_align_on_samplenumbers_ss.h" line="49"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_align_on_samplenumbers_ss.h"/>
+  </compounddef>
+</doxygen>

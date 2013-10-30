@@ -1,0 +1,134 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="fft_8h" kind="file">
+    <compoundname>fft.h</compoundname>
+    <includes refid="gr-fft_2include_2fft_2api_8h" local="no">fft/api.h</includes>
+    <includes refid="gr__complex_8h" local="no">gr_complex.h</includes>
+    <includes local="no">boost/thread.hpp</includes>
+    <includedby refid="fft__vcc__fftw_8h" local="no">fft_vcc_fftw.h</includedby>
+    <includedby refid="fft__vfc__fftw_8h" local="no">fft_vfc_fftw.h</includedby>
+    <includedby refid="fft__filter_8h" local="no">fft_filter.h</includedby>
+    <includedby refid="polyphase__filterbank_8h" local="no">polyphase_filterbank.h</includedby>
+    <includedby refid="pfb__channelizer__ccf__impl_8h" local="no">pfb_channelizer_ccf_impl.h</includedby>
+    <includedby refid="pfb__decimator__ccf__impl_8h" local="no">pfb_decimator_ccf_impl.h</includedby>
+    <includedby refid="pfb__interpolator__ccf__impl_8h" local="no">pfb_interpolator_ccf_impl.h</includedby>
+    <includedby refid="pfb__synthesizer__ccf__impl_8h" local="no">pfb_synthesizer_ccf_impl.h</includedby>
+    <incdepgraph>
+      <node id="2586">
+        <label>boost/thread.hpp</label>
+      </node>
+      <node id="2583">
+        <label>gruel/attributes.h</label>
+        <link refid="attributes_8h"/>
+      </node>
+      <node id="2584">
+        <label>gr_complex.h</label>
+        <link refid="gr__complex_8h"/>
+        <childnode refid="2585" relation="include">
+        </childnode>
+      </node>
+      <node id="2582">
+        <label>fft/api.h</label>
+        <link refid="gr-fft_2include_2fft_2api_8h"/>
+        <childnode refid="2583" relation="include">
+        </childnode>
+      </node>
+      <node id="2585">
+        <label>complex</label>
+      </node>
+      <node id="2581">
+        <label>fft.h</label>
+        <link refid="fft.h"/>
+        <childnode refid="2582" relation="include">
+        </childnode>
+        <childnode refid="2584" relation="include">
+        </childnode>
+        <childnode refid="2586" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2597">
+        <label>pfb_synthesizer_ccf_impl.h</label>
+        <link refid="pfb__synthesizer__ccf__impl_8h"/>
+      </node>
+      <node id="2588">
+        <label>fft_vcc_fftw.h</label>
+        <link refid="fft__vcc__fftw_8h"/>
+      </node>
+      <node id="2593">
+        <label>polyphase_filterbank.h</label>
+        <link refid="polyphase__filterbank_8h"/>
+        <childnode refid="2594" relation="include">
+        </childnode>
+        <childnode refid="2595" relation="include">
+        </childnode>
+        <childnode refid="2596" relation="include">
+        </childnode>
+      </node>
+      <node id="2595">
+        <label>pfb_decimator_ccf_impl.h</label>
+        <link refid="pfb__decimator__ccf__impl_8h"/>
+      </node>
+      <node id="2596">
+        <label>pfb_interpolator_ccf_impl.h</label>
+        <link refid="pfb__interpolator__ccf__impl_8h"/>
+      </node>
+      <node id="2590">
+        <label>fft_filter.h</label>
+        <link refid="fft__filter_8h"/>
+        <childnode refid="2591" relation="include">
+        </childnode>
+        <childnode refid="2592" relation="include">
+        </childnode>
+      </node>
+      <node id="2594">
+        <label>pfb_channelizer_ccf_impl.h</label>
+        <link refid="pfb__channelizer__ccf__impl_8h"/>
+      </node>
+      <node id="2592">
+        <label>fft_filter_fff_impl.h</label>
+        <link refid="fft__filter__fff__impl_8h"/>
+      </node>
+      <node id="2589">
+        <label>fft_vfc_fftw.h</label>
+        <link refid="fft__vfc__fftw_8h"/>
+      </node>
+      <node id="2587">
+        <label>fft.h</label>
+        <link refid="fft.h"/>
+        <childnode refid="2588" relation="include">
+        </childnode>
+        <childnode refid="2589" relation="include">
+        </childnode>
+        <childnode refid="2590" relation="include">
+        </childnode>
+        <childnode refid="2593" relation="include">
+        </childnode>
+        <childnode refid="2594" relation="include">
+        </childnode>
+        <childnode refid="2595" relation="include">
+        </childnode>
+        <childnode refid="2596" relation="include">
+        </childnode>
+        <childnode refid="2597" relation="include">
+        </childnode>
+      </node>
+      <node id="2591">
+        <label>fft_filter_ccc_impl.h</label>
+        <link refid="fft__filter__ccc__impl_8h"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classgr_1_1fft_1_1planner" prot="public">gr::fft::planner</innerclass>
+    <innerclass refid="classgr_1_1fft_1_1fft__complex" prot="public">gr::fft::fft_complex</innerclass>
+    <innerclass refid="classgr_1_1fft_1_1fft__real__fwd" prot="public">gr::fft::fft_real_fwd</innerclass>
+    <innerclass refid="classgr_1_1fft_1_1fft__real__rev" prot="public">gr::fft::fft_real_rev</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1fft">gr::fft</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/aviral/GNU-Niyantran/gr36/gr-fft/include/fft/fft.h"/>
+  </compounddef>
+</doxygen>

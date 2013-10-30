@@ -1,0 +1,277 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="gr__pn__correlator__cc_8h" kind="file">
+    <compoundname>gr_pn_correlator_cc.h</compoundname>
+    <includes refid="gr__core__api_8h" local="no">gr_core_api.h</includes>
+    <includes refid="gr__sync__decimator_8h" local="no">gr_sync_decimator.h</includes>
+    <includes refid="gri__glfsr_8h" local="no">gri_glfsr.h</includes>
+    <incdepgraph>
+      <node id="10295">
+        <label>boost/thread/mutex.hpp</label>
+      </node>
+      <node id="10297">
+        <label>boost/thread/condition_variable.hpp</label>
+      </node>
+      <node id="10279">
+        <label>boost/shared_ptr.hpp</label>
+      </node>
+      <node id="10276">
+        <label>gruel/pmt.h</label>
+        <link refid="pmt_8h"/>
+        <childnode refid="10277" relation="include">
+        </childnode>
+        <childnode refid="10278" relation="include">
+        </childnode>
+        <childnode refid="10279" relation="include">
+        </childnode>
+        <childnode refid="10280" relation="include">
+        </childnode>
+        <childnode refid="10281" relation="include">
+        </childnode>
+        <childnode refid="10282" relation="include">
+        </childnode>
+        <childnode refid="10283" relation="include">
+        </childnode>
+        <childnode refid="10286" relation="include">
+        </childnode>
+        <childnode refid="10287" relation="include">
+        </childnode>
+        <childnode refid="10288" relation="include">
+        </childnode>
+        <childnode refid="10289" relation="include">
+        </childnode>
+      </node>
+      <node id="10278">
+        <label>boost/intrusive_ptr.hpp</label>
+      </node>
+      <node id="10263">
+        <label>gr_core_api.h</label>
+        <link refid="gr__core__api_8h"/>
+        <childnode refid="10264" relation="include">
+        </childnode>
+      </node>
+      <node id="10283">
+        <label>stdint.h</label>
+        <link refid="stdint_8h"/>
+        <childnode refid="10284" relation="include">
+        </childnode>
+        <childnode refid="10285" relation="include">
+        </childnode>
+      </node>
+      <node id="10274">
+        <label>gras/hier_block.hpp</label>
+      </node>
+      <node id="10273">
+        <label>gras/top_block.hpp</label>
+      </node>
+      <node id="10292">
+        <label>boost/foreach.hpp</label>
+      </node>
+      <node id="10287">
+        <label>stdexcept</label>
+      </node>
+      <node id="10268">
+        <label>gras/block.hpp</label>
+      </node>
+      <node id="10294">
+        <label>boost/thread/thread.hpp</label>
+      </node>
+      <node id="10282">
+        <label>string</label>
+      </node>
+      <node id="10291">
+        <label>map</label>
+      </node>
+      <node id="10264">
+        <label>gruel/attributes.h</label>
+        <link refid="attributes_8h"/>
+      </node>
+      <node id="10265">
+        <label>gr_sync_decimator.h</label>
+        <link refid="gr__sync__decimator_8h"/>
+        <childnode refid="10266" relation="include">
+        </childnode>
+      </node>
+      <node id="10284">
+        <label>limits.h</label>
+      </node>
+      <node id="10280">
+        <label>boost/any.hpp</label>
+      </node>
+      <node id="10267">
+        <label>gr_block.h</label>
+        <link refid="gr__block_8h"/>
+        <childnode refid="10263" relation="include">
+        </childnode>
+        <childnode refid="10268" relation="include">
+        </childnode>
+        <childnode refid="10269" relation="include">
+        </childnode>
+        <childnode refid="10271" relation="include">
+        </childnode>
+        <childnode refid="10275" relation="include">
+        </childnode>
+        <childnode refid="10282" relation="include">
+        </childnode>
+        <childnode refid="10290" relation="include">
+        </childnode>
+        <childnode refid="10291" relation="include">
+        </childnode>
+        <childnode refid="10292" relation="include">
+        </childnode>
+        <childnode refid="10293" relation="include">
+        </childnode>
+        <childnode refid="10298" relation="include">
+        </childnode>
+      </node>
+      <node id="10270">
+        <label>gr_runtime_types.h</label>
+        <link refid="gr__runtime__types_8h"/>
+        <childnode refid="10263" relation="include">
+        </childnode>
+        <childnode refid="10271" relation="include">
+        </childnode>
+      </node>
+      <node id="10285">
+        <label>wchar.h</label>
+      </node>
+      <node id="10289">
+        <label>gruel/pmt_sugar.h</label>
+        <link refid="pmt__sugar_8h"/>
+      </node>
+      <node id="10296">
+        <label>boost/thread/locks.hpp</label>
+      </node>
+      <node id="10262">
+        <label>gr_pn_correlator_cc.h</label>
+        <link refid="gr_pn_correlator_cc.h"/>
+        <childnode refid="10263" relation="include">
+        </childnode>
+        <childnode refid="10265" relation="include">
+        </childnode>
+        <childnode refid="10299" relation="include">
+        </childnode>
+      </node>
+      <node id="10266">
+        <label>gr_sync_block.h</label>
+        <link refid="gr__sync__block_8h"/>
+        <childnode refid="10267" relation="include">
+        </childnode>
+      </node>
+      <node id="10288">
+        <label>vector</label>
+      </node>
+      <node id="10269">
+        <label>gr_io_signature.h</label>
+        <link refid="gr__io__signature_8h"/>
+        <childnode refid="10263" relation="include">
+        </childnode>
+        <childnode refid="10270" relation="include">
+        </childnode>
+      </node>
+      <node id="10277">
+        <label>gruel/api.h</label>
+        <link refid="gruel_2src_2include_2gruel_2api_8h"/>
+        <childnode refid="10264" relation="include">
+        </childnode>
+      </node>
+      <node id="10286">
+        <label>iosfwd</label>
+      </node>
+      <node id="10271">
+        <label>gr_types.h</label>
+        <link refid="gr__types_8h"/>
+        <childnode refid="10272" relation="include">
+        </childnode>
+        <childnode refid="10268" relation="include">
+        </childnode>
+        <childnode refid="10273" relation="include">
+        </childnode>
+        <childnode refid="10274" relation="include">
+        </childnode>
+      </node>
+      <node id="10293">
+        <label>gruel/thread.h</label>
+        <link refid="thread_8h"/>
+        <childnode refid="10277" relation="include">
+        </childnode>
+        <childnode refid="10294" relation="include">
+        </childnode>
+        <childnode refid="10295" relation="include">
+        </childnode>
+        <childnode refid="10296" relation="include">
+        </childnode>
+        <childnode refid="10297" relation="include">
+        </childnode>
+        <childnode refid="10288" relation="include">
+        </childnode>
+      </node>
+      <node id="10290">
+        <label>deque</label>
+      </node>
+      <node id="10275">
+        <label>gr_tags.h</label>
+        <link refid="gr__tags_8h"/>
+        <childnode refid="10263" relation="include">
+        </childnode>
+        <childnode refid="10276" relation="include">
+        </childnode>
+      </node>
+      <node id="10299">
+        <label>gri_glfsr.h</label>
+        <link refid="gri__glfsr_8h"/>
+        <childnode refid="10263" relation="include">
+        </childnode>
+      </node>
+      <node id="10281">
+        <label>complex</label>
+      </node>
+      <node id="10298">
+        <label>gr_sptr_magic.h</label>
+        <link refid="gr__sptr__magic_8h_source"/>
+        <childnode refid="10263" relation="include">
+        </childnode>
+        <childnode refid="10279" relation="include">
+        </childnode>
+      </node>
+      <node id="10272">
+        <label>gras/element.hpp</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classgr__pn__correlator__cc" prot="public">gr_pn_correlator_cc</innerclass>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="gr__pn__correlator__cc_8h_1a80644fb667b15782e482f57dca9fb51d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="gr__core__api_8h_1a8b8937b0c61edd85ab57ce8203543248" kindref="member">GR_CORE_API</ref> <ref refid="classboost_1_1shared__ptr" kindref="compound">gr_pn_correlator_cc_sptr</ref></type>
+        <definition>GR_CORE_API gr_pn_correlator_cc_sptr gr_make_pn_correlator_cc</definition>
+        <argsstring>(int degree, int mask=0, int seed=1)</argsstring>
+        <name>gr_make_pn_correlator_cc</name>
+        <param>
+          <type>int</type>
+          <declname>degree</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>mask</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>seed</declname>
+          <defval>1</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_pn_correlator_cc.h" line="34"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_pn_correlator_cc.h"/>
+  </compounddef>
+</doxygen>

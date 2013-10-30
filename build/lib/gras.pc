@@ -1,0 +1,15 @@
+prefix=/usr/local
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: GRAS
+Description: GNU Radio Advanced Scheduler
+URL: https://github.com/guruofquality/gras/wiki
+Version: 0.0.0
+Requires: pmc
+Requires.private:
+Conflicts:
+Cflags: -I${includedir}
+Libs: -L${libdir} -lgras
+Libs.private:

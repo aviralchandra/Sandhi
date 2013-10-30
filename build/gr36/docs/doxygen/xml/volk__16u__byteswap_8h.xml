@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="volk__16u__byteswap_8h" kind="file">
+    <compoundname>volk_16u_byteswap.h</compoundname>
+    <includes refid="inttypes_8h" local="no">inttypes.h</includes>
+    <includes local="no">stdio.h</includes>
+    <incdepgraph>
+      <node id="20642">
+        <label>stdint.h</label>
+        <link refid="stdint_8h"/>
+        <childnode refid="20643" relation="include">
+        </childnode>
+        <childnode refid="20644" relation="include">
+        </childnode>
+      </node>
+      <node id="20641">
+        <label>inttypes.h</label>
+        <link refid="inttypes_8h"/>
+        <childnode refid="20642" relation="include">
+        </childnode>
+      </node>
+      <node id="20640">
+        <label>volk_16u_byteswap.h</label>
+        <link refid="volk_16u_byteswap.h"/>
+        <childnode refid="20641" relation="include">
+        </childnode>
+        <childnode refid="20645" relation="include">
+        </childnode>
+      </node>
+      <node id="20643">
+        <label>limits.h</label>
+      </node>
+      <node id="20644">
+        <label>wchar.h</label>
+      </node>
+      <node id="20645">
+        <label>stdio.h</label>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="volk__16u__byteswap_8h_1a37966dc52283c61d9a83502a635192bf" prot="public" static="no">
+        <name>INCLUDED_volk_16u_byteswap_a_H</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/volk/kernels/volk/volk_16u_byteswap.h" line="65" bodyfile="/home/aviral/GNU-Niyantran/gr36/volk/kernels/volk/volk_16u_byteswap.h" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/aviral/GNU-Niyantran/gr36/volk/kernels/volk/volk_16u_byteswap.h"/>
+  </compounddef>
+</doxygen>

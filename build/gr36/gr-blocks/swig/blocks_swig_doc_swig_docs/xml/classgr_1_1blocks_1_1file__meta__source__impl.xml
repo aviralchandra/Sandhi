@@ -1,0 +1,452 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="classgr_1_1blocks_1_1file__meta__source__impl" kind="class" prot="public">
+    <compoundname>gr::blocks::file_meta_source_impl</compoundname>
+    <includes refid="file__meta__source__impl_8h" local="no">file_meta_source_impl.h</includes>
+      <sectiondef kind="private-type">
+      <memberdef kind="enum" id="classgr_1_1blocks_1_1file__meta__source__impl_1a11c5de311faa57c6b4ecef232fea13d4" prot="private" static="no">
+        <name>meta_state_t</name>
+        <enumvalue id="classgr_1_1blocks_1_1file__meta__source__impl_1a11c5de311faa57c6b4ecef232fea13d4a45cfbf3f6c9943464302e6caa80476c0" prot="private">
+          <name>STATE_INLINE</name>
+          <initializer>0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classgr_1_1blocks_1_1file__meta__source__impl_1a11c5de311faa57c6b4ecef232fea13d4adacef59ab2fb4134ffe1845539e3c098" prot="private">
+          <name>STATE_DETACHED</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/file_meta_source_impl.h" line="41" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/file_meta_source_impl.h" bodystart="41" bodyend="44"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1blocks_1_1file__meta__source__impl_1a37a506411b5f8e7615500a4ba6ddd121" prot="private" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t gr::blocks::file_meta_source_impl::d_itemsize</definition>
+        <argsstring></argsstring>
+        <name>d_itemsize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/file_meta_source_impl.h" line="46" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/file_meta_source_impl.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1blocks_1_1file__meta__source__impl_1a9edcddc3eb89839725321042b8685f92" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double gr::blocks::file_meta_source_impl::d_samp_rate</definition>
+        <argsstring></argsstring>
+        <name>d_samp_rate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/file_meta_source_impl.h" line="47" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/file_meta_source_impl.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1blocks_1_1file__meta__source__impl_1a109c75f7bb033b286410447eb0c557df" prot="private" static="no" mutable="no">
+        <type>pmt_t</type>
+        <definition>pmt_t gr::blocks::file_meta_source_impl::d_time_stamp</definition>
+        <argsstring></argsstring>
+        <name>d_time_stamp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/file_meta_source_impl.h" line="48" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/file_meta_source_impl.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1blocks_1_1file__meta__source__impl_1abf60e78fc017c3efd5b084db305e8320" prot="private" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t gr::blocks::file_meta_source_impl::d_seg_size</definition>
+        <argsstring></argsstring>
+        <name>d_seg_size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/file_meta_source_impl.h" line="49" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/file_meta_source_impl.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1blocks_1_1file__meta__source__impl_1a5ae9acafa15e8c842e4d49cc7761856a" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool gr::blocks::file_meta_source_impl::d_updated</definition>
+        <argsstring></argsstring>
+        <name>d_updated</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/file_meta_source_impl.h" line="50" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/file_meta_source_impl.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1blocks_1_1file__meta__source__impl_1a474d5b343147a0766f619925cec96d09" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool gr::blocks::file_meta_source_impl::d_repeat</definition>
+        <argsstring></argsstring>
+        <name>d_repeat</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/file_meta_source_impl.h" line="51" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/file_meta_source_impl.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1blocks_1_1file__meta__source__impl_1a678440f57c8a5bec3f4055c477161f5f" prot="private" static="no" mutable="no">
+        <type>gruel::mutex</type>
+        <definition>gruel::mutex gr::blocks::file_meta_source_impl::d_mutex</definition>
+        <argsstring></argsstring>
+        <name>d_mutex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/file_meta_source_impl.h" line="53" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/file_meta_source_impl.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1blocks_1_1file__meta__source__impl_1a91f166be133a4b23d96058b85f616759" prot="private" static="no" mutable="no">
+        <type>FILE *</type>
+        <definition>FILE* gr::blocks::file_meta_source_impl::d_new_fp</definition>
+        <argsstring></argsstring>
+        <name>d_new_fp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/file_meta_source_impl.h" line="54" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/file_meta_source_impl.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1blocks_1_1file__meta__source__impl_1a30b0fb290dd2f28aff478ff6f018a86d" prot="private" static="no" mutable="no">
+        <type>FILE *</type>
+        <definition>FILE * gr::blocks::file_meta_source_impl::d_new_hdr_fp</definition>
+        <argsstring></argsstring>
+        <name>d_new_hdr_fp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/file_meta_source_impl.h" line="54" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/file_meta_source_impl.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1blocks_1_1file__meta__source__impl_1a1ac844b581e966273f63fcec398d9cb1" prot="private" static="no" mutable="no">
+        <type>FILE *</type>
+        <definition>FILE* gr::blocks::file_meta_source_impl::d_fp</definition>
+        <argsstring></argsstring>
+        <name>d_fp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/file_meta_source_impl.h" line="55" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/file_meta_source_impl.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1blocks_1_1file__meta__source__impl_1a42ad7f5cd685ff0849cb152bbe0af777" prot="private" static="no" mutable="no">
+        <type>FILE *</type>
+        <definition>FILE * gr::blocks::file_meta_source_impl::d_hdr_fp</definition>
+        <argsstring></argsstring>
+        <name>d_hdr_fp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/file_meta_source_impl.h" line="55" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/file_meta_source_impl.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1blocks_1_1file__meta__source__impl_1a0528107cc71c684480319034defce0ca" prot="private" static="no" mutable="no">
+        <type>meta_state_t</type>
+        <definition>meta_state_t gr::blocks::file_meta_source_impl::d_state</definition>
+        <argsstring></argsstring>
+        <name>d_state</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/file_meta_source_impl.h" line="56" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/file_meta_source_impl.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1blocks_1_1file__meta__source__impl_1a28f402817a609c433d35354317a1962e" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; gr_tag_t &gt;</type>
+        <definition>std::vector&lt;gr_tag_t&gt; gr::blocks::file_meta_source_impl::d_tags</definition>
+        <argsstring></argsstring>
+        <name>d_tags</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/file_meta_source_impl.h" line="58" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/file_meta_source_impl.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classgr_1_1blocks_1_1file__meta__source__impl_1ab490c5b6868bbb294a9cb1eb970165df" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool gr::blocks::file_meta_source_impl::_open</definition>
+        <argsstring>(FILE **fp, const char *filename)</argsstring>
+        <name>_open</name>
+        <param>
+          <type>FILE **</type>
+          <declname>fp</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>filename</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/file_meta_source_impl.h" line="61"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1blocks_1_1file__meta__source__impl_1aa4a32493685406c412c3c0fe260b9ea8" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool gr::blocks::file_meta_source_impl::read_header</definition>
+        <argsstring>(pmt_t &amp;hdr, pmt_t &amp;extras)</argsstring>
+        <name>read_header</name>
+        <param>
+          <type>pmt_t &amp;</type>
+          <declname>hdr</declname>
+        </param>
+        <param>
+          <type>pmt_t &amp;</type>
+          <declname>extras</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/file_meta_source_impl.h" line="62"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1blocks_1_1file__meta__source__impl_1accfad47884e7a3fd908c42bd6458b979" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::blocks::file_meta_source_impl::parse_header</definition>
+        <argsstring>(pmt_t hdr, uint64_t offset, std::vector&lt; gr_tag_t &gt; &amp;tags)</argsstring>
+        <name>parse_header</name>
+        <param>
+          <type>pmt_t</type>
+          <declname>hdr</declname>
+        </param>
+        <param>
+          <type>uint64_t</type>
+          <declname>offset</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; gr_tag_t &gt; &amp;</type>
+          <declname>tags</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/file_meta_source_impl.h" line="64"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1blocks_1_1file__meta__source__impl_1aac0714dacdf2751570997f7baed37c10" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::blocks::file_meta_source_impl::parse_extras</definition>
+        <argsstring>(pmt_t extras, uint64_t offset, std::vector&lt; gr_tag_t &gt; &amp;tags)</argsstring>
+        <name>parse_extras</name>
+        <param>
+          <type>pmt_t</type>
+          <declname>extras</declname>
+        </param>
+        <param>
+          <type>uint64_t</type>
+          <declname>offset</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; gr_tag_t &gt; &amp;</type>
+          <declname>tags</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/file_meta_source_impl.h" line="66"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1blocks_1_1file__meta__source__impl_1afb06c4fb2ee5d0270b2a1f0247d2ac10" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::blocks::file_meta_source_impl::file_meta_source_impl</definition>
+        <argsstring>(const std::string &amp;filename, bool repeat=false, bool detached_header=false, const std::string &amp;hdr_filename=&quot;&quot;)</argsstring>
+        <name>file_meta_source_impl</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>filename</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>repeat</declname>
+          <defval>false</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>detached_header</declname>
+          <defval>false</defval>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>hdr_filename</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/file_meta_source_impl.h" line="72"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1blocks_1_1file__meta__source__impl_1ab8d7bcb770a5fdb62360077f363cdeb0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::blocks::file_meta_source_impl::~file_meta_source_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~file_meta_source_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/file_meta_source_impl.h" line="74"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1blocks_1_1file__meta__source__impl_1ac8a0b16620c766584ff4de5ecf5022e0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool gr::blocks::file_meta_source_impl::open</definition>
+        <argsstring>(const std::string &amp;filename, const std::string &amp;hdr_filename=&quot;&quot;)</argsstring>
+        <name>open</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>filename</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>hdr_filename</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/file_meta_source_impl.h" line="77"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1blocks_1_1file__meta__source__impl_1ac6bc39224d61ca4a7c2c75d77780327c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::blocks::file_meta_source_impl::close</definition>
+        <argsstring>()</argsstring>
+        <name>close</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/file_meta_source_impl.h" line="78"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1blocks_1_1file__meta__source__impl_1a2db15d2dc4dfb738b8fdf9287ab911ad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::blocks::file_meta_source_impl::do_update</definition>
+        <argsstring>()</argsstring>
+        <name>do_update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/file_meta_source_impl.h" line="79"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1blocks_1_1file__meta__source__impl_1acd103443665c049af92b6380412ef599" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::blocks::file_meta_source_impl::work</definition>
+        <argsstring>(int noutput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/file_meta_source_impl.h" line="83"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/file_meta_source_impl.h" line="39" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/file_meta_source_impl.h" bodystart="38" bodyend="84"/>
+    <listofallmembers>
+      <member refid="classgr_1_1blocks_1_1file__meta__source__impl_1ab490c5b6868bbb294a9cb1eb970165df" prot="protected" virt="non-virtual"><scope>gr::blocks::file_meta_source_impl</scope><name>_open</name></member>
+      <member refid="classgr_1_1blocks_1_1file__meta__source__impl_1ac6bc39224d61ca4a7c2c75d77780327c" prot="public" virt="non-virtual"><scope>gr::blocks::file_meta_source_impl</scope><name>close</name></member>
+      <member refid="classgr_1_1blocks_1_1file__meta__source__impl_1a1ac844b581e966273f63fcec398d9cb1" prot="private" virt="non-virtual"><scope>gr::blocks::file_meta_source_impl</scope><name>d_fp</name></member>
+      <member refid="classgr_1_1blocks_1_1file__meta__source__impl_1a42ad7f5cd685ff0849cb152bbe0af777" prot="private" virt="non-virtual"><scope>gr::blocks::file_meta_source_impl</scope><name>d_hdr_fp</name></member>
+      <member refid="classgr_1_1blocks_1_1file__meta__source__impl_1a37a506411b5f8e7615500a4ba6ddd121" prot="private" virt="non-virtual"><scope>gr::blocks::file_meta_source_impl</scope><name>d_itemsize</name></member>
+      <member refid="classgr_1_1blocks_1_1file__meta__source__impl_1a678440f57c8a5bec3f4055c477161f5f" prot="private" virt="non-virtual"><scope>gr::blocks::file_meta_source_impl</scope><name>d_mutex</name></member>
+      <member refid="classgr_1_1blocks_1_1file__meta__source__impl_1a91f166be133a4b23d96058b85f616759" prot="private" virt="non-virtual"><scope>gr::blocks::file_meta_source_impl</scope><name>d_new_fp</name></member>
+      <member refid="classgr_1_1blocks_1_1file__meta__source__impl_1a30b0fb290dd2f28aff478ff6f018a86d" prot="private" virt="non-virtual"><scope>gr::blocks::file_meta_source_impl</scope><name>d_new_hdr_fp</name></member>
+      <member refid="classgr_1_1blocks_1_1file__meta__source__impl_1a474d5b343147a0766f619925cec96d09" prot="private" virt="non-virtual"><scope>gr::blocks::file_meta_source_impl</scope><name>d_repeat</name></member>
+      <member refid="classgr_1_1blocks_1_1file__meta__source__impl_1a9edcddc3eb89839725321042b8685f92" prot="private" virt="non-virtual"><scope>gr::blocks::file_meta_source_impl</scope><name>d_samp_rate</name></member>
+      <member refid="classgr_1_1blocks_1_1file__meta__source__impl_1abf60e78fc017c3efd5b084db305e8320" prot="private" virt="non-virtual"><scope>gr::blocks::file_meta_source_impl</scope><name>d_seg_size</name></member>
+      <member refid="classgr_1_1blocks_1_1file__meta__source__impl_1a0528107cc71c684480319034defce0ca" prot="private" virt="non-virtual"><scope>gr::blocks::file_meta_source_impl</scope><name>d_state</name></member>
+      <member refid="classgr_1_1blocks_1_1file__meta__source__impl_1a28f402817a609c433d35354317a1962e" prot="private" virt="non-virtual"><scope>gr::blocks::file_meta_source_impl</scope><name>d_tags</name></member>
+      <member refid="classgr_1_1blocks_1_1file__meta__source__impl_1a109c75f7bb033b286410447eb0c557df" prot="private" virt="non-virtual"><scope>gr::blocks::file_meta_source_impl</scope><name>d_time_stamp</name></member>
+      <member refid="classgr_1_1blocks_1_1file__meta__source__impl_1a5ae9acafa15e8c842e4d49cc7761856a" prot="private" virt="non-virtual"><scope>gr::blocks::file_meta_source_impl</scope><name>d_updated</name></member>
+      <member refid="classgr_1_1blocks_1_1file__meta__source__impl_1a2db15d2dc4dfb738b8fdf9287ab911ad" prot="public" virt="non-virtual"><scope>gr::blocks::file_meta_source_impl</scope><name>do_update</name></member>
+      <member refid="classgr_1_1blocks_1_1file__meta__source__impl_1afb06c4fb2ee5d0270b2a1f0247d2ac10" prot="public" virt="non-virtual"><scope>gr::blocks::file_meta_source_impl</scope><name>file_meta_source_impl</name></member>
+      <member refid="classgr_1_1blocks_1_1file__meta__source__impl_1a11c5de311faa57c6b4ecef232fea13d4" prot="private" virt="non-virtual"><scope>gr::blocks::file_meta_source_impl</scope><name>meta_state_t</name></member>
+      <member refid="classgr_1_1blocks_1_1file__meta__source__impl_1ac8a0b16620c766584ff4de5ecf5022e0" prot="public" virt="non-virtual"><scope>gr::blocks::file_meta_source_impl</scope><name>open</name></member>
+      <member refid="classgr_1_1blocks_1_1file__meta__source__impl_1aac0714dacdf2751570997f7baed37c10" prot="protected" virt="non-virtual"><scope>gr::blocks::file_meta_source_impl</scope><name>parse_extras</name></member>
+      <member refid="classgr_1_1blocks_1_1file__meta__source__impl_1accfad47884e7a3fd908c42bd6458b979" prot="protected" virt="non-virtual"><scope>gr::blocks::file_meta_source_impl</scope><name>parse_header</name></member>
+      <member refid="classgr_1_1blocks_1_1file__meta__source__impl_1aa4a32493685406c412c3c0fe260b9ea8" prot="protected" virt="non-virtual"><scope>gr::blocks::file_meta_source_impl</scope><name>read_header</name></member>
+      <member refid="classgr_1_1blocks_1_1file__meta__source__impl_1a11c5de311faa57c6b4ecef232fea13d4adacef59ab2fb4134ffe1845539e3c098" prot="private" virt="non-virtual"><scope>gr::blocks::file_meta_source_impl</scope><name>STATE_DETACHED</name></member>
+      <member refid="classgr_1_1blocks_1_1file__meta__source__impl_1a11c5de311faa57c6b4ecef232fea13d4a45cfbf3f6c9943464302e6caa80476c0" prot="private" virt="non-virtual"><scope>gr::blocks::file_meta_source_impl</scope><name>STATE_INLINE</name></member>
+      <member refid="classgr_1_1blocks_1_1file__meta__source__impl_1acd103443665c049af92b6380412ef599" prot="public" virt="non-virtual"><scope>gr::blocks::file_meta_source_impl</scope><name>work</name></member>
+      <member refid="classgr_1_1blocks_1_1file__meta__source__impl_1ab8d7bcb770a5fdb62360077f363cdeb0" prot="public" virt="non-virtual"><scope>gr::blocks::file_meta_source_impl</scope><name>~file_meta_source_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,182 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="classgr_1_1blocks_1_1throttle__impl" kind="class" prot="public">
+    <compoundname>gr::blocks::throttle_impl</compoundname>
+    <includes refid="throttle__impl_8h" local="no">throttle_impl.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1blocks_1_1throttle__impl_1ab8ccd2bc6b4dcd3e9b89ec2465184b0a" prot="private" static="no" mutable="no">
+        <type>boost::system_time</type>
+        <definition>boost::system_time gr::blocks::throttle_impl::d_start</definition>
+        <argsstring></argsstring>
+        <name>d_start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/throttle_impl.h" line="35" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/throttle_impl.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1blocks_1_1throttle__impl_1ac3d7fdb2ed081b4185f81dcf9c1eae2c" prot="private" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t gr::blocks::throttle_impl::d_itemsize</definition>
+        <argsstring></argsstring>
+        <name>d_itemsize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/throttle_impl.h" line="36" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/throttle_impl.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1blocks_1_1throttle__impl_1a0edaea817bf0ec4c183718e0ff485db4" prot="private" static="no" mutable="no">
+        <type>uint64_t</type>
+        <definition>uint64_t gr::blocks::throttle_impl::d_total_samples</definition>
+        <argsstring></argsstring>
+        <name>d_total_samples</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/throttle_impl.h" line="37" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/throttle_impl.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1blocks_1_1throttle__impl_1af96bca1ee6588d66143954bf8bb973a3" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double gr::blocks::throttle_impl::d_samps_per_tick</definition>
+        <argsstring></argsstring>
+        <name>d_samps_per_tick</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/throttle_impl.h" line="38" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/throttle_impl.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1blocks_1_1throttle__impl_1a581ecde4d702be7d64fd46c617e44b40" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double gr::blocks::throttle_impl::d_samps_per_us</definition>
+        <argsstring></argsstring>
+        <name>d_samps_per_us</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/throttle_impl.h" line="38" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/throttle_impl.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1blocks_1_1throttle__impl_1a34e370b2e8a8f4120d941a3f14af63c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::blocks::throttle_impl::throttle_impl</definition>
+        <argsstring>(size_t itemsize, double samples_per_sec)</argsstring>
+        <name>throttle_impl</name>
+        <param>
+          <type>size_t</type>
+          <declname>itemsize</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>samples_per_sec</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/throttle_impl.h" line="41"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1blocks_1_1throttle__impl_1a9edb05d5ba0f58fa74c295423a00dc2a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::blocks::throttle_impl::~throttle_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~throttle_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/throttle_impl.h" line="42"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1blocks_1_1throttle__impl_1a89e36ce08adc0c457f35d5342bade44e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::blocks::throttle_impl::set_sample_rate</definition>
+        <argsstring>(double rate)</argsstring>
+        <name>set_sample_rate</name>
+        <param>
+          <type>double</type>
+          <declname>rate</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/throttle_impl.h" line="44"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1blocks_1_1throttle__impl_1acf20746db30f6577426b925ff61fb244" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double gr::blocks::throttle_impl::sample_rate</definition>
+        <argsstring>() const </argsstring>
+        <name>sample_rate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/throttle_impl.h" line="45"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1blocks_1_1throttle__impl_1a5de362d457e5f239bbce9ef6d86e3d0f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::blocks::throttle_impl::work</definition>
+        <argsstring>(int noutput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/throttle_impl.h" line="49"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/throttle_impl.h" line="33" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/throttle_impl.h" bodystart="32" bodyend="50"/>
+    <listofallmembers>
+      <member refid="classgr_1_1blocks_1_1throttle__impl_1ac3d7fdb2ed081b4185f81dcf9c1eae2c" prot="private" virt="non-virtual"><scope>gr::blocks::throttle_impl</scope><name>d_itemsize</name></member>
+      <member refid="classgr_1_1blocks_1_1throttle__impl_1af96bca1ee6588d66143954bf8bb973a3" prot="private" virt="non-virtual"><scope>gr::blocks::throttle_impl</scope><name>d_samps_per_tick</name></member>
+      <member refid="classgr_1_1blocks_1_1throttle__impl_1a581ecde4d702be7d64fd46c617e44b40" prot="private" virt="non-virtual"><scope>gr::blocks::throttle_impl</scope><name>d_samps_per_us</name></member>
+      <member refid="classgr_1_1blocks_1_1throttle__impl_1ab8ccd2bc6b4dcd3e9b89ec2465184b0a" prot="private" virt="non-virtual"><scope>gr::blocks::throttle_impl</scope><name>d_start</name></member>
+      <member refid="classgr_1_1blocks_1_1throttle__impl_1a0edaea817bf0ec4c183718e0ff485db4" prot="private" virt="non-virtual"><scope>gr::blocks::throttle_impl</scope><name>d_total_samples</name></member>
+      <member refid="classgr_1_1blocks_1_1throttle__impl_1acf20746db30f6577426b925ff61fb244" prot="public" virt="non-virtual"><scope>gr::blocks::throttle_impl</scope><name>sample_rate</name></member>
+      <member refid="classgr_1_1blocks_1_1throttle__impl_1a89e36ce08adc0c457f35d5342bade44e" prot="public" virt="non-virtual"><scope>gr::blocks::throttle_impl</scope><name>set_sample_rate</name></member>
+      <member refid="classgr_1_1blocks_1_1throttle__impl_1a34e370b2e8a8f4120d941a3f14af63c3" prot="public" virt="non-virtual"><scope>gr::blocks::throttle_impl</scope><name>throttle_impl</name></member>
+      <member refid="classgr_1_1blocks_1_1throttle__impl_1a5de362d457e5f239bbce9ef6d86e3d0f" prot="public" virt="non-virtual"><scope>gr::blocks::throttle_impl</scope><name>work</name></member>
+      <member refid="classgr_1_1blocks_1_1throttle__impl_1a9edb05d5ba0f58fa74c295423a00dc2a" prot="public" virt="non-virtual"><scope>gr::blocks::throttle_impl</scope><name>~throttle_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

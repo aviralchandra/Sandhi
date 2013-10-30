@@ -1,0 +1,194 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="classgr__tag__debug" kind="class" prot="public">
+    <compoundname>gr_tag_debug</compoundname>
+    <includes refid="gr__tag__debug_8h" local="no">gr_tag_debug.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr__tag__debug_1a554e2258b4029830c6e6a8fadc23c739" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string gr_tag_debug::d_name</definition>
+        <argsstring></argsstring>
+        <name>d_name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_tag_debug.h" line="62" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_tag_debug.h" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr__tag__debug_1a0da2a2152fedd747f1142b871c58fc25" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; gr_tag_t &gt;</type>
+        <definition>std::vector&lt;gr_tag_t&gt; gr_tag_debug::d_tags</definition>
+        <argsstring></argsstring>
+        <name>d_tags</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_tag_debug.h" line="63" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_tag_debug.h" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr__tag__debug_1ad798c75d791ad0fd0fa0e9b2e6edc1c0" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; gr_tag_t &gt;::iterator</type>
+        <definition>std::vector&lt;gr_tag_t&gt;::iterator gr_tag_debug::d_tags_itr</definition>
+        <argsstring></argsstring>
+        <name>d_tags_itr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_tag_debug.h" line="64" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_tag_debug.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr__tag__debug_1a2ab21869af5c66095cca749e3e0d340f" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool gr_tag_debug::d_display</definition>
+        <argsstring></argsstring>
+        <name>d_display</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_tag_debug.h" line="65" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_tag_debug.h" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr__tag__debug_1ae23b090adc904e9b01ce5978cce45f11" prot="private" static="no" mutable="no">
+        <type>gruel::mutex</type>
+        <definition>gruel::mutex gr_tag_debug::d_mutex</definition>
+        <argsstring></argsstring>
+        <name>d_mutex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_tag_debug.h" line="66" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_tag_debug.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="classgr__tag__debug_1aae62e9b0239b93dd5a4f37f914f2c53c" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend __GR_ATTR_IMPORT <ref refid="gr__tag__debug_8h_1ac263a44d10b022099eb1f0207b3b942b" kindref="member">gr_tag_debug_sptr</ref></type>
+        <definition>__GR_ATTR_IMPORT gr_tag_debug_sptr gr_make_tag_debug</definition>
+        <argsstring>(size_t sizeof_stream_item, const std::string &amp;name)</argsstring>
+        <name>gr_make_tag_debug</name>
+        <param>
+          <type>size_t</type>
+          <declname>sizeof_stream_item</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_tag_debug.h" line="59"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classgr__tag__debug_1a1aea6df2f8370c4526bfb8b3067c30da" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr_tag_debug::gr_tag_debug</definition>
+        <argsstring>(size_t sizeof_stream_item, const std::string &amp;name)</argsstring>
+        <name>gr_tag_debug</name>
+        <param>
+          <type>size_t</type>
+          <declname>sizeof_stream_item</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_tag_debug.h" line="60"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr__tag__debug_1a4c207685a8e4595ca8e86e95d24d2c23" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; gr_tag_t &gt;</type>
+        <definition>std::vector&lt;gr_tag_t&gt; gr_tag_debug::current_tags</definition>
+        <argsstring>()</argsstring>
+        <name>current_tags</name>
+        <briefdescription>
+<para>Returns a vector of gr_tag_t items as of the last call to work. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_tag_debug.h" line="73"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr__tag__debug_1a5e6c520471dde62197082e798969b193" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr_tag_debug::set_display</definition>
+        <argsstring>(bool d)</argsstring>
+        <name>set_display</name>
+        <param>
+          <type>bool</type>
+          <declname>d</declname>
+        </param>
+        <briefdescription>
+<para>Set the display of tags to stdout on/off. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_tag_debug.h" line="78"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr__tag__debug_1a9d86373b864360fe9e57e3d66cb80543" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr_tag_debug::work</definition>
+        <argsstring>(int noutput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_tag_debug.h" line="82"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Bit bucket that prints out any tag received.</para><para>This block collects all tags sent to it on all input ports and displays them to stdout in a formatted way. The <computeroutput>name</computeroutput> parameter is used to identify which debug sink generated the tag, so when connecting a block to this debug sink, an appropriate name is something that identifies the input block. </para>    </briefdescription>
+    <detaileddescription>
+<para>This block otherwise acts as a NULL sink in that items from the input stream are ignored. It is designed to be able to attach to any block and watch all tags streaming out of that block for debugging purposes.</para><para>The tags from the last call to this work function are stored and can be retrieved using the function &apos;current_tags&apos;. </para>    </detaileddescription>
+    <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_tag_debug.h" line="56" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_tag_debug.h" bodystart="55" bodyend="83"/>
+    <listofallmembers>
+      <member refid="classgr__tag__debug_1a4c207685a8e4595ca8e86e95d24d2c23" prot="public" virt="non-virtual"><scope>gr_tag_debug</scope><name>current_tags</name></member>
+      <member refid="classgr__tag__debug_1a2ab21869af5c66095cca749e3e0d340f" prot="private" virt="non-virtual"><scope>gr_tag_debug</scope><name>d_display</name></member>
+      <member refid="classgr__tag__debug_1ae23b090adc904e9b01ce5978cce45f11" prot="private" virt="non-virtual"><scope>gr_tag_debug</scope><name>d_mutex</name></member>
+      <member refid="classgr__tag__debug_1a554e2258b4029830c6e6a8fadc23c739" prot="private" virt="non-virtual"><scope>gr_tag_debug</scope><name>d_name</name></member>
+      <member refid="classgr__tag__debug_1a0da2a2152fedd747f1142b871c58fc25" prot="private" virt="non-virtual"><scope>gr_tag_debug</scope><name>d_tags</name></member>
+      <member refid="classgr__tag__debug_1ad798c75d791ad0fd0fa0e9b2e6edc1c0" prot="private" virt="non-virtual"><scope>gr_tag_debug</scope><name>d_tags_itr</name></member>
+      <member refid="classgr__tag__debug_1aae62e9b0239b93dd5a4f37f914f2c53c" prot="private" virt="non-virtual"><scope>gr_tag_debug</scope><name>gr_make_tag_debug</name></member>
+      <member refid="classgr__tag__debug_1a1aea6df2f8370c4526bfb8b3067c30da" prot="private" virt="non-virtual"><scope>gr_tag_debug</scope><name>gr_tag_debug</name></member>
+      <member refid="classgr__tag__debug_1a5e6c520471dde62197082e798969b193" prot="public" virt="non-virtual"><scope>gr_tag_debug</scope><name>set_display</name></member>
+      <member refid="classgr__tag__debug_1a9d86373b864360fe9e57e3d66cb80543" prot="public" virt="non-virtual"><scope>gr_tag_debug</scope><name>work</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

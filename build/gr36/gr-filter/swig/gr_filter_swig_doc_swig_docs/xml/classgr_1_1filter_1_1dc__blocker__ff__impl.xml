@@ -1,0 +1,192 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="classgr_1_1filter_1_1dc__blocker__ff__impl" kind="class" prot="public">
+    <compoundname>gr::filter::dc_blocker_ff_impl</compoundname>
+    <includes refid="dc__blocker__ff__impl_8h" local="no">dc_blocker_ff_impl.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1filter_1_1dc__blocker__ff__impl_1abc8bc1c0a6350bc41e9a12b0b480a6cb" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::filter::dc_blocker_ff_impl::d_length</definition>
+        <argsstring></argsstring>
+        <name>d_length</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/dc_blocker_ff_impl.h" line="51" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/dc_blocker_ff_impl.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1filter_1_1dc__blocker__ff__impl_1a852f3a84b8e1a3671107d142b7269f60" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool gr::filter::dc_blocker_ff_impl::d_long_form</definition>
+        <argsstring></argsstring>
+        <name>d_long_form</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/dc_blocker_ff_impl.h" line="52" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/dc_blocker_ff_impl.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1filter_1_1dc__blocker__ff__impl_1aa69b11bee3599d7db8f8de74b9fb83ff" prot="private" static="no" mutable="no">
+        <type><ref refid="classgr_1_1filter_1_1moving__averager__f" kindref="compound">moving_averager_f</ref> *</type>
+        <definition>moving_averager_f* gr::filter::dc_blocker_ff_impl::d_ma_0</definition>
+        <argsstring></argsstring>
+        <name>d_ma_0</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/dc_blocker_ff_impl.h" line="53" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/dc_blocker_ff_impl.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1filter_1_1dc__blocker__ff__impl_1a43fcfc91b3fe5427a6c515d3baeb4742" prot="private" static="no" mutable="no">
+        <type><ref refid="classgr_1_1filter_1_1moving__averager__f" kindref="compound">moving_averager_f</ref> *</type>
+        <definition>moving_averager_f* gr::filter::dc_blocker_ff_impl::d_ma_1</definition>
+        <argsstring></argsstring>
+        <name>d_ma_1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/dc_blocker_ff_impl.h" line="54" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/dc_blocker_ff_impl.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1filter_1_1dc__blocker__ff__impl_1aec8a92a9aebeb32e68696d44a178c6c0" prot="private" static="no" mutable="no">
+        <type><ref refid="classgr_1_1filter_1_1moving__averager__f" kindref="compound">moving_averager_f</ref> *</type>
+        <definition>moving_averager_f* gr::filter::dc_blocker_ff_impl::d_ma_2</definition>
+        <argsstring></argsstring>
+        <name>d_ma_2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/dc_blocker_ff_impl.h" line="55" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/dc_blocker_ff_impl.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1filter_1_1dc__blocker__ff__impl_1a9dab75354a7c058117edae99aabf74a5" prot="private" static="no" mutable="no">
+        <type><ref refid="classgr_1_1filter_1_1moving__averager__f" kindref="compound">moving_averager_f</ref> *</type>
+        <definition>moving_averager_f* gr::filter::dc_blocker_ff_impl::d_ma_3</definition>
+        <argsstring></argsstring>
+        <name>d_ma_3</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/dc_blocker_ff_impl.h" line="56" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/dc_blocker_ff_impl.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1filter_1_1dc__blocker__ff__impl_1ad506240012727dcd9225875c4399c4bd" prot="private" static="no" mutable="no">
+        <type>std::deque&lt; float &gt;</type>
+        <definition>std::deque&lt;float&gt; gr::filter::dc_blocker_ff_impl::d_delay_line</definition>
+        <argsstring></argsstring>
+        <name>d_delay_line</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/dc_blocker_ff_impl.h" line="57" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/dc_blocker_ff_impl.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1filter_1_1dc__blocker__ff__impl_1a218e5d66ce1e56ed005f6b735c613f72" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::filter::dc_blocker_ff_impl::dc_blocker_ff_impl</definition>
+        <argsstring>(int D, bool long_form)</argsstring>
+        <name>dc_blocker_ff_impl</name>
+        <param>
+          <type>int</type>
+          <declname>D</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>long_form</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/dc_blocker_ff_impl.h" line="60"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1filter_1_1dc__blocker__ff__impl_1a09f147d5ac90d5c64ec2104144e0a5e8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::filter::dc_blocker_ff_impl::~dc_blocker_ff_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~dc_blocker_ff_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/dc_blocker_ff_impl.h" line="62"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1filter_1_1dc__blocker__ff__impl_1ab7c869dca374755b11e8f0bb2f8d29db" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::filter::dc_blocker_ff_impl::group_delay</definition>
+        <argsstring>()</argsstring>
+        <name>group_delay</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/dc_blocker_ff_impl.h" line="64"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1filter_1_1dc__blocker__ff__impl_1a043b0876aad9c8da91238f19bccc5b4b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::filter::dc_blocker_ff_impl::work</definition>
+        <argsstring>(int noutput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/dc_blocker_ff_impl.h" line="70"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/dc_blocker_ff_impl.h" line="49" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/dc_blocker_ff_impl.h" bodystart="48" bodyend="71"/>
+    <listofallmembers>
+      <member refid="classgr_1_1filter_1_1dc__blocker__ff__impl_1ad506240012727dcd9225875c4399c4bd" prot="private" virt="non-virtual"><scope>gr::filter::dc_blocker_ff_impl</scope><name>d_delay_line</name></member>
+      <member refid="classgr_1_1filter_1_1dc__blocker__ff__impl_1abc8bc1c0a6350bc41e9a12b0b480a6cb" prot="private" virt="non-virtual"><scope>gr::filter::dc_blocker_ff_impl</scope><name>d_length</name></member>
+      <member refid="classgr_1_1filter_1_1dc__blocker__ff__impl_1a852f3a84b8e1a3671107d142b7269f60" prot="private" virt="non-virtual"><scope>gr::filter::dc_blocker_ff_impl</scope><name>d_long_form</name></member>
+      <member refid="classgr_1_1filter_1_1dc__blocker__ff__impl_1aa69b11bee3599d7db8f8de74b9fb83ff" prot="private" virt="non-virtual"><scope>gr::filter::dc_blocker_ff_impl</scope><name>d_ma_0</name></member>
+      <member refid="classgr_1_1filter_1_1dc__blocker__ff__impl_1a43fcfc91b3fe5427a6c515d3baeb4742" prot="private" virt="non-virtual"><scope>gr::filter::dc_blocker_ff_impl</scope><name>d_ma_1</name></member>
+      <member refid="classgr_1_1filter_1_1dc__blocker__ff__impl_1aec8a92a9aebeb32e68696d44a178c6c0" prot="private" virt="non-virtual"><scope>gr::filter::dc_blocker_ff_impl</scope><name>d_ma_2</name></member>
+      <member refid="classgr_1_1filter_1_1dc__blocker__ff__impl_1a9dab75354a7c058117edae99aabf74a5" prot="private" virt="non-virtual"><scope>gr::filter::dc_blocker_ff_impl</scope><name>d_ma_3</name></member>
+      <member refid="classgr_1_1filter_1_1dc__blocker__ff__impl_1a218e5d66ce1e56ed005f6b735c613f72" prot="public" virt="non-virtual"><scope>gr::filter::dc_blocker_ff_impl</scope><name>dc_blocker_ff_impl</name></member>
+      <member refid="classgr_1_1filter_1_1dc__blocker__ff__impl_1ab7c869dca374755b11e8f0bb2f8d29db" prot="public" virt="non-virtual"><scope>gr::filter::dc_blocker_ff_impl</scope><name>group_delay</name></member>
+      <member refid="classgr_1_1filter_1_1dc__blocker__ff__impl_1a043b0876aad9c8da91238f19bccc5b4b" prot="public" virt="non-virtual"><scope>gr::filter::dc_blocker_ff_impl</scope><name>work</name></member>
+      <member refid="classgr_1_1filter_1_1dc__blocker__ff__impl_1a09f147d5ac90d5c64ec2104144e0a5e8" prot="public" virt="non-virtual"><scope>gr::filter::dc_blocker_ff_impl</scope><name>~dc_blocker_ff_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,260 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="deinterleave_8h" kind="file">
+    <compoundname>deinterleave.h</compoundname>
+    <includes refid="gr-blocks_2include_2blocks_2api_8h" local="no">blocks/api.h</includes>
+    <includes refid="gr__sync__decimator_8h" local="no">gr_sync_decimator.h</includes>
+    <includedby refid="deinterleave__impl_8h" local="no">deinterleave_impl.h</includedby>
+    <incdepgraph>
+      <node id="2440">
+        <label>boost/thread/mutex.hpp</label>
+      </node>
+      <node id="2442">
+        <label>boost/thread/condition_variable.hpp</label>
+      </node>
+      <node id="2424">
+        <label>boost/shared_ptr.hpp</label>
+      </node>
+      <node id="2421">
+        <label>gruel/pmt.h</label>
+        <link refid="pmt_8h"/>
+        <childnode refid="2422" relation="include">
+        </childnode>
+        <childnode refid="2423" relation="include">
+        </childnode>
+        <childnode refid="2424" relation="include">
+        </childnode>
+        <childnode refid="2425" relation="include">
+        </childnode>
+        <childnode refid="2426" relation="include">
+        </childnode>
+        <childnode refid="2427" relation="include">
+        </childnode>
+        <childnode refid="2428" relation="include">
+        </childnode>
+        <childnode refid="2431" relation="include">
+        </childnode>
+        <childnode refid="2432" relation="include">
+        </childnode>
+        <childnode refid="2433" relation="include">
+        </childnode>
+        <childnode refid="2434" relation="include">
+        </childnode>
+      </node>
+      <node id="2423">
+        <label>boost/intrusive_ptr.hpp</label>
+      </node>
+      <node id="2412">
+        <label>gr_core_api.h</label>
+        <link refid="gr__core__api_8h"/>
+        <childnode refid="2408" relation="include">
+        </childnode>
+      </node>
+      <node id="2428">
+        <label>stdint.h</label>
+        <link refid="stdint_8h"/>
+        <childnode refid="2429" relation="include">
+        </childnode>
+        <childnode refid="2430" relation="include">
+        </childnode>
+      </node>
+      <node id="2419">
+        <label>gras/hier_block.hpp</label>
+      </node>
+      <node id="2418">
+        <label>gras/top_block.hpp</label>
+      </node>
+      <node id="2437">
+        <label>boost/foreach.hpp</label>
+      </node>
+      <node id="2432">
+        <label>stdexcept</label>
+      </node>
+      <node id="2413">
+        <label>gras/block.hpp</label>
+      </node>
+      <node id="2439">
+        <label>boost/thread/thread.hpp</label>
+      </node>
+      <node id="2427">
+        <label>string</label>
+      </node>
+      <node id="2436">
+        <label>map</label>
+      </node>
+      <node id="2408">
+        <label>gruel/attributes.h</label>
+        <link refid="attributes_8h"/>
+      </node>
+      <node id="2409">
+        <label>gr_sync_decimator.h</label>
+        <link refid="gr__sync__decimator_8h"/>
+        <childnode refid="2410" relation="include">
+        </childnode>
+      </node>
+      <node id="2429">
+        <label>limits.h</label>
+      </node>
+      <node id="2425">
+        <label>boost/any.hpp</label>
+      </node>
+      <node id="2411">
+        <label>gr_block.h</label>
+        <link refid="gr__block_8h"/>
+        <childnode refid="2412" relation="include">
+        </childnode>
+        <childnode refid="2413" relation="include">
+        </childnode>
+        <childnode refid="2414" relation="include">
+        </childnode>
+        <childnode refid="2416" relation="include">
+        </childnode>
+        <childnode refid="2420" relation="include">
+        </childnode>
+        <childnode refid="2427" relation="include">
+        </childnode>
+        <childnode refid="2435" relation="include">
+        </childnode>
+        <childnode refid="2436" relation="include">
+        </childnode>
+        <childnode refid="2437" relation="include">
+        </childnode>
+        <childnode refid="2438" relation="include">
+        </childnode>
+        <childnode refid="2443" relation="include">
+        </childnode>
+      </node>
+      <node id="2415">
+        <label>gr_runtime_types.h</label>
+        <link refid="gr__runtime__types_8h"/>
+        <childnode refid="2412" relation="include">
+        </childnode>
+        <childnode refid="2416" relation="include">
+        </childnode>
+      </node>
+      <node id="2430">
+        <label>wchar.h</label>
+      </node>
+      <node id="2434">
+        <label>gruel/pmt_sugar.h</label>
+        <link refid="pmt__sugar_8h"/>
+      </node>
+      <node id="2441">
+        <label>boost/thread/locks.hpp</label>
+      </node>
+      <node id="2410">
+        <label>gr_sync_block.h</label>
+        <link refid="gr__sync__block_8h"/>
+        <childnode refid="2411" relation="include">
+        </childnode>
+      </node>
+      <node id="2433">
+        <label>vector</label>
+      </node>
+      <node id="2414">
+        <label>gr_io_signature.h</label>
+        <link refid="gr__io__signature_8h"/>
+        <childnode refid="2412" relation="include">
+        </childnode>
+        <childnode refid="2415" relation="include">
+        </childnode>
+      </node>
+      <node id="2422">
+        <label>gruel/api.h</label>
+        <link refid="gruel_2src_2include_2gruel_2api_8h"/>
+        <childnode refid="2408" relation="include">
+        </childnode>
+      </node>
+      <node id="2407">
+        <label>blocks/api.h</label>
+        <link refid="gr-blocks_2include_2blocks_2api_8h"/>
+        <childnode refid="2408" relation="include">
+        </childnode>
+      </node>
+      <node id="2431">
+        <label>iosfwd</label>
+      </node>
+      <node id="2416">
+        <label>gr_types.h</label>
+        <link refid="gr__types_8h"/>
+        <childnode refid="2417" relation="include">
+        </childnode>
+        <childnode refid="2413" relation="include">
+        </childnode>
+        <childnode refid="2418" relation="include">
+        </childnode>
+        <childnode refid="2419" relation="include">
+        </childnode>
+      </node>
+      <node id="2438">
+        <label>gruel/thread.h</label>
+        <link refid="thread_8h"/>
+        <childnode refid="2422" relation="include">
+        </childnode>
+        <childnode refid="2439" relation="include">
+        </childnode>
+        <childnode refid="2440" relation="include">
+        </childnode>
+        <childnode refid="2441" relation="include">
+        </childnode>
+        <childnode refid="2442" relation="include">
+        </childnode>
+        <childnode refid="2433" relation="include">
+        </childnode>
+      </node>
+      <node id="2435">
+        <label>deque</label>
+      </node>
+      <node id="2420">
+        <label>gr_tags.h</label>
+        <link refid="gr__tags_8h"/>
+        <childnode refid="2412" relation="include">
+        </childnode>
+        <childnode refid="2421" relation="include">
+        </childnode>
+      </node>
+      <node id="2426">
+        <label>complex</label>
+      </node>
+      <node id="2443">
+        <label>gr_sptr_magic.h</label>
+        <link refid="gr__sptr__magic_8h_source"/>
+        <childnode refid="2412" relation="include">
+        </childnode>
+        <childnode refid="2424" relation="include">
+        </childnode>
+      </node>
+      <node id="2406">
+        <label>deinterleave.h</label>
+        <link refid="deinterleave.h"/>
+        <childnode refid="2407" relation="include">
+        </childnode>
+        <childnode refid="2409" relation="include">
+        </childnode>
+      </node>
+      <node id="2417">
+        <label>gras/element.hpp</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2445">
+        <label>deinterleave_impl.h</label>
+        <link refid="deinterleave__impl_8h"/>
+      </node>
+      <node id="2444">
+        <label>deinterleave.h</label>
+        <link refid="deinterleave.h"/>
+        <childnode refid="2445" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classgr_1_1blocks_1_1deinterleave" prot="public">gr::blocks::deinterleave</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1blocks">gr::blocks</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/include/blocks/deinterleave.h"/>
+  </compounddef>
+</doxygen>

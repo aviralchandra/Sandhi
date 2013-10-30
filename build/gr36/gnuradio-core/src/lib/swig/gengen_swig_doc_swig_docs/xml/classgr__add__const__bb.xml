@@ -1,0 +1,130 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="classgr__add__const__bb" kind="class" prot="public">
+    <compoundname>gr_add_const_bb</compoundname>
+    <includes refid="gr__add__const__bb_8h" local="no">gr_add_const_bb.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr__add__const__bb_1aa9a1c71f61d4a0668e6dfa9cb6da47fe" prot="private" static="no" mutable="no">
+        <type>unsigned char</type>
+        <definition>unsigned char gr_add_const_bb::d_k</definition>
+        <argsstring></argsstring>
+        <name>d_k</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/build/gr36/gnuradio-core/src/lib/gengen/gr_add_const_bb.h" line="44" bodyfile="/home/aviral/GNU-Niyantran/build/gr36/gnuradio-core/src/lib/gengen/gr_add_const_bb.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="classgr__add__const__bb_1a77803731899466b0875affd27334ea72" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend GR_CORE_API <ref refid="gr__add__const__bb_8h_1a8f3820e98b6a6bbeb685aec9180bb404" kindref="member">gr_add_const_bb_sptr</ref></type>
+        <definition>GR_CORE_API gr_add_const_bb_sptr gr_make_add_const_bb</definition>
+        <argsstring>(unsigned char k)</argsstring>
+        <name>gr_make_add_const_bb</name>
+        <param>
+          <type>unsigned char</type>
+          <declname>k</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/build/gr36/gnuradio-core/src/lib/gengen/gr_add_const_bb.h" line="42"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classgr__add__const__bb_1a085ea50b4ec162bd77596d1a190a3888" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr_add_const_bb::gr_add_const_bb</definition>
+        <argsstring>(unsigned char k)</argsstring>
+        <name>gr_add_const_bb</name>
+        <param>
+          <type>unsigned char</type>
+          <declname>k</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/build/gr36/gnuradio-core/src/lib/gengen/gr_add_const_bb.h" line="45"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr__add__const__bb_1adb773dda7d5e12664a6f0f288bd4859b" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsigned char</type>
+        <definition>unsigned char gr_add_const_bb::k</definition>
+        <argsstring>() const </argsstring>
+        <name>k</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/build/gr36/gnuradio-core/src/lib/gengen/gr_add_const_bb.h" line="48" bodyfile="/home/aviral/GNU-Niyantran/build/gr36/gnuradio-core/src/lib/gengen/gr_add_const_bb.h" bodystart="48" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr__add__const__bb_1a46440719aea209c5e181ec2006806a36" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr_add_const_bb::set_k</definition>
+        <argsstring>(unsigned char k)</argsstring>
+        <name>set_k</name>
+        <param>
+          <type>unsigned char</type>
+          <declname>k</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/build/gr36/gnuradio-core/src/lib/gengen/gr_add_const_bb.h" line="49" bodyfile="/home/aviral/GNU-Niyantran/build/gr36/gnuradio-core/src/lib/gengen/gr_add_const_bb.h" bodystart="49" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr__add__const__bb_1a2304cd2b4904bc05db8d02b6ac834e99" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr_add_const_bb::work</definition>
+        <argsstring>(int noutput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/build/gr36/gnuradio-core/src/lib/gengen/gr_add_const_bb.h" line="53"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>output = input + constant </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/aviral/GNU-Niyantran/build/gr36/gnuradio-core/src/lib/gengen/gr_add_const_bb.h" line="41" bodyfile="/home/aviral/GNU-Niyantran/build/gr36/gnuradio-core/src/lib/gengen/gr_add_const_bb.h" bodystart="40" bodyend="54"/>
+    <listofallmembers>
+      <member refid="classgr__add__const__bb_1aa9a1c71f61d4a0668e6dfa9cb6da47fe" prot="private" virt="non-virtual"><scope>gr_add_const_bb</scope><name>d_k</name></member>
+      <member refid="classgr__add__const__bb_1a085ea50b4ec162bd77596d1a190a3888" prot="private" virt="non-virtual"><scope>gr_add_const_bb</scope><name>gr_add_const_bb</name></member>
+      <member refid="classgr__add__const__bb_1a77803731899466b0875affd27334ea72" prot="private" virt="non-virtual"><scope>gr_add_const_bb</scope><name>gr_make_add_const_bb</name></member>
+      <member refid="classgr__add__const__bb_1adb773dda7d5e12664a6f0f288bd4859b" prot="public" virt="non-virtual"><scope>gr_add_const_bb</scope><name>k</name></member>
+      <member refid="classgr__add__const__bb_1a46440719aea209c5e181ec2006806a36" prot="public" virt="non-virtual"><scope>gr_add_const_bb</scope><name>set_k</name></member>
+      <member refid="classgr__add__const__bb_1a2304cd2b4904bc05db8d02b6ac834e99" prot="public" virt="non-virtual"><scope>gr_add_const_bb</scope><name>work</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

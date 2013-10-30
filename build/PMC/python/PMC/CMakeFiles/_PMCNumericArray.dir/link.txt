@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC -O3 -DNDEBUG   -shared -Wl,-soname,_PMCNumericArray.so -o _PMCNumericArray.so CMakeFiles/_PMCNumericArray.dir/PMCNumericArrayPYTHON_wrap.cxx.o ../../lib/libpmc.so.0.0.0 -lpython2.7 -lboost_serialization-mt -Wl,-rpath,/home/aviral/GNU-Niyantran/build/PMC/lib: 

@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="dir_e148896d6fbad941239785f743a1f694" kind="dir">
+    <compoundname>/home/aviral/GNU-Niyantran/gr36/gr-blocks/include/blocks/</compoundname>
+    <innerfile refid="add__ff_8h">add_ff.h</innerfile>
+    <innerfile refid="gr-blocks_2include_2blocks_2api_8h">gr-blocks/include/blocks/api.h</innerfile>
+    <innerfile refid="char__to__float_8h">char_to_float.h</innerfile>
+    <innerfile refid="char__to__short_8h">char_to_short.h</innerfile>
+    <innerfile refid="complex__to__arg_8h">complex_to_arg.h</innerfile>
+    <innerfile refid="complex__to__float_8h">complex_to_float.h</innerfile>
+    <innerfile refid="complex__to__imag_8h">complex_to_imag.h</innerfile>
+    <innerfile refid="complex__to__interleaved__short_8h">complex_to_interleaved_short.h</innerfile>
+    <innerfile refid="complex__to__mag_8h">complex_to_mag.h</innerfile>
+    <innerfile refid="complex__to__mag__squared_8h">complex_to_mag_squared.h</innerfile>
+    <innerfile refid="complex__to__real_8h">complex_to_real.h</innerfile>
+    <innerfile refid="conjugate__cc_8h">conjugate_cc.h</innerfile>
+    <innerfile refid="count__bits_8h">count_bits.h</innerfile>
+    <innerfile refid="deinterleave_8h">deinterleave.h</innerfile>
+    <innerfile refid="delay_8h">delay.h</innerfile>
+    <innerfile refid="file__meta__sink_8h">file_meta_sink.h</innerfile>
+    <innerfile refid="file__meta__source_8h">file_meta_source.h</innerfile>
+    <innerfile refid="file__source_8h">file_source.h</innerfile>
+    <innerfile refid="float__to__char_8h">float_to_char.h</innerfile>
+    <innerfile refid="float__to__complex_8h">float_to_complex.h</innerfile>
+    <innerfile refid="float__to__int_8h">float_to_int.h</innerfile>
+    <innerfile refid="float__to__short_8h">float_to_short.h</innerfile>
+    <innerfile refid="float__to__uchar_8h">float_to_uchar.h</innerfile>
+    <innerfile refid="int__to__float_8h">int_to_float.h</innerfile>
+    <innerfile refid="interleave_8h">interleave.h</innerfile>
+    <innerfile refid="interleaved__short__to__complex_8h">interleaved_short_to_complex.h</innerfile>
+    <innerfile refid="keep__m__in__n_8h">keep_m_in_n.h</innerfile>
+    <innerfile refid="keep__one__in__n_8h">keep_one_in_n.h</innerfile>
+    <innerfile refid="log2__const_8h">log2_const.h</innerfile>
+    <innerfile refid="multiply__cc_8h">multiply_cc.h</innerfile>
+    <innerfile refid="multiply__conjugate__cc_8h">multiply_conjugate_cc.h</innerfile>
+    <innerfile refid="multiply__const__cc_8h">multiply_const_cc.h</innerfile>
+    <innerfile refid="multiply__const__ff_8h">multiply_const_ff.h</innerfile>
+    <innerfile refid="multiply__ff_8h">multiply_ff.h</innerfile>
+    <innerfile refid="nlog10__ff_8h">nlog10_ff.h</innerfile>
+    <innerfile refid="patterned__interleaver_8h">patterned_interleaver.h</innerfile>
+    <innerfile refid="peak__detector2__fb_8h">peak_detector2_fb.h</innerfile>
+    <innerfile refid="regenerate__bb_8h">regenerate_bb.h</innerfile>
+    <innerfile refid="repeat_8h">repeat.h</innerfile>
+    <innerfile refid="rms__cf_8h">rms_cf.h</innerfile>
+    <innerfile refid="rms__ff_8h">rms_ff.h</innerfile>
+    <innerfile refid="short__to__char_8h">short_to_char.h</innerfile>
+    <innerfile refid="short__to__float_8h">short_to_float.h</innerfile>
+    <innerfile refid="stream__mux_8h">stream_mux.h</innerfile>
+    <innerfile refid="stream__to__streams_8h">stream_to_streams.h</innerfile>
+    <innerfile refid="stream__to__vector_8h">stream_to_vector.h</innerfile>
+    <innerfile refid="streams__to__stream_8h">streams_to_stream.h</innerfile>
+    <innerfile refid="streams__to__vector_8h">streams_to_vector.h</innerfile>
+    <innerfile refid="stretch__ff_8h">stretch_ff.h</innerfile>
+    <innerfile refid="threshold__ff_8h">threshold_ff.h</innerfile>
+    <innerfile refid="throttle_8h">throttle.h</innerfile>
+    <innerfile refid="transcendental_8h">transcendental.h</innerfile>
+    <innerfile refid="uchar__to__float_8h">uchar_to_float.h</innerfile>
+    <innerfile refid="vector__to__stream_8h">vector_to_stream.h</innerfile>
+    <innerfile refid="vector__to__streams_8h">vector_to_streams.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/include/blocks/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="dir_f5a82f799dfc5d15e90532e0fad10d40" kind="dir">
+    <compoundname>/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/</compoundname>
+    <innerfile refid="adaptive__fir__ccc__impl_8h">adaptive_fir_ccc_impl.h</innerfile>
+    <innerfile refid="adaptive__fir__ccf__impl_8h">adaptive_fir_ccf_impl.h</innerfile>
+    <innerfile refid="channel__model__impl_8h">channel_model_impl.h</innerfile>
+    <innerfile refid="dc__blocker__cc__impl_8h">dc_blocker_cc_impl.h</innerfile>
+    <innerfile refid="dc__blocker__ff__impl_8h">dc_blocker_ff_impl.h</innerfile>
+    <innerfile refid="fft__filter__ccc__impl_8h">fft_filter_ccc_impl.h</innerfile>
+    <innerfile refid="fft__filter__fff__impl_8h">fft_filter_fff_impl.h</innerfile>
+    <innerfile refid="filter__delay__fc__impl_8h">filter_delay_fc_impl.h</innerfile>
+    <innerfile refid="fractional__interpolator__cc__impl_8h">fractional_interpolator_cc_impl.h</innerfile>
+    <innerfile refid="fractional__interpolator__ff__impl_8h">fractional_interpolator_ff_impl.h</innerfile>
+    <innerfile refid="hilbert__fc__impl_8h">hilbert_fc_impl.h</innerfile>
+    <innerfile refid="iir__filter__ffd__impl_8h">iir_filter_ffd_impl.h</innerfile>
+    <innerfile refid="pfb__arb__resampler__ccf__impl_8h">pfb_arb_resampler_ccf_impl.h</innerfile>
+    <innerfile refid="pfb__arb__resampler__fff__impl_8h">pfb_arb_resampler_fff_impl.h</innerfile>
+    <innerfile refid="pfb__channelizer__ccf__impl_8h">pfb_channelizer_ccf_impl.h</innerfile>
+    <innerfile refid="pfb__decimator__ccf__impl_8h">pfb_decimator_ccf_impl.h</innerfile>
+    <innerfile refid="pfb__interpolator__ccf__impl_8h">pfb_interpolator_ccf_impl.h</innerfile>
+    <innerfile refid="pfb__synthesizer__ccf__impl_8h">pfb_synthesizer_ccf_impl.h</innerfile>
+    <innerfile refid="single__pole__iir__filter__cc__impl_8h">single_pole_iir_filter_cc_impl.h</innerfile>
+    <innerfile refid="single__pole__iir__filter__ff__impl_8h">single_pole_iir_filter_ff_impl.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/"/>
+  </compounddef>
+</doxygen>

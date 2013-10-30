@@ -1,0 +1,318 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="classgr_1_1filter_1_1channel__model" kind="class" prot="public">
+    <compoundname>gr::filter::channel_model</compoundname>
+    <basecompoundref refid="structgr__hier__block2" prot="public" virt="virtual">gr_hier_block2</basecompoundref>
+    <derivedcompoundref refid="classgr_1_1filter_1_1channel__model__impl" prot="public" virt="non-virtual">gr::filter::channel_model_impl</derivedcompoundref>
+    <includes refid="channel__model_8h" local="no">channel_model.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classgr_1_1filter_1_1channel__model_1a2c47e1d1a6fa57807096ea705226fa68" prot="public" static="no">
+        <type><ref refid="classboost_1_1shared__ptr" kindref="compound">boost::shared_ptr</ref>&lt; <ref refid="classgr_1_1filter_1_1channel__model" kindref="compound">channel_model</ref> &gt;</type>
+        <definition>typedef boost::shared_ptr&lt;channel_model&gt; gr::filter::channel_model::sptr</definition>
+        <argsstring></argsstring>
+        <name>sptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/include/filter/channel_model.h" line="51" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-filter/include/filter/channel_model.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgr_1_1filter_1_1channel__model_1a07efe42085b5e2b5c9820b6fc066073f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr_1_1filter_1_1channel__model_1a2c47e1d1a6fa57807096ea705226fa68" kindref="member">sptr</ref></type>
+        <definition>static sptr gr::filter::channel_model::make</definition>
+        <argsstring>(double noise_voltage=0.0, double frequency_offset=0.0, double epsilon=1.0, const std::vector&lt; gr_complex &gt; &amp;taps=std::vector&lt; gr_complex &gt;(1, 1), double noise_seed=0)</argsstring>
+        <name>make</name>
+        <param>
+          <type>double</type>
+          <declname>noise_voltage</declname>
+          <defval>0.0</defval>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>frequency_offset</declname>
+          <defval>0.0</defval>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>epsilon</declname>
+          <defval>1.0</defval>
+        </param>
+        <param>
+          <type>const std::vector&lt; <ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref> &gt; &amp;</type>
+          <declname>taps</declname>
+          <defval>std::vector&lt; <ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref> &gt;(1, 1)</defval>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>noise_seed</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>Build the channel simulator. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>noise_voltage</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The AWGN noise level as a voltage (to be calculated externally to meet, say, a desired SNR). </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>frequency_offset</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The normalized frequency offset. 0 is no offset; 0.25 would be, for a digital modem, one quarter of the symbol rate. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>epsilon</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The sample timing offset to emulate the different rates between the sample clocks of the transmitter and receiver. 1.0 is no difference. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>taps</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Taps of a FIR filter to emulate a multipath delay profile. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>noise_seed</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A random number generator seed for the noise source. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/include/filter/channel_model.h" line="71"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1filter_1_1channel__model_1ad9b153119f03e4230b21adde3fee961c" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type><ref refid="volk_8tmpl_8h_1a2b104da38b6f0a28d721ed74346ef298" kindref="member">void</ref></type>
+        <definition>virtual void gr::filter::channel_model::set_noise_voltage</definition>
+        <argsstring>(double noise_voltage)=0</argsstring>
+        <name>set_noise_voltage</name>
+        <reimplementedby refid="classgr_1_1filter_1_1channel__model__impl_1afc0655df09ab898eca17b14fe7a0ea72">set_noise_voltage</reimplementedby>
+        <param>
+          <type>double</type>
+          <declname>noise_voltage</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/include/filter/channel_model.h" line="73"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1filter_1_1channel__model_1a89781fb8145c7df4fa58970fd046e3fa" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type><ref refid="volk_8tmpl_8h_1a2b104da38b6f0a28d721ed74346ef298" kindref="member">void</ref></type>
+        <definition>virtual void gr::filter::channel_model::set_frequency_offset</definition>
+        <argsstring>(double frequency_offset)=0</argsstring>
+        <name>set_frequency_offset</name>
+        <reimplementedby refid="classgr_1_1filter_1_1channel__model__impl_1ac1fb71949f1473f7697271777145be9f">set_frequency_offset</reimplementedby>
+        <param>
+          <type>double</type>
+          <declname>frequency_offset</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/include/filter/channel_model.h" line="74"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1filter_1_1channel__model_1a3e4f0df645206c10681b04305a9d19d7" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type><ref refid="volk_8tmpl_8h_1a2b104da38b6f0a28d721ed74346ef298" kindref="member">void</ref></type>
+        <definition>virtual void gr::filter::channel_model::set_taps</definition>
+        <argsstring>(const std::vector&lt; gr_complex &gt; &amp;taps)=0</argsstring>
+        <name>set_taps</name>
+        <reimplementedby refid="classgr_1_1filter_1_1channel__model__impl_1a2330fc5499ad1c4f4b89f0cad9a1bd20">set_taps</reimplementedby>
+        <param>
+          <type>const std::vector&lt; <ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref> &gt; &amp;</type>
+          <declname>taps</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/include/filter/channel_model.h" line="75"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1filter_1_1channel__model_1a3f3ee9650c70c022d46e97e8af18ec4e" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type><ref refid="volk_8tmpl_8h_1a2b104da38b6f0a28d721ed74346ef298" kindref="member">void</ref></type>
+        <definition>virtual void gr::filter::channel_model::set_timing_offset</definition>
+        <argsstring>(double epsilon)=0</argsstring>
+        <name>set_timing_offset</name>
+        <reimplementedby refid="classgr_1_1filter_1_1channel__model__impl_1a73da8f99c6b5c43292c67298038098b9">set_timing_offset</reimplementedby>
+        <param>
+          <type>double</type>
+          <declname>epsilon</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/include/filter/channel_model.h" line="76"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1filter_1_1channel__model_1ae514a9e8da1e40f2650f2b9a257d66dd" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type>double</type>
+        <definition>virtual double gr::filter::channel_model::noise_voltage</definition>
+        <argsstring>() const =0</argsstring>
+        <name>noise_voltage</name>
+        <reimplementedby refid="classgr_1_1filter_1_1channel__model__impl_1af90441f72a0513cdfb4321eafc778f3f">noise_voltage</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/include/filter/channel_model.h" line="78"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1filter_1_1channel__model_1a70bfec4b5d66be0b697cea18b59e665c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type>double</type>
+        <definition>virtual double gr::filter::channel_model::frequency_offset</definition>
+        <argsstring>() const =0</argsstring>
+        <name>frequency_offset</name>
+        <reimplementedby refid="classgr_1_1filter_1_1channel__model__impl_1a01f1df98c63f1a7c872e109a491dd447">frequency_offset</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/include/filter/channel_model.h" line="79"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1filter_1_1channel__model_1a0e8d3625680a7d4711c2053753aead32" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type>std::vector&lt; <ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref> &gt;</type>
+        <definition>virtual std::vector&lt;gr_complex&gt; gr::filter::channel_model::taps</definition>
+        <argsstring>() const =0</argsstring>
+        <name>taps</name>
+        <reimplementedby refid="classgr_1_1filter_1_1channel__model__impl_1a31b51ee53ab17f9e51fdeb1dcf38a4f0">taps</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/include/filter/channel_model.h" line="80"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1filter_1_1channel__model_1a2eaf9d89ea6bc9b4e9f2a15299cae315" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type>double</type>
+        <definition>virtual double gr::filter::channel_model::timing_offset</definition>
+        <argsstring>() const =0</argsstring>
+        <name>timing_offset</name>
+        <reimplementedby refid="classgr_1_1filter_1_1channel__model__impl_1ac39344ebc9e14131f9d8ec71b3f103a4">timing_offset</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/include/filter/channel_model.h" line="81"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>channel simulator</para><para>This block implements a basic channel model simulator that can be used to help evaluate, design, and test various signals, waveforms, and algorithms. This model allows the user to set the voltage of an AWGN noise source, a (normalized) frequency offset, a sample timing offset, and a noise seed to randomize the AWGN noise source. </para>    </briefdescription>
+    <detaileddescription>
+<para>Multipath can be approximated in this model by using a FIR filter representation of a multipath delay profile.. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="349">
+        <label>gr_hier_block2</label>
+        <link refid="structgr__hier__block2"/>
+      </node>
+      <node id="348">
+        <label>gr::filter::channel_model</label>
+        <link refid="classgr_1_1filter_1_1channel__model"/>
+        <childnode refid="349" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="350">
+        <label>gr::filter::channel_model_impl</label>
+        <link refid="classgr_1_1filter_1_1channel__model__impl"/>
+        <childnode refid="348" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="352">
+        <label>gr_hier_block2</label>
+        <link refid="structgr__hier__block2"/>
+        <childnode refid="353" relation="usage">
+          <edgelabel>_out_sig</edgelabel>
+          <edgelabel>_in_sig</edgelabel>
+        </childnode>
+        <childnode refid="355" relation="usage">
+          <edgelabel>_name</edgelabel>
+        </childnode>
+      </node>
+      <node id="353">
+        <label>boost::shared_ptr&lt; gr_io_signature &gt;</label>
+        <link refid="classboost_1_1shared__ptr"/>
+        <childnode refid="354" relation="usage">
+          <edgelabel>px</edgelabel>
+        </childnode>
+      </node>
+      <node id="356">
+        <label>std::basic_string&lt; char &gt;</label>
+      </node>
+      <node id="354">
+        <label>gr_io_signature</label>
+        <link refid="classgr__io__signature"/>
+      </node>
+      <node id="351">
+        <label>gr::filter::channel_model</label>
+        <link refid="classgr_1_1filter_1_1channel__model"/>
+        <childnode refid="352" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="355">
+        <label>std::string</label>
+        <childnode refid="356" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/include/filter/channel_model.h" line="48" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-filter/include/filter/channel_model.h" bodystart="47" bodyend="82"/>
+    <listofallmembers>
+      <member refid="structgr__hier__block2_1ab8a733a0aadc70560fd4810780994448" prot="public" virt="non-virtual"><scope>gr::filter::channel_model</scope><name>_in_sig</name></member>
+      <member refid="structgr__hier__block2_1a560f322ca7de789f1aa7a79cc80366cd" prot="public" virt="non-virtual"><scope>gr::filter::channel_model</scope><name>_name</name></member>
+      <member refid="structgr__hier__block2_1a07553050733261854b03cb0fa718a92a" prot="public" virt="non-virtual"><scope>gr::filter::channel_model</scope><name>_out_sig</name></member>
+      <member refid="structgr__hier__block2_1a5c8b5c26ad5159dd9bcaa586a06b7921" prot="public" virt="non-virtual"><scope>gr::filter::channel_model</scope><name>_unique_id</name></member>
+      <member refid="classgr_1_1filter_1_1channel__model_1a70bfec4b5d66be0b697cea18b59e665c" prot="public" virt="pure-virtual"><scope>gr::filter::channel_model</scope><name>frequency_offset</name></member>
+      <member refid="structgr__hier__block2_1a9f065335f42852256617ccddcf12946e" prot="public" virt="non-virtual"><scope>gr::filter::channel_model</scope><name>gr_hier_block2</name></member>
+      <member refid="structgr__hier__block2_1a324be02b1e3b00da10ed7b6df86f164f" prot="public" virt="non-virtual"><scope>gr::filter::channel_model</scope><name>gr_hier_block2</name></member>
+      <member refid="structgr__hier__block2_1a8a330ac3afb284d81530f33b30ca25b0" prot="public" virt="non-virtual"><scope>gr::filter::channel_model</scope><name>input_signature</name></member>
+      <member refid="structgr__hier__block2_1aeda6dd086a55fc994bae3311533a1921" prot="public" virt="non-virtual"><scope>gr::filter::channel_model</scope><name>lock</name></member>
+      <member refid="classgr_1_1filter_1_1channel__model_1a07efe42085b5e2b5c9820b6fc066073f" prot="public" virt="non-virtual"><scope>gr::filter::channel_model</scope><name>make</name></member>
+      <member refid="structgr__hier__block2_1a69b7518170562654329e92dd64188641" prot="public" virt="non-virtual"><scope>gr::filter::channel_model</scope><name>name</name></member>
+      <member refid="classgr_1_1filter_1_1channel__model_1ae514a9e8da1e40f2650f2b9a257d66dd" prot="public" virt="pure-virtual"><scope>gr::filter::channel_model</scope><name>noise_voltage</name></member>
+      <member refid="structgr__hier__block2_1a00b145577ce9cd97ad52d382aa420530" prot="public" virt="non-virtual"><scope>gr::filter::channel_model</scope><name>output_signature</name></member>
+      <member refid="structgr__hier__block2_1a64a03012c2035fbd9ca8891263f6e7b1" prot="public" virt="non-virtual"><scope>gr::filter::channel_model</scope><name>self</name></member>
+      <member refid="classgr_1_1filter_1_1channel__model_1a89781fb8145c7df4fa58970fd046e3fa" prot="public" virt="pure-virtual"><scope>gr::filter::channel_model</scope><name>set_frequency_offset</name></member>
+      <member refid="structgr__hier__block2_1af504949aa125370bd497bade73fb7c44" prot="public" virt="non-virtual"><scope>gr::filter::channel_model</scope><name>set_input_signature</name></member>
+      <member refid="classgr_1_1filter_1_1channel__model_1ad9b153119f03e4230b21adde3fee961c" prot="public" virt="pure-virtual"><scope>gr::filter::channel_model</scope><name>set_noise_voltage</name></member>
+      <member refid="structgr__hier__block2_1ad3a526d78dc477cab58d5f12250cba91" prot="public" virt="non-virtual"><scope>gr::filter::channel_model</scope><name>set_output_signature</name></member>
+      <member refid="classgr_1_1filter_1_1channel__model_1a3e4f0df645206c10681b04305a9d19d7" prot="public" virt="pure-virtual"><scope>gr::filter::channel_model</scope><name>set_taps</name></member>
+      <member refid="classgr_1_1filter_1_1channel__model_1a3f3ee9650c70c022d46e97e8af18ec4e" prot="public" virt="pure-virtual"><scope>gr::filter::channel_model</scope><name>set_timing_offset</name></member>
+      <member refid="classgr_1_1filter_1_1channel__model_1a2c47e1d1a6fa57807096ea705226fa68" prot="public" virt="non-virtual"><scope>gr::filter::channel_model</scope><name>sptr</name></member>
+      <member refid="classgr_1_1filter_1_1channel__model_1a0e8d3625680a7d4711c2053753aead32" prot="public" virt="pure-virtual"><scope>gr::filter::channel_model</scope><name>taps</name></member>
+      <member refid="classgr_1_1filter_1_1channel__model_1a2eaf9d89ea6bc9b4e9f2a15299cae315" prot="public" virt="pure-virtual"><scope>gr::filter::channel_model</scope><name>timing_offset</name></member>
+      <member refid="structgr__hier__block2_1ac4f46bcea6d15d53b4d3847d748ace41" prot="public" virt="non-virtual"><scope>gr::filter::channel_model</scope><name>unique_id</name></member>
+      <member refid="structgr__hier__block2_1a06e41a4ab2b0617dd207d3673a974e3d" prot="public" virt="non-virtual"><scope>gr::filter::channel_model</scope><name>unlock</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

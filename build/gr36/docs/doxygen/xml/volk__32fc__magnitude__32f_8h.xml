@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="volk__32fc__magnitude__32f_8h" kind="file">
+    <compoundname>volk_32fc_magnitude_32f.h</compoundname>
+    <includes refid="inttypes_8h" local="no">inttypes.h</includes>
+    <includes local="no">stdio.h</includes>
+    <includes local="no">math.h</includes>
+    <incdepgraph>
+      <node id="21257">
+        <label>stdint.h</label>
+        <link refid="stdint_8h"/>
+        <childnode refid="21258" relation="include">
+        </childnode>
+        <childnode refid="21259" relation="include">
+        </childnode>
+      </node>
+      <node id="21256">
+        <label>inttypes.h</label>
+        <link refid="inttypes_8h"/>
+        <childnode refid="21257" relation="include">
+        </childnode>
+      </node>
+      <node id="21258">
+        <label>limits.h</label>
+      </node>
+      <node id="21259">
+        <label>wchar.h</label>
+      </node>
+      <node id="21255">
+        <label>volk_32fc_magnitude_32f.h</label>
+        <link refid="volk_32fc_magnitude_32f.h"/>
+        <childnode refid="21256" relation="include">
+        </childnode>
+        <childnode refid="21260" relation="include">
+        </childnode>
+        <childnode refid="21261" relation="include">
+        </childnode>
+      </node>
+      <node id="21261">
+        <label>math.h</label>
+      </node>
+      <node id="21260">
+        <label>stdio.h</label>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="volk__32fc__magnitude__32f_8h_1a964f9ebc01d6e9bccc5b097fd8dbe34f" prot="public" static="no">
+        <name>INCLUDED_volk_32fc_magnitude_32f_a_H</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/volk/kernels/volk/volk_32fc_magnitude_32f.h" line="120" bodyfile="/home/aviral/GNU-Niyantran/gr36/volk/kernels/volk/volk_32fc_magnitude_32f.h" bodystart="120" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/aviral/GNU-Niyantran/gr36/volk/kernels/volk/volk_32fc_magnitude_32f.h"/>
+  </compounddef>
+</doxygen>

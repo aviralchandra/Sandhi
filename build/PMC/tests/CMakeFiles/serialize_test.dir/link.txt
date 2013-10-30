@@ -1,0 +1,1 @@
+/usr/bin/c++   -O3 -DNDEBUG    CMakeFiles/serialize_test.dir/serialize_test.cpp.o  -o serialize_test -rdynamic -lboost_unit_test_framework-mt -lboost_serialization-mt ../lib/libpmc.so.0.0.0 -lboost_serialization-mt -Wl,-rpath,/home/aviral/GNU-Niyantran/build/PMC/lib 

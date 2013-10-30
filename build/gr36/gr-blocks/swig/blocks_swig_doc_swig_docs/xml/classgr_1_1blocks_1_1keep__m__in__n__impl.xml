@@ -1,0 +1,226 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="classgr_1_1blocks_1_1keep__m__in__n__impl" kind="class" prot="public">
+    <compoundname>gr::blocks::keep_m_in_n_impl</compoundname>
+    <includes refid="keep__m__in__n__impl_8h" local="no">keep_m_in_n_impl.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1blocks_1_1keep__m__in__n__impl_1ae078e729e9ad45febb85b67c2796cf3c" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::blocks::keep_m_in_n_impl::d_m</definition>
+        <argsstring></argsstring>
+        <name>d_m</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/keep_m_in_n_impl.h" line="33" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/keep_m_in_n_impl.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1blocks_1_1keep__m__in__n__impl_1a38e550b1208f2cadba33db9e47d2a60b" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::blocks::keep_m_in_n_impl::d_n</definition>
+        <argsstring></argsstring>
+        <name>d_n</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/keep_m_in_n_impl.h" line="34" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/keep_m_in_n_impl.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1blocks_1_1keep__m__in__n__impl_1a618a8fd67f58e40f74af18f07e75d8cf" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::blocks::keep_m_in_n_impl::d_count</definition>
+        <argsstring></argsstring>
+        <name>d_count</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/keep_m_in_n_impl.h" line="35" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/keep_m_in_n_impl.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1blocks_1_1keep__m__in__n__impl_1a98fd47d172dee2007c15f8799e6fef33" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::blocks::keep_m_in_n_impl::d_offset</definition>
+        <argsstring></argsstring>
+        <name>d_offset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/keep_m_in_n_impl.h" line="36" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/keep_m_in_n_impl.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1blocks_1_1keep__m__in__n__impl_1a13cdc5add60b655b088fae889b007e14" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::blocks::keep_m_in_n_impl::d_itemsize</definition>
+        <argsstring></argsstring>
+        <name>d_itemsize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/keep_m_in_n_impl.h" line="37" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/keep_m_in_n_impl.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classgr_1_1blocks_1_1keep__m__in__n__impl_1a9556b7188887d976bfa60e522e239bca" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::blocks::keep_m_in_n_impl::forecast</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items_required)</argsstring>
+        <name>forecast</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items_required</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/keep_m_in_n_impl.h" line="39"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1blocks_1_1keep__m__in__n__impl_1a477725093c6ae2928d8b4a7d27916248" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::blocks::keep_m_in_n_impl::keep_m_in_n_impl</definition>
+        <argsstring>(size_t itemsize, int m, int n, int offset)</argsstring>
+        <name>keep_m_in_n_impl</name>
+        <param>
+          <type>size_t</type>
+          <declname>itemsize</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>m</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>offset</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/keep_m_in_n_impl.h" line="42"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1blocks_1_1keep__m__in__n__impl_1af6aac5075c171ab53d8b5d0b5a9213e4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::blocks::keep_m_in_n_impl::general_work</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>general_work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/keep_m_in_n_impl.h" line="47"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1blocks_1_1keep__m__in__n__impl_1ad00c08071ed379f1d0f81eb562e6e835" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::blocks::keep_m_in_n_impl::set_m</definition>
+        <argsstring>(int m)</argsstring>
+        <name>set_m</name>
+        <param>
+          <type>int</type>
+          <declname>m</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/keep_m_in_n_impl.h" line="49" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/keep_m_in_n_impl.h" bodystart="49" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1blocks_1_1keep__m__in__n__impl_1ad881a19a887c7407b5dfd78a477f425b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::blocks::keep_m_in_n_impl::set_n</definition>
+        <argsstring>(int n)</argsstring>
+        <name>set_n</name>
+        <param>
+          <type>int</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/keep_m_in_n_impl.h" line="50" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/keep_m_in_n_impl.h" bodystart="50" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1blocks_1_1keep__m__in__n__impl_1a97c8dd0bc6d1f51ab11005c40be25138" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::blocks::keep_m_in_n_impl::set_offset</definition>
+        <argsstring>(int offset)</argsstring>
+        <name>set_offset</name>
+        <param>
+          <type>int</type>
+          <declname>offset</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/keep_m_in_n_impl.h" line="51" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/keep_m_in_n_impl.h" bodystart="51" bodyend="51"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/keep_m_in_n_impl.h" line="32" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/keep_m_in_n_impl.h" bodystart="31" bodyend="52"/>
+    <listofallmembers>
+      <member refid="classgr_1_1blocks_1_1keep__m__in__n__impl_1a618a8fd67f58e40f74af18f07e75d8cf" prot="private" virt="non-virtual"><scope>gr::blocks::keep_m_in_n_impl</scope><name>d_count</name></member>
+      <member refid="classgr_1_1blocks_1_1keep__m__in__n__impl_1a13cdc5add60b655b088fae889b007e14" prot="private" virt="non-virtual"><scope>gr::blocks::keep_m_in_n_impl</scope><name>d_itemsize</name></member>
+      <member refid="classgr_1_1blocks_1_1keep__m__in__n__impl_1ae078e729e9ad45febb85b67c2796cf3c" prot="private" virt="non-virtual"><scope>gr::blocks::keep_m_in_n_impl</scope><name>d_m</name></member>
+      <member refid="classgr_1_1blocks_1_1keep__m__in__n__impl_1a38e550b1208f2cadba33db9e47d2a60b" prot="private" virt="non-virtual"><scope>gr::blocks::keep_m_in_n_impl</scope><name>d_n</name></member>
+      <member refid="classgr_1_1blocks_1_1keep__m__in__n__impl_1a98fd47d172dee2007c15f8799e6fef33" prot="private" virt="non-virtual"><scope>gr::blocks::keep_m_in_n_impl</scope><name>d_offset</name></member>
+      <member refid="classgr_1_1blocks_1_1keep__m__in__n__impl_1a9556b7188887d976bfa60e522e239bca" prot="private" virt="non-virtual"><scope>gr::blocks::keep_m_in_n_impl</scope><name>forecast</name></member>
+      <member refid="classgr_1_1blocks_1_1keep__m__in__n__impl_1af6aac5075c171ab53d8b5d0b5a9213e4" prot="public" virt="non-virtual"><scope>gr::blocks::keep_m_in_n_impl</scope><name>general_work</name></member>
+      <member refid="classgr_1_1blocks_1_1keep__m__in__n__impl_1a477725093c6ae2928d8b4a7d27916248" prot="public" virt="non-virtual"><scope>gr::blocks::keep_m_in_n_impl</scope><name>keep_m_in_n_impl</name></member>
+      <member refid="classgr_1_1blocks_1_1keep__m__in__n__impl_1ad00c08071ed379f1d0f81eb562e6e835" prot="public" virt="non-virtual"><scope>gr::blocks::keep_m_in_n_impl</scope><name>set_m</name></member>
+      <member refid="classgr_1_1blocks_1_1keep__m__in__n__impl_1ad881a19a887c7407b5dfd78a477f425b" prot="public" virt="non-virtual"><scope>gr::blocks::keep_m_in_n_impl</scope><name>set_n</name></member>
+      <member refid="classgr_1_1blocks_1_1keep__m__in__n__impl_1a97c8dd0bc6d1f51ab11005c40be25138" prot="public" virt="non-virtual"><scope>gr::blocks::keep_m_in_n_impl</scope><name>set_offset</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

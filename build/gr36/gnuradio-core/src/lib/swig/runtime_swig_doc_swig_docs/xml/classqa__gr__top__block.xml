@@ -1,0 +1,419 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="classqa__gr__top__block" kind="class" prot="public">
+    <compoundname>qa_gr_top_block</compoundname>
+    <includes refid="qa__gr__top__block_8h" local="no">qa_gr_top_block.h</includes>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classqa__gr__top__block_1af9195df19789eaf05ed0df91c8e96405" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>qa_gr_top_block::CPPUNIT_TEST_SUITE</definition>
+        <argsstring>(qa_gr_top_block)</argsstring>
+        <name>CPPUNIT_TEST_SUITE</name>
+        <param>
+          <type><ref refid="classqa__gr__top__block" kindref="compound">qa_gr_top_block</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/qa_gr_top_block.h" line="32"/>
+      </memberdef>
+      <memberdef kind="function" id="classqa__gr__top__block_1a8bface6ec97680d5d9efc5804625da5f" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>qa_gr_top_block::CPPUNIT_TEST</definition>
+        <argsstring>(t0)</argsstring>
+        <name>CPPUNIT_TEST</name>
+        <param>
+          <type>t0</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/qa_gr_top_block.h" line="34"/>
+      </memberdef>
+      <memberdef kind="function" id="classqa__gr__top__block_1ab062b07961d74a215e64a399040eb3a2" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>qa_gr_top_block::CPPUNIT_TEST</definition>
+        <argsstring>(t1_run)</argsstring>
+        <name>CPPUNIT_TEST</name>
+        <param>
+          <type>t1_run</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/qa_gr_top_block.h" line="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classqa__gr__top__block_1a7b2f5767167372f010dfb03b77221bca" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>qa_gr_top_block::CPPUNIT_TEST</definition>
+        <argsstring>(t2_start_stop_wait)</argsstring>
+        <name>CPPUNIT_TEST</name>
+        <param>
+          <type>t2_start_stop_wait</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/qa_gr_top_block.h" line="36"/>
+      </memberdef>
+      <memberdef kind="function" id="classqa__gr__top__block_1ab3043bafc9a9716f3201bd489689db53" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>qa_gr_top_block::CPPUNIT_TEST</definition>
+        <argsstring>(t3_lock_unlock)</argsstring>
+        <name>CPPUNIT_TEST</name>
+        <param>
+          <type>t3_lock_unlock</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/qa_gr_top_block.h" line="37"/>
+      </memberdef>
+      <memberdef kind="function" id="classqa__gr__top__block_1a5b4c27a533186b615ff104fcd4f7627c" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>qa_gr_top_block::CPPUNIT_TEST</definition>
+        <argsstring>(t4_reconfigure)</argsstring>
+        <name>CPPUNIT_TEST</name>
+        <param>
+          <type>t4_reconfigure</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/qa_gr_top_block.h" line="38"/>
+      </memberdef>
+      <memberdef kind="function" id="classqa__gr__top__block_1a49704b94f69a66583bc3d759b39987da" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>qa_gr_top_block::CPPUNIT_TEST</definition>
+        <argsstring>(t5_max_noutputs)</argsstring>
+        <name>CPPUNIT_TEST</name>
+        <param>
+          <type>t5_max_noutputs</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/qa_gr_top_block.h" line="39"/>
+      </memberdef>
+      <memberdef kind="function" id="classqa__gr__top__block_1acf6185e33aceb5749b282e1ae5aa27f4" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>qa_gr_top_block::CPPUNIT_TEST</definition>
+        <argsstring>(t6_reconfig_max_noutputs)</argsstring>
+        <name>CPPUNIT_TEST</name>
+        <param>
+          <type>t6_reconfig_max_noutputs</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/qa_gr_top_block.h" line="40"/>
+      </memberdef>
+      <memberdef kind="function" id="classqa__gr__top__block_1aa4a9102a50551efa1e3e2668f36588fb" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>qa_gr_top_block::CPPUNIT_TEST</definition>
+        <argsstring>(t7_max_noutputs_per_block)</argsstring>
+        <name>CPPUNIT_TEST</name>
+        <param>
+          <type>t7_max_noutputs_per_block</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/qa_gr_top_block.h" line="41"/>
+      </memberdef>
+      <memberdef kind="function" id="classqa__gr__top__block_1a5eda312a23726ec11ec2362c2ba6c963" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>qa_gr_top_block::CPPUNIT_TEST</definition>
+        <argsstring>(t8_reconfig_max_noutputs_per_block)</argsstring>
+        <name>CPPUNIT_TEST</name>
+        <param>
+          <type>t8_reconfig_max_noutputs_per_block</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/qa_gr_top_block.h" line="42"/>
+      </memberdef>
+      <memberdef kind="function" id="classqa__gr__top__block_1a187513dcf0e9a723759c668983049950" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>qa_gr_top_block::CPPUNIT_TEST</definition>
+        <argsstring>(t9_max_output_buffer)</argsstring>
+        <name>CPPUNIT_TEST</name>
+        <param>
+          <type>t9_max_output_buffer</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/qa_gr_top_block.h" line="43"/>
+      </memberdef>
+      <memberdef kind="function" id="classqa__gr__top__block_1a771ccbdfc9f6c471e0c415d2de0345f2" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>qa_gr_top_block::CPPUNIT_TEST</definition>
+        <argsstring>(t10_reconfig_max_output_buffer)</argsstring>
+        <name>CPPUNIT_TEST</name>
+        <param>
+          <type>t10_reconfig_max_output_buffer</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/qa_gr_top_block.h" line="44"/>
+      </memberdef>
+      <memberdef kind="function" id="classqa__gr__top__block_1ae5466fd67f8a17c614c483842879ffea" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>qa_gr_top_block::CPPUNIT_TEST</definition>
+        <argsstring>(t11_set_block_affinity)</argsstring>
+        <name>CPPUNIT_TEST</name>
+        <param>
+          <type>t11_set_block_affinity</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/qa_gr_top_block.h" line="45"/>
+      </memberdef>
+      <memberdef kind="function" id="classqa__gr__top__block_1afe9781f9a3f425a28e4b1e1b3ea8661e" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>qa_gr_top_block::CPPUNIT_TEST_SUITE_END</definition>
+        <argsstring>()</argsstring>
+        <name>CPPUNIT_TEST_SUITE_END</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/qa_gr_top_block.h" line="47"/>
+      </memberdef>
+      <memberdef kind="function" id="classqa__gr__top__block_1a2bfb0954e50427aa7f366fa6f8684709" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void qa_gr_top_block::t0</definition>
+        <argsstring>()</argsstring>
+        <name>t0</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/qa_gr_top_block.h" line="51"/>
+      </memberdef>
+      <memberdef kind="function" id="classqa__gr__top__block_1aa25ec5cb9af8492814aef38c4c78ce45" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void qa_gr_top_block::t1_run</definition>
+        <argsstring>()</argsstring>
+        <name>t1_run</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/qa_gr_top_block.h" line="52"/>
+      </memberdef>
+      <memberdef kind="function" id="classqa__gr__top__block_1aca3b5eb3663aee17d4945b6f2ca02d07" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void qa_gr_top_block::t2_start_stop_wait</definition>
+        <argsstring>()</argsstring>
+        <name>t2_start_stop_wait</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/qa_gr_top_block.h" line="53"/>
+      </memberdef>
+      <memberdef kind="function" id="classqa__gr__top__block_1a7c74a5d9fa38ef2b428ab6e7ab41147d" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void qa_gr_top_block::t3_lock_unlock</definition>
+        <argsstring>()</argsstring>
+        <name>t3_lock_unlock</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/qa_gr_top_block.h" line="54"/>
+      </memberdef>
+      <memberdef kind="function" id="classqa__gr__top__block_1a6413ce84db6d4289694468b7f39bb17e" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void qa_gr_top_block::t4_reconfigure</definition>
+        <argsstring>()</argsstring>
+        <name>t4_reconfigure</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/qa_gr_top_block.h" line="55"/>
+      </memberdef>
+      <memberdef kind="function" id="classqa__gr__top__block_1a839bdbc56283938c0c445b9ad5069e93" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void qa_gr_top_block::t5_max_noutputs</definition>
+        <argsstring>()</argsstring>
+        <name>t5_max_noutputs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/qa_gr_top_block.h" line="56"/>
+      </memberdef>
+      <memberdef kind="function" id="classqa__gr__top__block_1aa8fde392d6ad5ef660fa77da27af2ef4" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void qa_gr_top_block::t6_reconfig_max_noutputs</definition>
+        <argsstring>()</argsstring>
+        <name>t6_reconfig_max_noutputs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/qa_gr_top_block.h" line="57"/>
+      </memberdef>
+      <memberdef kind="function" id="classqa__gr__top__block_1a4f97238b760817bdbd9af9648dd8347c" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void qa_gr_top_block::t7_max_noutputs_per_block</definition>
+        <argsstring>()</argsstring>
+        <name>t7_max_noutputs_per_block</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/qa_gr_top_block.h" line="58"/>
+      </memberdef>
+      <memberdef kind="function" id="classqa__gr__top__block_1ae39f16bc5109852471f55909b2b9bb92" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void qa_gr_top_block::t8_reconfig_max_noutputs_per_block</definition>
+        <argsstring>()</argsstring>
+        <name>t8_reconfig_max_noutputs_per_block</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/qa_gr_top_block.h" line="59"/>
+      </memberdef>
+      <memberdef kind="function" id="classqa__gr__top__block_1a796bc752ef93592589f5e90f3e6f717c" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void qa_gr_top_block::t9_max_output_buffer</definition>
+        <argsstring>()</argsstring>
+        <name>t9_max_output_buffer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/qa_gr_top_block.h" line="60"/>
+      </memberdef>
+      <memberdef kind="function" id="classqa__gr__top__block_1a55d1dcddd28ff006ff9a86f8dc9f296e" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void qa_gr_top_block::t10_reconfig_max_output_buffer</definition>
+        <argsstring>()</argsstring>
+        <name>t10_reconfig_max_output_buffer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/qa_gr_top_block.h" line="61"/>
+      </memberdef>
+      <memberdef kind="function" id="classqa__gr__top__block_1a9df108113f7bde2b0d4f7b7dbebe7378" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void qa_gr_top_block::t11_set_block_affinity</definition>
+        <argsstring>()</argsstring>
+        <name>t11_set_block_affinity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/qa_gr_top_block.h" line="62"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/qa_gr_top_block.h" line="31" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/qa_gr_top_block.h" bodystart="30" bodyend="64"/>
+    <listofallmembers>
+      <member refid="classqa__gr__top__block_1a8bface6ec97680d5d9efc5804625da5f" prot="private" virt="non-virtual"><scope>qa_gr_top_block</scope><name>CPPUNIT_TEST</name></member>
+      <member refid="classqa__gr__top__block_1ab062b07961d74a215e64a399040eb3a2" prot="private" virt="non-virtual"><scope>qa_gr_top_block</scope><name>CPPUNIT_TEST</name></member>
+      <member refid="classqa__gr__top__block_1a7b2f5767167372f010dfb03b77221bca" prot="private" virt="non-virtual"><scope>qa_gr_top_block</scope><name>CPPUNIT_TEST</name></member>
+      <member refid="classqa__gr__top__block_1ab3043bafc9a9716f3201bd489689db53" prot="private" virt="non-virtual"><scope>qa_gr_top_block</scope><name>CPPUNIT_TEST</name></member>
+      <member refid="classqa__gr__top__block_1a5b4c27a533186b615ff104fcd4f7627c" prot="private" virt="non-virtual"><scope>qa_gr_top_block</scope><name>CPPUNIT_TEST</name></member>
+      <member refid="classqa__gr__top__block_1a49704b94f69a66583bc3d759b39987da" prot="private" virt="non-virtual"><scope>qa_gr_top_block</scope><name>CPPUNIT_TEST</name></member>
+      <member refid="classqa__gr__top__block_1acf6185e33aceb5749b282e1ae5aa27f4" prot="private" virt="non-virtual"><scope>qa_gr_top_block</scope><name>CPPUNIT_TEST</name></member>
+      <member refid="classqa__gr__top__block_1aa4a9102a50551efa1e3e2668f36588fb" prot="private" virt="non-virtual"><scope>qa_gr_top_block</scope><name>CPPUNIT_TEST</name></member>
+      <member refid="classqa__gr__top__block_1a5eda312a23726ec11ec2362c2ba6c963" prot="private" virt="non-virtual"><scope>qa_gr_top_block</scope><name>CPPUNIT_TEST</name></member>
+      <member refid="classqa__gr__top__block_1a187513dcf0e9a723759c668983049950" prot="private" virt="non-virtual"><scope>qa_gr_top_block</scope><name>CPPUNIT_TEST</name></member>
+      <member refid="classqa__gr__top__block_1a771ccbdfc9f6c471e0c415d2de0345f2" prot="private" virt="non-virtual"><scope>qa_gr_top_block</scope><name>CPPUNIT_TEST</name></member>
+      <member refid="classqa__gr__top__block_1ae5466fd67f8a17c614c483842879ffea" prot="private" virt="non-virtual"><scope>qa_gr_top_block</scope><name>CPPUNIT_TEST</name></member>
+      <member refid="classqa__gr__top__block_1af9195df19789eaf05ed0df91c8e96405" prot="private" virt="non-virtual"><scope>qa_gr_top_block</scope><name>CPPUNIT_TEST_SUITE</name></member>
+      <member refid="classqa__gr__top__block_1afe9781f9a3f425a28e4b1e1b3ea8661e" prot="private" virt="non-virtual"><scope>qa_gr_top_block</scope><name>CPPUNIT_TEST_SUITE_END</name></member>
+      <member refid="classqa__gr__top__block_1a2bfb0954e50427aa7f366fa6f8684709" prot="private" virt="non-virtual"><scope>qa_gr_top_block</scope><name>t0</name></member>
+      <member refid="classqa__gr__top__block_1a55d1dcddd28ff006ff9a86f8dc9f296e" prot="private" virt="non-virtual"><scope>qa_gr_top_block</scope><name>t10_reconfig_max_output_buffer</name></member>
+      <member refid="classqa__gr__top__block_1a9df108113f7bde2b0d4f7b7dbebe7378" prot="private" virt="non-virtual"><scope>qa_gr_top_block</scope><name>t11_set_block_affinity</name></member>
+      <member refid="classqa__gr__top__block_1aa25ec5cb9af8492814aef38c4c78ce45" prot="private" virt="non-virtual"><scope>qa_gr_top_block</scope><name>t1_run</name></member>
+      <member refid="classqa__gr__top__block_1aca3b5eb3663aee17d4945b6f2ca02d07" prot="private" virt="non-virtual"><scope>qa_gr_top_block</scope><name>t2_start_stop_wait</name></member>
+      <member refid="classqa__gr__top__block_1a7c74a5d9fa38ef2b428ab6e7ab41147d" prot="private" virt="non-virtual"><scope>qa_gr_top_block</scope><name>t3_lock_unlock</name></member>
+      <member refid="classqa__gr__top__block_1a6413ce84db6d4289694468b7f39bb17e" prot="private" virt="non-virtual"><scope>qa_gr_top_block</scope><name>t4_reconfigure</name></member>
+      <member refid="classqa__gr__top__block_1a839bdbc56283938c0c445b9ad5069e93" prot="private" virt="non-virtual"><scope>qa_gr_top_block</scope><name>t5_max_noutputs</name></member>
+      <member refid="classqa__gr__top__block_1aa8fde392d6ad5ef660fa77da27af2ef4" prot="private" virt="non-virtual"><scope>qa_gr_top_block</scope><name>t6_reconfig_max_noutputs</name></member>
+      <member refid="classqa__gr__top__block_1a4f97238b760817bdbd9af9648dd8347c" prot="private" virt="non-virtual"><scope>qa_gr_top_block</scope><name>t7_max_noutputs_per_block</name></member>
+      <member refid="classqa__gr__top__block_1ae39f16bc5109852471f55909b2b9bb92" prot="private" virt="non-virtual"><scope>qa_gr_top_block</scope><name>t8_reconfig_max_noutputs_per_block</name></member>
+      <member refid="classqa__gr__top__block_1a796bc752ef93592589f5e90f3e6f717c" prot="private" virt="non-virtual"><scope>qa_gr_top_block</scope><name>t9_max_output_buffer</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

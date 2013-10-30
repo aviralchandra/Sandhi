@@ -1,0 +1,164 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="classgr_1_1blocks_1_1stream__mux__impl" kind="class" prot="public">
+    <compoundname>gr::blocks::stream_mux_impl</compoundname>
+    <includes refid="stream__mux__impl_8h" local="no">stream_mux_impl.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1blocks_1_1stream__mux__impl_1ab1deeecf5bec39adfff41b9d1b348828" prot="private" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t gr::blocks::stream_mux_impl::d_itemsize</definition>
+        <argsstring></argsstring>
+        <name>d_itemsize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/stream_mux_impl.h" line="34" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/stream_mux_impl.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1blocks_1_1stream__mux__impl_1a5366bca8394e2f1d1722202a2b202509" prot="private" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int gr::blocks::stream_mux_impl::d_stream</definition>
+        <argsstring></argsstring>
+        <name>d_stream</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/stream_mux_impl.h" line="35" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/stream_mux_impl.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1blocks_1_1stream__mux__impl_1ab5aeb4f7b7546cf7f5d8c76fcf86e1b9" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::blocks::stream_mux_impl::d_residual</definition>
+        <argsstring></argsstring>
+        <name>d_residual</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/stream_mux_impl.h" line="36" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/stream_mux_impl.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1blocks_1_1stream__mux__impl_1aa2e6807cd0f95cedeb6444918acb30c7" prot="private" static="no" mutable="no">
+        <type>gr_vector_int</type>
+        <definition>gr_vector_int gr::blocks::stream_mux_impl::d_lengths</definition>
+        <argsstring></argsstring>
+        <name>d_lengths</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/stream_mux_impl.h" line="37" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/stream_mux_impl.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classgr_1_1blocks_1_1stream__mux__impl_1a2ad76ca9a2253905a26e5fb35f3c3b68" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::blocks::stream_mux_impl::increment_stream</definition>
+        <argsstring>()</argsstring>
+        <name>increment_stream</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/stream_mux_impl.h" line="39"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1blocks_1_1stream__mux__impl_1a3790810d3b08b41ddc282545d16285a9" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::blocks::stream_mux_impl::forecast</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items_required)</argsstring>
+        <name>forecast</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items_required</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/stream_mux_impl.h" line="41"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1blocks_1_1stream__mux__impl_1ac296ad94c8277ee689f9870bacadb0f9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::blocks::stream_mux_impl::stream_mux_impl</definition>
+        <argsstring>(size_t itemsize, const std::vector&lt; int &gt; &amp;lengths)</argsstring>
+        <name>stream_mux_impl</name>
+        <param>
+          <type>size_t</type>
+          <declname>itemsize</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; int &gt; &amp;</type>
+          <declname>lengths</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/stream_mux_impl.h" line="44"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1blocks_1_1stream__mux__impl_1a2b60f6b5efacd07ef3a2a773bb1b65cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::blocks::stream_mux_impl::general_work</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>general_work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/stream_mux_impl.h" line="49"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/stream_mux_impl.h" line="32" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/stream_mux_impl.h" bodystart="31" bodyend="50"/>
+    <listofallmembers>
+      <member refid="classgr_1_1blocks_1_1stream__mux__impl_1ab1deeecf5bec39adfff41b9d1b348828" prot="private" virt="non-virtual"><scope>gr::blocks::stream_mux_impl</scope><name>d_itemsize</name></member>
+      <member refid="classgr_1_1blocks_1_1stream__mux__impl_1aa2e6807cd0f95cedeb6444918acb30c7" prot="private" virt="non-virtual"><scope>gr::blocks::stream_mux_impl</scope><name>d_lengths</name></member>
+      <member refid="classgr_1_1blocks_1_1stream__mux__impl_1ab5aeb4f7b7546cf7f5d8c76fcf86e1b9" prot="private" virt="non-virtual"><scope>gr::blocks::stream_mux_impl</scope><name>d_residual</name></member>
+      <member refid="classgr_1_1blocks_1_1stream__mux__impl_1a5366bca8394e2f1d1722202a2b202509" prot="private" virt="non-virtual"><scope>gr::blocks::stream_mux_impl</scope><name>d_stream</name></member>
+      <member refid="classgr_1_1blocks_1_1stream__mux__impl_1a3790810d3b08b41ddc282545d16285a9" prot="private" virt="non-virtual"><scope>gr::blocks::stream_mux_impl</scope><name>forecast</name></member>
+      <member refid="classgr_1_1blocks_1_1stream__mux__impl_1a2b60f6b5efacd07ef3a2a773bb1b65cc" prot="public" virt="non-virtual"><scope>gr::blocks::stream_mux_impl</scope><name>general_work</name></member>
+      <member refid="classgr_1_1blocks_1_1stream__mux__impl_1a2ad76ca9a2253905a26e5fb35f3c3b68" prot="private" virt="non-virtual"><scope>gr::blocks::stream_mux_impl</scope><name>increment_stream</name></member>
+      <member refid="classgr_1_1blocks_1_1stream__mux__impl_1ac296ad94c8277ee689f9870bacadb0f9" prot="public" virt="non-virtual"><scope>gr::blocks::stream_mux_impl</scope><name>stream_mux_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

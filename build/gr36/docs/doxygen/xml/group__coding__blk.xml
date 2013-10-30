@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="group__coding__blk" kind="group">
+    <compoundname>coding_blk</compoundname>
+    <title>Information Coding and Decoding</title>
+    <innerclass refid="classgr__additive__scrambler__bb" prot="public">gr_additive_scrambler_bb</innerclass>
+    <innerclass refid="classgr__descrambler__bb" prot="public">gr_descrambler_bb</innerclass>
+    <innerclass refid="classgr__diff__decoder__bb" prot="public">gr_diff_decoder_bb</innerclass>
+    <innerclass refid="classgr__diff__encoder__bb" prot="public">gr_diff_encoder_bb</innerclass>
+    <innerclass refid="classgr__fake__channel__encoder__pp" prot="public">gr_fake_channel_encoder_pp</innerclass>
+    <innerclass refid="classgr__fake__channel__decoder__pp" prot="public">gr_fake_channel_decoder_pp</innerclass>
+    <innerclass refid="classgr__map__bb" prot="public">gr_map_bb</innerclass>
+    <innerclass refid="classgr__scrambler__bb" prot="public">gr_scrambler_bb</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,184 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="group__filter__blk" kind="group">
+    <compoundname>filter_blk</compoundname>
+    <title>Filters</title>
+    <innerclass refid="classgr__adaptive__fir__ccc" prot="public">gr_adaptive_fir_ccc</innerclass>
+    <innerclass refid="classgr__adaptive__fir__ccf" prot="public">gr_adaptive_fir_ccf</innerclass>
+    <innerclass refid="classgr__fft__filter__ccc" prot="public">gr_fft_filter_ccc</innerclass>
+    <innerclass refid="classgr__fft__filter__fff" prot="public">gr_fft_filter_fff</innerclass>
+    <innerclass refid="classgr__filter__delay__fc" prot="public">gr_filter_delay_fc</innerclass>
+    <innerclass refid="classgr__fir__fcc__sse" prot="public">gr_fir_fcc_sse</innerclass>
+    <innerclass refid="classgr__fractional__interpolator__cc" prot="public">gr_fractional_interpolator_cc</innerclass>
+    <innerclass refid="classgr__fractional__interpolator__ff" prot="public">gr_fractional_interpolator_ff</innerclass>
+    <innerclass refid="classgr__hilbert__fc" prot="public">gr_hilbert_fc</innerclass>
+    <innerclass refid="classgr__iir__filter__ffd" prot="public">gr_iir_filter_ffd</innerclass>
+    <innerclass refid="classgr__single__pole__iir__filter__cc" prot="public">gr_single_pole_iir_filter_cc</innerclass>
+    <innerclass refid="classgr__single__pole__iir__filter__ff" prot="public">gr_single_pole_iir_filter_ff</innerclass>
+    <innerclass refid="classgri__fft__filter__ccc__generic" prot="public">gri_fft_filter_ccc_generic</innerclass>
+    <innerclass refid="classgri__fft__filter__ccc__sse" prot="public">gri_fft_filter_ccc_sse</innerclass>
+    <innerclass refid="classgr_1_1filter_1_1adaptive__fir__ccc" prot="public">gr::filter::adaptive_fir_ccc</innerclass>
+    <innerclass refid="classgr_1_1filter_1_1adaptive__fir__ccf" prot="public">gr::filter::adaptive_fir_ccf</innerclass>
+    <innerclass refid="classgr_1_1filter_1_1kernel_1_1fft__filter__fff" prot="public">gr::filter::kernel::fft_filter_fff</innerclass>
+    <innerclass refid="classgr_1_1filter_1_1kernel_1_1fft__filter__ccc" prot="public">gr::filter::kernel::fft_filter_ccc</innerclass>
+    <innerclass refid="classgr_1_1filter_1_1fractional__interpolator__cc" prot="public">gr::filter::fractional_interpolator_cc</innerclass>
+    <innerclass refid="classgr_1_1filter_1_1fractional__interpolator__ff" prot="public">gr::filter::fractional_interpolator_ff</innerclass>
+    <innerclass refid="classgr_1_1filter_1_1iir__filter__ffd" prot="public">gr::filter::iir_filter_ffd</innerclass>
+    <innerclass refid="classgr_1_1filter_1_1single__pole__iir__filter__cc" prot="public">gr::filter::single_pole_iir_filter_cc</innerclass>
+    <innerclass refid="classgr_1_1filter_1_1single__pole__iir__filter__ff" prot="public">gr::filter::single_pole_iir_filter_ff</innerclass>
+    <innerclass refid="classgr__dc__blocker__cc" prot="public">gr_dc_blocker_cc</innerclass>
+    <innerclass refid="classgr__dc__blocker__ff" prot="public">gr_dc_blocker_ff</innerclass>
+    <innerclass refid="classgr__pfb__arb__resampler__ccf" prot="public">gr_pfb_arb_resampler_ccf</innerclass>
+    <innerclass refid="classgr__pfb__arb__resampler__fff" prot="public">gr_pfb_arb_resampler_fff</innerclass>
+    <innerclass refid="classgr__pfb__channelizer__ccf" prot="public">gr_pfb_channelizer_ccf</innerclass>
+    <innerclass refid="classgr__pfb__clock__sync__ccf" prot="public">gr_pfb_clock_sync_ccf</innerclass>
+    <innerclass refid="classgr__pfb__clock__sync__fff" prot="public">gr_pfb_clock_sync_fff</innerclass>
+    <innerclass refid="classgr__pfb__decimator__ccf" prot="public">gr_pfb_decimator_ccf</innerclass>
+    <innerclass refid="classgr__pfb__interpolator__ccf" prot="public">gr_pfb_interpolator_ccf</innerclass>
+    <innerclass refid="classgr__pfb__synthesizer__ccf" prot="public">gr_pfb_synthesizer_ccf</innerclass>
+    <innerclass refid="classdc__blocker__cc" prot="public">dc_blocker_cc</innerclass>
+    <innerclass refid="classdc__blocker__ff" prot="public">dc_blocker_ff</innerclass>
+    <innerclass refid="classgr_1_1filter_1_1pfb__arb__resampler__ccf" prot="public">gr::filter::pfb_arb_resampler_ccf</innerclass>
+    <innerclass refid="classgr_1_1filter_1_1pfb__arb__resampler__fff" prot="public">gr::filter::pfb_arb_resampler_fff</innerclass>
+    <innerclass refid="classgr_1_1filter_1_1pfb__channelizer__ccf" prot="public">gr::filter::pfb_channelizer_ccf</innerclass>
+    <innerclass refid="classgr_1_1filter_1_1pfb__decimator__ccf" prot="public">gr::filter::pfb_decimator_ccf</innerclass>
+    <innerclass refid="classgr_1_1filter_1_1pfb__synthesizer__ccf" prot="public">gr::filter::pfb_synthesizer_ccf</innerclass>
+    <innerclass refid="classgr_1_1filter_1_1kernel_1_1polyphase__filterbank" prot="public">gr::filter::kernel::polyphase_filterbank</innerclass>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="group__filter__blk_1gafeea11c42f64d4b2f9c850a520869c20" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>sptr</type>
+        <definition>static sptr gr::filter::fft_filter_ccc::make</definition>
+        <argsstring>(int decimation, const std::vector&lt; gr_complex &gt; &amp;taps, int nthreads=1)</argsstring>
+        <name>make</name>
+        <param>
+          <type>int</type>
+          <declname>decimation</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; <ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref> &gt; &amp;</type>
+          <declname>taps</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nthreads</declname>
+          <defval>1</defval>
+        </param>
+        <briefdescription>
+<para>Fast FFT filter with gr_complex input, gr_complex output and gr_complex taps</para><para>This block implements a complex decimating filter using the fast convolution method via an FFT. The decimation factor is an interger that is greater than or equal to 1. </para>        </briefdescription>
+        <detaileddescription>
+<para>The filter takes a set of complex (or real) taps to use in the filtering operation. These taps can be defined as anything that satisfies the user&apos;s filtering needs. For standard filters such as lowpass, highpass, bandpass, etc., the <ref refid="classgr_1_1filter_1_1firdes" kindref="compound">filter.firdes</ref> and filter.optfir classes provide convenient generating methods.</para><para>This filter is implemented by using the FFTW package to perform the required FFTs. An optional argument, nthreads, may be passed to the constructor (or set using the set_nthreads member function) to split the FFT among N number of threads. This can improve performance on very large FFTs (that is, if the number of taps used is very large) if you have enough threads/cores to support it.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>decimation</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>&gt;= 1 </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>taps</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>complex filter taps </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>nthreads</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>number of threads for the FFT to use </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/include/filter/fft_filter_ccc.h" line="67"/>
+      </memberdef>
+      <memberdef kind="function" id="group__filter__blk_1gae1c9c502174fbfd286bc485e29d4d1fe" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>sptr</type>
+        <definition>static sptr gr::filter::fft_filter_fff::make</definition>
+        <argsstring>(int decimation, const std::vector&lt; float &gt; &amp;taps, int nthreads=1)</argsstring>
+        <name>make</name>
+        <param>
+          <type>int</type>
+          <declname>decimation</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; float &gt; &amp;</type>
+          <declname>taps</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nthreads</declname>
+          <defval>1</defval>
+        </param>
+        <briefdescription>
+<para>Fast FFT filter with float input, float output and float taps</para><para>This block implements a real-value decimating filter using the fast convolution method via an FFT. The decimation factor is an interger that is greater than or equal to 1. </para>        </briefdescription>
+        <detaileddescription>
+<para>The filter takes a set of real-valued taps to use in the filtering operation. These taps can be defined as anything that satisfies the user&apos;s filtering needs. For standard filters such as lowpass, highpass, bandpass, etc., the <ref refid="classgr_1_1filter_1_1firdes" kindref="compound">filter.firdes</ref> and filter.optfir classes provide convenient generating methods.</para><para>This filter is implemented by using the FFTW package to perform the required FFTs. An optional argument, nthreads, may be passed to the constructor (or set using the set_nthreads member function) to split the FFT among N number of threads. This can improve performance on very large FFTs (that is, if the number of taps used is very large) if you have enough threads/cores to support it.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>decimation</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>&gt;= 1 </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>taps</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>float filter taps </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>nthreads</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>number of threads for the FFT to use </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/include/filter/fft_filter_fff.h" line="67"/>
+      </memberdef>
+      <memberdef kind="function" id="group__filter__blk_1gabb8baed7802373d3e08e6687afe15f14" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>sptr</type>
+        <definition>static sptr gr::filter::filter_delay_fc::make</definition>
+        <argsstring>(const std::vector&lt; float &gt; &amp;taps)</argsstring>
+        <name>make</name>
+        <param>
+          <type>const std::vector&lt; float &gt; &amp;</type>
+          <declname>taps</declname>
+        </param>
+        <briefdescription>
+<para>Filter-Delay Combination Block.</para><para>The block takes one or two float stream and outputs a complex stream. </para>        </briefdescription>
+        <detaileddescription>
+<para>If only one float stream is input, the real output is a delayed version of this input and the imaginary output is the filtered output.</para><para>If two floats are connected to the input, then the real output is the delayed version of the first input, and the imaginary output is the filtered output.</para><para>The delay in the real path accounts for the group delay introduced by the filter in the imaginary path. The filter taps needs to be calculated before initializing this block. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/include/filter/filter_delay_fc.h" line="59"/>
+      </memberdef>
+      <memberdef kind="function" id="group__filter__blk_1ga2715c7adf640152f5fcec29db27541ab" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>sptr</type>
+        <definition>static sptr gr::filter::hilbert_fc::make</definition>
+        <argsstring>(unsigned int ntaps)</argsstring>
+        <name>make</name>
+        <param>
+          <type>unsigned int</type>
+          <declname>ntaps</declname>
+        </param>
+        <briefdescription>
+<para>Hilbert transformer.</para><para>real output is input appropriately delayed. imaginary output is hilbert filtered (90 degree phase shift) version of input. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/include/filter/hilbert_fc.h" line="47"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

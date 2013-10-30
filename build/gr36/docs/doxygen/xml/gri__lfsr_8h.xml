@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="gri__lfsr_8h" kind="file">
+    <compoundname>gri_lfsr.h</compoundname>
+    <includes refid="gr__core__api_8h" local="no">gr_core_api.h</includes>
+    <includes local="no">stdexcept</includes>
+    <includes refid="stdint_8h" local="no">stdint.h</includes>
+    <includedby refid="gr__additive__scrambler__bb_8h" local="yes">gr_additive_scrambler_bb.h</includedby>
+    <includedby refid="gr__descrambler__bb_8h" local="yes">gr_descrambler_bb.h</includedby>
+    <includedby refid="gr__scrambler__bb_8h" local="yes">gr_scrambler_bb.h</includedby>
+    <incdepgraph>
+      <node id="14652">
+        <label>gr_core_api.h</label>
+        <link refid="gr__core__api_8h"/>
+        <childnode refid="14653" relation="include">
+        </childnode>
+      </node>
+      <node id="14655">
+        <label>stdint.h</label>
+        <link refid="stdint_8h"/>
+        <childnode refid="14656" relation="include">
+        </childnode>
+        <childnode refid="14657" relation="include">
+        </childnode>
+      </node>
+      <node id="14654">
+        <label>stdexcept</label>
+      </node>
+      <node id="14653">
+        <label>gruel/attributes.h</label>
+        <link refid="attributes_8h"/>
+      </node>
+      <node id="14651">
+        <label>gri_lfsr.h</label>
+        <link refid="gri_lfsr.h"/>
+        <childnode refid="14652" relation="include">
+        </childnode>
+        <childnode refid="14654" relation="include">
+        </childnode>
+        <childnode refid="14655" relation="include">
+        </childnode>
+      </node>
+      <node id="14656">
+        <label>limits.h</label>
+      </node>
+      <node id="14657">
+        <label>wchar.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="14661">
+        <label>gr_scrambler_bb.h</label>
+        <link refid="gr__scrambler__bb_8h"/>
+      </node>
+      <node id="14658">
+        <label>gri_lfsr.h</label>
+        <link refid="gri_lfsr.h"/>
+        <childnode refid="14659" relation="include">
+        </childnode>
+        <childnode refid="14660" relation="include">
+        </childnode>
+        <childnode refid="14661" relation="include">
+        </childnode>
+      </node>
+      <node id="14660">
+        <label>gr_descrambler_bb.h</label>
+        <link refid="gr__descrambler__bb_8h"/>
+      </node>
+      <node id="14659">
+        <label>gr_additive_scrambler_bb.h</label>
+        <link refid="gr__additive__scrambler__bb_8h"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classgri__lfsr" prot="public">gri_lfsr</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gri_lfsr.h"/>
+  </compounddef>
+</doxygen>

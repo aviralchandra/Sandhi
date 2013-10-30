@@ -1,0 +1,124 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="classgr__msg__edge" kind="class" prot="public">
+    <compoundname>gr_msg_edge</compoundname>
+    <includes refid="gr__flowgraph_8h" local="no">gr_flowgraph.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr__msg__edge_1afbb5153a7969567ff62f45aa0fe55d03" prot="private" static="no" mutable="no">
+        <type><ref refid="classgr__msg__endpoint" kindref="compound">gr_msg_endpoint</ref></type>
+        <definition>gr_msg_endpoint gr_msg_edge::d_src</definition>
+        <argsstring></argsstring>
+        <name>d_src</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_flowgraph.h" line="124" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_flowgraph.h" bodystart="124" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr__msg__edge_1af7ec5a7ff53b405df577285022900949" prot="private" static="no" mutable="no">
+        <type><ref refid="classgr__msg__endpoint" kindref="compound">gr_msg_endpoint</ref></type>
+        <definition>gr_msg_endpoint gr_msg_edge::d_dst</definition>
+        <argsstring></argsstring>
+        <name>d_dst</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_flowgraph.h" line="125" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_flowgraph.h" bodystart="125" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr__msg__edge_1a9cfb9a71aa6fcfd7c97176792674342b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>gr_msg_edge::gr_msg_edge</definition>
+        <argsstring>()</argsstring>
+        <name>gr_msg_edge</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_flowgraph.h" line="116" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_flowgraph.h" bodystart="116" bodyend="116"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr__msg__edge_1a93d98818139b3fade58ba2e4df2c2241" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>gr_msg_edge::gr_msg_edge</definition>
+        <argsstring>(const gr_msg_endpoint &amp;src, const gr_msg_endpoint &amp;dst)</argsstring>
+        <name>gr_msg_edge</name>
+        <param>
+          <type>const <ref refid="classgr__msg__endpoint" kindref="compound">gr_msg_endpoint</ref> &amp;</type>
+          <declname>src</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classgr__msg__endpoint" kindref="compound">gr_msg_endpoint</ref> &amp;</type>
+          <declname>dst</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_flowgraph.h" line="117" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_flowgraph.h" bodystart="117" bodyend="117"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr__msg__edge_1a093841db21ab77d1696004d886c1aa05" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>gr_msg_edge::~gr_msg_edge</definition>
+        <argsstring>()</argsstring>
+        <name>~gr_msg_edge</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_flowgraph.h" line="118" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_flowgraph.h" bodystart="118" bodyend="118"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr__msg__edge_1a9404e3fae0cb90ba1fb9091eb1079121" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="classgr__msg__endpoint" kindref="compound">gr_msg_endpoint</ref> &amp;</type>
+        <definition>const gr_msg_endpoint&amp; gr_msg_edge::src</definition>
+        <argsstring>() const </argsstring>
+        <name>src</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_flowgraph.h" line="120" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_flowgraph.h" bodystart="120" bodyend="120"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr__msg__edge_1ab169fbc8b843325368f75c8ed47dd24a" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="classgr__msg__endpoint" kindref="compound">gr_msg_endpoint</ref> &amp;</type>
+        <definition>const gr_msg_endpoint&amp; gr_msg_edge::dst</definition>
+        <argsstring>() const </argsstring>
+        <name>dst</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_flowgraph.h" line="121" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_flowgraph.h" bodystart="121" bodyend="121"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class representing a msg connection between to graph msg endpoints. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_flowgraph.h" line="114" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_flowgraph.h" bodystart="113" bodyend="126"/>
+    <listofallmembers>
+      <member refid="classgr__msg__edge_1af7ec5a7ff53b405df577285022900949" prot="private" virt="non-virtual"><scope>gr_msg_edge</scope><name>d_dst</name></member>
+      <member refid="classgr__msg__edge_1afbb5153a7969567ff62f45aa0fe55d03" prot="private" virt="non-virtual"><scope>gr_msg_edge</scope><name>d_src</name></member>
+      <member refid="classgr__msg__edge_1ab169fbc8b843325368f75c8ed47dd24a" prot="public" virt="non-virtual"><scope>gr_msg_edge</scope><name>dst</name></member>
+      <member refid="classgr__msg__edge_1a9cfb9a71aa6fcfd7c97176792674342b" prot="public" virt="non-virtual"><scope>gr_msg_edge</scope><name>gr_msg_edge</name></member>
+      <member refid="classgr__msg__edge_1a93d98818139b3fade58ba2e4df2c2241" prot="public" virt="non-virtual"><scope>gr_msg_edge</scope><name>gr_msg_edge</name></member>
+      <member refid="classgr__msg__edge_1a9404e3fae0cb90ba1fb9091eb1079121" prot="public" virt="non-virtual"><scope>gr_msg_edge</scope><name>src</name></member>
+      <member refid="classgr__msg__edge_1a093841db21ab77d1696004d886c1aa05" prot="public" virt="non-virtual"><scope>gr_msg_edge</scope><name>~gr_msg_edge</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

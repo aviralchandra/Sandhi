@@ -1,0 +1,229 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="gr__pdu_8h" kind="file">
+    <compoundname>gr_pdu.h</compoundname>
+    <includes local="no">gr_complex.h</includes>
+    <includes local="no">gruel/pmt.h</includes>
+    <includedby refid="gr__pdu__to__tagged__stream_8h" local="no">/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/io/gr_pdu_to_tagged_stream.h</includedby>
+    <includedby refid="gr__tagged__stream__to__pdu_8h" local="no">/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/io/gr_tagged_stream_to_pdu.h</includedby>
+    <incdepgraph>
+      <node id="76">
+        <label>/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/io/gr_pdu.h</label>
+        <link refid="gr_pdu.h"/>
+        <childnode refid="77" relation="include">
+        </childnode>
+        <childnode refid="78" relation="include">
+        </childnode>
+      </node>
+      <node id="77">
+        <label>gr_complex.h</label>
+      </node>
+      <node id="78">
+        <label>gruel/pmt.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="79">
+        <label>/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/io/gr_pdu.h</label>
+        <link refid="gr_pdu.h"/>
+        <childnode refid="80" relation="include">
+        </childnode>
+        <childnode refid="81" relation="include">
+        </childnode>
+      </node>
+      <node id="81">
+        <label>/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/io/gr_tagged_stream_to_pdu.h</label>
+        <link refid="gr__tagged__stream__to__pdu_8h"/>
+      </node>
+      <node id="80">
+        <label>/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/io/gr_pdu_to_tagged_stream.h</label>
+        <link refid="gr__pdu__to__tagged__stream_8h"/>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="gr__pdu_8h_1a5663ead78c7815f69f7324dee8b61c5d" prot="public" static="no">
+        <name>pdu_port_id</name>
+        <initializer>pmt::mp(&quot;pdus&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/io/gr_pdu.h" line="29" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/io/gr_pdu.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="gr__pdu_8h_1abefccda0d9ee5e7c45fd9df25fe73a74" prot="public" static="no">
+        <name>pdu_length_tag</name>
+        <initializer>pmt::mp(&quot;pdu_length&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/io/gr_pdu.h" line="30" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/io/gr_pdu.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="gr__pdu_8h_1a60e85386d9ae0caa0f152c2fd67f32cc" prot="public" static="no">
+        <name>gr_pdu_vector_type</name>
+        <enumvalue id="gr__pdu_8h_1a60e85386d9ae0caa0f152c2fd67f32ccab679325f13d71c89c6c67b0265d9bb89" prot="public">
+          <name>pdu_byte</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="gr__pdu_8h_1a60e85386d9ae0caa0f152c2fd67f32ccac9ee10f0c67f2b1199ad96d8cc230f43" prot="public">
+          <name>pdu_float</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="gr__pdu_8h_1a60e85386d9ae0caa0f152c2fd67f32cca865c98db3914d20b6cad422e9787c71e" prot="public">
+          <name>pdu_complex</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/io/gr_pdu.h" line="32" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/io/gr_pdu.h" bodystart="32" bodyend="32"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="gr__pdu_8h_1aa445d4a13bd275312f305f18bce7c6f7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t gr_pdu_itemsize</definition>
+        <argsstring>(gr_pdu_vector_type type)</argsstring>
+        <name>gr_pdu_itemsize</name>
+        <param>
+          <type><ref refid="gr__pdu_8h_1a60e85386d9ae0caa0f152c2fd67f32cc" kindref="member">gr_pdu_vector_type</ref></type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/io/gr_pdu.h" line="34"/>
+      </memberdef>
+      <memberdef kind="function" id="gr__pdu_8h_1a8233d70c8ca17d0769acde054502cb25" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool gr_pdu_type_matches</definition>
+        <argsstring>(gr_pdu_vector_type type, pmt::pmt_t v)</argsstring>
+        <name>gr_pdu_type_matches</name>
+        <param>
+          <type><ref refid="gr__pdu_8h_1a60e85386d9ae0caa0f152c2fd67f32cc" kindref="member">gr_pdu_vector_type</ref></type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>pmt::pmt_t</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/io/gr_pdu.h" line="35"/>
+      </memberdef>
+      <memberdef kind="function" id="gr__pdu_8h_1aba5dcd5ab38b1373040a3fc682962453" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>pmt::pmt_t</type>
+        <definition>pmt::pmt_t gr_pdu_make_vector</definition>
+        <argsstring>(gr_pdu_vector_type type, const uint8_t *buf, size_t items)</argsstring>
+        <name>gr_pdu_make_vector</name>
+        <param>
+          <type><ref refid="gr__pdu_8h_1a60e85386d9ae0caa0f152c2fd67f32cc" kindref="member">gr_pdu_vector_type</ref></type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>const uint8_t *</type>
+          <declname>buf</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/io/gr_pdu.h" line="36"/>
+      </memberdef>
+      <memberdef kind="function" id="gr__pdu_8h_1a7984092d5d08ab87261ec9dcca3811df" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="gr__pdu_8h_1a60e85386d9ae0caa0f152c2fd67f32cc" kindref="member">gr_pdu_vector_type</ref></type>
+        <definition>gr_pdu_vector_type type_from_pmt</definition>
+        <argsstring>(pmt::pmt_t vector)</argsstring>
+        <name>type_from_pmt</name>
+        <param>
+          <type>pmt::pmt_t</type>
+          <declname>vector</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/io/gr_pdu.h" line="37"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*<sp/>-*-<sp/>c++<sp/>-*-<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>2012<sp/>Free<sp/>Software<sp/>Foundation,<sp/>Inc.</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/>This<sp/>file<sp/>is<sp/>part<sp/>of<sp/>GNU<sp/>Radio</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/>GNU<sp/>Radio<sp/>is<sp/>free<sp/>software;<sp/>you<sp/>can<sp/>redistribute<sp/>it<sp/>and/or<sp/>modify</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/>it<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>as<sp/>published<sp/>by</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/>the<sp/>Free<sp/>Software<sp/>Foundation;<sp/>either<sp/>version<sp/>3,<sp/>or<sp/>(at<sp/>your<sp/>option)</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/>any<sp/>later<sp/>version.</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>GNU<sp/>Radio<sp/>is<sp/>distributed<sp/>in<sp/>the<sp/>hope<sp/>that<sp/>it<sp/>will<sp/>be<sp/>useful,</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/>but<sp/>WITHOUT<sp/>ANY<sp/>WARRANTY;<sp/>without<sp/>even<sp/>the<sp/>implied<sp/>warranty<sp/>of</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>MERCHANTABILITY<sp/>or<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE.<sp/><sp/>See<sp/>the</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>for<sp/>more<sp/>details.</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*<sp/>You<sp/>should<sp/>have<sp/>received<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/>*<sp/>along<sp/>with<sp/>GNU<sp/>Radio;<sp/>see<sp/>the<sp/>file<sp/>COPYING.<sp/><sp/>If<sp/>not,<sp/>write<sp/>to</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/>*<sp/>the<sp/>Free<sp/>Software<sp/>Foundation,<sp/>Inc.,<sp/>51<sp/>Franklin<sp/>Street,</highlight></codeline>
+<codeline lineno="20"><highlight class="comment"><sp/>*<sp/>Boston,<sp/>MA<sp/>02110-1301,<sp/>USA.</highlight></codeline>
+<codeline lineno="21"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>GR_PDU_H</highlight></codeline>
+<codeline lineno="24"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>GR_PDU_H</highlight></codeline>
+<codeline lineno="25"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;gr_complex.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;gruel/pmt.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29" refid="gr__pdu_8h_1a5663ead78c7815f69f7324dee8b61c5d" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>pdu_port_id<sp/><sp/><sp/><sp/><sp/>pmt::mp(&quot;pdus&quot;)</highlight></codeline>
+<codeline lineno="30" refid="gr__pdu_8h_1abefccda0d9ee5e7c45fd9df25fe73a74" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>pdu_length_tag<sp/><sp/>pmt::mp(&quot;pdu_length&quot;)</highlight></codeline>
+<codeline lineno="31"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32" refid="gr__pdu_8h_1a60e85386d9ae0caa0f152c2fd67f32ccac9ee10f0c67f2b1199ad96d8cc230f43" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="gr__pdu_8h_1a60e85386d9ae0caa0f152c2fd67f32cc" kindref="member">gr_pdu_vector_type</ref><sp/>{<sp/><ref refid="gr__pdu_8h_1a60e85386d9ae0caa0f152c2fd67f32ccab679325f13d71c89c6c67b0265d9bb89" kindref="member">pdu_byte</ref>,<sp/><ref refid="gr__pdu_8h_1a60e85386d9ae0caa0f152c2fd67f32ccac9ee10f0c67f2b1199ad96d8cc230f43" kindref="member">pdu_float</ref>,<sp/><ref refid="gr__pdu_8h_1a60e85386d9ae0caa0f152c2fd67f32cca865c98db3914d20b6cad422e9787c71e" kindref="member">pdu_complex</ref><sp/>};</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="gr__pdu_8h_1aa445d4a13bd275312f305f18bce7c6f7" kindref="member">gr_pdu_itemsize</ref>(<ref refid="gr__pdu_8h_1a60e85386d9ae0caa0f152c2fd67f32cc" kindref="member">gr_pdu_vector_type</ref><sp/>type);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="gr__pdu_8h_1a8233d70c8ca17d0769acde054502cb25" kindref="member">gr_pdu_type_matches</ref>(<ref refid="gr__pdu_8h_1a60e85386d9ae0caa0f152c2fd67f32cc" kindref="member">gr_pdu_vector_type</ref><sp/>type,<sp/>pmt::pmt_t<sp/>v);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal">pmt::pmt_t<sp/><ref refid="gr__pdu_8h_1aba5dcd5ab38b1373040a3fc682962453" kindref="member">gr_pdu_make_vector</ref>(<ref refid="gr__pdu_8h_1a60e85386d9ae0caa0f152c2fd67f32cc" kindref="member">gr_pdu_vector_type</ref><sp/>type,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t*<sp/>buf,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>items);</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><ref refid="gr__pdu_8h_1a60e85386d9ae0caa0f152c2fd67f32cc" kindref="member">gr_pdu_vector_type</ref><sp/><ref refid="gr__pdu_8h_1a7984092d5d08ab87261ec9dcca3811df" kindref="member">type_from_pmt</ref>(pmt::pmt_t<sp/>vector);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/io/gr_pdu.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="volk__prefs_8h" kind="file">
+    <compoundname>volk_prefs.h</compoundname>
+    <includes refid="volk__common_8h" local="no">volk/volk_common.h</includes>
+    <includes local="no">stdlib.h</includes>
+    <incdepgraph>
+      <node id="22061">
+        <label>volk/volk_common.h</label>
+        <link refid="volk__common_8h"/>
+        <childnode refid="22062" relation="include">
+        </childnode>
+      </node>
+      <node id="22060">
+        <label>volk_prefs.h</label>
+        <link refid="volk_prefs.h"/>
+        <childnode refid="22061" relation="include">
+        </childnode>
+        <childnode refid="22066" relation="include">
+        </childnode>
+      </node>
+      <node id="22063">
+        <label>stdint.h</label>
+        <link refid="stdint_8h"/>
+        <childnode refid="22064" relation="include">
+        </childnode>
+        <childnode refid="22065" relation="include">
+        </childnode>
+      </node>
+      <node id="22062">
+        <label>inttypes.h</label>
+        <link refid="inttypes_8h"/>
+        <childnode refid="22063" relation="include">
+        </childnode>
+      </node>
+      <node id="22066">
+        <label>stdlib.h</label>
+      </node>
+      <node id="22064">
+        <label>limits.h</label>
+      </node>
+      <node id="22065">
+        <label>wchar.h</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="structvolk__arch__pref" prot="public">volk_arch_pref</innerclass>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="volk__prefs_8h_1a0835a69131505c0a32e2b11ea45353ce" prot="public" static="no">
+        <type><ref refid="volk__common_8h_1ac1abbb6f13c8d9be04370be31ef9c5be" kindref="member">__VOLK_DECL_BEGIN</ref> struct <ref refid="structvolk__arch__pref" kindref="compound">volk_arch_pref</ref></type>
+        <definition>typedef __VOLK_DECL_BEGIN struct volk_arch_pref  volk_arch_pref_t</definition>
+        <argsstring></argsstring>
+        <name>volk_arch_pref_t</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/volk/include/volk/volk_prefs.h" line="14"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="volk__prefs_8h_1acfec5b37178adccc175445810a4a48f4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="volk__common_8h_1aad4656ebd3cf8ae30363d8bc205a72be" kindref="member">VOLK_API</ref> <ref refid="volk_8tmpl_8h_1a2b104da38b6f0a28d721ed74346ef298" kindref="member">void</ref></type>
+        <definition>VOLK_API void volk_get_config_path</definition>
+        <argsstring>(char *)</argsstring>
+        <name>volk_get_config_path</name>
+        <param>
+          <type>char *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/volk/include/volk/volk_prefs.h" line="19"/>
+      </memberdef>
+      <memberdef kind="function" id="volk__prefs_8h_1a47e3cd9fc5f53282372cc4525cd53f03" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="volk__common_8h_1aad4656ebd3cf8ae30363d8bc205a72be" kindref="member">VOLK_API</ref> size_t</type>
+        <definition>VOLK_API size_t volk_load_preferences</definition>
+        <argsstring>(volk_arch_pref_t **)</argsstring>
+        <name>volk_load_preferences</name>
+        <param>
+          <type><ref refid="volk__prefs_8h_1a0835a69131505c0a32e2b11ea45353ce" kindref="member">volk_arch_pref_t</ref> **</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/volk/include/volk/volk_prefs.h" line="24"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/aviral/GNU-Niyantran/gr36/volk/include/volk/volk_prefs.h"/>
+  </compounddef>
+</doxygen>

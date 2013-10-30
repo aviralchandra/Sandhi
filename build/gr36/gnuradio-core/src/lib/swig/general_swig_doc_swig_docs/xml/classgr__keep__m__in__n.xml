@@ -1,0 +1,258 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="classgr__keep__m__in__n" kind="class" prot="public">
+    <compoundname>gr_keep_m_in_n</compoundname>
+    <includes refid="gr__keep__m__in__n_8h" local="no">gr_keep_m_in_n.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr__keep__m__in__n_1a435e40ef406052cc8fdc2672b61d68ae" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr_keep_m_in_n::d_n</definition>
+        <argsstring></argsstring>
+        <name>d_n</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_keep_m_in_n.h" line="45" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_keep_m_in_n.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr__keep__m__in__n_1a847b20a45d3b0bd960e5c873a85ed803" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr_keep_m_in_n::d_m</definition>
+        <argsstring></argsstring>
+        <name>d_m</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_keep_m_in_n.h" line="46" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_keep_m_in_n.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr__keep__m__in__n_1af48dc04ab9a20bf0169098519f1fc270" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr_keep_m_in_n::d_count</definition>
+        <argsstring></argsstring>
+        <name>d_count</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_keep_m_in_n.h" line="47" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_keep_m_in_n.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr__keep__m__in__n_1aa1a25f4cb0558b0bb94d9a0e0e05f9af" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr_keep_m_in_n::d_offset</definition>
+        <argsstring></argsstring>
+        <name>d_offset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_keep_m_in_n.h" line="48" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_keep_m_in_n.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr__keep__m__in__n_1a9584189b4f94854ad6e513c23876bd5d" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr_keep_m_in_n::d_itemsize</definition>
+        <argsstring></argsstring>
+        <name>d_itemsize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_keep_m_in_n.h" line="49" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_keep_m_in_n.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="classgr__keep__m__in__n_1a34e4b97745ff802c18eaff72da5d97a2" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend __GR_ATTR_IMPORT <ref refid="gr__keep__m__in__n_8h_1aa9b54f80ef4a148bc77c9333b7f92c5b" kindref="member">gr_keep_m_in_n_sptr</ref></type>
+        <definition>__GR_ATTR_IMPORT gr_keep_m_in_n_sptr gr_make_keep_m_in_n</definition>
+        <argsstring>(size_t item_size, int m, int n, int offset)</argsstring>
+        <name>gr_make_keep_m_in_n</name>
+        <param>
+          <type>size_t</type>
+          <declname>item_size</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>m</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>offset</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_keep_m_in_n.h" line="43"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classgr__keep__m__in__n_1a18124c5b15b19f1a6cbfa6fa15119b21" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr_keep_m_in_n::gr_keep_m_in_n</definition>
+        <argsstring>(size_t item_size, int m, int n, int offset)</argsstring>
+        <name>gr_keep_m_in_n</name>
+        <param>
+          <type>size_t</type>
+          <declname>item_size</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>m</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>offset</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_keep_m_in_n.h" line="52"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr__keep__m__in__n_1a199be202ecc694c31c12c71de54eaea5" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr_keep_m_in_n::forecast</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items_required)</argsstring>
+        <name>forecast</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items_required</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_keep_m_in_n.h" line="53"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr__keep__m__in__n_1a8d012a80f21e890ec98aa1f047f10387" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr_keep_m_in_n::general_work</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>general_work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_keep_m_in_n.h" line="59"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr__keep__m__in__n_1a79bdf8e02f62351bb74f91dbd2bf33ef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr_keep_m_in_n::set_offset</definition>
+        <argsstring>(int offset)</argsstring>
+        <name>set_offset</name>
+        <param>
+          <type>int</type>
+          <declname>offset</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_keep_m_in_n.h" line="61"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr__keep__m__in__n_1ab3ca38ba69035e93bfa5a3d8155d8ed4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr_keep_m_in_n::set_n</definition>
+        <argsstring>(int n)</argsstring>
+        <name>set_n</name>
+        <param>
+          <type>int</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_keep_m_in_n.h" line="62" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_keep_m_in_n.h" bodystart="62" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr__keep__m__in__n_1a1f186b9247e215ea30fe22d7622b4874" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr_keep_m_in_n::set_m</definition>
+        <argsstring>(int m)</argsstring>
+        <name>set_m</name>
+        <param>
+          <type>int</type>
+          <declname>m</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_keep_m_in_n.h" line="63" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_keep_m_in_n.h" bodystart="63" bodyend="63"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>decimate a stream, keeping one item out of every n. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_keep_m_in_n.h" line="41" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_keep_m_in_n.h" bodystart="40" bodyend="65"/>
+    <listofallmembers>
+      <member refid="classgr__keep__m__in__n_1af48dc04ab9a20bf0169098519f1fc270" prot="private" virt="non-virtual"><scope>gr_keep_m_in_n</scope><name>d_count</name></member>
+      <member refid="classgr__keep__m__in__n_1a9584189b4f94854ad6e513c23876bd5d" prot="private" virt="non-virtual"><scope>gr_keep_m_in_n</scope><name>d_itemsize</name></member>
+      <member refid="classgr__keep__m__in__n_1a847b20a45d3b0bd960e5c873a85ed803" prot="private" virt="non-virtual"><scope>gr_keep_m_in_n</scope><name>d_m</name></member>
+      <member refid="classgr__keep__m__in__n_1a435e40ef406052cc8fdc2672b61d68ae" prot="private" virt="non-virtual"><scope>gr_keep_m_in_n</scope><name>d_n</name></member>
+      <member refid="classgr__keep__m__in__n_1aa1a25f4cb0558b0bb94d9a0e0e05f9af" prot="private" virt="non-virtual"><scope>gr_keep_m_in_n</scope><name>d_offset</name></member>
+      <member refid="classgr__keep__m__in__n_1a199be202ecc694c31c12c71de54eaea5" prot="protected" virt="non-virtual"><scope>gr_keep_m_in_n</scope><name>forecast</name></member>
+      <member refid="classgr__keep__m__in__n_1a8d012a80f21e890ec98aa1f047f10387" prot="public" virt="non-virtual"><scope>gr_keep_m_in_n</scope><name>general_work</name></member>
+      <member refid="classgr__keep__m__in__n_1a18124c5b15b19f1a6cbfa6fa15119b21" prot="protected" virt="non-virtual"><scope>gr_keep_m_in_n</scope><name>gr_keep_m_in_n</name></member>
+      <member refid="classgr__keep__m__in__n_1a34e4b97745ff802c18eaff72da5d97a2" prot="private" virt="non-virtual"><scope>gr_keep_m_in_n</scope><name>gr_make_keep_m_in_n</name></member>
+      <member refid="classgr__keep__m__in__n_1a1f186b9247e215ea30fe22d7622b4874" prot="public" virt="non-virtual"><scope>gr_keep_m_in_n</scope><name>set_m</name></member>
+      <member refid="classgr__keep__m__in__n_1ab3ca38ba69035e93bfa5a3d8155d8ed4" prot="public" virt="non-virtual"><scope>gr_keep_m_in_n</scope><name>set_n</name></member>
+      <member refid="classgr__keep__m__in__n_1a79bdf8e02f62351bb74f91dbd2bf33ef" prot="public" virt="non-virtual"><scope>gr_keep_m_in_n</scope><name>set_offset</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

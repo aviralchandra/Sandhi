@@ -1,0 +1,262 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="gr__keep__one__in__n_8h" kind="file">
+    <compoundname>gr_keep_one_in_n.h</compoundname>
+    <includes refid="gr__core__api_8h" local="no">gr_core_api.h</includes>
+    <includes refid="gr__sync__decimator_8h" local="no">gr_sync_decimator.h</includes>
+    <incdepgraph>
+      <node id="8607">
+        <label>boost/thread/mutex.hpp</label>
+      </node>
+      <node id="8609">
+        <label>boost/thread/condition_variable.hpp</label>
+      </node>
+      <node id="8591">
+        <label>boost/shared_ptr.hpp</label>
+      </node>
+      <node id="8588">
+        <label>gruel/pmt.h</label>
+        <link refid="pmt_8h"/>
+        <childnode refid="8589" relation="include">
+        </childnode>
+        <childnode refid="8590" relation="include">
+        </childnode>
+        <childnode refid="8591" relation="include">
+        </childnode>
+        <childnode refid="8592" relation="include">
+        </childnode>
+        <childnode refid="8593" relation="include">
+        </childnode>
+        <childnode refid="8594" relation="include">
+        </childnode>
+        <childnode refid="8595" relation="include">
+        </childnode>
+        <childnode refid="8598" relation="include">
+        </childnode>
+        <childnode refid="8599" relation="include">
+        </childnode>
+        <childnode refid="8600" relation="include">
+        </childnode>
+        <childnode refid="8601" relation="include">
+        </childnode>
+      </node>
+      <node id="8590">
+        <label>boost/intrusive_ptr.hpp</label>
+      </node>
+      <node id="8574">
+        <label>gr_keep_one_in_n.h</label>
+        <link refid="gr_keep_one_in_n.h"/>
+        <childnode refid="8575" relation="include">
+        </childnode>
+        <childnode refid="8577" relation="include">
+        </childnode>
+      </node>
+      <node id="8575">
+        <label>gr_core_api.h</label>
+        <link refid="gr__core__api_8h"/>
+        <childnode refid="8576" relation="include">
+        </childnode>
+      </node>
+      <node id="8595">
+        <label>stdint.h</label>
+        <link refid="stdint_8h"/>
+        <childnode refid="8596" relation="include">
+        </childnode>
+        <childnode refid="8597" relation="include">
+        </childnode>
+      </node>
+      <node id="8586">
+        <label>gras/hier_block.hpp</label>
+      </node>
+      <node id="8585">
+        <label>gras/top_block.hpp</label>
+      </node>
+      <node id="8604">
+        <label>boost/foreach.hpp</label>
+      </node>
+      <node id="8599">
+        <label>stdexcept</label>
+      </node>
+      <node id="8580">
+        <label>gras/block.hpp</label>
+      </node>
+      <node id="8606">
+        <label>boost/thread/thread.hpp</label>
+      </node>
+      <node id="8594">
+        <label>string</label>
+      </node>
+      <node id="8603">
+        <label>map</label>
+      </node>
+      <node id="8576">
+        <label>gruel/attributes.h</label>
+        <link refid="attributes_8h"/>
+      </node>
+      <node id="8577">
+        <label>gr_sync_decimator.h</label>
+        <link refid="gr__sync__decimator_8h"/>
+        <childnode refid="8578" relation="include">
+        </childnode>
+      </node>
+      <node id="8596">
+        <label>limits.h</label>
+      </node>
+      <node id="8592">
+        <label>boost/any.hpp</label>
+      </node>
+      <node id="8579">
+        <label>gr_block.h</label>
+        <link refid="gr__block_8h"/>
+        <childnode refid="8575" relation="include">
+        </childnode>
+        <childnode refid="8580" relation="include">
+        </childnode>
+        <childnode refid="8581" relation="include">
+        </childnode>
+        <childnode refid="8583" relation="include">
+        </childnode>
+        <childnode refid="8587" relation="include">
+        </childnode>
+        <childnode refid="8594" relation="include">
+        </childnode>
+        <childnode refid="8602" relation="include">
+        </childnode>
+        <childnode refid="8603" relation="include">
+        </childnode>
+        <childnode refid="8604" relation="include">
+        </childnode>
+        <childnode refid="8605" relation="include">
+        </childnode>
+        <childnode refid="8610" relation="include">
+        </childnode>
+      </node>
+      <node id="8582">
+        <label>gr_runtime_types.h</label>
+        <link refid="gr__runtime__types_8h"/>
+        <childnode refid="8575" relation="include">
+        </childnode>
+        <childnode refid="8583" relation="include">
+        </childnode>
+      </node>
+      <node id="8597">
+        <label>wchar.h</label>
+      </node>
+      <node id="8601">
+        <label>gruel/pmt_sugar.h</label>
+        <link refid="pmt__sugar_8h"/>
+      </node>
+      <node id="8608">
+        <label>boost/thread/locks.hpp</label>
+      </node>
+      <node id="8578">
+        <label>gr_sync_block.h</label>
+        <link refid="gr__sync__block_8h"/>
+        <childnode refid="8579" relation="include">
+        </childnode>
+      </node>
+      <node id="8600">
+        <label>vector</label>
+      </node>
+      <node id="8581">
+        <label>gr_io_signature.h</label>
+        <link refid="gr__io__signature_8h"/>
+        <childnode refid="8575" relation="include">
+        </childnode>
+        <childnode refid="8582" relation="include">
+        </childnode>
+      </node>
+      <node id="8589">
+        <label>gruel/api.h</label>
+        <link refid="gruel_2src_2include_2gruel_2api_8h"/>
+        <childnode refid="8576" relation="include">
+        </childnode>
+      </node>
+      <node id="8598">
+        <label>iosfwd</label>
+      </node>
+      <node id="8583">
+        <label>gr_types.h</label>
+        <link refid="gr__types_8h"/>
+        <childnode refid="8584" relation="include">
+        </childnode>
+        <childnode refid="8580" relation="include">
+        </childnode>
+        <childnode refid="8585" relation="include">
+        </childnode>
+        <childnode refid="8586" relation="include">
+        </childnode>
+      </node>
+      <node id="8605">
+        <label>gruel/thread.h</label>
+        <link refid="thread_8h"/>
+        <childnode refid="8589" relation="include">
+        </childnode>
+        <childnode refid="8606" relation="include">
+        </childnode>
+        <childnode refid="8607" relation="include">
+        </childnode>
+        <childnode refid="8608" relation="include">
+        </childnode>
+        <childnode refid="8609" relation="include">
+        </childnode>
+        <childnode refid="8600" relation="include">
+        </childnode>
+      </node>
+      <node id="8602">
+        <label>deque</label>
+      </node>
+      <node id="8587">
+        <label>gr_tags.h</label>
+        <link refid="gr__tags_8h"/>
+        <childnode refid="8575" relation="include">
+        </childnode>
+        <childnode refid="8588" relation="include">
+        </childnode>
+      </node>
+      <node id="8593">
+        <label>complex</label>
+      </node>
+      <node id="8610">
+        <label>gr_sptr_magic.h</label>
+        <link refid="gr__sptr__magic_8h_source"/>
+        <childnode refid="8575" relation="include">
+        </childnode>
+        <childnode refid="8591" relation="include">
+        </childnode>
+      </node>
+      <node id="8584">
+        <label>gras/element.hpp</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classgr__keep__one__in__n" prot="public">gr_keep_one_in_n</innerclass>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="gr__keep__one__in__n_8h_1a9c464c3d672a9c3437964294a2fb21a0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="gr__core__api_8h_1a8b8937b0c61edd85ab57ce8203543248" kindref="member">GR_CORE_API</ref> <ref refid="classboost_1_1shared__ptr" kindref="compound">gr_keep_one_in_n_sptr</ref></type>
+        <definition>GR_CORE_API gr_keep_one_in_n_sptr gr_make_keep_one_in_n</definition>
+        <argsstring>(size_t item_size, int n)</argsstring>
+        <name>gr_make_keep_one_in_n</name>
+        <param>
+          <type>size_t</type>
+          <declname>item_size</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_keep_one_in_n.h" line="33"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_keep_one_in_n.h"/>
+  </compounddef>
+</doxygen>

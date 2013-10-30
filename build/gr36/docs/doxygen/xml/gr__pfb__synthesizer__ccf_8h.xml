@@ -1,0 +1,298 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="gr__pfb__synthesizer__ccf_8h" kind="file">
+    <compoundname>gr_pfb_synthesizer_ccf.h</compoundname>
+    <includes refid="gr__core__api_8h" local="no">gr_core_api.h</includes>
+    <includes refid="gr__sync__interpolator_8h" local="no">gr_sync_interpolator.h</includes>
+    <includes local="no">gri_fir_filter_with_buffer_ccf.h</includes>
+    <includes refid="thread_8h" local="no">gruel/thread.h</includes>
+    <incdepgraph>
+      <node id="10105">
+        <label>boost/thread/mutex.hpp</label>
+      </node>
+      <node id="10107">
+        <label>boost/thread/condition_variable.hpp</label>
+      </node>
+      <node id="10089">
+        <label>boost/shared_ptr.hpp</label>
+      </node>
+      <node id="10086">
+        <label>gruel/pmt.h</label>
+        <link refid="pmt_8h"/>
+        <childnode refid="10087" relation="include">
+        </childnode>
+        <childnode refid="10088" relation="include">
+        </childnode>
+        <childnode refid="10089" relation="include">
+        </childnode>
+        <childnode refid="10090" relation="include">
+        </childnode>
+        <childnode refid="10091" relation="include">
+        </childnode>
+        <childnode refid="10092" relation="include">
+        </childnode>
+        <childnode refid="10093" relation="include">
+        </childnode>
+        <childnode refid="10096" relation="include">
+        </childnode>
+        <childnode refid="10097" relation="include">
+        </childnode>
+        <childnode refid="10098" relation="include">
+        </childnode>
+        <childnode refid="10099" relation="include">
+        </childnode>
+      </node>
+      <node id="10088">
+        <label>boost/intrusive_ptr.hpp</label>
+      </node>
+      <node id="10073">
+        <label>gr_core_api.h</label>
+        <link refid="gr__core__api_8h"/>
+        <childnode refid="10074" relation="include">
+        </childnode>
+      </node>
+      <node id="10093">
+        <label>stdint.h</label>
+        <link refid="stdint_8h"/>
+        <childnode refid="10094" relation="include">
+        </childnode>
+        <childnode refid="10095" relation="include">
+        </childnode>
+      </node>
+      <node id="10084">
+        <label>gras/hier_block.hpp</label>
+      </node>
+      <node id="10083">
+        <label>gras/top_block.hpp</label>
+      </node>
+      <node id="10102">
+        <label>boost/foreach.hpp</label>
+      </node>
+      <node id="10097">
+        <label>stdexcept</label>
+      </node>
+      <node id="10078">
+        <label>gras/block.hpp</label>
+      </node>
+      <node id="10104">
+        <label>boost/thread/thread.hpp</label>
+      </node>
+      <node id="10092">
+        <label>string</label>
+      </node>
+      <node id="10101">
+        <label>map</label>
+      </node>
+      <node id="10074">
+        <label>gruel/attributes.h</label>
+        <link refid="attributes_8h"/>
+      </node>
+      <node id="10094">
+        <label>limits.h</label>
+      </node>
+      <node id="10090">
+        <label>boost/any.hpp</label>
+      </node>
+      <node id="10077">
+        <label>gr_block.h</label>
+        <link refid="gr__block_8h"/>
+        <childnode refid="10073" relation="include">
+        </childnode>
+        <childnode refid="10078" relation="include">
+        </childnode>
+        <childnode refid="10079" relation="include">
+        </childnode>
+        <childnode refid="10081" relation="include">
+        </childnode>
+        <childnode refid="10085" relation="include">
+        </childnode>
+        <childnode refid="10092" relation="include">
+        </childnode>
+        <childnode refid="10100" relation="include">
+        </childnode>
+        <childnode refid="10101" relation="include">
+        </childnode>
+        <childnode refid="10102" relation="include">
+        </childnode>
+        <childnode refid="10103" relation="include">
+        </childnode>
+        <childnode refid="10108" relation="include">
+        </childnode>
+      </node>
+      <node id="10080">
+        <label>gr_runtime_types.h</label>
+        <link refid="gr__runtime__types_8h"/>
+        <childnode refid="10073" relation="include">
+        </childnode>
+        <childnode refid="10081" relation="include">
+        </childnode>
+      </node>
+      <node id="10095">
+        <label>wchar.h</label>
+      </node>
+      <node id="10099">
+        <label>gruel/pmt_sugar.h</label>
+        <link refid="pmt__sugar_8h"/>
+      </node>
+      <node id="10106">
+        <label>boost/thread/locks.hpp</label>
+      </node>
+      <node id="10076">
+        <label>gr_sync_block.h</label>
+        <link refid="gr__sync__block_8h"/>
+        <childnode refid="10077" relation="include">
+        </childnode>
+      </node>
+      <node id="10098">
+        <label>vector</label>
+      </node>
+      <node id="10079">
+        <label>gr_io_signature.h</label>
+        <link refid="gr__io__signature_8h"/>
+        <childnode refid="10073" relation="include">
+        </childnode>
+        <childnode refid="10080" relation="include">
+        </childnode>
+      </node>
+      <node id="10087">
+        <label>gruel/api.h</label>
+        <link refid="gruel_2src_2include_2gruel_2api_8h"/>
+        <childnode refid="10074" relation="include">
+        </childnode>
+      </node>
+      <node id="10096">
+        <label>iosfwd</label>
+      </node>
+      <node id="10081">
+        <label>gr_types.h</label>
+        <link refid="gr__types_8h"/>
+        <childnode refid="10082" relation="include">
+        </childnode>
+        <childnode refid="10078" relation="include">
+        </childnode>
+        <childnode refid="10083" relation="include">
+        </childnode>
+        <childnode refid="10084" relation="include">
+        </childnode>
+      </node>
+      <node id="10072">
+        <label>gr_pfb_synthesizer_ccf.h</label>
+        <link refid="gr_pfb_synthesizer_ccf.h"/>
+        <childnode refid="10073" relation="include">
+        </childnode>
+        <childnode refid="10075" relation="include">
+        </childnode>
+        <childnode refid="10109" relation="include">
+        </childnode>
+        <childnode refid="10103" relation="include">
+        </childnode>
+      </node>
+      <node id="10103">
+        <label>gruel/thread.h</label>
+        <link refid="thread_8h"/>
+        <childnode refid="10087" relation="include">
+        </childnode>
+        <childnode refid="10104" relation="include">
+        </childnode>
+        <childnode refid="10105" relation="include">
+        </childnode>
+        <childnode refid="10106" relation="include">
+        </childnode>
+        <childnode refid="10107" relation="include">
+        </childnode>
+        <childnode refid="10098" relation="include">
+        </childnode>
+      </node>
+      <node id="10100">
+        <label>deque</label>
+      </node>
+      <node id="10075">
+        <label>gr_sync_interpolator.h</label>
+        <link refid="gr__sync__interpolator_8h"/>
+        <childnode refid="10076" relation="include">
+        </childnode>
+      </node>
+      <node id="10085">
+        <label>gr_tags.h</label>
+        <link refid="gr__tags_8h"/>
+        <childnode refid="10073" relation="include">
+        </childnode>
+        <childnode refid="10086" relation="include">
+        </childnode>
+      </node>
+      <node id="10091">
+        <label>complex</label>
+      </node>
+      <node id="10109">
+        <label>gri_fir_filter_with_buffer_ccf.h</label>
+      </node>
+      <node id="10108">
+        <label>gr_sptr_magic.h</label>
+        <link refid="gr__sptr__magic_8h_source"/>
+        <childnode refid="10073" relation="include">
+        </childnode>
+        <childnode refid="10089" relation="include">
+        </childnode>
+      </node>
+      <node id="10082">
+        <label>gras/element.hpp</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classgr__pfb__synthesizer__ccf" prot="public">gr_pfb_synthesizer_ccf</innerclass>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="gr__pfb__synthesizer__ccf_8h_1ade48e6386622a5c37c198d0c50313d16" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="gr__core__api_8h_1a8b8937b0c61edd85ab57ce8203543248" kindref="member">GR_CORE_API</ref> <ref refid="classboost_1_1shared__ptr" kindref="compound">gr_pfb_synthesizer_ccf_sptr</ref></type>
+        <definition>GR_CORE_API gr_pfb_synthesizer_ccf_sptr gr_make_pfb_synthesizer_ccf</definition>
+        <argsstring>(unsigned int numchans, const std::vector&lt; float &gt; &amp;taps, bool twox=false)</argsstring>
+        <name>gr_make_pfb_synthesizer_ccf</name>
+        <param>
+          <type>unsigned int</type>
+          <declname>numchans</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; float &gt; &amp;</type>
+          <declname>taps</declname>
+        </param>
+        <param>
+          <type><ref refid="stdbool_8h_1a97a80ca1602ebf2303258971a2c938e2" kindref="member">bool</ref></type>
+          <declname>twox</declname>
+          <defval><ref refid="stdbool_8h_1a65e9886d74aaee76545e83dd09011727" kindref="member">false</ref></defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Build the polyphase synthesis filterbank. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>numchans</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(unsigned integer) Specifies the number of channels <emphasis>M</emphasis> </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>taps</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(vector/list of floats) The prototype filter to populate the filterbank. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>twox</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(bool) use 2x oversampling or not (default is no) </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/filter/gr_pfb_synthesizer_ccf.h" line="35"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/filter/gr_pfb_synthesizer_ccf.h"/>
+  </compounddef>
+</doxygen>

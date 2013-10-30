@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="volk__32f__x2__dot__prod__32f_8h" kind="file">
+    <compoundname>volk_32f_x2_dot_prod_32f.h</compoundname>
+    <includes refid="volk__common_8h" local="no">volk/volk_common.h</includes>
+    <includes local="no">stdio.h</includes>
+    <incdepgraph>
+      <node id="20971">
+        <label>volk/volk_common.h</label>
+        <link refid="volk__common_8h"/>
+        <childnode refid="20972" relation="include">
+        </childnode>
+      </node>
+      <node id="20973">
+        <label>stdint.h</label>
+        <link refid="stdint_8h"/>
+        <childnode refid="20974" relation="include">
+        </childnode>
+        <childnode refid="20975" relation="include">
+        </childnode>
+      </node>
+      <node id="20972">
+        <label>inttypes.h</label>
+        <link refid="inttypes_8h"/>
+        <childnode refid="20973" relation="include">
+        </childnode>
+      </node>
+      <node id="20974">
+        <label>limits.h</label>
+      </node>
+      <node id="20975">
+        <label>wchar.h</label>
+      </node>
+      <node id="20970">
+        <label>volk_32f_x2_dot_prod_32f.h</label>
+        <link refid="volk_32f_x2_dot_prod_32f.h"/>
+        <childnode refid="20971" relation="include">
+        </childnode>
+        <childnode refid="20976" relation="include">
+        </childnode>
+      </node>
+      <node id="20976">
+        <label>stdio.h</label>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="volk__32f__x2__dot__prod__32f_8h_1a6764826f8768da45bbbb2ef08d3c35c3" prot="public" static="no">
+        <name>INCLUDED_volk_32f_x2_dot_prod_32f_a_H</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/volk/kernels/volk/volk_32f_x2_dot_prod_32f.h" line="292" bodyfile="/home/aviral/GNU-Niyantran/gr36/volk/kernels/volk/volk_32f_x2_dot_prod_32f.h" bodystart="292" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/aviral/GNU-Niyantran/gr36/volk/kernels/volk/volk_32f_x2_dot_prod_32f.h"/>
+  </compounddef>
+</doxygen>

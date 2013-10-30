@@ -1,0 +1,256 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="classgr__block__registry" kind="class" prot="public">
+    <compoundname>gr_block_registry</compoundname>
+    <includes refid="gr__block__registry_8h" local="no">gr_block_registry.h</includes>
+      <sectiondef kind="private-type">
+      <memberdef kind="typedef" id="classgr__block__registry_1a7351fbf097d4ec264bb9edefe78240c7" prot="private" static="no">
+        <type>std::map&lt; long, <ref refid="classgr__basic__block" kindref="compound">gr_basic_block</ref> * &gt;</type>
+        <definition>typedef std::map&lt; long, gr_basic_block* &gt; gr_block_registry::blocksubmap_t</definition>
+        <argsstring></argsstring>
+        <name>blocksubmap_t</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_block_registry.h" line="31" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_block_registry.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classgr__block__registry_1acaea5fe6bc4e82a99f17a85e1b927727" prot="private" static="no">
+        <type>std::map&lt; std::string, blocksubmap_t &gt;</type>
+        <definition>typedef std::map&lt; std::string, blocksubmap_t &gt; gr_block_registry::blockmap_t</definition>
+        <argsstring></argsstring>
+        <name>blockmap_t</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_block_registry.h" line="32" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_block_registry.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr__block__registry_1a45748a23fb481d43ff0739c1dbf33bdc" prot="private" static="no" mutable="no">
+        <type>blockmap_t</type>
+        <definition>blockmap_t gr_block_registry::d_map</definition>
+        <argsstring></argsstring>
+        <name>d_map</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_block_registry.h" line="34" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_block_registry.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr__block__registry_1aa2fa62d405b1b960160ffc1e52ad9c51" prot="private" static="no" mutable="no">
+        <type><ref refid="namespacepmt_1ab4b70d9293452eb74dd07c670e6811fa" kindref="member">pmt::pmt_t</ref></type>
+        <definition>pmt::pmt_t gr_block_registry::d_ref_map</definition>
+        <argsstring></argsstring>
+        <name>d_ref_map</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_block_registry.h" line="35" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_block_registry.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr__block__registry_1ac12774cf2291e7e71ebac68fd3e07569" prot="private" static="no" mutable="no">
+        <type>std::map&lt; std::string, <ref refid="structgr__block" kindref="compound">gr_block</ref> * &gt;</type>
+        <definition>std::map&lt; std::string, gr_block*&gt; gr_block_registry::primitive_map</definition>
+        <argsstring></argsstring>
+        <name>primitive_map</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_block_registry.h" line="36" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_block_registry.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr__block__registry_1a3b8ef41f728b5b1098a7bff2fa27c54e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr_block_registry::gr_block_registry</definition>
+        <argsstring>()</argsstring>
+        <name>gr_block_registry</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_block_registry.h" line="14"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr__block__registry_1a5a9774d7e1947762a4375fb204d8eb0c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>long</type>
+        <definition>long gr_block_registry::block_register</definition>
+        <argsstring>(gr_basic_block *block)</argsstring>
+        <name>block_register</name>
+        <param>
+          <type><ref refid="classgr__basic__block" kindref="compound">gr_basic_block</ref> *</type>
+          <declname>block</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_block_registry.h" line="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr__block__registry_1a6d35a0683a269997e0156020d0366dde" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="volk_8tmpl_8h_1a2b104da38b6f0a28d721ed74346ef298" kindref="member">void</ref></type>
+        <definition>void gr_block_registry::block_unregister</definition>
+        <argsstring>(gr_basic_block *block)</argsstring>
+        <name>block_unregister</name>
+        <param>
+          <type><ref refid="classgr__basic__block" kindref="compound">gr_basic_block</ref> *</type>
+          <declname>block</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_block_registry.h" line="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr__block__registry_1a09ecedca83d064c841d2020fdbd7049f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string gr_block_registry::register_symbolic_name</definition>
+        <argsstring>(gr_basic_block *block)</argsstring>
+        <name>register_symbolic_name</name>
+        <param>
+          <type><ref refid="classgr__basic__block" kindref="compound">gr_basic_block</ref> *</type>
+          <declname>block</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_block_registry.h" line="19"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr__block__registry_1ad30f14e1470ea25690117b5408f5d0c0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="volk_8tmpl_8h_1a2b104da38b6f0a28d721ed74346ef298" kindref="member">void</ref></type>
+        <definition>void gr_block_registry::register_symbolic_name</definition>
+        <argsstring>(gr_basic_block *block, std::string name)</argsstring>
+        <name>register_symbolic_name</name>
+        <param>
+          <type><ref refid="classgr__basic__block" kindref="compound">gr_basic_block</ref> *</type>
+          <declname>block</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_block_registry.h" line="20"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr__block__registry_1a0b060d800fb9c44a8b5729aa27273339" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classboost_1_1shared__ptr" kindref="compound">gr_basic_block_sptr</ref></type>
+        <definition>gr_basic_block_sptr gr_block_registry::block_lookup</definition>
+        <argsstring>(pmt::pmt_t symbol)</argsstring>
+        <name>block_lookup</name>
+        <param>
+          <type><ref refid="namespacepmt_1ab4b70d9293452eb74dd07c670e6811fa" kindref="member">pmt::pmt_t</ref></type>
+          <declname>symbol</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_block_registry.h" line="22"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr__block__registry_1a45b9859d26bc53bf705ab5fa6f29543f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="volk_8tmpl_8h_1a2b104da38b6f0a28d721ed74346ef298" kindref="member">void</ref></type>
+        <definition>void gr_block_registry::register_primitive</definition>
+        <argsstring>(std::string blk, gr_block *ref)</argsstring>
+        <name>register_primitive</name>
+        <param>
+          <type>std::string</type>
+          <declname>blk</declname>
+        </param>
+        <param>
+          <type><ref refid="structgr__block" kindref="compound">gr_block</ref> *</type>
+          <declname>ref</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_block_registry.h" line="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr__block__registry_1a12e685ae9727e24f55717bda35cafec8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="volk_8tmpl_8h_1a2b104da38b6f0a28d721ed74346ef298" kindref="member">void</ref></type>
+        <definition>void gr_block_registry::unregister_primitive</definition>
+        <argsstring>(std::string blk)</argsstring>
+        <name>unregister_primitive</name>
+        <param>
+          <type>std::string</type>
+          <declname>blk</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_block_registry.h" line="25"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr__block__registry_1a4614427b93976cc53ff5be3ea2fbe137" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="volk_8tmpl_8h_1a2b104da38b6f0a28d721ed74346ef298" kindref="member">void</ref></type>
+        <definition>void gr_block_registry::notify_blk</definition>
+        <argsstring>(std::string blk)</argsstring>
+        <name>notify_blk</name>
+        <param>
+          <type>std::string</type>
+          <declname>blk</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_block_registry.h" line="26"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_block_registry.h" line="12" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_block_registry.h" bodystart="12" bodyend="38"/>
+    <listofallmembers>
+      <member refid="classgr__block__registry_1a0b060d800fb9c44a8b5729aa27273339" prot="public" virt="non-virtual"><scope>gr_block_registry</scope><name>block_lookup</name></member>
+      <member refid="classgr__block__registry_1a5a9774d7e1947762a4375fb204d8eb0c" prot="public" virt="non-virtual"><scope>gr_block_registry</scope><name>block_register</name></member>
+      <member refid="classgr__block__registry_1a6d35a0683a269997e0156020d0366dde" prot="public" virt="non-virtual"><scope>gr_block_registry</scope><name>block_unregister</name></member>
+      <member refid="classgr__block__registry_1acaea5fe6bc4e82a99f17a85e1b927727" prot="private" virt="non-virtual"><scope>gr_block_registry</scope><name>blockmap_t</name></member>
+      <member refid="classgr__block__registry_1a7351fbf097d4ec264bb9edefe78240c7" prot="private" virt="non-virtual"><scope>gr_block_registry</scope><name>blocksubmap_t</name></member>
+      <member refid="classgr__block__registry_1a45748a23fb481d43ff0739c1dbf33bdc" prot="private" virt="non-virtual"><scope>gr_block_registry</scope><name>d_map</name></member>
+      <member refid="classgr__block__registry_1aa2fa62d405b1b960160ffc1e52ad9c51" prot="private" virt="non-virtual"><scope>gr_block_registry</scope><name>d_ref_map</name></member>
+      <member refid="classgr__block__registry_1a3b8ef41f728b5b1098a7bff2fa27c54e" prot="public" virt="non-virtual"><scope>gr_block_registry</scope><name>gr_block_registry</name></member>
+      <member refid="classgr__block__registry_1a4614427b93976cc53ff5be3ea2fbe137" prot="public" virt="non-virtual"><scope>gr_block_registry</scope><name>notify_blk</name></member>
+      <member refid="classgr__block__registry_1ac12774cf2291e7e71ebac68fd3e07569" prot="private" virt="non-virtual"><scope>gr_block_registry</scope><name>primitive_map</name></member>
+      <member refid="classgr__block__registry_1a45b9859d26bc53bf705ab5fa6f29543f" prot="public" virt="non-virtual"><scope>gr_block_registry</scope><name>register_primitive</name></member>
+      <member refid="classgr__block__registry_1a09ecedca83d064c841d2020fdbd7049f" prot="public" virt="non-virtual"><scope>gr_block_registry</scope><name>register_symbolic_name</name></member>
+      <member refid="classgr__block__registry_1ad30f14e1470ea25690117b5408f5d0c0" prot="public" virt="non-virtual"><scope>gr_block_registry</scope><name>register_symbolic_name</name></member>
+      <member refid="classgr__block__registry_1a12e685ae9727e24f55717bda35cafec8" prot="public" virt="non-virtual"><scope>gr_block_registry</scope><name>unregister_primitive</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

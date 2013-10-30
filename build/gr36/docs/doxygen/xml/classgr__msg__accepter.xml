@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="classgr__msg__accepter" kind="class" prot="public">
+    <compoundname>gr_msg_accepter</compoundname>
+    <basecompoundref refid="classgruel_1_1msg__accepter" prot="public" virt="non-virtual">gruel::msg_accepter</basecompoundref>
+    <derivedcompoundref refid="classgr__basic__block" prot="public" virt="non-virtual">gr_basic_block</derivedcompoundref>
+    <includes refid="gr__msg__accepter_8h" local="no">gr_msg_accepter.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr__msg__accepter_1a0482adcd6e89d2a441c8768737b68c21" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr_msg_accepter::gr_msg_accepter</definition>
+        <argsstring>()</argsstring>
+        <name>gr_msg_accepter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_msg_accepter.h" line="36"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr__msg__accepter_1ad2ee9c687b775b08ce0e27e913ed8a7d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr_msg_accepter::~gr_msg_accepter</definition>
+        <argsstring>()</argsstring>
+        <name>~gr_msg_accepter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_msg_accepter.h" line="37"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr__msg__accepter_1a466d3e63bc7272aee4d65a3f8be721b3" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="volk_8tmpl_8h_1a2b104da38b6f0a28d721ed74346ef298" kindref="member">void</ref></type>
+        <definition>void gr_msg_accepter::post</definition>
+        <argsstring>(pmt::pmt_t which_port, pmt::pmt_t msg)</argsstring>
+        <name>post</name>
+        <reimplements refid="classgruel_1_1msg__accepter_1a62d8adbf698ebc526653f5dc329442ca">post</reimplements>
+        <param>
+          <type><ref refid="namespacepmt_1ab4b70d9293452eb74dd07c670e6811fa" kindref="member">pmt::pmt_t</ref></type>
+          <declname>which_port</declname>
+        </param>
+        <param>
+          <type><ref refid="namespacepmt_1ab4b70d9293452eb74dd07c670e6811fa" kindref="member">pmt::pmt_t</ref></type>
+          <declname>msg</declname>
+        </param>
+        <briefdescription>
+<para>send <computeroutput>msg</computeroutput> to <computeroutput>msg_accepter</computeroutput> on port <computeroutput>which_port</computeroutput> </para>        </briefdescription>
+        <detaileddescription>
+<para>Sending a message is an asynchronous operation. The <computeroutput>post</computeroutput> call will not wait for the message either to arrive at the destination or to be received. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_msg_accepter.h" line="39"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Accepts messages and inserts them into a message queue, then notifies subclass <ref refid="classgr__basic__block" kindref="compound">gr_basic_block</ref> there is a message pending. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3439">
+        <label>gr_msg_accepter</label>
+        <link refid="classgr__msg__accepter"/>
+        <childnode refid="3440" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3440">
+        <label>gruel::msg_accepter</label>
+        <link refid="classgruel_1_1msg__accepter"/>
+      </node>
+      <node id="3441">
+        <label>gr_basic_block</label>
+        <link refid="classgr__basic__block"/>
+        <childnode refid="3439" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3442">
+        <label>gr_msg_accepter</label>
+        <link refid="classgr__msg__accepter"/>
+        <childnode refid="3443" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3443">
+        <label>gruel::msg_accepter</label>
+        <link refid="classgruel_1_1msg__accepter"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_msg_accepter.h" line="34" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_msg_accepter.h" bodystart="33" bodyend="41"/>
+    <listofallmembers>
+      <member refid="classgr__msg__accepter_1a0482adcd6e89d2a441c8768737b68c21" prot="public" virt="non-virtual"><scope>gr_msg_accepter</scope><name>gr_msg_accepter</name></member>
+      <member refid="classgruel_1_1msg__accepter_1a501f4d98d2f933c64d00a766f26b0280" prot="public" virt="non-virtual"><scope>gr_msg_accepter</scope><name>msg_accepter</name></member>
+      <member refid="classgr__msg__accepter_1a466d3e63bc7272aee4d65a3f8be721b3" prot="public" virt="virtual"><scope>gr_msg_accepter</scope><name>post</name></member>
+      <member refid="classgr__msg__accepter_1ad2ee9c687b775b08ce0e27e913ed8a7d" prot="public" virt="non-virtual"><scope>gr_msg_accepter</scope><name>~gr_msg_accepter</name></member>
+      <member refid="classgruel_1_1msg__accepter_1a043f8b7de22a127df5dd9b3dfe76e2da" prot="public" virt="virtual"><scope>gr_msg_accepter</scope><name>~msg_accepter</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

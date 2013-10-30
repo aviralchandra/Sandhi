@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="dir_bf445004c645a02bdc90dd7801a1be7c" kind="dir">
+    <compoundname>/home/aviral/GNU-Niyantran/gr36/volk/tmpl/</compoundname>
+    <innerfile refid="volk_8tmpl_8h">volk.tmpl.h</innerfile>
+    <innerfile refid="volk__config__fixed_8tmpl_8h">volk_config_fixed.tmpl.h</innerfile>
+    <innerfile refid="volk__cpu_8tmpl_8h">volk_cpu.tmpl.h</innerfile>
+    <innerfile refid="volk__machines_8tmpl_8h">volk_machines.tmpl.h</innerfile>
+    <innerfile refid="volk__typedefs_8tmpl_8h">volk_typedefs.tmpl.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/aviral/GNU-Niyantran/gr36/volk/tmpl/"/>
+  </compounddef>
+</doxygen>

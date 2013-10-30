@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="classgr_1_1blocks_1_1deinterleave__impl" kind="class" prot="public">
+    <compoundname>gr::blocks::deinterleave_impl</compoundname>
+    <includes refid="deinterleave__impl_8h" local="no">deinterleave_impl.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1blocks_1_1deinterleave__impl_1ab101b1cfeb797d3df36b079c4f9c2c60" prot="private" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t gr::blocks::deinterleave_impl::d_itemsize</definition>
+        <argsstring></argsstring>
+        <name>d_itemsize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/deinterleave_impl.h" line="33" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/deinterleave_impl.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1blocks_1_1deinterleave__impl_1a7c1377ca780b6dbdfa203f774280597b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::blocks::deinterleave_impl::deinterleave_impl</definition>
+        <argsstring>(size_t itemsize)</argsstring>
+        <name>deinterleave_impl</name>
+        <param>
+          <type>size_t</type>
+          <declname>itemsize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/deinterleave_impl.h" line="36"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1blocks_1_1deinterleave__impl_1aab852d23345a05a3b6cd3fdb9565ff85" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool gr::blocks::deinterleave_impl::check_topology</definition>
+        <argsstring>(int ninputs, int noutputs)</argsstring>
+        <name>check_topology</name>
+        <param>
+          <type>int</type>
+          <declname>ninputs</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>noutputs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/deinterleave_impl.h" line="38"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1blocks_1_1deinterleave__impl_1a820022f09d813899a402cf81889a2658" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::blocks::deinterleave_impl::work</definition>
+        <argsstring>(int noutput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/deinterleave_impl.h" line="42"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/deinterleave_impl.h" line="32" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/deinterleave_impl.h" bodystart="31" bodyend="43"/>
+    <listofallmembers>
+      <member refid="classgr_1_1blocks_1_1deinterleave__impl_1aab852d23345a05a3b6cd3fdb9565ff85" prot="public" virt="non-virtual"><scope>gr::blocks::deinterleave_impl</scope><name>check_topology</name></member>
+      <member refid="classgr_1_1blocks_1_1deinterleave__impl_1ab101b1cfeb797d3df36b079c4f9c2c60" prot="private" virt="non-virtual"><scope>gr::blocks::deinterleave_impl</scope><name>d_itemsize</name></member>
+      <member refid="classgr_1_1blocks_1_1deinterleave__impl_1a7c1377ca780b6dbdfa203f774280597b" prot="public" virt="non-virtual"><scope>gr::blocks::deinterleave_impl</scope><name>deinterleave_impl</name></member>
+      <member refid="classgr_1_1blocks_1_1deinterleave__impl_1a820022f09d813899a402cf81889a2658" prot="public" virt="non-virtual"><scope>gr::blocks::deinterleave_impl</scope><name>work</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

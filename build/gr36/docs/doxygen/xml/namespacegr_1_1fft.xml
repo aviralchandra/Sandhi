@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="namespacegr_1_1fft" kind="namespace">
+    <compoundname>gr::fft</compoundname>
+    <innerclass refid="classgr_1_1fft_1_1planner" prot="public">gr::fft::planner</innerclass>
+    <innerclass refid="classgr_1_1fft_1_1fft__complex" prot="public">gr::fft::fft_complex</innerclass>
+    <innerclass refid="classgr_1_1fft_1_1fft__real__fwd" prot="public">gr::fft::fft_real_fwd</innerclass>
+    <innerclass refid="classgr_1_1fft_1_1fft__real__rev" prot="public">gr::fft::fft_real_rev</innerclass>
+    <innerclass refid="classgr_1_1fft_1_1fft__vcc" prot="public">gr::fft::fft_vcc</innerclass>
+    <innerclass refid="classgr_1_1fft_1_1fft__vfc" prot="public">gr::fft::fft_vfc</innerclass>
+    <innerclass refid="classgr_1_1fft_1_1goertzel" prot="public">gr::fft::goertzel</innerclass>
+    <innerclass refid="classgr_1_1fft_1_1goertzel__fc" prot="public">gr::fft::goertzel_fc</innerclass>
+    <innerclass refid="classgr_1_1fft_1_1fft__vcc__fftw" prot="public">gr::fft::fft_vcc_fftw</innerclass>
+    <innerclass refid="classgr_1_1fft_1_1fft__vfc__fftw" prot="public">gr::fft::fft_vfc_fftw</innerclass>
+    <innerclass refid="classgr_1_1fft_1_1goertzel__fc__impl" prot="public">gr::fft::goertzel_fc_impl</innerclass>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="namespacegr_1_1fft_1a2c47f9108f09cc25156a83a894861c9a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="gr-fft_2include_2fft_2api_8h_1a970d73334383137115742a2ea952c803" kindref="member">FFT_API</ref> <ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref> *</type>
+        <definition>FFT_API gr_complex* gr::fft::malloc_complex</definition>
+        <argsstring>(int size)</argsstring>
+        <name>malloc_complex</name>
+        <param>
+          <type>int</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+<para>Helper function for allocating complex fft buffers. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-fft/include/fft/fft.h" line="40"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacegr_1_1fft_1a1abd6b51e896f766e41d92ac68432b31" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="gr-fft_2include_2fft_2api_8h_1a970d73334383137115742a2ea952c803" kindref="member">FFT_API</ref> float *</type>
+        <definition>FFT_API float* gr::fft::malloc_float</definition>
+        <argsstring>(int size)</argsstring>
+        <name>malloc_float</name>
+        <param>
+          <type>int</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+<para>Helper function for allocating float fft buffers. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-fft/include/fft/fft.h" line="44"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacegr_1_1fft_1af628afaef04c25fdb089c08b214af38f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="gr-fft_2include_2fft_2api_8h_1a970d73334383137115742a2ea952c803" kindref="member">FFT_API</ref> <ref refid="volk_8tmpl_8h_1a2b104da38b6f0a28d721ed74346ef298" kindref="member">void</ref></type>
+        <definition>FFT_API void gr::fft::free</definition>
+        <argsstring>(void *b)</argsstring>
+        <name>free</name>
+        <param>
+          <type><ref refid="volk_8tmpl_8h_1a2b104da38b6f0a28d721ed74346ef298" kindref="member">void</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Helper function for freeing fft buffers. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-fft/include/fft/fft.h" line="48"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/aviral/GNU-Niyantran/gr36/gr-fft/include/fft/fft.h" line="35"/>
+  </compounddef>
+</doxygen>

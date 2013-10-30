@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="dir_9b437d33194e9fa30b2967a4092a780b" kind="dir">
+    <compoundname>/home/aviral/GNU-Niyantran/gr36/gr-comedi/</compoundname>
+    <innerdir refid="dir_ea611e4a87ac83e668821357952d590b">/home/aviral/GNU-Niyantran/gr36/gr-comedi/src/</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/aviral/GNU-Niyantran/gr36/gr-comedi/"/>
+  </compounddef>
+</doxygen>

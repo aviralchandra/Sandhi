@@ -1,0 +1,317 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="channel__model__impl_8h" kind="file">
+    <compoundname>channel_model_impl.h</compoundname>
+    <includes refid="gr__top__block_8h" local="no">gr_top_block.h</includes>
+    <includes local="no">gr_sig_source_c.h</includes>
+    <includes local="no">gr_add_cc.h</includes>
+    <includes refid="gr__multiply__cc_8h" local="no">gr_multiply_cc.h</includes>
+    <includes local="no">gr_noise_source_c.h</includes>
+    <includes refid="channel__model_8h" local="no">filter/channel_model.h</includes>
+    <includes refid="fractional__interpolator__cc_8h" local="no">filter/fractional_interpolator_cc.h</includes>
+    <includes local="no">filter/fir_filter_ccc.h</includes>
+    <incdepgraph>
+      <node id="1355">
+        <label>boost/thread/mutex.hpp</label>
+      </node>
+      <node id="1357">
+        <label>boost/thread/condition_variable.hpp</label>
+      </node>
+      <node id="1339">
+        <label>boost/shared_ptr.hpp</label>
+      </node>
+      <node id="1336">
+        <label>gruel/pmt.h</label>
+        <link refid="pmt_8h"/>
+        <childnode refid="1337" relation="include">
+        </childnode>
+        <childnode refid="1338" relation="include">
+        </childnode>
+        <childnode refid="1339" relation="include">
+        </childnode>
+        <childnode refid="1340" relation="include">
+        </childnode>
+        <childnode refid="1341" relation="include">
+        </childnode>
+        <childnode refid="1342" relation="include">
+        </childnode>
+        <childnode refid="1343" relation="include">
+        </childnode>
+        <childnode refid="1346" relation="include">
+        </childnode>
+        <childnode refid="1347" relation="include">
+        </childnode>
+        <childnode refid="1348" relation="include">
+        </childnode>
+        <childnode refid="1349" relation="include">
+        </childnode>
+      </node>
+      <node id="1331">
+        <label>gr_add_cc.h</label>
+      </node>
+      <node id="1338">
+        <label>boost/intrusive_ptr.hpp</label>
+      </node>
+      <node id="1320">
+        <label>gr_core_api.h</label>
+        <link refid="gr__core__api_8h"/>
+        <childnode refid="1321" relation="include">
+        </childnode>
+      </node>
+      <node id="1343">
+        <label>stdint.h</label>
+        <link refid="stdint_8h"/>
+        <childnode refid="1344" relation="include">
+        </childnode>
+        <childnode refid="1345" relation="include">
+        </childnode>
+      </node>
+      <node id="1324">
+        <label>gras/hier_block.hpp</label>
+      </node>
+      <node id="1322">
+        <label>gras/top_block.hpp</label>
+      </node>
+      <node id="1352">
+        <label>boost/foreach.hpp</label>
+      </node>
+      <node id="1330">
+        <label>gr_sig_source_c.h</label>
+      </node>
+      <node id="1347">
+        <label>stdexcept</label>
+      </node>
+      <node id="1329">
+        <label>gras/block.hpp</label>
+      </node>
+      <node id="1354">
+        <label>boost/thread/thread.hpp</label>
+      </node>
+      <node id="1342">
+        <label>string</label>
+      </node>
+      <node id="1351">
+        <label>map</label>
+      </node>
+      <node id="1361">
+        <label>filter/api.h</label>
+        <link refid="gr-filter_2include_2filter_2api_8h"/>
+        <childnode refid="1321" relation="include">
+        </childnode>
+      </node>
+      <node id="1321">
+        <label>gruel/attributes.h</label>
+        <link refid="attributes_8h"/>
+      </node>
+      <node id="1318">
+        <label>channel_model_impl.h</label>
+        <link refid="channel_model_impl.h"/>
+        <childnode refid="1319" relation="include">
+        </childnode>
+        <childnode refid="1330" relation="include">
+        </childnode>
+        <childnode refid="1331" relation="include">
+        </childnode>
+        <childnode refid="1332" relation="include">
+        </childnode>
+        <childnode refid="1359" relation="include">
+        </childnode>
+        <childnode refid="1360" relation="include">
+        </childnode>
+        <childnode refid="1362" relation="include">
+        </childnode>
+        <childnode refid="1363" relation="include">
+        </childnode>
+      </node>
+      <node id="1344">
+        <label>limits.h</label>
+      </node>
+      <node id="1340">
+        <label>boost/any.hpp</label>
+      </node>
+      <node id="1334">
+        <label>gr_block.h</label>
+        <link refid="gr__block_8h"/>
+        <childnode refid="1320" relation="include">
+        </childnode>
+        <childnode refid="1329" relation="include">
+        </childnode>
+        <childnode refid="1325" relation="include">
+        </childnode>
+        <childnode refid="1327" relation="include">
+        </childnode>
+        <childnode refid="1335" relation="include">
+        </childnode>
+        <childnode refid="1342" relation="include">
+        </childnode>
+        <childnode refid="1350" relation="include">
+        </childnode>
+        <childnode refid="1351" relation="include">
+        </childnode>
+        <childnode refid="1352" relation="include">
+        </childnode>
+        <childnode refid="1353" relation="include">
+        </childnode>
+        <childnode refid="1358" relation="include">
+        </childnode>
+      </node>
+      <node id="1359">
+        <label>gr_noise_source_c.h</label>
+      </node>
+      <node id="1362">
+        <label>filter/fractional_interpolator_cc.h</label>
+        <link refid="fractional__interpolator__cc_8h"/>
+        <childnode refid="1361" relation="include">
+        </childnode>
+        <childnode refid="1334" relation="include">
+        </childnode>
+      </node>
+      <node id="1326">
+        <label>gr_runtime_types.h</label>
+        <link refid="gr__runtime__types_8h"/>
+        <childnode refid="1320" relation="include">
+        </childnode>
+        <childnode refid="1327" relation="include">
+        </childnode>
+      </node>
+      <node id="1345">
+        <label>wchar.h</label>
+      </node>
+      <node id="1349">
+        <label>gruel/pmt_sugar.h</label>
+        <link refid="pmt__sugar_8h"/>
+      </node>
+      <node id="1363">
+        <label>filter/fir_filter_ccc.h</label>
+      </node>
+      <node id="1356">
+        <label>boost/thread/locks.hpp</label>
+      </node>
+      <node id="1332">
+        <label>gr_multiply_cc.h</label>
+        <link refid="gr__multiply__cc_8h"/>
+        <childnode refid="1320" relation="include">
+        </childnode>
+        <childnode refid="1333" relation="include">
+        </childnode>
+      </node>
+      <node id="1333">
+        <label>gr_sync_block.h</label>
+        <link refid="gr__sync__block_8h"/>
+        <childnode refid="1334" relation="include">
+        </childnode>
+      </node>
+      <node id="1348">
+        <label>vector</label>
+      </node>
+      <node id="1325">
+        <label>gr_io_signature.h</label>
+        <link refid="gr__io__signature_8h"/>
+        <childnode refid="1320" relation="include">
+        </childnode>
+        <childnode refid="1326" relation="include">
+        </childnode>
+      </node>
+      <node id="1360">
+        <label>filter/channel_model.h</label>
+        <link refid="channel__model_8h"/>
+        <childnode refid="1361" relation="include">
+        </childnode>
+        <childnode refid="1323" relation="include">
+        </childnode>
+        <childnode refid="1327" relation="include">
+        </childnode>
+      </node>
+      <node id="1337">
+        <label>gruel/api.h</label>
+        <link refid="gruel_2src_2include_2gruel_2api_8h"/>
+        <childnode refid="1321" relation="include">
+        </childnode>
+      </node>
+      <node id="1323">
+        <label>gr_hier_block2.h</label>
+        <link refid="gr__hier__block2_8h"/>
+        <childnode refid="1320" relation="include">
+        </childnode>
+        <childnode refid="1324" relation="include">
+        </childnode>
+        <childnode refid="1325" relation="include">
+        </childnode>
+      </node>
+      <node id="1346">
+        <label>iosfwd</label>
+      </node>
+      <node id="1327">
+        <label>gr_types.h</label>
+        <link refid="gr__types_8h"/>
+        <childnode refid="1328" relation="include">
+        </childnode>
+        <childnode refid="1329" relation="include">
+        </childnode>
+        <childnode refid="1322" relation="include">
+        </childnode>
+        <childnode refid="1324" relation="include">
+        </childnode>
+      </node>
+      <node id="1353">
+        <label>gruel/thread.h</label>
+        <link refid="thread_8h"/>
+        <childnode refid="1337" relation="include">
+        </childnode>
+        <childnode refid="1354" relation="include">
+        </childnode>
+        <childnode refid="1355" relation="include">
+        </childnode>
+        <childnode refid="1356" relation="include">
+        </childnode>
+        <childnode refid="1357" relation="include">
+        </childnode>
+        <childnode refid="1348" relation="include">
+        </childnode>
+      </node>
+      <node id="1350">
+        <label>deque</label>
+      </node>
+      <node id="1319">
+        <label>gr_top_block.h</label>
+        <link refid="gr__top__block_8h"/>
+        <childnode refid="1320" relation="include">
+        </childnode>
+        <childnode refid="1322" relation="include">
+        </childnode>
+        <childnode refid="1323" relation="include">
+        </childnode>
+      </node>
+      <node id="1335">
+        <label>gr_tags.h</label>
+        <link refid="gr__tags_8h"/>
+        <childnode refid="1320" relation="include">
+        </childnode>
+        <childnode refid="1336" relation="include">
+        </childnode>
+      </node>
+      <node id="1341">
+        <label>complex</label>
+      </node>
+      <node id="1358">
+        <label>gr_sptr_magic.h</label>
+        <link refid="gr__sptr__magic_8h_source"/>
+        <childnode refid="1320" relation="include">
+        </childnode>
+        <childnode refid="1339" relation="include">
+        </childnode>
+      </node>
+      <node id="1328">
+        <label>gras/element.hpp</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classgr_1_1filter_1_1channel__model__impl" prot="public">gr::filter::channel_model_impl</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1filter">gr::filter</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/channel_model_impl.h"/>
+  </compounddef>
+</doxygen>

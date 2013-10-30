@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="classgr_1_1blocks_1_1transcendental__impl" kind="class" prot="public">
+    <compoundname>gr::blocks::transcendental_impl</compoundname>
+    <includes refid="transcendental__impl_8h" local="no">transcendental_impl.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1blocks_1_1transcendental__impl_1a3405bb1aeb337e15a7850512e235d01f" prot="private" static="no" mutable="no">
+        <type>const <ref refid="namespacegr_1_1blocks_1a096aaf389afd1ea7113482057075814e" kindref="member">work_fcn_type</ref> &amp;</type>
+        <definition>const work_fcn_type&amp; gr::blocks::transcendental_impl::_work_fcn</definition>
+        <argsstring></argsstring>
+        <name>_work_fcn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/transcendental_impl.h" line="36" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/transcendental_impl.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1blocks_1_1transcendental__impl_1ab6d8acbb6d980a59d7cd432c4614ab94" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::blocks::transcendental_impl::transcendental_impl</definition>
+        <argsstring>(const work_fcn_type &amp;work_fcn, const size_t io_size)</argsstring>
+        <name>transcendental_impl</name>
+        <param>
+          <type>const <ref refid="namespacegr_1_1blocks_1a096aaf389afd1ea7113482057075814e" kindref="member">work_fcn_type</ref> &amp;</type>
+          <declname>work_fcn</declname>
+        </param>
+        <param>
+          <type>const size_t</type>
+          <declname>io_size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/transcendental_impl.h" line="40"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1blocks_1_1transcendental__impl_1a0ae1ded6c72630269ccceae8e2fef691" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::blocks::transcendental_impl::~transcendental_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~transcendental_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/transcendental_impl.h" line="41"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1blocks_1_1transcendental__impl_1aabbd8d7f76d69ffe96b6df42129cb81f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::blocks::transcendental_impl::work</definition>
+        <argsstring>(int noutput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/transcendental_impl.h" line="45"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/transcendental_impl.h" line="34" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/transcendental_impl.h" bodystart="33" bodyend="46"/>
+    <listofallmembers>
+      <member refid="classgr_1_1blocks_1_1transcendental__impl_1a3405bb1aeb337e15a7850512e235d01f" prot="private" virt="non-virtual"><scope>gr::blocks::transcendental_impl</scope><name>_work_fcn</name></member>
+      <member refid="classgr_1_1blocks_1_1transcendental__impl_1ab6d8acbb6d980a59d7cd432c4614ab94" prot="public" virt="non-virtual"><scope>gr::blocks::transcendental_impl</scope><name>transcendental_impl</name></member>
+      <member refid="classgr_1_1blocks_1_1transcendental__impl_1aabbd8d7f76d69ffe96b6df42129cb81f" prot="public" virt="non-virtual"><scope>gr::blocks::transcendental_impl</scope><name>work</name></member>
+      <member refid="classgr_1_1blocks_1_1transcendental__impl_1a0ae1ded6c72630269ccceae8e2fef691" prot="public" virt="non-virtual"><scope>gr::blocks::transcendental_impl</scope><name>~transcendental_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

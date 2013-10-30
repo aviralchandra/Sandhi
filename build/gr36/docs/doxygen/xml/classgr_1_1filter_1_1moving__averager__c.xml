@@ -1,0 +1,152 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="classgr_1_1filter_1_1moving__averager__c" kind="class" prot="public">
+    <compoundname>gr::filter::moving_averager_c</compoundname>
+    <includes refid="dc__blocker__cc__impl_8h" local="no">dc_blocker_cc_impl.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1filter_1_1moving__averager__c_1a00abb63a21f864a528d87385f6042aed" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::filter::moving_averager_c::d_length</definition>
+        <argsstring></argsstring>
+        <name>d_length</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/dc_blocker_cc_impl.h" line="43" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/dc_blocker_cc_impl.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1filter_1_1moving__averager__c_1a04cc54a7c808d4fcb30f4f89988114a8" prot="private" static="no" mutable="no">
+        <type><ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref></type>
+        <definition>gr_complex gr::filter::moving_averager_c::d_out</definition>
+        <argsstring></argsstring>
+        <name>d_out</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/dc_blocker_cc_impl.h" line="44" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/dc_blocker_cc_impl.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1filter_1_1moving__averager__c_1a7c73c128a61f71bd79634f511833c796" prot="private" static="no" mutable="no">
+        <type><ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref></type>
+        <definition>gr_complex gr::filter::moving_averager_c::d_out_d1</definition>
+        <argsstring></argsstring>
+        <name>d_out_d1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/dc_blocker_cc_impl.h" line="44" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/dc_blocker_cc_impl.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1filter_1_1moving__averager__c_1a90b338ea3feba824cd8a1bb4703b221b" prot="private" static="no" mutable="no">
+        <type><ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref></type>
+        <definition>gr_complex gr::filter::moving_averager_c::d_out_d2</definition>
+        <argsstring></argsstring>
+        <name>d_out_d2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/dc_blocker_cc_impl.h" line="44" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/dc_blocker_cc_impl.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1filter_1_1moving__averager__c_1ae346924b5dabed5a0b4b091a04b23e37" prot="private" static="no" mutable="no">
+        <type>std::deque&lt; <ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref> &gt;</type>
+        <definition>std::deque&lt;gr_complex&gt; gr::filter::moving_averager_c::d_delay_line</definition>
+        <argsstring></argsstring>
+        <name>d_delay_line</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/dc_blocker_cc_impl.h" line="45" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/dc_blocker_cc_impl.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1filter_1_1moving__averager__c_1ade4953680e481a8fce0d47e043026d36" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::filter::moving_averager_c::moving_averager_c</definition>
+        <argsstring>(int D)</argsstring>
+        <name>moving_averager_c</name>
+        <param>
+          <type>int</type>
+          <declname>D</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/dc_blocker_cc_impl.h" line="36"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1filter_1_1moving__averager__c_1acec31b55b65ea02dc18fd428d548acae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::filter::moving_averager_c::~moving_averager_c</definition>
+        <argsstring>()</argsstring>
+        <name>~moving_averager_c</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/dc_blocker_cc_impl.h" line="37"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1filter_1_1moving__averager__c_1ae9636c83596ba1ace94d71b06ea271f8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref></type>
+        <definition>gr_complex gr::filter::moving_averager_c::filter</definition>
+        <argsstring>(gr_complex x)</argsstring>
+        <name>filter</name>
+        <param>
+          <type><ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref></type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/dc_blocker_cc_impl.h" line="39"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1filter_1_1moving__averager__c_1a26157bb8f9dbdcd9e6ab8b1ea589ec61" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref></type>
+        <definition>gr_complex gr::filter::moving_averager_c::delayed_sig</definition>
+        <argsstring>()</argsstring>
+        <name>delayed_sig</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/dc_blocker_cc_impl.h" line="40" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/dc_blocker_cc_impl.h" bodystart="40" bodyend="40"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/dc_blocker_cc_impl.h" line="34" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/dc_blocker_cc_impl.h" bodystart="33" bodyend="46"/>
+    <listofallmembers>
+      <member refid="classgr_1_1filter_1_1moving__averager__c_1ae346924b5dabed5a0b4b091a04b23e37" prot="private" virt="non-virtual"><scope>gr::filter::moving_averager_c</scope><name>d_delay_line</name></member>
+      <member refid="classgr_1_1filter_1_1moving__averager__c_1a00abb63a21f864a528d87385f6042aed" prot="private" virt="non-virtual"><scope>gr::filter::moving_averager_c</scope><name>d_length</name></member>
+      <member refid="classgr_1_1filter_1_1moving__averager__c_1a04cc54a7c808d4fcb30f4f89988114a8" prot="private" virt="non-virtual"><scope>gr::filter::moving_averager_c</scope><name>d_out</name></member>
+      <member refid="classgr_1_1filter_1_1moving__averager__c_1a7c73c128a61f71bd79634f511833c796" prot="private" virt="non-virtual"><scope>gr::filter::moving_averager_c</scope><name>d_out_d1</name></member>
+      <member refid="classgr_1_1filter_1_1moving__averager__c_1a90b338ea3feba824cd8a1bb4703b221b" prot="private" virt="non-virtual"><scope>gr::filter::moving_averager_c</scope><name>d_out_d2</name></member>
+      <member refid="classgr_1_1filter_1_1moving__averager__c_1a26157bb8f9dbdcd9e6ab8b1ea589ec61" prot="public" virt="non-virtual"><scope>gr::filter::moving_averager_c</scope><name>delayed_sig</name></member>
+      <member refid="classgr_1_1filter_1_1moving__averager__c_1ae9636c83596ba1ace94d71b06ea271f8" prot="public" virt="non-virtual"><scope>gr::filter::moving_averager_c</scope><name>filter</name></member>
+      <member refid="classgr_1_1filter_1_1moving__averager__c_1ade4953680e481a8fce0d47e043026d36" prot="public" virt="non-virtual"><scope>gr::filter::moving_averager_c</scope><name>moving_averager_c</name></member>
+      <member refid="classgr_1_1filter_1_1moving__averager__c_1acec31b55b65ea02dc18fd428d548acae" prot="public" virt="non-virtual"><scope>gr::filter::moving_averager_c</scope><name>~moving_averager_c</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

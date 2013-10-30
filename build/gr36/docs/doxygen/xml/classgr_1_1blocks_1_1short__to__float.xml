@@ -1,0 +1,332 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="classgr_1_1blocks_1_1short__to__float" kind="class" prot="public">
+    <compoundname>gr::blocks::short_to_float</compoundname>
+    <basecompoundref refid="structgr__sync__block" prot="public" virt="virtual">gr_sync_block</basecompoundref>
+    <derivedcompoundref refid="classgr_1_1blocks_1_1short__to__float__impl" prot="public" virt="non-virtual">gr::blocks::short_to_float_impl</derivedcompoundref>
+    <includes refid="short__to__float_8h" local="no">short_to_float.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classgr_1_1blocks_1_1short__to__float_1a9bf45f493b9e71ed743d2b4672e6a98f" prot="public" static="no">
+        <type><ref refid="classboost_1_1shared__ptr" kindref="compound">boost::shared_ptr</ref>&lt; <ref refid="classgr_1_1blocks_1_1short__to__float" kindref="compound">short_to_float</ref> &gt;</type>
+        <definition>typedef boost::shared_ptr&lt;short_to_float&gt; gr::blocks::short_to_float::sptr</definition>
+        <argsstring></argsstring>
+        <name>sptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/include/blocks/short_to_float.h" line="44" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-blocks/include/blocks/short_to_float.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgr_1_1blocks_1_1short__to__float_1a43662ee18344fe351aa9b12fa57ec363" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr_1_1blocks_1_1short__to__float_1a9bf45f493b9e71ed743d2b4672e6a98f" kindref="member">sptr</ref></type>
+        <definition>static sptr gr::blocks::short_to_float::make</definition>
+        <argsstring>(size_t vlen=1, float scale=1.0)</argsstring>
+        <name>make</name>
+        <param>
+          <type>size_t</type>
+          <declname>vlen</declname>
+          <defval>1</defval>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>scale</declname>
+          <defval>1.0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/include/blocks/short_to_float.h" line="46"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1blocks_1_1short__to__float_1a833a4bbebc6a4505a16cb42bdc0ab9b6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type>float</type>
+        <definition>virtual float gr::blocks::short_to_float::scale</definition>
+        <argsstring>() const =0</argsstring>
+        <name>scale</name>
+        <reimplementedby refid="classgr_1_1blocks_1_1short__to__float__impl_1a195d4247c37ed616a13a70302ff90122">scale</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get the scalar divider value. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/include/blocks/short_to_float.h" line="51"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1blocks_1_1short__to__float_1a7a589a4edde7b709b770e0260d98c356" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type><ref refid="volk_8tmpl_8h_1a2b104da38b6f0a28d721ed74346ef298" kindref="member">void</ref></type>
+        <definition>virtual void gr::blocks::short_to_float::set_scale</definition>
+        <argsstring>(float scale)=0</argsstring>
+        <name>set_scale</name>
+        <reimplementedby refid="classgr_1_1blocks_1_1short__to__float__impl_1a09699919577ea336bf8698073698b26a">set_scale</reimplementedby>
+        <param>
+          <type>float</type>
+          <declname>scale</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set the scalar divider value. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/include/blocks/short_to_float.h" line="56"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Convert stream of shorts to a stream of floats. </para>    </briefdescription>
+    <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>vlen</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>vector length of data streams. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>scale</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a scalar divider to change the output signal scale. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="6581">
+        <label>gr_sync_block</label>
+        <link refid="structgr__sync__block"/>
+        <childnode refid="6582" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6582">
+        <label>gr_block</label>
+        <link refid="structgr__block"/>
+      </node>
+      <node id="6580">
+        <label>gr::blocks::short_to_float</label>
+        <link refid="classgr_1_1blocks_1_1short__to__float"/>
+        <childnode refid="6581" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6583">
+        <label>gr::blocks::short_to_float_impl</label>
+        <link refid="classgr_1_1blocks_1_1short__to__float__impl"/>
+        <childnode refid="6580" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="6595">
+        <label>T</label>
+      </node>
+      <node id="6585">
+        <label>gr_sync_block</label>
+        <link refid="structgr__sync__block"/>
+        <childnode refid="6586" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6586">
+        <label>gr_block</label>
+        <link refid="structgr__block"/>
+        <childnode refid="6587" relation="usage">
+          <edgelabel>d_msg_handlers</edgelabel>
+        </childnode>
+        <childnode refid="6588" relation="usage">
+          <edgelabel>_out_sig</edgelabel>
+          <edgelabel>_in_sig</edgelabel>
+        </childnode>
+        <childnode refid="6590" relation="usage">
+          <edgelabel>d_symbol_alias</edgelabel>
+          <edgelabel>_name</edgelabel>
+          <edgelabel>d_symbol_name</edgelabel>
+        </childnode>
+        <childnode refid="6592" relation="usage">
+          <edgelabel>d_affinity</edgelabel>
+        </childnode>
+        <childnode refid="6593" relation="usage">
+          <edgelabel>msg_queue</edgelabel>
+        </childnode>
+      </node>
+      <node id="6587">
+        <label>std::map&lt; pmt::pmt_t, msg_handler_t, pmt::pmt_comperator &gt;</label>
+      </node>
+      <node id="6588">
+        <label>boost::shared_ptr&lt; gr_io_signature &gt;</label>
+        <link refid="classboost_1_1shared__ptr"/>
+        <childnode refid="6589" relation="usage">
+          <edgelabel>px</edgelabel>
+        </childnode>
+      </node>
+      <node id="6584">
+        <label>gr::blocks::short_to_float</label>
+        <link refid="classgr_1_1blocks_1_1short__to__float"/>
+        <childnode refid="6585" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6591">
+        <label>std::basic_string&lt; char &gt;</label>
+      </node>
+      <node id="6589">
+        <label>gr_io_signature</label>
+        <link refid="classgr__io__signature"/>
+      </node>
+      <node id="6592">
+        <label>std::vector&lt; int &gt;</label>
+      </node>
+      <node id="6593">
+        <label>std::map&lt; pmt::pmt_t, msg_queue_t, pmt::pmt_comperator &gt;</label>
+        <childnode refid="6594" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="6594">
+        <label>std::deque&lt; T &gt;</label>
+        <childnode refid="6595" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="6590">
+        <label>std::string</label>
+        <childnode refid="6591" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/include/blocks/short_to_float.h" line="40" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-blocks/include/blocks/short_to_float.h" bodystart="39" bodyend="57"/>
+    <listofallmembers>
+      <member refid="structgr__block_1a9f318fb06e990043bae12c7d53123c6f" prot="public" virt="non-virtual"><scope>gr::blocks::short_to_float</scope><name>_decim</name></member>
+      <member refid="structgr__block_1a3609e62366924659273dc5b22cdb035e" prot="public" virt="non-virtual"><scope>gr::blocks::short_to_float</scope><name>_enable_fixed_rate</name></member>
+      <member refid="structgr__block_1a3c17dfae241d25218d11a28910b41566" prot="public" virt="non-virtual"><scope>gr::blocks::short_to_float</scope><name>_fcast_ninput_items</name></member>
+      <member refid="structgr__block_1af51543dce48d41f65601a9333646005d" prot="public" virt="non-virtual"><scope>gr::blocks::short_to_float</scope><name>_in_sig</name></member>
+      <member refid="structgr__block_1ae7f3d8d4f495b3f782f76b2eba77c5e1" prot="public" virt="non-virtual"><scope>gr::blocks::short_to_float</scope><name>_input_history_items</name></member>
+      <member refid="structgr__block_1a84307a4cc2d4247ba1d2b3aa97360f76" prot="public" virt="non-virtual"><scope>gr::blocks::short_to_float</scope><name>_interp</name></member>
+      <member refid="structgr__block_1a0e5465af87bd5e3cd20a7aee021cd7d1" prot="public" virt="non-virtual"><scope>gr::blocks::short_to_float</scope><name>_name</name></member>
+      <member refid="structgr__block_1ab223ada7c7826ad9348bfbf33813ebfd" prot="public" virt="non-virtual"><scope>gr::blocks::short_to_float</scope><name>_num_outputs</name></member>
+      <member refid="structgr__block_1a47568447c8ce065da54481e5735b6a9d" prot="public" virt="non-virtual"><scope>gr::blocks::short_to_float</scope><name>_out_sig</name></member>
+      <member refid="structgr__block_1ad7a1989400137f5e369bc66eeac85df1" prot="public" virt="non-virtual"><scope>gr::blocks::short_to_float</scope><name>_output_multiple_items</name></member>
+      <member refid="structgr__block_1a124d174e6cfec49e485d42823e853fd4" prot="public" virt="non-virtual"><scope>gr::blocks::short_to_float</scope><name>_relative_rate</name></member>
+      <member refid="structgr__block_1aedaa3c96a3840b3d1631b82a34805aed" prot="public" virt="non-virtual"><scope>gr::blocks::short_to_float</scope><name>_tag_prop_policy</name></member>
+      <member refid="structgr__block_1a3b790ce6f4f5de587eab5557e809b536" prot="public" virt="non-virtual"><scope>gr::blocks::short_to_float</scope><name>_unique_id</name></member>
+      <member refid="structgr__block_1a0d902f0cdd32608baf9b09fadb14582a" prot="public" virt="non-virtual"><scope>gr::blocks::short_to_float</scope><name>_update_input_reserve</name></member>
+      <member refid="structgr__block_1a6f4bf1ad76c6c1784bc03388218cded8" prot="public" virt="non-virtual"><scope>gr::blocks::short_to_float</scope><name>_work_io_ptr_mask</name></member>
+      <member refid="structgr__block_1a2b5030c2a5ffa59a575c5ca02c0b4290" prot="public" virt="non-virtual"><scope>gr::blocks::short_to_float</scope><name>_work_ninput_items</name></member>
+      <member refid="structgr__block_1a77dfbd5e39691ba15922fa86199fff87" prot="public" virt="non-virtual"><scope>gr::blocks::short_to_float</scope><name>add_item_tag</name></member>
+      <member refid="structgr__block_1a2f2abc9b5d43c1b32e042083a18616de" prot="public" virt="non-virtual"><scope>gr::blocks::short_to_float</scope><name>add_item_tag</name></member>
+      <member refid="structgr__block_1afe4c4e82b353ff8ed13716dbb1609166" prot="public" virt="non-virtual"><scope>gr::blocks::short_to_float</scope><name>alias</name></member>
+      <member refid="structgr__block_1ae97c9f5fd6773d29dcd082954d0b8138" prot="public" virt="non-virtual"><scope>gr::blocks::short_to_float</scope><name>alias_pmt</name></member>
+      <member refid="structgr__block_1aec92fab6cbc601f87a0fd1b7e9b1ee41" prot="public" virt="non-virtual"><scope>gr::blocks::short_to_float</scope><name>alias_set</name></member>
+      <member refid="structgr__block_1a03fabffe7b3a99cb2f2dd0e8e40d1cd3" prot="public" virt="virtual"><scope>gr::blocks::short_to_float</scope><name>check_topology</name></member>
+      <member refid="structgr__block_1ac0014c630a4c2420f10f29c49781fcef" prot="public" virt="non-virtual"><scope>gr::blocks::short_to_float</scope><name>consume</name></member>
+      <member refid="structgr__block_1a04144691b111d0a5eb11b4c8e780b8ff" prot="public" virt="non-virtual"><scope>gr::blocks::short_to_float</scope><name>consume_each</name></member>
+      <member refid="structgr__block_1abbc4eee83a4503388c5db8ab14b10d2a" prot="public" virt="non-virtual"><scope>gr::blocks::short_to_float</scope><name>d_affinity</name></member>
+      <member refid="structgr__block_1a102b671ad639405dcec8ae07df80d9e1" prot="public" virt="non-virtual"><scope>gr::blocks::short_to_float</scope><name>d_msg_handlers</name></member>
+      <member refid="structgr__block_1a97a217457186babc5f2d8ffaacd63621" prot="public" virt="non-virtual"><scope>gr::blocks::short_to_float</scope><name>d_msg_handlers_t</name></member>
+      <member refid="structgr__block_1ace960ec997da0fff8fc44168983b1a55" prot="public" virt="non-virtual"><scope>gr::blocks::short_to_float</scope><name>d_setlock</name></member>
+      <member refid="structgr__block_1af0266eae2b2d6d98e63b0dfa18cd4c22" prot="public" virt="non-virtual"><scope>gr::blocks::short_to_float</scope><name>d_symbol_alias</name></member>
+      <member refid="structgr__block_1a372535a140a3271a8a6b25965f83c7b2" prot="public" virt="non-virtual"><scope>gr::blocks::short_to_float</scope><name>d_symbol_name</name></member>
+      <member refid="structgr__block_1a5fa21c3fcec9c362cb747615067130fd" prot="public" virt="non-virtual"><scope>gr::blocks::short_to_float</scope><name>decimation</name></member>
+      <member refid="structgr__block_1a26a99493c97eadfd842aac72aa515aae" prot="public" virt="non-virtual"><scope>gr::blocks::short_to_float</scope><name>delete_head_blocking</name></member>
+      <member refid="structgr__block_1a488390e6da77ced5a5d6d340886d6cc1" prot="public" virt="non-virtual"><scope>gr::blocks::short_to_float</scope><name>delete_head_nowait</name></member>
+      <member refid="structgr__block_1a463e4dc9205b21f94d37cf9f9eb73ad7" prot="public" virt="virtual"><scope>gr::blocks::short_to_float</scope><name>dispatch_msg</name></member>
+      <member refid="structgr__block_1a1a9d99191b830c53b9fe05db92b6bf0b" prot="public" virt="non-virtual"><scope>gr::blocks::short_to_float</scope><name>empty_p</name></member>
+      <member refid="structgr__block_1aa0e38ded260cd3be8076bef28086c34f" prot="public" virt="non-virtual"><scope>gr::blocks::short_to_float</scope><name>empty_p</name></member>
+      <member refid="structgr__block_1afb27cadec03e47257d943e337fb6e47b" prot="public" virt="non-virtual"><scope>gr::blocks::short_to_float</scope><name>erase_msg</name></member>
+      <member refid="structgr__block_1aabe7f108d75435de0c7a42233b32cb5c" prot="public" virt="non-virtual"><scope>gr::blocks::short_to_float</scope><name>fixed_rate</name></member>
+      <member refid="structgr__block_1a46bea6a676cc8a35bba70e9477f0eb71" prot="public" virt="non-virtual"><scope>gr::blocks::short_to_float</scope><name>fixed_rate_noutput_to_ninput</name></member>
+      <member refid="structgr__block_1a2d34aa76c847f3b7d8dc688010085174" prot="public" virt="virtual"><scope>gr::blocks::short_to_float</scope><name>forecast</name></member>
+      <member refid="structgr__sync__block_1a9b8d804bea0faac5ab4fdc6b6a51eb24" prot="public" virt="virtual"><scope>gr::blocks::short_to_float</scope><name>general_work</name></member>
+      <member refid="structgr__block_1ad360ea0cd0e5ac767c59281b07d57e3c" prot="public" virt="non-virtual"><scope>gr::blocks::short_to_float</scope><name>get_iterator</name></member>
+      <member refid="structgr__block_1aed9a0ebccdac38b7120ce42ef8111ce0" prot="public" virt="non-virtual"><scope>gr::blocks::short_to_float</scope><name>get_tags_in_range</name></member>
+      <member refid="structgr__block_1ac94442f2da43c516ce4b8d3eb15fc316" prot="public" virt="non-virtual"><scope>gr::blocks::short_to_float</scope><name>gr_block</name></member>
+      <member refid="structgr__block_1a268510acce1f94c0a60c5273f4948641" prot="public" virt="non-virtual"><scope>gr::blocks::short_to_float</scope><name>gr_block</name></member>
+      <member refid="structgr__sync__block_1a8e8100cc8cafbc89a0cd64fbc2fc4153" prot="public" virt="non-virtual"><scope>gr::blocks::short_to_float</scope><name>gr_sync_block</name></member>
+      <member refid="structgr__sync__block_1a832d8dad2dbd38e8e9cfa0b954d37c87" prot="public" virt="non-virtual"><scope>gr::blocks::short_to_float</scope><name>gr_sync_block</name></member>
+      <member refid="structgr__block_1a22b9bf0b8cf9af6f0fb712198b1909ee" prot="public" virt="non-virtual"><scope>gr::blocks::short_to_float</scope><name>has_msg_handler</name></member>
+      <member refid="structgr__block_1ac290fa00c65a3907f82254a440be7849" prot="public" virt="virtual"><scope>gr::blocks::short_to_float</scope><name>has_msg_port</name></member>
+      <member refid="structgr__block_1ad550acd2deac3ab50b82e5ec97690e6b" prot="public" virt="non-virtual"><scope>gr::blocks::short_to_float</scope><name>history</name></member>
+      <member refid="structgr__block_1a5fd8ef96d930519bce1bc8fcbef2afe7" prot="public" virt="non-virtual"><scope>gr::blocks::short_to_float</scope><name>input_buffer_allocator</name></member>
+      <member refid="structgr__block_1a8bbb7de39d243a25bd28eba7ab6c2935" prot="public" virt="non-virtual"><scope>gr::blocks::short_to_float</scope><name>input_signature</name></member>
+      <member refid="structgr__block_1a8e1c49c7050d4156ef0119ee767bc7ac" prot="public" virt="non-virtual"><scope>gr::blocks::short_to_float</scope><name>insert_tail</name></member>
+      <member refid="structgr__block_1ae11942c855a552e8bccad91207e3fcfb" prot="public" virt="non-virtual"><scope>gr::blocks::short_to_float</scope><name>interpolation</name></member>
+      <member refid="structgr__block_1a8a15504927482ceab6d86cda99d7883c" prot="public" virt="non-virtual"><scope>gr::blocks::short_to_float</scope><name>is_set_max_noutput_items</name></member>
+      <member refid="structgr__block_1af774a12f9bcbc96726bdebdb40c1c1f5" prot="public" virt="non-virtual"><scope>gr::blocks::short_to_float</scope><name>is_unaligned</name></member>
+      <member refid="classgr_1_1blocks_1_1short__to__float_1a43662ee18344fe351aa9b12fa57ec363" prot="public" virt="non-virtual"><scope>gr::blocks::short_to_float</scope><name>make</name></member>
+      <member refid="structgr__block_1a0e748f7c88b0a3db9d79bf8bad5be7e5" prot="public" virt="non-virtual"><scope>gr::blocks::short_to_float</scope><name>max_noutput_items</name></member>
+      <member refid="structgr__block_1a0db3974de43628d347645f67b15a4be5" prot="public" virt="non-virtual"><scope>gr::blocks::short_to_float</scope><name>max_output_buffer</name></member>
+      <member refid="structgr__block_1afe36da9de05c8ea55ab4038485d6c45f" prot="public" virt="virtual"><scope>gr::blocks::short_to_float</scope><name>message_port_is_hier</name></member>
+      <member refid="structgr__block_1acddfef68b3880922bb6235765e08d0c8" prot="public" virt="virtual"><scope>gr::blocks::short_to_float</scope><name>message_port_is_hier_in</name></member>
+      <member refid="structgr__block_1a74dee2bc8c015773ef21a2e876bb1728" prot="public" virt="virtual"><scope>gr::blocks::short_to_float</scope><name>message_port_is_hier_out</name></member>
+      <member refid="structgr__block_1a798896705e664b90c16992e7ad6a5c18" prot="public" virt="non-virtual"><scope>gr::blocks::short_to_float</scope><name>message_port_pub</name></member>
+      <member refid="structgr__block_1a2aa006147556462b1aa0f993a9c33266" prot="public" virt="non-virtual"><scope>gr::blocks::short_to_float</scope><name>message_port_register_in</name></member>
+      <member refid="structgr__block_1a4e3ad910265b6b08ea1b8fbeb1616aba" prot="public" virt="non-virtual"><scope>gr::blocks::short_to_float</scope><name>message_port_register_out</name></member>
+      <member refid="structgr__block_1aa5d60dee232ae205d87741e714299e88" prot="public" virt="non-virtual"><scope>gr::blocks::short_to_float</scope><name>message_port_sub</name></member>
+      <member refid="structgr__block_1a948550894f2f020c5f102ee2a6eb737d" prot="public" virt="non-virtual"><scope>gr::blocks::short_to_float</scope><name>message_port_unsub</name></member>
+      <member refid="structgr__block_1a1888baadf55d09b738011b7e2e8e2823" prot="public" virt="non-virtual"><scope>gr::blocks::short_to_float</scope><name>message_ports_in</name></member>
+      <member refid="structgr__block_1af440b4aaf081f76c3b99d8855013dc79" prot="public" virt="non-virtual"><scope>gr::blocks::short_to_float</scope><name>message_ports_out</name></member>
+      <member refid="structgr__block_1a5543709f50bc3948d1132a3dcff77d6a" prot="public" virt="non-virtual"><scope>gr::blocks::short_to_float</scope><name>message_subscribers</name></member>
+      <member refid="structgr__block_1a8fc7b5c1e3e309a4e7746172dbea323c" prot="public" virt="non-virtual"><scope>gr::blocks::short_to_float</scope><name>min_output_buffer</name></member>
+      <member refid="structgr__block_1a2755b82373b4e009b365aff06f1cd077" prot="public" virt="non-virtual"><scope>gr::blocks::short_to_float</scope><name>msg_handler_t</name></member>
+      <member refid="structgr__block_1a70119713f26f538919661eb0aa6913f1" prot="public" virt="non-virtual"><scope>gr::blocks::short_to_float</scope><name>msg_queue</name></member>
+      <member refid="structgr__block_1a300d512afcd8b7896039f08837ccd6cf" prot="public" virt="non-virtual"><scope>gr::blocks::short_to_float</scope><name>msg_queue_map_itr</name></member>
+      <member refid="structgr__block_1a31ed3fbbf66627cd972acb0b60f72544" prot="public" virt="non-virtual"><scope>gr::blocks::short_to_float</scope><name>msg_queue_map_t</name></member>
+      <member refid="structgr__block_1a286bffc161bcdd89a597786290761df5" prot="public" virt="non-virtual"><scope>gr::blocks::short_to_float</scope><name>msg_queue_t</name></member>
+      <member refid="structgr__block_1ad11a2f8b6ec1b0d25b199952e535bcec" prot="public" virt="non-virtual"><scope>gr::blocks::short_to_float</scope><name>name</name></member>
+      <member refid="structgr__block_1a47ab6e16b5901f70fe5a8794733a88b9" prot="public" virt="non-virtual"><scope>gr::blocks::short_to_float</scope><name>nitems_read</name></member>
+      <member refid="structgr__block_1aa66fc9210a1c5ad4f0dcbc0270b52928" prot="public" virt="non-virtual"><scope>gr::blocks::short_to_float</scope><name>nitems_written</name></member>
+      <member refid="structgr__block_1ab8737131b7070c5a1d5be43911545dd7" prot="public" virt="non-virtual"><scope>gr::blocks::short_to_float</scope><name>notify_active</name></member>
+      <member refid="structgr__block_1afa52be284fe984defa46c6382f2186c2" prot="public" virt="non-virtual"><scope>gr::blocks::short_to_float</scope><name>notify_inactive</name></member>
+      <member refid="structgr__block_1a6a2fa20ff41d8293cb7643a3549961c8" prot="public" virt="non-virtual"><scope>gr::blocks::short_to_float</scope><name>notify_topology</name></member>
+      <member refid="structgr__block_1aec08928dc600ad0b81221df3e97eb2e1" prot="public" virt="non-virtual"><scope>gr::blocks::short_to_float</scope><name>output_buffer_allocator</name></member>
+      <member refid="structgr__block_1a362d4f96ecdbfbfcce67bb4cf2e437a4" prot="public" virt="non-virtual"><scope>gr::blocks::short_to_float</scope><name>output_multiple</name></member>
+      <member refid="structgr__block_1a753deb3a5c0ba82bfc38e0cedb3568ec" prot="public" virt="non-virtual"><scope>gr::blocks::short_to_float</scope><name>output_signature</name></member>
+      <member refid="structgr__block_1a3aa2883db9211f3163911c10868f3ae0" prot="public" virt="non-virtual"><scope>gr::blocks::short_to_float</scope><name>processor_affinity</name></member>
+      <member refid="structgr__block_1a621b10e62f099a327e400a91be5bb8a4" prot="public" virt="non-virtual"><scope>gr::blocks::short_to_float</scope><name>produce</name></member>
+      <member refid="structgr__block_1a39e2278465a02757bfb22fef7a287cea" prot="public" virt="virtual"><scope>gr::blocks::short_to_float</scope><name>propagate_tags</name></member>
+      <member refid="structgr__block_1a917e315aa78802c773a05e7480f694aa" prot="public" virt="non-virtual"><scope>gr::blocks::short_to_float</scope><name>relative_rate</name></member>
+      <member refid="classgr_1_1blocks_1_1short__to__float_1a833a4bbebc6a4505a16cb42bdc0ab9b6" prot="public" virt="pure-virtual"><scope>gr::blocks::short_to_float</scope><name>scale</name></member>
+      <member refid="structgr__block_1a396a40ec2b835eade1d6318082170ff7" prot="public" virt="non-virtual"><scope>gr::blocks::short_to_float</scope><name>set_alignment</name></member>
+      <member refid="structgr__block_1abf57a977c6fb9e69728a29c560ef89a1" prot="public" virt="non-virtual"><scope>gr::blocks::short_to_float</scope><name>set_block_alias</name></member>
+      <member refid="structgr__block_1ab377872b919192a07a328d800d8b3251" prot="public" virt="non-virtual"><scope>gr::blocks::short_to_float</scope><name>set_decimation</name></member>
+      <member refid="structgr__block_1a9c4c1c52f561c9b5fbab0d8d816b2460" prot="public" virt="non-virtual"><scope>gr::blocks::short_to_float</scope><name>set_fixed_rate</name></member>
+      <member refid="structgr__block_1a7c1c85a2d47f72255efd821a6f98f7ba" prot="public" virt="non-virtual"><scope>gr::blocks::short_to_float</scope><name>set_history</name></member>
+      <member refid="structgr__block_1aae3d3f31954d2cf6d563b03a437bb711" prot="public" virt="non-virtual"><scope>gr::blocks::short_to_float</scope><name>set_input_signature</name></member>
+      <member refid="structgr__block_1a9eaa1761f77e5ad63798801747b0461c" prot="public" virt="non-virtual"><scope>gr::blocks::short_to_float</scope><name>set_interpolation</name></member>
+      <member refid="structgr__block_1ade902474ad5a239cfae8f74776626107" prot="public" virt="non-virtual"><scope>gr::blocks::short_to_float</scope><name>set_max_noutput_items</name></member>
+      <member refid="structgr__block_1a12ed3111300057dc0fe2e535de6a223e" prot="public" virt="non-virtual"><scope>gr::blocks::short_to_float</scope><name>set_max_output_buffer</name></member>
+      <member refid="structgr__block_1a8e8a107a28b8e88f3acc28fed3a55e17" prot="public" virt="non-virtual"><scope>gr::blocks::short_to_float</scope><name>set_max_output_buffer</name></member>
+      <member refid="structgr__block_1aac7b948761dc7c36b137a714a708990f" prot="public" virt="non-virtual"><scope>gr::blocks::short_to_float</scope><name>set_min_output_buffer</name></member>
+      <member refid="structgr__block_1aab63ebc4f7bebaa21c8562e064b4762d" prot="public" virt="non-virtual"><scope>gr::blocks::short_to_float</scope><name>set_min_output_buffer</name></member>
+      <member refid="structgr__block_1aa1a287ef83e6e1c34b5ade5350560de2" prot="public" virt="non-virtual"><scope>gr::blocks::short_to_float</scope><name>set_msg_handler</name></member>
+      <member refid="structgr__block_1ab4669fb904807f5457aaf132143c8047" prot="public" virt="non-virtual"><scope>gr::blocks::short_to_float</scope><name>set_output_multiple</name></member>
+      <member refid="structgr__block_1ab026bc31dd66dcd264f20b97b9d7149b" prot="public" virt="non-virtual"><scope>gr::blocks::short_to_float</scope><name>set_output_signature</name></member>
+      <member refid="structgr__block_1a3de8d28d8c6b1e7ef0a2b56c4ef7f078" prot="public" virt="non-virtual"><scope>gr::blocks::short_to_float</scope><name>set_processor_affinity</name></member>
+      <member refid="structgr__block_1ab0603679f2bd3d808116fa544f256e23" prot="public" virt="non-virtual"><scope>gr::blocks::short_to_float</scope><name>set_relative_rate</name></member>
+      <member refid="classgr_1_1blocks_1_1short__to__float_1a7a589a4edde7b709b770e0260d98c356" prot="public" virt="pure-virtual"><scope>gr::blocks::short_to_float</scope><name>set_scale</name></member>
+      <member refid="structgr__block_1af9bce945f28950c1800d8deb6bb997a1" prot="public" virt="non-virtual"><scope>gr::blocks::short_to_float</scope><name>set_tag_propagation_policy</name></member>
+      <member refid="classgr_1_1blocks_1_1short__to__float_1a9bf45f493b9e71ed743d2b4672e6a98f" prot="public" virt="non-virtual"><scope>gr::blocks::short_to_float</scope><name>sptr</name></member>
+      <member refid="structgr__block_1a718fcf6d92d239f06f45db4c0226b145" prot="public" virt="virtual"><scope>gr::blocks::short_to_float</scope><name>start</name></member>
+      <member refid="structgr__block_1a21a735a5bcd8e068b33488219a5100cf" prot="public" virt="virtual"><scope>gr::blocks::short_to_float</scope><name>stop</name></member>
+      <member refid="structgr__block_1a70dc9e505869f89dc96731ca4a2f19a9" prot="public" virt="non-virtual"><scope>gr::blocks::short_to_float</scope><name>symbol_name</name></member>
+      <member refid="structgr__block_1ae659e236f33209a0882f69e628485d33" prot="public" virt="non-virtual"><scope>gr::blocks::short_to_float</scope><name>tag_propagation_policy</name></member>
+      <member refid="structgr__block_1a32561c88f124ea07881879fe79840f61" prot="public" virt="non-virtual"><scope>gr::blocks::short_to_float</scope><name>tag_propagation_policy_t</name></member>
+      <member refid="structgr__block_1a32561c88f124ea07881879fe79840f61ac59dabb0af9fac19958d18378f3cfbfb" prot="public" virt="non-virtual"><scope>gr::blocks::short_to_float</scope><name>TPP_ALL_TO_ALL</name></member>
+      <member refid="structgr__block_1a32561c88f124ea07881879fe79840f61ad472255a4873399940aec9d614d82287" prot="public" virt="non-virtual"><scope>gr::blocks::short_to_float</scope><name>TPP_DONT</name></member>
+      <member refid="structgr__block_1a32561c88f124ea07881879fe79840f61a98228946b0f3b3887230269c9ba5a60f" prot="public" virt="non-virtual"><scope>gr::blocks::short_to_float</scope><name>TPP_ONE_TO_ONE</name></member>
+      <member refid="structgr__block_1a204b13559542a2592ba1e4f04a2df6ff" prot="public" virt="non-virtual"><scope>gr::blocks::short_to_float</scope><name>unique_id</name></member>
+      <member refid="structgr__block_1a20976c136225e8ec9976178706b1a632" prot="public" virt="non-virtual"><scope>gr::blocks::short_to_float</scope><name>unset_max_noutput_items</name></member>
+      <member refid="structgr__block_1ad970b908c19d27123e6bafcd614296c6" prot="public" virt="non-virtual"><scope>gr::blocks::short_to_float</scope><name>unset_processor_affinity</name></member>
+      <member refid="structgr__sync__block_1aa8c8060e41ba213e038eb7a4eec8f723" prot="public" virt="virtual"><scope>gr::blocks::short_to_float</scope><name>work</name></member>
+      <member refid="structgr__block_1adeaee615c6abc556e2c458b3622690d2" prot="public" virt="non-virtual" ambiguityscope="gr_block::"><scope>gr::blocks::short_to_float</scope><name>work</name></member>
+      <member refid="structgr__block_1af026aa236701757fd5f71129daad883ca248a1e0554813ce26007ff5ec1530392" prot="public" virt="non-virtual"><scope>gr::blocks::short_to_float</scope><name>WORK_CALLED_PRODUCE</name></member>
+      <member refid="structgr__block_1af026aa236701757fd5f71129daad883ca221c2211857dcee81fb2bbb97fe6b223" prot="public" virt="non-virtual"><scope>gr::blocks::short_to_float</scope><name>WORK_DONE</name></member>
+      <member refid="structgr__block_1a0e702018b9f163c49470f0c5f1b2512c" prot="public" virt="virtual"><scope>gr::blocks::short_to_float</scope><name>~gr_block</name></member>
+      <member refid="structgr__sync__block_1a351ffe67342a01c9625baa6de4fce563" prot="public" virt="virtual"><scope>gr::blocks::short_to_float</scope><name>~gr_sync_block</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

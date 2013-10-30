@@ -1,0 +1,552 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="volk__common_8h" kind="file">
+    <compoundname>volk_common.h</compoundname>
+    <includes refid="inttypes_8h" local="no">inttypes.h</includes>
+    <includedby refid="volk__16i__32fc__dot__prod__32fc__a_8h" local="no">volk_16i_32fc_dot_prod_32fc_a.h</includedby>
+    <includedby refid="volk__16i__max__star__horizontal__16i__a_8h" local="no">volk_16i_max_star_horizontal_16i_a.h</includedby>
+    <includedby refid="volk__16ic__magnitude__16i__a_8h" local="no">volk_16ic_magnitude_16i_a.h</includedby>
+    <includedby refid="volk__16ic__s32f__deinterleave__32f__x2__a_8h" local="no">volk_16ic_s32f_deinterleave_32f_x2_a.h</includedby>
+    <includedby refid="volk__16ic__s32f__deinterleave__real__32f__a_8h" local="no">volk_16ic_s32f_deinterleave_real_32f_a.h</includedby>
+    <includedby refid="volk__16ic__s32f__magnitude__32f__a_8h" local="no">volk_16ic_s32f_magnitude_32f_a.h</includedby>
+    <includedby refid="volk__32f__accumulator__s32f__a_8h" local="no">volk_32f_accumulator_s32f_a.h</includedby>
+    <includedby refid="volk__32f__index__max__16u__a_8h" local="no">volk_32f_index_max_16u_a.h</includedby>
+    <includedby refid="volk__32f__s32f__calc__spectral__noise__floor__32f__a_8h" local="no">volk_32f_s32f_calc_spectral_noise_floor_32f_a.h</includedby>
+    <includedby refid="volk__32f__s32f__convert__16i__a_8h" local="no">volk_32f_s32f_convert_16i_a.h</includedby>
+    <includedby refid="volk__32f__s32f__convert__32i__a_8h" local="no">volk_32f_s32f_convert_32i_a.h</includedby>
+    <includedby refid="volk__32f__s32f__convert__8i__a_8h" local="no">volk_32f_s32f_convert_8i_a.h</includedby>
+    <includedby refid="volk__32f__s32f__stddev__32f__a_8h" local="no">volk_32f_s32f_stddev_32f_a.h</includedby>
+    <includedby refid="volk__32f__stddev__and__mean__32f__x2__a_8h" local="no">volk_32f_stddev_and_mean_32f_x2_a.h</includedby>
+    <includedby refid="volk__32f__x2__dot__prod__16i__a_8h" local="no">volk_32f_x2_dot_prod_16i_a.h</includedby>
+    <includedby refid="volk__32f__x2__dot__prod__32f__a_8h" local="no">volk_32f_x2_dot_prod_32f_a.h</includedby>
+    <includedby refid="volk__32f__x2__dot__prod__32f__u_8h" local="no">volk_32f_x2_dot_prod_32f_u.h</includedby>
+    <includedby refid="volk__32f__x2__s32f__interleave__16ic__a_8h" local="no">volk_32f_x2_s32f_interleave_16ic_a.h</includedby>
+    <includedby refid="volk__32fc__32f__dot__prod__32fc__a_8h" local="no">volk_32fc_32f_dot_prod_32fc_a.h</includedby>
+    <includedby refid="volk__32fc__index__max__16u__a_8h" local="no">volk_32fc_index_max_16u_a.h</includedby>
+    <includedby refid="volk__32fc__s32f__deinterleave__real__16i__a_8h" local="no">volk_32fc_s32f_deinterleave_real_16i_a.h</includedby>
+    <includedby refid="volk__32fc__s32f__magnitude__16i__a_8h" local="no">volk_32fc_s32f_magnitude_16i_a.h</includedby>
+    <includedby refid="volk__32fc__x2__conjugate__dot__prod__32fc__a_8h" local="no">volk_32fc_x2_conjugate_dot_prod_32fc_a.h</includedby>
+    <includedby refid="volk__32fc__x2__dot__prod__32fc__a_8h" local="no">volk_32fc_x2_dot_prod_32fc_a.h</includedby>
+    <includedby refid="volk__32fc__x2__dot__prod__32fc__u_8h" local="no">volk_32fc_x2_dot_prod_32fc_u.h</includedby>
+    <includedby refid="volk__8ic__s32f__deinterleave__32f__x2__a_8h" local="no">volk_8ic_s32f_deinterleave_32f_x2_a.h</includedby>
+    <includedby refid="volk__8ic__s32f__deinterleave__real__32f__a_8h" local="no">volk_8ic_s32f_deinterleave_real_32f_a.h</includedby>
+    <includedby refid="volk__prefs_8h" local="no">volk_prefs.h</includedby>
+    <includedby refid="volk__16i__32fc__dot__prod__32fc_8h" local="no">volk_16i_32fc_dot_prod_32fc.h</includedby>
+    <includedby refid="volk__16i__max__star__horizontal__16i_8h" local="no">volk_16i_max_star_horizontal_16i.h</includedby>
+    <includedby refid="volk__16ic__magnitude__16i_8h" local="no">volk_16ic_magnitude_16i.h</includedby>
+    <includedby refid="volk__16ic__s32f__deinterleave__32f__x2_8h" local="no">volk_16ic_s32f_deinterleave_32f_x2.h</includedby>
+    <includedby refid="volk__16ic__s32f__deinterleave__real__32f_8h" local="no">volk_16ic_s32f_deinterleave_real_32f.h</includedby>
+    <includedby refid="volk__16ic__s32f__magnitude__32f_8h" local="no">volk_16ic_s32f_magnitude_32f.h</includedby>
+    <includedby refid="volk__32f__accumulator__s32f_8h" local="no">volk_32f_accumulator_s32f.h</includedby>
+    <includedby refid="volk__32f__index__max__16u_8h" local="no">volk_32f_index_max_16u.h</includedby>
+    <includedby refid="volk__32f__s32f__calc__spectral__noise__floor__32f_8h" local="no">volk_32f_s32f_calc_spectral_noise_floor_32f.h</includedby>
+    <includedby refid="volk__32f__s32f__convert__16i_8h" local="no">volk_32f_s32f_convert_16i.h</includedby>
+    <includedby refid="volk__32f__s32f__convert__32i_8h" local="no">volk_32f_s32f_convert_32i.h</includedby>
+    <includedby refid="volk__32f__s32f__convert__8i_8h" local="no">volk_32f_s32f_convert_8i.h</includedby>
+    <includedby refid="volk__32f__s32f__stddev__32f_8h" local="no">volk_32f_s32f_stddev_32f.h</includedby>
+    <includedby refid="volk__32f__stddev__and__mean__32f__x2_8h" local="no">volk_32f_stddev_and_mean_32f_x2.h</includedby>
+    <includedby refid="volk__32f__x2__dot__prod__16i_8h" local="no">volk_32f_x2_dot_prod_16i.h</includedby>
+    <includedby refid="volk__32f__x2__dot__prod__32f_8h" local="no">volk_32f_x2_dot_prod_32f.h</includedby>
+    <includedby refid="volk__32f__x2__s32f__interleave__16ic_8h" local="no">volk_32f_x2_s32f_interleave_16ic.h</includedby>
+    <includedby refid="volk__32fc__32f__dot__prod__32fc_8h" local="no">volk_32fc_32f_dot_prod_32fc.h</includedby>
+    <includedby refid="volk__32fc__index__max__16u_8h" local="no">volk_32fc_index_max_16u.h</includedby>
+    <includedby refid="volk__32fc__s32f__deinterleave__real__16i_8h" local="no">volk_32fc_s32f_deinterleave_real_16i.h</includedby>
+    <includedby refid="volk__32fc__s32f__magnitude__16i_8h" local="no">volk_32fc_s32f_magnitude_16i.h</includedby>
+    <includedby refid="volk__32fc__x2__conjugate__dot__prod__32fc_8h" local="no">volk_32fc_x2_conjugate_dot_prod_32fc.h</includedby>
+    <includedby refid="volk__32fc__x2__dot__prod__32fc_8h" local="no">volk_32fc_x2_dot_prod_32fc.h</includedby>
+    <includedby refid="volk__8ic__s32f__deinterleave__32f__x2_8h" local="no">volk_8ic_s32f_deinterleave_32f_x2.h</includedby>
+    <includedby refid="volk__8ic__s32f__deinterleave__real__32f_8h" local="no">volk_8ic_s32f_deinterleave_real_32f.h</includedby>
+    <includedby refid="volk_8tmpl_8h" local="no">volk.tmpl.h</includedby>
+    <includedby refid="volk__cpu_8tmpl_8h" local="no">volk_cpu.tmpl.h</includedby>
+    <includedby refid="volk__machines_8tmpl_8h" local="no">volk_machines.tmpl.h</includedby>
+    <includedby refid="volk_8h" local="no">volk.h</includedby>
+    <incdepgraph>
+      <node id="21934">
+        <label>volk_common.h</label>
+        <link refid="volk_common.h"/>
+        <childnode refid="21935" relation="include">
+        </childnode>
+      </node>
+      <node id="21936">
+        <label>stdint.h</label>
+        <link refid="stdint_8h"/>
+        <childnode refid="21937" relation="include">
+        </childnode>
+        <childnode refid="21938" relation="include">
+        </childnode>
+      </node>
+      <node id="21935">
+        <label>inttypes.h</label>
+        <link refid="inttypes_8h"/>
+        <childnode refid="21936" relation="include">
+        </childnode>
+      </node>
+      <node id="21937">
+        <label>limits.h</label>
+      </node>
+      <node id="21938">
+        <label>wchar.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="21939">
+        <label>volk_common.h</label>
+        <link refid="volk_common.h"/>
+        <childnode refid="21940" relation="include">
+        </childnode>
+        <childnode refid="21941" relation="include">
+        </childnode>
+        <childnode refid="21942" relation="include">
+        </childnode>
+        <childnode refid="21943" relation="include">
+        </childnode>
+        <childnode refid="21944" relation="include">
+        </childnode>
+        <childnode refid="21945" relation="include">
+        </childnode>
+        <childnode refid="21946" relation="include">
+        </childnode>
+        <childnode refid="21947" relation="include">
+        </childnode>
+        <childnode refid="21948" relation="include">
+        </childnode>
+        <childnode refid="21949" relation="include">
+        </childnode>
+        <childnode refid="21950" relation="include">
+        </childnode>
+        <childnode refid="21951" relation="include">
+        </childnode>
+        <childnode refid="21952" relation="include">
+        </childnode>
+        <childnode refid="21953" relation="include">
+        </childnode>
+        <childnode refid="21954" relation="include">
+        </childnode>
+        <childnode refid="21955" relation="include">
+        </childnode>
+        <childnode refid="21956" relation="include">
+        </childnode>
+        <childnode refid="21957" relation="include">
+        </childnode>
+        <childnode refid="21958" relation="include">
+        </childnode>
+        <childnode refid="21959" relation="include">
+        </childnode>
+        <childnode refid="21960" relation="include">
+        </childnode>
+        <childnode refid="21961" relation="include">
+        </childnode>
+        <childnode refid="21962" relation="include">
+        </childnode>
+        <childnode refid="21963" relation="include">
+        </childnode>
+        <childnode refid="21964" relation="include">
+        </childnode>
+        <childnode refid="21965" relation="include">
+        </childnode>
+        <childnode refid="21966" relation="include">
+        </childnode>
+        <childnode refid="21967" relation="include">
+        </childnode>
+        <childnode refid="21968" relation="include">
+        </childnode>
+        <childnode refid="21969" relation="include">
+        </childnode>
+        <childnode refid="21970" relation="include">
+        </childnode>
+        <childnode refid="21971" relation="include">
+        </childnode>
+        <childnode refid="21972" relation="include">
+        </childnode>
+        <childnode refid="21973" relation="include">
+        </childnode>
+        <childnode refid="21974" relation="include">
+        </childnode>
+        <childnode refid="21975" relation="include">
+        </childnode>
+        <childnode refid="21976" relation="include">
+        </childnode>
+        <childnode refid="21977" relation="include">
+        </childnode>
+        <childnode refid="21978" relation="include">
+        </childnode>
+        <childnode refid="21979" relation="include">
+        </childnode>
+        <childnode refid="21980" relation="include">
+        </childnode>
+        <childnode refid="21981" relation="include">
+        </childnode>
+        <childnode refid="21982" relation="include">
+        </childnode>
+        <childnode refid="21983" relation="include">
+        </childnode>
+        <childnode refid="21984" relation="include">
+        </childnode>
+        <childnode refid="21985" relation="include">
+        </childnode>
+        <childnode refid="21986" relation="include">
+        </childnode>
+        <childnode refid="21987" relation="include">
+        </childnode>
+        <childnode refid="21988" relation="include">
+        </childnode>
+        <childnode refid="21989" relation="include">
+        </childnode>
+        <childnode refid="21990" relation="include">
+        </childnode>
+        <childnode refid="21991" relation="include">
+        </childnode>
+        <childnode refid="21992" relation="include">
+        </childnode>
+        <childnode refid="21993" relation="include">
+        </childnode>
+        <childnode refid="21994" relation="include">
+        </childnode>
+        <childnode refid="21995" relation="include">
+        </childnode>
+        <childnode refid="21996" relation="include">
+        </childnode>
+      </node>
+      <node id="21941">
+        <label>volk_16i_max_star_horizontal_16i_a.h</label>
+        <link refid="volk__16i__max__star__horizontal__16i__a_8h"/>
+      </node>
+      <node id="21940">
+        <label>volk_16i_32fc_dot_prod_32fc_a.h</label>
+        <link refid="volk__16i__32fc__dot__prod__32fc__a_8h"/>
+      </node>
+      <node id="21942">
+        <label>volk_16ic_magnitude_16i_a.h</label>
+        <link refid="volk__16ic__magnitude__16i__a_8h"/>
+      </node>
+      <node id="21974">
+        <label>volk_32f_accumulator_s32f.h</label>
+        <link refid="volk__32f__accumulator__s32f_8h"/>
+      </node>
+      <node id="21963">
+        <label>volk_32fc_x2_dot_prod_32fc_a.h</label>
+        <link refid="volk__32fc__x2__dot__prod__32fc__a_8h"/>
+      </node>
+      <node id="21988">
+        <label>volk_32fc_s32f_magnitude_16i.h</label>
+        <link refid="volk__32fc__s32f__magnitude__16i_8h"/>
+      </node>
+      <node id="21967">
+        <label>volk_prefs.h</label>
+        <link refid="volk__prefs_8h"/>
+      </node>
+      <node id="21966">
+        <label>volk_8ic_s32f_deinterleave_real_32f_a.h</label>
+        <link refid="volk__8ic__s32f__deinterleave__real__32f__a_8h"/>
+      </node>
+      <node id="21994">
+        <label>volk_cpu.tmpl.h</label>
+        <link refid="volk__cpu_8tmpl_8h"/>
+      </node>
+      <node id="21981">
+        <label>volk_32f_stddev_and_mean_32f_x2.h</label>
+        <link refid="volk__32f__stddev__and__mean__32f__x2_8h"/>
+      </node>
+      <node id="21955">
+        <label>volk_32f_x2_dot_prod_32f_a.h</label>
+        <link refid="volk__32f__x2__dot__prod__32f__a_8h"/>
+      </node>
+      <node id="21977">
+        <label>volk_32f_s32f_convert_16i.h</label>
+        <link refid="volk__32f__s32f__convert__16i_8h"/>
+      </node>
+      <node id="21956">
+        <label>volk_32f_x2_dot_prod_32f_u.h</label>
+        <link refid="volk__32f__x2__dot__prod__32f__u_8h"/>
+      </node>
+      <node id="21946">
+        <label>volk_32f_accumulator_s32f_a.h</label>
+        <link refid="volk__32f__accumulator__s32f__a_8h"/>
+      </node>
+      <node id="21965">
+        <label>volk_8ic_s32f_deinterleave_32f_x2_a.h</label>
+        <link refid="volk__8ic__s32f__deinterleave__32f__x2__a_8h"/>
+      </node>
+      <node id="21947">
+        <label>volk_32f_index_max_16u_a.h</label>
+        <link refid="volk__32f__index__max__16u__a_8h"/>
+      </node>
+      <node id="21973">
+        <label>volk_16ic_s32f_magnitude_32f.h</label>
+        <link refid="volk__16ic__s32f__magnitude__32f_8h"/>
+      </node>
+      <node id="21986">
+        <label>volk_32fc_index_max_16u.h</label>
+        <link refid="volk__32fc__index__max__16u_8h"/>
+      </node>
+      <node id="21957">
+        <label>volk_32f_x2_s32f_interleave_16ic_a.h</label>
+        <link refid="volk__32f__x2__s32f__interleave__16ic__a_8h"/>
+      </node>
+      <node id="21990">
+        <label>volk_32fc_x2_dot_prod_32fc.h</label>
+        <link refid="volk__32fc__x2__dot__prod__32fc_8h"/>
+      </node>
+      <node id="21951">
+        <label>volk_32f_s32f_convert_8i_a.h</label>
+        <link refid="volk__32f__s32f__convert__8i__a_8h"/>
+      </node>
+      <node id="21970">
+        <label>volk_16ic_magnitude_16i.h</label>
+        <link refid="volk__16ic__magnitude__16i_8h"/>
+      </node>
+      <node id="21985">
+        <label>volk_32fc_32f_dot_prod_32fc.h</label>
+        <link refid="volk__32fc__32f__dot__prod__32fc_8h"/>
+      </node>
+      <node id="21971">
+        <label>volk_16ic_s32f_deinterleave_32f_x2.h</label>
+        <link refid="volk__16ic__s32f__deinterleave__32f__x2_8h"/>
+      </node>
+      <node id="21995">
+        <label>volk_machines.tmpl.h</label>
+        <link refid="volk__machines_8tmpl_8h"/>
+      </node>
+      <node id="21993">
+        <label>volk.tmpl.h</label>
+        <link refid="volk_8tmpl_8h"/>
+      </node>
+      <node id="21943">
+        <label>volk_16ic_s32f_deinterleave_32f_x2_a.h</label>
+        <link refid="volk__16ic__s32f__deinterleave__32f__x2__a_8h"/>
+      </node>
+      <node id="21987">
+        <label>volk_32fc_s32f_deinterleave_real_16i.h</label>
+        <link refid="volk__32fc__s32f__deinterleave__real__16i_8h"/>
+      </node>
+      <node id="21954">
+        <label>volk_32f_x2_dot_prod_16i_a.h</label>
+        <link refid="volk__32f__x2__dot__prod__16i__a_8h"/>
+      </node>
+      <node id="21991">
+        <label>volk_8ic_s32f_deinterleave_32f_x2.h</label>
+        <link refid="volk__8ic__s32f__deinterleave__32f__x2_8h"/>
+      </node>
+      <node id="21960">
+        <label>volk_32fc_s32f_deinterleave_real_16i_a.h</label>
+        <link refid="volk__32fc__s32f__deinterleave__real__16i__a_8h"/>
+      </node>
+      <node id="21952">
+        <label>volk_32f_s32f_stddev_32f_a.h</label>
+        <link refid="volk__32f__s32f__stddev__32f__a_8h"/>
+      </node>
+      <node id="21969">
+        <label>volk_16i_max_star_horizontal_16i.h</label>
+        <link refid="volk__16i__max__star__horizontal__16i_8h"/>
+      </node>
+      <node id="21961">
+        <label>volk_32fc_s32f_magnitude_16i_a.h</label>
+        <link refid="volk__32fc__s32f__magnitude__16i__a_8h"/>
+      </node>
+      <node id="21972">
+        <label>volk_16ic_s32f_deinterleave_real_32f.h</label>
+        <link refid="volk__16ic__s32f__deinterleave__real__32f_8h"/>
+      </node>
+      <node id="21953">
+        <label>volk_32f_stddev_and_mean_32f_x2_a.h</label>
+        <link refid="volk__32f__stddev__and__mean__32f__x2__a_8h"/>
+      </node>
+      <node id="21996">
+        <label>volk.h</label>
+        <link refid="volk_8h"/>
+      </node>
+      <node id="21978">
+        <label>volk_32f_s32f_convert_32i.h</label>
+        <link refid="volk__32f__s32f__convert__32i_8h"/>
+      </node>
+      <node id="21958">
+        <label>volk_32fc_32f_dot_prod_32fc_a.h</label>
+        <link refid="volk__32fc__32f__dot__prod__32fc__a_8h"/>
+      </node>
+      <node id="21950">
+        <label>volk_32f_s32f_convert_32i_a.h</label>
+        <link refid="volk__32f__s32f__convert__32i__a_8h"/>
+      </node>
+      <node id="21959">
+        <label>volk_32fc_index_max_16u_a.h</label>
+        <link refid="volk__32fc__index__max__16u__a_8h"/>
+      </node>
+      <node id="21949">
+        <label>volk_32f_s32f_convert_16i_a.h</label>
+        <link refid="volk__32f__s32f__convert__16i__a_8h"/>
+      </node>
+      <node id="21948">
+        <label>volk_32f_s32f_calc_spectral_noise_floor_32f_a.h</label>
+        <link refid="volk__32f__s32f__calc__spectral__noise__floor__32f__a_8h"/>
+      </node>
+      <node id="21984">
+        <label>volk_32f_x2_s32f_interleave_16ic.h</label>
+        <link refid="volk__32f__x2__s32f__interleave__16ic_8h"/>
+      </node>
+      <node id="21979">
+        <label>volk_32f_s32f_convert_8i.h</label>
+        <link refid="volk__32f__s32f__convert__8i_8h"/>
+      </node>
+      <node id="21975">
+        <label>volk_32f_index_max_16u.h</label>
+        <link refid="volk__32f__index__max__16u_8h"/>
+      </node>
+      <node id="21968">
+        <label>volk_16i_32fc_dot_prod_32fc.h</label>
+        <link refid="volk__16i__32fc__dot__prod__32fc_8h"/>
+      </node>
+      <node id="21962">
+        <label>volk_32fc_x2_conjugate_dot_prod_32fc_a.h</label>
+        <link refid="volk__32fc__x2__conjugate__dot__prod__32fc__a_8h"/>
+      </node>
+      <node id="21992">
+        <label>volk_8ic_s32f_deinterleave_real_32f.h</label>
+        <link refid="volk__8ic__s32f__deinterleave__real__32f_8h"/>
+      </node>
+      <node id="21983">
+        <label>volk_32f_x2_dot_prod_32f.h</label>
+        <link refid="volk__32f__x2__dot__prod__32f_8h"/>
+      </node>
+      <node id="21964">
+        <label>volk_32fc_x2_dot_prod_32fc_u.h</label>
+        <link refid="volk__32fc__x2__dot__prod__32fc__u_8h"/>
+      </node>
+      <node id="21945">
+        <label>volk_16ic_s32f_magnitude_32f_a.h</label>
+        <link refid="volk__16ic__s32f__magnitude__32f__a_8h"/>
+      </node>
+      <node id="21944">
+        <label>volk_16ic_s32f_deinterleave_real_32f_a.h</label>
+        <link refid="volk__16ic__s32f__deinterleave__real__32f__a_8h"/>
+      </node>
+      <node id="21976">
+        <label>volk_32f_s32f_calc_spectral_noise_floor_32f.h</label>
+        <link refid="volk__32f__s32f__calc__spectral__noise__floor__32f_8h"/>
+      </node>
+      <node id="21989">
+        <label>volk_32fc_x2_conjugate_dot_prod_32fc.h</label>
+        <link refid="volk__32fc__x2__conjugate__dot__prod__32fc_8h"/>
+      </node>
+      <node id="21982">
+        <label>volk_32f_x2_dot_prod_16i.h</label>
+        <link refid="volk__32f__x2__dot__prod__16i_8h"/>
+      </node>
+      <node id="21980">
+        <label>volk_32f_s32f_stddev_32f.h</label>
+        <link refid="volk__32f__s32f__stddev__32f_8h"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="unionbit128" prot="public">bit128</innerclass>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="volk__common_8h_1af8ae70079c1927f7c46b6d1880473d17" prot="public" static="no">
+        <name>__VOLK_ATTR_ALIGNED</name>
+        <param><defname>x</defname></param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/volk/include/volk/volk_common.h" line="27" bodyfile="/home/aviral/GNU-Niyantran/gr36/volk/include/volk/volk_common.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="volk__common_8h_1ac26e1f731bcc940ed2479ab66085e029" prot="public" static="no">
+        <name>__VOLK_ATTR_UNUSED</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/volk/include/volk/volk_common.h" line="28" bodyfile="/home/aviral/GNU-Niyantran/gr36/volk/include/volk/volk_common.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="volk__common_8h_1a83e7f958195308338cbcaf8c7a9443d5" prot="public" static="no">
+        <name>__VOLK_ATTR_INLINE</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/volk/include/volk/volk_common.h" line="29" bodyfile="/home/aviral/GNU-Niyantran/gr36/volk/include/volk/volk_common.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="volk__common_8h_1a3d8288d34dbaaa56d232425fe31eec77" prot="public" static="no">
+        <name>__VOLK_ATTR_DEPRECATED</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/volk/include/volk/volk_common.h" line="30" bodyfile="/home/aviral/GNU-Niyantran/gr36/volk/include/volk/volk_common.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="volk__common_8h_1af3591d28bcc696b05ea1dc28531249dd" prot="public" static="no">
+        <name>__VOLK_ATTR_EXPORT</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/volk/include/volk/volk_common.h" line="31" bodyfile="/home/aviral/GNU-Niyantran/gr36/volk/include/volk/volk_common.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="volk__common_8h_1a82347e6e325268e9f2b579cdd1e58282" prot="public" static="no">
+        <name>__VOLK_ATTR_IMPORT</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/volk/include/volk/volk_common.h" line="32" bodyfile="/home/aviral/GNU-Niyantran/gr36/volk/include/volk/volk_common.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="volk__common_8h_1ac1abbb6f13c8d9be04370be31ef9c5be" prot="public" static="no">
+        <name>__VOLK_DECL_BEGIN</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/volk/include/volk/volk_common.h" line="51" bodyfile="/home/aviral/GNU-Niyantran/gr36/volk/include/volk/volk_common.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="volk__common_8h_1a7a4c07bc57c3935c1644e363d19a32d6" prot="public" static="no">
+        <name>__VOLK_DECL_END</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/volk/include/volk/volk_common.h" line="52" bodyfile="/home/aviral/GNU-Niyantran/gr36/volk/include/volk/volk_common.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="volk__common_8h_1aad4656ebd3cf8ae30363d8bc205a72be" prot="public" static="no">
+        <name>VOLK_API</name>
+        <initializer><ref refid="volk__common_8h_1a82347e6e325268e9f2b579cdd1e58282" kindref="member">__VOLK_ATTR_IMPORT</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/volk/include/volk/volk_common.h" line="62" bodyfile="/home/aviral/GNU-Niyantran/gr36/volk/include/volk/volk_common.h" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="volk__common_8h_1a05c2a3d4b16c94986318506664101312" prot="public" static="no">
+        <name>bit128_p</name>
+        <param><defname>x</defname></param>
+        <initializer>((union <ref refid="unionbit128" kindref="compound">bit128</ref> *)(x))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/volk/include/volk/volk_common.h" line="94" bodyfile="/home/aviral/GNU-Niyantran/gr36/volk/include/volk/volk_common.h" bodystart="94" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/aviral/GNU-Niyantran/gr36/volk/include/volk/volk_common.h"/>
+  </compounddef>
+</doxygen>

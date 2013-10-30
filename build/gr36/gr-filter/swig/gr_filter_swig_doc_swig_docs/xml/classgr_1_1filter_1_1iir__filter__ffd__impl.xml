@@ -1,0 +1,158 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="classgr_1_1filter_1_1iir__filter__ffd__impl" kind="class" prot="public">
+    <compoundname>gr::filter::iir_filter_ffd_impl</compoundname>
+    <includes refid="iir__filter__ffd__impl_8h" local="no">iir_filter_ffd_impl.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1filter_1_1iir__filter__ffd__impl_1ae98a27be90d2414799725e868e551e4c" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool gr::filter::iir_filter_ffd_impl::d_updated</definition>
+        <argsstring></argsstring>
+        <name>d_updated</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/iir_filter_ffd_impl.h" line="35" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/iir_filter_ffd_impl.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1filter_1_1iir__filter__ffd__impl_1a6aa9d152e23c6062b7cfda93fd025394" prot="private" static="no" mutable="no">
+        <type>kernel::iir_filter&lt; float, float, double &gt; *</type>
+        <definition>kernel::iir_filter&lt;float,float,double&gt;* gr::filter::iir_filter_ffd_impl::d_iir</definition>
+        <argsstring></argsstring>
+        <name>d_iir</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/iir_filter_ffd_impl.h" line="36" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/iir_filter_ffd_impl.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1filter_1_1iir__filter__ffd__impl_1a9440aac8aa301c209d8834ab24b2c4b9" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; double &gt;</type>
+        <definition>std::vector&lt;double&gt; gr::filter::iir_filter_ffd_impl::d_new_fftaps</definition>
+        <argsstring></argsstring>
+        <name>d_new_fftaps</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/iir_filter_ffd_impl.h" line="37" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/iir_filter_ffd_impl.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1filter_1_1iir__filter__ffd__impl_1afa865d39b6590979575e27653105840b" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; double &gt;</type>
+        <definition>std::vector&lt;double&gt; gr::filter::iir_filter_ffd_impl::d_new_fbtaps</definition>
+        <argsstring></argsstring>
+        <name>d_new_fbtaps</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/iir_filter_ffd_impl.h" line="38" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/iir_filter_ffd_impl.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1filter_1_1iir__filter__ffd__impl_1afd7baad5f5b99398a9b599740c95082e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::filter::iir_filter_ffd_impl::iir_filter_ffd_impl</definition>
+        <argsstring>(const std::vector&lt; double &gt; &amp;fftaps, const std::vector&lt; double &gt; &amp;fbtaps)</argsstring>
+        <name>iir_filter_ffd_impl</name>
+        <param>
+          <type>const std::vector&lt; double &gt; &amp;</type>
+          <declname>fftaps</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; double &gt; &amp;</type>
+          <declname>fbtaps</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/iir_filter_ffd_impl.h" line="42"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1filter_1_1iir__filter__ffd__impl_1aedbfdd61cd56ede487ac498a8405da4d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::filter::iir_filter_ffd_impl::~iir_filter_ffd_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~iir_filter_ffd_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/iir_filter_ffd_impl.h" line="43"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1filter_1_1iir__filter__ffd__impl_1aed54ef4a5de91ee39ca526b48ed8d18d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::filter::iir_filter_ffd_impl::set_taps</definition>
+        <argsstring>(const std::vector&lt; double &gt; &amp;fftaps, const std::vector&lt; double &gt; &amp;fbtaps)</argsstring>
+        <name>set_taps</name>
+        <param>
+          <type>const std::vector&lt; double &gt; &amp;</type>
+          <declname>fftaps</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; double &gt; &amp;</type>
+          <declname>fbtaps</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/iir_filter_ffd_impl.h" line="46"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1filter_1_1iir__filter__ffd__impl_1a662ec497426bd9c8494f13b467d2f8bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::filter::iir_filter_ffd_impl::work</definition>
+        <argsstring>(int noutput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/iir_filter_ffd_impl.h" line="50"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/iir_filter_ffd_impl.h" line="33" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/iir_filter_ffd_impl.h" bodystart="32" bodyend="51"/>
+    <listofallmembers>
+      <member refid="classgr_1_1filter_1_1iir__filter__ffd__impl_1a6aa9d152e23c6062b7cfda93fd025394" prot="private" virt="non-virtual"><scope>gr::filter::iir_filter_ffd_impl</scope><name>d_iir</name></member>
+      <member refid="classgr_1_1filter_1_1iir__filter__ffd__impl_1afa865d39b6590979575e27653105840b" prot="private" virt="non-virtual"><scope>gr::filter::iir_filter_ffd_impl</scope><name>d_new_fbtaps</name></member>
+      <member refid="classgr_1_1filter_1_1iir__filter__ffd__impl_1a9440aac8aa301c209d8834ab24b2c4b9" prot="private" virt="non-virtual"><scope>gr::filter::iir_filter_ffd_impl</scope><name>d_new_fftaps</name></member>
+      <member refid="classgr_1_1filter_1_1iir__filter__ffd__impl_1ae98a27be90d2414799725e868e551e4c" prot="private" virt="non-virtual"><scope>gr::filter::iir_filter_ffd_impl</scope><name>d_updated</name></member>
+      <member refid="classgr_1_1filter_1_1iir__filter__ffd__impl_1afd7baad5f5b99398a9b599740c95082e" prot="public" virt="non-virtual"><scope>gr::filter::iir_filter_ffd_impl</scope><name>iir_filter_ffd_impl</name></member>
+      <member refid="classgr_1_1filter_1_1iir__filter__ffd__impl_1aed54ef4a5de91ee39ca526b48ed8d18d" prot="public" virt="non-virtual"><scope>gr::filter::iir_filter_ffd_impl</scope><name>set_taps</name></member>
+      <member refid="classgr_1_1filter_1_1iir__filter__ffd__impl_1a662ec497426bd9c8494f13b467d2f8bd" prot="public" virt="non-virtual"><scope>gr::filter::iir_filter_ffd_impl</scope><name>work</name></member>
+      <member refid="classgr_1_1filter_1_1iir__filter__ffd__impl_1aedbfdd61cd56ede487ac498a8405da4d" prot="public" virt="non-virtual"><scope>gr::filter::iir_filter_ffd_impl</scope><name>~iir_filter_ffd_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

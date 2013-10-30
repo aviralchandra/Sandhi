@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="volk__64f__x2__max__64f__a_8h" kind="file">
+    <compoundname>volk_64f_x2_max_64f_a.h</compoundname>
+    <includes refid="inttypes_8h" local="no">inttypes.h</includes>
+    <includes local="no">stdio.h</includes>
+    <incdepgraph>
+      <node id="21726">
+        <label>volk_64f_x2_max_64f_a.h</label>
+        <link refid="volk_64f_x2_max_64f_a.h"/>
+        <childnode refid="21727" relation="include">
+        </childnode>
+        <childnode refid="21731" relation="include">
+        </childnode>
+      </node>
+      <node id="21728">
+        <label>stdint.h</label>
+        <link refid="stdint_8h"/>
+        <childnode refid="21729" relation="include">
+        </childnode>
+        <childnode refid="21730" relation="include">
+        </childnode>
+      </node>
+      <node id="21727">
+        <label>inttypes.h</label>
+        <link refid="inttypes_8h"/>
+        <childnode refid="21728" relation="include">
+        </childnode>
+      </node>
+      <node id="21729">
+        <label>limits.h</label>
+      </node>
+      <node id="21730">
+        <label>wchar.h</label>
+      </node>
+      <node id="21731">
+        <label>stdio.h</label>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/aviral/GNU-Niyantran/gr36/volk/include/volk/volk_64f_x2_max_64f_a.h"/>
+  </compounddef>
+</doxygen>

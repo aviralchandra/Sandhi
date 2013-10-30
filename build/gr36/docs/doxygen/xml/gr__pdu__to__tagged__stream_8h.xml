@@ -1,0 +1,303 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="gr__pdu__to__tagged__stream_8h" kind="file">
+    <compoundname>gr_pdu_to_tagged_stream.h</compoundname>
+    <includes refid="gr__core__api_8h" local="no">gr_core_api.h</includes>
+    <includes refid="gr__sync__block_8h" local="no">gr_sync_block.h</includes>
+    <includes refid="gr__message_8h" local="no">gr_message.h</includes>
+    <includes refid="gr__msg__queue_8h" local="no">gr_msg_queue.h</includes>
+    <includes refid="gr__pdu_8h" local="no">gr_pdu.h</includes>
+    <incdepgraph>
+      <node id="9770">
+        <label>boost/thread/mutex.hpp</label>
+      </node>
+      <node id="9772">
+        <label>boost/thread/condition_variable.hpp</label>
+      </node>
+      <node id="9754">
+        <label>boost/shared_ptr.hpp</label>
+      </node>
+      <node id="9777">
+        <label>gr_pdu.h</label>
+        <link refid="gr__pdu_8h"/>
+        <childnode refid="9778" relation="include">
+        </childnode>
+        <childnode refid="9751" relation="include">
+        </childnode>
+      </node>
+      <node id="9751">
+        <label>gruel/pmt.h</label>
+        <link refid="pmt_8h"/>
+        <childnode refid="9752" relation="include">
+        </childnode>
+        <childnode refid="9753" relation="include">
+        </childnode>
+        <childnode refid="9754" relation="include">
+        </childnode>
+        <childnode refid="9755" relation="include">
+        </childnode>
+        <childnode refid="9756" relation="include">
+        </childnode>
+        <childnode refid="9757" relation="include">
+        </childnode>
+        <childnode refid="9758" relation="include">
+        </childnode>
+        <childnode refid="9761" relation="include">
+        </childnode>
+        <childnode refid="9762" relation="include">
+        </childnode>
+        <childnode refid="9763" relation="include">
+        </childnode>
+        <childnode refid="9764" relation="include">
+        </childnode>
+      </node>
+      <node id="9753">
+        <label>boost/intrusive_ptr.hpp</label>
+      </node>
+      <node id="9739">
+        <label>gr_core_api.h</label>
+        <link refid="gr__core__api_8h"/>
+        <childnode refid="9740" relation="include">
+        </childnode>
+      </node>
+      <node id="9758">
+        <label>stdint.h</label>
+        <link refid="stdint_8h"/>
+        <childnode refid="9759" relation="include">
+        </childnode>
+        <childnode refid="9760" relation="include">
+        </childnode>
+      </node>
+      <node id="9749">
+        <label>gras/hier_block.hpp</label>
+      </node>
+      <node id="9748">
+        <label>gras/top_block.hpp</label>
+      </node>
+      <node id="9767">
+        <label>boost/foreach.hpp</label>
+      </node>
+      <node id="9774">
+        <label>gr_message.h</label>
+        <link refid="gr__message_8h"/>
+        <childnode refid="9739" relation="include">
+        </childnode>
+        <childnode refid="9746" relation="include">
+        </childnode>
+        <childnode refid="9757" relation="include">
+        </childnode>
+      </node>
+      <node id="9762">
+        <label>stdexcept</label>
+      </node>
+      <node id="9743">
+        <label>gras/block.hpp</label>
+      </node>
+      <node id="9769">
+        <label>boost/thread/thread.hpp</label>
+      </node>
+      <node id="9757">
+        <label>string</label>
+      </node>
+      <node id="9766">
+        <label>map</label>
+      </node>
+      <node id="9740">
+        <label>gruel/attributes.h</label>
+        <link refid="attributes_8h"/>
+      </node>
+      <node id="9759">
+        <label>limits.h</label>
+      </node>
+      <node id="9755">
+        <label>boost/any.hpp</label>
+      </node>
+      <node id="9742">
+        <label>gr_block.h</label>
+        <link refid="gr__block_8h"/>
+        <childnode refid="9739" relation="include">
+        </childnode>
+        <childnode refid="9743" relation="include">
+        </childnode>
+        <childnode refid="9744" relation="include">
+        </childnode>
+        <childnode refid="9746" relation="include">
+        </childnode>
+        <childnode refid="9750" relation="include">
+        </childnode>
+        <childnode refid="9757" relation="include">
+        </childnode>
+        <childnode refid="9765" relation="include">
+        </childnode>
+        <childnode refid="9766" relation="include">
+        </childnode>
+        <childnode refid="9767" relation="include">
+        </childnode>
+        <childnode refid="9768" relation="include">
+        </childnode>
+        <childnode refid="9773" relation="include">
+        </childnode>
+      </node>
+      <node id="9738">
+        <label>gr_pdu_to_tagged_stream.h</label>
+        <link refid="gr_pdu_to_tagged_stream.h"/>
+        <childnode refid="9739" relation="include">
+        </childnode>
+        <childnode refid="9741" relation="include">
+        </childnode>
+        <childnode refid="9774" relation="include">
+        </childnode>
+        <childnode refid="9775" relation="include">
+        </childnode>
+        <childnode refid="9777" relation="include">
+        </childnode>
+      </node>
+      <node id="9745">
+        <label>gr_runtime_types.h</label>
+        <link refid="gr__runtime__types_8h"/>
+        <childnode refid="9739" relation="include">
+        </childnode>
+        <childnode refid="9746" relation="include">
+        </childnode>
+      </node>
+      <node id="9760">
+        <label>wchar.h</label>
+      </node>
+      <node id="9764">
+        <label>gruel/pmt_sugar.h</label>
+        <link refid="pmt__sugar_8h"/>
+      </node>
+      <node id="9771">
+        <label>boost/thread/locks.hpp</label>
+      </node>
+      <node id="9741">
+        <label>gr_sync_block.h</label>
+        <link refid="gr__sync__block_8h"/>
+        <childnode refid="9742" relation="include">
+        </childnode>
+      </node>
+      <node id="9763">
+        <label>vector</label>
+      </node>
+      <node id="9744">
+        <label>gr_io_signature.h</label>
+        <link refid="gr__io__signature_8h"/>
+        <childnode refid="9739" relation="include">
+        </childnode>
+        <childnode refid="9745" relation="include">
+        </childnode>
+      </node>
+      <node id="9776">
+        <label>gr_msg_handler.h</label>
+        <link refid="gr__msg__handler_8h"/>
+        <childnode refid="9739" relation="include">
+        </childnode>
+        <childnode refid="9774" relation="include">
+        </childnode>
+      </node>
+      <node id="9752">
+        <label>gruel/api.h</label>
+        <link refid="gruel_2src_2include_2gruel_2api_8h"/>
+        <childnode refid="9740" relation="include">
+        </childnode>
+      </node>
+      <node id="9761">
+        <label>iosfwd</label>
+      </node>
+      <node id="9746">
+        <label>gr_types.h</label>
+        <link refid="gr__types_8h"/>
+        <childnode refid="9747" relation="include">
+        </childnode>
+        <childnode refid="9743" relation="include">
+        </childnode>
+        <childnode refid="9748" relation="include">
+        </childnode>
+        <childnode refid="9749" relation="include">
+        </childnode>
+      </node>
+      <node id="9778">
+        <label>gr_complex.h</label>
+        <link refid="gr__complex_8h"/>
+        <childnode refid="9756" relation="include">
+        </childnode>
+      </node>
+      <node id="9768">
+        <label>gruel/thread.h</label>
+        <link refid="thread_8h"/>
+        <childnode refid="9752" relation="include">
+        </childnode>
+        <childnode refid="9769" relation="include">
+        </childnode>
+        <childnode refid="9770" relation="include">
+        </childnode>
+        <childnode refid="9771" relation="include">
+        </childnode>
+        <childnode refid="9772" relation="include">
+        </childnode>
+        <childnode refid="9763" relation="include">
+        </childnode>
+      </node>
+      <node id="9765">
+        <label>deque</label>
+      </node>
+      <node id="9750">
+        <label>gr_tags.h</label>
+        <link refid="gr__tags_8h"/>
+        <childnode refid="9739" relation="include">
+        </childnode>
+        <childnode refid="9751" relation="include">
+        </childnode>
+      </node>
+      <node id="9756">
+        <label>complex</label>
+      </node>
+      <node id="9773">
+        <label>gr_sptr_magic.h</label>
+        <link refid="gr__sptr__magic_8h_source"/>
+        <childnode refid="9739" relation="include">
+        </childnode>
+        <childnode refid="9754" relation="include">
+        </childnode>
+      </node>
+      <node id="9747">
+        <label>gras/element.hpp</label>
+      </node>
+      <node id="9775">
+        <label>gr_msg_queue.h</label>
+        <link refid="gr__msg__queue_8h"/>
+        <childnode refid="9739" relation="include">
+        </childnode>
+        <childnode refid="9776" relation="include">
+        </childnode>
+        <childnode refid="9768" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classgr__pdu__to__tagged__stream" prot="public">gr_pdu_to_tagged_stream</innerclass>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="gr__pdu__to__tagged__stream_8h_1a856f67854dcb363d0271e6f1a7c32099" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="gr__core__api_8h_1a8b8937b0c61edd85ab57ce8203543248" kindref="member">GR_CORE_API</ref> <ref refid="classboost_1_1shared__ptr" kindref="compound">gr_pdu_to_tagged_stream_sptr</ref></type>
+        <definition>GR_CORE_API gr_pdu_to_tagged_stream_sptr gr_make_pdu_to_tagged_stream</definition>
+        <argsstring>(gr_pdu_vector_type t)</argsstring>
+        <name>gr_make_pdu_to_tagged_stream</name>
+        <param>
+          <type><ref refid="gr__pdu_8h_1a60e85386d9ae0caa0f152c2fd67f32cc" kindref="member">gr_pdu_vector_type</ref></type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/io/gr_pdu_to_tagged_stream.h" line="35"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/io/gr_pdu_to_tagged_stream.h"/>
+  </compounddef>
+</doxygen>

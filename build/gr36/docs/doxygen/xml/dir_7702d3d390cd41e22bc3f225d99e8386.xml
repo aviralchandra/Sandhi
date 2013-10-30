@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="dir_7702d3d390cd41e22bc3f225d99e8386" kind="dir">
+    <compoundname>/home/aviral/GNU-Niyantran/gr36/gr-filter/</compoundname>
+    <innerdir refid="dir_53830f0dd77b59bf3072530552cddede">/home/aviral/GNU-Niyantran/gr36/gr-filter/include/</innerdir>
+    <innerdir refid="dir_f5a82f799dfc5d15e90532e0fad10d40">/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/"/>
+  </compounddef>
+</doxygen>

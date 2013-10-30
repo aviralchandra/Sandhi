@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="classgr_1_1blocks_1_1complex__to__mag__impl" kind="class" prot="public">
+    <compoundname>gr::blocks::complex_to_mag_impl</compoundname>
+    <includes refid="complex__to__mag__impl_8h" local="no">complex_to_mag_impl.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1blocks_1_1complex__to__mag__impl_1a4a70bd8d1e809500e5824bd3290187d4" prot="private" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t gr::blocks::complex_to_mag_impl::d_vlen</definition>
+        <argsstring></argsstring>
+        <name>d_vlen</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/complex_to_mag_impl.h" line="33" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/complex_to_mag_impl.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1blocks_1_1complex__to__mag__impl_1ab7aaf299e9219f12862657ecc799414c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::blocks::complex_to_mag_impl::complex_to_mag_impl</definition>
+        <argsstring>(size_t vlen)</argsstring>
+        <name>complex_to_mag_impl</name>
+        <param>
+          <type>size_t</type>
+          <declname>vlen</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/complex_to_mag_impl.h" line="36"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1blocks_1_1complex__to__mag__impl_1a80e9111d24ae8c5a2abe1edc35c9e68a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::blocks::complex_to_mag_impl::work</definition>
+        <argsstring>(int noutput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/complex_to_mag_impl.h" line="40"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/complex_to_mag_impl.h" line="32" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/complex_to_mag_impl.h" bodystart="31" bodyend="41"/>
+    <listofallmembers>
+      <member refid="classgr_1_1blocks_1_1complex__to__mag__impl_1ab7aaf299e9219f12862657ecc799414c" prot="public" virt="non-virtual"><scope>gr::blocks::complex_to_mag_impl</scope><name>complex_to_mag_impl</name></member>
+      <member refid="classgr_1_1blocks_1_1complex__to__mag__impl_1a4a70bd8d1e809500e5824bd3290187d4" prot="private" virt="non-virtual"><scope>gr::blocks::complex_to_mag_impl</scope><name>d_vlen</name></member>
+      <member refid="classgr_1_1blocks_1_1complex__to__mag__impl_1a80e9111d24ae8c5a2abe1edc35c9e68a" prot="public" virt="non-virtual"><scope>gr::blocks::complex_to_mag_impl</scope><name>work</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

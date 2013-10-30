@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="dir_b4a51b1830b4d6e96f2b3dede8a89a1f" kind="dir">
+    <compoundname>/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/missing/</compoundname>
+    <innerfile refid="getopt_8h">getopt.h</innerfile>
+    <innerfile refid="posix__memalign_8h">posix_memalign.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/missing/"/>
+  </compounddef>
+</doxygen>

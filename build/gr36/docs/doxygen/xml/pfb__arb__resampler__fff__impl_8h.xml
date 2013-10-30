@@ -1,0 +1,262 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="pfb__arb__resampler__fff__impl_8h" kind="file">
+    <compoundname>pfb_arb_resampler_fff_impl.h</compoundname>
+    <includes refid="pfb__arb__resampler__fff_8h" local="no">filter/pfb_arb_resampler_fff.h</includes>
+    <includes refid="fir__filter_8h" local="no">filter/fir_filter.h</includes>
+    <includes refid="thread_8h" local="no">gruel/thread.h</includes>
+    <incdepgraph>
+      <node id="16454">
+        <label>boost/thread/mutex.hpp</label>
+      </node>
+      <node id="16456">
+        <label>boost/thread/condition_variable.hpp</label>
+      </node>
+      <node id="16438">
+        <label>boost/shared_ptr.hpp</label>
+      </node>
+      <node id="16435">
+        <label>gruel/pmt.h</label>
+        <link refid="pmt_8h"/>
+        <childnode refid="16436" relation="include">
+        </childnode>
+        <childnode refid="16437" relation="include">
+        </childnode>
+        <childnode refid="16438" relation="include">
+        </childnode>
+        <childnode refid="16439" relation="include">
+        </childnode>
+        <childnode refid="16440" relation="include">
+        </childnode>
+        <childnode refid="16441" relation="include">
+        </childnode>
+        <childnode refid="16442" relation="include">
+        </childnode>
+        <childnode refid="16445" relation="include">
+        </childnode>
+        <childnode refid="16446" relation="include">
+        </childnode>
+        <childnode refid="16447" relation="include">
+        </childnode>
+        <childnode refid="16448" relation="include">
+        </childnode>
+      </node>
+      <node id="16437">
+        <label>boost/intrusive_ptr.hpp</label>
+      </node>
+      <node id="16426">
+        <label>gr_core_api.h</label>
+        <link refid="gr__core__api_8h"/>
+        <childnode refid="16424" relation="include">
+        </childnode>
+      </node>
+      <node id="16442">
+        <label>stdint.h</label>
+        <link refid="stdint_8h"/>
+        <childnode refid="16443" relation="include">
+        </childnode>
+        <childnode refid="16444" relation="include">
+        </childnode>
+      </node>
+      <node id="16433">
+        <label>gras/hier_block.hpp</label>
+      </node>
+      <node id="16432">
+        <label>gras/top_block.hpp</label>
+      </node>
+      <node id="16451">
+        <label>boost/foreach.hpp</label>
+      </node>
+      <node id="16421">
+        <label>pfb_arb_resampler_fff_impl.h</label>
+        <link refid="pfb_arb_resampler_fff_impl.h"/>
+        <childnode refid="16422" relation="include">
+        </childnode>
+        <childnode refid="16458" relation="include">
+        </childnode>
+        <childnode refid="16452" relation="include">
+        </childnode>
+      </node>
+      <node id="16446">
+        <label>stdexcept</label>
+      </node>
+      <node id="16427">
+        <label>gras/block.hpp</label>
+      </node>
+      <node id="16453">
+        <label>boost/thread/thread.hpp</label>
+      </node>
+      <node id="16441">
+        <label>string</label>
+      </node>
+      <node id="16450">
+        <label>map</label>
+      </node>
+      <node id="16423">
+        <label>filter/api.h</label>
+        <link refid="gr-filter_2include_2filter_2api_8h"/>
+        <childnode refid="16424" relation="include">
+        </childnode>
+      </node>
+      <node id="16424">
+        <label>gruel/attributes.h</label>
+        <link refid="attributes_8h"/>
+      </node>
+      <node id="16443">
+        <label>limits.h</label>
+      </node>
+      <node id="16439">
+        <label>boost/any.hpp</label>
+      </node>
+      <node id="16425">
+        <label>gr_block.h</label>
+        <link refid="gr__block_8h"/>
+        <childnode refid="16426" relation="include">
+        </childnode>
+        <childnode refid="16427" relation="include">
+        </childnode>
+        <childnode refid="16428" relation="include">
+        </childnode>
+        <childnode refid="16430" relation="include">
+        </childnode>
+        <childnode refid="16434" relation="include">
+        </childnode>
+        <childnode refid="16441" relation="include">
+        </childnode>
+        <childnode refid="16449" relation="include">
+        </childnode>
+        <childnode refid="16450" relation="include">
+        </childnode>
+        <childnode refid="16451" relation="include">
+        </childnode>
+        <childnode refid="16452" relation="include">
+        </childnode>
+        <childnode refid="16457" relation="include">
+        </childnode>
+      </node>
+      <node id="16429">
+        <label>gr_runtime_types.h</label>
+        <link refid="gr__runtime__types_8h"/>
+        <childnode refid="16426" relation="include">
+        </childnode>
+        <childnode refid="16430" relation="include">
+        </childnode>
+      </node>
+      <node id="16444">
+        <label>wchar.h</label>
+      </node>
+      <node id="16448">
+        <label>gruel/pmt_sugar.h</label>
+        <link refid="pmt__sugar_8h"/>
+      </node>
+      <node id="16422">
+        <label>filter/pfb_arb_resampler_fff.h</label>
+        <link refid="pfb__arb__resampler__fff_8h"/>
+        <childnode refid="16423" relation="include">
+        </childnode>
+        <childnode refid="16425" relation="include">
+        </childnode>
+      </node>
+      <node id="16455">
+        <label>boost/thread/locks.hpp</label>
+      </node>
+      <node id="16447">
+        <label>vector</label>
+      </node>
+      <node id="16428">
+        <label>gr_io_signature.h</label>
+        <link refid="gr__io__signature_8h"/>
+        <childnode refid="16426" relation="include">
+        </childnode>
+        <childnode refid="16429" relation="include">
+        </childnode>
+      </node>
+      <node id="16436">
+        <label>gruel/api.h</label>
+        <link refid="gruel_2src_2include_2gruel_2api_8h"/>
+        <childnode refid="16424" relation="include">
+        </childnode>
+      </node>
+      <node id="16445">
+        <label>iosfwd</label>
+      </node>
+      <node id="16430">
+        <label>gr_types.h</label>
+        <link refid="gr__types_8h"/>
+        <childnode refid="16431" relation="include">
+        </childnode>
+        <childnode refid="16427" relation="include">
+        </childnode>
+        <childnode refid="16432" relation="include">
+        </childnode>
+        <childnode refid="16433" relation="include">
+        </childnode>
+      </node>
+      <node id="16459">
+        <label>gr_complex.h</label>
+        <link refid="gr__complex_8h"/>
+        <childnode refid="16440" relation="include">
+        </childnode>
+      </node>
+      <node id="16452">
+        <label>gruel/thread.h</label>
+        <link refid="thread_8h"/>
+        <childnode refid="16436" relation="include">
+        </childnode>
+        <childnode refid="16453" relation="include">
+        </childnode>
+        <childnode refid="16454" relation="include">
+        </childnode>
+        <childnode refid="16455" relation="include">
+        </childnode>
+        <childnode refid="16456" relation="include">
+        </childnode>
+        <childnode refid="16447" relation="include">
+        </childnode>
+      </node>
+      <node id="16449">
+        <label>deque</label>
+      </node>
+      <node id="16434">
+        <label>gr_tags.h</label>
+        <link refid="gr__tags_8h"/>
+        <childnode refid="16426" relation="include">
+        </childnode>
+        <childnode refid="16435" relation="include">
+        </childnode>
+      </node>
+      <node id="16458">
+        <label>filter/fir_filter.h</label>
+        <link refid="fir__filter_8h"/>
+        <childnode refid="16423" relation="include">
+        </childnode>
+        <childnode refid="16447" relation="include">
+        </childnode>
+        <childnode refid="16459" relation="include">
+        </childnode>
+      </node>
+      <node id="16440">
+        <label>complex</label>
+      </node>
+      <node id="16457">
+        <label>gr_sptr_magic.h</label>
+        <link refid="gr__sptr__magic_8h_source"/>
+        <childnode refid="16426" relation="include">
+        </childnode>
+        <childnode refid="16438" relation="include">
+        </childnode>
+      </node>
+      <node id="16431">
+        <label>gras/element.hpp</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classgr_1_1filter_1_1pfb__arb__resampler__fff__impl" prot="public">gr::filter::pfb_arb_resampler_fff_impl</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1filter">gr::filter</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/pfb_arb_resampler_fff_impl.h"/>
+  </compounddef>
+</doxygen>

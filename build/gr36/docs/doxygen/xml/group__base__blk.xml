@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="group__base__blk" kind="group">
+    <compoundname>base_blk</compoundname>
+    <title>Base classes for GR Blocks</title>
+    <briefdescription>
+<para>All C++ blocks are derived from these base classes. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

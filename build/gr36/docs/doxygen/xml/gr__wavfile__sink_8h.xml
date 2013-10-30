@@ -1,0 +1,287 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="gr__wavfile__sink_8h" kind="file">
+    <compoundname>gr_wavfile_sink.h</compoundname>
+    <includes refid="gr__core__api_8h" local="no">gr_core_api.h</includes>
+    <includes refid="gr__sync__block_8h" local="no">gr_sync_block.h</includes>
+    <includes refid="gr__file__sink__base_8h" local="no">gr_file_sink_base.h</includes>
+    <includes local="no">boost/thread.hpp</includes>
+    <incdepgraph>
+      <node id="14473">
+        <label>boost/thread/mutex.hpp</label>
+      </node>
+      <node id="14475">
+        <label>boost/thread/condition_variable.hpp</label>
+      </node>
+      <node id="14457">
+        <label>boost/shared_ptr.hpp</label>
+      </node>
+      <node id="14454">
+        <label>gruel/pmt.h</label>
+        <link refid="pmt_8h"/>
+        <childnode refid="14455" relation="include">
+        </childnode>
+        <childnode refid="14456" relation="include">
+        </childnode>
+        <childnode refid="14457" relation="include">
+        </childnode>
+        <childnode refid="14458" relation="include">
+        </childnode>
+        <childnode refid="14459" relation="include">
+        </childnode>
+        <childnode refid="14460" relation="include">
+        </childnode>
+        <childnode refid="14461" relation="include">
+        </childnode>
+        <childnode refid="14464" relation="include">
+        </childnode>
+        <childnode refid="14465" relation="include">
+        </childnode>
+        <childnode refid="14466" relation="include">
+        </childnode>
+        <childnode refid="14467" relation="include">
+        </childnode>
+      </node>
+      <node id="14456">
+        <label>boost/intrusive_ptr.hpp</label>
+      </node>
+      <node id="14442">
+        <label>gr_core_api.h</label>
+        <link refid="gr__core__api_8h"/>
+        <childnode refid="14443" relation="include">
+        </childnode>
+      </node>
+      <node id="14477">
+        <label>gr_file_sink_base.h</label>
+        <link refid="gr__file__sink__base_8h"/>
+        <childnode refid="14442" relation="include">
+        </childnode>
+        <childnode refid="14478" relation="include">
+        </childnode>
+        <childnode refid="14479" relation="include">
+        </childnode>
+      </node>
+      <node id="14461">
+        <label>stdint.h</label>
+        <link refid="stdint_8h"/>
+        <childnode refid="14462" relation="include">
+        </childnode>
+        <childnode refid="14463" relation="include">
+        </childnode>
+      </node>
+      <node id="14452">
+        <label>gras/hier_block.hpp</label>
+      </node>
+      <node id="14451">
+        <label>gras/top_block.hpp</label>
+      </node>
+      <node id="14470">
+        <label>boost/foreach.hpp</label>
+      </node>
+      <node id="14465">
+        <label>stdexcept</label>
+      </node>
+      <node id="14446">
+        <label>gras/block.hpp</label>
+      </node>
+      <node id="14472">
+        <label>boost/thread/thread.hpp</label>
+      </node>
+      <node id="14460">
+        <label>string</label>
+      </node>
+      <node id="14469">
+        <label>map</label>
+      </node>
+      <node id="14478">
+        <label>boost/thread.hpp</label>
+      </node>
+      <node id="14443">
+        <label>gruel/attributes.h</label>
+        <link refid="attributes_8h"/>
+      </node>
+      <node id="14462">
+        <label>limits.h</label>
+      </node>
+      <node id="14458">
+        <label>boost/any.hpp</label>
+      </node>
+      <node id="14445">
+        <label>gr_block.h</label>
+        <link refid="gr__block_8h"/>
+        <childnode refid="14442" relation="include">
+        </childnode>
+        <childnode refid="14446" relation="include">
+        </childnode>
+        <childnode refid="14447" relation="include">
+        </childnode>
+        <childnode refid="14449" relation="include">
+        </childnode>
+        <childnode refid="14453" relation="include">
+        </childnode>
+        <childnode refid="14460" relation="include">
+        </childnode>
+        <childnode refid="14468" relation="include">
+        </childnode>
+        <childnode refid="14469" relation="include">
+        </childnode>
+        <childnode refid="14470" relation="include">
+        </childnode>
+        <childnode refid="14471" relation="include">
+        </childnode>
+        <childnode refid="14476" relation="include">
+        </childnode>
+      </node>
+      <node id="14448">
+        <label>gr_runtime_types.h</label>
+        <link refid="gr__runtime__types_8h"/>
+        <childnode refid="14442" relation="include">
+        </childnode>
+        <childnode refid="14449" relation="include">
+        </childnode>
+      </node>
+      <node id="14463">
+        <label>wchar.h</label>
+      </node>
+      <node id="14467">
+        <label>gruel/pmt_sugar.h</label>
+        <link refid="pmt__sugar_8h"/>
+      </node>
+      <node id="14479">
+        <label>cstdio</label>
+      </node>
+      <node id="14474">
+        <label>boost/thread/locks.hpp</label>
+      </node>
+      <node id="14444">
+        <label>gr_sync_block.h</label>
+        <link refid="gr__sync__block_8h"/>
+        <childnode refid="14445" relation="include">
+        </childnode>
+      </node>
+      <node id="14466">
+        <label>vector</label>
+      </node>
+      <node id="14447">
+        <label>gr_io_signature.h</label>
+        <link refid="gr__io__signature_8h"/>
+        <childnode refid="14442" relation="include">
+        </childnode>
+        <childnode refid="14448" relation="include">
+        </childnode>
+      </node>
+      <node id="14455">
+        <label>gruel/api.h</label>
+        <link refid="gruel_2src_2include_2gruel_2api_8h"/>
+        <childnode refid="14443" relation="include">
+        </childnode>
+      </node>
+      <node id="14441">
+        <label>gr_wavfile_sink.h</label>
+        <link refid="gr_wavfile_sink.h"/>
+        <childnode refid="14442" relation="include">
+        </childnode>
+        <childnode refid="14444" relation="include">
+        </childnode>
+        <childnode refid="14477" relation="include">
+        </childnode>
+        <childnode refid="14478" relation="include">
+        </childnode>
+      </node>
+      <node id="14464">
+        <label>iosfwd</label>
+      </node>
+      <node id="14449">
+        <label>gr_types.h</label>
+        <link refid="gr__types_8h"/>
+        <childnode refid="14450" relation="include">
+        </childnode>
+        <childnode refid="14446" relation="include">
+        </childnode>
+        <childnode refid="14451" relation="include">
+        </childnode>
+        <childnode refid="14452" relation="include">
+        </childnode>
+      </node>
+      <node id="14471">
+        <label>gruel/thread.h</label>
+        <link refid="thread_8h"/>
+        <childnode refid="14455" relation="include">
+        </childnode>
+        <childnode refid="14472" relation="include">
+        </childnode>
+        <childnode refid="14473" relation="include">
+        </childnode>
+        <childnode refid="14474" relation="include">
+        </childnode>
+        <childnode refid="14475" relation="include">
+        </childnode>
+        <childnode refid="14466" relation="include">
+        </childnode>
+      </node>
+      <node id="14468">
+        <label>deque</label>
+      </node>
+      <node id="14453">
+        <label>gr_tags.h</label>
+        <link refid="gr__tags_8h"/>
+        <childnode refid="14442" relation="include">
+        </childnode>
+        <childnode refid="14454" relation="include">
+        </childnode>
+      </node>
+      <node id="14459">
+        <label>complex</label>
+      </node>
+      <node id="14476">
+        <label>gr_sptr_magic.h</label>
+        <link refid="gr__sptr__magic_8h_source"/>
+        <childnode refid="14442" relation="include">
+        </childnode>
+        <childnode refid="14457" relation="include">
+        </childnode>
+      </node>
+      <node id="14450">
+        <label>gras/element.hpp</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classgr__wavfile__sink" prot="public">gr_wavfile_sink</innerclass>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="gr__wavfile__sink_8h_1a6c865788ef6efc963b9e4a876c50b75e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="gr__core__api_8h_1a8b8937b0c61edd85ab57ce8203543248" kindref="member">GR_CORE_API</ref> <ref refid="classboost_1_1shared__ptr" kindref="compound">gr_wavfile_sink_sptr</ref></type>
+        <definition>GR_CORE_API gr_wavfile_sink_sptr gr_make_wavfile_sink</definition>
+        <argsstring>(const char *filename, int n_channels, unsigned int sample_rate, int bits_per_sample=16)</argsstring>
+        <name>gr_make_wavfile_sink</name>
+        <param>
+          <type>const char *</type>
+          <declname>filename</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>n_channels</declname>
+        </param>
+        <param>
+          <type>unsigned int</type>
+          <declname>sample_rate</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>bits_per_sample</declname>
+          <defval>16</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/io/gr_wavfile_sink.h" line="44"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/io/gr_wavfile_sink.h"/>
+  </compounddef>
+</doxygen>

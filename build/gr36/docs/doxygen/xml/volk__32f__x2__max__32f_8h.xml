@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="volk__32f__x2__max__32f_8h" kind="file">
+    <compoundname>volk_32f_x2_max_32f.h</compoundname>
+    <includes refid="inttypes_8h" local="no">inttypes.h</includes>
+    <includes local="no">stdio.h</includes>
+    <incdepgraph>
+      <node id="21010">
+        <label>stdint.h</label>
+        <link refid="stdint_8h"/>
+        <childnode refid="21011" relation="include">
+        </childnode>
+        <childnode refid="21012" relation="include">
+        </childnode>
+      </node>
+      <node id="21009">
+        <label>inttypes.h</label>
+        <link refid="inttypes_8h"/>
+        <childnode refid="21010" relation="include">
+        </childnode>
+      </node>
+      <node id="21011">
+        <label>limits.h</label>
+      </node>
+      <node id="21012">
+        <label>wchar.h</label>
+      </node>
+      <node id="21008">
+        <label>volk_32f_x2_max_32f.h</label>
+        <link refid="volk_32f_x2_max_32f.h"/>
+        <childnode refid="21009" relation="include">
+        </childnode>
+        <childnode refid="21013" relation="include">
+        </childnode>
+      </node>
+      <node id="21013">
+        <label>stdio.h</label>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/aviral/GNU-Niyantran/gr36/volk/kernels/volk/volk_32f_x2_max_32f.h"/>
+  </compounddef>
+</doxygen>

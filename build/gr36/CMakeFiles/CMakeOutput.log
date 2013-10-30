@@ -1,0 +1,716 @@
+Performing C++ SOURCE FILE Test HAVE_VISIBILITY_HIDDEN succeded with the following output:
+Change Dir: /home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec.dir/src.cxx.o
+/usr/bin/c++    -DHAVE_VISIBILITY_HIDDEN   -fvisibility=hidden -o CMakeFiles/cmTryCompileExec.dir/src.cxx.o -c /home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/usr/bin/c++      -DHAVE_VISIBILITY_HIDDEN    CMakeFiles/cmTryCompileExec.dir/src.cxx.o  -o cmTryCompileExec -rdynamic 
+make[1]: Leaving directory `/home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Performing C++ SOURCE FILE Test HAVE_WARN_SIGN_COMPARE succeded with the following output:
+Change Dir: /home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec.dir/src.cxx.o
+/usr/bin/c++    -DHAVE_WARN_SIGN_COMPARE   -Wsign-compare -o CMakeFiles/cmTryCompileExec.dir/src.cxx.o -c /home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/usr/bin/c++      -DHAVE_WARN_SIGN_COMPARE    CMakeFiles/cmTryCompileExec.dir/src.cxx.o  -o cmTryCompileExec -rdynamic 
+make[1]: Leaving directory `/home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Performing C++ SOURCE FILE Test HAVE_WARN_ALL succeded with the following output:
+Change Dir: /home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec.dir/src.cxx.o
+/usr/bin/c++    -DHAVE_WARN_ALL   -Wall -o CMakeFiles/cmTryCompileExec.dir/src.cxx.o -c /home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/usr/bin/c++      -DHAVE_WARN_ALL    CMakeFiles/cmTryCompileExec.dir/src.cxx.o  -o cmTryCompileExec -rdynamic 
+make[1]: Leaving directory `/home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Performing C++ SOURCE FILE Test HAVE_WARN_NO_UNINITIALIZED succeded with the following output:
+Change Dir: /home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec.dir/src.cxx.o
+/usr/bin/c++    -DHAVE_WARN_NO_UNINITIALIZED   -Wno-uninitialized -o CMakeFiles/cmTryCompileExec.dir/src.cxx.o -c /home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/usr/bin/c++      -DHAVE_WARN_NO_UNINITIALIZED    CMakeFiles/cmTryCompileExec.dir/src.cxx.o  -o cmTryCompileExec -rdynamic 
+make[1]: Leaving directory `/home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Determining if the include file signal.h exists passed with the following output:
+Change Dir: /home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.cxx.o -c /home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/usr/bin/c++          CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.cxx.o  -o cmTryCompileExec -rdynamic 
+make[1]: Leaving directory `/home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sched.h exists passed with the following output:
+Change Dir: /home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.cxx.o -c /home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/usr/bin/c++          CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.cxx.o  -o cmTryCompileExec -rdynamic 
+make[1]: Leaving directory `/home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp'
+
+
+Performing C++ SOURCE FILE Test HAVE_PTHREAD_SIGMASK succeded with the following output:
+Change Dir: /home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec.dir/src.cxx.o
+/usr/bin/c++    -DHAVE_PTHREAD_SIGMASK   -o CMakeFiles/cmTryCompileExec.dir/src.cxx.o -c /home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/usr/bin/c++      -DHAVE_PTHREAD_SIGMASK    CMakeFiles/cmTryCompileExec.dir/src.cxx.o  -o cmTryCompileExec -rdynamic -lpthread 
+make[1]: Leaving directory `/home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+    #include <signal.h>
+    int main(){pthread_sigmask(0, 0, 0); return 0;}
+    
+Performing C++ SOURCE FILE Test HAVE_PTHREAD_SETSCHEDPARAM succeded with the following output:
+Change Dir: /home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec.dir/src.cxx.o
+/usr/bin/c++    -DHAVE_PTHREAD_SETSCHEDPARAM   -o CMakeFiles/cmTryCompileExec.dir/src.cxx.o -c /home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/usr/bin/c++      -DHAVE_PTHREAD_SETSCHEDPARAM    CMakeFiles/cmTryCompileExec.dir/src.cxx.o  -o cmTryCompileExec -rdynamic -lpthread 
+make[1]: Leaving directory `/home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+    #include <pthread.h>
+    int main(){
+        pthread_t pthread;
+        pthread_setschedparam(pthread,  0, 0);
+        return 0;
+    } 
+Performing C++ SOURCE FILE Test HAVE_SCHED_SETSCHEDULER succeded with the following output:
+Change Dir: /home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec.dir/src.cxx.o
+/usr/bin/c++    -DHAVE_SCHED_SETSCHEDULER   -o CMakeFiles/cmTryCompileExec.dir/src.cxx.o -c /home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/usr/bin/c++      -DHAVE_SCHED_SETSCHEDULER    CMakeFiles/cmTryCompileExec.dir/src.cxx.o  -o cmTryCompileExec -rdynamic -lpthread 
+make[1]: Leaving directory `/home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+    #include <sched.h>
+    int main(){
+        pid_t pid;
+        sched_setscheduler(pid, 0, 0);
+        return 0;
+    } 
+Determining if the include file netdb.h exists passed with the following output:
+Change Dir: /home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.cxx.o -c /home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/usr/bin/c++          CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.cxx.o  -o cmTryCompileExec -rdynamic 
+make[1]: Leaving directory `/home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/time.h exists passed with the following output:
+Change Dir: /home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.cxx.o -c /home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/usr/bin/c++          CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.cxx.o  -o cmTryCompileExec -rdynamic 
+make[1]: Leaving directory `/home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.cxx.o -c /home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/usr/bin/c++          CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.cxx.o  -o cmTryCompileExec -rdynamic 
+make[1]: Leaving directory `/home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/select.h exists passed with the following output:
+Change Dir: /home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.cxx.o -c /home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/usr/bin/c++          CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.cxx.o  -o cmTryCompileExec -rdynamic 
+make[1]: Leaving directory `/home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/socket.h exists passed with the following output:
+Change Dir: /home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.cxx.o -c /home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/usr/bin/c++          CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.cxx.o  -o cmTryCompileExec -rdynamic 
+make[1]: Leaving directory `/home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/mman.h exists passed with the following output:
+Change Dir: /home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.cxx.o -c /home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/usr/bin/c++          CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.cxx.o  -o cmTryCompileExec -rdynamic 
+make[1]: Leaving directory `/home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/ipc.h exists passed with the following output:
+Change Dir: /home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.cxx.o -c /home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/usr/bin/c++          CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.cxx.o  -o cmTryCompileExec -rdynamic 
+make[1]: Leaving directory `/home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/shm.h exists passed with the following output:
+Change Dir: /home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.cxx.o -c /home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/usr/bin/c++          CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.cxx.o  -o cmTryCompileExec -rdynamic 
+make[1]: Leaving directory `/home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file netinet/in.h exists passed with the following output:
+Change Dir: /home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.cxx.o -c /home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/usr/bin/c++          CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.cxx.o  -o cmTryCompileExec -rdynamic 
+make[1]: Leaving directory `/home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file arpa/inet.h exists passed with the following output:
+Change Dir: /home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.cxx.o -c /home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/usr/bin/c++          CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.cxx.o  -o cmTryCompileExec -rdynamic 
+make[1]: Leaving directory `/home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file byteswap.h exists passed with the following output:
+Change Dir: /home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.cxx.o -c /home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/usr/bin/c++          CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.cxx.o  -o cmTryCompileExec -rdynamic 
+make[1]: Leaving directory `/home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file linux/ppdev.h exists passed with the following output:
+Change Dir: /home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.cxx.o -c /home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/usr/bin/c++          CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.cxx.o  -o cmTryCompileExec -rdynamic 
+make[1]: Leaving directory `/home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: /home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.cxx.o -c /home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/usr/bin/c++          CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.cxx.o  -o cmTryCompileExec -rdynamic 
+make[1]: Leaving directory `/home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file malloc.h exists passed with the following output:
+Change Dir: /home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.cxx.o -c /home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/usr/bin/c++          CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.cxx.o  -o cmTryCompileExec -rdynamic 
+make[1]: Leaving directory `/home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp'
+
+
+Performing C++ SOURCE FILE Test HAVE_SNPRINTF succeded with the following output:
+Change Dir: /home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec.dir/src.cxx.o
+/usr/bin/c++    -DHAVE_SNPRINTF   -o CMakeFiles/cmTryCompileExec.dir/src.cxx.o -c /home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/usr/bin/c++      -DHAVE_SNPRINTF    CMakeFiles/cmTryCompileExec.dir/src.cxx.o  -o cmTryCompileExec -rdynamic 
+make[1]: Leaving directory `/home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+    #include <stdio.h>
+    int main(){snprintf(0, 0, 0); return 0;}
+    
+Performing C++ SOURCE FILE Test HAVE_SIGACTION succeded with the following output:
+Change Dir: /home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec.dir/src.cxx.o
+/usr/bin/c++    -DHAVE_SIGACTION   -o CMakeFiles/cmTryCompileExec.dir/src.cxx.o -c /home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/usr/bin/c++      -DHAVE_SIGACTION    CMakeFiles/cmTryCompileExec.dir/src.cxx.o  -o cmTryCompileExec -rdynamic 
+make[1]: Leaving directory `/home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+    #include <signal.h>
+    int main(){sigaction(0, 0, 0); return 0;}
+    
+Performing C++ SOURCE FILE Test HAVE_SELECT succeded with the following output:
+Change Dir: /home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec.dir/src.cxx.o
+/usr/bin/c++    -DHAVE_SELECT   -o CMakeFiles/cmTryCompileExec.dir/src.cxx.o -c /home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/usr/bin/c++      -DHAVE_SELECT    CMakeFiles/cmTryCompileExec.dir/src.cxx.o  -o cmTryCompileExec -rdynamic 
+make[1]: Leaving directory `/home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+    #include <sys/select.h>
+    int main(){select(0, 0, 0, 0, 0); return 0;}
+    
+Performing C++ SOURCE FILE Test HAVE_SYSCONF succeded with the following output:
+Change Dir: /home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec.dir/src.cxx.o
+/usr/bin/c++    -DHAVE_SYSCONF   -o CMakeFiles/cmTryCompileExec.dir/src.cxx.o -c /home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/usr/bin/c++      -DHAVE_SYSCONF    CMakeFiles/cmTryCompileExec.dir/src.cxx.o  -o cmTryCompileExec -rdynamic 
+make[1]: Leaving directory `/home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+    #include <unistd.h>
+    int main(){sysconf(0); return 0;}
+    
+Performing C++ SOURCE FILE Test HAVE_GETPAGESIZE succeded with the following output:
+Change Dir: /home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec.dir/src.cxx.o
+/usr/bin/c++    -DHAVE_GETPAGESIZE   -o CMakeFiles/cmTryCompileExec.dir/src.cxx.o -c /home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/usr/bin/c++      -DHAVE_GETPAGESIZE    CMakeFiles/cmTryCompileExec.dir/src.cxx.o  -o cmTryCompileExec -rdynamic 
+make[1]: Leaving directory `/home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+    #include <unistd.h>
+    int main(){getpagesize(); return 0;}
+    
+Performing C++ SOURCE FILE Test HAVE_NANOSLEEP succeded with the following output:
+Change Dir: /home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec.dir/src.cxx.o
+/usr/bin/c++    -DHAVE_NANOSLEEP   -o CMakeFiles/cmTryCompileExec.dir/src.cxx.o -c /home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/usr/bin/c++      -DHAVE_NANOSLEEP    CMakeFiles/cmTryCompileExec.dir/src.cxx.o  -o cmTryCompileExec -rdynamic 
+make[1]: Leaving directory `/home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+    #include <time.h>
+    int main(){nanosleep(0, 0); return 0;}
+    
+Performing C++ SOURCE FILE Test HAVE_GETTIMEOFDAY succeded with the following output:
+Change Dir: /home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec.dir/src.cxx.o
+/usr/bin/c++    -DHAVE_GETTIMEOFDAY   -o CMakeFiles/cmTryCompileExec.dir/src.cxx.o -c /home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/usr/bin/c++      -DHAVE_GETTIMEOFDAY    CMakeFiles/cmTryCompileExec.dir/src.cxx.o  -o cmTryCompileExec -rdynamic 
+make[1]: Leaving directory `/home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+    #include <sys/time.h>
+    int main(){gettimeofday(0, 0); return 0;}
+    
+Performing C++ SOURCE FILE Test HAVE_POSIX_MEMALIGN succeded with the following output:
+Change Dir: /home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec.dir/src.cxx.o
+/usr/bin/c++    -DHAVE_POSIX_MEMALIGN   -o CMakeFiles/cmTryCompileExec.dir/src.cxx.o -c /home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/usr/bin/c++      -DHAVE_POSIX_MEMALIGN    CMakeFiles/cmTryCompileExec.dir/src.cxx.o  -o cmTryCompileExec -rdynamic 
+make[1]: Leaving directory `/home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+    #include <stdlib.h>
+    int main(){posix_memalign(0, 0, 0); return 0;}
+    
+Performing C++ SOURCE FILE Test HAVE_VALLOC succeded with the following output:
+Change Dir: /home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec.dir/src.cxx.o
+/usr/bin/c++    -DHAVE_VALLOC   -o CMakeFiles/cmTryCompileExec.dir/src.cxx.o -c /home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/usr/bin/c++      -DHAVE_VALLOC    CMakeFiles/cmTryCompileExec.dir/src.cxx.o  -o cmTryCompileExec -rdynamic 
+make[1]: Leaving directory `/home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+    #include <malloc.h>
+    int main(){valloc(0); return 0;}
+    
+Performing C++ SOURCE FILE Test HAVE_SHM_OPEN succeded with the following output:
+Change Dir: /home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec.dir/src.cxx.o
+/usr/bin/c++    -DHAVE_SHM_OPEN   -o CMakeFiles/cmTryCompileExec.dir/src.cxx.o -c /home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/usr/bin/c++      -DHAVE_SHM_OPEN    CMakeFiles/cmTryCompileExec.dir/src.cxx.o  -o cmTryCompileExec -rdynamic -lrt 
+make[1]: Leaving directory `/home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+    #include <sys/types.h>
+    #include <sys/mman.h>
+    int main(){shm_open(0, 0, 0); return 0;}
+    
+Performing C++ SOURCE FILE Test HAVE_SINCOS succeded with the following output:
+Change Dir: /home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec.dir/src.cxx.o
+/usr/bin/c++    -DHAVE_SINCOS   -o CMakeFiles/cmTryCompileExec.dir/src.cxx.o -c /home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp/src.cxx
+/home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp/src.cxx:2:0: warning: "_GNU_SOURCE" redefined [enabled by default]
+<command-line>:0:0: note: this is the location of the previous definition
+Linking CXX executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/usr/bin/c++      -DHAVE_SINCOS    CMakeFiles/cmTryCompileExec.dir/src.cxx.o  -o cmTryCompileExec -rdynamic 
+make[1]: Leaving directory `/home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+    #define _GNU_SOURCE
+    #include <math.h>
+    int main(){double x, sin, cos; sincos(x, &sin, &cos); return 0;}
+    
+Performing C++ SOURCE FILE Test HAVE_SINCOSF succeded with the following output:
+Change Dir: /home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec.dir/src.cxx.o
+/usr/bin/c++    -DHAVE_SINCOSF   -o CMakeFiles/cmTryCompileExec.dir/src.cxx.o -c /home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp/src.cxx
+/home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp/src.cxx:2:0: warning: "_GNU_SOURCE" redefined [enabled by default]
+<command-line>:0:0: note: this is the location of the previous definition
+Linking CXX executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/usr/bin/c++      -DHAVE_SINCOSF    CMakeFiles/cmTryCompileExec.dir/src.cxx.o  -o cmTryCompileExec -rdynamic 
+make[1]: Leaving directory `/home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+    #define _GNU_SOURCE
+    #include <math.h>
+    int main(){float x, sin, cos; sincosf(x, &sin, &cos); return 0;}
+    
+Performing C++ SOURCE FILE Test HAVE_SINF succeded with the following output:
+Change Dir: /home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec.dir/src.cxx.o
+/usr/bin/c++    -DHAVE_SINF   -o CMakeFiles/cmTryCompileExec.dir/src.cxx.o -c /home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/usr/bin/c++      -DHAVE_SINF    CMakeFiles/cmTryCompileExec.dir/src.cxx.o  -o cmTryCompileExec -rdynamic 
+make[1]: Leaving directory `/home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+    #include <math.h>
+    int main(){sinf(0); return 0;}
+    
+Performing C++ SOURCE FILE Test HAVE_COSF succeded with the following output:
+Change Dir: /home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec.dir/src.cxx.o
+/usr/bin/c++    -DHAVE_COSF   -o CMakeFiles/cmTryCompileExec.dir/src.cxx.o -c /home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/usr/bin/c++      -DHAVE_COSF    CMakeFiles/cmTryCompileExec.dir/src.cxx.o  -o cmTryCompileExec -rdynamic 
+make[1]: Leaving directory `/home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+    #include <math.h>
+    int main(){cosf(0); return 0;}
+    
+Performing C++ SOURCE FILE Test HAVE_MMAP succeded with the following output:
+Change Dir: /home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec.dir/src.cxx.o
+/usr/bin/c++    -DHAVE_MMAP   -o CMakeFiles/cmTryCompileExec.dir/src.cxx.o -c /home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/usr/bin/c++      -DHAVE_MMAP    CMakeFiles/cmTryCompileExec.dir/src.cxx.o  -o cmTryCompileExec -rdynamic 
+make[1]: Leaving directory `/home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+    #include <sys/mman.h>
+    int main(){mmap(0, 0, 0, 0, 0, 0); return 0;}
+    
+Determining size of void* passed with the following output:
+Change Dir: /home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/SIZEOF_VOID_P.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTryCompileExec.dir/SIZEOF_VOID_P.c.o   -c /home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CheckTypeSize/SIZEOF_VOID_P.c
+Linking C executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/usr/bin/gcc         CMakeFiles/cmTryCompileExec.dir/SIZEOF_VOID_P.c.o  -o cmTryCompileExec -rdynamic 
+make[1]: Leaving directory `/home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/resource.h exists passed with the following output:
+Change Dir: /home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.cxx.o -c /home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/usr/bin/c++          CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.cxx.o  -o cmTryCompileExec -rdynamic 
+make[1]: Leaving directory `/home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp'
+
+
+Determining if the Q_WS_X11 exist passed with the following output:
+Change Dir: /home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec.dir/CheckSymbolExists.cxx.o -c /home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/usr/bin/c++          CMakeFiles/cmTryCompileExec.dir/CheckSymbolExists.cxx.o  -o cmTryCompileExec -rdynamic 
+make[1]: Leaving directory `/home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp'
+
+File /home/aviral/GNU-Niyantran/build/gr36/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+void cmakeRequireSymbol(int dummy,...){(void)dummy;}
+int main()
+{
+#ifndef Q_WS_X11
+  cmakeRequireSymbol(0,&Q_WS_X11);
+#endif
+  return 0;
+}
+

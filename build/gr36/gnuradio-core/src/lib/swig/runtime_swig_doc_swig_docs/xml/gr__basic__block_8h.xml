@@ -1,0 +1,517 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="gr__basic__block_8h" kind="file">
+    <compoundname>gr_basic_block.h</compoundname>
+    <includes local="no">gr_core_api.h</includes>
+    <includes refid="gr__runtime__types_8h" local="no">gr_runtime_types.h</includes>
+    <includes refid="gr__sptr__magic_8h" local="no">gr_sptr_magic.h</includes>
+    <includes local="no">boost/enable_shared_from_this.hpp</includes>
+    <includes local="no">boost/function.hpp</includes>
+    <includes refid="gr__msg__accepter_8h" local="no">gr_msg_accepter.h</includes>
+    <includes local="no">string</includes>
+    <includes local="no">deque</includes>
+    <includes local="no">map</includes>
+    <includes refid="gr__io__signature_8h" local="no">gr_io_signature.h</includes>
+    <includes local="no">gruel/thread.h</includes>
+    <includes local="no">boost/foreach.hpp</includes>
+    <includes local="no">boost/thread/condition_variable.hpp</includes>
+    <includes local="no">iostream</includes>
+    <includedby refid="gr__block__registry_8h" local="no">/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_block_registry.h</includedby>
+    <includedby refid="gr__flowgraph_8h" local="no">/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_flowgraph.h</includedby>
+    <incdepgraph>
+      <node id="21">
+        <label>boost/thread/condition_variable.hpp</label>
+      </node>
+      <node id="9">
+        <label>boost/shared_ptr.hpp</label>
+      </node>
+      <node id="7">
+        <label>gras/hier_block.hpp</label>
+      </node>
+      <node id="6">
+        <label>gras/top_block.hpp</label>
+      </node>
+      <node id="20">
+        <label>boost/foreach.hpp</label>
+      </node>
+      <node id="5">
+        <label>gras/block.hpp</label>
+      </node>
+      <node id="15">
+        <label>string</label>
+      </node>
+      <node id="17">
+        <label>map</label>
+      </node>
+      <node id="19">
+        <label>gruel/thread.h</label>
+      </node>
+      <node id="11">
+        <label>boost/function.hpp</label>
+      </node>
+      <node id="12">
+        <label>gr_msg_accepter.h</label>
+        <link refid="gr__msg__accepter_8h"/>
+        <childnode refid="1" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>gr_runtime_types.h</label>
+        <link refid="gr__runtime__types_8h"/>
+        <childnode refid="1" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>gr_core_api.h</label>
+      </node>
+      <node id="18">
+        <label>gr_io_signature.h</label>
+        <link refid="gr__io__signature_8h"/>
+        <childnode refid="1" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>gruel/pmt.h</label>
+      </node>
+      <node id="10">
+        <label>boost/enable_shared_from_this.hpp</label>
+      </node>
+      <node id="3">
+        <label>gr_types.h</label>
+        <link refid="gr__types_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="22">
+        <label>iostream</label>
+      </node>
+      <node id="16">
+        <label>deque</label>
+      </node>
+      <node id="13">
+        <label>gruel/msg_accepter.h</label>
+      </node>
+      <node id="0">
+        <label>/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_basic_block.h</label>
+        <link refid="gr_basic_block.h"/>
+        <childnode refid="1" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>gr_sptr_magic.h</label>
+        <link refid="gr__sptr__magic_8h"/>
+        <childnode refid="1" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>gras/element.hpp</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="29">
+        <label>/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_scheduler_sts.h</label>
+        <link refid="gr__scheduler__sts_8h"/>
+      </node>
+      <node id="28">
+        <label>/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_scheduler.h</label>
+        <link refid="gr__scheduler_8h"/>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+      </node>
+      <node id="26">
+        <label>/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_flat_flowgraph.h</label>
+        <link refid="gr__flat__flowgraph_8h"/>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+      </node>
+      <node id="24">
+        <label>/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_block_registry.h</label>
+        <link refid="gr__block__registry_8h"/>
+      </node>
+      <node id="25">
+        <label>/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_flowgraph.h</label>
+        <link refid="gr__flowgraph_8h"/>
+        <childnode refid="26" relation="include">
+        </childnode>
+      </node>
+      <node id="30">
+        <label>/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_scheduler_tpb.h</label>
+        <link refid="gr__scheduler__tpb_8h"/>
+      </node>
+      <node id="27">
+        <label>/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_hier_block2_detail.h</label>
+        <link refid="gr__hier__block2__detail_8h"/>
+      </node>
+      <node id="23">
+        <label>/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_basic_block.h</label>
+        <link refid="gr_basic_block.h"/>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+      </node>
+      <node id="31">
+        <label>/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_top_block_impl.h</label>
+        <link refid="gr__top__block__impl_8h"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classgr__basic__block" prot="public">gr_basic_block</innerclass>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="gr__basic__block_8h_1a76d2f45845faaf2d72b0002ba045c0d6" prot="public" static="no">
+        <type>std::vector&lt; <ref refid="gr__runtime__types_8h_1a23ef33c86a39e7aefe87abcb2c7bede5" kindref="member">gr_basic_block_sptr</ref> &gt;</type>
+        <definition>typedef std::vector&lt;gr_basic_block_sptr&gt; gr_basic_block_vector_t</definition>
+        <argsstring></argsstring>
+        <name>gr_basic_block_vector_t</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_basic_block.h" line="288" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_basic_block.h" bodystart="288" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="gr__basic__block_8h_1aae6b0ac6b0a67267a5bf7a6bd9a73259" prot="public" static="no">
+        <type>std::vector&lt; <ref refid="gr__runtime__types_8h_1a23ef33c86a39e7aefe87abcb2c7bede5" kindref="member">gr_basic_block_sptr</ref> &gt;::iterator</type>
+        <definition>typedef std::vector&lt;gr_basic_block_sptr&gt;::iterator gr_basic_block_viter_t</definition>
+        <argsstring></argsstring>
+        <name>gr_basic_block_viter_t</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_basic_block.h" line="289" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_basic_block.h" bodystart="289" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="gr__basic__block_8h_1afe7684d11bda1c7330f6f32251f5a447" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool operator&lt;</definition>
+        <argsstring>(gr_basic_block_sptr lhs, gr_basic_block_sptr rhs)</argsstring>
+        <name>operator&lt;</name>
+        <param>
+          <type><ref refid="gr__runtime__types_8h_1a23ef33c86a39e7aefe87abcb2c7bede5" kindref="member">gr_basic_block_sptr</ref></type>
+          <declname>lhs</declname>
+        </param>
+        <param>
+          <type><ref refid="gr__runtime__types_8h_1a23ef33c86a39e7aefe87abcb2c7bede5" kindref="member">gr_basic_block_sptr</ref></type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_basic_block.h" line="284" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_basic_block.h" bodystart="283" bodyend="286"/>
+      </memberdef>
+      <memberdef kind="function" id="gr__basic__block_8h_1ae3ed22898fcc8bff34adb077179eaf1c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>GR_CORE_API long</type>
+        <definition>GR_CORE_API long gr_basic_block_ncurrently_allocated</definition>
+        <argsstring>()</argsstring>
+        <name>gr_basic_block_ncurrently_allocated</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_basic_block.h" line="291"/>
+      </memberdef>
+      <memberdef kind="function" id="gr__basic__block_8h_1acb2f610728a7f3cbd51a9a2eb60f059e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::ostream &amp;</type>
+        <definition>std::ostream&amp; operator&lt;&lt;</definition>
+        <argsstring>(std::ostream &amp;os, gr_basic_block_sptr basic_block)</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type><ref refid="gr__runtime__types_8h_1a23ef33c86a39e7aefe87abcb2c7bede5" kindref="member">gr_basic_block_sptr</ref></type>
+          <declname>basic_block</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_basic_block.h" line="294" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_basic_block.h" bodystart="293" bodyend="297"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*<sp/>-*-<sp/>c++<sp/>-*-<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>2006,2008,2009,2011<sp/>Free<sp/>Software<sp/>Foundation,<sp/>Inc.</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/>This<sp/>file<sp/>is<sp/>part<sp/>of<sp/>GNU<sp/>Radio</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/>GNU<sp/>Radio<sp/>is<sp/>free<sp/>software;<sp/>you<sp/>can<sp/>redistribute<sp/>it<sp/>and/or<sp/>modify</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/>it<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>as<sp/>published<sp/>by</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/>the<sp/>Free<sp/>Software<sp/>Foundation;<sp/>either<sp/>version<sp/>3,<sp/>or<sp/>(at<sp/>your<sp/>option)</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/>any<sp/>later<sp/>version.</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>GNU<sp/>Radio<sp/>is<sp/>distributed<sp/>in<sp/>the<sp/>hope<sp/>that<sp/>it<sp/>will<sp/>be<sp/>useful,</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/>but<sp/>WITHOUT<sp/>ANY<sp/>WARRANTY;<sp/>without<sp/>even<sp/>the<sp/>implied<sp/>warranty<sp/>of</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>MERCHANTABILITY<sp/>or<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE.<sp/><sp/>See<sp/>the</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>for<sp/>more<sp/>details.</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*<sp/>You<sp/>should<sp/>have<sp/>received<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/>*<sp/>along<sp/>with<sp/>GNU<sp/>Radio;<sp/>see<sp/>the<sp/>file<sp/>COPYING.<sp/><sp/>If<sp/>not,<sp/>write<sp/>to</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/>*<sp/>the<sp/>Free<sp/>Software<sp/>Foundation,<sp/>Inc.,<sp/>51<sp/>Franklin<sp/>Street,</highlight></codeline>
+<codeline lineno="20"><highlight class="comment"><sp/>*<sp/>Boston,<sp/>MA<sp/>02110-1301,<sp/>USA.</highlight></codeline>
+<codeline lineno="21"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>INCLUDED_GR_BASIC_BLOCK_H</highlight></codeline>
+<codeline lineno="24"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>INCLUDED_GR_BASIC_BLOCK_H</highlight></codeline>
+<codeline lineno="25"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;gr_core_api.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="gr__runtime__types_8h" kindref="compound">gr_runtime_types.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="gr__sptr__magic_8h" kindref="compound">gr_sptr_magic.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;boost/enable_shared_from_this.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;boost/function.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="gr__msg__accepter_8h" kindref="compound">gr_msg_accepter.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;deque&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;map&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="gr__io__signature_8h" kindref="compound">gr_io_signature.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;gruel/thread.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;boost/foreach.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;boost/thread/condition_variable.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;iostream&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52" refid="classgr__basic__block" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal">GR_CORE_API<sp/><ref refid="classgr__basic__block" kindref="compound" tooltip="The abstract base class for all signal processing blocks.Basic blocks are the bare abstraction of an ...">gr_basic_block</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classgr__msg__accepter" kindref="compound" tooltip="Accepts messages and inserts them into a message queue, then notifies subclass gr_basic_block there i...">gr_msg_accepter</ref>,<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>boost::enable_shared_from_this&lt;gr_basic_block&gt;</highlight></codeline>
+<codeline lineno="53"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>boost::function&lt;void(pmt::pmt_t)&gt;<sp/>msg_handler_t;</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//msg_handler_t<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>d_msg_handler;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>std::map&lt;pmt::pmt_t<sp/>,<sp/>msg_handler_t,<sp/>pmt::pmt_comperator&gt;<sp/>d_msg_handlers_t;</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/>d_msg_handlers_t<sp/>d_msg_handlers;</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>std::deque&lt;pmt::pmt_t&gt;<sp/><sp/><sp/><sp/>msg_queue_t;</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>std::map&lt;pmt::pmt_t,<sp/>msg_queue_t,<sp/>pmt::pmt_comperator&gt;<sp/><sp/><sp/><sp/>msg_queue_map_t;</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>std::map&lt;pmt::pmt_t,<sp/>msg_queue_t,<sp/>pmt::pmt_comperator&gt;::iterator<sp/>msg_queue_map_itr;</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/>std::map&lt;pmt::pmt_t,<sp/>boost::shared_ptr&lt;boost::condition_variable&gt;,<sp/>pmt::pmt_comperator&gt;<sp/>msg_queue_ready;</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/>gruel::mutex<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>mutex;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//&lt;<sp/>protects<sp/>all<sp/>vars</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="70" refid="classgr__basic__block_1adf5bf4523d6dd698aa770e3da8f2b30d" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">friend</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classgr__flowgraph" kindref="compound" tooltip="Class representing a directed, acyclic graph of basic blocks.">gr_flowgraph</ref>;</highlight></codeline>
+<codeline lineno="71" refid="classgr__basic__block_1a69b41e361328cea911d69e1ec0bc50ff" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">friend</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classgr__flat__flowgraph" kindref="compound" tooltip="Class specializing gr_flat_flowgraph that has all nodes as gr_blocks, with no hierarchy.">gr_flat_flowgraph</ref>;<sp/></highlight><highlight class="comment">//<sp/>TODO:<sp/>will<sp/>be<sp/>redundant</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="72" refid="classgr__basic__block_1affab9e232776d20a9b3772f545559611" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">friend</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classgr__tpb__thread__body" kindref="compound" tooltip="The body of each thread-per-block thread.">gr_tpb_thread_body</ref>;</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="74" refid="classgr__basic__block_1a5c90b7c003ddd61f8df6bef2aceeab3da476d594a077e729bad0f2cfa2008c899" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="classgr__basic__block_1a5c90b7c003ddd61f8df6bef2aceeab3d" kindref="member">vcolor</ref><sp/>{<sp/><ref refid="classgr__basic__block_1a5c90b7c003ddd61f8df6bef2aceeab3da476d594a077e729bad0f2cfa2008c899" kindref="member">WHITE</ref>,<sp/>GREY,<sp/>BLACK<sp/>};</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="76" refid="classgr__basic__block_1afd352cc073ef28012d4d079a863f5401" refkind="member"><highlight class="normal"><sp/><sp/>std::string<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classgr__basic__block_1afd352cc073ef28012d4d079a863f5401" kindref="member">d_name</ref>;</highlight></codeline>
+<codeline lineno="77" refid="classgr__basic__block_1a2c8da0c28bbbfb0e759278c9b9459e96" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="gr__runtime__types_8h_1a17582361e91523de033c893f29cae653" kindref="member">gr_io_signature_sptr</ref><sp/><ref refid="classgr__basic__block_1a2c8da0c28bbbfb0e759278c9b9459e96" kindref="member">d_input_signature</ref>;</highlight></codeline>
+<codeline lineno="78" refid="classgr__basic__block_1a76d64ed7a79566e3310306ae6f194d75" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="gr__runtime__types_8h_1a17582361e91523de033c893f29cae653" kindref="member">gr_io_signature_sptr</ref><sp/><ref refid="classgr__basic__block_1a76d64ed7a79566e3310306ae6f194d75" kindref="member">d_output_signature</ref>;</highlight></codeline>
+<codeline lineno="79" refid="classgr__basic__block_1a0d2999c04f47327f93dd7def5dc704f8" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classgr__basic__block_1a0d2999c04f47327f93dd7def5dc704f8" kindref="member">d_unique_id</ref>;</highlight></codeline>
+<codeline lineno="80" refid="classgr__basic__block_1a4161d5da81dc9bca5de414a48ef922c3" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classgr__basic__block_1a4161d5da81dc9bca5de414a48ef922c3" kindref="member">d_symbolic_id</ref>;</highlight></codeline>
+<codeline lineno="81" refid="classgr__basic__block_1a5cd137be87fb1927c1ef99f7d6ad8d65" refkind="member"><highlight class="normal"><sp/><sp/>std::string<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classgr__basic__block_1a5cd137be87fb1927c1ef99f7d6ad8d65" kindref="member">d_symbol_name</ref>;</highlight></codeline>
+<codeline lineno="82" refid="classgr__basic__block_1a5bf3aa412f9dcf71113f992bd3020daf" refkind="member"><highlight class="normal"><sp/><sp/>std::string<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classgr__basic__block_1a5bf3aa412f9dcf71113f992bd3020daf" kindref="member">d_symbol_alias</ref>;</highlight></codeline>
+<codeline lineno="83" refid="classgr__basic__block_1a7fb7e692e3b98a82410b396ef263bb41" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="classgr__basic__block_1a5c90b7c003ddd61f8df6bef2aceeab3d" kindref="member">vcolor</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classgr__basic__block_1a7fb7e692e3b98a82410b396ef263bb41" kindref="member">d_color</ref>;</highlight></codeline>
+<codeline lineno="84" refid="classgr__basic__block_1ad8a92aaf82c421805d78fbf2958373d1" refkind="member"><highlight class="normal"><sp/><sp/>msg_queue_map_t<sp/><ref refid="classgr__basic__block_1ad8a92aaf82c421805d78fbf2958373d1" kindref="member">msg_queue</ref>;</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="86" refid="classgr__basic__block_1a84d1e93b57e52efb18a5aa90a3eaf2db" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="classgr__basic__block_1a84d1e93b57e52efb18a5aa90a3eaf2db" kindref="member">gr_basic_block</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">){}<sp/></highlight><highlight class="comment">//allows<sp/>pure<sp/>virtual<sp/>interface<sp/>sub-classes</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><ref refid="classgr__basic__block" kindref="compound" tooltip="The abstract base class for all signal processing blocks.Basic blocks are the bare abstraction of an ...">gr_basic_block</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/>&amp;name,</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="gr__runtime__types_8h_1a17582361e91523de033c893f29cae653" kindref="member">gr_io_signature_sptr</ref><sp/>input_signature,</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="gr__runtime__types_8h_1a17582361e91523de033c893f29cae653" kindref="member">gr_io_signature_sptr</ref><sp/>output_signature);</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="94" refid="classgr__basic__block_1a419d0fbba0ca02d822cbc299b979de54" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classgr__basic__block_1a419d0fbba0ca02d822cbc299b979de54" kindref="member" tooltip="may only be called during constructor">set_input_signature</ref>(<ref refid="gr__runtime__types_8h_1a17582361e91523de033c893f29cae653" kindref="member">gr_io_signature_sptr</ref><sp/>iosig)<sp/>{</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/>d_input_signature<sp/>=<sp/>iosig;</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="99" refid="classgr__basic__block_1a949b6ad69ebfdf423835265db99cf63d" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classgr__basic__block_1a949b6ad69ebfdf423835265db99cf63d" kindref="member" tooltip="may only be called during constructor">set_output_signature</ref>(<ref refid="gr__runtime__types_8h_1a17582361e91523de033c893f29cae653" kindref="member">gr_io_signature_sptr</ref><sp/>iosig)<sp/>{</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/>d_output_signature<sp/>=<sp/>iosig;</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="106" refid="classgr__basic__block_1a0821ef947158670d53bf0739f3c8877b" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classgr__basic__block_1a0821ef947158670d53bf0739f3c8877b" kindref="member" tooltip="Allow the flowgraph to set for sorting and partitioning.">set_color</ref>(<ref refid="classgr__basic__block_1a5c90b7c003ddd61f8df6bef2aceeab3d" kindref="member">vcolor</ref><sp/>color)<sp/>{<sp/>d_color<sp/>=<sp/>color;<sp/>}</highlight></codeline>
+<codeline lineno="107" refid="classgr__basic__block_1a1cedb1704b6c00977c681b378ede384c" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="classgr__basic__block_1a5c90b7c003ddd61f8df6bef2aceeab3d" kindref="member">vcolor</ref><sp/><ref refid="classgr__basic__block_1a1cedb1704b6c00977c681b378ede384c" kindref="member">color</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>d_color;<sp/>}</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight></codeline>
+<codeline lineno="112" refid="classgr__basic__block_1a0a6acf1d0309a0dadf9f234548272c0b" refkind="member"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classgr__basic__block_1a0a6acf1d0309a0dadf9f234548272c0b" kindref="member" tooltip="Tests if there is a handler attached to port which_port.">has_msg_handler</ref>(pmt::pmt_t<sp/>which_port)<sp/>{</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(d_msg_handlers.find(which_port)<sp/>!=<sp/>d_msg_handlers.end());</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="117"><highlight class="comment"><sp/><sp/><sp/>*<sp/>This<sp/>function<sp/>is<sp/>called<sp/>by<sp/>the<sp/>runtime<sp/>system<sp/>to<sp/>dispatch<sp/>messages.</highlight></codeline>
+<codeline lineno="118"><highlight class="comment"><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="119"><highlight class="comment"><sp/><sp/><sp/>*<sp/>The<sp/>thread-safety<sp/>guarantees<sp/>mentioned<sp/>in<sp/>set_msg_handler<sp/>are<sp/>implemented</highlight></codeline>
+<codeline lineno="120"><highlight class="comment"><sp/><sp/><sp/>*<sp/>by<sp/>the<sp/>callers<sp/>of<sp/>this<sp/>method.</highlight></codeline>
+<codeline lineno="121"><highlight class="comment"><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="122" refid="classgr__basic__block_1a6076946479217a4d22cccfe415dcf172" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>dispatch_msg(pmt::pmt_t<sp/>which_port,<sp/>pmt::pmt_t<sp/>msg)</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>AA<sp/>Update<sp/>this</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(has_msg_handler(which_port))<sp/>{<sp/><sp/></highlight><highlight class="comment">//<sp/>Is<sp/>there<sp/>a<sp/>handler?</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>d_msg_handlers[which_port](msg);<sp/></highlight><highlight class="comment">//<sp/>Yes,<sp/>invoke<sp/>it.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>Message<sp/>passing<sp/>interface</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="131" refid="classgr__basic__block_1aa0d567ada087be0c8ffda03f2848e7d6" refkind="member"><highlight class="normal"><sp/><sp/>pmt::pmt_t<sp/><ref refid="classgr__basic__block_1aa0d567ada087be0c8ffda03f2848e7d6" kindref="member">message_subscribers</ref>;</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>~<ref refid="classgr__basic__block" kindref="compound" tooltip="The abstract base class for all signal processing blocks.Basic blocks are the bare abstraction of an ...">gr_basic_block</ref>();</highlight></codeline>
+<codeline lineno="135" refid="classgr__basic__block_1aa2a2947744d418c5470fbf4e623b58fe" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/><ref refid="classgr__basic__block_1aa2a2947744d418c5470fbf4e623b58fe" kindref="member">unique_id</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>d_unique_id;<sp/>}</highlight></codeline>
+<codeline lineno="136" refid="classgr__basic__block_1a8dc2fb06a1f504cd220bae7fc19256e9" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/><ref refid="classgr__basic__block_1a8dc2fb06a1f504cd220bae7fc19256e9" kindref="member">symbolic_id</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>d_symbolic_id;<sp/>}</highlight></codeline>
+<codeline lineno="137" refid="classgr__basic__block_1aa12a20d8b8eab341da935530d29299d2" refkind="member"><highlight class="normal"><sp/><sp/>std::string<sp/><ref refid="classgr__basic__block_1aa12a20d8b8eab341da935530d29299d2" kindref="member">name</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>d_name;<sp/>}</highlight></codeline>
+<codeline lineno="138" refid="classgr__basic__block_1a2506bcf7acba35171c32ba99abac37f6" refkind="member"><highlight class="normal"><sp/><sp/>std::string<sp/><ref refid="classgr__basic__block_1a2506bcf7acba35171c32ba99abac37f6" kindref="member">symbol_name</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>d_symbol_name;<sp/>}</highlight></codeline>
+<codeline lineno="139" refid="classgr__basic__block_1a58f6d05e85931200f3771d3e50741281" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="gr__runtime__types_8h_1a17582361e91523de033c893f29cae653" kindref="member">gr_io_signature_sptr</ref><sp/><ref refid="classgr__basic__block_1a58f6d05e85931200f3771d3e50741281" kindref="member">input_signature</ref>()</highlight><highlight class="keyword"><sp/>const<sp/><sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>d_input_signature;<sp/>}</highlight></codeline>
+<codeline lineno="140" refid="classgr__basic__block_1add68b96f012dfe352700b4fd1c3a184a" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="gr__runtime__types_8h_1a17582361e91523de033c893f29cae653" kindref="member">gr_io_signature_sptr</ref><sp/><ref refid="classgr__basic__block_1add68b96f012dfe352700b4fd1c3a184a" kindref="member">output_signature</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>d_output_signature;<sp/>}</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><ref refid="gr__runtime__types_8h_1a23ef33c86a39e7aefe87abcb2c7bede5" kindref="member">gr_basic_block_sptr</ref><sp/>to_basic_block();<sp/></highlight><highlight class="comment">//<sp/>Needed<sp/>for<sp/>Python<sp/>type<sp/>coercion</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="142" refid="classgr__basic__block_1adc8c7dc7cc8f8b1b644c5157e0153f94" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classgr__basic__block_1adc8c7dc7cc8f8b1b644c5157e0153f94" kindref="member">alias_set</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>!d_symbol_alias.empty();<sp/>}</highlight></codeline>
+<codeline lineno="143" refid="classgr__basic__block_1a54c38dcb817866397d15921884f581ec" refkind="member"><highlight class="normal"><sp/><sp/>std::string<sp/><ref refid="classgr__basic__block_1a54c38dcb817866397d15921884f581ec" kindref="member">alias</ref>(){<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>alias_set()?d_symbol_alias:symbol_name();<sp/>}</highlight></codeline>
+<codeline lineno="144" refid="classgr__basic__block_1a043ae7d3ce7e8cc41bd2e98823f7d7d8" refkind="member"><highlight class="normal"><sp/><sp/>pmt::pmt_t<sp/><ref refid="classgr__basic__block_1a043ae7d3ce7e8cc41bd2e98823f7d7d8" kindref="member">alias_pmt</ref>(){<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>pmt::pmt_intern(alias());<sp/>}</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>set_block_alias(std::string<sp/>name);</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>**<sp/>Message<sp/>passing<sp/>interface<sp/>**</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>message_port_register_in(pmt::pmt_t<sp/>port_id);</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>message_port_register_out(pmt::pmt_t<sp/>port_id);</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>message_port_pub(pmt::pmt_t<sp/>port_id,<sp/>pmt::pmt_t<sp/>msg);</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>message_port_sub(pmt::pmt_t<sp/>port_id,<sp/>pmt::pmt_t<sp/>target);</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>message_port_unsub(pmt::pmt_t<sp/>port_id,<sp/>pmt::pmt_t<sp/>target);</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="154" refid="classgr__basic__block_1a2db8b61c8c009e150e6a847279a18c39" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classgr__basic__block_1a2db8b61c8c009e150e6a847279a18c39" kindref="member">message_port_is_hier</ref>(pmt::pmt_t<sp/>port_id)<sp/>{<sp/>(void)<sp/>port_id;<sp/>std::cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;is_hier\n&quot;</highlight><highlight class="normal">;<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="155" refid="classgr__basic__block_1aab4dc769345018c146be60394c198774" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classgr__basic__block_1aab4dc769345018c146be60394c198774" kindref="member">message_port_is_hier_in</ref>(pmt::pmt_t<sp/>port_id)<sp/>{<sp/>(void)<sp/>port_id;<sp/>std::cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;is_hier_in\n&quot;</highlight><highlight class="normal">;<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="156" refid="classgr__basic__block_1a1076c46a515aa65abb921d5307ef190c" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classgr__basic__block_1a1076c46a515aa65abb921d5307ef190c" kindref="member">message_port_is_hier_out</ref>(pmt::pmt_t<sp/>port_id)<sp/>{<sp/>(void)<sp/>port_id;<sp/>std::cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;is_hier_out\n&quot;</highlight><highlight class="normal">;<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/>pmt::pmt_t<sp/>message_ports_in();</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/>pmt::pmt_t<sp/>message_ports_out();</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>_post(pmt::pmt_t<sp/>which_port,<sp/>pmt::pmt_t<sp/>msg);</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//bool<sp/>empty_p(const<sp/>pmt::pmt_t<sp/>&amp;which_port)<sp/>const<sp/>{<sp/>return<sp/>msg_queue[which_port].empty();<sp/>}</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="181" refid="classgr__basic__block_1ad1c5ba586a40491af5913311f4470ebe" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classgr__basic__block_1ad1c5ba586a40491af5913311f4470ebe" kindref="member" tooltip="is the queue empty?">empty_p</ref>(pmt::pmt_t<sp/>which_port)<sp/>{<sp/></highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(msg_queue.find(which_port)<sp/>==<sp/>msg_queue.end())</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal"><sp/>std::runtime_error(</highlight><highlight class="stringliteral">&quot;port<sp/>does<sp/>not<sp/>exist!&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>msg_queue[which_port].empty();<sp/></highlight></codeline>
+<codeline lineno="185"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="186" refid="classgr__basic__block_1af4d06c2709104e08274501490bb8f7f6" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classgr__basic__block_1af4d06c2709104e08274501490bb8f7f6" kindref="member">empty_p</ref>()<sp/>{<sp/></highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>rv<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/>BOOST_FOREACH(msg_queue_map_t::value_type<sp/>&amp;i,<sp/>msg_queue)<sp/>{</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>rv<sp/>&amp;=<sp/>msg_queue[i.first].empty();</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>rv;</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"></highlight></codeline>
+<codeline lineno="195" refid="classgr__basic__block_1a47f4129c84b5960a5707997e6ec83a1f" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="classgr__basic__block_1a47f4129c84b5960a5707997e6ec83a1f" kindref="member" tooltip="How many messages in the queue?">nmsgs</ref>(pmt::pmt_t<sp/>which_port)<sp/>{<sp/></highlight></codeline>
+<codeline lineno="196"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(msg_queue.find(which_port)<sp/>==<sp/>msg_queue.end())</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal"><sp/>std::runtime_error(</highlight><highlight class="stringliteral">&quot;port<sp/>does<sp/>not<sp/>exist!&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>msg_queue[which_port].size();<sp/></highlight></codeline>
+<codeline lineno="199"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="201"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//|<sp/>Acquires<sp/>and<sp/>release<sp/>the<sp/>mutex</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="202"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>insert_tail(<sp/>pmt::pmt_t<sp/>which_port,<sp/>pmt::pmt_t<sp/>msg);</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"><sp/><sp/>pmt::pmt_t<sp/>delete_head_nowait(<sp/>pmt::pmt_t<sp/>which_port);</highlight></codeline>
+<codeline lineno="207"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="211"><highlight class="normal"><sp/><sp/>pmt::pmt_t<sp/>delete_head_blocking(<sp/>pmt::pmt_t<sp/>which_port);</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="213" refid="classgr__basic__block_1aeb3a83879ff75b903d1316f8cf6e06d6" refkind="member"><highlight class="normal"><sp/><sp/>msg_queue_t::iterator<sp/><ref refid="classgr__basic__block_1aeb3a83879ff75b903d1316f8cf6e06d6" kindref="member">get_iterator</ref>(pmt::pmt_t<sp/>which_port){</highlight></codeline>
+<codeline lineno="214"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>msg_queue[which_port].begin();</highlight></codeline>
+<codeline lineno="215"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"></highlight></codeline>
+<codeline lineno="217" refid="classgr__basic__block_1a30fe581e8b1be62abcab5ec2ed66e44b" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classgr__basic__block_1a30fe581e8b1be62abcab5ec2ed66e44b" kindref="member">erase_msg</ref>(pmt::pmt_t<sp/>which_port,<sp/>msg_queue_t::iterator<sp/>it){</highlight></codeline>
+<codeline lineno="218"><highlight class="normal"><sp/><sp/><sp/><sp/>msg_queue[which_port].erase(it);</highlight></codeline>
+<codeline lineno="219"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="220"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="221" refid="classgr__basic__block_1a61553a9c10e556cd480aa63ab30848e2" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classgr__basic__block_1a61553a9c10e556cd480aa63ab30848e2" kindref="member">has_msg_port</ref>(pmt::pmt_t<sp/>which_port){</highlight></codeline>
+<codeline lineno="222"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(msg_queue.find(which_port)<sp/>!=<sp/>msg_queue.end()){</highlight></codeline>
+<codeline lineno="223"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="224"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="225"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(pmt::pmt_dict_has_key(message_subscribers,<sp/>which_port)){</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="227"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="228"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="229"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="230"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="231"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="245" refid="classgr__basic__block_1a50a714df9c3ce8c03854a09ac84e589b" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classgr__basic__block_1a50a714df9c3ce8c03854a09ac84e589b" kindref="member" tooltip="Confirm that ninputs and noutputs is an acceptable combination.">check_topology</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ninputs,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>noutputs)<sp/>{<sp/>(void)<sp/>ninputs;<sp/>(void)<sp/>noutputs;<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="246"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="273"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//template<sp/>&lt;typename<sp/>T&gt;<sp/>void<sp/>set_msg_handler(T<sp/>msg_handler){</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="274"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/>d_msg_handler<sp/>=<sp/>msg_handler_t(msg_handler);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="275"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//}</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="276" refid="classgr__basic__block_1af1a987df65146b6e58c64bd4ada2dc06" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>T&gt;<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classgr__basic__block_1af1a987df65146b6e58c64bd4ada2dc06" kindref="member" tooltip="Set the callback that is fired when messages are available.">set_msg_handler</ref>(pmt::pmt_t<sp/>which_port,<sp/>T<sp/>msg_handler){</highlight></codeline>
+<codeline lineno="277"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(msg_queue.find(which_port)<sp/>==<sp/>msg_queue.end()){<sp/></highlight></codeline>
+<codeline lineno="278"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal"><sp/>std::runtime_error(</highlight><highlight class="stringliteral">&quot;attempt<sp/>to<sp/>set_msg_handler()<sp/>on<sp/>bad<sp/>input<sp/>message<sp/>port!&quot;</highlight><highlight class="normal">);<sp/>}</highlight></codeline>
+<codeline lineno="279"><highlight class="normal"><sp/><sp/><sp/><sp/>d_msg_handlers[which_port]<sp/>=<sp/>msg_handler_t(msg_handler);</highlight></codeline>
+<codeline lineno="280"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="281"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="282"><highlight class="normal"></highlight></codeline>
+<codeline lineno="283" refid="gr__basic__block_8h_1afe7684d11bda1c7330f6f32251f5a447" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="gr__basic__block_8h_1afe7684d11bda1c7330f6f32251f5a447" kindref="member">operator&lt;</ref>(<ref refid="gr__runtime__types_8h_1a23ef33c86a39e7aefe87abcb2c7bede5" kindref="member">gr_basic_block_sptr</ref><sp/>lhs,<sp/><ref refid="gr__runtime__types_8h_1a23ef33c86a39e7aefe87abcb2c7bede5" kindref="member">gr_basic_block_sptr</ref><sp/>rhs)</highlight></codeline>
+<codeline lineno="284"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="285"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>lhs-&gt;unique_id()<sp/>&lt;<sp/>rhs-&gt;unique_id();</highlight></codeline>
+<codeline lineno="286"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="287"><highlight class="normal"></highlight></codeline>
+<codeline lineno="288" refid="gr__basic__block_8h_1a76d2f45845faaf2d72b0002ba045c0d6" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>std::vector&lt;gr_basic_block_sptr&gt;<sp/><ref refid="gr__basic__block_8h_1a76d2f45845faaf2d72b0002ba045c0d6" kindref="member">gr_basic_block_vector_t</ref>;</highlight></codeline>
+<codeline lineno="289" refid="gr__basic__block_8h_1aae6b0ac6b0a67267a5bf7a6bd9a73259" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>std::vector&lt;gr_basic_block_sptr&gt;::iterator<sp/><ref refid="gr__basic__block_8h_1aae6b0ac6b0a67267a5bf7a6bd9a73259" kindref="member">gr_basic_block_viter_t</ref>;</highlight></codeline>
+<codeline lineno="290"><highlight class="normal"></highlight></codeline>
+<codeline lineno="291"><highlight class="normal">GR_CORE_API<sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/><ref refid="gr__basic__block_8h_1ae3ed22898fcc8bff34adb077179eaf1c" kindref="member">gr_basic_block_ncurrently_allocated</ref>();</highlight></codeline>
+<codeline lineno="292"><highlight class="normal"></highlight></codeline>
+<codeline lineno="293" refid="gr__basic__block_8h_1acb2f610728a7f3cbd51a9a2eb60f059e" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>std::ostream<sp/>&amp;<ref refid="gr__basic__block_8h_1acb2f610728a7f3cbd51a9a2eb60f059e" kindref="member">operator &lt;&lt; </ref>(std::ostream<sp/>&amp;os,<sp/><ref refid="gr__runtime__types_8h_1a23ef33c86a39e7aefe87abcb2c7bede5" kindref="member">gr_basic_block_sptr</ref><sp/>basic_block)</highlight></codeline>
+<codeline lineno="294"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="295"><highlight class="normal"><sp/><sp/>os<sp/>&lt;&lt;<sp/>basic_block-&gt;name()<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;(&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>basic_block-&gt;unique_id()<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;)&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="296"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>os;</highlight></codeline>
+<codeline lineno="297"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="298"><highlight class="normal"></highlight></codeline>
+<codeline lineno="299"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>INCLUDED_GR_BASIC_BLOCK_H<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_basic_block.h"/>
+  </compounddef>
+</doxygen>

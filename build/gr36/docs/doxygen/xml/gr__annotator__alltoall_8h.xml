@@ -1,0 +1,256 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="gr__annotator__alltoall_8h" kind="file">
+    <compoundname>gr_annotator_alltoall.h</compoundname>
+    <includes refid="gr__core__api_8h" local="no">gr_core_api.h</includes>
+    <includes refid="gr__sync__block_8h" local="no">gr_sync_block.h</includes>
+    <incdepgraph>
+      <node id="4384">
+        <label>boost/thread/mutex.hpp</label>
+      </node>
+      <node id="4386">
+        <label>boost/thread/condition_variable.hpp</label>
+      </node>
+      <node id="4352">
+        <label>gr_annotator_alltoall.h</label>
+        <link refid="gr_annotator_alltoall.h"/>
+        <childnode refid="4353" relation="include">
+        </childnode>
+        <childnode refid="4355" relation="include">
+        </childnode>
+      </node>
+      <node id="4368">
+        <label>boost/shared_ptr.hpp</label>
+      </node>
+      <node id="4365">
+        <label>gruel/pmt.h</label>
+        <link refid="pmt_8h"/>
+        <childnode refid="4366" relation="include">
+        </childnode>
+        <childnode refid="4367" relation="include">
+        </childnode>
+        <childnode refid="4368" relation="include">
+        </childnode>
+        <childnode refid="4369" relation="include">
+        </childnode>
+        <childnode refid="4370" relation="include">
+        </childnode>
+        <childnode refid="4371" relation="include">
+        </childnode>
+        <childnode refid="4372" relation="include">
+        </childnode>
+        <childnode refid="4375" relation="include">
+        </childnode>
+        <childnode refid="4376" relation="include">
+        </childnode>
+        <childnode refid="4377" relation="include">
+        </childnode>
+        <childnode refid="4378" relation="include">
+        </childnode>
+      </node>
+      <node id="4367">
+        <label>boost/intrusive_ptr.hpp</label>
+      </node>
+      <node id="4353">
+        <label>gr_core_api.h</label>
+        <link refid="gr__core__api_8h"/>
+        <childnode refid="4354" relation="include">
+        </childnode>
+      </node>
+      <node id="4372">
+        <label>stdint.h</label>
+        <link refid="stdint_8h"/>
+        <childnode refid="4373" relation="include">
+        </childnode>
+        <childnode refid="4374" relation="include">
+        </childnode>
+      </node>
+      <node id="4363">
+        <label>gras/hier_block.hpp</label>
+      </node>
+      <node id="4362">
+        <label>gras/top_block.hpp</label>
+      </node>
+      <node id="4381">
+        <label>boost/foreach.hpp</label>
+      </node>
+      <node id="4376">
+        <label>stdexcept</label>
+      </node>
+      <node id="4357">
+        <label>gras/block.hpp</label>
+      </node>
+      <node id="4383">
+        <label>boost/thread/thread.hpp</label>
+      </node>
+      <node id="4371">
+        <label>string</label>
+      </node>
+      <node id="4380">
+        <label>map</label>
+      </node>
+      <node id="4354">
+        <label>gruel/attributes.h</label>
+        <link refid="attributes_8h"/>
+      </node>
+      <node id="4373">
+        <label>limits.h</label>
+      </node>
+      <node id="4369">
+        <label>boost/any.hpp</label>
+      </node>
+      <node id="4356">
+        <label>gr_block.h</label>
+        <link refid="gr__block_8h"/>
+        <childnode refid="4353" relation="include">
+        </childnode>
+        <childnode refid="4357" relation="include">
+        </childnode>
+        <childnode refid="4358" relation="include">
+        </childnode>
+        <childnode refid="4360" relation="include">
+        </childnode>
+        <childnode refid="4364" relation="include">
+        </childnode>
+        <childnode refid="4371" relation="include">
+        </childnode>
+        <childnode refid="4379" relation="include">
+        </childnode>
+        <childnode refid="4380" relation="include">
+        </childnode>
+        <childnode refid="4381" relation="include">
+        </childnode>
+        <childnode refid="4382" relation="include">
+        </childnode>
+        <childnode refid="4387" relation="include">
+        </childnode>
+      </node>
+      <node id="4359">
+        <label>gr_runtime_types.h</label>
+        <link refid="gr__runtime__types_8h"/>
+        <childnode refid="4353" relation="include">
+        </childnode>
+        <childnode refid="4360" relation="include">
+        </childnode>
+      </node>
+      <node id="4374">
+        <label>wchar.h</label>
+      </node>
+      <node id="4378">
+        <label>gruel/pmt_sugar.h</label>
+        <link refid="pmt__sugar_8h"/>
+      </node>
+      <node id="4385">
+        <label>boost/thread/locks.hpp</label>
+      </node>
+      <node id="4355">
+        <label>gr_sync_block.h</label>
+        <link refid="gr__sync__block_8h"/>
+        <childnode refid="4356" relation="include">
+        </childnode>
+      </node>
+      <node id="4377">
+        <label>vector</label>
+      </node>
+      <node id="4358">
+        <label>gr_io_signature.h</label>
+        <link refid="gr__io__signature_8h"/>
+        <childnode refid="4353" relation="include">
+        </childnode>
+        <childnode refid="4359" relation="include">
+        </childnode>
+      </node>
+      <node id="4366">
+        <label>gruel/api.h</label>
+        <link refid="gruel_2src_2include_2gruel_2api_8h"/>
+        <childnode refid="4354" relation="include">
+        </childnode>
+      </node>
+      <node id="4375">
+        <label>iosfwd</label>
+      </node>
+      <node id="4360">
+        <label>gr_types.h</label>
+        <link refid="gr__types_8h"/>
+        <childnode refid="4361" relation="include">
+        </childnode>
+        <childnode refid="4357" relation="include">
+        </childnode>
+        <childnode refid="4362" relation="include">
+        </childnode>
+        <childnode refid="4363" relation="include">
+        </childnode>
+      </node>
+      <node id="4382">
+        <label>gruel/thread.h</label>
+        <link refid="thread_8h"/>
+        <childnode refid="4366" relation="include">
+        </childnode>
+        <childnode refid="4383" relation="include">
+        </childnode>
+        <childnode refid="4384" relation="include">
+        </childnode>
+        <childnode refid="4385" relation="include">
+        </childnode>
+        <childnode refid="4386" relation="include">
+        </childnode>
+        <childnode refid="4377" relation="include">
+        </childnode>
+      </node>
+      <node id="4379">
+        <label>deque</label>
+      </node>
+      <node id="4364">
+        <label>gr_tags.h</label>
+        <link refid="gr__tags_8h"/>
+        <childnode refid="4353" relation="include">
+        </childnode>
+        <childnode refid="4365" relation="include">
+        </childnode>
+      </node>
+      <node id="4370">
+        <label>complex</label>
+      </node>
+      <node id="4387">
+        <label>gr_sptr_magic.h</label>
+        <link refid="gr__sptr__magic_8h_source"/>
+        <childnode refid="4353" relation="include">
+        </childnode>
+        <childnode refid="4368" relation="include">
+        </childnode>
+      </node>
+      <node id="4361">
+        <label>gras/element.hpp</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classgr__annotator__alltoall" prot="public">gr_annotator_alltoall</innerclass>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="gr__annotator__alltoall_8h_1ab3d7374f488c81fe33e23d3a07d2b40b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="gr__core__api_8h_1a8b8937b0c61edd85ab57ce8203543248" kindref="member">GR_CORE_API</ref> <ref refid="classboost_1_1shared__ptr" kindref="compound">gr_annotator_alltoall_sptr</ref></type>
+        <definition>GR_CORE_API gr_annotator_alltoall_sptr gr_make_annotator_alltoall</definition>
+        <argsstring>(int when, size_t sizeof_stream_item)</argsstring>
+        <name>gr_make_annotator_alltoall</name>
+        <param>
+          <type>int</type>
+          <declname>when</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>sizeof_stream_item</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_annotator_alltoall.h" line="34"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_annotator_alltoall.h"/>
+  </compounddef>
+</doxygen>

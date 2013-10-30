@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="group__sync__blk" kind="group">
+    <compoundname>sync_blk</compoundname>
+    <title>Synchronization</title>
+    <innerclass refid="classgr__correlate__access__code__tag__bb" prot="public">gr_correlate_access_code_tag_bb</innerclass>
+    <innerclass refid="classgr__pll__carriertracking__cc" prot="public">gr_pll_carriertracking_cc</innerclass>
+    <innerclass refid="classgr__pll__freqdet__cf" prot="public">gr_pll_freqdet_cf</innerclass>
+    <innerclass refid="classgr__pll__refout__cc" prot="public">gr_pll_refout_cc</innerclass>
+    <innerclass refid="classgr__pn__correlator__cc" prot="public">gr_pn_correlator_cc</innerclass>
+    <innerclass refid="classgr__simple__correlator" prot="public">gr_simple_correlator</innerclass>
+    <innerclass refid="classgr__simple__framer" prot="public">gr_simple_framer</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

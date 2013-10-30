@@ -1,0 +1,160 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="structvolk__machine" kind="struct" prot="public">
+    <compoundname>volk_machine</compoundname>
+    <includes refid="volk__machines_8tmpl_8h" local="no">volk_machines.tmpl.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structvolk__machine_1a80486bb1fa14e550bfbadb3427ad267f" prot="public" static="no" mutable="no">
+        <type><ref refid="structvolk__machine_1a977c651e029ab062c642f2ddc7778fbf" kindref="member">const</ref> unsigned <ref refid="structvolk__machine_1a9d020a38bb68f878a47c403487875bcc" kindref="member">int</ref></type>
+        <definition>const unsigned int volk_machine::caps</definition>
+        <argsstring></argsstring>
+        <name>caps</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/volk/tmpl/volk_machines.tmpl.h" line="34" bodyfile="/home/aviral/GNU-Niyantran/gr36/volk/tmpl/volk_machines.tmpl.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvolk__machine_1a98e77e1bede37d0dc3de16f9f0da1074" prot="public" static="no" mutable="no">
+        <type><ref refid="structvolk__machine_1a977c651e029ab062c642f2ddc7778fbf" kindref="member">const</ref> char *</type>
+        <definition>const char* volk_machine::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/volk/tmpl/volk_machines.tmpl.h" line="35" bodyfile="/home/aviral/GNU-Niyantran/gr36/volk/tmpl/volk_machines.tmpl.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvolk__machine_1a2f4a48bd24b88707cbe918116b711c72" prot="public" static="no" mutable="no">
+        <type><ref refid="structvolk__machine_1a977c651e029ab062c642f2ddc7778fbf" kindref="member">const</ref> <ref refid="structvolk__machine_1ad6b8695c058ae7fdb6be6c37bbf7fd6c" kindref="member">size_t</ref></type>
+        <definition>const size_t volk_machine::alignment</definition>
+        <argsstring></argsstring>
+        <name>alignment</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/volk/tmpl/volk_machines.tmpl.h" line="36" bodyfile="/home/aviral/GNU-Niyantran/gr36/volk/tmpl/volk_machines.tmpl.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvolk__machine_1ae89d27c5a008cfcb35c7e67be395bec3" prot="public" static="no" mutable="no">
+        <type><ref refid="structvolk__machine_1a977c651e029ab062c642f2ddc7778fbf" kindref="member">const</ref> char *<ref refid="volk__typedefs_8tmpl_8h_1a538539b26703ffd6d31458e654170b0d" kindref="member">kern</ref> <ref refid="structvolk__machine_1a98e77e1bede37d0dc3de16f9f0da1074" kindref="member">name</ref></type>
+        <definition>const char* kern name volk_machine::_name</definition>
+        <argsstring></argsstring>
+        <name>_name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/volk/tmpl/volk_machines.tmpl.h" line="38" bodyfile="/home/aviral/GNU-Niyantran/gr36/volk/tmpl/volk_machines.tmpl.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvolk__machine_1a5d739907dcb16df7c832b0935c9b1cc8" prot="public" static="no" mutable="no">
+        <type><ref refid="structvolk__machine_1a977c651e029ab062c642f2ddc7778fbf" kindref="member">const</ref> char *<ref refid="volk__typedefs_8tmpl_8h_1a538539b26703ffd6d31458e654170b0d" kindref="member">kern</ref> <ref refid="structvolk__machine_1a98e77e1bede37d0dc3de16f9f0da1074" kindref="member">name</ref></type>
+        <definition>const char* kern name volk_machine::_impl_names[$(len($archs))]</definition>
+        <argsstring>[$(len($archs))]</argsstring>
+        <name>_impl_names</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/volk/tmpl/volk_machines.tmpl.h" line="39" bodyfile="/home/aviral/GNU-Niyantran/gr36/volk/tmpl/volk_machines.tmpl.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structvolk__machine_1a9d020a38bb68f878a47c403487875bcc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structvolk__machine_1a977c651e029ab062c642f2ddc7778fbf" kindref="member">const</ref></type>
+        <definition>const volk_machine::int</definition>
+        <argsstring>(kern.name) _impl_deps[$(len($archs))]</argsstring>
+        <name>int</name>
+        <param>
+          <type>kern.</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/volk/tmpl/volk_machines.tmpl.h" line="40"/>
+      </memberdef>
+      <memberdef kind="function" id="structvolk__machine_1a23d002ff842676f548267aa63a2c3961" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structvolk__machine_1a977c651e029ab062c642f2ddc7778fbf" kindref="member">const</ref></type>
+        <definition>const volk_machine::bool</definition>
+        <argsstring>(kern.name) _impl_alignment[$(len($archs))]</argsstring>
+        <name>bool</name>
+        <param>
+          <type>kern.</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/volk/tmpl/volk_machines.tmpl.h" line="41"/>
+      </memberdef>
+      <memberdef kind="function" id="structvolk__machine_1a977c651e029ab062c642f2ddc7778fbf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>volk_machine::const</definition>
+        <argsstring>(kern.pname)$(kern.name) _impls[$(len($archs))]</argsstring>
+        <name>const</name>
+        <param>
+          <type>kern.</type>
+          <declname>pname</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/volk/tmpl/volk_machines.tmpl.h" line="42"/>
+      </memberdef>
+      <memberdef kind="function" id="structvolk__machine_1ad6b8695c058ae7fdb6be6c37bbf7fd6c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structvolk__machine_1a977c651e029ab062c642f2ddc7778fbf" kindref="member">const</ref></type>
+        <definition>const volk_machine::size_t</definition>
+        <argsstring>(kern.name) _n_impls</argsstring>
+        <name>size_t</name>
+        <param>
+          <type>kern.</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/volk/tmpl/volk_machines.tmpl.h" line="43"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/aviral/GNU-Niyantran/gr36/volk/tmpl/volk_machines.tmpl.h" line="33" bodyfile="/home/aviral/GNU-Niyantran/gr36/volk/tmpl/volk_machines.tmpl.h" bodystart="33" bodyend="45"/>
+    <listofallmembers>
+      <member refid="structvolk__machine_1a5d739907dcb16df7c832b0935c9b1cc8" prot="public" virt="non-virtual"><scope>volk_machine</scope><name>_impl_names</name></member>
+      <member refid="structvolk__machine_1ae89d27c5a008cfcb35c7e67be395bec3" prot="public" virt="non-virtual"><scope>volk_machine</scope><name>_name</name></member>
+      <member refid="structvolk__machine_1a2f4a48bd24b88707cbe918116b711c72" prot="public" virt="non-virtual"><scope>volk_machine</scope><name>alignment</name></member>
+      <member refid="structvolk__machine_1a23d002ff842676f548267aa63a2c3961" prot="public" virt="non-virtual"><scope>volk_machine</scope><name>bool</name></member>
+      <member refid="structvolk__machine_1a80486bb1fa14e550bfbadb3427ad267f" prot="public" virt="non-virtual"><scope>volk_machine</scope><name>caps</name></member>
+      <member refid="structvolk__machine_1a977c651e029ab062c642f2ddc7778fbf" prot="public" virt="non-virtual"><scope>volk_machine</scope><name>const</name></member>
+      <member refid="structvolk__machine_1a9d020a38bb68f878a47c403487875bcc" prot="public" virt="non-virtual"><scope>volk_machine</scope><name>int</name></member>
+      <member refid="structvolk__machine_1a98e77e1bede37d0dc3de16f9f0da1074" prot="public" virt="non-virtual"><scope>volk_machine</scope><name>name</name></member>
+      <member refid="structvolk__machine_1ad6b8695c058ae7fdb6be6c37bbf7fd6c" prot="public" virt="non-virtual"><scope>volk_machine</scope><name>size_t</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="group__converter__blk" kind="group">
+    <compoundname>converter_blk</compoundname>
+    <title>Type Conversions</title>
+    <innerclass refid="classgr__bytes__to__syms" prot="public">gr_bytes_to_syms</innerclass>
+    <innerclass refid="classgr__char__to__float" prot="public">gr_char_to_float</innerclass>
+    <innerclass refid="classgr__char__to__short" prot="public">gr_char_to_short</innerclass>
+    <innerclass refid="classgr__complex__to__interleaved__short" prot="public">gr_complex_to_interleaved_short</innerclass>
+    <innerclass refid="classgr__complex__to__float" prot="public">gr_complex_to_float</innerclass>
+    <innerclass refid="classgr__complex__to__real" prot="public">gr_complex_to_real</innerclass>
+    <innerclass refid="classgr__complex__to__imag" prot="public">gr_complex_to_imag</innerclass>
+    <innerclass refid="classgr__complex__to__mag" prot="public">gr_complex_to_mag</innerclass>
+    <innerclass refid="classgr__complex__to__mag__squared" prot="public">gr_complex_to_mag_squared</innerclass>
+    <innerclass refid="classgr__complex__to__arg" prot="public">gr_complex_to_arg</innerclass>
+    <innerclass refid="classgr__float__to__char" prot="public">gr_float_to_char</innerclass>
+    <innerclass refid="classgr__float__to__complex" prot="public">gr_float_to_complex</innerclass>
+    <innerclass refid="classgr__float__to__int" prot="public">gr_float_to_int</innerclass>
+    <innerclass refid="classgr__float__to__short" prot="public">gr_float_to_short</innerclass>
+    <innerclass refid="classgr__float__to__uchar" prot="public">gr_float_to_uchar</innerclass>
+    <innerclass refid="classgr__int__to__float" prot="public">gr_int_to_float</innerclass>
+    <innerclass refid="classgr__interleaved__short__to__complex" prot="public">gr_interleaved_short_to_complex</innerclass>
+    <innerclass refid="classgr__pack__k__bits__bb" prot="public">gr_pack_k_bits_bb</innerclass>
+    <innerclass refid="classgr__short__to__char" prot="public">gr_short_to_char</innerclass>
+    <innerclass refid="classgr__short__to__float" prot="public">gr_short_to_float</innerclass>
+    <innerclass refid="classgr__uchar__to__float" prot="public">gr_uchar_to_float</innerclass>
+    <innerclass refid="classgr__unpack__k__bits__bb" prot="public">gr_unpack_k_bits_bb</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1char__to__float" prot="public">gr::blocks::char_to_float</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1char__to__short" prot="public">gr::blocks::char_to_short</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1complex__to__arg" prot="public">gr::blocks::complex_to_arg</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1complex__to__float" prot="public">gr::blocks::complex_to_float</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1complex__to__imag" prot="public">gr::blocks::complex_to_imag</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1complex__to__interleaved__short" prot="public">gr::blocks::complex_to_interleaved_short</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1complex__to__mag" prot="public">gr::blocks::complex_to_mag</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1complex__to__mag__squared" prot="public">gr::blocks::complex_to_mag_squared</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1complex__to__real" prot="public">gr::blocks::complex_to_real</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1float__to__char" prot="public">gr::blocks::float_to_char</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1float__to__complex" prot="public">gr::blocks::float_to_complex</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1float__to__int" prot="public">gr::blocks::float_to_int</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1float__to__short" prot="public">gr::blocks::float_to_short</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1float__to__uchar" prot="public">gr::blocks::float_to_uchar</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1int__to__float" prot="public">gr::blocks::int_to_float</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1interleaved__short__to__complex" prot="public">gr::blocks::interleaved_short_to_complex</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1short__to__char" prot="public">gr::blocks::short_to_char</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1short__to__float" prot="public">gr::blocks::short_to_float</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1uchar__to__float" prot="public">gr::blocks::uchar_to_float</innerclass>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="group__converter__blk_1ga00eb6839df4e12bf452ce981b217a678" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>sptr</type>
+        <definition>static sptr gr::blocks::stream_mux::make</definition>
+        <argsstring>(size_t itemsize, const std::vector&lt; int &gt; &amp;lengths)</argsstring>
+        <name>make</name>
+        <param>
+          <type>size_t</type>
+          <declname>itemsize</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; int &gt; &amp;</type>
+          <declname>lengths</declname>
+        </param>
+        <briefdescription>
+<para>Creates a stream muxing block to multiplex many streams into one with a specified format. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>itemsize</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the item size of the stream </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>lengths</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a vector (list/tuple) specifying the number of items from each stream the mux together. Warning: this requires that at least as many items per stream are available or the system will wait indefinitely for the items. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/include/blocks/stream_mux.h" line="63"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

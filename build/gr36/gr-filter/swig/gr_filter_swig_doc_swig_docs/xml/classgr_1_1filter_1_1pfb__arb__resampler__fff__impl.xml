@@ -1,0 +1,438 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="classgr_1_1filter_1_1pfb__arb__resampler__fff__impl" kind="class" prot="public">
+    <compoundname>gr::filter::pfb_arb_resampler_fff_impl</compoundname>
+    <includes refid="pfb__arb__resampler__fff__impl_8h" local="no">pfb_arb_resampler_fff_impl.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1filter_1_1pfb__arb__resampler__fff__impl_1a20d8745480411df63090f44751a583f0" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; kernel::fir_filter_fff * &gt;</type>
+        <definition>std::vector&lt;kernel::fir_filter_fff*&gt; gr::filter::pfb_arb_resampler_fff_impl::d_filters</definition>
+        <argsstring></argsstring>
+        <name>d_filters</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/pfb_arb_resampler_fff_impl.h" line="37" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/pfb_arb_resampler_fff_impl.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1filter_1_1pfb__arb__resampler__fff__impl_1ae9bbe0d0b947169943f7d7f7075d045a" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; kernel::fir_filter_fff * &gt;</type>
+        <definition>std::vector&lt;kernel::fir_filter_fff*&gt; gr::filter::pfb_arb_resampler_fff_impl::d_diff_filters</definition>
+        <argsstring></argsstring>
+        <name>d_diff_filters</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/pfb_arb_resampler_fff_impl.h" line="38" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/pfb_arb_resampler_fff_impl.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1filter_1_1pfb__arb__resampler__fff__impl_1ae32d2afd47e44ca7fbf7aef6df395a48" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; std::vector&lt; float &gt; &gt;</type>
+        <definition>std::vector&lt; std::vector&lt;float&gt; &gt; gr::filter::pfb_arb_resampler_fff_impl::d_taps</definition>
+        <argsstring></argsstring>
+        <name>d_taps</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/pfb_arb_resampler_fff_impl.h" line="39" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/pfb_arb_resampler_fff_impl.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1filter_1_1pfb__arb__resampler__fff__impl_1a23993852bdeae1563f59e6437766a791" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; std::vector&lt; float &gt; &gt;</type>
+        <definition>std::vector&lt; std::vector&lt;float&gt; &gt; gr::filter::pfb_arb_resampler_fff_impl::d_dtaps</definition>
+        <argsstring></argsstring>
+        <name>d_dtaps</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/pfb_arb_resampler_fff_impl.h" line="40" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/pfb_arb_resampler_fff_impl.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1filter_1_1pfb__arb__resampler__fff__impl_1a94e04da6f0320aafeacc7b6a94b24e32" prot="private" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int gr::filter::pfb_arb_resampler_fff_impl::d_int_rate</definition>
+        <argsstring></argsstring>
+        <name>d_int_rate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/pfb_arb_resampler_fff_impl.h" line="41" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/pfb_arb_resampler_fff_impl.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1filter_1_1pfb__arb__resampler__fff__impl_1a3fd02c6e3ef3f281410269846dda6982" prot="private" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int gr::filter::pfb_arb_resampler_fff_impl::d_dec_rate</definition>
+        <argsstring></argsstring>
+        <name>d_dec_rate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/pfb_arb_resampler_fff_impl.h" line="42" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/pfb_arb_resampler_fff_impl.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1filter_1_1pfb__arb__resampler__fff__impl_1a723293170e925fa53ef03363849e9ec1" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::filter::pfb_arb_resampler_fff_impl::d_flt_rate</definition>
+        <argsstring></argsstring>
+        <name>d_flt_rate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/pfb_arb_resampler_fff_impl.h" line="43" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/pfb_arb_resampler_fff_impl.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1filter_1_1pfb__arb__resampler__fff__impl_1a7115a436696e8e4cb9a2bbc3b9a6a968" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::filter::pfb_arb_resampler_fff_impl::d_acc</definition>
+        <argsstring></argsstring>
+        <name>d_acc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/pfb_arb_resampler_fff_impl.h" line="44" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/pfb_arb_resampler_fff_impl.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1filter_1_1pfb__arb__resampler__fff__impl_1ad4e7fe994edee36dfc2c7cf5a4edef97" prot="private" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int gr::filter::pfb_arb_resampler_fff_impl::d_last_filter</definition>
+        <argsstring></argsstring>
+        <name>d_last_filter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/pfb_arb_resampler_fff_impl.h" line="45" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/pfb_arb_resampler_fff_impl.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1filter_1_1pfb__arb__resampler__fff__impl_1aebb66f63fc91007540375bb2d59e8871" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::filter::pfb_arb_resampler_fff_impl::d_start_index</definition>
+        <argsstring></argsstring>
+        <name>d_start_index</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/pfb_arb_resampler_fff_impl.h" line="46" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/pfb_arb_resampler_fff_impl.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1filter_1_1pfb__arb__resampler__fff__impl_1a14b931edf362b59f3ddfb6aa985a1017" prot="private" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int gr::filter::pfb_arb_resampler_fff_impl::d_taps_per_filter</definition>
+        <argsstring></argsstring>
+        <name>d_taps_per_filter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/pfb_arb_resampler_fff_impl.h" line="47" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/pfb_arb_resampler_fff_impl.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1filter_1_1pfb__arb__resampler__fff__impl_1a11993e0bf5787c04fd743eff62bdf0d2" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool gr::filter::pfb_arb_resampler_fff_impl::d_updated</definition>
+        <argsstring></argsstring>
+        <name>d_updated</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/pfb_arb_resampler_fff_impl.h" line="48" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/pfb_arb_resampler_fff_impl.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1filter_1_1pfb__arb__resampler__fff__impl_1a4c3f3296dff75d3010a6e253a60c3ff4" prot="private" static="no" mutable="no">
+        <type>gruel::mutex</type>
+        <definition>gruel::mutex gr::filter::pfb_arb_resampler_fff_impl::d_mutex</definition>
+        <argsstring></argsstring>
+        <name>d_mutex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/pfb_arb_resampler_fff_impl.h" line="49" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/pfb_arb_resampler_fff_impl.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classgr_1_1filter_1_1pfb__arb__resampler__fff__impl_1a153788b302bbb3fe3b035bf7643d031f" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::filter::pfb_arb_resampler_fff_impl::create_diff_taps</definition>
+        <argsstring>(const std::vector&lt; float &gt; &amp;newtaps, std::vector&lt; float &gt; &amp;difftaps)</argsstring>
+        <name>create_diff_taps</name>
+        <param>
+          <type>const std::vector&lt; float &gt; &amp;</type>
+          <declname>newtaps</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; float &gt; &amp;</type>
+          <declname>difftaps</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/pfb_arb_resampler_fff_impl.h" line="52"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1filter_1_1pfb__arb__resampler__fff__impl_1aea97c21688288672d9d5d1d2cc171c00" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::filter::pfb_arb_resampler_fff_impl::create_taps</definition>
+        <argsstring>(const std::vector&lt; float &gt; &amp;newtaps, std::vector&lt; std::vector&lt; float &gt; &gt; &amp;ourtaps, std::vector&lt; kernel::fir_filter_fff * &gt; &amp;ourfilter)</argsstring>
+        <name>create_taps</name>
+        <param>
+          <type>const std::vector&lt; float &gt; &amp;</type>
+          <declname>newtaps</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; std::vector&lt; float &gt; &gt; &amp;</type>
+          <declname>ourtaps</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; kernel::fir_filter_fff * &gt; &amp;</type>
+          <declname>ourfilter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Resets the filterbank&apos;s filter taps with the new prototype filter <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>newtaps</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(vector of floats) The prototype filter to populate the filterbank. The taps should be generated at the interpolated sampling rate. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>ourtaps</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(vector of floats) Reference to our internal member of holding the taps. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>ourfilter</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(vector of filters) Reference to our internal filter to set the taps for. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/pfb_arb_resampler_fff_impl.h" line="63"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1filter_1_1pfb__arb__resampler__fff__impl_1a099a43d7361bc669c1d9bb6f590afb63" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::filter::pfb_arb_resampler_fff_impl::pfb_arb_resampler_fff_impl</definition>
+        <argsstring>(float rate, const std::vector&lt; float &gt; &amp;taps, unsigned int filter_size)</argsstring>
+        <name>pfb_arb_resampler_fff_impl</name>
+        <param>
+          <type>float</type>
+          <declname>rate</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; float &gt; &amp;</type>
+          <declname>taps</declname>
+        </param>
+        <param>
+          <type>unsigned int</type>
+          <declname>filter_size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/pfb_arb_resampler_fff_impl.h" line="67"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1filter_1_1pfb__arb__resampler__fff__impl_1a3d29b388a740915f4af45dc73320318a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::filter::pfb_arb_resampler_fff_impl::~pfb_arb_resampler_fff_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~pfb_arb_resampler_fff_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/pfb_arb_resampler_fff_impl.h" line="69"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1filter_1_1pfb__arb__resampler__fff__impl_1a8e5f7fe92ddb67f49d6e89245ac69ecd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::filter::pfb_arb_resampler_fff_impl::set_taps</definition>
+        <argsstring>(const std::vector&lt; float &gt; &amp;taps)</argsstring>
+        <name>set_taps</name>
+        <param>
+          <type>const std::vector&lt; float &gt; &amp;</type>
+          <declname>taps</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/pfb_arb_resampler_fff_impl.h" line="71"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1filter_1_1pfb__arb__resampler__fff__impl_1a5ad3b1e5300f7dbfcfcd4c2127e08f3d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; std::vector&lt; float &gt; &gt;</type>
+        <definition>std::vector&lt;std::vector&lt;float&gt; &gt; gr::filter::pfb_arb_resampler_fff_impl::taps</definition>
+        <argsstring>() const </argsstring>
+        <name>taps</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/pfb_arb_resampler_fff_impl.h" line="72"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1filter_1_1pfb__arb__resampler__fff__impl_1a6fed62fc5648ac2fcc8b7adc10bf6930" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::filter::pfb_arb_resampler_fff_impl::print_taps</definition>
+        <argsstring>()</argsstring>
+        <name>print_taps</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/pfb_arb_resampler_fff_impl.h" line="73"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1filter_1_1pfb__arb__resampler__fff__impl_1a1f9446c2aacf861b6f73181abcb92fb5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::filter::pfb_arb_resampler_fff_impl::set_rate</definition>
+        <argsstring>(float rate)</argsstring>
+        <name>set_rate</name>
+        <param>
+          <type>float</type>
+          <declname>rate</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/pfb_arb_resampler_fff_impl.h" line="74"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1filter_1_1pfb__arb__resampler__fff__impl_1a94e4bf2860c5b1f7f6bffb594da13654" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::filter::pfb_arb_resampler_fff_impl::set_phase</definition>
+        <argsstring>(float ph)</argsstring>
+        <name>set_phase</name>
+        <param>
+          <type>float</type>
+          <declname>ph</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/pfb_arb_resampler_fff_impl.h" line="76"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1filter_1_1pfb__arb__resampler__fff__impl_1a10bb501a0d3feb21fc9caabc0d484e25" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float gr::filter::pfb_arb_resampler_fff_impl::phase</definition>
+        <argsstring>() const </argsstring>
+        <name>phase</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/pfb_arb_resampler_fff_impl.h" line="77"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1filter_1_1pfb__arb__resampler__fff__impl_1aea4d8f20b3baf1827fb6a638cf941cb6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::filter::pfb_arb_resampler_fff_impl::general_work</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>general_work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/pfb_arb_resampler_fff_impl.h" line="82"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/pfb_arb_resampler_fff_impl.h" line="35" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/pfb_arb_resampler_fff_impl.h" bodystart="34" bodyend="83"/>
+    <listofallmembers>
+      <member refid="classgr_1_1filter_1_1pfb__arb__resampler__fff__impl_1a153788b302bbb3fe3b035bf7643d031f" prot="private" virt="non-virtual"><scope>gr::filter::pfb_arb_resampler_fff_impl</scope><name>create_diff_taps</name></member>
+      <member refid="classgr_1_1filter_1_1pfb__arb__resampler__fff__impl_1aea97c21688288672d9d5d1d2cc171c00" prot="private" virt="non-virtual"><scope>gr::filter::pfb_arb_resampler_fff_impl</scope><name>create_taps</name></member>
+      <member refid="classgr_1_1filter_1_1pfb__arb__resampler__fff__impl_1a7115a436696e8e4cb9a2bbc3b9a6a968" prot="private" virt="non-virtual"><scope>gr::filter::pfb_arb_resampler_fff_impl</scope><name>d_acc</name></member>
+      <member refid="classgr_1_1filter_1_1pfb__arb__resampler__fff__impl_1a3fd02c6e3ef3f281410269846dda6982" prot="private" virt="non-virtual"><scope>gr::filter::pfb_arb_resampler_fff_impl</scope><name>d_dec_rate</name></member>
+      <member refid="classgr_1_1filter_1_1pfb__arb__resampler__fff__impl_1ae9bbe0d0b947169943f7d7f7075d045a" prot="private" virt="non-virtual"><scope>gr::filter::pfb_arb_resampler_fff_impl</scope><name>d_diff_filters</name></member>
+      <member refid="classgr_1_1filter_1_1pfb__arb__resampler__fff__impl_1a23993852bdeae1563f59e6437766a791" prot="private" virt="non-virtual"><scope>gr::filter::pfb_arb_resampler_fff_impl</scope><name>d_dtaps</name></member>
+      <member refid="classgr_1_1filter_1_1pfb__arb__resampler__fff__impl_1a20d8745480411df63090f44751a583f0" prot="private" virt="non-virtual"><scope>gr::filter::pfb_arb_resampler_fff_impl</scope><name>d_filters</name></member>
+      <member refid="classgr_1_1filter_1_1pfb__arb__resampler__fff__impl_1a723293170e925fa53ef03363849e9ec1" prot="private" virt="non-virtual"><scope>gr::filter::pfb_arb_resampler_fff_impl</scope><name>d_flt_rate</name></member>
+      <member refid="classgr_1_1filter_1_1pfb__arb__resampler__fff__impl_1a94e04da6f0320aafeacc7b6a94b24e32" prot="private" virt="non-virtual"><scope>gr::filter::pfb_arb_resampler_fff_impl</scope><name>d_int_rate</name></member>
+      <member refid="classgr_1_1filter_1_1pfb__arb__resampler__fff__impl_1ad4e7fe994edee36dfc2c7cf5a4edef97" prot="private" virt="non-virtual"><scope>gr::filter::pfb_arb_resampler_fff_impl</scope><name>d_last_filter</name></member>
+      <member refid="classgr_1_1filter_1_1pfb__arb__resampler__fff__impl_1a4c3f3296dff75d3010a6e253a60c3ff4" prot="private" virt="non-virtual"><scope>gr::filter::pfb_arb_resampler_fff_impl</scope><name>d_mutex</name></member>
+      <member refid="classgr_1_1filter_1_1pfb__arb__resampler__fff__impl_1aebb66f63fc91007540375bb2d59e8871" prot="private" virt="non-virtual"><scope>gr::filter::pfb_arb_resampler_fff_impl</scope><name>d_start_index</name></member>
+      <member refid="classgr_1_1filter_1_1pfb__arb__resampler__fff__impl_1ae32d2afd47e44ca7fbf7aef6df395a48" prot="private" virt="non-virtual"><scope>gr::filter::pfb_arb_resampler_fff_impl</scope><name>d_taps</name></member>
+      <member refid="classgr_1_1filter_1_1pfb__arb__resampler__fff__impl_1a14b931edf362b59f3ddfb6aa985a1017" prot="private" virt="non-virtual"><scope>gr::filter::pfb_arb_resampler_fff_impl</scope><name>d_taps_per_filter</name></member>
+      <member refid="classgr_1_1filter_1_1pfb__arb__resampler__fff__impl_1a11993e0bf5787c04fd743eff62bdf0d2" prot="private" virt="non-virtual"><scope>gr::filter::pfb_arb_resampler_fff_impl</scope><name>d_updated</name></member>
+      <member refid="classgr_1_1filter_1_1pfb__arb__resampler__fff__impl_1aea4d8f20b3baf1827fb6a638cf941cb6" prot="public" virt="non-virtual"><scope>gr::filter::pfb_arb_resampler_fff_impl</scope><name>general_work</name></member>
+      <member refid="classgr_1_1filter_1_1pfb__arb__resampler__fff__impl_1a099a43d7361bc669c1d9bb6f590afb63" prot="public" virt="non-virtual"><scope>gr::filter::pfb_arb_resampler_fff_impl</scope><name>pfb_arb_resampler_fff_impl</name></member>
+      <member refid="classgr_1_1filter_1_1pfb__arb__resampler__fff__impl_1a10bb501a0d3feb21fc9caabc0d484e25" prot="public" virt="non-virtual"><scope>gr::filter::pfb_arb_resampler_fff_impl</scope><name>phase</name></member>
+      <member refid="classgr_1_1filter_1_1pfb__arb__resampler__fff__impl_1a6fed62fc5648ac2fcc8b7adc10bf6930" prot="public" virt="non-virtual"><scope>gr::filter::pfb_arb_resampler_fff_impl</scope><name>print_taps</name></member>
+      <member refid="classgr_1_1filter_1_1pfb__arb__resampler__fff__impl_1a94e4bf2860c5b1f7f6bffb594da13654" prot="public" virt="non-virtual"><scope>gr::filter::pfb_arb_resampler_fff_impl</scope><name>set_phase</name></member>
+      <member refid="classgr_1_1filter_1_1pfb__arb__resampler__fff__impl_1a1f9446c2aacf861b6f73181abcb92fb5" prot="public" virt="non-virtual"><scope>gr::filter::pfb_arb_resampler_fff_impl</scope><name>set_rate</name></member>
+      <member refid="classgr_1_1filter_1_1pfb__arb__resampler__fff__impl_1a8e5f7fe92ddb67f49d6e89245ac69ecd" prot="public" virt="non-virtual"><scope>gr::filter::pfb_arb_resampler_fff_impl</scope><name>set_taps</name></member>
+      <member refid="classgr_1_1filter_1_1pfb__arb__resampler__fff__impl_1a5ad3b1e5300f7dbfcfcd4c2127e08f3d" prot="public" virt="non-virtual"><scope>gr::filter::pfb_arb_resampler_fff_impl</scope><name>taps</name></member>
+      <member refid="classgr_1_1filter_1_1pfb__arb__resampler__fff__impl_1a3d29b388a740915f4af45dc73320318a" prot="public" virt="non-virtual"><scope>gr::filter::pfb_arb_resampler_fff_impl</scope><name>~pfb_arb_resampler_fff_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

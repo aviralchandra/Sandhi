@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="dir_14a68a94d13a999e350a23625b336e45" kind="dir">
+    <compoundname>/home/aviral/GNU-Niyantran/gr36/gr-blocks/</compoundname>
+    <innerdir refid="dir_767478d5f5dfc969ff90c507e8b2106b">/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/"/>
+  </compounddef>
+</doxygen>

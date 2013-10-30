@@ -1,0 +1,254 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="multiply__const__ff_8h" kind="file">
+    <compoundname>multiply_const_ff.h</compoundname>
+    <includes refid="gr-blocks_2include_2blocks_2api_8h" local="no">blocks/api.h</includes>
+    <includes refid="gr__sync__block_8h" local="no">gr_sync_block.h</includes>
+    <includedby refid="multiply__const__ff__impl_8h" local="no">multiply_const_ff_impl.h</includedby>
+    <incdepgraph>
+      <node id="15950">
+        <label>boost/thread/mutex.hpp</label>
+      </node>
+      <node id="15952">
+        <label>boost/thread/condition_variable.hpp</label>
+      </node>
+      <node id="15934">
+        <label>boost/shared_ptr.hpp</label>
+      </node>
+      <node id="15931">
+        <label>gruel/pmt.h</label>
+        <link refid="pmt_8h"/>
+        <childnode refid="15932" relation="include">
+        </childnode>
+        <childnode refid="15933" relation="include">
+        </childnode>
+        <childnode refid="15934" relation="include">
+        </childnode>
+        <childnode refid="15935" relation="include">
+        </childnode>
+        <childnode refid="15936" relation="include">
+        </childnode>
+        <childnode refid="15937" relation="include">
+        </childnode>
+        <childnode refid="15938" relation="include">
+        </childnode>
+        <childnode refid="15941" relation="include">
+        </childnode>
+        <childnode refid="15942" relation="include">
+        </childnode>
+        <childnode refid="15943" relation="include">
+        </childnode>
+        <childnode refid="15944" relation="include">
+        </childnode>
+      </node>
+      <node id="15933">
+        <label>boost/intrusive_ptr.hpp</label>
+      </node>
+      <node id="15922">
+        <label>gr_core_api.h</label>
+        <link refid="gr__core__api_8h"/>
+        <childnode refid="15919" relation="include">
+        </childnode>
+      </node>
+      <node id="15938">
+        <label>stdint.h</label>
+        <link refid="stdint_8h"/>
+        <childnode refid="15939" relation="include">
+        </childnode>
+        <childnode refid="15940" relation="include">
+        </childnode>
+      </node>
+      <node id="15929">
+        <label>gras/hier_block.hpp</label>
+      </node>
+      <node id="15928">
+        <label>gras/top_block.hpp</label>
+      </node>
+      <node id="15947">
+        <label>boost/foreach.hpp</label>
+      </node>
+      <node id="15942">
+        <label>stdexcept</label>
+      </node>
+      <node id="15923">
+        <label>gras/block.hpp</label>
+      </node>
+      <node id="15949">
+        <label>boost/thread/thread.hpp</label>
+      </node>
+      <node id="15937">
+        <label>string</label>
+      </node>
+      <node id="15946">
+        <label>map</label>
+      </node>
+      <node id="15919">
+        <label>gruel/attributes.h</label>
+        <link refid="attributes_8h"/>
+      </node>
+      <node id="15939">
+        <label>limits.h</label>
+      </node>
+      <node id="15935">
+        <label>boost/any.hpp</label>
+      </node>
+      <node id="15921">
+        <label>gr_block.h</label>
+        <link refid="gr__block_8h"/>
+        <childnode refid="15922" relation="include">
+        </childnode>
+        <childnode refid="15923" relation="include">
+        </childnode>
+        <childnode refid="15924" relation="include">
+        </childnode>
+        <childnode refid="15926" relation="include">
+        </childnode>
+        <childnode refid="15930" relation="include">
+        </childnode>
+        <childnode refid="15937" relation="include">
+        </childnode>
+        <childnode refid="15945" relation="include">
+        </childnode>
+        <childnode refid="15946" relation="include">
+        </childnode>
+        <childnode refid="15947" relation="include">
+        </childnode>
+        <childnode refid="15948" relation="include">
+        </childnode>
+        <childnode refid="15953" relation="include">
+        </childnode>
+      </node>
+      <node id="15925">
+        <label>gr_runtime_types.h</label>
+        <link refid="gr__runtime__types_8h"/>
+        <childnode refid="15922" relation="include">
+        </childnode>
+        <childnode refid="15926" relation="include">
+        </childnode>
+      </node>
+      <node id="15940">
+        <label>wchar.h</label>
+      </node>
+      <node id="15944">
+        <label>gruel/pmt_sugar.h</label>
+        <link refid="pmt__sugar_8h"/>
+      </node>
+      <node id="15951">
+        <label>boost/thread/locks.hpp</label>
+      </node>
+      <node id="15920">
+        <label>gr_sync_block.h</label>
+        <link refid="gr__sync__block_8h"/>
+        <childnode refid="15921" relation="include">
+        </childnode>
+      </node>
+      <node id="15943">
+        <label>vector</label>
+      </node>
+      <node id="15924">
+        <label>gr_io_signature.h</label>
+        <link refid="gr__io__signature_8h"/>
+        <childnode refid="15922" relation="include">
+        </childnode>
+        <childnode refid="15925" relation="include">
+        </childnode>
+      </node>
+      <node id="15932">
+        <label>gruel/api.h</label>
+        <link refid="gruel_2src_2include_2gruel_2api_8h"/>
+        <childnode refid="15919" relation="include">
+        </childnode>
+      </node>
+      <node id="15918">
+        <label>blocks/api.h</label>
+        <link refid="gr-blocks_2include_2blocks_2api_8h"/>
+        <childnode refid="15919" relation="include">
+        </childnode>
+      </node>
+      <node id="15941">
+        <label>iosfwd</label>
+      </node>
+      <node id="15926">
+        <label>gr_types.h</label>
+        <link refid="gr__types_8h"/>
+        <childnode refid="15927" relation="include">
+        </childnode>
+        <childnode refid="15923" relation="include">
+        </childnode>
+        <childnode refid="15928" relation="include">
+        </childnode>
+        <childnode refid="15929" relation="include">
+        </childnode>
+      </node>
+      <node id="15948">
+        <label>gruel/thread.h</label>
+        <link refid="thread_8h"/>
+        <childnode refid="15932" relation="include">
+        </childnode>
+        <childnode refid="15949" relation="include">
+        </childnode>
+        <childnode refid="15950" relation="include">
+        </childnode>
+        <childnode refid="15951" relation="include">
+        </childnode>
+        <childnode refid="15952" relation="include">
+        </childnode>
+        <childnode refid="15943" relation="include">
+        </childnode>
+      </node>
+      <node id="15945">
+        <label>deque</label>
+      </node>
+      <node id="15930">
+        <label>gr_tags.h</label>
+        <link refid="gr__tags_8h"/>
+        <childnode refid="15922" relation="include">
+        </childnode>
+        <childnode refid="15931" relation="include">
+        </childnode>
+      </node>
+      <node id="15917">
+        <label>multiply_const_ff.h</label>
+        <link refid="multiply_const_ff.h"/>
+        <childnode refid="15918" relation="include">
+        </childnode>
+        <childnode refid="15920" relation="include">
+        </childnode>
+      </node>
+      <node id="15936">
+        <label>complex</label>
+      </node>
+      <node id="15953">
+        <label>gr_sptr_magic.h</label>
+        <link refid="gr__sptr__magic_8h_source"/>
+        <childnode refid="15922" relation="include">
+        </childnode>
+        <childnode refid="15934" relation="include">
+        </childnode>
+      </node>
+      <node id="15927">
+        <label>gras/element.hpp</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="15954">
+        <label>multiply_const_ff.h</label>
+        <link refid="multiply_const_ff.h"/>
+        <childnode refid="15955" relation="include">
+        </childnode>
+      </node>
+      <node id="15955">
+        <label>multiply_const_ff_impl.h</label>
+        <link refid="multiply__const__ff__impl_8h"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classgr_1_1blocks_1_1multiply__const__ff" prot="public">gr::blocks::multiply_const_ff</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1blocks">gr::blocks</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/include/blocks/multiply_const_ff.h"/>
+  </compounddef>
+</doxygen>

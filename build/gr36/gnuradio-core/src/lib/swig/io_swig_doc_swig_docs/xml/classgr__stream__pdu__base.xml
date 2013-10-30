@@ -1,0 +1,266 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="classgr__stream__pdu__base" kind="class" prot="public">
+    <compoundname>gr_stream_pdu_base</compoundname>
+    <derivedcompoundref refid="classgr__socket__pdu" prot="public" virt="non-virtual">gr_socket_pdu</derivedcompoundref>
+    <includes refid="gr__stream__pdu__base_8h" local="no">gr_stream_pdu_base.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classgr__stream__pdu__base_1a36c783bb8fef92631fa975a42fb81351" prot="public" static="no" mutable="no">
+        <type>boost::shared_ptr&lt; boost::thread &gt;</type>
+        <definition>boost::shared_ptr&lt;boost::thread&gt; gr_stream_pdu_base::d_thread</definition>
+        <argsstring></argsstring>
+        <name>d_thread</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/io/gr_stream_pdu_base.h" line="38" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/io/gr_stream_pdu_base.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr__stream__pdu__base_1ad0733abd685065db637fc1517d39d7bd" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool gr_stream_pdu_base::d_finished</definition>
+        <argsstring></argsstring>
+        <name>d_finished</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/io/gr_stream_pdu_base.h" line="39" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/io/gr_stream_pdu_base.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr__stream__pdu__base_1a90c79a41fb680bd88fca1e2c8a9d67ff" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool gr_stream_pdu_base::d_started</definition>
+        <argsstring></argsstring>
+        <name>d_started</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/io/gr_stream_pdu_base.h" line="40" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/io/gr_stream_pdu_base.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr__stream__pdu__base_1a3a2dbe2d800dacc3324fcf87e70b8060" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; uint8_t &gt;</type>
+        <definition>std::vector&lt;uint8_t&gt; gr_stream_pdu_base::d_rxbuf</definition>
+        <argsstring></argsstring>
+        <name>d_rxbuf</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/io/gr_stream_pdu_base.h" line="41" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/io/gr_stream_pdu_base.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr__stream__pdu__base_1a5084ceb4c74f19227e10f7dff48f5dc3" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr_stream_pdu_base::d_fd</definition>
+        <argsstring></argsstring>
+        <name>d_fd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/io/gr_stream_pdu_base.h" line="43" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/io/gr_stream_pdu_base.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr__stream__pdu__base_1aa6ad3cc067cbc48ae9631dfd5751ba28" prot="private" static="no" mutable="no">
+        <type>pmt::pmt_t</type>
+        <definition>pmt::pmt_t gr_stream_pdu_base::rxport</definition>
+        <argsstring></argsstring>
+        <name>rxport</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/io/gr_stream_pdu_base.h" line="54" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/io/gr_stream_pdu_base.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr__stream__pdu__base_1a6a648f3b6b59dbbc83cee31bc502134c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr_stream_pdu_base::run</definition>
+        <argsstring>()</argsstring>
+        <name>run</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/io/gr_stream_pdu_base.h" line="42"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr__stream__pdu__base_1a7cc5830b3a53922fe9873f32a4bce0cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr_stream_pdu_base::gr_stream_pdu_base</definition>
+        <argsstring>(int MTU=10000)</argsstring>
+        <name>gr_stream_pdu_base</name>
+        <param>
+          <type>int</type>
+          <declname>MTU</declname>
+          <defval>10000</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/io/gr_stream_pdu_base.h" line="44"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr__stream__pdu__base_1ab8702983d87e6298ecdf649f96f1a7a8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr_stream_pdu_base::~gr_stream_pdu_base</definition>
+        <argsstring>()</argsstring>
+        <name>~gr_stream_pdu_base</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/io/gr_stream_pdu_base.h" line="45"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr__stream__pdu__base_1a9b086fe4fe1b4ed7152d34992b95047b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr_stream_pdu_base::send</definition>
+        <argsstring>(pmt::pmt_t msg)</argsstring>
+        <name>send</name>
+        <param>
+          <type>pmt::pmt_t</type>
+          <declname>msg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/io/gr_stream_pdu_base.h" line="46"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr__stream__pdu__base_1a5205b6f20b0ac6264f8669306c5af172" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool gr_stream_pdu_base::wait_ready</definition>
+        <argsstring>()</argsstring>
+        <name>wait_ready</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/io/gr_stream_pdu_base.h" line="47"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr__stream__pdu__base_1a5f91c13f787147ec6bfc4ac8637a5b1f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr_stream_pdu_base::work</definition>
+        <argsstring>(int noutput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/io/gr_stream_pdu_base.h" line="50"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr__stream__pdu__base_1a51d30d6357cccac6332f51e1ed86eb5f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr_stream_pdu_base::start_rxthread</definition>
+        <argsstring>(pmt::pmt_t _rxport)</argsstring>
+        <name>start_rxthread</name>
+        <param>
+          <type>pmt::pmt_t</type>
+          <declname>_rxport</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/io/gr_stream_pdu_base.h" line="51"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr__stream__pdu__base_1a8c5e6ea023126c94088e63d153cfa2f8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr_stream_pdu_base::stop_rxthread</definition>
+        <argsstring>()</argsstring>
+        <name>stop_rxthread</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/io/gr_stream_pdu_base.h" line="52"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Gather received items into messages and insert into msgq. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="353">
+        <label>gr_stream_pdu_base</label>
+        <link refid="classgr__stream__pdu__base"/>
+      </node>
+      <node id="354">
+        <label>gr_socket_pdu</label>
+        <link refid="classgr__socket__pdu"/>
+        <childnode refid="353" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="355">
+        <label>gr_stream_pdu_base</label>
+        <link refid="classgr__stream__pdu__base"/>
+        <childnode refid="356" relation="usage">
+          <edgelabel>d_rxbuf</edgelabel>
+        </childnode>
+      </node>
+      <node id="356">
+        <label>std::vector&lt; uint8_t &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/io/gr_stream_pdu_base.h" line="36" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/io/gr_stream_pdu_base.h" bodystart="35" bodyend="55"/>
+    <listofallmembers>
+      <member refid="classgr__stream__pdu__base_1a5084ceb4c74f19227e10f7dff48f5dc3" prot="public" virt="non-virtual"><scope>gr_stream_pdu_base</scope><name>d_fd</name></member>
+      <member refid="classgr__stream__pdu__base_1ad0733abd685065db637fc1517d39d7bd" prot="public" virt="non-virtual"><scope>gr_stream_pdu_base</scope><name>d_finished</name></member>
+      <member refid="classgr__stream__pdu__base_1a3a2dbe2d800dacc3324fcf87e70b8060" prot="public" virt="non-virtual"><scope>gr_stream_pdu_base</scope><name>d_rxbuf</name></member>
+      <member refid="classgr__stream__pdu__base_1a90c79a41fb680bd88fca1e2c8a9d67ff" prot="public" virt="non-virtual"><scope>gr_stream_pdu_base</scope><name>d_started</name></member>
+      <member refid="classgr__stream__pdu__base_1a36c783bb8fef92631fa975a42fb81351" prot="public" virt="non-virtual"><scope>gr_stream_pdu_base</scope><name>d_thread</name></member>
+      <member refid="classgr__stream__pdu__base_1a7cc5830b3a53922fe9873f32a4bce0cd" prot="public" virt="non-virtual"><scope>gr_stream_pdu_base</scope><name>gr_stream_pdu_base</name></member>
+      <member refid="classgr__stream__pdu__base_1a6a648f3b6b59dbbc83cee31bc502134c" prot="public" virt="non-virtual"><scope>gr_stream_pdu_base</scope><name>run</name></member>
+      <member refid="classgr__stream__pdu__base_1aa6ad3cc067cbc48ae9631dfd5751ba28" prot="private" virt="non-virtual"><scope>gr_stream_pdu_base</scope><name>rxport</name></member>
+      <member refid="classgr__stream__pdu__base_1a9b086fe4fe1b4ed7152d34992b95047b" prot="public" virt="non-virtual"><scope>gr_stream_pdu_base</scope><name>send</name></member>
+      <member refid="classgr__stream__pdu__base_1a51d30d6357cccac6332f51e1ed86eb5f" prot="public" virt="non-virtual"><scope>gr_stream_pdu_base</scope><name>start_rxthread</name></member>
+      <member refid="classgr__stream__pdu__base_1a8c5e6ea023126c94088e63d153cfa2f8" prot="public" virt="non-virtual"><scope>gr_stream_pdu_base</scope><name>stop_rxthread</name></member>
+      <member refid="classgr__stream__pdu__base_1a5205b6f20b0ac6264f8669306c5af172" prot="public" virt="non-virtual"><scope>gr_stream_pdu_base</scope><name>wait_ready</name></member>
+      <member refid="classgr__stream__pdu__base_1a5f91c13f787147ec6bfc4ac8637a5b1f" prot="public" virt="non-virtual"><scope>gr_stream_pdu_base</scope><name>work</name></member>
+      <member refid="classgr__stream__pdu__base_1ab8702983d87e6298ecdf649f96f1a7a8" prot="public" virt="non-virtual"><scope>gr_stream_pdu_base</scope><name>~gr_stream_pdu_base</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="dir_d51f675ccc75ef997ba58cb8a961f421" kind="dir">
+    <compoundname>/home/aviral/GNU-Niyantran/gr36/gr-qtgui/include/</compoundname>
+    <innerfile refid="gr__qtgui__api_8h">gr_qtgui_api.h</innerfile>
+    <innerfile refid="qtgui__sink__c_8h">qtgui_sink_c.h</innerfile>
+    <innerfile refid="qtgui__sink__f_8h">qtgui_sink_f.h</innerfile>
+    <innerfile refid="qtgui__time__sink__c_8h">qtgui_time_sink_c.h</innerfile>
+    <innerfile refid="qtgui__time__sink__f_8h">qtgui_time_sink_f.h</innerfile>
+    <innerfile refid="qtgui__util_8h">qtgui_util.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/aviral/GNU-Niyantran/gr36/gr-qtgui/include/"/>
+  </compounddef>
+</doxygen>

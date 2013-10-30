@@ -1,0 +1,260 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="gr__transcendental_8h" kind="file">
+    <compoundname>gr_transcendental.h</compoundname>
+    <includes refid="gr__core__api_8h" local="no">gr_core_api.h</includes>
+    <includes refid="gr__sync__block_8h" local="no">gr_sync_block.h</includes>
+    <includes local="no">string</includes>
+    <incdepgraph>
+      <node id="13667">
+        <label>boost/thread/mutex.hpp</label>
+      </node>
+      <node id="13669">
+        <label>boost/thread/condition_variable.hpp</label>
+      </node>
+      <node id="13651">
+        <label>boost/shared_ptr.hpp</label>
+      </node>
+      <node id="13648">
+        <label>gruel/pmt.h</label>
+        <link refid="pmt_8h"/>
+        <childnode refid="13649" relation="include">
+        </childnode>
+        <childnode refid="13650" relation="include">
+        </childnode>
+        <childnode refid="13651" relation="include">
+        </childnode>
+        <childnode refid="13652" relation="include">
+        </childnode>
+        <childnode refid="13653" relation="include">
+        </childnode>
+        <childnode refid="13654" relation="include">
+        </childnode>
+        <childnode refid="13655" relation="include">
+        </childnode>
+        <childnode refid="13658" relation="include">
+        </childnode>
+        <childnode refid="13659" relation="include">
+        </childnode>
+        <childnode refid="13660" relation="include">
+        </childnode>
+        <childnode refid="13661" relation="include">
+        </childnode>
+      </node>
+      <node id="13650">
+        <label>boost/intrusive_ptr.hpp</label>
+      </node>
+      <node id="13636">
+        <label>gr_core_api.h</label>
+        <link refid="gr__core__api_8h"/>
+        <childnode refid="13637" relation="include">
+        </childnode>
+      </node>
+      <node id="13655">
+        <label>stdint.h</label>
+        <link refid="stdint_8h"/>
+        <childnode refid="13656" relation="include">
+        </childnode>
+        <childnode refid="13657" relation="include">
+        </childnode>
+      </node>
+      <node id="13646">
+        <label>gras/hier_block.hpp</label>
+      </node>
+      <node id="13645">
+        <label>gras/top_block.hpp</label>
+      </node>
+      <node id="13664">
+        <label>boost/foreach.hpp</label>
+      </node>
+      <node id="13659">
+        <label>stdexcept</label>
+      </node>
+      <node id="13640">
+        <label>gras/block.hpp</label>
+      </node>
+      <node id="13666">
+        <label>boost/thread/thread.hpp</label>
+      </node>
+      <node id="13654">
+        <label>string</label>
+      </node>
+      <node id="13663">
+        <label>map</label>
+      </node>
+      <node id="13637">
+        <label>gruel/attributes.h</label>
+        <link refid="attributes_8h"/>
+      </node>
+      <node id="13656">
+        <label>limits.h</label>
+      </node>
+      <node id="13652">
+        <label>boost/any.hpp</label>
+      </node>
+      <node id="13639">
+        <label>gr_block.h</label>
+        <link refid="gr__block_8h"/>
+        <childnode refid="13636" relation="include">
+        </childnode>
+        <childnode refid="13640" relation="include">
+        </childnode>
+        <childnode refid="13641" relation="include">
+        </childnode>
+        <childnode refid="13643" relation="include">
+        </childnode>
+        <childnode refid="13647" relation="include">
+        </childnode>
+        <childnode refid="13654" relation="include">
+        </childnode>
+        <childnode refid="13662" relation="include">
+        </childnode>
+        <childnode refid="13663" relation="include">
+        </childnode>
+        <childnode refid="13664" relation="include">
+        </childnode>
+        <childnode refid="13665" relation="include">
+        </childnode>
+        <childnode refid="13670" relation="include">
+        </childnode>
+      </node>
+      <node id="13642">
+        <label>gr_runtime_types.h</label>
+        <link refid="gr__runtime__types_8h"/>
+        <childnode refid="13636" relation="include">
+        </childnode>
+        <childnode refid="13643" relation="include">
+        </childnode>
+      </node>
+      <node id="13657">
+        <label>wchar.h</label>
+      </node>
+      <node id="13661">
+        <label>gruel/pmt_sugar.h</label>
+        <link refid="pmt__sugar_8h"/>
+      </node>
+      <node id="13668">
+        <label>boost/thread/locks.hpp</label>
+      </node>
+      <node id="13638">
+        <label>gr_sync_block.h</label>
+        <link refid="gr__sync__block_8h"/>
+        <childnode refid="13639" relation="include">
+        </childnode>
+      </node>
+      <node id="13660">
+        <label>vector</label>
+      </node>
+      <node id="13641">
+        <label>gr_io_signature.h</label>
+        <link refid="gr__io__signature_8h"/>
+        <childnode refid="13636" relation="include">
+        </childnode>
+        <childnode refid="13642" relation="include">
+        </childnode>
+      </node>
+      <node id="13649">
+        <label>gruel/api.h</label>
+        <link refid="gruel_2src_2include_2gruel_2api_8h"/>
+        <childnode refid="13637" relation="include">
+        </childnode>
+      </node>
+      <node id="13658">
+        <label>iosfwd</label>
+      </node>
+      <node id="13643">
+        <label>gr_types.h</label>
+        <link refid="gr__types_8h"/>
+        <childnode refid="13644" relation="include">
+        </childnode>
+        <childnode refid="13640" relation="include">
+        </childnode>
+        <childnode refid="13645" relation="include">
+        </childnode>
+        <childnode refid="13646" relation="include">
+        </childnode>
+      </node>
+      <node id="13665">
+        <label>gruel/thread.h</label>
+        <link refid="thread_8h"/>
+        <childnode refid="13649" relation="include">
+        </childnode>
+        <childnode refid="13666" relation="include">
+        </childnode>
+        <childnode refid="13667" relation="include">
+        </childnode>
+        <childnode refid="13668" relation="include">
+        </childnode>
+        <childnode refid="13669" relation="include">
+        </childnode>
+        <childnode refid="13660" relation="include">
+        </childnode>
+      </node>
+      <node id="13662">
+        <label>deque</label>
+      </node>
+      <node id="13647">
+        <label>gr_tags.h</label>
+        <link refid="gr__tags_8h"/>
+        <childnode refid="13636" relation="include">
+        </childnode>
+        <childnode refid="13648" relation="include">
+        </childnode>
+      </node>
+      <node id="13653">
+        <label>complex</label>
+      </node>
+      <node id="13635">
+        <label>gr_transcendental.h</label>
+        <link refid="gr_transcendental.h"/>
+        <childnode refid="13636" relation="include">
+        </childnode>
+        <childnode refid="13638" relation="include">
+        </childnode>
+        <childnode refid="13654" relation="include">
+        </childnode>
+      </node>
+      <node id="13670">
+        <label>gr_sptr_magic.h</label>
+        <link refid="gr__sptr__magic_8h_source"/>
+        <childnode refid="13636" relation="include">
+        </childnode>
+        <childnode refid="13651" relation="include">
+        </childnode>
+      </node>
+      <node id="13644">
+        <label>gras/element.hpp</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classgr__transcendental" prot="public">gr_transcendental</innerclass>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="gr__transcendental_8h_1a80f1f008af59e809b682a9ad5553541b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="gr__core__api_8h_1a8b8937b0c61edd85ab57ce8203543248" kindref="member">GR_CORE_API</ref> <ref refid="classgr__transcendental_1a486429148dcf7a6de11551d6eaabc7a1" kindref="member">gr_transcendental::sptr</ref></type>
+        <definition>GR_CORE_API gr_transcendental::sptr gr_make_transcendental</definition>
+        <argsstring>(const std::string &amp;name, const std::string &amp;type=&quot;float&quot;)</argsstring>
+        <name>gr_make_transcendental</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>type</declname>
+          <defval>&quot;float&quot;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_transcendental.h" line="47"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_transcendental.h"/>
+  </compounddef>
+</doxygen>

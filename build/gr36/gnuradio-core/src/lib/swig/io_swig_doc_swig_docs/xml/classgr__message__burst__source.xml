@@ -1,0 +1,248 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="classgr__message__burst__source" kind="class" prot="public">
+    <compoundname>gr_message_burst_source</compoundname>
+    <includes refid="gr__message__burst__source_8h" local="no">gr_message_burst_source.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr__message__burst__source_1a7b1939d2b605bd6164ab12547f1f9b5d" prot="private" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t gr_message_burst_source::d_itemsize</definition>
+        <argsstring></argsstring>
+        <name>d_itemsize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/io/gr_message_burst_source.h" line="44" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/io/gr_message_burst_source.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr__message__burst__source_1a72294ff20d01ef11c3e6170271010b19" prot="private" static="no" mutable="no">
+        <type>gr_msg_queue_sptr</type>
+        <definition>gr_msg_queue_sptr gr_message_burst_source::d_msgq</definition>
+        <argsstring></argsstring>
+        <name>d_msgq</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/io/gr_message_burst_source.h" line="45" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/io/gr_message_burst_source.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr__message__burst__source_1a92ce69d442f68de006c2f13d9853690c" prot="private" static="no" mutable="no">
+        <type>gr_message_sptr</type>
+        <definition>gr_message_sptr gr_message_burst_source::d_msg</definition>
+        <argsstring></argsstring>
+        <name>d_msg</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/io/gr_message_burst_source.h" line="46" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/io/gr_message_burst_source.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr__message__burst__source_1a7119c868909ddc9f210213e87d1807c8" prot="private" static="no" mutable="no">
+        <type>unsigned</type>
+        <definition>unsigned gr_message_burst_source::d_msg_offset</definition>
+        <argsstring></argsstring>
+        <name>d_msg_offset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/io/gr_message_burst_source.h" line="47" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/io/gr_message_burst_source.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr__message__burst__source_1a48d19f075468a086a4a231bcace2cc2d" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool gr_message_burst_source::d_eof</definition>
+        <argsstring></argsstring>
+        <name>d_eof</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/io/gr_message_burst_source.h" line="48" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/io/gr_message_burst_source.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr__message__burst__source_1ae449d2b8e4c2cf0a47e0887619b59cb8" prot="private" static="no" mutable="no">
+        <type>pmt::pmt_t</type>
+        <definition>pmt::pmt_t gr_message_burst_source::d_me</definition>
+        <argsstring></argsstring>
+        <name>d_me</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/io/gr_message_burst_source.h" line="50" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/io/gr_message_burst_source.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="classgr__message__burst__source_1a474939f286a88486d42aa8ed713208d0" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend GR_CORE_API <ref refid="gr__message__burst__source_8h_1af109b946966712d1079e7455df6819e9" kindref="member">gr_message_burst_source_sptr</ref></type>
+        <definition>GR_CORE_API gr_message_burst_source_sptr gr_make_message_burst_source</definition>
+        <argsstring>(size_t itemsize, int msgq_limit)</argsstring>
+        <name>gr_make_message_burst_source</name>
+        <param>
+          <type>size_t</type>
+          <declname>itemsize</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>msgq_limit</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/io/gr_message_burst_source.h" line="53"/>
+      </memberdef>
+      <memberdef kind="friend" id="classgr__message__burst__source_1a070e6a56caa4d4fed049b038e63c5f8e" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend GR_CORE_API <ref refid="gr__message__burst__source_8h_1af109b946966712d1079e7455df6819e9" kindref="member">gr_message_burst_source_sptr</ref></type>
+        <definition>GR_CORE_API gr_message_burst_source_sptr gr_make_message_burst_source</definition>
+        <argsstring>(size_t itemsize, gr_msg_queue_sptr msgq)</argsstring>
+        <name>gr_make_message_burst_source</name>
+        <param>
+          <type>size_t</type>
+          <declname>itemsize</declname>
+        </param>
+        <param>
+          <type>gr_msg_queue_sptr</type>
+          <declname>msgq</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/io/gr_message_burst_source.h" line="55"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classgr__message__burst__source_1aba6426e5ccada6c5febb6e2c22ab7e9e" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr_message_burst_source::gr_message_burst_source</definition>
+        <argsstring>(size_t itemsize, int msgq_limit)</argsstring>
+        <name>gr_message_burst_source</name>
+        <param>
+          <type>size_t</type>
+          <declname>itemsize</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>msgq_limit</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/io/gr_message_burst_source.h" line="58"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr__message__burst__source_1ad3455c3cb3c02957aca0363e6441236a" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr_message_burst_source::gr_message_burst_source</definition>
+        <argsstring>(size_t itemsize, gr_msg_queue_sptr msgq)</argsstring>
+        <name>gr_message_burst_source</name>
+        <param>
+          <type>size_t</type>
+          <declname>itemsize</declname>
+        </param>
+        <param>
+          <type>gr_msg_queue_sptr</type>
+          <declname>msgq</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/io/gr_message_burst_source.h" line="59"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr__message__burst__source_1ae2aceb2584fba9416f12a44cb210f058" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr_message_burst_source::~gr_message_burst_source</definition>
+        <argsstring>()</argsstring>
+        <name>~gr_message_burst_source</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/io/gr_message_burst_source.h" line="62"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr__message__burst__source_1a6044261e5c44f84bfecbbceb13fe09a1" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>gr_msg_queue_sptr</type>
+        <definition>gr_msg_queue_sptr gr_message_burst_source::msgq</definition>
+        <argsstring>() const </argsstring>
+        <name>msgq</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/io/gr_message_burst_source.h" line="64" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/io/gr_message_burst_source.h" bodystart="64" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr__message__burst__source_1a932c5bf3be40b850131d16a9bbc8c94f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr_message_burst_source::work</definition>
+        <argsstring>(int noutput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/io/gr_message_burst_source.h" line="68"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Turn received messages into a stream and tag them for UHD to send. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/io/gr_message_burst_source.h" line="42" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/io/gr_message_burst_source.h" bodystart="41" bodyend="69"/>
+    <listofallmembers>
+      <member refid="classgr__message__burst__source_1a48d19f075468a086a4a231bcace2cc2d" prot="private" virt="non-virtual"><scope>gr_message_burst_source</scope><name>d_eof</name></member>
+      <member refid="classgr__message__burst__source_1a7b1939d2b605bd6164ab12547f1f9b5d" prot="private" virt="non-virtual"><scope>gr_message_burst_source</scope><name>d_itemsize</name></member>
+      <member refid="classgr__message__burst__source_1ae449d2b8e4c2cf0a47e0887619b59cb8" prot="private" virt="non-virtual"><scope>gr_message_burst_source</scope><name>d_me</name></member>
+      <member refid="classgr__message__burst__source_1a92ce69d442f68de006c2f13d9853690c" prot="private" virt="non-virtual"><scope>gr_message_burst_source</scope><name>d_msg</name></member>
+      <member refid="classgr__message__burst__source_1a7119c868909ddc9f210213e87d1807c8" prot="private" virt="non-virtual"><scope>gr_message_burst_source</scope><name>d_msg_offset</name></member>
+      <member refid="classgr__message__burst__source_1a72294ff20d01ef11c3e6170271010b19" prot="private" virt="non-virtual"><scope>gr_message_burst_source</scope><name>d_msgq</name></member>
+      <member refid="classgr__message__burst__source_1a474939f286a88486d42aa8ed713208d0" prot="private" virt="non-virtual"><scope>gr_message_burst_source</scope><name>gr_make_message_burst_source</name></member>
+      <member refid="classgr__message__burst__source_1a070e6a56caa4d4fed049b038e63c5f8e" prot="private" virt="non-virtual"><scope>gr_message_burst_source</scope><name>gr_make_message_burst_source</name></member>
+      <member refid="classgr__message__burst__source_1aba6426e5ccada6c5febb6e2c22ab7e9e" prot="protected" virt="non-virtual"><scope>gr_message_burst_source</scope><name>gr_message_burst_source</name></member>
+      <member refid="classgr__message__burst__source_1ad3455c3cb3c02957aca0363e6441236a" prot="protected" virt="non-virtual"><scope>gr_message_burst_source</scope><name>gr_message_burst_source</name></member>
+      <member refid="classgr__message__burst__source_1a6044261e5c44f84bfecbbceb13fe09a1" prot="public" virt="non-virtual"><scope>gr_message_burst_source</scope><name>msgq</name></member>
+      <member refid="classgr__message__burst__source_1a932c5bf3be40b850131d16a9bbc8c94f" prot="public" virt="non-virtual"><scope>gr_message_burst_source</scope><name>work</name></member>
+      <member refid="classgr__message__burst__source_1ae2aceb2584fba9416f12a44cb210f058" prot="public" virt="non-virtual"><scope>gr_message_burst_source</scope><name>~gr_message_burst_source</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

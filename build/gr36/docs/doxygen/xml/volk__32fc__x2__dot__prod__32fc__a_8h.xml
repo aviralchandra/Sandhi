@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="volk__32fc__x2__dot__prod__32fc__a_8h" kind="file">
+    <compoundname>volk_32fc_x2_dot_prod_32fc_a.h</compoundname>
+    <includes refid="volk__common_8h" local="no">volk/volk_common.h</includes>
+    <includes refid="volk__complex_8h" local="no">volk/volk_complex.h</includes>
+    <includes local="no">stdio.h</includes>
+    <includes local="no">string.h</includes>
+    <incdepgraph>
+      <node id="21495">
+        <label>volk/volk_common.h</label>
+        <link refid="volk__common_8h"/>
+        <childnode refid="21496" relation="include">
+        </childnode>
+      </node>
+      <node id="21494">
+        <label>volk_32fc_x2_dot_prod_32fc_a.h</label>
+        <link refid="volk_32fc_x2_dot_prod_32fc_a.h"/>
+        <childnode refid="21495" relation="include">
+        </childnode>
+        <childnode refid="21500" relation="include">
+        </childnode>
+        <childnode refid="21502" relation="include">
+        </childnode>
+        <childnode refid="21503" relation="include">
+        </childnode>
+      </node>
+      <node id="21500">
+        <label>volk/volk_complex.h</label>
+        <link refid="volk__complex_8h"/>
+        <childnode refid="21501" relation="include">
+        </childnode>
+      </node>
+      <node id="21497">
+        <label>stdint.h</label>
+        <link refid="stdint_8h"/>
+        <childnode refid="21498" relation="include">
+        </childnode>
+        <childnode refid="21499" relation="include">
+        </childnode>
+      </node>
+      <node id="21496">
+        <label>inttypes.h</label>
+        <link refid="inttypes_8h"/>
+        <childnode refid="21497" relation="include">
+        </childnode>
+      </node>
+      <node id="21498">
+        <label>limits.h</label>
+      </node>
+      <node id="21499">
+        <label>wchar.h</label>
+      </node>
+      <node id="21503">
+        <label>string.h</label>
+      </node>
+      <node id="21501">
+        <label>complex.h</label>
+      </node>
+      <node id="21502">
+        <label>stdio.h</label>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/aviral/GNU-Niyantran/gr36/volk/include/volk/volk_32fc_x2_dot_prod_32fc_a.h"/>
+  </compounddef>
+</doxygen>

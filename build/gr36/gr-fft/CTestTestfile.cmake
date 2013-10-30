@@ -1,0 +1,12 @@
+# CMake generated Testfile for 
+# Source directory: /home/aviral/GNU-Niyantran/gr36/gr-fft
+# Build directory: /home/aviral/GNU-Niyantran/build/gr36/gr-fft
+# 
+# This file includes the relevent testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+SUBDIRS(include/fft)
+SUBDIRS(lib)
+SUBDIRS(swig)
+SUBDIRS(python)
+SUBDIRS(grc)
+SUBDIRS(doc)

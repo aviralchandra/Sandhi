@@ -1,0 +1,212 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="classgr_1_1filter_1_1fractional__interpolator__ff__impl" kind="class" prot="public">
+    <compoundname>gr::filter::fractional_interpolator_ff_impl</compoundname>
+    <includes refid="fractional__interpolator__ff__impl_8h" local="no">fractional_interpolator_ff_impl.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1filter_1_1fractional__interpolator__ff__impl_1aa913229c42917c065987b3fd01a0ef79" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::filter::fractional_interpolator_ff_impl::d_mu</definition>
+        <argsstring></argsstring>
+        <name>d_mu</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/fractional_interpolator_ff_impl.h" line="36" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/fractional_interpolator_ff_impl.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1filter_1_1fractional__interpolator__ff__impl_1a8df400fffb7d478312bda2652a5975bd" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::filter::fractional_interpolator_ff_impl::d_mu_inc</definition>
+        <argsstring></argsstring>
+        <name>d_mu_inc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/fractional_interpolator_ff_impl.h" line="37" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/fractional_interpolator_ff_impl.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1filter_1_1fractional__interpolator__ff__impl_1a6b34dfb76cc0c67b6c2aa724064d85fd" prot="private" static="no" mutable="no">
+        <type>mmse_fir_interpolator_ff *</type>
+        <definition>mmse_fir_interpolator_ff* gr::filter::fractional_interpolator_ff_impl::d_interp</definition>
+        <argsstring></argsstring>
+        <name>d_interp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/fractional_interpolator_ff_impl.h" line="38" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/fractional_interpolator_ff_impl.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1filter_1_1fractional__interpolator__ff__impl_1a9b08198bf66ad8e6296952026f9f2ad9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::filter::fractional_interpolator_ff_impl::fractional_interpolator_ff_impl</definition>
+        <argsstring>(float phase_shift, float interp_ratio)</argsstring>
+        <name>fractional_interpolator_ff_impl</name>
+        <param>
+          <type>float</type>
+          <declname>phase_shift</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>interp_ratio</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/fractional_interpolator_ff_impl.h" line="42"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1filter_1_1fractional__interpolator__ff__impl_1abcb453abc809d8200ee347e4a11b5d00" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::filter::fractional_interpolator_ff_impl::~fractional_interpolator_ff_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~fractional_interpolator_ff_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/fractional_interpolator_ff_impl.h" line="43"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1filter_1_1fractional__interpolator__ff__impl_1ab14ad1d64608d0039ff3341eb3a44211" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::filter::fractional_interpolator_ff_impl::forecast</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items_required)</argsstring>
+        <name>forecast</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items_required</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/fractional_interpolator_ff_impl.h" line="46"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1filter_1_1fractional__interpolator__ff__impl_1a2070d91d71c90df1714c0bb8465111e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::filter::fractional_interpolator_ff_impl::general_work</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>general_work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/fractional_interpolator_ff_impl.h" line="50"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1filter_1_1fractional__interpolator__ff__impl_1a463812677363f577152d4cb5ec568bfd" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float gr::filter::fractional_interpolator_ff_impl::mu</definition>
+        <argsstring>() const </argsstring>
+        <name>mu</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/fractional_interpolator_ff_impl.h" line="52"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1filter_1_1fractional__interpolator__ff__impl_1a59056b2527894dc9a9b3c899472013af" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float gr::filter::fractional_interpolator_ff_impl::interp_ratio</definition>
+        <argsstring>() const </argsstring>
+        <name>interp_ratio</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/fractional_interpolator_ff_impl.h" line="53"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1filter_1_1fractional__interpolator__ff__impl_1a3adb2a3ae5d72a4c17e1070385a5eca8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::filter::fractional_interpolator_ff_impl::set_mu</definition>
+        <argsstring>(float mu)</argsstring>
+        <name>set_mu</name>
+        <param>
+          <type>float</type>
+          <declname>mu</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/fractional_interpolator_ff_impl.h" line="54"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1filter_1_1fractional__interpolator__ff__impl_1a88e9f14e48c62d93a106bdae1626ef37" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::filter::fractional_interpolator_ff_impl::set_interp_ratio</definition>
+        <argsstring>(float interp_ratio)</argsstring>
+        <name>set_interp_ratio</name>
+        <param>
+          <type>float</type>
+          <declname>interp_ratio</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/fractional_interpolator_ff_impl.h" line="55"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/fractional_interpolator_ff_impl.h" line="34" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/fractional_interpolator_ff_impl.h" bodystart="32" bodyend="56"/>
+    <listofallmembers>
+      <member refid="classgr_1_1filter_1_1fractional__interpolator__ff__impl_1a6b34dfb76cc0c67b6c2aa724064d85fd" prot="private" virt="non-virtual"><scope>gr::filter::fractional_interpolator_ff_impl</scope><name>d_interp</name></member>
+      <member refid="classgr_1_1filter_1_1fractional__interpolator__ff__impl_1aa913229c42917c065987b3fd01a0ef79" prot="private" virt="non-virtual"><scope>gr::filter::fractional_interpolator_ff_impl</scope><name>d_mu</name></member>
+      <member refid="classgr_1_1filter_1_1fractional__interpolator__ff__impl_1a8df400fffb7d478312bda2652a5975bd" prot="private" virt="non-virtual"><scope>gr::filter::fractional_interpolator_ff_impl</scope><name>d_mu_inc</name></member>
+      <member refid="classgr_1_1filter_1_1fractional__interpolator__ff__impl_1ab14ad1d64608d0039ff3341eb3a44211" prot="public" virt="non-virtual"><scope>gr::filter::fractional_interpolator_ff_impl</scope><name>forecast</name></member>
+      <member refid="classgr_1_1filter_1_1fractional__interpolator__ff__impl_1a9b08198bf66ad8e6296952026f9f2ad9" prot="public" virt="non-virtual"><scope>gr::filter::fractional_interpolator_ff_impl</scope><name>fractional_interpolator_ff_impl</name></member>
+      <member refid="classgr_1_1filter_1_1fractional__interpolator__ff__impl_1a2070d91d71c90df1714c0bb8465111e6" prot="public" virt="non-virtual"><scope>gr::filter::fractional_interpolator_ff_impl</scope><name>general_work</name></member>
+      <member refid="classgr_1_1filter_1_1fractional__interpolator__ff__impl_1a59056b2527894dc9a9b3c899472013af" prot="public" virt="non-virtual"><scope>gr::filter::fractional_interpolator_ff_impl</scope><name>interp_ratio</name></member>
+      <member refid="classgr_1_1filter_1_1fractional__interpolator__ff__impl_1a463812677363f577152d4cb5ec568bfd" prot="public" virt="non-virtual"><scope>gr::filter::fractional_interpolator_ff_impl</scope><name>mu</name></member>
+      <member refid="classgr_1_1filter_1_1fractional__interpolator__ff__impl_1a88e9f14e48c62d93a106bdae1626ef37" prot="public" virt="non-virtual"><scope>gr::filter::fractional_interpolator_ff_impl</scope><name>set_interp_ratio</name></member>
+      <member refid="classgr_1_1filter_1_1fractional__interpolator__ff__impl_1a3adb2a3ae5d72a4c17e1070385a5eca8" prot="public" virt="non-virtual"><scope>gr::filter::fractional_interpolator_ff_impl</scope><name>set_mu</name></member>
+      <member refid="classgr_1_1filter_1_1fractional__interpolator__ff__impl_1abcb453abc809d8200ee347e4a11b5d00" prot="public" virt="non-virtual"><scope>gr::filter::fractional_interpolator_ff_impl</scope><name>~fractional_interpolator_ff_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,172 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="classgr_1_1filter_1_1adaptive__fir__ccc__impl" kind="class" prot="public">
+    <compoundname>gr::filter::adaptive_fir_ccc_impl</compoundname>
+    <includes refid="adaptive__fir__ccc__impl_8h" local="no">adaptive_fir_ccc_impl.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1filter_1_1adaptive__fir__ccc__impl_1a23866361a1744c0209ffbf43259ff84a" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; gr_complex &gt;</type>
+        <definition>std::vector&lt;gr_complex&gt; gr::filter::adaptive_fir_ccc_impl::d_new_taps</definition>
+        <argsstring></argsstring>
+        <name>d_new_taps</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/adaptive_fir_ccc_impl.h" line="36" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/adaptive_fir_ccc_impl.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1filter_1_1adaptive__fir__ccc__impl_1adb4a26fd93093cf200825ae1ccce3410" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool gr::filter::adaptive_fir_ccc_impl::d_updated</definition>
+        <argsstring></argsstring>
+        <name>d_updated</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/adaptive_fir_ccc_impl.h" line="37" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/adaptive_fir_ccc_impl.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classgr_1_1filter_1_1adaptive__fir__ccc__impl_1aa420f47b765e6b1538ec3b70b6e745d2" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>gr_complex</type>
+        <definition>gr_complex gr::filter::adaptive_fir_ccc_impl::error</definition>
+        <argsstring>(const gr_complex &amp;out)</argsstring>
+        <name>error</name>
+        <param>
+          <type>const gr_complex &amp;</type>
+          <declname>out</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/adaptive_fir_ccc_impl.h" line="41"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1filter_1_1adaptive__fir__ccc__impl_1afc8091b92fc3e17953dd2c98d7a385a0" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::filter::adaptive_fir_ccc_impl::update_tap</definition>
+        <argsstring>(gr_complex &amp;tap, const gr_complex &amp;in)</argsstring>
+        <name>update_tap</name>
+        <param>
+          <type>gr_complex &amp;</type>
+          <declname>tap</declname>
+        </param>
+        <param>
+          <type>const gr_complex &amp;</type>
+          <declname>in</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/adaptive_fir_ccc_impl.h" line="44"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1filter_1_1adaptive__fir__ccc__impl_1af624a1aacb31b1ce2ca99f14935dacb8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::filter::adaptive_fir_ccc_impl::set_taps</definition>
+        <argsstring>(const std::vector&lt; gr_complex &gt; &amp;taps)</argsstring>
+        <name>set_taps</name>
+        <param>
+          <type>const std::vector&lt; gr_complex &gt; &amp;</type>
+          <declname>taps</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/adaptive_fir_ccc_impl.h" line="47"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1filter_1_1adaptive__fir__ccc__impl_1ae5b8fccb7e161ed04f8085e42390055b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; gr_complex &gt;</type>
+        <definition>std::vector&lt;gr_complex&gt; gr::filter::adaptive_fir_ccc_impl::taps</definition>
+        <argsstring>() const </argsstring>
+        <name>taps</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/adaptive_fir_ccc_impl.h" line="48"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1filter_1_1adaptive__fir__ccc__impl_1afb15509764f75050576dfc52a889b3ea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::filter::adaptive_fir_ccc_impl::adaptive_fir_ccc_impl</definition>
+        <argsstring>(const char *name, int decimation, const std::vector&lt; gr_complex &gt; &amp;taps)</argsstring>
+        <name>adaptive_fir_ccc_impl</name>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>decimation</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; gr_complex &gt; &amp;</type>
+          <declname>taps</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/adaptive_fir_ccc_impl.h" line="51"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1filter_1_1adaptive__fir__ccc__impl_1acdfd1142ef7430a21d99e65da00ed74a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::filter::adaptive_fir_ccc_impl::work</definition>
+        <argsstring>(int noutput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/adaptive_fir_ccc_impl.h" line="55"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/adaptive_fir_ccc_impl.h" line="34" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/adaptive_fir_ccc_impl.h" bodystart="33" bodyend="56"/>
+    <listofallmembers>
+      <member refid="classgr_1_1filter_1_1adaptive__fir__ccc__impl_1afb15509764f75050576dfc52a889b3ea" prot="public" virt="non-virtual"><scope>gr::filter::adaptive_fir_ccc_impl</scope><name>adaptive_fir_ccc_impl</name></member>
+      <member refid="classgr_1_1filter_1_1adaptive__fir__ccc__impl_1a23866361a1744c0209ffbf43259ff84a" prot="private" virt="non-virtual"><scope>gr::filter::adaptive_fir_ccc_impl</scope><name>d_new_taps</name></member>
+      <member refid="classgr_1_1filter_1_1adaptive__fir__ccc__impl_1adb4a26fd93093cf200825ae1ccce3410" prot="private" virt="non-virtual"><scope>gr::filter::adaptive_fir_ccc_impl</scope><name>d_updated</name></member>
+      <member refid="classgr_1_1filter_1_1adaptive__fir__ccc__impl_1aa420f47b765e6b1538ec3b70b6e745d2" prot="protected" virt="non-virtual"><scope>gr::filter::adaptive_fir_ccc_impl</scope><name>error</name></member>
+      <member refid="classgr_1_1filter_1_1adaptive__fir__ccc__impl_1af624a1aacb31b1ce2ca99f14935dacb8" prot="public" virt="non-virtual"><scope>gr::filter::adaptive_fir_ccc_impl</scope><name>set_taps</name></member>
+      <member refid="classgr_1_1filter_1_1adaptive__fir__ccc__impl_1ae5b8fccb7e161ed04f8085e42390055b" prot="public" virt="non-virtual"><scope>gr::filter::adaptive_fir_ccc_impl</scope><name>taps</name></member>
+      <member refid="classgr_1_1filter_1_1adaptive__fir__ccc__impl_1afc8091b92fc3e17953dd2c98d7a385a0" prot="protected" virt="non-virtual"><scope>gr::filter::adaptive_fir_ccc_impl</scope><name>update_tap</name></member>
+      <member refid="classgr_1_1filter_1_1adaptive__fir__ccc__impl_1acdfd1142ef7430a21d99e65da00ed74a" prot="public" virt="non-virtual"><scope>gr::filter::adaptive_fir_ccc_impl</scope><name>work</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

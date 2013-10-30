@@ -1,0 +1,403 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="classgr_1_1filter_1_1pfb__arb__resampler__ccf" kind="class" prot="public">
+    <compoundname>gr::filter::pfb_arb_resampler_ccf</compoundname>
+    <basecompoundref refid="structgr__block" prot="public" virt="virtual">gr_block</basecompoundref>
+    <derivedcompoundref refid="classgr_1_1filter_1_1pfb__arb__resampler__ccf__impl" prot="public" virt="non-virtual">gr::filter::pfb_arb_resampler_ccf_impl</derivedcompoundref>
+    <includes refid="pfb__arb__resampler__ccf_8h" local="no">pfb_arb_resampler_ccf.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classgr_1_1filter_1_1pfb__arb__resampler__ccf_1a0925617959fcbcf3166aa46c0e6c0232" prot="public" static="no">
+        <type><ref refid="classboost_1_1shared__ptr" kindref="compound">boost::shared_ptr</ref>&lt; <ref refid="classgr_1_1filter_1_1pfb__arb__resampler__ccf" kindref="compound">pfb_arb_resampler_ccf</ref> &gt;</type>
+        <definition>typedef boost::shared_ptr&lt;pfb_arb_resampler_ccf&gt; gr::filter::pfb_arb_resampler_ccf::sptr</definition>
+        <argsstring></argsstring>
+        <name>sptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/include/filter/pfb_arb_resampler_ccf.h" line="102" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-filter/include/filter/pfb_arb_resampler_ccf.h" bodystart="102" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgr_1_1filter_1_1pfb__arb__resampler__ccf_1a4367d7209ae5f466bc88612283c1abe4" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr_1_1filter_1_1pfb__arb__resampler__ccf_1a0925617959fcbcf3166aa46c0e6c0232" kindref="member">sptr</ref></type>
+        <definition>static sptr gr::filter::pfb_arb_resampler_ccf::make</definition>
+        <argsstring>(float rate, const std::vector&lt; float &gt; &amp;taps, unsigned int filter_size=32)</argsstring>
+        <name>make</name>
+        <param>
+          <type>float</type>
+          <declname>rate</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; float &gt; &amp;</type>
+          <declname>taps</declname>
+        </param>
+        <param>
+          <type>unsigned int</type>
+          <declname>filter_size</declname>
+          <defval>32</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Build the polyphase filterbank arbitray resampler. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>rate</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(float) Specifies the resampling rate to use </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>taps</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(vector/list of floats) The prototype filter to populate the filterbank. The taps should be generated at the filter_size sampling rate. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>filter_size</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(unsigned int) The number of filters in the filter bank. This is directly related to quantization noise introduced during the resampling. Defaults to 32 filters. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/include/filter/pfb_arb_resampler_ccf.h" line="115"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1filter_1_1pfb__arb__resampler__ccf_1a27c645f4821d2b302f9d1ada90070850" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type><ref refid="volk_8tmpl_8h_1a2b104da38b6f0a28d721ed74346ef298" kindref="member">void</ref></type>
+        <definition>virtual void gr::filter::pfb_arb_resampler_ccf::set_taps</definition>
+        <argsstring>(const std::vector&lt; float &gt; &amp;taps)=0</argsstring>
+        <name>set_taps</name>
+        <reimplementedby refid="classgr_1_1filter_1_1pfb__arb__resampler__ccf__impl_1a4ec78d6a4169660a1055f940e4d76448">set_taps</reimplementedby>
+        <param>
+          <type>const std::vector&lt; float &gt; &amp;</type>
+          <declname>taps</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Resets the filterbank&apos;s filter taps with the new prototype filter <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>taps</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(vector/list of floats) The prototype filter to populate the filterbank. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/include/filter/pfb_arb_resampler_ccf.h" line="120"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1filter_1_1pfb__arb__resampler__ccf_1a08d14a78fc5b13ac726394ee6e8aa441" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type>std::vector&lt; std::vector&lt; float &gt; &gt;</type>
+        <definition>virtual std::vector&lt;std::vector&lt;float&gt; &gt; gr::filter::pfb_arb_resampler_ccf::taps</definition>
+        <argsstring>() const =0</argsstring>
+        <name>taps</name>
+        <reimplementedby refid="classgr_1_1filter_1_1pfb__arb__resampler__ccf__impl_1a58f021095f634883d9e43f51de4599ef">taps</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Return a vector&lt;vector&lt;&gt;&gt; of the filterbank taps </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/include/filter/pfb_arb_resampler_ccf.h" line="125"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1filter_1_1pfb__arb__resampler__ccf_1a11c5af08a368eeedd4f6d0a9cc48610e" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type><ref refid="volk_8tmpl_8h_1a2b104da38b6f0a28d721ed74346ef298" kindref="member">void</ref></type>
+        <definition>virtual void gr::filter::pfb_arb_resampler_ccf::print_taps</definition>
+        <argsstring>()=0</argsstring>
+        <name>print_taps</name>
+        <reimplementedby refid="classgr_1_1filter_1_1pfb__arb__resampler__ccf__impl_1a302759c7b91cd996df548c2badc74441">print_taps</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Print all of the filterbank taps to screen. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/include/filter/pfb_arb_resampler_ccf.h" line="130"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1filter_1_1pfb__arb__resampler__ccf_1a91e1f667ae783610629114a83b4a00eb" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type><ref refid="volk_8tmpl_8h_1a2b104da38b6f0a28d721ed74346ef298" kindref="member">void</ref></type>
+        <definition>virtual void gr::filter::pfb_arb_resampler_ccf::set_rate</definition>
+        <argsstring>(float rate)=0</argsstring>
+        <name>set_rate</name>
+        <reimplementedby refid="classgr_1_1filter_1_1pfb__arb__resampler__ccf__impl_1a06343b6a92f7c246c6f909a4f34de8e1">set_rate</reimplementedby>
+        <param>
+          <type>float</type>
+          <declname>rate</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets the resampling rate of the block. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/include/filter/pfb_arb_resampler_ccf.h" line="135"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1filter_1_1pfb__arb__resampler__ccf_1a56a865ddeedf9f627f7c57c67f655fb7" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type><ref refid="volk_8tmpl_8h_1a2b104da38b6f0a28d721ed74346ef298" kindref="member">void</ref></type>
+        <definition>virtual void gr::filter::pfb_arb_resampler_ccf::set_phase</definition>
+        <argsstring>(float ph)=0</argsstring>
+        <name>set_phase</name>
+        <reimplementedby refid="classgr_1_1filter_1_1pfb__arb__resampler__ccf__impl_1a55cf4cebc6ae59dbca45da29e08f48af">set_phase</reimplementedby>
+        <param>
+          <type>float</type>
+          <declname>ph</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets the current phase offset in radians (0 to 2pi). </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/include/filter/pfb_arb_resampler_ccf.h" line="140"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1filter_1_1pfb__arb__resampler__ccf_1a048018b2d65e8593988c122b8cc78c53" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type>float</type>
+        <definition>virtual float gr::filter::pfb_arb_resampler_ccf::phase</definition>
+        <argsstring>() const =0</argsstring>
+        <name>phase</name>
+        <reimplementedby refid="classgr_1_1filter_1_1pfb__arb__resampler__ccf__impl_1a2b4ce8aa81e7af93d6fe3ebb4f6b0b79">phase</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Gets the current phase of the resampler in radians (2 to 2pi). </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/include/filter/pfb_arb_resampler_ccf.h" line="145"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Polyphase filterbank arbitrary resampler with gr_complex input, gr_complex output and float taps. </para>    </briefdescription>
+    <detaileddescription>
+<para>This block takes in a signal stream and performs arbitrary resampling. The resampling rate can be any real number <emphasis>r</emphasis>. The resampling is done by constructing <emphasis>N</emphasis> filters where <emphasis>N</emphasis> is the interpolation rate. We then calculate <emphasis>D</emphasis> where <emphasis>D = floor(N/r)</emphasis>.</para><para>Using <emphasis>N</emphasis> and <emphasis>D</emphasis>, we can perform rational resampling where <emphasis>N/D</emphasis> is a rational number close to the input rate <emphasis>r</emphasis> where we have <emphasis>N</emphasis> filters and we cycle through them as a polyphase filterbank with a stride of <emphasis>D</emphasis> so that <emphasis>i+1 = (i + D) % N</emphasis>.</para><para>To get the arbitrary rate, we want to interpolate between two points. For each value out, we take an output from the current filter, <emphasis>i</emphasis>, and the next filter <emphasis>i+1</emphasis> and then linearly interpolate between the two based on the real resampling rate we want.</para><para>The linear interpolation only provides us with an approximation to the real sampling rate specified. The error is a quantization error between the two filters we used as our interpolation points. To this end, the number of filters, <emphasis>N</emphasis>, used determines the quantization error; the larger <emphasis>N</emphasis>, the smaller the noise. You can design for a specified noise floor by setting the filter size (parameters <emphasis>filter_size</emphasis>). The size defaults to 32 filters, which is about as good as most implementations need.</para><para>The trick with designing this filter is in how to specify the taps of the prototype filter. Like the PFB interpolator, the taps are specified using the interpolated filter rate. In this case, that rate is the input sample rate multiplied by the number of filters in the filterbank, which is also the interpolation rate. All other values should be relative to this rate.</para><para>For example, for a 32-filter arbitrary resampler and using the GNU Radio&apos;s firdes utility to build the filter, we build a low-pass filter with a sampling rate of <emphasis>fs</emphasis>, a 3-dB bandwidth of <emphasis>BW</emphasis> and a transition bandwidth of <emphasis>TB</emphasis>. We can also specify the out-of-band attenuation to use, <emphasis>ATT</emphasis>, and the filter window function (a Blackman-harris window in this case). The first input is the gain of the filter, which we specify here as the interpolation rate (<emphasis>32</emphasis>).</para><para><bold><emphasis>self._taps = <ref refid="classgr_1_1filter_1_1firdes_1a57c2a9eb8dc61d3740d9eb0e02ebb880" kindref="member">filter.firdes.low_pass_2</ref>(32, 32*fs, BW, TB, attenuation_dB=ATT, window=<ref refid="classgr_1_1filter_1_1firdes_1a5527e5ee7713055268448c55b1b235a9ac79ce2faa8899fdc01091c3791c5e0d8" kindref="member">filter.firdes.WIN_BLACKMAN_hARRIS</ref>)</emphasis></bold></para><para>The theory behind this block can be found in Chapter 7.5 of the following book.</para><para><bold><emphasis>f. harris, &quot;Multirate Signal Processing for Communication
+      Systems&quot;, Upper Saddle River, NJ: Prentice Hall, Inc. 2004.</emphasis></bold> </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="5963">
+        <label>gr_block</label>
+        <link refid="structgr__block"/>
+      </node>
+      <node id="5964">
+        <label>gr::filter::pfb_arb_resampler_ccf_impl</label>
+        <link refid="classgr_1_1filter_1_1pfb__arb__resampler__ccf__impl"/>
+        <childnode refid="5962" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5962">
+        <label>gr::filter::pfb_arb_resampler_ccf</label>
+        <link refid="classgr_1_1filter_1_1pfb__arb__resampler__ccf"/>
+        <childnode refid="5963" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="5975">
+        <label>T</label>
+      </node>
+      <node id="5966">
+        <label>gr_block</label>
+        <link refid="structgr__block"/>
+        <childnode refid="5967" relation="usage">
+          <edgelabel>d_msg_handlers</edgelabel>
+        </childnode>
+        <childnode refid="5968" relation="usage">
+          <edgelabel>_out_sig</edgelabel>
+          <edgelabel>_in_sig</edgelabel>
+        </childnode>
+        <childnode refid="5970" relation="usage">
+          <edgelabel>d_symbol_alias</edgelabel>
+          <edgelabel>_name</edgelabel>
+          <edgelabel>d_symbol_name</edgelabel>
+        </childnode>
+        <childnode refid="5972" relation="usage">
+          <edgelabel>d_affinity</edgelabel>
+        </childnode>
+        <childnode refid="5973" relation="usage">
+          <edgelabel>msg_queue</edgelabel>
+        </childnode>
+      </node>
+      <node id="5967">
+        <label>std::map&lt; pmt::pmt_t, msg_handler_t, pmt::pmt_comperator &gt;</label>
+      </node>
+      <node id="5968">
+        <label>boost::shared_ptr&lt; gr_io_signature &gt;</label>
+        <link refid="classboost_1_1shared__ptr"/>
+        <childnode refid="5969" relation="usage">
+          <edgelabel>px</edgelabel>
+        </childnode>
+      </node>
+      <node id="5971">
+        <label>std::basic_string&lt; char &gt;</label>
+      </node>
+      <node id="5969">
+        <label>gr_io_signature</label>
+        <link refid="classgr__io__signature"/>
+      </node>
+      <node id="5965">
+        <label>gr::filter::pfb_arb_resampler_ccf</label>
+        <link refid="classgr_1_1filter_1_1pfb__arb__resampler__ccf"/>
+        <childnode refid="5966" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5972">
+        <label>std::vector&lt; int &gt;</label>
+      </node>
+      <node id="5973">
+        <label>std::map&lt; pmt::pmt_t, msg_queue_t, pmt::pmt_comperator &gt;</label>
+        <childnode refid="5974" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="5974">
+        <label>std::deque&lt; T &gt;</label>
+        <childnode refid="5975" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="5970">
+        <label>std::string</label>
+        <childnode refid="5971" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/include/filter/pfb_arb_resampler_ccf.h" line="99" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-filter/include/filter/pfb_arb_resampler_ccf.h" bodystart="98" bodyend="146"/>
+    <listofallmembers>
+      <member refid="structgr__block_1a9f318fb06e990043bae12c7d53123c6f" prot="public" virt="non-virtual"><scope>gr::filter::pfb_arb_resampler_ccf</scope><name>_decim</name></member>
+      <member refid="structgr__block_1a3609e62366924659273dc5b22cdb035e" prot="public" virt="non-virtual"><scope>gr::filter::pfb_arb_resampler_ccf</scope><name>_enable_fixed_rate</name></member>
+      <member refid="structgr__block_1a3c17dfae241d25218d11a28910b41566" prot="public" virt="non-virtual"><scope>gr::filter::pfb_arb_resampler_ccf</scope><name>_fcast_ninput_items</name></member>
+      <member refid="structgr__block_1af51543dce48d41f65601a9333646005d" prot="public" virt="non-virtual"><scope>gr::filter::pfb_arb_resampler_ccf</scope><name>_in_sig</name></member>
+      <member refid="structgr__block_1ae7f3d8d4f495b3f782f76b2eba77c5e1" prot="public" virt="non-virtual"><scope>gr::filter::pfb_arb_resampler_ccf</scope><name>_input_history_items</name></member>
+      <member refid="structgr__block_1a84307a4cc2d4247ba1d2b3aa97360f76" prot="public" virt="non-virtual"><scope>gr::filter::pfb_arb_resampler_ccf</scope><name>_interp</name></member>
+      <member refid="structgr__block_1a0e5465af87bd5e3cd20a7aee021cd7d1" prot="public" virt="non-virtual"><scope>gr::filter::pfb_arb_resampler_ccf</scope><name>_name</name></member>
+      <member refid="structgr__block_1ab223ada7c7826ad9348bfbf33813ebfd" prot="public" virt="non-virtual"><scope>gr::filter::pfb_arb_resampler_ccf</scope><name>_num_outputs</name></member>
+      <member refid="structgr__block_1a47568447c8ce065da54481e5735b6a9d" prot="public" virt="non-virtual"><scope>gr::filter::pfb_arb_resampler_ccf</scope><name>_out_sig</name></member>
+      <member refid="structgr__block_1ad7a1989400137f5e369bc66eeac85df1" prot="public" virt="non-virtual"><scope>gr::filter::pfb_arb_resampler_ccf</scope><name>_output_multiple_items</name></member>
+      <member refid="structgr__block_1a124d174e6cfec49e485d42823e853fd4" prot="public" virt="non-virtual"><scope>gr::filter::pfb_arb_resampler_ccf</scope><name>_relative_rate</name></member>
+      <member refid="structgr__block_1aedaa3c96a3840b3d1631b82a34805aed" prot="public" virt="non-virtual"><scope>gr::filter::pfb_arb_resampler_ccf</scope><name>_tag_prop_policy</name></member>
+      <member refid="structgr__block_1a3b790ce6f4f5de587eab5557e809b536" prot="public" virt="non-virtual"><scope>gr::filter::pfb_arb_resampler_ccf</scope><name>_unique_id</name></member>
+      <member refid="structgr__block_1a0d902f0cdd32608baf9b09fadb14582a" prot="public" virt="non-virtual"><scope>gr::filter::pfb_arb_resampler_ccf</scope><name>_update_input_reserve</name></member>
+      <member refid="structgr__block_1a6f4bf1ad76c6c1784bc03388218cded8" prot="public" virt="non-virtual"><scope>gr::filter::pfb_arb_resampler_ccf</scope><name>_work_io_ptr_mask</name></member>
+      <member refid="structgr__block_1a2b5030c2a5ffa59a575c5ca02c0b4290" prot="public" virt="non-virtual"><scope>gr::filter::pfb_arb_resampler_ccf</scope><name>_work_ninput_items</name></member>
+      <member refid="structgr__block_1a77dfbd5e39691ba15922fa86199fff87" prot="public" virt="non-virtual"><scope>gr::filter::pfb_arb_resampler_ccf</scope><name>add_item_tag</name></member>
+      <member refid="structgr__block_1a2f2abc9b5d43c1b32e042083a18616de" prot="public" virt="non-virtual"><scope>gr::filter::pfb_arb_resampler_ccf</scope><name>add_item_tag</name></member>
+      <member refid="structgr__block_1afe4c4e82b353ff8ed13716dbb1609166" prot="public" virt="non-virtual"><scope>gr::filter::pfb_arb_resampler_ccf</scope><name>alias</name></member>
+      <member refid="structgr__block_1ae97c9f5fd6773d29dcd082954d0b8138" prot="public" virt="non-virtual"><scope>gr::filter::pfb_arb_resampler_ccf</scope><name>alias_pmt</name></member>
+      <member refid="structgr__block_1aec92fab6cbc601f87a0fd1b7e9b1ee41" prot="public" virt="non-virtual"><scope>gr::filter::pfb_arb_resampler_ccf</scope><name>alias_set</name></member>
+      <member refid="structgr__block_1a03fabffe7b3a99cb2f2dd0e8e40d1cd3" prot="public" virt="virtual"><scope>gr::filter::pfb_arb_resampler_ccf</scope><name>check_topology</name></member>
+      <member refid="structgr__block_1ac0014c630a4c2420f10f29c49781fcef" prot="public" virt="non-virtual"><scope>gr::filter::pfb_arb_resampler_ccf</scope><name>consume</name></member>
+      <member refid="structgr__block_1a04144691b111d0a5eb11b4c8e780b8ff" prot="public" virt="non-virtual"><scope>gr::filter::pfb_arb_resampler_ccf</scope><name>consume_each</name></member>
+      <member refid="structgr__block_1abbc4eee83a4503388c5db8ab14b10d2a" prot="public" virt="non-virtual"><scope>gr::filter::pfb_arb_resampler_ccf</scope><name>d_affinity</name></member>
+      <member refid="structgr__block_1a102b671ad639405dcec8ae07df80d9e1" prot="public" virt="non-virtual"><scope>gr::filter::pfb_arb_resampler_ccf</scope><name>d_msg_handlers</name></member>
+      <member refid="structgr__block_1a97a217457186babc5f2d8ffaacd63621" prot="public" virt="non-virtual"><scope>gr::filter::pfb_arb_resampler_ccf</scope><name>d_msg_handlers_t</name></member>
+      <member refid="structgr__block_1ace960ec997da0fff8fc44168983b1a55" prot="public" virt="non-virtual"><scope>gr::filter::pfb_arb_resampler_ccf</scope><name>d_setlock</name></member>
+      <member refid="structgr__block_1af0266eae2b2d6d98e63b0dfa18cd4c22" prot="public" virt="non-virtual"><scope>gr::filter::pfb_arb_resampler_ccf</scope><name>d_symbol_alias</name></member>
+      <member refid="structgr__block_1a372535a140a3271a8a6b25965f83c7b2" prot="public" virt="non-virtual"><scope>gr::filter::pfb_arb_resampler_ccf</scope><name>d_symbol_name</name></member>
+      <member refid="structgr__block_1a5fa21c3fcec9c362cb747615067130fd" prot="public" virt="non-virtual"><scope>gr::filter::pfb_arb_resampler_ccf</scope><name>decimation</name></member>
+      <member refid="structgr__block_1a26a99493c97eadfd842aac72aa515aae" prot="public" virt="non-virtual"><scope>gr::filter::pfb_arb_resampler_ccf</scope><name>delete_head_blocking</name></member>
+      <member refid="structgr__block_1a488390e6da77ced5a5d6d340886d6cc1" prot="public" virt="non-virtual"><scope>gr::filter::pfb_arb_resampler_ccf</scope><name>delete_head_nowait</name></member>
+      <member refid="structgr__block_1a463e4dc9205b21f94d37cf9f9eb73ad7" prot="public" virt="virtual"><scope>gr::filter::pfb_arb_resampler_ccf</scope><name>dispatch_msg</name></member>
+      <member refid="structgr__block_1a1a9d99191b830c53b9fe05db92b6bf0b" prot="public" virt="non-virtual"><scope>gr::filter::pfb_arb_resampler_ccf</scope><name>empty_p</name></member>
+      <member refid="structgr__block_1aa0e38ded260cd3be8076bef28086c34f" prot="public" virt="non-virtual"><scope>gr::filter::pfb_arb_resampler_ccf</scope><name>empty_p</name></member>
+      <member refid="structgr__block_1afb27cadec03e47257d943e337fb6e47b" prot="public" virt="non-virtual"><scope>gr::filter::pfb_arb_resampler_ccf</scope><name>erase_msg</name></member>
+      <member refid="structgr__block_1aabe7f108d75435de0c7a42233b32cb5c" prot="public" virt="non-virtual"><scope>gr::filter::pfb_arb_resampler_ccf</scope><name>fixed_rate</name></member>
+      <member refid="structgr__block_1a46bea6a676cc8a35bba70e9477f0eb71" prot="public" virt="non-virtual"><scope>gr::filter::pfb_arb_resampler_ccf</scope><name>fixed_rate_noutput_to_ninput</name></member>
+      <member refid="structgr__block_1a2d34aa76c847f3b7d8dc688010085174" prot="public" virt="virtual"><scope>gr::filter::pfb_arb_resampler_ccf</scope><name>forecast</name></member>
+      <member refid="structgr__block_1adf59080d10f322e3816b7ac8f7cb2a7c" prot="public" virt="virtual"><scope>gr::filter::pfb_arb_resampler_ccf</scope><name>general_work</name></member>
+      <member refid="structgr__block_1ad360ea0cd0e5ac767c59281b07d57e3c" prot="public" virt="non-virtual"><scope>gr::filter::pfb_arb_resampler_ccf</scope><name>get_iterator</name></member>
+      <member refid="structgr__block_1aed9a0ebccdac38b7120ce42ef8111ce0" prot="public" virt="non-virtual"><scope>gr::filter::pfb_arb_resampler_ccf</scope><name>get_tags_in_range</name></member>
+      <member refid="structgr__block_1ac94442f2da43c516ce4b8d3eb15fc316" prot="public" virt="non-virtual"><scope>gr::filter::pfb_arb_resampler_ccf</scope><name>gr_block</name></member>
+      <member refid="structgr__block_1a268510acce1f94c0a60c5273f4948641" prot="public" virt="non-virtual"><scope>gr::filter::pfb_arb_resampler_ccf</scope><name>gr_block</name></member>
+      <member refid="structgr__block_1a22b9bf0b8cf9af6f0fb712198b1909ee" prot="public" virt="non-virtual"><scope>gr::filter::pfb_arb_resampler_ccf</scope><name>has_msg_handler</name></member>
+      <member refid="structgr__block_1ac290fa00c65a3907f82254a440be7849" prot="public" virt="virtual"><scope>gr::filter::pfb_arb_resampler_ccf</scope><name>has_msg_port</name></member>
+      <member refid="structgr__block_1ad550acd2deac3ab50b82e5ec97690e6b" prot="public" virt="non-virtual"><scope>gr::filter::pfb_arb_resampler_ccf</scope><name>history</name></member>
+      <member refid="structgr__block_1a5fd8ef96d930519bce1bc8fcbef2afe7" prot="public" virt="non-virtual"><scope>gr::filter::pfb_arb_resampler_ccf</scope><name>input_buffer_allocator</name></member>
+      <member refid="structgr__block_1a8bbb7de39d243a25bd28eba7ab6c2935" prot="public" virt="non-virtual"><scope>gr::filter::pfb_arb_resampler_ccf</scope><name>input_signature</name></member>
+      <member refid="structgr__block_1a8e1c49c7050d4156ef0119ee767bc7ac" prot="public" virt="non-virtual"><scope>gr::filter::pfb_arb_resampler_ccf</scope><name>insert_tail</name></member>
+      <member refid="structgr__block_1ae11942c855a552e8bccad91207e3fcfb" prot="public" virt="non-virtual"><scope>gr::filter::pfb_arb_resampler_ccf</scope><name>interpolation</name></member>
+      <member refid="structgr__block_1a8a15504927482ceab6d86cda99d7883c" prot="public" virt="non-virtual"><scope>gr::filter::pfb_arb_resampler_ccf</scope><name>is_set_max_noutput_items</name></member>
+      <member refid="structgr__block_1af774a12f9bcbc96726bdebdb40c1c1f5" prot="public" virt="non-virtual"><scope>gr::filter::pfb_arb_resampler_ccf</scope><name>is_unaligned</name></member>
+      <member refid="classgr_1_1filter_1_1pfb__arb__resampler__ccf_1a4367d7209ae5f466bc88612283c1abe4" prot="public" virt="non-virtual"><scope>gr::filter::pfb_arb_resampler_ccf</scope><name>make</name></member>
+      <member refid="structgr__block_1a0e748f7c88b0a3db9d79bf8bad5be7e5" prot="public" virt="non-virtual"><scope>gr::filter::pfb_arb_resampler_ccf</scope><name>max_noutput_items</name></member>
+      <member refid="structgr__block_1a0db3974de43628d347645f67b15a4be5" prot="public" virt="non-virtual"><scope>gr::filter::pfb_arb_resampler_ccf</scope><name>max_output_buffer</name></member>
+      <member refid="structgr__block_1afe36da9de05c8ea55ab4038485d6c45f" prot="public" virt="virtual"><scope>gr::filter::pfb_arb_resampler_ccf</scope><name>message_port_is_hier</name></member>
+      <member refid="structgr__block_1acddfef68b3880922bb6235765e08d0c8" prot="public" virt="virtual"><scope>gr::filter::pfb_arb_resampler_ccf</scope><name>message_port_is_hier_in</name></member>
+      <member refid="structgr__block_1a74dee2bc8c015773ef21a2e876bb1728" prot="public" virt="virtual"><scope>gr::filter::pfb_arb_resampler_ccf</scope><name>message_port_is_hier_out</name></member>
+      <member refid="structgr__block_1a798896705e664b90c16992e7ad6a5c18" prot="public" virt="non-virtual"><scope>gr::filter::pfb_arb_resampler_ccf</scope><name>message_port_pub</name></member>
+      <member refid="structgr__block_1a2aa006147556462b1aa0f993a9c33266" prot="public" virt="non-virtual"><scope>gr::filter::pfb_arb_resampler_ccf</scope><name>message_port_register_in</name></member>
+      <member refid="structgr__block_1a4e3ad910265b6b08ea1b8fbeb1616aba" prot="public" virt="non-virtual"><scope>gr::filter::pfb_arb_resampler_ccf</scope><name>message_port_register_out</name></member>
+      <member refid="structgr__block_1aa5d60dee232ae205d87741e714299e88" prot="public" virt="non-virtual"><scope>gr::filter::pfb_arb_resampler_ccf</scope><name>message_port_sub</name></member>
+      <member refid="structgr__block_1a948550894f2f020c5f102ee2a6eb737d" prot="public" virt="non-virtual"><scope>gr::filter::pfb_arb_resampler_ccf</scope><name>message_port_unsub</name></member>
+      <member refid="structgr__block_1a1888baadf55d09b738011b7e2e8e2823" prot="public" virt="non-virtual"><scope>gr::filter::pfb_arb_resampler_ccf</scope><name>message_ports_in</name></member>
+      <member refid="structgr__block_1af440b4aaf081f76c3b99d8855013dc79" prot="public" virt="non-virtual"><scope>gr::filter::pfb_arb_resampler_ccf</scope><name>message_ports_out</name></member>
+      <member refid="structgr__block_1a5543709f50bc3948d1132a3dcff77d6a" prot="public" virt="non-virtual"><scope>gr::filter::pfb_arb_resampler_ccf</scope><name>message_subscribers</name></member>
+      <member refid="structgr__block_1a8fc7b5c1e3e309a4e7746172dbea323c" prot="public" virt="non-virtual"><scope>gr::filter::pfb_arb_resampler_ccf</scope><name>min_output_buffer</name></member>
+      <member refid="structgr__block_1a2755b82373b4e009b365aff06f1cd077" prot="public" virt="non-virtual"><scope>gr::filter::pfb_arb_resampler_ccf</scope><name>msg_handler_t</name></member>
+      <member refid="structgr__block_1a70119713f26f538919661eb0aa6913f1" prot="public" virt="non-virtual"><scope>gr::filter::pfb_arb_resampler_ccf</scope><name>msg_queue</name></member>
+      <member refid="structgr__block_1a300d512afcd8b7896039f08837ccd6cf" prot="public" virt="non-virtual"><scope>gr::filter::pfb_arb_resampler_ccf</scope><name>msg_queue_map_itr</name></member>
+      <member refid="structgr__block_1a31ed3fbbf66627cd972acb0b60f72544" prot="public" virt="non-virtual"><scope>gr::filter::pfb_arb_resampler_ccf</scope><name>msg_queue_map_t</name></member>
+      <member refid="structgr__block_1a286bffc161bcdd89a597786290761df5" prot="public" virt="non-virtual"><scope>gr::filter::pfb_arb_resampler_ccf</scope><name>msg_queue_t</name></member>
+      <member refid="structgr__block_1ad11a2f8b6ec1b0d25b199952e535bcec" prot="public" virt="non-virtual"><scope>gr::filter::pfb_arb_resampler_ccf</scope><name>name</name></member>
+      <member refid="structgr__block_1a47ab6e16b5901f70fe5a8794733a88b9" prot="public" virt="non-virtual"><scope>gr::filter::pfb_arb_resampler_ccf</scope><name>nitems_read</name></member>
+      <member refid="structgr__block_1aa66fc9210a1c5ad4f0dcbc0270b52928" prot="public" virt="non-virtual"><scope>gr::filter::pfb_arb_resampler_ccf</scope><name>nitems_written</name></member>
+      <member refid="structgr__block_1ab8737131b7070c5a1d5be43911545dd7" prot="public" virt="non-virtual"><scope>gr::filter::pfb_arb_resampler_ccf</scope><name>notify_active</name></member>
+      <member refid="structgr__block_1afa52be284fe984defa46c6382f2186c2" prot="public" virt="non-virtual"><scope>gr::filter::pfb_arb_resampler_ccf</scope><name>notify_inactive</name></member>
+      <member refid="structgr__block_1a6a2fa20ff41d8293cb7643a3549961c8" prot="public" virt="non-virtual"><scope>gr::filter::pfb_arb_resampler_ccf</scope><name>notify_topology</name></member>
+      <member refid="structgr__block_1aec08928dc600ad0b81221df3e97eb2e1" prot="public" virt="non-virtual"><scope>gr::filter::pfb_arb_resampler_ccf</scope><name>output_buffer_allocator</name></member>
+      <member refid="structgr__block_1a362d4f96ecdbfbfcce67bb4cf2e437a4" prot="public" virt="non-virtual"><scope>gr::filter::pfb_arb_resampler_ccf</scope><name>output_multiple</name></member>
+      <member refid="structgr__block_1a753deb3a5c0ba82bfc38e0cedb3568ec" prot="public" virt="non-virtual"><scope>gr::filter::pfb_arb_resampler_ccf</scope><name>output_signature</name></member>
+      <member refid="classgr_1_1filter_1_1pfb__arb__resampler__ccf_1a048018b2d65e8593988c122b8cc78c53" prot="public" virt="pure-virtual"><scope>gr::filter::pfb_arb_resampler_ccf</scope><name>phase</name></member>
+      <member refid="classgr_1_1filter_1_1pfb__arb__resampler__ccf_1a11c5af08a368eeedd4f6d0a9cc48610e" prot="public" virt="pure-virtual"><scope>gr::filter::pfb_arb_resampler_ccf</scope><name>print_taps</name></member>
+      <member refid="structgr__block_1a3aa2883db9211f3163911c10868f3ae0" prot="public" virt="non-virtual"><scope>gr::filter::pfb_arb_resampler_ccf</scope><name>processor_affinity</name></member>
+      <member refid="structgr__block_1a621b10e62f099a327e400a91be5bb8a4" prot="public" virt="non-virtual"><scope>gr::filter::pfb_arb_resampler_ccf</scope><name>produce</name></member>
+      <member refid="structgr__block_1a39e2278465a02757bfb22fef7a287cea" prot="public" virt="virtual"><scope>gr::filter::pfb_arb_resampler_ccf</scope><name>propagate_tags</name></member>
+      <member refid="structgr__block_1a917e315aa78802c773a05e7480f694aa" prot="public" virt="non-virtual"><scope>gr::filter::pfb_arb_resampler_ccf</scope><name>relative_rate</name></member>
+      <member refid="structgr__block_1a396a40ec2b835eade1d6318082170ff7" prot="public" virt="non-virtual"><scope>gr::filter::pfb_arb_resampler_ccf</scope><name>set_alignment</name></member>
+      <member refid="structgr__block_1abf57a977c6fb9e69728a29c560ef89a1" prot="public" virt="non-virtual"><scope>gr::filter::pfb_arb_resampler_ccf</scope><name>set_block_alias</name></member>
+      <member refid="structgr__block_1ab377872b919192a07a328d800d8b3251" prot="public" virt="non-virtual"><scope>gr::filter::pfb_arb_resampler_ccf</scope><name>set_decimation</name></member>
+      <member refid="structgr__block_1a9c4c1c52f561c9b5fbab0d8d816b2460" prot="public" virt="non-virtual"><scope>gr::filter::pfb_arb_resampler_ccf</scope><name>set_fixed_rate</name></member>
+      <member refid="structgr__block_1a7c1c85a2d47f72255efd821a6f98f7ba" prot="public" virt="non-virtual"><scope>gr::filter::pfb_arb_resampler_ccf</scope><name>set_history</name></member>
+      <member refid="structgr__block_1aae3d3f31954d2cf6d563b03a437bb711" prot="public" virt="non-virtual"><scope>gr::filter::pfb_arb_resampler_ccf</scope><name>set_input_signature</name></member>
+      <member refid="structgr__block_1a9eaa1761f77e5ad63798801747b0461c" prot="public" virt="non-virtual"><scope>gr::filter::pfb_arb_resampler_ccf</scope><name>set_interpolation</name></member>
+      <member refid="structgr__block_1ade902474ad5a239cfae8f74776626107" prot="public" virt="non-virtual"><scope>gr::filter::pfb_arb_resampler_ccf</scope><name>set_max_noutput_items</name></member>
+      <member refid="structgr__block_1a12ed3111300057dc0fe2e535de6a223e" prot="public" virt="non-virtual"><scope>gr::filter::pfb_arb_resampler_ccf</scope><name>set_max_output_buffer</name></member>
+      <member refid="structgr__block_1a8e8a107a28b8e88f3acc28fed3a55e17" prot="public" virt="non-virtual"><scope>gr::filter::pfb_arb_resampler_ccf</scope><name>set_max_output_buffer</name></member>
+      <member refid="structgr__block_1aac7b948761dc7c36b137a714a708990f" prot="public" virt="non-virtual"><scope>gr::filter::pfb_arb_resampler_ccf</scope><name>set_min_output_buffer</name></member>
+      <member refid="structgr__block_1aab63ebc4f7bebaa21c8562e064b4762d" prot="public" virt="non-virtual"><scope>gr::filter::pfb_arb_resampler_ccf</scope><name>set_min_output_buffer</name></member>
+      <member refid="structgr__block_1aa1a287ef83e6e1c34b5ade5350560de2" prot="public" virt="non-virtual"><scope>gr::filter::pfb_arb_resampler_ccf</scope><name>set_msg_handler</name></member>
+      <member refid="structgr__block_1ab4669fb904807f5457aaf132143c8047" prot="public" virt="non-virtual"><scope>gr::filter::pfb_arb_resampler_ccf</scope><name>set_output_multiple</name></member>
+      <member refid="structgr__block_1ab026bc31dd66dcd264f20b97b9d7149b" prot="public" virt="non-virtual"><scope>gr::filter::pfb_arb_resampler_ccf</scope><name>set_output_signature</name></member>
+      <member refid="classgr_1_1filter_1_1pfb__arb__resampler__ccf_1a56a865ddeedf9f627f7c57c67f655fb7" prot="public" virt="pure-virtual"><scope>gr::filter::pfb_arb_resampler_ccf</scope><name>set_phase</name></member>
+      <member refid="structgr__block_1a3de8d28d8c6b1e7ef0a2b56c4ef7f078" prot="public" virt="non-virtual"><scope>gr::filter::pfb_arb_resampler_ccf</scope><name>set_processor_affinity</name></member>
+      <member refid="classgr_1_1filter_1_1pfb__arb__resampler__ccf_1a91e1f667ae783610629114a83b4a00eb" prot="public" virt="pure-virtual"><scope>gr::filter::pfb_arb_resampler_ccf</scope><name>set_rate</name></member>
+      <member refid="structgr__block_1ab0603679f2bd3d808116fa544f256e23" prot="public" virt="non-virtual"><scope>gr::filter::pfb_arb_resampler_ccf</scope><name>set_relative_rate</name></member>
+      <member refid="structgr__block_1af9bce945f28950c1800d8deb6bb997a1" prot="public" virt="non-virtual"><scope>gr::filter::pfb_arb_resampler_ccf</scope><name>set_tag_propagation_policy</name></member>
+      <member refid="classgr_1_1filter_1_1pfb__arb__resampler__ccf_1a27c645f4821d2b302f9d1ada90070850" prot="public" virt="pure-virtual"><scope>gr::filter::pfb_arb_resampler_ccf</scope><name>set_taps</name></member>
+      <member refid="classgr_1_1filter_1_1pfb__arb__resampler__ccf_1a0925617959fcbcf3166aa46c0e6c0232" prot="public" virt="non-virtual"><scope>gr::filter::pfb_arb_resampler_ccf</scope><name>sptr</name></member>
+      <member refid="structgr__block_1a718fcf6d92d239f06f45db4c0226b145" prot="public" virt="virtual"><scope>gr::filter::pfb_arb_resampler_ccf</scope><name>start</name></member>
+      <member refid="structgr__block_1a21a735a5bcd8e068b33488219a5100cf" prot="public" virt="virtual"><scope>gr::filter::pfb_arb_resampler_ccf</scope><name>stop</name></member>
+      <member refid="structgr__block_1a70dc9e505869f89dc96731ca4a2f19a9" prot="public" virt="non-virtual"><scope>gr::filter::pfb_arb_resampler_ccf</scope><name>symbol_name</name></member>
+      <member refid="structgr__block_1ae659e236f33209a0882f69e628485d33" prot="public" virt="non-virtual"><scope>gr::filter::pfb_arb_resampler_ccf</scope><name>tag_propagation_policy</name></member>
+      <member refid="structgr__block_1a32561c88f124ea07881879fe79840f61" prot="public" virt="non-virtual"><scope>gr::filter::pfb_arb_resampler_ccf</scope><name>tag_propagation_policy_t</name></member>
+      <member refid="classgr_1_1filter_1_1pfb__arb__resampler__ccf_1a08d14a78fc5b13ac726394ee6e8aa441" prot="public" virt="pure-virtual"><scope>gr::filter::pfb_arb_resampler_ccf</scope><name>taps</name></member>
+      <member refid="structgr__block_1a32561c88f124ea07881879fe79840f61ac59dabb0af9fac19958d18378f3cfbfb" prot="public" virt="non-virtual"><scope>gr::filter::pfb_arb_resampler_ccf</scope><name>TPP_ALL_TO_ALL</name></member>
+      <member refid="structgr__block_1a32561c88f124ea07881879fe79840f61ad472255a4873399940aec9d614d82287" prot="public" virt="non-virtual"><scope>gr::filter::pfb_arb_resampler_ccf</scope><name>TPP_DONT</name></member>
+      <member refid="structgr__block_1a32561c88f124ea07881879fe79840f61a98228946b0f3b3887230269c9ba5a60f" prot="public" virt="non-virtual"><scope>gr::filter::pfb_arb_resampler_ccf</scope><name>TPP_ONE_TO_ONE</name></member>
+      <member refid="structgr__block_1a204b13559542a2592ba1e4f04a2df6ff" prot="public" virt="non-virtual"><scope>gr::filter::pfb_arb_resampler_ccf</scope><name>unique_id</name></member>
+      <member refid="structgr__block_1a20976c136225e8ec9976178706b1a632" prot="public" virt="non-virtual"><scope>gr::filter::pfb_arb_resampler_ccf</scope><name>unset_max_noutput_items</name></member>
+      <member refid="structgr__block_1ad970b908c19d27123e6bafcd614296c6" prot="public" virt="non-virtual"><scope>gr::filter::pfb_arb_resampler_ccf</scope><name>unset_processor_affinity</name></member>
+      <member refid="structgr__block_1adeaee615c6abc556e2c458b3622690d2" prot="public" virt="non-virtual"><scope>gr::filter::pfb_arb_resampler_ccf</scope><name>work</name></member>
+      <member refid="structgr__block_1af026aa236701757fd5f71129daad883ca248a1e0554813ce26007ff5ec1530392" prot="public" virt="non-virtual"><scope>gr::filter::pfb_arb_resampler_ccf</scope><name>WORK_CALLED_PRODUCE</name></member>
+      <member refid="structgr__block_1af026aa236701757fd5f71129daad883ca221c2211857dcee81fb2bbb97fe6b223" prot="public" virt="non-virtual"><scope>gr::filter::pfb_arb_resampler_ccf</scope><name>WORK_DONE</name></member>
+      <member refid="structgr__block_1a0e702018b9f163c49470f0c5f1b2512c" prot="public" virt="virtual"><scope>gr::filter::pfb_arb_resampler_ccf</scope><name>~gr_block</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

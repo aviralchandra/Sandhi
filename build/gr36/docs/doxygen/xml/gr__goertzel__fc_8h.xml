@@ -1,0 +1,277 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="gr__goertzel__fc_8h" kind="file">
+    <compoundname>gr_goertzel_fc.h</compoundname>
+    <includes refid="gr__core__api_8h" local="no">gr_core_api.h</includes>
+    <includes refid="gri__goertzel_8h" local="no">gri_goertzel.h</includes>
+    <includes refid="gr__sync__decimator_8h" local="no">gr_sync_decimator.h</includes>
+    <incdepgraph>
+      <node id="7822">
+        <label>boost/thread/mutex.hpp</label>
+      </node>
+      <node id="7824">
+        <label>boost/thread/condition_variable.hpp</label>
+      </node>
+      <node id="7806">
+        <label>boost/shared_ptr.hpp</label>
+      </node>
+      <node id="7803">
+        <label>gruel/pmt.h</label>
+        <link refid="pmt_8h"/>
+        <childnode refid="7804" relation="include">
+        </childnode>
+        <childnode refid="7805" relation="include">
+        </childnode>
+        <childnode refid="7806" relation="include">
+        </childnode>
+        <childnode refid="7807" relation="include">
+        </childnode>
+        <childnode refid="7808" relation="include">
+        </childnode>
+        <childnode refid="7809" relation="include">
+        </childnode>
+        <childnode refid="7810" relation="include">
+        </childnode>
+        <childnode refid="7813" relation="include">
+        </childnode>
+        <childnode refid="7814" relation="include">
+        </childnode>
+        <childnode refid="7815" relation="include">
+        </childnode>
+        <childnode refid="7816" relation="include">
+        </childnode>
+      </node>
+      <node id="7805">
+        <label>boost/intrusive_ptr.hpp</label>
+      </node>
+      <node id="7789">
+        <label>gr_core_api.h</label>
+        <link refid="gr__core__api_8h"/>
+        <childnode refid="7790" relation="include">
+        </childnode>
+      </node>
+      <node id="7810">
+        <label>stdint.h</label>
+        <link refid="stdint_8h"/>
+        <childnode refid="7811" relation="include">
+        </childnode>
+        <childnode refid="7812" relation="include">
+        </childnode>
+      </node>
+      <node id="7796">
+        <label>gras/hier_block.hpp</label>
+      </node>
+      <node id="7795">
+        <label>gras/top_block.hpp</label>
+      </node>
+      <node id="7819">
+        <label>boost/foreach.hpp</label>
+      </node>
+      <node id="7814">
+        <label>stdexcept</label>
+      </node>
+      <node id="7794">
+        <label>gras/block.hpp</label>
+      </node>
+      <node id="7821">
+        <label>boost/thread/thread.hpp</label>
+      </node>
+      <node id="7809">
+        <label>string</label>
+      </node>
+      <node id="7818">
+        <label>map</label>
+      </node>
+      <node id="7790">
+        <label>gruel/attributes.h</label>
+        <link refid="attributes_8h"/>
+      </node>
+      <node id="7797">
+        <label>gr_sync_decimator.h</label>
+        <link refid="gr__sync__decimator_8h"/>
+        <childnode refid="7798" relation="include">
+        </childnode>
+      </node>
+      <node id="7811">
+        <label>limits.h</label>
+      </node>
+      <node id="7807">
+        <label>boost/any.hpp</label>
+      </node>
+      <node id="7799">
+        <label>gr_block.h</label>
+        <link refid="gr__block_8h"/>
+        <childnode refid="7789" relation="include">
+        </childnode>
+        <childnode refid="7794" relation="include">
+        </childnode>
+        <childnode refid="7800" relation="include">
+        </childnode>
+        <childnode refid="7792" relation="include">
+        </childnode>
+        <childnode refid="7802" relation="include">
+        </childnode>
+        <childnode refid="7809" relation="include">
+        </childnode>
+        <childnode refid="7817" relation="include">
+        </childnode>
+        <childnode refid="7818" relation="include">
+        </childnode>
+        <childnode refid="7819" relation="include">
+        </childnode>
+        <childnode refid="7820" relation="include">
+        </childnode>
+        <childnode refid="7825" relation="include">
+        </childnode>
+      </node>
+      <node id="7801">
+        <label>gr_runtime_types.h</label>
+        <link refid="gr__runtime__types_8h"/>
+        <childnode refid="7789" relation="include">
+        </childnode>
+        <childnode refid="7792" relation="include">
+        </childnode>
+      </node>
+      <node id="7791">
+        <label>gri_goertzel.h</label>
+        <link refid="gri__goertzel_8h"/>
+        <childnode refid="7789" relation="include">
+        </childnode>
+        <childnode refid="7792" relation="include">
+        </childnode>
+      </node>
+      <node id="7812">
+        <label>wchar.h</label>
+      </node>
+      <node id="7816">
+        <label>gruel/pmt_sugar.h</label>
+        <link refid="pmt__sugar_8h"/>
+      </node>
+      <node id="7823">
+        <label>boost/thread/locks.hpp</label>
+      </node>
+      <node id="7788">
+        <label>gr_goertzel_fc.h</label>
+        <link refid="gr_goertzel_fc.h"/>
+        <childnode refid="7789" relation="include">
+        </childnode>
+        <childnode refid="7791" relation="include">
+        </childnode>
+        <childnode refid="7797" relation="include">
+        </childnode>
+      </node>
+      <node id="7798">
+        <label>gr_sync_block.h</label>
+        <link refid="gr__sync__block_8h"/>
+        <childnode refid="7799" relation="include">
+        </childnode>
+      </node>
+      <node id="7815">
+        <label>vector</label>
+      </node>
+      <node id="7800">
+        <label>gr_io_signature.h</label>
+        <link refid="gr__io__signature_8h"/>
+        <childnode refid="7789" relation="include">
+        </childnode>
+        <childnode refid="7801" relation="include">
+        </childnode>
+      </node>
+      <node id="7804">
+        <label>gruel/api.h</label>
+        <link refid="gruel_2src_2include_2gruel_2api_8h"/>
+        <childnode refid="7790" relation="include">
+        </childnode>
+      </node>
+      <node id="7813">
+        <label>iosfwd</label>
+      </node>
+      <node id="7792">
+        <label>gr_types.h</label>
+        <link refid="gr__types_8h"/>
+        <childnode refid="7793" relation="include">
+        </childnode>
+        <childnode refid="7794" relation="include">
+        </childnode>
+        <childnode refid="7795" relation="include">
+        </childnode>
+        <childnode refid="7796" relation="include">
+        </childnode>
+      </node>
+      <node id="7820">
+        <label>gruel/thread.h</label>
+        <link refid="thread_8h"/>
+        <childnode refid="7804" relation="include">
+        </childnode>
+        <childnode refid="7821" relation="include">
+        </childnode>
+        <childnode refid="7822" relation="include">
+        </childnode>
+        <childnode refid="7823" relation="include">
+        </childnode>
+        <childnode refid="7824" relation="include">
+        </childnode>
+        <childnode refid="7815" relation="include">
+        </childnode>
+      </node>
+      <node id="7817">
+        <label>deque</label>
+      </node>
+      <node id="7802">
+        <label>gr_tags.h</label>
+        <link refid="gr__tags_8h"/>
+        <childnode refid="7789" relation="include">
+        </childnode>
+        <childnode refid="7803" relation="include">
+        </childnode>
+      </node>
+      <node id="7808">
+        <label>complex</label>
+      </node>
+      <node id="7825">
+        <label>gr_sptr_magic.h</label>
+        <link refid="gr__sptr__magic_8h_source"/>
+        <childnode refid="7789" relation="include">
+        </childnode>
+        <childnode refid="7806" relation="include">
+        </childnode>
+      </node>
+      <node id="7793">
+        <label>gras/element.hpp</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classgr__goertzel__fc" prot="public">gr_goertzel_fc</innerclass>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="gr__goertzel__fc_8h_1abbe77cbe5fc5123f75ebfba5d969e2c2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="gr__core__api_8h_1a8b8937b0c61edd85ab57ce8203543248" kindref="member">GR_CORE_API</ref> <ref refid="classboost_1_1shared__ptr" kindref="compound">gr_goertzel_fc_sptr</ref></type>
+        <definition>GR_CORE_API gr_goertzel_fc_sptr gr_make_goertzel_fc</definition>
+        <argsstring>(int rate, int len, float freq)</argsstring>
+        <name>gr_make_goertzel_fc</name>
+        <param>
+          <type>int</type>
+          <declname>rate</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>len</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>freq</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/filter/gr_goertzel_fc.h" line="34"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/filter/gr_goertzel_fc.h"/>
+  </compounddef>
+</doxygen>

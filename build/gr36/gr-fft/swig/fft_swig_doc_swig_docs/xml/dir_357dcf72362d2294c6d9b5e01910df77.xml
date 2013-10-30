@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="dir_357dcf72362d2294c6d9b5e01910df77" kind="dir">
+    <compoundname>/home/aviral/GNU-Niyantran/gr36/gr-fft/</compoundname>
+    <innerdir refid="dir_3de32fa1cf32d2a4e57f06038842f73c">/home/aviral/GNU-Niyantran/gr36/gr-fft/include/</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/aviral/GNU-Niyantran/gr36/gr-fft/"/>
+  </compounddef>
+</doxygen>

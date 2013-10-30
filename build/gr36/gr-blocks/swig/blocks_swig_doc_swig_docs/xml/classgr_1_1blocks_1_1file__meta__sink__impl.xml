@@ -1,0 +1,575 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="classgr_1_1blocks_1_1file__meta__sink__impl" kind="class" prot="public">
+    <compoundname>gr::blocks::file_meta_sink_impl</compoundname>
+    <includes refid="file__meta__sink__impl_8h" local="no">file_meta_sink_impl.h</includes>
+      <sectiondef kind="private-type">
+      <memberdef kind="enum" id="classgr_1_1blocks_1_1file__meta__sink__impl_1a9ff9ff474de02977e71e40f181a195dd" prot="private" static="no">
+        <name>meta_state_t</name>
+        <enumvalue id="classgr_1_1blocks_1_1file__meta__sink__impl_1a9ff9ff474de02977e71e40f181a195dda389d94f1f0af8d2f27d571f5608f3319" prot="private">
+          <name>STATE_INLINE</name>
+          <initializer>0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classgr_1_1blocks_1_1file__meta__sink__impl_1a9ff9ff474de02977e71e40f181a195dda92d921788b8a70847a983c00eaefbc6b" prot="private">
+          <name>STATE_DETACHED</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/file_meta_sink_impl.h" line="38" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/file_meta_sink_impl.h" bodystart="38" bodyend="41"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1blocks_1_1file__meta__sink__impl_1ad2c6b4b58f145173d2d7bb66a988c386" prot="private" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t gr::blocks::file_meta_sink_impl::d_itemsize</definition>
+        <argsstring></argsstring>
+        <name>d_itemsize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/file_meta_sink_impl.h" line="43" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/file_meta_sink_impl.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1blocks_1_1file__meta__sink__impl_1ae21b5495b31b57f07464c2345e981577" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double gr::blocks::file_meta_sink_impl::d_samp_rate</definition>
+        <argsstring></argsstring>
+        <name>d_samp_rate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/file_meta_sink_impl.h" line="44" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/file_meta_sink_impl.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1blocks_1_1file__meta__sink__impl_1afa44301b8c4971b87780f1ca89d58a3e" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double gr::blocks::file_meta_sink_impl::d_relative_rate</definition>
+        <argsstring></argsstring>
+        <name>d_relative_rate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/file_meta_sink_impl.h" line="45" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/file_meta_sink_impl.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1blocks_1_1file__meta__sink__impl_1a632b070e59035f29aa4399064554e865" prot="private" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t gr::blocks::file_meta_sink_impl::d_max_seg_size</definition>
+        <argsstring></argsstring>
+        <name>d_max_seg_size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/file_meta_sink_impl.h" line="46" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/file_meta_sink_impl.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1blocks_1_1file__meta__sink__impl_1abeff3c0ad995f093ce2c9103543efb71" prot="private" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t gr::blocks::file_meta_sink_impl::d_total_seg_size</definition>
+        <argsstring></argsstring>
+        <name>d_total_seg_size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/file_meta_sink_impl.h" line="47" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/file_meta_sink_impl.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1blocks_1_1file__meta__sink__impl_1a833fb1f2456ed456c64231bca6c65323" prot="private" static="no" mutable="no">
+        <type>pmt_t</type>
+        <definition>pmt_t gr::blocks::file_meta_sink_impl::d_header</definition>
+        <argsstring></argsstring>
+        <name>d_header</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/file_meta_sink_impl.h" line="48" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/file_meta_sink_impl.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1blocks_1_1file__meta__sink__impl_1a0a9cdd62ebb833c8deb9ffa36303f3c8" prot="private" static="no" mutable="no">
+        <type>pmt_t</type>
+        <definition>pmt_t gr::blocks::file_meta_sink_impl::d_extra</definition>
+        <argsstring></argsstring>
+        <name>d_extra</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/file_meta_sink_impl.h" line="49" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/file_meta_sink_impl.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1blocks_1_1file__meta__sink__impl_1a168a2c44395f6c69c9e0f0da46d4742f" prot="private" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t gr::blocks::file_meta_sink_impl::d_extra_size</definition>
+        <argsstring></argsstring>
+        <name>d_extra_size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/file_meta_sink_impl.h" line="50" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/file_meta_sink_impl.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1blocks_1_1file__meta__sink__impl_1a802ad9c51d21e66891bc3f0e1ff5b6d7" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool gr::blocks::file_meta_sink_impl::d_updated</definition>
+        <argsstring></argsstring>
+        <name>d_updated</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/file_meta_sink_impl.h" line="51" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/file_meta_sink_impl.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1blocks_1_1file__meta__sink__impl_1adf2ff743b69e8c86d4adb633d9d61d8e" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool gr::blocks::file_meta_sink_impl::d_unbuffered</definition>
+        <argsstring></argsstring>
+        <name>d_unbuffered</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/file_meta_sink_impl.h" line="52" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/file_meta_sink_impl.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1blocks_1_1file__meta__sink__impl_1a3ba47cd689b641afb56d6abe0d2f954d" prot="private" static="no" mutable="no">
+        <type>boost::mutex</type>
+        <definition>boost::mutex gr::blocks::file_meta_sink_impl::d_mutex</definition>
+        <argsstring></argsstring>
+        <name>d_mutex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/file_meta_sink_impl.h" line="54" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/file_meta_sink_impl.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1blocks_1_1file__meta__sink__impl_1aaf30ec63dd9c2c4e0eff9bbac0992873" prot="private" static="no" mutable="no">
+        <type>FILE *</type>
+        <definition>FILE* gr::blocks::file_meta_sink_impl::d_new_fp</definition>
+        <argsstring></argsstring>
+        <name>d_new_fp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/file_meta_sink_impl.h" line="55" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/file_meta_sink_impl.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1blocks_1_1file__meta__sink__impl_1acad53ba6981dd3e93c1af8c1e2b12e88" prot="private" static="no" mutable="no">
+        <type>FILE *</type>
+        <definition>FILE * gr::blocks::file_meta_sink_impl::d_new_hdr_fp</definition>
+        <argsstring></argsstring>
+        <name>d_new_hdr_fp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/file_meta_sink_impl.h" line="55" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/file_meta_sink_impl.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1blocks_1_1file__meta__sink__impl_1a6ce2a2632943ae1530882ccd4243db3c" prot="private" static="no" mutable="no">
+        <type>FILE *</type>
+        <definition>FILE* gr::blocks::file_meta_sink_impl::d_fp</definition>
+        <argsstring></argsstring>
+        <name>d_fp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/file_meta_sink_impl.h" line="56" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/file_meta_sink_impl.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1blocks_1_1file__meta__sink__impl_1a76b990d9cfba5cc2558cc45534b7de02" prot="private" static="no" mutable="no">
+        <type>FILE *</type>
+        <definition>FILE * gr::blocks::file_meta_sink_impl::d_hdr_fp</definition>
+        <argsstring></argsstring>
+        <name>d_hdr_fp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/file_meta_sink_impl.h" line="56" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/file_meta_sink_impl.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1blocks_1_1file__meta__sink__impl_1a22125cc2262958b560e961cf40a56582" prot="private" static="no" mutable="no">
+        <type>meta_state_t</type>
+        <definition>meta_state_t gr::blocks::file_meta_sink_impl::d_state</definition>
+        <argsstring></argsstring>
+        <name>d_state</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/file_meta_sink_impl.h" line="57" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/file_meta_sink_impl.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classgr_1_1blocks_1_1file__meta__sink__impl_1a12cad392eee1e8f20f87625d2a0005ae" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::blocks::file_meta_sink_impl::write_header</definition>
+        <argsstring>(FILE *fp, pmt_t header, pmt_t extra)</argsstring>
+        <name>write_header</name>
+        <param>
+          <type>FILE *</type>
+          <declname>fp</declname>
+        </param>
+        <param>
+          <type>pmt_t</type>
+          <declname>header</declname>
+        </param>
+        <param>
+          <type>pmt_t</type>
+          <declname>extra</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/file_meta_sink_impl.h" line="60"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1blocks_1_1file__meta__sink__impl_1a2a5518e6f50cf5a1b4da63e7d43c3c82" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::blocks::file_meta_sink_impl::update_header</definition>
+        <argsstring>(pmt_t key, pmt_t value)</argsstring>
+        <name>update_header</name>
+        <param>
+          <type>pmt_t</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>pmt_t</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/file_meta_sink_impl.h" line="61"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1blocks_1_1file__meta__sink__impl_1a5c4a57b0a44246f664fb3a64a7885839" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::blocks::file_meta_sink_impl::update_last_header</definition>
+        <argsstring>()</argsstring>
+        <name>update_last_header</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/file_meta_sink_impl.h" line="62"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1blocks_1_1file__meta__sink__impl_1a834bdee1c1513008139969b25f78263b" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::blocks::file_meta_sink_impl::update_last_header_inline</definition>
+        <argsstring>()</argsstring>
+        <name>update_last_header_inline</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/file_meta_sink_impl.h" line="63"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1blocks_1_1file__meta__sink__impl_1af517047ddf6e75f58607f631943e3599" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::blocks::file_meta_sink_impl::update_last_header_detached</definition>
+        <argsstring>()</argsstring>
+        <name>update_last_header_detached</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/file_meta_sink_impl.h" line="64"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1blocks_1_1file__meta__sink__impl_1a86da155590aa1a37874266dc7670ad09" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::blocks::file_meta_sink_impl::write_and_update</definition>
+        <argsstring>()</argsstring>
+        <name>write_and_update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/file_meta_sink_impl.h" line="65"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1blocks_1_1file__meta__sink__impl_1a393532f286cf52d39d651c580042dbe7" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::blocks::file_meta_sink_impl::update_rx_time</definition>
+        <argsstring>()</argsstring>
+        <name>update_rx_time</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/file_meta_sink_impl.h" line="66"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1blocks_1_1file__meta__sink__impl_1a9b5b9602784980f966c459ed21887d9b" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool gr::blocks::file_meta_sink_impl::_open</definition>
+        <argsstring>(FILE **fp, const char *filename)</argsstring>
+        <name>_open</name>
+        <param>
+          <type>FILE **</type>
+          <declname>fp</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>filename</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/file_meta_sink_impl.h" line="68"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1blocks_1_1file__meta__sink__impl_1a433448c9e0b612caeb2468c4068fdd10" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::blocks::file_meta_sink_impl::file_meta_sink_impl</definition>
+        <argsstring>(size_t itemsize, const std::string &amp;filename, double samp_rate=1, double relative_rate=1, gr_file_types type=GR_FILE_FLOAT, bool complex=true, size_t max_segment_size=1000000, const std::string &amp;extra_dict=&quot;&quot;, bool detached_header=false)</argsstring>
+        <name>file_meta_sink_impl</name>
+        <param>
+          <type>size_t</type>
+          <declname>itemsize</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>filename</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>samp_rate</declname>
+          <defval>1</defval>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>relative_rate</declname>
+          <defval>1</defval>
+        </param>
+        <param>
+          <type>gr_file_types</type>
+          <declname>type</declname>
+          <defval>GR_FILE_FLOAT</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>complex</declname>
+          <defval>true</defval>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>max_segment_size</declname>
+          <defval>1000000</defval>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>extra_dict</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>detached_header</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/file_meta_sink_impl.h" line="76"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1blocks_1_1file__meta__sink__impl_1a4d9bfd3ff83ea7d282b221d0a7e33253" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::blocks::file_meta_sink_impl::~file_meta_sink_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~file_meta_sink_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/file_meta_sink_impl.h" line="77"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1blocks_1_1file__meta__sink__impl_1a700c4d20031afd50195dd6e3c413abd8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool gr::blocks::file_meta_sink_impl::open</definition>
+        <argsstring>(const std::string &amp;filename)</argsstring>
+        <name>open</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>filename</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/file_meta_sink_impl.h" line="79"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1blocks_1_1file__meta__sink__impl_1a32a05a04ef29e8464b79b79b028f7f55" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::blocks::file_meta_sink_impl::close</definition>
+        <argsstring>()</argsstring>
+        <name>close</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/file_meta_sink_impl.h" line="80"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1blocks_1_1file__meta__sink__impl_1abaf1aa52aead35a2fcd78b018bedd215" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::blocks::file_meta_sink_impl::do_update</definition>
+        <argsstring>()</argsstring>
+        <name>do_update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/file_meta_sink_impl.h" line="81"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1blocks_1_1file__meta__sink__impl_1aa3732a28beea4bdeb4e6b6f801e3a547" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::blocks::file_meta_sink_impl::set_unbuffered</definition>
+        <argsstring>(bool unbuffered)</argsstring>
+        <name>set_unbuffered</name>
+        <param>
+          <type>bool</type>
+          <declname>unbuffered</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/file_meta_sink_impl.h" line="84" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/file_meta_sink_impl.h" bodystart="83" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1blocks_1_1file__meta__sink__impl_1a7342345d9a5e04878e5da2c1de05f4aa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::blocks::file_meta_sink_impl::work</definition>
+        <argsstring>(int noutput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/file_meta_sink_impl.h" line="90"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/file_meta_sink_impl.h" line="36" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/file_meta_sink_impl.h" bodystart="35" bodyend="91"/>
+    <listofallmembers>
+      <member refid="classgr_1_1blocks_1_1file__meta__sink__impl_1a9b5b9602784980f966c459ed21887d9b" prot="protected" virt="non-virtual"><scope>gr::blocks::file_meta_sink_impl</scope><name>_open</name></member>
+      <member refid="classgr_1_1blocks_1_1file__meta__sink__impl_1a32a05a04ef29e8464b79b79b028f7f55" prot="public" virt="non-virtual"><scope>gr::blocks::file_meta_sink_impl</scope><name>close</name></member>
+      <member refid="classgr_1_1blocks_1_1file__meta__sink__impl_1a0a9cdd62ebb833c8deb9ffa36303f3c8" prot="private" virt="non-virtual"><scope>gr::blocks::file_meta_sink_impl</scope><name>d_extra</name></member>
+      <member refid="classgr_1_1blocks_1_1file__meta__sink__impl_1a168a2c44395f6c69c9e0f0da46d4742f" prot="private" virt="non-virtual"><scope>gr::blocks::file_meta_sink_impl</scope><name>d_extra_size</name></member>
+      <member refid="classgr_1_1blocks_1_1file__meta__sink__impl_1a6ce2a2632943ae1530882ccd4243db3c" prot="private" virt="non-virtual"><scope>gr::blocks::file_meta_sink_impl</scope><name>d_fp</name></member>
+      <member refid="classgr_1_1blocks_1_1file__meta__sink__impl_1a76b990d9cfba5cc2558cc45534b7de02" prot="private" virt="non-virtual"><scope>gr::blocks::file_meta_sink_impl</scope><name>d_hdr_fp</name></member>
+      <member refid="classgr_1_1blocks_1_1file__meta__sink__impl_1a833fb1f2456ed456c64231bca6c65323" prot="private" virt="non-virtual"><scope>gr::blocks::file_meta_sink_impl</scope><name>d_header</name></member>
+      <member refid="classgr_1_1blocks_1_1file__meta__sink__impl_1ad2c6b4b58f145173d2d7bb66a988c386" prot="private" virt="non-virtual"><scope>gr::blocks::file_meta_sink_impl</scope><name>d_itemsize</name></member>
+      <member refid="classgr_1_1blocks_1_1file__meta__sink__impl_1a632b070e59035f29aa4399064554e865" prot="private" virt="non-virtual"><scope>gr::blocks::file_meta_sink_impl</scope><name>d_max_seg_size</name></member>
+      <member refid="classgr_1_1blocks_1_1file__meta__sink__impl_1a3ba47cd689b641afb56d6abe0d2f954d" prot="private" virt="non-virtual"><scope>gr::blocks::file_meta_sink_impl</scope><name>d_mutex</name></member>
+      <member refid="classgr_1_1blocks_1_1file__meta__sink__impl_1aaf30ec63dd9c2c4e0eff9bbac0992873" prot="private" virt="non-virtual"><scope>gr::blocks::file_meta_sink_impl</scope><name>d_new_fp</name></member>
+      <member refid="classgr_1_1blocks_1_1file__meta__sink__impl_1acad53ba6981dd3e93c1af8c1e2b12e88" prot="private" virt="non-virtual"><scope>gr::blocks::file_meta_sink_impl</scope><name>d_new_hdr_fp</name></member>
+      <member refid="classgr_1_1blocks_1_1file__meta__sink__impl_1afa44301b8c4971b87780f1ca89d58a3e" prot="private" virt="non-virtual"><scope>gr::blocks::file_meta_sink_impl</scope><name>d_relative_rate</name></member>
+      <member refid="classgr_1_1blocks_1_1file__meta__sink__impl_1ae21b5495b31b57f07464c2345e981577" prot="private" virt="non-virtual"><scope>gr::blocks::file_meta_sink_impl</scope><name>d_samp_rate</name></member>
+      <member refid="classgr_1_1blocks_1_1file__meta__sink__impl_1a22125cc2262958b560e961cf40a56582" prot="private" virt="non-virtual"><scope>gr::blocks::file_meta_sink_impl</scope><name>d_state</name></member>
+      <member refid="classgr_1_1blocks_1_1file__meta__sink__impl_1abeff3c0ad995f093ce2c9103543efb71" prot="private" virt="non-virtual"><scope>gr::blocks::file_meta_sink_impl</scope><name>d_total_seg_size</name></member>
+      <member refid="classgr_1_1blocks_1_1file__meta__sink__impl_1adf2ff743b69e8c86d4adb633d9d61d8e" prot="private" virt="non-virtual"><scope>gr::blocks::file_meta_sink_impl</scope><name>d_unbuffered</name></member>
+      <member refid="classgr_1_1blocks_1_1file__meta__sink__impl_1a802ad9c51d21e66891bc3f0e1ff5b6d7" prot="private" virt="non-virtual"><scope>gr::blocks::file_meta_sink_impl</scope><name>d_updated</name></member>
+      <member refid="classgr_1_1blocks_1_1file__meta__sink__impl_1abaf1aa52aead35a2fcd78b018bedd215" prot="public" virt="non-virtual"><scope>gr::blocks::file_meta_sink_impl</scope><name>do_update</name></member>
+      <member refid="classgr_1_1blocks_1_1file__meta__sink__impl_1a433448c9e0b612caeb2468c4068fdd10" prot="public" virt="non-virtual"><scope>gr::blocks::file_meta_sink_impl</scope><name>file_meta_sink_impl</name></member>
+      <member refid="classgr_1_1blocks_1_1file__meta__sink__impl_1a9ff9ff474de02977e71e40f181a195dd" prot="private" virt="non-virtual"><scope>gr::blocks::file_meta_sink_impl</scope><name>meta_state_t</name></member>
+      <member refid="classgr_1_1blocks_1_1file__meta__sink__impl_1a700c4d20031afd50195dd6e3c413abd8" prot="public" virt="non-virtual"><scope>gr::blocks::file_meta_sink_impl</scope><name>open</name></member>
+      <member refid="classgr_1_1blocks_1_1file__meta__sink__impl_1aa3732a28beea4bdeb4e6b6f801e3a547" prot="public" virt="non-virtual"><scope>gr::blocks::file_meta_sink_impl</scope><name>set_unbuffered</name></member>
+      <member refid="classgr_1_1blocks_1_1file__meta__sink__impl_1a9ff9ff474de02977e71e40f181a195dda92d921788b8a70847a983c00eaefbc6b" prot="private" virt="non-virtual"><scope>gr::blocks::file_meta_sink_impl</scope><name>STATE_DETACHED</name></member>
+      <member refid="classgr_1_1blocks_1_1file__meta__sink__impl_1a9ff9ff474de02977e71e40f181a195dda389d94f1f0af8d2f27d571f5608f3319" prot="private" virt="non-virtual"><scope>gr::blocks::file_meta_sink_impl</scope><name>STATE_INLINE</name></member>
+      <member refid="classgr_1_1blocks_1_1file__meta__sink__impl_1a2a5518e6f50cf5a1b4da63e7d43c3c82" prot="protected" virt="non-virtual"><scope>gr::blocks::file_meta_sink_impl</scope><name>update_header</name></member>
+      <member refid="classgr_1_1blocks_1_1file__meta__sink__impl_1a5c4a57b0a44246f664fb3a64a7885839" prot="protected" virt="non-virtual"><scope>gr::blocks::file_meta_sink_impl</scope><name>update_last_header</name></member>
+      <member refid="classgr_1_1blocks_1_1file__meta__sink__impl_1af517047ddf6e75f58607f631943e3599" prot="protected" virt="non-virtual"><scope>gr::blocks::file_meta_sink_impl</scope><name>update_last_header_detached</name></member>
+      <member refid="classgr_1_1blocks_1_1file__meta__sink__impl_1a834bdee1c1513008139969b25f78263b" prot="protected" virt="non-virtual"><scope>gr::blocks::file_meta_sink_impl</scope><name>update_last_header_inline</name></member>
+      <member refid="classgr_1_1blocks_1_1file__meta__sink__impl_1a393532f286cf52d39d651c580042dbe7" prot="protected" virt="non-virtual"><scope>gr::blocks::file_meta_sink_impl</scope><name>update_rx_time</name></member>
+      <member refid="classgr_1_1blocks_1_1file__meta__sink__impl_1a7342345d9a5e04878e5da2c1de05f4aa" prot="public" virt="non-virtual"><scope>gr::blocks::file_meta_sink_impl</scope><name>work</name></member>
+      <member refid="classgr_1_1blocks_1_1file__meta__sink__impl_1a86da155590aa1a37874266dc7670ad09" prot="protected" virt="non-virtual"><scope>gr::blocks::file_meta_sink_impl</scope><name>write_and_update</name></member>
+      <member refid="classgr_1_1blocks_1_1file__meta__sink__impl_1a12cad392eee1e8f20f87625d2a0005ae" prot="protected" virt="non-virtual"><scope>gr::blocks::file_meta_sink_impl</scope><name>write_header</name></member>
+      <member refid="classgr_1_1blocks_1_1file__meta__sink__impl_1a4d9bfd3ff83ea7d282b221d0a7e33253" prot="public" virt="non-virtual"><scope>gr::blocks::file_meta_sink_impl</scope><name>~file_meta_sink_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

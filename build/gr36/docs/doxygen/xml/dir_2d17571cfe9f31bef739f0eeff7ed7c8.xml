@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="dir_2d17571cfe9f31bef739f0eeff7ed7c8" kind="dir">
+    <compoundname>/home/aviral/GNU-Niyantran/gr36/docs/doxygen/</compoundname>
+    <innerdir refid="dir_24b2244e2daa8be80b82b929756ee2be">/home/aviral/GNU-Niyantran/gr36/docs/doxygen/doxyxml/</innerdir>
+    <innerdir refid="dir_3a1aa09638f1c4ba806911cf16b66adc">/home/aviral/GNU-Niyantran/gr36/docs/doxygen/other/</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/aviral/GNU-Niyantran/gr36/docs/doxygen/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="dir_b44fe35c4f5254619bf3708fed1c26dd" kind="dir">
+    <compoundname>/home/aviral/GNU-Niyantran/gr36/volk/kernels/</compoundname>
+    <innerdir refid="dir_11020030623977ad68899cf44ff71606">/home/aviral/GNU-Niyantran/gr36/volk/kernels/volk/</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/aviral/GNU-Niyantran/gr36/volk/kernels/"/>
+  </compounddef>
+</doxygen>

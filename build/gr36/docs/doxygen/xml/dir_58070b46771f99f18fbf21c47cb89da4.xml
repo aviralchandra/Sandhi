@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="dir_58070b46771f99f18fbf21c47cb89da4" kind="dir">
+    <compoundname>/home/aviral/GNU-Niyantran/gr36/volk/cmake/</compoundname>
+    <innerdir refid="dir_43c2e6566b11cc0f5a80b90d5191d53a">/home/aviral/GNU-Niyantran/gr36/volk/cmake/msvc/</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/aviral/GNU-Niyantran/gr36/volk/cmake/"/>
+  </compounddef>
+</doxygen>

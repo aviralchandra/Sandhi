@@ -1,0 +1,251 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="volk_8tmpl_8h" kind="file">
+    <compoundname>volk.tmpl.h</compoundname>
+    <includes refid="volk__typedefs_8h" local="no">volk/volk_typedefs.h</includes>
+    <includes local="no">volk/volk_config_fixed.h</includes>
+    <includes refid="volk__common_8h" local="no">volk/volk_common.h</includes>
+    <includes refid="volk__complex_8h" local="no">volk/volk_complex.h</includes>
+    <includes local="no">stdlib.h</includes>
+    <includes refid="stdbool_8h" local="no">stdbool.h</includes>
+    <incdepgraph>
+      <node id="20381">
+        <label>volk/volk_config_fixed.h</label>
+      </node>
+      <node id="20382">
+        <label>volk/volk_common.h</label>
+        <link refid="volk__common_8h"/>
+        <childnode refid="20375" relation="include">
+        </childnode>
+      </node>
+      <node id="20379">
+        <label>volk/volk_complex.h</label>
+        <link refid="volk__complex_8h"/>
+        <childnode refid="20380" relation="include">
+        </childnode>
+      </node>
+      <node id="20376">
+        <label>stdint.h</label>
+        <link refid="stdint_8h"/>
+        <childnode refid="20377" relation="include">
+        </childnode>
+        <childnode refid="20378" relation="include">
+        </childnode>
+      </node>
+      <node id="20375">
+        <label>inttypes.h</label>
+        <link refid="inttypes_8h"/>
+        <childnode refid="20376" relation="include">
+        </childnode>
+      </node>
+      <node id="20383">
+        <label>stdlib.h</label>
+      </node>
+      <node id="20377">
+        <label>limits.h</label>
+      </node>
+      <node id="20373">
+        <label>volk.tmpl.h</label>
+        <link refid="volk.tmpl.h"/>
+        <childnode refid="20374" relation="include">
+        </childnode>
+        <childnode refid="20381" relation="include">
+        </childnode>
+        <childnode refid="20382" relation="include">
+        </childnode>
+        <childnode refid="20379" relation="include">
+        </childnode>
+        <childnode refid="20383" relation="include">
+        </childnode>
+        <childnode refid="20384" relation="include">
+        </childnode>
+      </node>
+      <node id="20378">
+        <label>wchar.h</label>
+      </node>
+      <node id="20380">
+        <label>complex.h</label>
+      </node>
+      <node id="20384">
+        <label>stdbool.h</label>
+        <link refid="stdbool_8h"/>
+      </node>
+      <node id="20374">
+        <label>volk/volk_typedefs.h</label>
+        <link refid="volk__typedefs_8h"/>
+        <childnode refid="20375" relation="include">
+        </childnode>
+        <childnode refid="20379" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innerclass refid="structvolk__func__desc" prot="public">volk_func_desc</innerclass>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="volk_8tmpl_8h_1a9635e171a850de14d45c0984c7430f00" prot="public" static="no">
+        <name>VOLK_OR_PTR</name>
+        <param><defname>ptr0</defname></param>
+        <param><defname>ptr1</defname></param>
+        <initializer>(const <ref refid="volk_8tmpl_8h_1a2b104da38b6f0a28d721ed74346ef298" kindref="member">void</ref> *)(((<ref refid="stdint_8h_1abd3131a20f4053d808d4277db3e39a23" kindref="member">intptr_t</ref>)(ptr0)) | ((<ref refid="stdint_8h_1abd3131a20f4053d808d4277db3e39a23" kindref="member">intptr_t</ref>)(ptr1)))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The VOLK_OR_PTR macro is a convenience macro for checking the alignment of a set of pointers. Example usage: volk_is_aligned(VOLK_OR_PTR((<ref refid="volk_8tmpl_8h_1a9635e171a850de14d45c0984c7430f00" kindref="member">VOLK_OR_PTR(p0, p1)</ref>, p2))) </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/volk/tmpl/volk.tmpl.h" line="53" bodyfile="/home/aviral/GNU-Niyantran/gr36/volk/tmpl/volk.tmpl.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="volk_8tmpl_8h_1a029d9e185308d4bc542ec51437e33a3a" prot="public" static="no">
+        <type><ref refid="volk__common_8h_1ac1abbb6f13c8d9be04370be31ef9c5be" kindref="member">__VOLK_DECL_BEGIN</ref> struct <ref refid="structvolk__func__desc" kindref="compound">volk_func_desc</ref></type>
+        <definition>typedef __VOLK_DECL_BEGIN struct volk_func_desc  volk_func_desc_t</definition>
+        <argsstring></argsstring>
+        <name>volk_func_desc_t</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/volk/tmpl/volk.tmpl.h" line="41"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="volk_8tmpl_8h_1ace3ce91bc48f67ffceaeed6831ee2c57" prot="public" static="no" mutable="no">
+        <type><ref refid="volk__common_8h_1aad4656ebd3cf8ae30363d8bc205a72be" kindref="member">VOLK_API</ref> $<ref refid="volk__typedefs_8tmpl_8h_1a538539b26703ffd6d31458e654170b0d" kindref="member">kern</ref> <ref refid="volk_8tmpl_8h_1a05243f253bd02873e862727c05e1f38e" kindref="member">pname</ref> $<ref refid="volk__typedefs_8tmpl_8h_1a538539b26703ffd6d31458e654170b0d" kindref="member">kern</ref></type>
+        <definition>VOLK_API $kern pname $kern name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <briefdescription>
+<para>A function pointer to the dispatcher implementation. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/volk/tmpl/volk.tmpl.h" line="70"/>
+        <referencedby refid="classgruel_1_1thread__body__wrapper_1ad7604718c4881adbbf0a7085004755b2" compoundref="thread__body__wrapper_8h" startline="42" endline="43">gruel::thread_body_wrapper&lt; F &gt;::thread_body_wrapper</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="volk_8tmpl_8h_1ae460a6bf5371ba0760f076e48a122e02" prot="public" static="no" mutable="no">
+        <type><ref refid="volk__common_8h_1aad4656ebd3cf8ae30363d8bc205a72be" kindref="member">VOLK_API</ref> const char *</type>
+        <definition>VOLK_API const char* impl_name</definition>
+        <argsstring></argsstring>
+        <name>impl_name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/volk/tmpl/volk.tmpl.h" line="79" bodyfile="/home/aviral/GNU-Niyantran/gr36/volk/tmpl/volk.tmpl.h" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="volk_8tmpl_8h_1ab8440b81b01a2fd797288d7dd72ba338" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="volk__common_8h_1aad4656ebd3cf8ae30363d8bc205a72be" kindref="member">VOLK_API</ref> size_t</type>
+        <definition>VOLK_API size_t volk_get_alignment</definition>
+        <argsstring>(void)</argsstring>
+        <name>volk_get_alignment</name>
+        <param>
+          <type><ref refid="volk_8tmpl_8h_1a2b104da38b6f0a28d721ed74346ef298" kindref="member">void</ref></type>
+        </param>
+        <briefdescription>
+<para>Get the machine alignment in bytes. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/volk/tmpl/volk.tmpl.h" line="44"/>
+      </memberdef>
+      <memberdef kind="function" id="volk_8tmpl_8h_1a89918d0ae6df1218c91dfe594c00a8f6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="volk__common_8h_1aad4656ebd3cf8ae30363d8bc205a72be" kindref="member">VOLK_API</ref> <ref refid="stdbool_8h_1a97a80ca1602ebf2303258971a2c938e2" kindref="member">bool</ref></type>
+        <definition>VOLK_API bool volk_is_aligned</definition>
+        <argsstring>(const void *ptr)</argsstring>
+        <name>volk_is_aligned</name>
+        <param>
+          <type>const <ref refid="volk_8tmpl_8h_1a2b104da38b6f0a28d721ed74346ef298" kindref="member">void</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Is the pointer on a machine alignment boundary?</para><para>Note: for performance reasons, this function is not usable until another volk API call is made which will perform certain initialization tasks.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ptr</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the pointer to some memory buffer </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>1 for alignment boundary, else 0 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/volk/tmpl/volk.tmpl.h" line="65"/>
+      </memberdef>
+      <memberdef kind="function" id="volk_8tmpl_8h_1a05243f253bd02873e862727c05e1f38e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="volk__common_8h_1aad4656ebd3cf8ae30363d8bc205a72be" kindref="member">VOLK_API</ref> $<ref refid="volk__typedefs_8tmpl_8h_1a538539b26703ffd6d31458e654170b0d" kindref="member">kern</ref></type>
+        <definition>VOLK_API $kern pname</definition>
+        <argsstring>(kern.name) _a</argsstring>
+        <name>pname</name>
+        <param>
+          <type>kern.</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+<para>A function pointer to the fastest aligned implementation. </para>        </briefdescription>
+        <detaileddescription>
+<para>A function pointer to the fastest unaligned implementation. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/volk/tmpl/volk.tmpl.h" line="73"/>
+      </memberdef>
+      <memberdef kind="function" id="volk_8tmpl_8h_1a2b104da38b6f0a28d721ed74346ef298" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="volk__common_8h_1aad4656ebd3cf8ae30363d8bc205a72be" kindref="member">VOLK_API</ref></type>
+        <definition>VOLK_API void</definition>
+        <argsstring>(kern.name) _manual($kern.arglist_full</argsstring>
+        <name>void</name>
+        <param>
+          <type>kern.</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+<para>Call into a specific implementation given by name. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/volk/tmpl/volk.tmpl.h" line="79"/>
+        <referencedby refid="classgr__basic__block_1a50a714df9c3ce8c03854a09ac84e589b" compoundref="gr__basic__block_8h" startline="245" endline="245">gr_basic_block::check_topology</referencedby>
+        <referencedby refid="gr__complex_8h_1a2ea72f70accbd7fefca28b2690eda735" compoundref="gr__complex_8h" startline="30" endline="30">is_complex</referencedby>
+        <referencedby refid="classgr__basic__block_1a2db8b61c8c009e150e6a847279a18c39" compoundref="gr__basic__block_8h" startline="154" endline="154">gr_basic_block::message_port_is_hier</referencedby>
+        <referencedby refid="structgr__block_1afe36da9de05c8ea55ab4038485d6c45f" compoundref="gr__block_8h" startline="240" endline="240">gr_block::message_port_is_hier</referencedby>
+        <referencedby refid="classgr__basic__block_1aab4dc769345018c146be60394c198774" compoundref="gr__basic__block_8h" startline="155" endline="155">gr_basic_block::message_port_is_hier_in</referencedby>
+        <referencedby refid="structgr__block_1acddfef68b3880922bb6235765e08d0c8" compoundref="gr__block_8h" startline="241" endline="241">gr_block::message_port_is_hier_in</referencedby>
+        <referencedby refid="classgr__basic__block_1a1076c46a515aa65abb921d5307ef190c" compoundref="gr__basic__block_8h" startline="156" endline="156">gr_basic_block::message_port_is_hier_out</referencedby>
+        <referencedby refid="structgr__block_1a74dee2bc8c015773ef21a2e876bb1728" compoundref="gr__block_8h" startline="242" endline="242">gr_block::message_port_is_hier_out</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="volk_8tmpl_8h_1ab8c095640110d0d5f2a94ec861acbe19" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="volk__common_8h_1aad4656ebd3cf8ae30363d8bc205a72be" kindref="member">VOLK_API</ref></type>
+        <definition>VOLK_API volk_func_desc_t</definition>
+        <argsstring>(kern.name) _get_func_desc(void)</argsstring>
+        <name>volk_func_desc_t</name>
+        <param>
+          <type>kern.</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+<para>Get description paramaters for this kernel. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/volk/tmpl/volk.tmpl.h" line="82"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/aviral/GNU-Niyantran/gr36/volk/tmpl/volk.tmpl.h"/>
+  </compounddef>
+</doxygen>

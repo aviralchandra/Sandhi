@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="classqa__gr__filter" kind="class" prot="public">
+    <compoundname>qa_gr_filter</compoundname>
+    <includes refid="qa__filter_8h" local="no">qa_filter.h</includes>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classqa__gr__filter_1a1e5b8316704a82ec28af4810e212b6d6" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>CppUnit::TestSuite *</type>
+        <definition>static CppUnit::TestSuite* qa_gr_filter::suite</definition>
+        <argsstring>()</argsstring>
+        <name>suite</name>
+        <briefdescription>
+<para>return suite of tests for all of gr-filter directory </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/qa_filter.h" line="34"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>collect all the tests for the gr-filter directory </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/qa_filter.h" line="31" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-filter/lib/qa_filter.h" bodystart="31" bodyend="35"/>
+    <listofallmembers>
+      <member refid="classqa__gr__filter_1a1e5b8316704a82ec28af4810e212b6d6" prot="public" virt="non-virtual"><scope>qa_gr_filter</scope><name>suite</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,11 @@
+#!/bin/sh
+export GR_DONT_LOAD_PREFS=1
+export srcdir=/home/aviral/GNU-Niyantran/tests
+export GRAS_ROOT=
+export GRAS_PATH=
+export GRAS_MODULE_PATH=/home/aviral/GNU-Niyantran/build/tests/libexample_module.so
+export GRAS_PYTHON_PATH=/home/aviral/GNU-Niyantran/tests/example_module.py
+export PATH=/home/aviral/GNU-Niyantran/build/tests:$PATH
+export LD_LIBRARY_PATH=/usr/lib:/home/aviral/GNU-Niyantran/build/lib:/home/aviral/GNU-Niyantran/build/PMC/lib:$LD_LIBRARY_PATH
+export PYTHONPATH=/home/aviral/GNU-Niyantran/build/python:/home/aviral/GNU-Niyantran/build/python/gras:/home/aviral/GNU-Niyantran/build/python/gras/Release:/home/aviral/GNU-Niyantran/build/PMC/python:/home/aviral/GNU-Niyantran/build/PMC/python/PMC:/home/aviral/GNU-Niyantran/build/PMC/python/PMC/Release:$PYTHONPATH
+/usr/bin/python -B /home/aviral/GNU-Niyantran/tests/module_loader_test.py 

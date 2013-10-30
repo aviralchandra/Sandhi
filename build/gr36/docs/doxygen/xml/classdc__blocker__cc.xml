@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="classdc__blocker__cc" kind="class" prot="public">
+    <compoundname>dc_blocker_cc</compoundname>
+    <includes refid="dc__blocker__cc_8h" local="no">dc_blocker_cc.h</includes>
+    <briefdescription>
+<para>a computationally efficient controllable DC blocker </para>    </briefdescription>
+    <detaileddescription>
+<para>This block implements a computationally efficient DC blocker that produces a tighter notch filter around DC for a smaller group delay than an equivalent FIR filter or using a single pole IIR filter (though the IIR filter is computationally cheaper).</para><para>The block defaults to using a delay line of length 32 and the long form of the filter. Optionally, the delay line length can be changed to alter the width of the DC notch (longer lines will decrease the width).</para><para>The long form of the filter produces a nearly flat response outside of the notch but at the cost of a group delay of 2D-2.</para><para>The short form of the filter does not have as flat a response in the passband but has a group delay of only D-1 and is cheaper to compute.</para><para>The theory behind this block can be found in the paper:</para><para><bold><emphasis>R. Yates, &quot;DC Blocker Algorithms,&quot; IEEE Signal Processing Magazine, Mar. 2008, pp 132-134.</emphasis></bold></para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>D</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(int) the length of the delay line </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>long_form</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(bool) whether to use long (true, default) or short form </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>    </detaileddescription>
+    <location file="/home/aviral/GNU-Niyantran/gr36/gr-filter/include/filter/dc_blocker_cc.h" line="40"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

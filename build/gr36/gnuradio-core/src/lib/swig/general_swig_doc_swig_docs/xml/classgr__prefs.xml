@@ -1,0 +1,282 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="classgr__prefs" kind="class" prot="public">
+    <compoundname>gr_prefs</compoundname>
+    <includes refid="gr__prefs_8h" local="no">gr_prefs.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr__prefs_1a2bc4435f8aa63da2a13f826da7922adc" prot="private" static="no" mutable="no">
+        <type>gruel::mutex</type>
+        <definition>gruel::mutex gr_prefs::d_mutex</definition>
+        <argsstring></argsstring>
+        <name>d_mutex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_prefs.h" line="89" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_prefs.h" bodystart="89" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr__prefs_1a6989b861b18ae7aa6d6afe2bcf4cb35b" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string gr_prefs::d_configs</definition>
+        <argsstring></argsstring>
+        <name>d_configs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_prefs.h" line="90" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_prefs.h" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgr__prefs_1a22198ff16aadb4b26020ff04233f03c3" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr__prefs" kindref="compound">gr_prefs</ref> *</type>
+        <definition>static gr_prefs* gr_prefs::singleton</definition>
+        <argsstring>()</argsstring>
+        <name>singleton</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_prefs.h" line="40"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr__prefs_1a30685d7214f70df540bc59b6a38a5df0" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void gr_prefs::set_singleton</definition>
+        <argsstring>(gr_prefs *p)</argsstring>
+        <name>set_singleton</name>
+        <param>
+          <type><ref refid="classgr__prefs" kindref="compound">gr_prefs</ref> *</type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_prefs.h" line="41"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr__prefs_1a0dc35a48776cf53660cce0dff6fee225" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr_prefs::gr_prefs</definition>
+        <argsstring>()</argsstring>
+        <name>gr_prefs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_prefs.h" line="43"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr__prefs_1adcbd242770b0065990db3278f87504aa" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual gr_prefs::~gr_prefs</definition>
+        <argsstring>()</argsstring>
+        <name>~gr_prefs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_prefs.h" line="44"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr__prefs_1a88d546fa4384c8a6605c4bf14b776929" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool gr_prefs::has_section</definition>
+        <argsstring>(const std::string &amp;section)</argsstring>
+        <name>has_section</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>section</declname>
+        </param>
+        <briefdescription>
+<para>Does <computeroutput>section</computeroutput> exist? </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_prefs.h" line="49"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr__prefs_1a9a8565a470489f7f06fd3a2a418313b2" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool gr_prefs::has_option</definition>
+        <argsstring>(const std::string &amp;section, const std::string &amp;option)</argsstring>
+        <name>has_option</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>section</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>option</declname>
+        </param>
+        <briefdescription>
+<para>Does <computeroutput>option</computeroutput> exist? </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_prefs.h" line="54"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr__prefs_1a1cb5f9d27da5be2e0cc767835fb5cf6f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>const std::string</type>
+        <definition>virtual const std::string gr_prefs::get_string</definition>
+        <argsstring>(const std::string &amp;section, const std::string &amp;option, const std::string &amp;default_val)</argsstring>
+        <name>get_string</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>section</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>option</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>default_val</declname>
+        </param>
+        <briefdescription>
+<para>If option exists return associated value; else default_val. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_prefs.h" line="61"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr__prefs_1a96b345415d99037a74dc4436e98084dd" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool gr_prefs::get_bool</definition>
+        <argsstring>(const std::string &amp;section, const std::string &amp;option, bool default_val)</argsstring>
+        <name>get_bool</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>section</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>option</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>default_val</declname>
+        </param>
+        <briefdescription>
+<para>If option exists and value can be converted to bool, return it; else default_val. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_prefs.h" line="68"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr__prefs_1aa8324d2533692662c32e8d36eeaf113b" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>long</type>
+        <definition>virtual long gr_prefs::get_long</definition>
+        <argsstring>(const std::string &amp;section, const std::string &amp;option, long default_val)</argsstring>
+        <name>get_long</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>section</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>option</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>default_val</declname>
+        </param>
+        <briefdescription>
+<para>If option exists and value can be converted to long, return it; else default_val. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_prefs.h" line="75"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr__prefs_1a44cfbe4dbf8aa2e8e137a877c359a27c" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>double</type>
+        <definition>virtual double gr_prefs::get_double</definition>
+        <argsstring>(const std::string &amp;section, const std::string &amp;option, double default_val)</argsstring>
+        <name>get_double</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>section</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>option</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>default_val</declname>
+        </param>
+        <briefdescription>
+<para>If option exists and value can be converted to double, return it; else default_val. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_prefs.h" line="82"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classgr__prefs_1a5271bb073a9ef42cf9d44f0dd6487cd6" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>std::vector&lt; std::string &gt;</type>
+        <definition>virtual std::vector&lt;std::string&gt; gr_prefs::_sys_prefs_filenames</definition>
+        <argsstring>()</argsstring>
+        <name>_sys_prefs_filenames</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_prefs.h" line="85"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr__prefs_1ad966dcc7064c51425d0ef718b0d9b84d" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void gr_prefs::_read_files</definition>
+        <argsstring>()</argsstring>
+        <name>_read_files</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_prefs.h" line="86"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Base class for representing user preferences a la windows INI files.</para><para>The real implementation is in Python, and is accessable from C++ via the magic of SWIG directors. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_prefs.h" line="38" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_prefs.h" bodystart="37" bodyend="91"/>
+    <listofallmembers>
+      <member refid="classgr__prefs_1ad966dcc7064c51425d0ef718b0d9b84d" prot="protected" virt="virtual"><scope>gr_prefs</scope><name>_read_files</name></member>
+      <member refid="classgr__prefs_1a5271bb073a9ef42cf9d44f0dd6487cd6" prot="protected" virt="virtual"><scope>gr_prefs</scope><name>_sys_prefs_filenames</name></member>
+      <member refid="classgr__prefs_1a6989b861b18ae7aa6d6afe2bcf4cb35b" prot="private" virt="non-virtual"><scope>gr_prefs</scope><name>d_configs</name></member>
+      <member refid="classgr__prefs_1a2bc4435f8aa63da2a13f826da7922adc" prot="private" virt="non-virtual"><scope>gr_prefs</scope><name>d_mutex</name></member>
+      <member refid="classgr__prefs_1a96b345415d99037a74dc4436e98084dd" prot="public" virt="virtual"><scope>gr_prefs</scope><name>get_bool</name></member>
+      <member refid="classgr__prefs_1a44cfbe4dbf8aa2e8e137a877c359a27c" prot="public" virt="virtual"><scope>gr_prefs</scope><name>get_double</name></member>
+      <member refid="classgr__prefs_1aa8324d2533692662c32e8d36eeaf113b" prot="public" virt="virtual"><scope>gr_prefs</scope><name>get_long</name></member>
+      <member refid="classgr__prefs_1a1cb5f9d27da5be2e0cc767835fb5cf6f" prot="public" virt="virtual"><scope>gr_prefs</scope><name>get_string</name></member>
+      <member refid="classgr__prefs_1a0dc35a48776cf53660cce0dff6fee225" prot="public" virt="non-virtual"><scope>gr_prefs</scope><name>gr_prefs</name></member>
+      <member refid="classgr__prefs_1a9a8565a470489f7f06fd3a2a418313b2" prot="public" virt="virtual"><scope>gr_prefs</scope><name>has_option</name></member>
+      <member refid="classgr__prefs_1a88d546fa4384c8a6605c4bf14b776929" prot="public" virt="virtual"><scope>gr_prefs</scope><name>has_section</name></member>
+      <member refid="classgr__prefs_1a30685d7214f70df540bc59b6a38a5df0" prot="public" virt="non-virtual"><scope>gr_prefs</scope><name>set_singleton</name></member>
+      <member refid="classgr__prefs_1a22198ff16aadb4b26020ff04233f03c3" prot="public" virt="non-virtual"><scope>gr_prefs</scope><name>singleton</name></member>
+      <member refid="classgr__prefs_1adcbd242770b0065990db3278f87504aa" prot="public" virt="virtual"><scope>gr_prefs</scope><name>~gr_prefs</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

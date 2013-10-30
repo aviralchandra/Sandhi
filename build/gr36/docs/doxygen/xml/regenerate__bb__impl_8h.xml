@@ -1,0 +1,258 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="regenerate__bb__impl_8h" kind="file">
+    <compoundname>regenerate_bb_impl.h</compoundname>
+    <includes refid="regenerate__bb_8h" local="no">blocks/regenerate_bb.h</includes>
+    <incdepgraph>
+      <node id="17857">
+        <label>boost/thread/mutex.hpp</label>
+      </node>
+      <node id="17859">
+        <label>boost/thread/condition_variable.hpp</label>
+      </node>
+      <node id="17841">
+        <label>boost/shared_ptr.hpp</label>
+      </node>
+      <node id="17824">
+        <label>blocks/regenerate_bb.h</label>
+        <link refid="regenerate__bb_8h"/>
+        <childnode refid="17825" relation="include">
+        </childnode>
+        <childnode refid="17827" relation="include">
+        </childnode>
+      </node>
+      <node id="17838">
+        <label>gruel/pmt.h</label>
+        <link refid="pmt_8h"/>
+        <childnode refid="17839" relation="include">
+        </childnode>
+        <childnode refid="17840" relation="include">
+        </childnode>
+        <childnode refid="17841" relation="include">
+        </childnode>
+        <childnode refid="17842" relation="include">
+        </childnode>
+        <childnode refid="17843" relation="include">
+        </childnode>
+        <childnode refid="17844" relation="include">
+        </childnode>
+        <childnode refid="17845" relation="include">
+        </childnode>
+        <childnode refid="17848" relation="include">
+        </childnode>
+        <childnode refid="17849" relation="include">
+        </childnode>
+        <childnode refid="17850" relation="include">
+        </childnode>
+        <childnode refid="17851" relation="include">
+        </childnode>
+      </node>
+      <node id="17840">
+        <label>boost/intrusive_ptr.hpp</label>
+      </node>
+      <node id="17829">
+        <label>gr_core_api.h</label>
+        <link refid="gr__core__api_8h"/>
+        <childnode refid="17826" relation="include">
+        </childnode>
+      </node>
+      <node id="17845">
+        <label>stdint.h</label>
+        <link refid="stdint_8h"/>
+        <childnode refid="17846" relation="include">
+        </childnode>
+        <childnode refid="17847" relation="include">
+        </childnode>
+      </node>
+      <node id="17836">
+        <label>gras/hier_block.hpp</label>
+      </node>
+      <node id="17835">
+        <label>gras/top_block.hpp</label>
+      </node>
+      <node id="17854">
+        <label>boost/foreach.hpp</label>
+      </node>
+      <node id="17849">
+        <label>stdexcept</label>
+      </node>
+      <node id="17830">
+        <label>gras/block.hpp</label>
+      </node>
+      <node id="17856">
+        <label>boost/thread/thread.hpp</label>
+      </node>
+      <node id="17844">
+        <label>string</label>
+      </node>
+      <node id="17853">
+        <label>map</label>
+      </node>
+      <node id="17826">
+        <label>gruel/attributes.h</label>
+        <link refid="attributes_8h"/>
+      </node>
+      <node id="17846">
+        <label>limits.h</label>
+      </node>
+      <node id="17842">
+        <label>boost/any.hpp</label>
+      </node>
+      <node id="17828">
+        <label>gr_block.h</label>
+        <link refid="gr__block_8h"/>
+        <childnode refid="17829" relation="include">
+        </childnode>
+        <childnode refid="17830" relation="include">
+        </childnode>
+        <childnode refid="17831" relation="include">
+        </childnode>
+        <childnode refid="17833" relation="include">
+        </childnode>
+        <childnode refid="17837" relation="include">
+        </childnode>
+        <childnode refid="17844" relation="include">
+        </childnode>
+        <childnode refid="17852" relation="include">
+        </childnode>
+        <childnode refid="17853" relation="include">
+        </childnode>
+        <childnode refid="17854" relation="include">
+        </childnode>
+        <childnode refid="17855" relation="include">
+        </childnode>
+        <childnode refid="17860" relation="include">
+        </childnode>
+      </node>
+      <node id="17832">
+        <label>gr_runtime_types.h</label>
+        <link refid="gr__runtime__types_8h"/>
+        <childnode refid="17829" relation="include">
+        </childnode>
+        <childnode refid="17833" relation="include">
+        </childnode>
+      </node>
+      <node id="17847">
+        <label>wchar.h</label>
+      </node>
+      <node id="17851">
+        <label>gruel/pmt_sugar.h</label>
+        <link refid="pmt__sugar_8h"/>
+      </node>
+      <node id="17858">
+        <label>boost/thread/locks.hpp</label>
+      </node>
+      <node id="17827">
+        <label>gr_sync_block.h</label>
+        <link refid="gr__sync__block_8h"/>
+        <childnode refid="17828" relation="include">
+        </childnode>
+      </node>
+      <node id="17850">
+        <label>vector</label>
+      </node>
+      <node id="17831">
+        <label>gr_io_signature.h</label>
+        <link refid="gr__io__signature_8h"/>
+        <childnode refid="17829" relation="include">
+        </childnode>
+        <childnode refid="17832" relation="include">
+        </childnode>
+      </node>
+      <node id="17839">
+        <label>gruel/api.h</label>
+        <link refid="gruel_2src_2include_2gruel_2api_8h"/>
+        <childnode refid="17826" relation="include">
+        </childnode>
+      </node>
+      <node id="17823">
+        <label>regenerate_bb_impl.h</label>
+        <link refid="regenerate_bb_impl.h"/>
+        <childnode refid="17824" relation="include">
+        </childnode>
+      </node>
+      <node id="17825">
+        <label>blocks/api.h</label>
+        <link refid="gr-blocks_2include_2blocks_2api_8h"/>
+        <childnode refid="17826" relation="include">
+        </childnode>
+      </node>
+      <node id="17848">
+        <label>iosfwd</label>
+      </node>
+      <node id="17833">
+        <label>gr_types.h</label>
+        <link refid="gr__types_8h"/>
+        <childnode refid="17834" relation="include">
+        </childnode>
+        <childnode refid="17830" relation="include">
+        </childnode>
+        <childnode refid="17835" relation="include">
+        </childnode>
+        <childnode refid="17836" relation="include">
+        </childnode>
+      </node>
+      <node id="17855">
+        <label>gruel/thread.h</label>
+        <link refid="thread_8h"/>
+        <childnode refid="17839" relation="include">
+        </childnode>
+        <childnode refid="17856" relation="include">
+        </childnode>
+        <childnode refid="17857" relation="include">
+        </childnode>
+        <childnode refid="17858" relation="include">
+        </childnode>
+        <childnode refid="17859" relation="include">
+        </childnode>
+        <childnode refid="17850" relation="include">
+        </childnode>
+      </node>
+      <node id="17852">
+        <label>deque</label>
+      </node>
+      <node id="17837">
+        <label>gr_tags.h</label>
+        <link refid="gr__tags_8h"/>
+        <childnode refid="17829" relation="include">
+        </childnode>
+        <childnode refid="17838" relation="include">
+        </childnode>
+      </node>
+      <node id="17843">
+        <label>complex</label>
+      </node>
+      <node id="17860">
+        <label>gr_sptr_magic.h</label>
+        <link refid="gr__sptr__magic_8h_source"/>
+        <childnode refid="17829" relation="include">
+        </childnode>
+        <childnode refid="17841" relation="include">
+        </childnode>
+      </node>
+      <node id="17834">
+        <label>gras/element.hpp</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classgr_1_1blocks_1_1regenerate__bb__impl" prot="public">gr::blocks::regenerate_bb_impl</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1blocks">gr::blocks</innernamespace>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="regenerate__bb__impl_8h_1a533364f2358c41020b82385575b9c657" prot="public" static="no">
+        <name>INCLUDED_GR_REGENERATE_BB_IMPL_H</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/regenerate_bb_impl.h" line="24" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/regenerate_bb_impl.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/regenerate_bb_impl.h"/>
+  </compounddef>
+</doxygen>

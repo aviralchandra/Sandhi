@@ -1,0 +1,697 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="gr__complex_8h" kind="file">
+    <compoundname>gr_complex.h</compoundname>
+    <includes local="no">complex</includes>
+    <includedby refid="gr__rotator_8h" local="no">gr_rotator.h</includedby>
+    <includedby refid="gr__single__pole__iir_8h" local="no">gr_single_pole_iir.h</includedby>
+    <includedby refid="gr__single__pole__iir__filter__cc_8h" local="no">gr_single_pole_iir_filter_cc.h</includedby>
+    <includedby refid="gri__fft__filter__ccc__generic_8h" local="no">gri_fft_filter_ccc_generic.h</includedby>
+    <includedby refid="gri__fft__filter__ccc__sse_8h" local="no">gri_fft_filter_ccc_sse.h</includedby>
+    <includedby refid="gri__fft__filter__fff__generic_8h" local="no">gri_fft_filter_fff_generic.h</includedby>
+    <includedby refid="gri__fft__filter__fff__sse_8h" local="no">gri_fft_filter_fff_sse.h</includedby>
+    <includedby refid="gri__mmse__fir__interpolator__cc_8h" local="no">gri_mmse_fir_interpolator_cc.h</includedby>
+    <includedby refid="gr__complex__to__xxx_8h" local="no">gr_complex_to_xxx.h</includedby>
+    <includedby refid="gr__feval_8h" local="no">gr_feval.h</includedby>
+    <includedby refid="gr__firdes_8h" local="no">gr_firdes.h</includedby>
+    <includedby refid="gr__float__to__complex_8h" local="no">gr_float_to_complex.h</includedby>
+    <includedby refid="gr__fxpt__nco_8h" local="no">gr_fxpt_nco.h</includedby>
+    <includedby refid="gr__fxpt__vco_8h" local="no">gr_fxpt_vco.h</includedby>
+    <includedby refid="gr__math_8h" local="no">gr_math.h</includedby>
+    <includedby refid="gr__nco_8h" local="no">gr_nco.h</includedby>
+    <includedby refid="gr__random_8h" local="no">gr_random.h</includedby>
+    <includedby refid="gr__reverse_8h" local="no">gr_reverse.h</includedby>
+    <includedby refid="gr__vco_8h" local="no">gr_vco.h</includedby>
+    <includedby refid="gri__fft_8h" local="no">gri_fft.h</includedby>
+    <includedby refid="gri__interleaved__short__to__complex_8h" local="no">gri_interleaved_short_to_complex.h</includedby>
+    <includedby refid="gr__pdu_8h" local="no">gr_pdu.h</includedby>
+    <includedby refid="interleaved__short__array__to__complex_8h" local="no">interleaved_short_array_to_complex.h</includedby>
+    <includedby refid="fft_8h" local="no">fft.h</includedby>
+    <includedby refid="fft__filter_8h" local="no">fft_filter.h</includedby>
+    <includedby refid="fir__filter_8h" local="no">fir_filter.h</includedby>
+    <includedby refid="fir__filter__with__buffer_8h" local="no">fir_filter_with_buffer.h</includedby>
+    <includedby refid="firdes_8h" local="no">firdes.h</includedby>
+    <includedby refid="mmse__fir__interpolator__cc_8h" local="no">mmse_fir_interpolator_cc.h</includedby>
+    <includedby refid="single__pole__iir_8h" local="no">single_pole_iir.h</includedby>
+    <includedby refid="single__pole__iir__filter__cc_8h" local="no">single_pole_iir_filter_cc.h</includedby>
+    <includedby refid="single__pole__iir__filter__ff_8h" local="no">single_pole_iir_filter_ff.h</includedby>
+    <includedby refid="single__pole__iir__filter__cc__impl_8h" local="no">single_pole_iir_filter_cc_impl.h</includedby>
+    <incdepgraph>
+      <node id="5325">
+        <label>gr_complex.h</label>
+        <link refid="gr_complex.h"/>
+        <childnode refid="5326" relation="include">
+        </childnode>
+      </node>
+      <node id="5326">
+        <label>complex</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="5362">
+        <label>gr_random.h</label>
+        <link refid="gr__random_8h"/>
+      </node>
+      <node id="5396">
+        <label>single_pole_iir.h</label>
+        <link refid="single__pole__iir_8h"/>
+        <childnode refid="5397" relation="include">
+        </childnode>
+        <childnode refid="5399" relation="include">
+        </childnode>
+        <childnode refid="5398" relation="include">
+        </childnode>
+        <childnode refid="5400" relation="include">
+        </childnode>
+      </node>
+      <node id="5397">
+        <label>single_pole_iir_filter_cc.h</label>
+        <link refid="single__pole__iir__filter__cc_8h"/>
+        <childnode refid="5398" relation="include">
+        </childnode>
+      </node>
+      <node id="5349">
+        <label>gr_bin_statistics_f.h</label>
+        <link refid="gr__bin__statistics__f_8h"/>
+      </node>
+      <node id="5389">
+        <label>adaptive_fir_ccf_impl.h</label>
+        <link refid="adaptive__fir__ccf__impl_8h"/>
+      </node>
+      <node id="5381">
+        <label>pfb_synthesizer_ccf_impl.h</label>
+        <link refid="pfb__synthesizer__ccf__impl_8h"/>
+      </node>
+      <node id="5343">
+        <label>gri_fft_filter_ccc_sse.h</label>
+        <link refid="gri__fft__filter__ccc__sse_8h"/>
+      </node>
+      <node id="5367">
+        <label>gr_pdu.h</label>
+        <link refid="gr__pdu_8h"/>
+        <childnode refid="5368" relation="include">
+        </childnode>
+        <childnode refid="5369" relation="include">
+        </childnode>
+      </node>
+      <node id="5358">
+        <label>gr_fxpt_vco.h</label>
+        <link refid="gr__fxpt__vco_8h"/>
+        <childnode refid="5359" relation="include">
+        </childnode>
+      </node>
+      <node id="5392">
+        <label>pfb_arb_resampler_ccf_impl.h</label>
+        <link refid="pfb__arb__resampler__ccf__impl_8h"/>
+      </node>
+      <node id="5330">
+        <label>gr_single_pole_iir_filter_cc.h</label>
+        <link refid="gr__single__pole__iir__filter__cc_8h"/>
+      </node>
+      <node id="5338">
+        <label>gr_rms_ff.h</label>
+        <link refid="gr__rms__ff_8h"/>
+      </node>
+      <node id="5369">
+        <label>gr_tagged_stream_to_pdu.h</label>
+        <link refid="gr__tagged__stream__to__pdu_8h"/>
+      </node>
+      <node id="5391">
+        <label>hilbert_fc_impl.h</label>
+        <link refid="hilbert__fc__impl_8h"/>
+      </node>
+      <node id="5372">
+        <label>fft_vcc_fftw.h</label>
+        <link refid="fft__vcc__fftw_8h"/>
+      </node>
+      <node id="5328">
+        <label>gr_rotator.h</label>
+        <link refid="gr__rotator_8h"/>
+      </node>
+      <node id="5400">
+        <label>single_pole_iir_filter_ff_impl.h</label>
+        <link refid="single__pole__iir__filter__ff__impl_8h"/>
+      </node>
+      <node id="5393">
+        <label>pfb_arb_resampler_fff_impl.h</label>
+        <link refid="pfb__arb__resampler__fff__impl_8h"/>
+      </node>
+      <node id="5377">
+        <label>polyphase_filterbank.h</label>
+        <link refid="polyphase__filterbank_8h"/>
+        <childnode refid="5378" relation="include">
+        </childnode>
+        <childnode refid="5379" relation="include">
+        </childnode>
+        <childnode refid="5380" relation="include">
+        </childnode>
+      </node>
+      <node id="5340">
+        <label>rms_cf_impl.h</label>
+        <link refid="rms__cf__impl_8h"/>
+      </node>
+      <node id="5364">
+        <label>gr_vco.h</label>
+        <link refid="gr__vco_8h"/>
+      </node>
+      <node id="5347">
+        <label>gr_complex_to_xxx.h</label>
+        <link refid="gr__complex__to__xxx_8h"/>
+      </node>
+      <node id="5332">
+        <label>gr_probe_avg_mag_sqrd_c.h</label>
+        <link refid="gr__probe__avg__mag__sqrd__c_8h"/>
+      </node>
+      <node id="5352">
+        <label>qtgui_sink_c.h</label>
+        <link refid="qtgui__sink__c_8h"/>
+      </node>
+      <node id="5336">
+        <label>gr_pwr_squelch_ff.h</label>
+        <link refid="gr__pwr__squelch__ff_8h"/>
+      </node>
+      <node id="5379">
+        <label>pfb_decimator_ccf_impl.h</label>
+        <link refid="pfb__decimator__ccf__impl_8h"/>
+      </node>
+      <node id="5348">
+        <label>gr_feval.h</label>
+        <link refid="gr__feval_8h"/>
+        <childnode refid="5349" relation="include">
+        </childnode>
+        <childnode refid="5350" relation="include">
+        </childnode>
+      </node>
+      <node id="5380">
+        <label>pfb_interpolator_ccf_impl.h</label>
+        <link refid="pfb__interpolator__ccf__impl_8h"/>
+      </node>
+      <node id="5350">
+        <label>gr_block_gateway.h</label>
+        <link refid="gr__block__gateway_8h"/>
+      </node>
+      <node id="5342">
+        <label>gri_fft_filter_ccc_generic.h</label>
+        <link refid="gri__fft__filter__ccc__generic_8h"/>
+      </node>
+      <node id="5368">
+        <label>gr_pdu_to_tagged_stream.h</label>
+        <link refid="gr__pdu__to__tagged__stream_8h"/>
+      </node>
+      <node id="5365">
+        <label>gri_fft.h</label>
+        <link refid="gri__fft_8h"/>
+        <childnode refid="5352" relation="include">
+        </childnode>
+        <childnode refid="5353" relation="include">
+        </childnode>
+        <childnode refid="5354" relation="include">
+        </childnode>
+        <childnode refid="5355" relation="include">
+        </childnode>
+      </node>
+      <node id="5366">
+        <label>gri_interleaved_short_to_complex.h</label>
+        <link refid="gri__interleaved__short__to__complex_8h"/>
+      </node>
+      <node id="5361">
+        <label>gr_nco.h</label>
+        <link refid="gr__nco_8h"/>
+      </node>
+      <node id="5370">
+        <label>interleaved_short_array_to_complex.h</label>
+        <link refid="interleaved__short__array__to__complex_8h"/>
+      </node>
+      <node id="5395">
+        <label>firdes.h</label>
+        <link refid="firdes_8h"/>
+      </node>
+      <node id="5383">
+        <label>adaptive_fir_ccc.h</label>
+        <link refid="adaptive__fir__ccc_8h"/>
+        <childnode refid="5384" relation="include">
+        </childnode>
+      </node>
+      <node id="5331">
+        <label>gr_single_pole_iir_filter_ff.h</label>
+        <link refid="gr__single__pole__iir__filter__ff_8h"/>
+      </node>
+      <node id="5354">
+        <label>qtgui_time_sink_c.h</label>
+        <link refid="qtgui__time__sink__c_8h"/>
+      </node>
+      <node id="5374">
+        <label>fft_filter.h</label>
+        <link refid="fft__filter_8h"/>
+        <childnode refid="5375" relation="include">
+        </childnode>
+        <childnode refid="5376" relation="include">
+        </childnode>
+      </node>
+      <node id="5334">
+        <label>gr_probe_avg_mag_sqrd_f.h</label>
+        <link refid="gr__probe__avg__mag__sqrd__f_8h"/>
+      </node>
+      <node id="5357">
+        <label>gr_fxpt_nco.h</label>
+        <link refid="gr__fxpt__nco_8h"/>
+      </node>
+      <node id="5387">
+        <label>mmse_fir_interpolator_ff.h</label>
+        <link refid="mmse__fir__interpolator__ff_8h"/>
+        <childnode refid="5388" relation="include">
+        </childnode>
+      </node>
+      <node id="5353">
+        <label>qtgui_sink_f.h</label>
+        <link refid="qtgui__sink__f_8h"/>
+      </node>
+      <node id="5341">
+        <label>rms_ff_impl.h</label>
+        <link refid="rms__ff__impl_8h"/>
+      </node>
+      <node id="5390">
+        <label>filter_delay_fc_impl.h</label>
+        <link refid="filter__delay__fc__impl_8h"/>
+      </node>
+      <node id="5386">
+        <label>fractional_interpolator_cc_impl.h</label>
+        <link refid="fractional__interpolator__cc__impl_8h"/>
+      </node>
+      <node id="5333">
+        <label>gr_probe_avg_mag_sqrd_cf.h</label>
+        <link refid="gr__probe__avg__mag__sqrd__cf_8h"/>
+      </node>
+      <node id="5385">
+        <label>mmse_fir_interpolator_cc.h</label>
+        <link refid="mmse__fir__interpolator__cc_8h"/>
+        <childnode refid="5386" relation="include">
+        </childnode>
+      </node>
+      <node id="5345">
+        <label>gri_fft_filter_fff_sse.h</label>
+        <link refid="gri__fft__filter__fff__sse_8h"/>
+      </node>
+      <node id="5339">
+        <label>gr_simple_squelch_cc.h</label>
+        <link refid="gr__simple__squelch__cc_8h"/>
+      </node>
+      <node id="5359">
+        <label>gr_vco_f.h</label>
+        <link refid="gr__vco__f_8h"/>
+      </node>
+      <node id="5378">
+        <label>pfb_channelizer_ccf_impl.h</label>
+        <link refid="pfb__channelizer__ccf__impl_8h"/>
+      </node>
+      <node id="5355">
+        <label>qtgui_time_sink_f.h</label>
+        <link refid="qtgui__time__sink__f_8h"/>
+      </node>
+      <node id="5327">
+        <label>gr_complex.h</label>
+        <link refid="gr_complex.h"/>
+        <childnode refid="5328" relation="include">
+        </childnode>
+        <childnode refid="5329" relation="include">
+        </childnode>
+        <childnode refid="5330" relation="include">
+        </childnode>
+        <childnode refid="5342" relation="include">
+        </childnode>
+        <childnode refid="5343" relation="include">
+        </childnode>
+        <childnode refid="5344" relation="include">
+        </childnode>
+        <childnode refid="5345" relation="include">
+        </childnode>
+        <childnode refid="5346" relation="include">
+        </childnode>
+        <childnode refid="5347" relation="include">
+        </childnode>
+        <childnode refid="5348" relation="include">
+        </childnode>
+        <childnode refid="5351" relation="include">
+        </childnode>
+        <childnode refid="5356" relation="include">
+        </childnode>
+        <childnode refid="5357" relation="include">
+        </childnode>
+        <childnode refid="5358" relation="include">
+        </childnode>
+        <childnode refid="5360" relation="include">
+        </childnode>
+        <childnode refid="5361" relation="include">
+        </childnode>
+        <childnode refid="5362" relation="include">
+        </childnode>
+        <childnode refid="5363" relation="include">
+        </childnode>
+        <childnode refid="5364" relation="include">
+        </childnode>
+        <childnode refid="5365" relation="include">
+        </childnode>
+        <childnode refid="5366" relation="include">
+        </childnode>
+        <childnode refid="5367" relation="include">
+        </childnode>
+        <childnode refid="5370" relation="include">
+        </childnode>
+        <childnode refid="5371" relation="include">
+        </childnode>
+        <childnode refid="5374" relation="include">
+        </childnode>
+        <childnode refid="5382" relation="include">
+        </childnode>
+        <childnode refid="5394" relation="include">
+        </childnode>
+        <childnode refid="5395" relation="include">
+        </childnode>
+        <childnode refid="5385" relation="include">
+        </childnode>
+        <childnode refid="5396" relation="include">
+        </childnode>
+        <childnode refid="5397" relation="include">
+        </childnode>
+        <childnode refid="5399" relation="include">
+        </childnode>
+        <childnode refid="5398" relation="include">
+        </childnode>
+      </node>
+      <node id="5329">
+        <label>gr_single_pole_iir.h</label>
+        <link refid="gr__single__pole__iir_8h"/>
+        <childnode refid="5330" relation="include">
+        </childnode>
+        <childnode refid="5331" relation="include">
+        </childnode>
+        <childnode refid="5332" relation="include">
+        </childnode>
+        <childnode refid="5333" relation="include">
+        </childnode>
+        <childnode refid="5334" relation="include">
+        </childnode>
+        <childnode refid="5335" relation="include">
+        </childnode>
+        <childnode refid="5336" relation="include">
+        </childnode>
+        <childnode refid="5337" relation="include">
+        </childnode>
+        <childnode refid="5338" relation="include">
+        </childnode>
+        <childnode refid="5339" relation="include">
+        </childnode>
+        <childnode refid="5340" relation="include">
+        </childnode>
+        <childnode refid="5341" relation="include">
+        </childnode>
+      </node>
+      <node id="5394">
+        <label>fir_filter_with_buffer.h</label>
+        <link refid="fir__filter__with__buffer_8h"/>
+        <childnode refid="5381" relation="include">
+        </childnode>
+      </node>
+      <node id="5351">
+        <label>gr_firdes.h</label>
+        <link refid="gr__firdes_8h"/>
+        <childnode refid="5352" relation="include">
+        </childnode>
+        <childnode refid="5353" relation="include">
+        </childnode>
+        <childnode refid="5354" relation="include">
+        </childnode>
+        <childnode refid="5355" relation="include">
+        </childnode>
+      </node>
+      <node id="5398">
+        <label>single_pole_iir_filter_cc_impl.h</label>
+        <link refid="single__pole__iir__filter__cc__impl_8h"/>
+      </node>
+      <node id="5360">
+        <label>gr_math.h</label>
+        <link refid="gr__math_8h"/>
+      </node>
+      <node id="5382">
+        <label>fir_filter.h</label>
+        <link refid="fir__filter_8h"/>
+        <childnode refid="5383" relation="include">
+        </childnode>
+        <childnode refid="5385" relation="include">
+        </childnode>
+        <childnode refid="5387" relation="include">
+        </childnode>
+        <childnode refid="5377" relation="include">
+        </childnode>
+        <childnode refid="5384" relation="include">
+        </childnode>
+        <childnode refid="5389" relation="include">
+        </childnode>
+        <childnode refid="5390" relation="include">
+        </childnode>
+        <childnode refid="5391" relation="include">
+        </childnode>
+        <childnode refid="5392" relation="include">
+        </childnode>
+        <childnode refid="5393" relation="include">
+        </childnode>
+        <childnode refid="5378" relation="include">
+        </childnode>
+        <childnode refid="5379" relation="include">
+        </childnode>
+        <childnode refid="5380" relation="include">
+        </childnode>
+      </node>
+      <node id="5356">
+        <label>gr_float_to_complex.h</label>
+        <link refid="gr__float__to__complex_8h"/>
+      </node>
+      <node id="5376">
+        <label>fft_filter_fff_impl.h</label>
+        <link refid="fft__filter__fff__impl_8h"/>
+      </node>
+      <node id="5363">
+        <label>gr_reverse.h</label>
+        <link refid="gr__reverse_8h"/>
+      </node>
+      <node id="5388">
+        <label>fractional_interpolator_ff_impl.h</label>
+        <link refid="fractional__interpolator__ff__impl_8h"/>
+      </node>
+      <node id="5335">
+        <label>gr_pwr_squelch_cc.h</label>
+        <link refid="gr__pwr__squelch__cc_8h"/>
+      </node>
+      <node id="5344">
+        <label>gri_fft_filter_fff_generic.h</label>
+        <link refid="gri__fft__filter__fff__generic_8h"/>
+      </node>
+      <node id="5346">
+        <label>gri_mmse_fir_interpolator_cc.h</label>
+        <link refid="gri__mmse__fir__interpolator__cc_8h"/>
+      </node>
+      <node id="5384">
+        <label>adaptive_fir_ccc_impl.h</label>
+        <link refid="adaptive__fir__ccc__impl_8h"/>
+      </node>
+      <node id="5373">
+        <label>fft_vfc_fftw.h</label>
+        <link refid="fft__vfc__fftw_8h"/>
+      </node>
+      <node id="5371">
+        <label>fft.h</label>
+        <link refid="fft_8h"/>
+        <childnode refid="5372" relation="include">
+        </childnode>
+        <childnode refid="5373" relation="include">
+        </childnode>
+        <childnode refid="5374" relation="include">
+        </childnode>
+        <childnode refid="5377" relation="include">
+        </childnode>
+        <childnode refid="5378" relation="include">
+        </childnode>
+        <childnode refid="5379" relation="include">
+        </childnode>
+        <childnode refid="5380" relation="include">
+        </childnode>
+        <childnode refid="5381" relation="include">
+        </childnode>
+      </node>
+      <node id="5375">
+        <label>fft_filter_ccc_impl.h</label>
+        <link refid="fft__filter__ccc__impl_8h"/>
+      </node>
+      <node id="5337">
+        <label>gr_rms_cf.h</label>
+        <link refid="gr__rms__cf_8h"/>
+      </node>
+      <node id="5399">
+        <label>single_pole_iir_filter_ff.h</label>
+        <link refid="single__pole__iir__filter__ff_8h"/>
+        <childnode refid="5400" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="gr__complex_8h_1a9f336c1fef8b20bb247d00d65978e722" prot="public" static="no">
+        <name>CPPUNIT_ASSERT_COMPLEXES_EQUAL</name>
+        <param><defname>expected</defname></param>
+        <param><defname>actual</defname></param>
+        <param><defname>delta</defname></param>
+        <initializer>CPPUNIT_ASSERT_DOUBLES_EQUAL (expected.real(), actual.real(), delta);	\
+  CPPUNIT_ASSERT_DOUBLES_EQUAL (expected.imag(), actual.imag(), delta);</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_complex.h" line="43" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_complex.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" prot="public" static="no">
+        <type>std::complex&lt; float &gt;</type>
+        <definition>typedef std::complex&lt;float&gt; gr_complex</definition>
+        <argsstring></argsstring>
+        <name>gr_complex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_complex.h" line="26" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_complex.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="gr__complex_8h_1a90c065671dd1c4b7aed7e08b265e23f7" prot="public" static="no">
+        <type>std::complex&lt; double &gt;</type>
+        <definition>typedef std::complex&lt;double&gt; gr_complexd</definition>
+        <argsstring></argsstring>
+        <name>gr_complexd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_complex.h" line="27" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_complex.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="gr__complex_8h_1a2ea72f70accbd7fefca28b2690eda735" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="stdbool_8h_1a97a80ca1602ebf2303258971a2c938e2" kindref="member">bool</ref></type>
+        <definition>bool is_complex</definition>
+        <argsstring>(gr_complex x)</argsstring>
+        <name>is_complex</name>
+        <param>
+          <type><ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref></type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_complex.h" line="30" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_complex.h" bodystart="30" bodyend="30"/>
+        <references refid="volk_8tmpl_8h_1a2b104da38b6f0a28d721ed74346ef298">void</references>
+      </memberdef>
+      <memberdef kind="function" id="gr__complex_8h_1af5a59b4d115f050435dcb2d97e8db95b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="stdbool_8h_1a97a80ca1602ebf2303258971a2c938e2" kindref="member">bool</ref></type>
+        <definition>bool is_complex</definition>
+        <argsstring>(float x)</argsstring>
+        <name>is_complex</name>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_complex.h" line="32" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_complex.h" bodystart="32" bodyend="32"/>
+        <references refid="volk_8tmpl_8h_1a2b104da38b6f0a28d721ed74346ef298">void</references>
+      </memberdef>
+      <memberdef kind="function" id="gr__complex_8h_1a8f5e2b3d08dfce6286d5c66ead123da7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="stdbool_8h_1a97a80ca1602ebf2303258971a2c938e2" kindref="member">bool</ref></type>
+        <definition>bool is_complex</definition>
+        <argsstring>(double x)</argsstring>
+        <name>is_complex</name>
+        <param>
+          <type>double</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_complex.h" line="33" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_complex.h" bodystart="33" bodyend="33"/>
+        <references refid="volk_8tmpl_8h_1a2b104da38b6f0a28d721ed74346ef298">void</references>
+      </memberdef>
+      <memberdef kind="function" id="gr__complex_8h_1a9cdc83b8f04b5f6304de206d2c1f85b7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="stdbool_8h_1a97a80ca1602ebf2303258971a2c938e2" kindref="member">bool</ref></type>
+        <definition>bool is_complex</definition>
+        <argsstring>(int x)</argsstring>
+        <name>is_complex</name>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_complex.h" line="34" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_complex.h" bodystart="34" bodyend="34"/>
+        <references refid="volk_8tmpl_8h_1a2b104da38b6f0a28d721ed74346ef298">void</references>
+      </memberdef>
+      <memberdef kind="function" id="gr__complex_8h_1af233866c21d163bcb7e05df1748a72ec" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="stdbool_8h_1a97a80ca1602ebf2303258971a2c938e2" kindref="member">bool</ref></type>
+        <definition>bool is_complex</definition>
+        <argsstring>(char x)</argsstring>
+        <name>is_complex</name>
+        <param>
+          <type>char</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_complex.h" line="35" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_complex.h" bodystart="35" bodyend="35"/>
+        <references refid="volk_8tmpl_8h_1a2b104da38b6f0a28d721ed74346ef298">void</references>
+      </memberdef>
+      <memberdef kind="function" id="gr__complex_8h_1a0671a1ba433776b13c8be3a0f2ac6de7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="stdbool_8h_1a97a80ca1602ebf2303258971a2c938e2" kindref="member">bool</ref></type>
+        <definition>bool is_complex</definition>
+        <argsstring>(short x)</argsstring>
+        <name>is_complex</name>
+        <param>
+          <type>short</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_complex.h" line="36" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_complex.h" bodystart="36" bodyend="36"/>
+        <references refid="volk_8tmpl_8h_1a2b104da38b6f0a28d721ed74346ef298">void</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_complex.h"/>
+  </compounddef>
+</doxygen>

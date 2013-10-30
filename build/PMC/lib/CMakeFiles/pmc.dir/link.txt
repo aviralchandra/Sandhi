@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC -O3 -DNDEBUG   -shared -Wl,-soname,libpmc.so.0.0.0 -o libpmc.so.0.0.0 CMakeFiles/pmc.dir/AllocPool.cpp.o CMakeFiles/pmc.dir/InternPool.cpp.o CMakeFiles/pmc.dir/PMCImpl.cpp.o CMakeFiles/pmc.dir/SafeConvert.cpp.o CMakeFiles/pmc.dir/Serialize.cpp.o CMakeFiles/pmc.dir/BasicTypes.cpp.o -lboost_serialization-mt 

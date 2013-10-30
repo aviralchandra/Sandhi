@@ -1,0 +1,136 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="group__math__blk" kind="group">
+    <compoundname>math_blk</compoundname>
+    <title>Mathematics</title>
+    <innerclass refid="classgr__add__ff" prot="public">gr_add_ff</innerclass>
+    <innerclass refid="classgr__conjugate__cc" prot="public">gr_conjugate_cc</innerclass>
+    <innerclass refid="classgr__multiply__cc" prot="public">gr_multiply_cc</innerclass>
+    <innerclass refid="classgr__multiply__conjugate__cc" prot="public">gr_multiply_conjugate_cc</innerclass>
+    <innerclass refid="classgr__multiply__const__cc" prot="public">gr_multiply_const_cc</innerclass>
+    <innerclass refid="classgr__multiply__const__ff" prot="public">gr_multiply_const_ff</innerclass>
+    <innerclass refid="classgr__multiply__ff" prot="public">gr_multiply_ff</innerclass>
+    <innerclass refid="classgr__nlog10__ff" prot="public">gr_nlog10_ff</innerclass>
+    <innerclass refid="classgr__random" prot="public">gr_random</innerclass>
+    <innerclass refid="classgr__rms__cf" prot="public">gr_rms_cf</innerclass>
+    <innerclass refid="classgr__rms__ff" prot="public">gr_rms_ff</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1conjugate__cc" prot="public">gr::blocks::conjugate_cc</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1multiply__const__cc" prot="public">gr::blocks::multiply_const_cc</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1multiply__const__ff" prot="public">gr::blocks::multiply_const_ff</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1nlog10__ff" prot="public">gr::blocks::nlog10_ff</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1rms__cf" prot="public">gr::blocks::rms_cf</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1rms__ff" prot="public">gr::blocks::rms_ff</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1rms__cf__impl" prot="public">gr::blocks::rms_cf_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1rms__ff__impl" prot="public">gr::blocks::rms_ff_impl</innerclass>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="group__math__blk_1ga6a80c9a51db8efcd1e8f66a3f81deb73" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>sptr</type>
+        <definition>static sptr gr::blocks::add_ff::make</definition>
+        <argsstring>(size_t vlen=1)</argsstring>
+        <name>make</name>
+        <param>
+          <type>size_t</type>
+          <declname>vlen</declname>
+          <defval>1</defval>
+        </param>
+        <briefdescription>
+<para>Add streams of float values. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>vlen</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Vector length </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/include/blocks/add_ff.h" line="44"/>
+      </memberdef>
+      <memberdef kind="function" id="group__math__blk_1ga07803a9c767a939a1be16eb925765f49" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>sptr</type>
+        <definition>static sptr gr::blocks::multiply_cc::make</definition>
+        <argsstring>(size_t vlen=1)</argsstring>
+        <name>make</name>
+        <param>
+          <type>size_t</type>
+          <declname>vlen</declname>
+          <defval>1</defval>
+        </param>
+        <briefdescription>
+<para>Multiply streams of complex values. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>vlen</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Vector length </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/include/blocks/multiply_cc.h" line="44"/>
+      </memberdef>
+      <memberdef kind="function" id="group__math__blk_1gabdeeb3a8247167b2274ea9fc2c3e2a56" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>sptr</type>
+        <definition>static sptr gr::blocks::multiply_conjugate_cc::make</definition>
+        <argsstring>(size_t vlen=1)</argsstring>
+        <name>make</name>
+        <param>
+          <type>size_t</type>
+          <declname>vlen</declname>
+          <defval>1</defval>
+        </param>
+        <briefdescription>
+<para>Multiplies a streams by the conjugate of a second stream. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>vlen</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Vector length </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/include/blocks/multiply_conjugate_cc.h" line="44"/>
+      </memberdef>
+      <memberdef kind="function" id="group__math__blk_1ga961866b3f747e4406da8339ef7c99ffe" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>sptr</type>
+        <definition>static sptr gr::blocks::multiply_ff::make</definition>
+        <argsstring>(size_t vlen=1)</argsstring>
+        <name>make</name>
+        <param>
+          <type>size_t</type>
+          <declname>vlen</declname>
+          <defval>1</defval>
+        </param>
+        <briefdescription>
+<para>Multiply streams of float values. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>vlen</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Vector length </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/include/blocks/multiply_ff.h" line="44"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

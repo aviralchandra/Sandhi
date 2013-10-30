@@ -1,0 +1,302 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="classgr__fastnoise__source__s" kind="class" prot="public">
+    <compoundname>gr_fastnoise_source_s</compoundname>
+    <includes refid="gr__fastnoise__source__s_8h" local="no">gr_fastnoise_source_s.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr__fastnoise__source__s_1a1c229682f9bc9f2833eda6a94b8f3ec4" prot="private" static="no" mutable="no">
+        <type><ref refid="gr__noise__type_8h_1a12ee6e1f6ac7ef3b10353cb76c0a8728" kindref="member">gr_noise_type_t</ref></type>
+        <definition>gr_noise_type_t gr_fastnoise_source_s::d_type</definition>
+        <argsstring></argsstring>
+        <name>d_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/build/gr36/gnuradio-core/src/lib/gengen/gr_fastnoise_source_s.h" line="66" bodyfile="/home/aviral/GNU-Niyantran/build/gr36/gnuradio-core/src/lib/gengen/gr_fastnoise_source_s.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr__fastnoise__source__s_1a303258085097f06927a383d9e1dc51bf" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr_fastnoise_source_s::d_ampl</definition>
+        <argsstring></argsstring>
+        <name>d_ampl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/build/gr36/gnuradio-core/src/lib/gengen/gr_fastnoise_source_s.h" line="67" bodyfile="/home/aviral/GNU-Niyantran/build/gr36/gnuradio-core/src/lib/gengen/gr_fastnoise_source_s.h" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr__fastnoise__source__s_1a2961a202a3443e1d9c43baf6c53b5f55" prot="private" static="no" mutable="no">
+        <type>gr_random</type>
+        <definition>gr_random gr_fastnoise_source_s::d_rng</definition>
+        <argsstring></argsstring>
+        <name>d_rng</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/build/gr36/gnuradio-core/src/lib/gengen/gr_fastnoise_source_s.h" line="68" bodyfile="/home/aviral/GNU-Niyantran/build/gr36/gnuradio-core/src/lib/gengen/gr_fastnoise_source_s.h" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr__fastnoise__source__s_1a00535821778cdbc286878deecf810ce5" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; short &gt;</type>
+        <definition>std::vector&lt;short&gt; gr_fastnoise_source_s::d_samples</definition>
+        <argsstring></argsstring>
+        <name>d_samples</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/build/gr36/gnuradio-core/src/lib/gengen/gr_fastnoise_source_s.h" line="69" bodyfile="/home/aviral/GNU-Niyantran/build/gr36/gnuradio-core/src/lib/gengen/gr_fastnoise_source_s.h" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="classgr__fastnoise__source__s_1a15ce2c61a3673ee1007f9659527d52c5" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend GR_CORE_API <ref refid="gr__fastnoise__source__s_8h_1af0c61b6d59e9935a08316ab6d3485e3f" kindref="member">gr_fastnoise_source_s_sptr</ref></type>
+        <definition>GR_CORE_API gr_fastnoise_source_s_sptr gr_make_fastnoise_source_s</definition>
+        <argsstring>(gr_noise_type_t type, float ampl, long seed, long samples)</argsstring>
+        <name>gr_make_fastnoise_source_s</name>
+        <param>
+          <type><ref refid="gr__noise__type_8h_1a12ee6e1f6ac7ef3b10353cb76c0a8728" kindref="member">gr_noise_type_t</ref></type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>ampl</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>seed</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>samples</declname>
+        </param>
+        <briefdescription>
+<para>Make a noise source. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>type</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the random distribution to use (see <ref refid="gr__noise__type_8h" kindref="compound">gr_noise_type.h</ref>) </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>ampl</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a scaling factor for the output </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>seed</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>seed for random generators. Note that for uniform and Gaussian distributions, this should be a negative number. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>samples</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>number of samples to pre-generate. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/build/gr36/gnuradio-core/src/lib/gengen/gr_fastnoise_source_s.h" line="64"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classgr__fastnoise__source__s_1a25139f4e36b0c419c201393bc1724730" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr_fastnoise_source_s::gr_fastnoise_source_s</definition>
+        <argsstring>(gr_noise_type_t type, float ampl, long seed=0, long samples=1024 *16)</argsstring>
+        <name>gr_fastnoise_source_s</name>
+        <param>
+          <type><ref refid="gr__noise__type_8h_1a12ee6e1f6ac7ef3b10353cb76c0a8728" kindref="member">gr_noise_type_t</ref></type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>ampl</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>seed</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>samples</declname>
+          <defval>1024 *16</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/build/gr36/gnuradio-core/src/lib/gengen/gr_fastnoise_source_s.h" line="71"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr__fastnoise__source__s_1ad7aad83a540badfdf5c8675b3778b292" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr_fastnoise_source_s::set_type</definition>
+        <argsstring>(gr_noise_type_t type)</argsstring>
+        <name>set_type</name>
+        <param>
+          <type><ref refid="gr__noise__type_8h_1a12ee6e1f6ac7ef3b10353cb76c0a8728" kindref="member">gr_noise_type_t</ref></type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/build/gr36/gnuradio-core/src/lib/gengen/gr_fastnoise_source_s.h" line="74" bodyfile="/home/aviral/GNU-Niyantran/build/gr36/gnuradio-core/src/lib/gengen/gr_fastnoise_source_s.h" bodystart="74" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr__fastnoise__source__s_1a8d5962e5f46a99c2a6937f5c4baf2de6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr_fastnoise_source_s::set_amplitude</definition>
+        <argsstring>(float ampl)</argsstring>
+        <name>set_amplitude</name>
+        <param>
+          <type>float</type>
+          <declname>ampl</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/build/gr36/gnuradio-core/src/lib/gengen/gr_fastnoise_source_s.h" line="75" bodyfile="/home/aviral/GNU-Niyantran/build/gr36/gnuradio-core/src/lib/gengen/gr_fastnoise_source_s.h" bodystart="75" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr__fastnoise__source__s_1ac47c13cd0b497af3cd669909f48c937f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr_fastnoise_source_s::generate</definition>
+        <argsstring>()</argsstring>
+        <name>generate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/build/gr36/gnuradio-core/src/lib/gengen/gr_fastnoise_source_s.h" line="76"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr__fastnoise__source__s_1ad07863bcf5af8c1a06c77c1e5ee1caeb" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="gr__noise__type_8h_1a12ee6e1f6ac7ef3b10353cb76c0a8728" kindref="member">gr_noise_type_t</ref></type>
+        <definition>gr_noise_type_t gr_fastnoise_source_s::type</definition>
+        <argsstring>() const </argsstring>
+        <name>type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/build/gr36/gnuradio-core/src/lib/gengen/gr_fastnoise_source_s.h" line="78" bodyfile="/home/aviral/GNU-Niyantran/build/gr36/gnuradio-core/src/lib/gengen/gr_fastnoise_source_s.h" bodystart="78" bodyend="78"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr__fastnoise__source__s_1a7010de2f7aadf21e25ee1e45045f2ee8" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float gr_fastnoise_source_s::amplitude</definition>
+        <argsstring>() const </argsstring>
+        <name>amplitude</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/build/gr36/gnuradio-core/src/lib/gengen/gr_fastnoise_source_s.h" line="79" bodyfile="/home/aviral/GNU-Niyantran/build/gr36/gnuradio-core/src/lib/gengen/gr_fastnoise_source_s.h" bodystart="79" bodyend="79"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr__fastnoise__source__s_1ab43f79b745132499fbe35d37933e311a" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>int</type>
+        <definition>virtual int gr_fastnoise_source_s::work</definition>
+        <argsstring>(int noutput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/build/gr36/gnuradio-core/src/lib/gengen/gr_fastnoise_source_s.h" line="83"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Random number source. </para>    </briefdescription>
+    <detaileddescription>
+<para>Generate random values from different distributions. Currently, only Gaussian and uniform are enabled.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>type</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the random distribution to use (see <ref refid="gr__noise__type_8h" kindref="compound">gr_noise_type.h</ref>) </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>ampl</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a scaling factor for the output </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>seed</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>seed for random generators. Note that for uniform and Gaussian distributions, this should be a negative number. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>samples</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>number of samples to pre-generate. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>    </detaileddescription>
+    <location file="/home/aviral/GNU-Niyantran/build/gr36/gnuradio-core/src/lib/gengen/gr_fastnoise_source_s.h" line="61" bodyfile="/home/aviral/GNU-Niyantran/build/gr36/gnuradio-core/src/lib/gengen/gr_fastnoise_source_s.h" bodystart="61" bodyend="84"/>
+    <listofallmembers>
+      <member refid="classgr__fastnoise__source__s_1a7010de2f7aadf21e25ee1e45045f2ee8" prot="public" virt="non-virtual"><scope>gr_fastnoise_source_s</scope><name>amplitude</name></member>
+      <member refid="classgr__fastnoise__source__s_1a303258085097f06927a383d9e1dc51bf" prot="private" virt="non-virtual"><scope>gr_fastnoise_source_s</scope><name>d_ampl</name></member>
+      <member refid="classgr__fastnoise__source__s_1a2961a202a3443e1d9c43baf6c53b5f55" prot="private" virt="non-virtual"><scope>gr_fastnoise_source_s</scope><name>d_rng</name></member>
+      <member refid="classgr__fastnoise__source__s_1a00535821778cdbc286878deecf810ce5" prot="private" virt="non-virtual"><scope>gr_fastnoise_source_s</scope><name>d_samples</name></member>
+      <member refid="classgr__fastnoise__source__s_1a1c229682f9bc9f2833eda6a94b8f3ec4" prot="private" virt="non-virtual"><scope>gr_fastnoise_source_s</scope><name>d_type</name></member>
+      <member refid="classgr__fastnoise__source__s_1ac47c13cd0b497af3cd669909f48c937f" prot="public" virt="non-virtual"><scope>gr_fastnoise_source_s</scope><name>generate</name></member>
+      <member refid="classgr__fastnoise__source__s_1a25139f4e36b0c419c201393bc1724730" prot="private" virt="non-virtual"><scope>gr_fastnoise_source_s</scope><name>gr_fastnoise_source_s</name></member>
+      <member refid="classgr__fastnoise__source__s_1a15ce2c61a3673ee1007f9659527d52c5" prot="private" virt="non-virtual"><scope>gr_fastnoise_source_s</scope><name>gr_make_fastnoise_source_s</name></member>
+      <member refid="classgr__fastnoise__source__s_1a8d5962e5f46a99c2a6937f5c4baf2de6" prot="public" virt="non-virtual"><scope>gr_fastnoise_source_s</scope><name>set_amplitude</name></member>
+      <member refid="classgr__fastnoise__source__s_1ad7aad83a540badfdf5c8675b3778b292" prot="public" virt="non-virtual"><scope>gr_fastnoise_source_s</scope><name>set_type</name></member>
+      <member refid="classgr__fastnoise__source__s_1ad07863bcf5af8c1a06c77c1e5ee1caeb" prot="public" virt="non-virtual"><scope>gr_fastnoise_source_s</scope><name>type</name></member>
+      <member refid="classgr__fastnoise__source__s_1ab43f79b745132499fbe35d37933e311a" prot="public" virt="virtual"><scope>gr_fastnoise_source_s</scope><name>work</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

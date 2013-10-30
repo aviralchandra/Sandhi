@@ -1,0 +1,196 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="gr__msg__handler_8h" kind="file">
+    <compoundname>gr_msg_handler.h</compoundname>
+    <includes refid="gr__core__api_8h" local="no">gr_core_api.h</includes>
+    <includes refid="gr__message_8h" local="no">gr_message.h</includes>
+    <includedby refid="gr__msg__queue_8h" local="no">gr_msg_queue.h</includedby>
+    <incdepgraph>
+      <node id="9007">
+        <label>gr_core_api.h</label>
+        <link refid="gr__core__api_8h"/>
+        <childnode refid="9008" relation="include">
+        </childnode>
+      </node>
+      <node id="9014">
+        <label>gras/hier_block.hpp</label>
+      </node>
+      <node id="9013">
+        <label>gras/top_block.hpp</label>
+      </node>
+      <node id="9009">
+        <label>gr_message.h</label>
+        <link refid="gr__message_8h"/>
+        <childnode refid="9007" relation="include">
+        </childnode>
+        <childnode refid="9010" relation="include">
+        </childnode>
+        <childnode refid="9015" relation="include">
+        </childnode>
+      </node>
+      <node id="9012">
+        <label>gras/block.hpp</label>
+      </node>
+      <node id="9015">
+        <label>string</label>
+      </node>
+      <node id="9008">
+        <label>gruel/attributes.h</label>
+        <link refid="attributes_8h"/>
+      </node>
+      <node id="9006">
+        <label>gr_msg_handler.h</label>
+        <link refid="gr_msg_handler.h"/>
+        <childnode refid="9007" relation="include">
+        </childnode>
+        <childnode refid="9009" relation="include">
+        </childnode>
+      </node>
+      <node id="9010">
+        <label>gr_types.h</label>
+        <link refid="gr__types_8h"/>
+        <childnode refid="9011" relation="include">
+        </childnode>
+        <childnode refid="9012" relation="include">
+        </childnode>
+        <childnode refid="9013" relation="include">
+        </childnode>
+        <childnode refid="9014" relation="include">
+        </childnode>
+      </node>
+      <node id="9011">
+        <label>gras/element.hpp</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="9018">
+        <label>gr_bin_statistics_f.h</label>
+        <link refid="gr__bin__statistics__f_8h"/>
+      </node>
+      <node id="9033">
+        <label>gr_stream_pdu_base.h</label>
+        <link refid="gr__stream__pdu__base_8h"/>
+        <childnode refid="9032" relation="include">
+        </childnode>
+        <childnode refid="9034" relation="include">
+        </childnode>
+      </node>
+      <node id="9020">
+        <label>gr_message_strobe.h</label>
+        <link refid="gr__message__strobe_8h"/>
+      </node>
+      <node id="9030">
+        <label>gr_oscope_sink_f.h</label>
+        <link refid="gr__oscope__sink__f_8h"/>
+      </node>
+      <node id="9022">
+        <label>gr_packet_sink.h</label>
+        <link refid="gr__packet__sink_8h"/>
+      </node>
+      <node id="9035">
+        <label>gr_tagged_stream_to_pdu.h</label>
+        <link refid="gr__tagged__stream__to__pdu_8h"/>
+      </node>
+      <node id="9024">
+        <label>gr_histo_sink_f.h</label>
+        <link refid="gr__histo__sink__f_8h"/>
+      </node>
+      <node id="9034">
+        <label>gr_tuntap_pdu.h</label>
+        <link refid="gr__tuntap__pdu_8h"/>
+      </node>
+      <node id="9027">
+        <label>gr_message_sink.h</label>
+        <link refid="gr__message__sink_8h"/>
+      </node>
+      <node id="9021">
+        <label>gr_ofdm_frame_sink2.h</label>
+        <link refid="gr__ofdm__frame__sink2_8h"/>
+      </node>
+      <node id="9023">
+        <label>gr_random_pdu.h</label>
+        <link refid="gr__random__pdu_8h"/>
+      </node>
+      <node id="9031">
+        <label>gr_pdu_to_tagged_stream.h</label>
+        <link refid="gr__pdu__to__tagged__stream_8h"/>
+      </node>
+      <node id="9019">
+        <label>gr_framer_sink_1.h</label>
+        <link refid="gr__framer__sink__1_8h"/>
+      </node>
+      <node id="9032">
+        <label>gr_socket_pdu.h</label>
+        <link refid="gr__socket__pdu_8h"/>
+      </node>
+      <node id="9025">
+        <label>gr_message_burst_source.h</label>
+        <link refid="gr__message__burst__source_8h"/>
+      </node>
+      <node id="9016">
+        <label>gr_msg_handler.h</label>
+        <link refid="gr_msg_handler.h"/>
+        <childnode refid="9017" relation="include">
+        </childnode>
+      </node>
+      <node id="9026">
+        <label>gr_message_debug.h</label>
+        <link refid="gr__message__debug_8h_source"/>
+      </node>
+      <node id="9029">
+        <label>gr_oscope_guts.h</label>
+        <link refid="gr__oscope__guts_8h"/>
+      </node>
+      <node id="9028">
+        <label>gr_message_source.h</label>
+        <link refid="gr__message__source_8h"/>
+      </node>
+      <node id="9017">
+        <label>gr_msg_queue.h</label>
+        <link refid="gr__msg__queue_8h"/>
+        <childnode refid="9018" relation="include">
+        </childnode>
+        <childnode refid="9019" relation="include">
+        </childnode>
+        <childnode refid="9020" relation="include">
+        </childnode>
+        <childnode refid="9021" relation="include">
+        </childnode>
+        <childnode refid="9022" relation="include">
+        </childnode>
+        <childnode refid="9023" relation="include">
+        </childnode>
+        <childnode refid="9024" relation="include">
+        </childnode>
+        <childnode refid="9025" relation="include">
+        </childnode>
+        <childnode refid="9026" relation="include">
+        </childnode>
+        <childnode refid="9027" relation="include">
+        </childnode>
+        <childnode refid="9028" relation="include">
+        </childnode>
+        <childnode refid="9029" relation="include">
+        </childnode>
+        <childnode refid="9030" relation="include">
+        </childnode>
+        <childnode refid="9031" relation="include">
+        </childnode>
+        <childnode refid="9032" relation="include">
+        </childnode>
+        <childnode refid="9033" relation="include">
+        </childnode>
+        <childnode refid="9035" relation="include">
+        </childnode>
+        <childnode refid="9034" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classgr__msg__handler" prot="public">gr_msg_handler</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_msg_handler.h"/>
+  </compounddef>
+</doxygen>

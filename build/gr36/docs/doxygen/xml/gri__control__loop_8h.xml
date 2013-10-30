@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="gri__control__loop_8h" kind="file">
+    <compoundname>gri_control_loop.h</compoundname>
+    <includes refid="gr__core__api_8h" local="no">gr_core_api.h</includes>
+    <includedby refid="gr__pll__carriertracking__cc_8h" local="no">gr_pll_carriertracking_cc.h</includedby>
+    <includedby refid="gr__pll__freqdet__cf_8h" local="no">gr_pll_freqdet_cf.h</includedby>
+    <includedby refid="gr__pll__refout__cc_8h" local="no">gr_pll_refout_cc.h</includedby>
+    <incdepgraph>
+      <node id="14553">
+        <label>gr_core_api.h</label>
+        <link refid="gr__core__api_8h"/>
+        <childnode refid="14554" relation="include">
+        </childnode>
+      </node>
+      <node id="14552">
+        <label>gri_control_loop.h</label>
+        <link refid="gri_control_loop.h"/>
+        <childnode refid="14553" relation="include">
+        </childnode>
+      </node>
+      <node id="14554">
+        <label>gruel/attributes.h</label>
+        <link refid="attributes_8h"/>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="14557">
+        <label>gr_pll_freqdet_cf.h</label>
+        <link refid="gr__pll__freqdet__cf_8h"/>
+      </node>
+      <node id="14555">
+        <label>gri_control_loop.h</label>
+        <link refid="gri_control_loop.h"/>
+        <childnode refid="14556" relation="include">
+        </childnode>
+        <childnode refid="14557" relation="include">
+        </childnode>
+        <childnode refid="14558" relation="include">
+        </childnode>
+      </node>
+      <node id="14556">
+        <label>gr_pll_carriertracking_cc.h</label>
+        <link refid="gr__pll__carriertracking__cc_8h"/>
+      </node>
+      <node id="14558">
+        <label>gr_pll_refout_cc.h</label>
+        <link refid="gr__pll__refout__cc_8h"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classgri__control__loop" prot="public">gri_control_loop</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gri_control_loop.h"/>
+  </compounddef>
+</doxygen>

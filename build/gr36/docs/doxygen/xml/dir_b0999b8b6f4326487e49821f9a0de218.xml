@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="dir_b0999b8b6f4326487e49821f9a0de218" kind="dir">
+    <compoundname>/home/aviral/GNU-Niyantran/gr36/volk/</compoundname>
+    <innerdir refid="dir_58070b46771f99f18fbf21c47cb89da4">/home/aviral/GNU-Niyantran/gr36/volk/cmake/</innerdir>
+    <innerdir refid="dir_f03b2fc6ad9c57428e3e13a75451728e">/home/aviral/GNU-Niyantran/gr36/volk/include/</innerdir>
+    <innerdir refid="dir_b44fe35c4f5254619bf3708fed1c26dd">/home/aviral/GNU-Niyantran/gr36/volk/kernels/</innerdir>
+    <innerdir refid="dir_3de690acb216befcab85db2c3e5b05ee">/home/aviral/GNU-Niyantran/gr36/volk/lib/</innerdir>
+    <innerdir refid="dir_ef279c485ee63de3287a4e3bf36f0f15">/home/aviral/GNU-Niyantran/gr36/volk/spu_lib/</innerdir>
+    <innerdir refid="dir_bf445004c645a02bdc90dd7801a1be7c">/home/aviral/GNU-Niyantran/gr36/volk/tmpl/</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/aviral/GNU-Niyantran/gr36/volk/"/>
+  </compounddef>
+</doxygen>

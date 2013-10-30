@@ -1,0 +1,214 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="structgr__tpb__detail" kind="struct" prot="public">
+    <compoundname>gr_tpb_detail</compoundname>
+    <includes refid="gr__tpb__detail_8h" local="no">gr_tpb_detail.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structgr__tpb__detail_1a6855d5a15b1aaa525744439c4e962a76" prot="public" static="no" mutable="no">
+        <type>gruel::mutex</type>
+        <definition>gruel::mutex gr_tpb_detail::mutex</definition>
+        <argsstring></argsstring>
+        <name>mutex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_tpb_detail.h" line="36" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_tpb_detail.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgr__tpb__detail_1a3410d77a1cb86ae5f67a09b9f556adfd" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool gr_tpb_detail::input_changed</definition>
+        <argsstring></argsstring>
+        <name>input_changed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_tpb_detail.h" line="37" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_tpb_detail.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgr__tpb__detail_1a2d6157d0ff587ba3ab5f04714cda7b44" prot="public" static="no" mutable="no">
+        <type>gruel::condition_variable</type>
+        <definition>gruel::condition_variable gr_tpb_detail::input_cond</definition>
+        <argsstring></argsstring>
+        <name>input_cond</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_tpb_detail.h" line="38" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_tpb_detail.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgr__tpb__detail_1abade28c82bdbd3b6959421c028859ec8" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool gr_tpb_detail::output_changed</definition>
+        <argsstring></argsstring>
+        <name>output_changed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_tpb_detail.h" line="39" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_tpb_detail.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgr__tpb__detail_1aeabe9a4cd65639c53eee4a94b42ee576" prot="public" static="no" mutable="no">
+        <type>gruel::condition_variable</type>
+        <definition>gruel::condition_variable gr_tpb_detail::output_cond</definition>
+        <argsstring></argsstring>
+        <name>output_cond</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_tpb_detail.h" line="40" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_tpb_detail.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structgr__tpb__detail_1a5b299fb6e398849a0d58d7eb4a194f3a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>gr_tpb_detail::gr_tpb_detail</definition>
+        <argsstring>()</argsstring>
+        <name>gr_tpb_detail</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_tpb_detail.h" line="44" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_tpb_detail.h" bodystart="43" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="structgr__tpb__detail_1a9f6c825786fd71174fe4aacf77afda2f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr_tpb_detail::notify_upstream</definition>
+        <argsstring>(gr_block_detail *d)</argsstring>
+        <name>notify_upstream</name>
+        <param>
+          <type><ref refid="classgr__block__detail" kindref="compound">gr_block_detail</ref> *</type>
+          <declname>d</declname>
+        </param>
+        <briefdescription>
+<para>Called by us to tell all our upstream blocks that their output may have changed. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_tpb_detail.h" line="47"/>
+      </memberdef>
+      <memberdef kind="function" id="structgr__tpb__detail_1a83752fb01e57a46c9b5308314e4a7a74" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr_tpb_detail::notify_downstream</definition>
+        <argsstring>(gr_block_detail *d)</argsstring>
+        <name>notify_downstream</name>
+        <param>
+          <type><ref refid="classgr__block__detail" kindref="compound">gr_block_detail</ref> *</type>
+          <declname>d</declname>
+        </param>
+        <briefdescription>
+<para>Called by us to tell all our downstream blocks that their input may have changed. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_tpb_detail.h" line="50"/>
+      </memberdef>
+      <memberdef kind="function" id="structgr__tpb__detail_1a9ac531dd6a123f241025b1c515deaa88" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr_tpb_detail::notify_neighbors</definition>
+        <argsstring>(gr_block_detail *d)</argsstring>
+        <name>notify_neighbors</name>
+        <param>
+          <type><ref refid="classgr__block__detail" kindref="compound">gr_block_detail</ref> *</type>
+          <declname>d</declname>
+        </param>
+        <briefdescription>
+<para>Called by us to notify both upstream and downstream. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_tpb_detail.h" line="53"/>
+      </memberdef>
+      <memberdef kind="function" id="structgr__tpb__detail_1a0a1cad5f6462887867c3743a99125b20" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr_tpb_detail::notify_msg</definition>
+        <argsstring>()</argsstring>
+        <name>notify_msg</name>
+        <briefdescription>
+<para>Called by pmt msg posters. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_tpb_detail.h" line="56" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_tpb_detail.h" bodystart="56" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="structgr__tpb__detail_1ab16a5e289bfa2fa3ab6c84d327eb8a7b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr_tpb_detail::clear_changed</definition>
+        <argsstring>()</argsstring>
+        <name>clear_changed</name>
+        <briefdescription>
+<para>Called by us. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_tpb_detail.h" line="63" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_tpb_detail.h" bodystart="62" bodyend="67"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="structgr__tpb__detail_1ab91349cef751e9f8912316c8d6dc9f03" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr_tpb_detail::set_input_changed</definition>
+        <argsstring>()</argsstring>
+        <name>set_input_changed</name>
+        <briefdescription>
+<para>Used by notify_downstream. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_tpb_detail.h" line="73" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_tpb_detail.h" bodystart="72" bodyend="77"/>
+      </memberdef>
+      <memberdef kind="function" id="structgr__tpb__detail_1adfb89be8a92cca34aceac6b2c351a425" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr_tpb_detail::set_output_changed</definition>
+        <argsstring>()</argsstring>
+        <name>set_output_changed</name>
+        <briefdescription>
+<para>Used by notify_upstream. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_tpb_detail.h" line="81" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_tpb_detail.h" bodystart="80" bodyend="85"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>used by thread-per-block scheduler </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_tpb_detail.h" line="34" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_tpb_detail.h" bodystart="34" bodyend="87"/>
+    <listofallmembers>
+      <member refid="structgr__tpb__detail_1ab16a5e289bfa2fa3ab6c84d327eb8a7b" prot="public" virt="non-virtual"><scope>gr_tpb_detail</scope><name>clear_changed</name></member>
+      <member refid="structgr__tpb__detail_1a5b299fb6e398849a0d58d7eb4a194f3a" prot="public" virt="non-virtual"><scope>gr_tpb_detail</scope><name>gr_tpb_detail</name></member>
+      <member refid="structgr__tpb__detail_1a3410d77a1cb86ae5f67a09b9f556adfd" prot="public" virt="non-virtual"><scope>gr_tpb_detail</scope><name>input_changed</name></member>
+      <member refid="structgr__tpb__detail_1a2d6157d0ff587ba3ab5f04714cda7b44" prot="public" virt="non-virtual"><scope>gr_tpb_detail</scope><name>input_cond</name></member>
+      <member refid="structgr__tpb__detail_1a6855d5a15b1aaa525744439c4e962a76" prot="public" virt="non-virtual"><scope>gr_tpb_detail</scope><name>mutex</name></member>
+      <member refid="structgr__tpb__detail_1a83752fb01e57a46c9b5308314e4a7a74" prot="public" virt="non-virtual"><scope>gr_tpb_detail</scope><name>notify_downstream</name></member>
+      <member refid="structgr__tpb__detail_1a0a1cad5f6462887867c3743a99125b20" prot="public" virt="non-virtual"><scope>gr_tpb_detail</scope><name>notify_msg</name></member>
+      <member refid="structgr__tpb__detail_1a9ac531dd6a123f241025b1c515deaa88" prot="public" virt="non-virtual"><scope>gr_tpb_detail</scope><name>notify_neighbors</name></member>
+      <member refid="structgr__tpb__detail_1a9f6c825786fd71174fe4aacf77afda2f" prot="public" virt="non-virtual"><scope>gr_tpb_detail</scope><name>notify_upstream</name></member>
+      <member refid="structgr__tpb__detail_1abade28c82bdbd3b6959421c028859ec8" prot="public" virt="non-virtual"><scope>gr_tpb_detail</scope><name>output_changed</name></member>
+      <member refid="structgr__tpb__detail_1aeabe9a4cd65639c53eee4a94b42ee576" prot="public" virt="non-virtual"><scope>gr_tpb_detail</scope><name>output_cond</name></member>
+      <member refid="structgr__tpb__detail_1ab91349cef751e9f8912316c8d6dc9f03" prot="private" virt="non-virtual"><scope>gr_tpb_detail</scope><name>set_input_changed</name></member>
+      <member refid="structgr__tpb__detail_1adfb89be8a92cca34aceac6b2c351a425" prot="private" virt="non-virtual"><scope>gr_tpb_detail</scope><name>set_output_changed</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

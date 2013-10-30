@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="volk__32fc__s32fc__rotatorpuppet__32fc__a_8h" kind="file">
+    <compoundname>volk_32fc_s32fc_rotatorpuppet_32fc_a.h</compoundname>
+    <includes refid="volk__complex_8h" local="no">volk/volk_complex.h</includes>
+    <includes local="no">stdio.h</includes>
+    <includes refid="volk__32fc__s32fc__x2__rotator__32fc__a_8h" local="no">volk/volk_32fc_s32fc_x2_rotator_32fc_a.h</includes>
+    <incdepgraph>
+      <node id="21439">
+        <label>volk/volk_complex.h</label>
+        <link refid="volk__complex_8h"/>
+        <childnode refid="21440" relation="include">
+        </childnode>
+      </node>
+      <node id="21443">
+        <label>stdlib.h</label>
+      </node>
+      <node id="21440">
+        <label>complex.h</label>
+      </node>
+      <node id="21442">
+        <label>volk/volk_32fc_s32fc_x2_rotator_32fc_a.h</label>
+        <link refid="volk__32fc__s32fc__x2__rotator__32fc__a_8h"/>
+        <childnode refid="21439" relation="include">
+        </childnode>
+        <childnode refid="21441" relation="include">
+        </childnode>
+        <childnode refid="21443" relation="include">
+        </childnode>
+      </node>
+      <node id="21438">
+        <label>volk_32fc_s32fc_rotatorpuppet_32fc_a.h</label>
+        <link refid="volk_32fc_s32fc_rotatorpuppet_32fc_a.h"/>
+        <childnode refid="21439" relation="include">
+        </childnode>
+        <childnode refid="21441" relation="include">
+        </childnode>
+        <childnode refid="21442" relation="include">
+        </childnode>
+      </node>
+      <node id="21441">
+        <label>stdio.h</label>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/aviral/GNU-Niyantran/gr36/volk/include/volk/volk_32fc_s32fc_rotatorpuppet_32fc_a.h"/>
+  </compounddef>
+</doxygen>

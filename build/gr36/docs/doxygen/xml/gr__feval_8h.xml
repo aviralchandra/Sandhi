@@ -1,0 +1,223 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="gr__feval_8h" kind="file">
+    <compoundname>gr_feval.h</compoundname>
+    <includes refid="gr__core__api_8h" local="no">gr_core_api.h</includes>
+    <includes refid="gr__complex_8h" local="no">gr_complex.h</includes>
+    <includes refid="pmt_8h" local="no">gruel/pmt.h</includes>
+    <includedby refid="gr__bin__statistics__f_8h" local="no">gr_bin_statistics_f.h</includedby>
+    <includedby refid="gr__block__gateway_8h" local="no">gr_block_gateway.h</includedby>
+    <incdepgraph>
+      <node id="6700">
+        <label>boost/shared_ptr.hpp</label>
+      </node>
+      <node id="6697">
+        <label>gruel/pmt.h</label>
+        <link refid="pmt_8h"/>
+        <childnode refid="6698" relation="include">
+        </childnode>
+        <childnode refid="6699" relation="include">
+        </childnode>
+        <childnode refid="6700" relation="include">
+        </childnode>
+        <childnode refid="6701" relation="include">
+        </childnode>
+        <childnode refid="6696" relation="include">
+        </childnode>
+        <childnode refid="6702" relation="include">
+        </childnode>
+        <childnode refid="6703" relation="include">
+        </childnode>
+        <childnode refid="6706" relation="include">
+        </childnode>
+        <childnode refid="6707" relation="include">
+        </childnode>
+        <childnode refid="6708" relation="include">
+        </childnode>
+        <childnode refid="6709" relation="include">
+        </childnode>
+      </node>
+      <node id="6699">
+        <label>boost/intrusive_ptr.hpp</label>
+      </node>
+      <node id="6693">
+        <label>gr_core_api.h</label>
+        <link refid="gr__core__api_8h"/>
+        <childnode refid="6694" relation="include">
+        </childnode>
+      </node>
+      <node id="6703">
+        <label>stdint.h</label>
+        <link refid="stdint_8h"/>
+        <childnode refid="6704" relation="include">
+        </childnode>
+        <childnode refid="6705" relation="include">
+        </childnode>
+      </node>
+      <node id="6707">
+        <label>stdexcept</label>
+      </node>
+      <node id="6702">
+        <label>string</label>
+      </node>
+      <node id="6692">
+        <label>gr_feval.h</label>
+        <link refid="gr_feval.h"/>
+        <childnode refid="6693" relation="include">
+        </childnode>
+        <childnode refid="6695" relation="include">
+        </childnode>
+        <childnode refid="6697" relation="include">
+        </childnode>
+      </node>
+      <node id="6694">
+        <label>gruel/attributes.h</label>
+        <link refid="attributes_8h"/>
+      </node>
+      <node id="6704">
+        <label>limits.h</label>
+      </node>
+      <node id="6701">
+        <label>boost/any.hpp</label>
+      </node>
+      <node id="6705">
+        <label>wchar.h</label>
+      </node>
+      <node id="6709">
+        <label>gruel/pmt_sugar.h</label>
+        <link refid="pmt__sugar_8h"/>
+      </node>
+      <node id="6708">
+        <label>vector</label>
+      </node>
+      <node id="6698">
+        <label>gruel/api.h</label>
+        <link refid="gruel_2src_2include_2gruel_2api_8h"/>
+        <childnode refid="6694" relation="include">
+        </childnode>
+      </node>
+      <node id="6706">
+        <label>iosfwd</label>
+      </node>
+      <node id="6695">
+        <label>gr_complex.h</label>
+        <link refid="gr__complex_8h"/>
+        <childnode refid="6696" relation="include">
+        </childnode>
+      </node>
+      <node id="6696">
+        <label>complex</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="6711">
+        <label>gr_bin_statistics_f.h</label>
+        <link refid="gr__bin__statistics__f_8h"/>
+      </node>
+      <node id="6710">
+        <label>gr_feval.h</label>
+        <link refid="gr_feval.h"/>
+        <childnode refid="6711" relation="include">
+        </childnode>
+        <childnode refid="6712" relation="include">
+        </childnode>
+      </node>
+      <node id="6712">
+        <label>gr_block_gateway.h</label>
+        <link refid="gr__block__gateway_8h"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classgr__feval__dd" prot="public">gr_feval_dd</innerclass>
+    <innerclass refid="classgr__feval__cc" prot="public">gr_feval_cc</innerclass>
+    <innerclass refid="classgr__feval__ll" prot="public">gr_feval_ll</innerclass>
+    <innerclass refid="classgr__feval" prot="public">gr_feval</innerclass>
+    <innerclass refid="classgr__feval__p" prot="public">gr_feval_p</innerclass>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="gr__feval_8h_1a65d9ff17307ab3d66c83b05ea0e2802e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="gr__core__api_8h_1a8b8937b0c61edd85ab57ce8203543248" kindref="member">GR_CORE_API</ref> double</type>
+        <definition>GR_CORE_API double gr_feval_dd_example</definition>
+        <argsstring>(gr_feval_dd *f, double x)</argsstring>
+        <name>gr_feval_dd_example</name>
+        <param>
+          <type><ref refid="classgr__feval__dd" kindref="compound">gr_feval_dd</ref> *</type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+<para>trivial examples / test cases showing C++ calling Python code </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_feval.h" line="172"/>
+      </memberdef>
+      <memberdef kind="function" id="gr__feval_8h_1a2a1638398ab2a9462df61913e14c5ffa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="gr__core__api_8h_1a8b8937b0c61edd85ab57ce8203543248" kindref="member">GR_CORE_API</ref> <ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref></type>
+        <definition>GR_CORE_API gr_complex gr_feval_cc_example</definition>
+        <argsstring>(gr_feval_cc *f, gr_complex x)</argsstring>
+        <name>gr_feval_cc_example</name>
+        <param>
+          <type><ref refid="classgr__feval__cc" kindref="compound">gr_feval_cc</ref> *</type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type><ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref></type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_feval.h" line="173"/>
+      </memberdef>
+      <memberdef kind="function" id="gr__feval_8h_1a0a94ac837089862d8689ce143b6525cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="gr__core__api_8h_1a8b8937b0c61edd85ab57ce8203543248" kindref="member">GR_CORE_API</ref> long</type>
+        <definition>GR_CORE_API long gr_feval_ll_example</definition>
+        <argsstring>(gr_feval_ll *f, long x)</argsstring>
+        <name>gr_feval_ll_example</name>
+        <param>
+          <type><ref refid="classgr__feval__ll" kindref="compound">gr_feval_ll</ref> *</type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_feval.h" line="174"/>
+      </memberdef>
+      <memberdef kind="function" id="gr__feval_8h_1a9dec6492a3ce66542675381def936ce3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="gr__core__api_8h_1a8b8937b0c61edd85ab57ce8203543248" kindref="member">GR_CORE_API</ref> <ref refid="volk_8tmpl_8h_1a2b104da38b6f0a28d721ed74346ef298" kindref="member">void</ref></type>
+        <definition>GR_CORE_API void gr_feval_example</definition>
+        <argsstring>(gr_feval *f)</argsstring>
+        <name>gr_feval_example</name>
+        <param>
+          <type><ref refid="classgr__feval" kindref="compound">gr_feval</ref> *</type>
+          <declname>f</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_feval.h" line="175"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_feval.h"/>
+  </compounddef>
+</doxygen>

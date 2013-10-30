@@ -1,0 +1,254 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="throttle_8h" kind="file">
+    <compoundname>throttle.h</compoundname>
+    <includes refid="gr-blocks_2include_2blocks_2api_8h" local="no">blocks/api.h</includes>
+    <includes refid="gr__sync__block_8h" local="no">gr_sync_block.h</includes>
+    <includedby refid="throttle__impl_8h" local="no">throttle_impl.h</includedby>
+    <incdepgraph>
+      <node id="19990">
+        <label>boost/thread/mutex.hpp</label>
+      </node>
+      <node id="19992">
+        <label>boost/thread/condition_variable.hpp</label>
+      </node>
+      <node id="19974">
+        <label>boost/shared_ptr.hpp</label>
+      </node>
+      <node id="19971">
+        <label>gruel/pmt.h</label>
+        <link refid="pmt_8h"/>
+        <childnode refid="19972" relation="include">
+        </childnode>
+        <childnode refid="19973" relation="include">
+        </childnode>
+        <childnode refid="19974" relation="include">
+        </childnode>
+        <childnode refid="19975" relation="include">
+        </childnode>
+        <childnode refid="19976" relation="include">
+        </childnode>
+        <childnode refid="19977" relation="include">
+        </childnode>
+        <childnode refid="19978" relation="include">
+        </childnode>
+        <childnode refid="19981" relation="include">
+        </childnode>
+        <childnode refid="19982" relation="include">
+        </childnode>
+        <childnode refid="19983" relation="include">
+        </childnode>
+        <childnode refid="19984" relation="include">
+        </childnode>
+      </node>
+      <node id="19973">
+        <label>boost/intrusive_ptr.hpp</label>
+      </node>
+      <node id="19962">
+        <label>gr_core_api.h</label>
+        <link refid="gr__core__api_8h"/>
+        <childnode refid="19959" relation="include">
+        </childnode>
+      </node>
+      <node id="19978">
+        <label>stdint.h</label>
+        <link refid="stdint_8h"/>
+        <childnode refid="19979" relation="include">
+        </childnode>
+        <childnode refid="19980" relation="include">
+        </childnode>
+      </node>
+      <node id="19969">
+        <label>gras/hier_block.hpp</label>
+      </node>
+      <node id="19968">
+        <label>gras/top_block.hpp</label>
+      </node>
+      <node id="19987">
+        <label>boost/foreach.hpp</label>
+      </node>
+      <node id="19982">
+        <label>stdexcept</label>
+      </node>
+      <node id="19963">
+        <label>gras/block.hpp</label>
+      </node>
+      <node id="19989">
+        <label>boost/thread/thread.hpp</label>
+      </node>
+      <node id="19977">
+        <label>string</label>
+      </node>
+      <node id="19986">
+        <label>map</label>
+      </node>
+      <node id="19959">
+        <label>gruel/attributes.h</label>
+        <link refid="attributes_8h"/>
+      </node>
+      <node id="19957">
+        <label>throttle.h</label>
+        <link refid="throttle.h"/>
+        <childnode refid="19958" relation="include">
+        </childnode>
+        <childnode refid="19960" relation="include">
+        </childnode>
+      </node>
+      <node id="19979">
+        <label>limits.h</label>
+      </node>
+      <node id="19975">
+        <label>boost/any.hpp</label>
+      </node>
+      <node id="19961">
+        <label>gr_block.h</label>
+        <link refid="gr__block_8h"/>
+        <childnode refid="19962" relation="include">
+        </childnode>
+        <childnode refid="19963" relation="include">
+        </childnode>
+        <childnode refid="19964" relation="include">
+        </childnode>
+        <childnode refid="19966" relation="include">
+        </childnode>
+        <childnode refid="19970" relation="include">
+        </childnode>
+        <childnode refid="19977" relation="include">
+        </childnode>
+        <childnode refid="19985" relation="include">
+        </childnode>
+        <childnode refid="19986" relation="include">
+        </childnode>
+        <childnode refid="19987" relation="include">
+        </childnode>
+        <childnode refid="19988" relation="include">
+        </childnode>
+        <childnode refid="19993" relation="include">
+        </childnode>
+      </node>
+      <node id="19965">
+        <label>gr_runtime_types.h</label>
+        <link refid="gr__runtime__types_8h"/>
+        <childnode refid="19962" relation="include">
+        </childnode>
+        <childnode refid="19966" relation="include">
+        </childnode>
+      </node>
+      <node id="19980">
+        <label>wchar.h</label>
+      </node>
+      <node id="19984">
+        <label>gruel/pmt_sugar.h</label>
+        <link refid="pmt__sugar_8h"/>
+      </node>
+      <node id="19991">
+        <label>boost/thread/locks.hpp</label>
+      </node>
+      <node id="19960">
+        <label>gr_sync_block.h</label>
+        <link refid="gr__sync__block_8h"/>
+        <childnode refid="19961" relation="include">
+        </childnode>
+      </node>
+      <node id="19983">
+        <label>vector</label>
+      </node>
+      <node id="19964">
+        <label>gr_io_signature.h</label>
+        <link refid="gr__io__signature_8h"/>
+        <childnode refid="19962" relation="include">
+        </childnode>
+        <childnode refid="19965" relation="include">
+        </childnode>
+      </node>
+      <node id="19972">
+        <label>gruel/api.h</label>
+        <link refid="gruel_2src_2include_2gruel_2api_8h"/>
+        <childnode refid="19959" relation="include">
+        </childnode>
+      </node>
+      <node id="19958">
+        <label>blocks/api.h</label>
+        <link refid="gr-blocks_2include_2blocks_2api_8h"/>
+        <childnode refid="19959" relation="include">
+        </childnode>
+      </node>
+      <node id="19981">
+        <label>iosfwd</label>
+      </node>
+      <node id="19966">
+        <label>gr_types.h</label>
+        <link refid="gr__types_8h"/>
+        <childnode refid="19967" relation="include">
+        </childnode>
+        <childnode refid="19963" relation="include">
+        </childnode>
+        <childnode refid="19968" relation="include">
+        </childnode>
+        <childnode refid="19969" relation="include">
+        </childnode>
+      </node>
+      <node id="19988">
+        <label>gruel/thread.h</label>
+        <link refid="thread_8h"/>
+        <childnode refid="19972" relation="include">
+        </childnode>
+        <childnode refid="19989" relation="include">
+        </childnode>
+        <childnode refid="19990" relation="include">
+        </childnode>
+        <childnode refid="19991" relation="include">
+        </childnode>
+        <childnode refid="19992" relation="include">
+        </childnode>
+        <childnode refid="19983" relation="include">
+        </childnode>
+      </node>
+      <node id="19985">
+        <label>deque</label>
+      </node>
+      <node id="19970">
+        <label>gr_tags.h</label>
+        <link refid="gr__tags_8h"/>
+        <childnode refid="19962" relation="include">
+        </childnode>
+        <childnode refid="19971" relation="include">
+        </childnode>
+      </node>
+      <node id="19976">
+        <label>complex</label>
+      </node>
+      <node id="19993">
+        <label>gr_sptr_magic.h</label>
+        <link refid="gr__sptr__magic_8h_source"/>
+        <childnode refid="19962" relation="include">
+        </childnode>
+        <childnode refid="19974" relation="include">
+        </childnode>
+      </node>
+      <node id="19967">
+        <label>gras/element.hpp</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="19994">
+        <label>throttle.h</label>
+        <link refid="throttle.h"/>
+        <childnode refid="19995" relation="include">
+        </childnode>
+      </node>
+      <node id="19995">
+        <label>throttle_impl.h</label>
+        <link refid="throttle__impl_8h"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classgr_1_1blocks_1_1throttle" prot="public">gr::blocks::throttle</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1blocks">gr::blocks</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/include/blocks/throttle.h"/>
+  </compounddef>
+</doxygen>

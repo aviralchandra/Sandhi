@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="classstd_1_1stringstream" kind="class" prot="public">
+    <compoundname>std::stringstream</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">std::basic_stringstream&lt; char &gt;</basecompoundref>
+    <briefdescription>
+<para>STL class. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="6907">
+        <label>std::basic_istream&lt; Char &gt;</label>
+        <childnode refid="6908" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6906">
+        <label>std::basic_iostream&lt; Char &gt;</label>
+        <childnode refid="6907" relation="public-inheritance">
+        </childnode>
+        <childnode refid="6910" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6910">
+        <label>std::basic_ostream&lt; Char &gt;</label>
+        <childnode refid="6908" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6908">
+        <label>std::basic_ios&lt; Char &gt;</label>
+        <childnode refid="6909" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6905">
+        <label>std::basic_stringstream&lt; char &gt;</label>
+        <childnode refid="6906" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6909">
+        <label>std::ios_base</label>
+      </node>
+      <node id="6904">
+        <label>std::stringstream</label>
+        <childnode refid="6905" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="6914">
+        <label>std::basic_istream&lt; Char &gt;</label>
+        <childnode refid="6915" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6913">
+        <label>std::basic_iostream&lt; Char &gt;</label>
+        <childnode refid="6914" relation="public-inheritance">
+        </childnode>
+        <childnode refid="6917" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6917">
+        <label>std::basic_ostream&lt; Char &gt;</label>
+        <childnode refid="6915" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6915">
+        <label>std::basic_ios&lt; Char &gt;</label>
+        <childnode refid="6916" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6912">
+        <label>std::basic_stringstream&lt; char &gt;</label>
+        <childnode refid="6913" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6916">
+        <label>std::ios_base</label>
+      </node>
+      <node id="6911">
+        <label>std::stringstream</label>
+        <childnode refid="6912" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="[STL]" line="1"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

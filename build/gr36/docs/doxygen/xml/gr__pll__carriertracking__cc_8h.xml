@@ -1,0 +1,269 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="gr__pll__carriertracking__cc_8h" kind="file">
+    <compoundname>gr_pll_carriertracking_cc.h</compoundname>
+    <includes refid="gr__core__api_8h" local="no">gr_core_api.h</includes>
+    <includes refid="gr__sync__block_8h" local="no">gr_sync_block.h</includes>
+    <includes refid="gri__control__loop_8h" local="no">gri_control_loop.h</includes>
+    <incdepgraph>
+      <node id="10180">
+        <label>boost/thread/mutex.hpp</label>
+      </node>
+      <node id="10182">
+        <label>boost/thread/condition_variable.hpp</label>
+      </node>
+      <node id="10164">
+        <label>boost/shared_ptr.hpp</label>
+      </node>
+      <node id="10161">
+        <label>gruel/pmt.h</label>
+        <link refid="pmt_8h"/>
+        <childnode refid="10162" relation="include">
+        </childnode>
+        <childnode refid="10163" relation="include">
+        </childnode>
+        <childnode refid="10164" relation="include">
+        </childnode>
+        <childnode refid="10165" relation="include">
+        </childnode>
+        <childnode refid="10166" relation="include">
+        </childnode>
+        <childnode refid="10167" relation="include">
+        </childnode>
+        <childnode refid="10168" relation="include">
+        </childnode>
+        <childnode refid="10171" relation="include">
+        </childnode>
+        <childnode refid="10172" relation="include">
+        </childnode>
+        <childnode refid="10173" relation="include">
+        </childnode>
+        <childnode refid="10174" relation="include">
+        </childnode>
+      </node>
+      <node id="10163">
+        <label>boost/intrusive_ptr.hpp</label>
+      </node>
+      <node id="10149">
+        <label>gr_core_api.h</label>
+        <link refid="gr__core__api_8h"/>
+        <childnode refid="10150" relation="include">
+        </childnode>
+      </node>
+      <node id="10168">
+        <label>stdint.h</label>
+        <link refid="stdint_8h"/>
+        <childnode refid="10169" relation="include">
+        </childnode>
+        <childnode refid="10170" relation="include">
+        </childnode>
+      </node>
+      <node id="10159">
+        <label>gras/hier_block.hpp</label>
+      </node>
+      <node id="10158">
+        <label>gras/top_block.hpp</label>
+      </node>
+      <node id="10177">
+        <label>boost/foreach.hpp</label>
+      </node>
+      <node id="10172">
+        <label>stdexcept</label>
+      </node>
+      <node id="10153">
+        <label>gras/block.hpp</label>
+      </node>
+      <node id="10179">
+        <label>boost/thread/thread.hpp</label>
+      </node>
+      <node id="10167">
+        <label>string</label>
+      </node>
+      <node id="10184">
+        <label>gri_control_loop.h</label>
+        <link refid="gri__control__loop_8h"/>
+        <childnode refid="10149" relation="include">
+        </childnode>
+      </node>
+      <node id="10176">
+        <label>map</label>
+      </node>
+      <node id="10150">
+        <label>gruel/attributes.h</label>
+        <link refid="attributes_8h"/>
+      </node>
+      <node id="10169">
+        <label>limits.h</label>
+      </node>
+      <node id="10165">
+        <label>boost/any.hpp</label>
+      </node>
+      <node id="10152">
+        <label>gr_block.h</label>
+        <link refid="gr__block_8h"/>
+        <childnode refid="10149" relation="include">
+        </childnode>
+        <childnode refid="10153" relation="include">
+        </childnode>
+        <childnode refid="10154" relation="include">
+        </childnode>
+        <childnode refid="10156" relation="include">
+        </childnode>
+        <childnode refid="10160" relation="include">
+        </childnode>
+        <childnode refid="10167" relation="include">
+        </childnode>
+        <childnode refid="10175" relation="include">
+        </childnode>
+        <childnode refid="10176" relation="include">
+        </childnode>
+        <childnode refid="10177" relation="include">
+        </childnode>
+        <childnode refid="10178" relation="include">
+        </childnode>
+        <childnode refid="10183" relation="include">
+        </childnode>
+      </node>
+      <node id="10155">
+        <label>gr_runtime_types.h</label>
+        <link refid="gr__runtime__types_8h"/>
+        <childnode refid="10149" relation="include">
+        </childnode>
+        <childnode refid="10156" relation="include">
+        </childnode>
+      </node>
+      <node id="10170">
+        <label>wchar.h</label>
+      </node>
+      <node id="10174">
+        <label>gruel/pmt_sugar.h</label>
+        <link refid="pmt__sugar_8h"/>
+      </node>
+      <node id="10181">
+        <label>boost/thread/locks.hpp</label>
+      </node>
+      <node id="10151">
+        <label>gr_sync_block.h</label>
+        <link refid="gr__sync__block_8h"/>
+        <childnode refid="10152" relation="include">
+        </childnode>
+      </node>
+      <node id="10173">
+        <label>vector</label>
+      </node>
+      <node id="10154">
+        <label>gr_io_signature.h</label>
+        <link refid="gr__io__signature_8h"/>
+        <childnode refid="10149" relation="include">
+        </childnode>
+        <childnode refid="10155" relation="include">
+        </childnode>
+      </node>
+      <node id="10148">
+        <label>gr_pll_carriertracking_cc.h</label>
+        <link refid="gr_pll_carriertracking_cc.h"/>
+        <childnode refid="10149" relation="include">
+        </childnode>
+        <childnode refid="10151" relation="include">
+        </childnode>
+        <childnode refid="10184" relation="include">
+        </childnode>
+      </node>
+      <node id="10162">
+        <label>gruel/api.h</label>
+        <link refid="gruel_2src_2include_2gruel_2api_8h"/>
+        <childnode refid="10150" relation="include">
+        </childnode>
+      </node>
+      <node id="10171">
+        <label>iosfwd</label>
+      </node>
+      <node id="10156">
+        <label>gr_types.h</label>
+        <link refid="gr__types_8h"/>
+        <childnode refid="10157" relation="include">
+        </childnode>
+        <childnode refid="10153" relation="include">
+        </childnode>
+        <childnode refid="10158" relation="include">
+        </childnode>
+        <childnode refid="10159" relation="include">
+        </childnode>
+      </node>
+      <node id="10178">
+        <label>gruel/thread.h</label>
+        <link refid="thread_8h"/>
+        <childnode refid="10162" relation="include">
+        </childnode>
+        <childnode refid="10179" relation="include">
+        </childnode>
+        <childnode refid="10180" relation="include">
+        </childnode>
+        <childnode refid="10181" relation="include">
+        </childnode>
+        <childnode refid="10182" relation="include">
+        </childnode>
+        <childnode refid="10173" relation="include">
+        </childnode>
+      </node>
+      <node id="10175">
+        <label>deque</label>
+      </node>
+      <node id="10160">
+        <label>gr_tags.h</label>
+        <link refid="gr__tags_8h"/>
+        <childnode refid="10149" relation="include">
+        </childnode>
+        <childnode refid="10161" relation="include">
+        </childnode>
+      </node>
+      <node id="10166">
+        <label>complex</label>
+      </node>
+      <node id="10183">
+        <label>gr_sptr_magic.h</label>
+        <link refid="gr__sptr__magic_8h_source"/>
+        <childnode refid="10149" relation="include">
+        </childnode>
+        <childnode refid="10164" relation="include">
+        </childnode>
+      </node>
+      <node id="10157">
+        <label>gras/element.hpp</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classgr__pll__carriertracking__cc" prot="public">gr_pll_carriertracking_cc</innerclass>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="gr__pll__carriertracking__cc_8h_1a60b2c2ed6ce4b76ccebe00ba67bc3fe0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="gr__core__api_8h_1a8b8937b0c61edd85ab57ce8203543248" kindref="member">GR_CORE_API</ref> <ref refid="classboost_1_1shared__ptr" kindref="compound">gr_pll_carriertracking_cc_sptr</ref></type>
+        <definition>GR_CORE_API gr_pll_carriertracking_cc_sptr gr_make_pll_carriertracking_cc</definition>
+        <argsstring>(float loop_bw, float max_freq, float min_freq)</argsstring>
+        <name>gr_make_pll_carriertracking_cc</name>
+        <param>
+          <type>float</type>
+          <declname>loop_bw</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>max_freq</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>min_freq</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_pll_carriertracking_cc.h" line="35"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/general/gr_pll_carriertracking_cc.h"/>
+  </compounddef>
+</doxygen>

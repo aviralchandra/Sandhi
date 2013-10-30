@@ -1,0 +1,15 @@
+prefix=/usr/local
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: PMC
+Description: Polymorphic Container
+URL: https://github.com/guruofquality/PMC/wiki
+Version: 0.0.0
+Requires:
+Requires.private:
+Conflicts:
+Cflags: -I${includedir}
+Libs: -L${libdir} -lpmc
+Libs.private:

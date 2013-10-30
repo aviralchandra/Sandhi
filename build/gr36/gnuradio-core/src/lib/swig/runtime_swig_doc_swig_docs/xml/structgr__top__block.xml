@@ -1,0 +1,305 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="structgr__top__block" kind="struct" prot="public">
+    <compoundname>gr_top_block</compoundname>
+    <includes refid="gr__top__block_8h" local="no">gr_top_block.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structgr__top__block_1a47165db53feea4f919bf043698e7b603" prot="public" static="no" mutable="no">
+        <type>long</type>
+        <definition>long gr_top_block::_unique_id</definition>
+        <argsstring></argsstring>
+        <name>_unique_id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_top_block.h" line="38" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_top_block.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgr__top__block_1aca6ef5ef2a2c3ecfc59d4c10f3aeed40" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string gr_top_block::_name</definition>
+        <argsstring></argsstring>
+        <name>_name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_top_block.h" line="39" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_top_block.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structgr__top__block_1a7a651a8e21095c5012e54e0a8a5679ae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr_top_block::gr_top_block</definition>
+        <argsstring>(void)</argsstring>
+        <name>gr_top_block</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_top_block.h" line="32"/>
+      </memberdef>
+      <memberdef kind="function" id="structgr__top__block_1af671df672a4814a6d559e7b90c6a970e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr_top_block::gr_top_block</definition>
+        <argsstring>(const std::string &amp;name)</argsstring>
+        <name>gr_top_block</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_top_block.h" line="34"/>
+      </memberdef>
+      <memberdef kind="function" id="structgr__top__block_1a985e88cef780aca4e4d486d0aa204200" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>long</type>
+        <definition>long gr_top_block::unique_id</definition>
+        <argsstring>(void) const </argsstring>
+        <name>unique_id</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_top_block.h" line="36" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_top_block.h" bodystart="36" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="structgr__top__block_1a45522626195ad3ef3d78d6a1d2468f37" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string gr_top_block::name</definition>
+        <argsstring>(void) const </argsstring>
+        <name>name</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_top_block.h" line="37" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_top_block.h" bodystart="37" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="structgr__top__block_1ad18797ba365e1374fa8fdfe77f11cf95" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr_top_block::start</definition>
+        <argsstring>(const size_t max_items)</argsstring>
+        <name>start</name>
+        <param>
+          <type>const size_t</type>
+          <declname>max_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_top_block.h" line="41"/>
+      </memberdef>
+      <memberdef kind="function" id="structgr__top__block_1ac7579a877085d1df6786c69203163223" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr_top_block::run</definition>
+        <argsstring>(const size_t max_items)</argsstring>
+        <name>run</name>
+        <param>
+          <type>const size_t</type>
+          <declname>max_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_top_block.h" line="43"/>
+      </memberdef>
+      <memberdef kind="function" id="structgr__top__block_1a44d21b8e6d3e0d6ed171de964036fbc8" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr_top_block::max_noutput_items</definition>
+        <argsstring>(void) const </argsstring>
+        <name>max_noutput_items</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_top_block.h" line="45"/>
+      </memberdef>
+      <memberdef kind="function" id="structgr__top__block_1ab48e08edb9e6f2edad8023ed95ed2092" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr_top_block::set_max_noutput_items</definition>
+        <argsstring>(int max_items)</argsstring>
+        <name>set_max_noutput_items</name>
+        <param>
+          <type>int</type>
+          <declname>max_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_top_block.h" line="47"/>
+      </memberdef>
+      <memberdef kind="function" id="structgr__top__block_1a2285d25e33a30e4aaf14dbd9691e5951" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr_top_block::run</definition>
+        <argsstring>(void)</argsstring>
+        <name>run</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_top_block.h" line="49"/>
+      </memberdef>
+      <memberdef kind="function" id="structgr__top__block_1a0c7ffaaad326926382714164e2d8ca8c" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void gr_top_block::start</definition>
+        <argsstring>(void)</argsstring>
+        <name>start</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_top_block.h" line="51"/>
+      </memberdef>
+      <memberdef kind="function" id="structgr__top__block_1a04e94051f972702269d68c6a4e2d2a48" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void gr_top_block::stop</definition>
+        <argsstring>(void)</argsstring>
+        <name>stop</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_top_block.h" line="53"/>
+      </memberdef>
+      <memberdef kind="function" id="structgr__top__block_1a6373176e7a09d119adb08629d70947c5" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void gr_top_block::wait</definition>
+        <argsstring>(void)</argsstring>
+        <name>wait</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_top_block.h" line="55"/>
+      </memberdef>
+      <memberdef kind="function" id="structgr__top__block_1ae4c2a9d11cf40faba43641116e51d84a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr_top_block::lock</definition>
+        <argsstring>(void)</argsstring>
+        <name>lock</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_top_block.h" line="57" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_top_block.h" bodystart="57" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="structgr__top__block_1a31aff0bbdf5c9cb2a88243864d42a226" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr_top_block::unlock</definition>
+        <argsstring>(void)</argsstring>
+        <name>unlock</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_top_block.h" line="59" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_top_block.h" bodystart="59" bodyend="59"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="483">
+        <label>std::basic_string&lt; char &gt;</label>
+      </node>
+      <node id="481">
+        <label>gr_top_block</label>
+        <link refid="structgr__top__block"/>
+        <childnode refid="482" relation="usage">
+          <edgelabel>_name</edgelabel>
+        </childnode>
+      </node>
+      <node id="482">
+        <label>std::string</label>
+        <childnode refid="483" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_top_block.h" line="30" bodyfile="/home/aviral/GNU-Niyantran/gr36/gnuradio-core/src/lib/runtime/gr_top_block.h" bodystart="29" bodyend="61"/>
+    <listofallmembers>
+      <member refid="structgr__top__block_1aca6ef5ef2a2c3ecfc59d4c10f3aeed40" prot="public" virt="non-virtual"><scope>gr_top_block</scope><name>_name</name></member>
+      <member refid="structgr__top__block_1a47165db53feea4f919bf043698e7b603" prot="public" virt="non-virtual"><scope>gr_top_block</scope><name>_unique_id</name></member>
+      <member refid="structgr__top__block_1a7a651a8e21095c5012e54e0a8a5679ae" prot="public" virt="non-virtual"><scope>gr_top_block</scope><name>gr_top_block</name></member>
+      <member refid="structgr__top__block_1af671df672a4814a6d559e7b90c6a970e" prot="public" virt="non-virtual"><scope>gr_top_block</scope><name>gr_top_block</name></member>
+      <member refid="structgr__top__block_1ae4c2a9d11cf40faba43641116e51d84a" prot="public" virt="non-virtual"><scope>gr_top_block</scope><name>lock</name></member>
+      <member refid="structgr__top__block_1a44d21b8e6d3e0d6ed171de964036fbc8" prot="public" virt="non-virtual"><scope>gr_top_block</scope><name>max_noutput_items</name></member>
+      <member refid="structgr__top__block_1a45522626195ad3ef3d78d6a1d2468f37" prot="public" virt="non-virtual"><scope>gr_top_block</scope><name>name</name></member>
+      <member refid="structgr__top__block_1ac7579a877085d1df6786c69203163223" prot="public" virt="non-virtual"><scope>gr_top_block</scope><name>run</name></member>
+      <member refid="structgr__top__block_1a2285d25e33a30e4aaf14dbd9691e5951" prot="public" virt="non-virtual"><scope>gr_top_block</scope><name>run</name></member>
+      <member refid="structgr__top__block_1ab48e08edb9e6f2edad8023ed95ed2092" prot="public" virt="non-virtual"><scope>gr_top_block</scope><name>set_max_noutput_items</name></member>
+      <member refid="structgr__top__block_1ad18797ba365e1374fa8fdfe77f11cf95" prot="public" virt="non-virtual"><scope>gr_top_block</scope><name>start</name></member>
+      <member refid="structgr__top__block_1a0c7ffaaad326926382714164e2d8ca8c" prot="public" virt="virtual"><scope>gr_top_block</scope><name>start</name></member>
+      <member refid="structgr__top__block_1a04e94051f972702269d68c6a4e2d2a48" prot="public" virt="virtual"><scope>gr_top_block</scope><name>stop</name></member>
+      <member refid="structgr__top__block_1a985e88cef780aca4e4d486d0aa204200" prot="public" virt="non-virtual"><scope>gr_top_block</scope><name>unique_id</name></member>
+      <member refid="structgr__top__block_1a31aff0bbdf5c9cb2a88243864d42a226" prot="public" virt="non-virtual"><scope>gr_top_block</scope><name>unlock</name></member>
+      <member refid="structgr__top__block_1a6373176e7a09d119adb08629d70947c5" prot="public" virt="virtual"><scope>gr_top_block</scope><name>wait</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

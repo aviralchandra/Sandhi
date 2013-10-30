@@ -1,0 +1,486 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="namespacegr_1_1blocks" kind="namespace">
+    <compoundname>gr::blocks</compoundname>
+    <innerclass refid="classgr_1_1blocks_1_1add__ff" prot="public">gr::blocks::add_ff</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1char__to__float" prot="public">gr::blocks::char_to_float</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1char__to__short" prot="public">gr::blocks::char_to_short</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1complex__to__arg" prot="public">gr::blocks::complex_to_arg</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1complex__to__float" prot="public">gr::blocks::complex_to_float</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1complex__to__imag" prot="public">gr::blocks::complex_to_imag</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1complex__to__interleaved__short" prot="public">gr::blocks::complex_to_interleaved_short</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1complex__to__mag" prot="public">gr::blocks::complex_to_mag</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1complex__to__mag__squared" prot="public">gr::blocks::complex_to_mag_squared</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1complex__to__real" prot="public">gr::blocks::complex_to_real</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1conjugate__cc" prot="public">gr::blocks::conjugate_cc</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1deinterleave" prot="public">gr::blocks::deinterleave</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1delay" prot="public">gr::blocks::delay</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1file__meta__sink" prot="public">gr::blocks::file_meta_sink</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1file__meta__source" prot="public">gr::blocks::file_meta_source</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1file__source" prot="public">gr::blocks::file_source</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1float__to__char" prot="public">gr::blocks::float_to_char</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1float__to__complex" prot="public">gr::blocks::float_to_complex</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1float__to__int" prot="public">gr::blocks::float_to_int</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1float__to__short" prot="public">gr::blocks::float_to_short</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1float__to__uchar" prot="public">gr::blocks::float_to_uchar</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1int__to__float" prot="public">gr::blocks::int_to_float</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1interleave" prot="public">gr::blocks::interleave</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1interleaved__short__to__complex" prot="public">gr::blocks::interleaved_short_to_complex</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1keep__m__in__n" prot="public">gr::blocks::keep_m_in_n</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1keep__one__in__n" prot="public">gr::blocks::keep_one_in_n</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1multiply__cc" prot="public">gr::blocks::multiply_cc</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1multiply__conjugate__cc" prot="public">gr::blocks::multiply_conjugate_cc</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1multiply__const__cc" prot="public">gr::blocks::multiply_const_cc</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1multiply__const__ff" prot="public">gr::blocks::multiply_const_ff</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1multiply__ff" prot="public">gr::blocks::multiply_ff</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1nlog10__ff" prot="public">gr::blocks::nlog10_ff</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1patterned__interleaver" prot="public">gr::blocks::patterned_interleaver</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1peak__detector2__fb" prot="public">gr::blocks::peak_detector2_fb</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1regenerate__bb" prot="public">gr::blocks::regenerate_bb</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1repeat" prot="public">gr::blocks::repeat</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1rms__cf" prot="public">gr::blocks::rms_cf</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1rms__ff" prot="public">gr::blocks::rms_ff</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1short__to__char" prot="public">gr::blocks::short_to_char</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1short__to__float" prot="public">gr::blocks::short_to_float</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1stream__mux" prot="public">gr::blocks::stream_mux</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1stream__to__streams" prot="public">gr::blocks::stream_to_streams</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1stream__to__vector" prot="public">gr::blocks::stream_to_vector</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1streams__to__stream" prot="public">gr::blocks::streams_to_stream</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1streams__to__vector" prot="public">gr::blocks::streams_to_vector</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1stretch__ff" prot="public">gr::blocks::stretch_ff</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1threshold__ff" prot="public">gr::blocks::threshold_ff</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1throttle" prot="public">gr::blocks::throttle</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1transcendental" prot="public">gr::blocks::transcendental</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1uchar__to__float" prot="public">gr::blocks::uchar_to_float</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1vector__to__stream" prot="public">gr::blocks::vector_to_stream</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1vector__to__streams" prot="public">gr::blocks::vector_to_streams</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1add__ff__impl" prot="public">gr::blocks::add_ff_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1char__to__float__impl" prot="public">gr::blocks::char_to_float_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1char__to__short__impl" prot="public">gr::blocks::char_to_short_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1complex__to__arg__impl" prot="public">gr::blocks::complex_to_arg_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1complex__to__float__impl" prot="public">gr::blocks::complex_to_float_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1complex__to__imag__impl" prot="public">gr::blocks::complex_to_imag_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1complex__to__interleaved__short__impl" prot="public">gr::blocks::complex_to_interleaved_short_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1complex__to__mag__impl" prot="public">gr::blocks::complex_to_mag_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1complex__to__mag__squared__impl" prot="public">gr::blocks::complex_to_mag_squared_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1complex__to__real__impl" prot="public">gr::blocks::complex_to_real_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1conjugate__cc__impl" prot="public">gr::blocks::conjugate_cc_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1deinterleave__impl" prot="public">gr::blocks::deinterleave_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1delay__impl" prot="public">gr::blocks::delay_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1file__meta__sink__impl" prot="public">gr::blocks::file_meta_sink_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1file__meta__source__impl" prot="public">gr::blocks::file_meta_source_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1file__source__impl" prot="public">gr::blocks::file_source_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1float__to__char__impl" prot="public">gr::blocks::float_to_char_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1float__to__complex__impl" prot="public">gr::blocks::float_to_complex_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1float__to__int__impl" prot="public">gr::blocks::float_to_int_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1float__to__short__impl" prot="public">gr::blocks::float_to_short_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1float__to__uchar__impl" prot="public">gr::blocks::float_to_uchar_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1int__to__float__impl" prot="public">gr::blocks::int_to_float_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1interleave__impl" prot="public">gr::blocks::interleave_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1interleaved__short__to__complex__impl" prot="public">gr::blocks::interleaved_short_to_complex_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1keep__m__in__n__impl" prot="public">gr::blocks::keep_m_in_n_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1keep__one__in__n__impl" prot="public">gr::blocks::keep_one_in_n_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1multiply__cc__impl" prot="public">gr::blocks::multiply_cc_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1multiply__conjugate__cc__impl" prot="public">gr::blocks::multiply_conjugate_cc_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1multiply__const__cc__impl" prot="public">gr::blocks::multiply_const_cc_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1multiply__const__ff__impl" prot="public">gr::blocks::multiply_const_ff_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1multiply__ff__impl" prot="public">gr::blocks::multiply_ff_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1nlog10__ff__impl" prot="public">gr::blocks::nlog10_ff_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1patterned__interleaver__impl" prot="public">gr::blocks::patterned_interleaver_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1peak__detector2__fb__impl" prot="public">gr::blocks::peak_detector2_fb_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1regenerate__bb__impl" prot="public">gr::blocks::regenerate_bb_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1repeat__impl" prot="public">gr::blocks::repeat_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1rms__cf__impl" prot="public">gr::blocks::rms_cf_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1rms__ff__impl" prot="public">gr::blocks::rms_ff_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1short__to__char__impl" prot="public">gr::blocks::short_to_char_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1short__to__float__impl" prot="public">gr::blocks::short_to_float_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1stream__mux__impl" prot="public">gr::blocks::stream_mux_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1stream__to__streams__impl" prot="public">gr::blocks::stream_to_streams_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1stream__to__vector__impl" prot="public">gr::blocks::stream_to_vector_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1streams__to__stream__impl" prot="public">gr::blocks::streams_to_stream_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1streams__to__vector__impl" prot="public">gr::blocks::streams_to_vector_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1stretch__ff__impl" prot="public">gr::blocks::stretch_ff_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1threshold__ff__impl" prot="public">gr::blocks::threshold_ff_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1throttle__impl" prot="public">gr::blocks::throttle_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1transcendental__impl" prot="public">gr::blocks::transcendental_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1uchar__to__float__impl" prot="public">gr::blocks::uchar_to_float_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1vector__to__stream__impl" prot="public">gr::blocks::vector_to_stream_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1vector__to__streams__impl" prot="public">gr::blocks::vector_to_streams_impl</innerclass>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="namespacegr_1_1blocks_1aaf04a89b376fbc06cb75effeb40111b6" prot="public" static="no">
+        <name>gr_file_types</name>
+        <enumvalue id="namespacegr_1_1blocks_1aaf04a89b376fbc06cb75effeb40111b6a0ccdd1487ca349aea3efde7daecaef65" prot="public">
+          <name>GR_FILE_BYTE</name>
+          <initializer>0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacegr_1_1blocks_1aaf04a89b376fbc06cb75effeb40111b6a9398c5264fb25d5aa2a9d08f1e68ad79" prot="public">
+          <name>GR_FILE_CHAR</name>
+          <initializer>0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacegr_1_1blocks_1aaf04a89b376fbc06cb75effeb40111b6af08508c6dd7fc2dfb9529a9d82d6164f" prot="public">
+          <name>GR_FILE_SHORT</name>
+          <initializer>1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacegr_1_1blocks_1aaf04a89b376fbc06cb75effeb40111b6ad98b7975f581d3864006ca663aee722d" prot="public">
+          <name>GR_FILE_INT</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacegr_1_1blocks_1aaf04a89b376fbc06cb75effeb40111b6a07ad82268bf96f539676f8545be40ec8" prot="public">
+          <name>GR_FILE_LONG</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacegr_1_1blocks_1aaf04a89b376fbc06cb75effeb40111b6aeba7eac37ba5a0ab76cf12efae97e39a" prot="public">
+          <name>GR_FILE_LONG_LONG</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacegr_1_1blocks_1aaf04a89b376fbc06cb75effeb40111b6acc39a9c09fab2b114ddb5ac6ec3a63f9" prot="public">
+          <name>GR_FILE_FLOAT</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacegr_1_1blocks_1aaf04a89b376fbc06cb75effeb40111b6a59bbff58dc3f23afa79642d7c9e09a14" prot="public">
+          <name>GR_FILE_DOUBLE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/include/blocks/file_meta_sink.h" line="35" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-blocks/include/blocks/file_meta_sink.h" bodystart="35" bodyend="44"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="namespacegr_1_1blocks_1a096aaf389afd1ea7113482057075814e" prot="public" static="no">
+        <type>int(*</type>
+        <definition>typedef int(* gr::blocks::work_fcn_type)(int, gr_vector_const_void_star &amp;, gr_vector_void_star &amp;)</definition>
+        <argsstring>)(int, gr_vector_const_void_star &amp;, gr_vector_void_star &amp;)</argsstring>
+        <name>work_fcn_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/transcendental_impl.h" line="31" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-blocks/lib/transcendental_impl.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="namespacegr_1_1blocks_1aa3ab382f8014358ed9a5f35d8f79f885" prot="public" static="no" mutable="no">
+        <type>const char</type>
+        <definition>const char gr::blocks::METADATA_VERSION</definition>
+        <argsstring></argsstring>
+        <name>METADATA_VERSION</name>
+        <initializer> 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/include/blocks/file_meta_sink.h" line="32" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-blocks/include/blocks/file_meta_sink.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacegr_1_1blocks_1a9b8c10e9339bb3094d0b5fd2cf2d3f53" prot="public" static="no" mutable="no">
+        <type>const size_t</type>
+        <definition>const size_t gr::blocks::METADATA_HEADER_SIZE</definition>
+        <argsstring></argsstring>
+        <name>METADATA_HEADER_SIZE</name>
+        <initializer> 149</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/include/blocks/file_meta_sink.h" line="33" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-blocks/include/blocks/file_meta_sink.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="namespacegr_1_1blocks_1aa2c8be0465f48ed11997af6b6764ebcc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="gr-blocks_2include_2blocks_2api_8h_1a0bb81384d93233b7a728722dbf3d8e0a" kindref="member">BLOCKS_API</ref> unsigned int</type>
+        <definition>BLOCKS_API unsigned int gr::blocks::count_bits8</definition>
+        <argsstring>(unsigned int x)</argsstring>
+        <name>count_bits8</name>
+        <param>
+          <type>unsigned int</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+<para>return number of set bits in the low 8 bits of x </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/include/blocks/count_bits.h" line="32"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacegr_1_1blocks_1a46a6bc555ad50d9ee0c677f511adbb1f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="gr-blocks_2include_2blocks_2api_8h_1a0bb81384d93233b7a728722dbf3d8e0a" kindref="member">BLOCKS_API</ref> unsigned int</type>
+        <definition>BLOCKS_API unsigned int gr::blocks::count_bits16</definition>
+        <argsstring>(unsigned int x)</argsstring>
+        <name>count_bits16</name>
+        <param>
+          <type>unsigned int</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+<para>return number of set bits in the low 16 bits of x </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/include/blocks/count_bits.h" line="35"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacegr_1_1blocks_1a7ebfd2060ea6defdbcbf0e9f0f1fe633" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="gr-blocks_2include_2blocks_2api_8h_1a0bb81384d93233b7a728722dbf3d8e0a" kindref="member">BLOCKS_API</ref> unsigned int</type>
+        <definition>BLOCKS_API unsigned int gr::blocks::count_bits32</definition>
+        <argsstring>(unsigned int x)</argsstring>
+        <name>count_bits32</name>
+        <param>
+          <type>unsigned int</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+<para>return number of set bits in the low 32 bits of x </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/include/blocks/count_bits.h" line="38"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacegr_1_1blocks_1ad70309aa4694dba4cb5c7e34205e6874" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="gr-blocks_2include_2blocks_2api_8h_1a0bb81384d93233b7a728722dbf3d8e0a" kindref="member">BLOCKS_API</ref> unsigned int</type>
+        <definition>BLOCKS_API unsigned int gr::blocks::count_bits64</definition>
+        <argsstring>(unsigned long long int x)</argsstring>
+        <name>count_bits64</name>
+        <param>
+          <type>unsigned long long int</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+<para>return number of set bits in a 64-bit word </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/include/blocks/count_bits.h" line="41"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacegr_1_1blocks_1a90aa335e274388491185cc6b46b3acc5" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>unsigned int</type>
+            <declname>k</declname>
+            <defname>k</defname>
+          </param>
+        </templateparamlist>
+        <type>int</type>
+        <definition>static int gr::blocks::log2_const</definition>
+        <argsstring>()</argsstring>
+        <name>log2_const</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/include/blocks/log2_const.h" line="36" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-blocks/include/blocks/log2_const.h" bodystart="36" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacegr_1_1blocks_1a04c0e638ce6be852bf42888659d8c9ac" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+        </templateparamlist>
+        <type>int</type>
+        <definition>int gr::blocks::log2_const&lt; 1 &gt;</definition>
+        <argsstring>()</argsstring>
+        <name>log2_const&lt; 1 &gt;</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/include/blocks/log2_const.h" line="38" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-blocks/include/blocks/log2_const.h" bodystart="38" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacegr_1_1blocks_1a558beaea88e774392c14a8524db2a0c6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+        </templateparamlist>
+        <type>int</type>
+        <definition>int gr::blocks::log2_const&lt; 2 &gt;</definition>
+        <argsstring>()</argsstring>
+        <name>log2_const&lt; 2 &gt;</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/include/blocks/log2_const.h" line="39" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-blocks/include/blocks/log2_const.h" bodystart="39" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacegr_1_1blocks_1a32c66271e5487b2c1e69305b1dd3c887" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+        </templateparamlist>
+        <type>int</type>
+        <definition>int gr::blocks::log2_const&lt; 4 &gt;</definition>
+        <argsstring>()</argsstring>
+        <name>log2_const&lt; 4 &gt;</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/include/blocks/log2_const.h" line="40" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-blocks/include/blocks/log2_const.h" bodystart="40" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacegr_1_1blocks_1a182925153705fc660089f9e5198a8a6f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+        </templateparamlist>
+        <type>int</type>
+        <definition>int gr::blocks::log2_const&lt; 8 &gt;</definition>
+        <argsstring>()</argsstring>
+        <name>log2_const&lt; 8 &gt;</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/include/blocks/log2_const.h" line="41" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-blocks/include/blocks/log2_const.h" bodystart="41" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacegr_1_1blocks_1af7d2d21e59f815585ba7bde308376cbe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+        </templateparamlist>
+        <type>int</type>
+        <definition>int gr::blocks::log2_const&lt; 16 &gt;</definition>
+        <argsstring>()</argsstring>
+        <name>log2_const&lt; 16 &gt;</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/include/blocks/log2_const.h" line="42" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-blocks/include/blocks/log2_const.h" bodystart="42" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacegr_1_1blocks_1a79e4861cb8eea7503af4951449b754bc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+        </templateparamlist>
+        <type>int</type>
+        <definition>int gr::blocks::log2_const&lt; 32 &gt;</definition>
+        <argsstring>()</argsstring>
+        <name>log2_const&lt; 32 &gt;</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/include/blocks/log2_const.h" line="43" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-blocks/include/blocks/log2_const.h" bodystart="43" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacegr_1_1blocks_1a4989a7e1b817a99cf3305751eba5b07c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+        </templateparamlist>
+        <type>int</type>
+        <definition>int gr::blocks::log2_const&lt; 64 &gt;</definition>
+        <argsstring>()</argsstring>
+        <name>log2_const&lt; 64 &gt;</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/include/blocks/log2_const.h" line="44" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-blocks/include/blocks/log2_const.h" bodystart="44" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacegr_1_1blocks_1abd7e00f4006ec1de4d53e64ef2e33782" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+        </templateparamlist>
+        <type>int</type>
+        <definition>int gr::blocks::log2_const&lt; 128 &gt;</definition>
+        <argsstring>()</argsstring>
+        <name>log2_const&lt; 128 &gt;</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/include/blocks/log2_const.h" line="45" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-blocks/include/blocks/log2_const.h" bodystart="45" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacegr_1_1blocks_1a9c7dc1f89dc2dc56f3d1709725bbcbd7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+        </templateparamlist>
+        <type>int</type>
+        <definition>int gr::blocks::log2_const&lt; 256 &gt;</definition>
+        <argsstring>()</argsstring>
+        <name>log2_const&lt; 256 &gt;</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/include/blocks/log2_const.h" line="46" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-blocks/include/blocks/log2_const.h" bodystart="46" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacegr_1_1blocks_1a4677a63c0def50312710a0d65c497ae9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+        </templateparamlist>
+        <type>int</type>
+        <definition>int gr::blocks::log2_const&lt; 512 &gt;</definition>
+        <argsstring>()</argsstring>
+        <name>log2_const&lt; 512 &gt;</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/include/blocks/log2_const.h" line="47" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-blocks/include/blocks/log2_const.h" bodystart="47" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacegr_1_1blocks_1a1eef8a90bf7b0c12e714d27f5086b45e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+        </templateparamlist>
+        <type>int</type>
+        <definition>int gr::blocks::log2_const&lt; 1024 &gt;</definition>
+        <argsstring>()</argsstring>
+        <name>log2_const&lt; 1024 &gt;</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/include/blocks/log2_const.h" line="48" bodyfile="/home/aviral/GNU-Niyantran/gr36/gr-blocks/include/blocks/log2_const.h" bodystart="48" bodyend="48"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/aviral/GNU-Niyantran/gr36/gr-blocks/include/blocks/add_ff.h" line="30"/>
+  </compounddef>
+</doxygen>
